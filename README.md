@@ -14,7 +14,7 @@ produção ou chave de IA. Tema e favoritos ficam apenas no navegador.
 
 ## Conteúdo
 
-O snapshot textual contém 661 artigos e 1.104 fontes (artigos, redirecionamentos,
+O snapshot textual contém 661 artigos e 1.105 fontes (incluindo um mapa suplementar, artigos, redirecionamentos,
 categorias, templates e módulos). Isso não significa 1.104 personagens. A
 coleta original não abrange discussões, páginas pessoais ou todas as revisões
 históricas. As apresentações dos artigos são importadas gradualmente e fixadas

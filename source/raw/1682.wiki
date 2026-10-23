@@ -1,0 +1,496 @@
+{
+    "mapImage": "Screen Shot 2022-11-13 at 12.46.11 PM.png",
+    "pageCategories": [],
+    "defaultSort": "",
+    "description": "This is the Anime Adventures main map with NPC's pointed out with their functions included.",
+    "coordinateOrder": "xy",
+    "mapBounds": [
+        [
+            0,
+            0
+        ],
+        [
+            1185,
+            649
+        ]
+    ],
+    "origin": "bottom-left",
+    "useMarkerClustering": false,
+    "categories": [
+        {
+            "id": "1",
+            "listId": 1,
+            "name": "General",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": ""
+        },
+        {
+            "id": "2",
+            "listId": 2,
+            "name": "landmark with function",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": ""
+        },
+        {
+            "id": "3",
+            "listId": 3,
+            "name": "special npc",
+            "color": "#fa005a",
+            "symbol": "",
+            "symbolColor": ""
+        }
+    ],
+    "markers": [
+        {
+            "categoryId": "2",
+            "position": [
+                610.3548231441243,
+                487.4039851286061
+            ],
+            "popup": {
+                "title": "Summons",
+                "description": "Place where you can buy new units.",
+                "link": {
+                    "url": "Summon",
+                    "label": "Summons"
+                }
+            },
+            "id": "1"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                545.1792043260767,
+                449.0141047677178
+            ],
+            "popup": {
+                "title": "Travelling Merchant Shop",
+                "description": "Place where you can buy star fruits and other items with gems from Bulmy. (Shop last for an hour and re-appear every half hour)",
+                "link": {
+                    "url": "Travelling Merchant Shop",
+                    "label": "Travelling Merchant Shop"
+                }
+            },
+            "id": "2"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                685.0001753182871,
+                449.0012244395443
+            ],
+            "popup": {
+                "title": "Limited New World Shop",
+                "description": "Place where you can buy special stuff with evo items gained from newest world (Legend Stage\/Portal from infinite mode)",
+                "link": {
+                    "url": "Evolution",
+                    "label": "Full list of evo items"
+                }
+            },
+            "id": "3"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                777,
+                394.00061221977217
+            ],
+            "popup": {
+                "title": "Leaderboard Unit supplier",
+                "description": "talk to all-might to claim your leaderboard unit (if applicable)",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "4"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                652.9998246817129,
+                337.500306109886
+            ],
+            "popup": {
+                "title": "Gilgamesh",
+                "description": "Craft Relics using materials from Legend Stages, Raids and coins",
+                "link": {
+                    "url": "Relics",
+                    "label": "Relics"
+                }
+            },
+            "id": "5"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                684.7581031253792,
+                315.93998918534885
+            ],
+            "popup": {
+                "title": "Hubris Shop",
+                "description": "Purchase XP foods and Stars with gold. Can also purchase unit\/skin store with gold. (Also place for selling robux stuffs)",
+                "link": {
+                    "url": "Store",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Store"
+                }
+            },
+            "id": "6"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                454.19746990267885,
+                448.4527879487827
+            ],
+            "popup": {
+                "title": "Raid Item Shop",
+                "description": "Place where you purchase the raid's special items from this shop that required for evolving units",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "8"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                395.97979746447,
+                298.39906166072
+            ],
+            "popup": {
+                "title": "Story\/infinite\/legend stage mode teleporter",
+                "description": "Place where teleports you to a story mode battle with a max team of 4 players (Only Infinite mode and legend stage has matchmaking)",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "10"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                252.08325757113195,
+                249.96419522082655
+            ],
+            "popup": {
+                "title": "Event Teleporter",
+                "description": "Teleport you to the main dungeon of the event where the max players are 6 (Has Matchmaking)",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "11"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                498.51065264276957,
+                428.15250665132123
+            ],
+            "popup": {
+                "title": "Raid teleporter",
+                "description": "Place where teleports you to a raid with the max players being 4 (Has Matchmaking)",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "13"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                509.61679479516636,
+                221.53183540246607
+            ],
+            "popup": {
+                "title": "Event NPC (Nami)",
+                "description": "NPC which you can access to purchase evo items and capsule stars using special event currencies",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "15"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                736.80526599638,
+                283.54938635105407
+            ],
+            "popup": {
+                "title": "Trait Roller",
+                "description": "Rolls or rerolls your unit traits with robux or star remnants.",
+                "link": {
+                    "url": "Traits",
+                    "label": "Traits"
+                }
+            },
+            "id": "16"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                788.2168665826664,
+                220.6173157302
+            ],
+            "popup": {
+                "title": "Evo Item Crafter",
+                "description": "Place to craft evo materials using star fruits and other resources (Cost coins to craft)",
+                "link": {
+                    "url": "Evolution",
+                    "label": "List of all evo items"
+                }
+            },
+            "id": "17"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                709.93520831129,
+                224.85995641732
+            ],
+            "popup": {
+                "title": "Infinity Castle Teleport",
+                "description": "Teleports you to infinity castle (teleports within the same server, has separate map).",
+                "link": {
+                    "url": "Infinity Castle",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Infinity_Mansion"
+                }
+            },
+            "id": "18"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                711.34942187367,
+                161.22034611053
+            ],
+            "popup": {
+                "title": "Six Eyes Crafter",
+                "description": "Teleports you to the six eyes crafter (Must have Paradox, separate map)",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "19"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                472.34732983261,
+                277.18585822513
+            ],
+            "popup": {
+                "title": "Time Machine",
+                "description": "Place where you can AFK for gems (Currently not working)",
+                "link": {
+                    "url": "Time Machine",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Time_Machine"
+                }
+            },
+            "id": "20"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                692.9395257813447,
+                176
+            ],
+            "popup": {
+                "title": "Shiny Remover",
+                "description": "Removes Shiny status from Shiny Units. Removing Shiny from legendaries, mythics and secret units gives Star Remnants",
+                "link": {
+                    "url": "Shiny Remover",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Traits"
+                }
+            },
+            "id": "21"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                889,
+                242
+            ],
+            "popup": {
+                "title": "Evolution Chamber",
+                "description": "Evolve units here.",
+                "link": {
+                    "url": "Evolution",
+                    "label": "Full list of evo items"
+                }
+            },
+            "id": "22"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                536.999824681713,
+                317
+            ],
+            "popup": {
+                "title": "Codes",
+                "description": "Place where you Input special codes for certain rewards",
+                "link": {
+                    "url": "Code",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Codes"
+                }
+            },
+            "id": "23"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                436.32754189022137,
+                138.6926057572824
+            ],
+            "popup": {
+                "title": "Challenges teleporter",
+                "description": "Place where you will be teleport to a story match with a modifier. Reward contains Star fruits, Gems and has a chance for a star remnant to appear.",
+                "link": {
+                    "url": "Challenge",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Challenges"
+                }
+            },
+            "id": "24"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                710.7217143348548,
+                276.36003251247473
+            ],
+            "popup": {
+                "title": "Event NPC",
+                "description": "Place where you can access event NPC that only appear in a limited time",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "25"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                423.08559721495294,
+                59.703563074236286
+            ],
+            "popup": {
+                "title": "Daily Challenge Teleporter",
+                "description": "Place where teleport you to a specific challenge that rotate everyday with buffed enemies and has a cap of 6 players at max (Has Matchmaking)",
+                "link": {
+                    "url": "Challenge",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Challenges"
+                }
+            },
+            "id": "26"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                735.9783171542741,
+                215.921331798373
+            ],
+            "popup": {
+                "title": "Limit Break",
+                "description": "Place where you can extend your max level unit with new extra levels and additional buff.",
+                "link": {
+                    "url": "Limit Break",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Powerups"
+                }
+            },
+            "id": "27"
+        },
+        {
+            "categoryId": "2",
+            "position": [
+                265.4657006873657,
+                193.28167079852116
+            ],
+            "popup": {
+                "title": "Dungeon (Curse Womb) Teleporter",
+                "description": "Place where you will be teleported to Haunted Academy with Curse Womb modifier, used for get Curse Token (Required 1  key Curse Womb each run)",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "28"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                538.1153030742054,
+                175.64509608599695
+            ],
+            "popup": {
+                "title": "Mission (Zen)",
+                "description": "NPC which you can talk to accept quest that required 3000 kills, reward you with gems and evo items and last for 24h",
+                "link": {
+                    "url": "",
+                    "label": ""
+                }
+            },
+            "id": "29"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                511.1142159865676,
+                274.2301946343243
+            ],
+            "popup": {
+                "title": "Tournament",
+                "description": "Place where you can participate tournament run, rise on leaderboards for gems, star remnant or a chance to get exclusive unit every week.",
+                "link": {
+                    "url": "Tournament",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Tournament"
+                }
+            },
+            "id": "30"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                412.1489290074321,
+                258.2608056229313
+            ],
+            "popup": {
+                "title": "Trait\/Stats Transferer",
+                "description": "NPC which you can talk to either transfer trait to same unit or transfer stats between same rarity units",
+                "link": {
+                    "url": "Trait\/Stats Transferer",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Powerups"
+                }
+            },
+            "id": "31"
+        },
+        {
+            "categoryId": "3",
+            "position": [
+                749.5508841940884,
+                396.0814252296945
+            ],
+            "popup": {
+                "title": "Level Milestone (Prayer Master)",
+                "description": "NPC which you interact to receive rewards from reaching certain levels.",
+                "link": {
+                    "url": "Level Milestone",
+                    "label": "https:\/\/animeadventures.fandom.com\/wiki\/Level_Milestones"
+                }
+            },
+            "id": "32"
+        }
+    ],
+    "markerProgress": true
+}

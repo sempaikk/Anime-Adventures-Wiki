@@ -82,14 +82,22 @@ def main():
             target = public_art / Path(item['path']).name
             shutil.copyfile(BOT / item['path'], target)
             icons[name] = {'url': '/art/' + target.name, 'source': item.get('source_page'), 'filename': item.get('source_file')}
+    supplement = CORPUS.parent / 'additional_maps'
+    map_record = json.loads((supplement / '1682.json').read_text())
+    map_raw = (supplement / '1682.source.json').read_bytes()
+    assert hashlib.sha256(map_raw).hexdigest() == map_record['content_sha256']
+    (raw_dir / '1682.wiki').write_bytes(map_raw)
+    all_sources.append({**map_record, 'slug': slug(map_record['title'], 1682), 'sha256': map_record['content_sha256']})
+    game_map = {'source': map_record, 'data': json.loads(map_raw), 'image': '/art/lobby-map.png'}
     taxonomy = json.loads((CORPUS / 'category_memberships.json').read_text())['categories']
-    result = {'articles': articles, 'sources': all_sources, 'units': units, 'icons': icons,
+    result = {'articles': articles, 'sources': all_sources, 'units': units, 'icons': icons, 'map': game_map,
               'categories': taxonomy, 'aliases': {p['title']: p['redirect_target'] for p in pages if p.get('redirect_target')},
               'license': {'text': 'CC-BY-SA', 'url': 'https://www.fandom.com/licensing', 'source': 'Anime Adventures Wiki'},
               'counts': {'articles': len(articles), 'sources': len(all_sources), 'units': len(units),
                          'portraits': sum(bool(u['image']) for u in units), 'rendered': sum(p['rendered'] for p in articles)}}
     (ROOT / 'source/wiki.json').write_text(json.dumps(result, ensure_ascii=False))
     search = [{'title': p['title'], 'url': '/artigo/' + p['slug'] + '/', 'excerpt': p['excerpt'], 'kind': p['kind']} for p in articles]
+    search.append({'title': 'Anime Adventures Map', 'url': '/mapa/', 'excerpt': game_map['data']['description'], 'kind': 'guide'})
     (ROOT / 'public/data/search.json').write_text(json.dumps(search, ensure_ascii=False))
     (ROOT / 'public/data/coverage.json').write_text(json.dumps(result['counts']))
     print(json.dumps(result['counts']))
