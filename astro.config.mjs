@@ -4,7 +4,7 @@ import path from 'node:path';
 const base=process.env.SITE_BASE || '/';
 const prefix=base.replace(/\/$/,'');
 export default defineConfig({
-  site:'https://sempaikk.github.io',
+  site:'https://www.adventureswiki.workers.dev',
   base,
   output: 'static',
   trailingSlash: 'always',

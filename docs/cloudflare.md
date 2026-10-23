@@ -1,12 +1,12 @@
 # Publicação na Cloudflare
 
-Produção: https://anime-adventures-wiki.estrmozica.workers.dev
+Produção: https://www.adventureswiki.workers.dev
 
 O repositório `sempaikk/Anime-Adventures-Wiki` é privado. O site permanece público na Cloudflare. A hospedagem e os dados do bot continuam separados.
 
 ## Integração com GitHub
 
-A aplicação `anime-adventures-wiki` está conectada ao repositório. Configuração:
+O Worker `www` deve continuar conectado ao repositório. Ao renomear a aplicação pelo painel, preserve a conexão Git existente e mantenha o nome igual ao campo `name` em `wrangler.jsonc`. Alterar somente o arquivo de configuração pode criar um Worker diferente ou impedir o build, por isso o nome do projeto no painel precisa corresponder antes da publicação. Configuração:
 
 - Build: `npm run build`
 - Deploy: `npx wrangler deploy`
@@ -44,7 +44,7 @@ Formato da configuração (o identificador real já está no arquivo):
 
 Na aplicação Discord `1561527465657114644`, em OAuth2, autorize exatamente este redirect:
 
-`https://anime-adventures-wiki.estrmozica.workers.dev/api/auth/callback`
+`https://www.adventureswiki.workers.dev/api/auth/callback`
 
 Em Settings → Variables and Secrets do Worker, crie os segredos:
 

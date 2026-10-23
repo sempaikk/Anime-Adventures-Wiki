@@ -2,7 +2,7 @@
 
 Wiki independente de Anime Adventures, com interface em português, artigos no idioma original, temas claro e escuro e artes do próprio jogo.
 
-Site público: https://anime-adventures-wiki.estrmozica.workers.dev
+Site público: https://www.adventureswiki.workers.dev
 
 ## Desenvolvimento e verificação
 
