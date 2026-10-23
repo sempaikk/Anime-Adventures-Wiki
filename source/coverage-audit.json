@@ -1,0 +1,18 @@
+{
+  "main_pages_checked": 731,
+  "article_presentations": 661,
+  "new_source_without_usable_content": [
+    {
+      "title": "Albedo (Overseer)",
+      "pageid": 7649,
+      "namespace": 0,
+      "source_url": "https://animeadventures.fandom.com/wiki/Albedo_(Overseer)",
+      "revision_id": 47333,
+      "revision_timestamp": "2026-10-21T01:32:24Z",
+      "sha256": "908d6e0e74341f4f9d7c7b2597a8b568521fff441348fa7a8892360555a75b7d",
+      "excluded": "No usable encyclopedic content in this revision."
+    }
+  ],
+  "missing_page_ids": [],
+  "scope": "Public game articles and redirects; excludes user pages and discussions."
+}

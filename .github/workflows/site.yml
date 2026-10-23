@@ -23,4 +23,5 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+      - run: node scripts/audit_site.mjs
       - run: npx wrangler deploy --dry-run

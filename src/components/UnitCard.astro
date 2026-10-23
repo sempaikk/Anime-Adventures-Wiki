@@ -3,6 +3,6 @@ import { unitUrl, art } from '../lib/wiki';
 const { unit, index = 0 } = Astro.props;
 ---
 <a class="unit-card" href={unitUrl(unit)} style={`--i:${index}`} data-unit-card data-name={(unit.name+' '+unit.aliases.join(' ')).toLowerCase()} data-rarity={unit.rarity} data-evolved={String(unit.name.includes('('))} data-retired={String(unit.retired)}>
-  <div class="unit-art"><span class="unit-code">{unit.retired?'ARQUIVO':'PERSONAGEM'} / {String(index+1).padStart(3,'0')}</span>{unit.image ? <img src={unit.image} alt={unit.name} loading="lazy" decoding="async" width={unit.original_image?.width || 144} height={unit.original_image?.height || 144}/> : <div class="missing-portrait"><img src={art('ui-units')} alt=""/><span>Sem retrato<br/>disponível na fonte</span></div>}<span class="unit-arrow" aria-hidden="true">↗︎</span></div>
+  <div class="unit-art"><span class="unit-code">{unit.retired?'ARQUIVO':'PERSONAGEM'} / {String(index+1).padStart(3,'0')}</span>{unit.image ? <img src={unit.image} alt={unit.name} loading="lazy" decoding="async" width={unit.original_image?.width || 144} height={unit.original_image?.height || 144}/> : <div class="missing-portrait"><span>Sem retrato<br/>disponível na fonte</span></div>}<span class="unit-arrow" aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></div>
   <div class="unit-caption"><span class="eyebrow">{unit.retired ? 'ARQUIVO HISTÓRICO' : unit.rarity || 'PERSONAGEM'}</span><h3>{unit.name}</h3></div>
 </a>

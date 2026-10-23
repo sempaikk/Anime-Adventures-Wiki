@@ -4,7 +4,7 @@ import UnitCard from '../../components/UnitCard.astro';
 import { units } from '../../lib/wiki';
 const sorted=[...units].sort((a,b)=>a.name.localeCompare(b.name));
 ---
-<Layout title="Personagens — Adventures Archive" active="personagens">
+<Layout title="Personagens — Adventures Wiki" active="personagens">
 <div class="page-heading"><span class="eyebrow">EXPLORE / PERSONAGENS</span><span class="edition">CATÁLOGO DE UNIDADES</span></div>
 <div class="catalog-heading"><div><h1>Seu próximo<br/><span>personagem.</span></h1><p>Cada unidade, cada forma, um novo jeito de jogar.</p></div><span class="catalog-count">{units.length}<small>FORMAS NO CATÁLOGO</small></span></div>
 <section class="filter-panel" aria-label="Filtrar personagens"><div class="catalog-search"><label class="sr-only" for="unit-search">Nome do personagem</label><input id="unit-search" type="search" placeholder="Encontre um personagem…" autocomplete="off"/><span aria-hidden="true">⌕</span></div><label>Raridade<select id="rarity-filter"><option value="">Todas as raridades</option>{['Rare','Epic','Legendary','Mythic','Secret','Exclusive'].map(r=><option value={r}>{r}</option>)}</select></label><label>Forma<select id="form-filter"><option value="">Todas as formas</option><option value="base">Forma base</option><option value="variant">Evoluções e variantes</option></select></label><label class="archive-filter"><input id="retired-filter" type="checkbox"/>Incluir arquivo histórico</label></section>

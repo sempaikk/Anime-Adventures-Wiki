@@ -1,38 +1,39 @@
-# Adventures Archive
+# Adventures Wiki
 
-Wiki independente de Anime Adventures. Interface em português, artigos no
-idioma original, estrutura monocromática com temas claro/escuro e artes do jogo.
+Wiki independente de Anime Adventures, com interface em português, artigos no idioma original, temas claro e escuro e artes do próprio jogo.
 
-```bash
+Site público: https://anime-adventures-wiki.estrmozica.workers.dev
+
+## Desenvolvimento e verificação
+
+Use Node 24:
+
+```sh
 npm ci
-ASTRO_TELEMETRY_DISABLED=1 npm run dev
+npm test
 ASTRO_TELEMETRY_DISABLED=1 npm run build
+node scripts/audit_site.mjs
+npx wrangler deploy --dry-run
 ```
 
-Node 24. O resultado em `dist` é estático: não usa token do bot, banco de
-produção ou chave de IA. Tema e favoritos ficam apenas no navegador.
+Para desenvolver a interface: `npm run dev`. Para conferir o site construído junto da API local: `npx wrangler dev --local` após o build.
 
-## Conteúdo
+O GitHub Actions verifica o código e a integridade do conteúdo. A integração Git da Cloudflare publica a branch `main`. O repositório pode permanecer privado; o endereço público da wiki continua acessível. O bot usa outra hospedagem e seus tokens e bancos não fazem parte deste projeto.
 
-O snapshot textual contém 661 artigos e 1.105 fontes (incluindo um mapa suplementar, artigos, redirecionamentos,
-categorias, templates e módulos). Isso não significa 1.104 personagens. A
-coleta original não abrange discussões, páginas pessoais ou todas as revisões
-históricas. As apresentações dos artigos são importadas gradualmente e fixadas
-na revisão do texto. Artigos pendentes oferecem o código original; a importação
-parcial não é apresentada como concluída. Fontes vazias e dados ausentes não são
-preenchidos por suposição.
+## Conteúdo e imagens
 
-`scripts/fetch_rendered.py` retoma a importação, cacheia respostas e limita as
-consultas públicas a uma a cada quatro segundos. `scripts/import_snapshot.py`
-reconstrói metadados e copia artes a partir da coleta de pesquisa e do checkout
-do bot, nos caminhos documentados pelo próprio script. O build publicado usa
-apenas os arquivos já presentes no projeto e não consulta a Fandom.
+A coleção apresenta 661 artigos, com revisões textuais e apresentações preservadas, e um arquivo de 1.106 fontes, incluindo redirecionamentos, categorias, templates e módulos. A conferência de páginas públicas está registrada em `source/coverage-audit.json`. Páginas técnicas sem conteúdo de jogo e uma nova página sem informação enciclopédica utilizável ficam identificadas no arquivo, sem inventar informações para completar lacunas.
 
-Veja [NOTICE.md](NOTICE.md) para atribuição e licença dos textos e das imagens.
+O catálogo distingue as formas, os nomes históricos documentados e as páginas atuais. Não atribui a foto de outra evolução para preencher uma ausência. Retratos faltantes são informados ao visitante. A biblioteca separa personagens, itens, modos, mecânicas, guias e tier lists e permite incluir as formas retiradas.
 
-## Prévia
+As mídias usadas nos artigos são hospedadas localmente. `source/media-library.json` registra a origem, dimensões e hashes. Animações extensas têm uma prévia estática sem perdas; o visitante pode carregar a animação original sob demanda. Não são utilizadas imagens geradas por IA nem ampliação artificial.
 
-O workflow publica em GitHub Pages. `SITE_BASE=/Anime-Adventures-Wiki/` adapta
-os links e arquivos ao endereço do projeto. Atualizações podem ser vistas ao
-recarregar a página depois da publicação. Esta é uma prévia em desenvolvimento,
-com conteúdo e apresentação ainda sendo conferidos.
+O build utiliza os arquivos presentes no repositório e não consulta a Fandom. `scripts/fetch_rendered.py` retoma a coleta com cache e intervalo entre consultas. `scripts/prepare_content.mjs` prepara o catálogo, os resumos e a busca; `scripts/audit_site.mjs` verifica links, imagens, âncoras e resíduos de marcação em todas as páginas construídas.
+
+Veja [NOTICE.md](NOTICE.md) para créditos e licença dos textos, fontes tipográficas e imagens.
+
+## Conta opcional
+
+A leitura e os favoritos locais funcionam sem conta. A implementação de entrada com Discord e favoritos por conta utiliza um Worker e D1. Só é exibida como disponível depois que banco, migração e credenciais forem configurados na Cloudflare. Não há autenticação simulada na publicação sem essas configurações.
+
+Veja [docs/cloudflare.md](docs/cloudflare.md) para publicar e ativar as contas.

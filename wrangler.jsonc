@@ -3,6 +3,21 @@
   "name": "anime-adventures-wiki",
   "main": "worker/index.mjs",
   "compatibility_date": "2026-10-23",
+  "workers_dev": true,
+  "preview_urls": true,
+  "keep_vars": true,
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "adventures-wiki",
+      "database_id": "c55a4bed-ce77-4c48-8b2d-62bd7196ec7c",
+      "migrations_dir": "migrations",
+    },
+  ],
+  "vars": {
+    "APP_ORIGIN": "https://anime-adventures-wiki.estrmozica.workers.dev",
+    "DISCORD_CLIENT_ID": "1561527465657114644",
+  },
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",

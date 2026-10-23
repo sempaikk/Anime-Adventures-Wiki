@@ -1,0 +1,15 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+<Layout title="Sua conta — Adventures Wiki" active="conta">
+  <div class="page-heading"><span class="eyebrow">SUA COLEÇÃO / CONTA</span></div>
+  <div class="catalog-heading"><div><h1>Suas descobertas.<br/><span>Onde você estiver.</span></h1><p>Entrar é opcional. Explore a wiki livremente e use sua conta do Discord quando quiser levar os favoritos para outro dispositivo.</p></div></div>
+  <section class="account-panel" data-account-page>
+    <p data-account-loading role="status">Conferindo sua conta…</p>
+    <p class="notice" data-account-message role="status" hidden></p>
+    <div data-account-unavailable hidden><h2>Continue explorando.</h2><p>O acesso com Discord ainda não está disponível. Seus favoritos continuam funcionando neste navegador.</p><a class="button button-outline" href="/favoritos/">Abrir meus favoritos <span>→</span></a></div>
+    <div data-account-login hidden><span class="eyebrow">SEU DISCORD, SUA COLEÇÃO</span><h2>Salve uma vez.<br/>Encontre em qualquer tela.</h2><p>Usamos apenas sua identificação básica: nome de exibição e avatar. Não pedimos acesso a mensagens, e-mail ou lista de servidores. Sua conta e seus favoritos não são públicos.</p><a class="button button-primary" href="/api/auth/discord?return_to=/conta/">Entrar com Discord <span>→</span></a><p class="account-note">Já salvou artigos neste navegador? Depois de entrar, você pode trazê-los para sua conta.</p></div>
+    <div data-account-profile hidden><div class="account-identity"><img data-account-avatar alt="Seu avatar do Discord" width="72" height="72"/><div><span class="eyebrow">SUA CONTA</span><h2 data-account-name></h2><p data-account-count></p></div></div><div class="account-actions"><a class="button button-primary" href="/favoritos/">Abrir meus favoritos <span>→</span></a><button class="button button-outline" data-account-merge hidden>Trazer favoritos deste navegador</button><button class="button button-outline" data-account-logout>Sair desta conta</button></div><div class="account-privacy"><h3>Você controla seus dados.</h3><p>Sair mantém a coleção na sua conta. Você também pode excluir os dados de perfil, os favoritos sincronizados e todas as sessões deste site. Isso não altera sua conta do Discord.</p><button class="plain-button" data-account-delete>Excluir meus dados deste site</button></div></div>
+    <dialog class="confirm-dialog" data-account-delete-dialog aria-labelledby="delete-account-title"><h2 id="delete-account-title">Excluir seus dados?</h2><p>Seu perfil e os favoritos salvos na conta serão removidos deste site. Esta ação não pode ser desfeita. Os favoritos guardados apenas no navegador continuam lá.</p><div class="account-actions"><button class="button button-outline" data-delete-cancel>Manter meus dados</button><button class="button button-primary" data-delete-confirm>Excluir meus dados</button></div></dialog>
+  </section>
+</Layout>

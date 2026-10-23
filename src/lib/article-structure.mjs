@@ -3,8 +3,53 @@ import { load } from "cheerio";
 const text = (value) => value.replace(/\s+/g, " ").trim();
 
 /** Adapt source widgets into our own inert, readable document structure. */
-export function structureArticle(input) {
-  const $ = load(input, {}, false);
+export function structureArticle(input, catalog = {}) {
+  const $ = load(
+    input.replace(/\{\{DISPLAYTITLE:[^\n<]*(?:\n|(?=<))/gi, ""),
+    {},
+    false,
+  );
+  const missing = (title) =>
+    $('<span class="portrait-unavailable" role="img"></span>')
+      .attr("aria-label", `Retrato indisponível: ${title}`)
+      .text("Sem retrato disponível");
+  // Repair old file references using exact filenames or the catalog's documented aliases.
+  $(".mw-broken-media").each((_, node) => {
+    const reference = $(node),
+      title = reference.closest("a").attr("title") || reference.text();
+    const image = catalog.fileImage?.(title);
+    const replacement = image
+      ? $("<img>").attr({
+          src: image.url,
+          alt: image.name,
+          width: "101",
+          height: "101",
+        })
+      : missing(
+          title.replace(/^File:/i, "").replace(/\.(png|webp|gif|jpe?g)$/i, ""),
+        );
+    const link = reference.closest("a");
+    if (link.length) link.replaceWith(replacement);
+    else reference.replaceWith(replacement);
+  });
+  $("img").each((_, node) => {
+    const image = $(node),
+      src = image.attr("data-src") || image.attr("src") || "";
+    if (!/\/(?:Unknown|Placeholder)\.png(?:\/|$)/i.test(src)) return;
+    const owner = image.closest(
+      ".advanced-tooltip,.tierList_item,.ChBox_item,.portable-infobox",
+    );
+    const title = text(
+      owner
+        .find(".tierList_item__text_name,.ChBox_text,.pi-title")
+        .first()
+        .text(),
+    );
+    const unit = catalog.resolveUnit?.(title);
+    if (unit?.image)
+      image.attr({ src: unit.image, alt: unit.name }).removeAttr("data-src");
+    else image.replaceWith(missing(title || "personagem"));
+  });
   // These are duplicate text/image layers used exclusively as shadows in the source.
   $("[class]").each((_, node) => {
     const classes = ($(node).attr("class") || "").split(/\s+/);
@@ -125,6 +170,12 @@ export function structureArticle(input) {
         })
         .addClass("article-tab-panel");
       $(panel).prepend($('<h3 class="source-tab-title"></h3>').text(title));
+      $(panel).prepend(
+        $('<span class="anchor"></span>').attr(
+          "id",
+          title.replace(/\s+/g, "_"),
+        ),
+      );
     });
     root.prepend(nav);
   }
@@ -195,12 +246,60 @@ export function structureArticle(input) {
       const card = $(
         '<details class="tier-unit"><summary></summary><div class="tier-unit-description"></div></details>',
       );
-      const portrait = source.children().first().find("img").first().clone();
+      let portrait = source.children().first().find("img").first().clone();
+      const unit = catalog.resolveUnit?.(title);
+      if (unit?.image)
+        portrait = $("<img>").attr({
+          src: unit.image,
+          alt: unit.name,
+          width: "90",
+          height: "90",
+        });
+      if (!portrait.length) portrait = missing(title);
       card.find("summary").append(portrait, $("<span></span>").text(title));
       card.children("div").append(body.contents());
       source.replaceWith(card);
     });
     row.children(".tierList_item").remove();
+  });
+  $(".container_ChBox").each((_, node) => {
+    const gallery = $(node),
+      entries = gallery.children(".ChBox_item");
+    const tierNames = new Set(
+      $(".tier-unit>summary>span")
+        .map((_, e) => text($(e).text()).toLowerCase())
+        .get(),
+    );
+    const names = entries
+      .map((_, e) => text($(e).find(".ChBox_text").text()).toLowerCase())
+      .get();
+    if (names.length && names.every((name) => tierNames.has(name))) {
+      gallery.remove();
+      return;
+    }
+    gallery.addClass("source-unit-gallery");
+  });
+  $(".ChBox_item").each((_, node) => {
+    const entry = $(node),
+      title = text(entry.find(".ChBox_text").text());
+    const unit = catalog.resolveUnit?.(title);
+    if (unit?.image) {
+      const image = $("<img>").attr({
+        src: unit.image,
+        alt: unit.name,
+        width: "101",
+        height: "101",
+      });
+      entry.find(".ChBox_img__item").empty().append(image);
+    }
+    if (unit?.article) {
+      const content = entry.contents();
+      entry
+        .empty()
+        .append(
+          $("<a></a>").attr("href", `/artigo/${unit.article}/`).append(content),
+        );
+    }
   });
   $(".mobileonly")
     .filter((_, node) => /Fast travel/.test($(node).text()))
@@ -258,6 +357,45 @@ export function structureArticle(input) {
     );
     table.wrap(frame);
   });
+  $("center").each((_, node) => {
+    node.tagName = "div";
+    $(node).addClass("source-introduction");
+  });
+  $("p,div.source-introduction").each((_, node) => {
+    const paragraph = $(node);
+    if (
+      paragraph.children().length === 1 &&
+      paragraph.children().is("b,strong") &&
+      text(paragraph.text()).length > 100
+    )
+      paragraph.children().replaceWith(paragraph.children().contents());
+  });
+  $("b,strong").each((_, node) => {
+    const bold = $(node);
+    if (
+      text(bold.text()).length > 180 &&
+      !bold.closest("h2,h3,h4,h5,h6,summary,dt").length
+    )
+      bold.replaceWith(bold.contents());
+  });
+  $("p")
+    .filter(
+      (_, node) =>
+        !text($(node).text()) &&
+        !$(node).find("img,details,button,[id]").length,
+    )
+    .remove();
+  $('[id^="mw-customcollapsible-"],.Stats-Box[id]').removeAttr("id");
+  const ids = new Set();
+  $("[id]").each((_, node) => {
+    const id = $(node).attr("id");
+    if (ids.has(id)) $(node).removeAttr("id");
+    else ids.add(id);
+  });
+  // Remove the original site's jump menus and decorative wrappers, preserving prose.
+  $(".mobileonly")
+    .filter((_, node) => /^(?:⮝|⮟|back start)/i.test(text($(node).text())))
+    .remove();
   return $.html();
 }
 

@@ -113,12 +113,12 @@ async function search() {
     const index = await getIndex();
     if (version !== searchVersion) return;
     const matches = index
-      .filter((p: any) => normalize(p.title + " " + p.excerpt).includes(q))
-      .sort(
-        (a: any, b: any) =>
-          Number(normalize(b.title).startsWith(q)) -
-          Number(normalize(a.title).startsWith(q)),
+      .filter((p: any) =>
+        normalize(
+          p.title + " " + p.excerpt + " " + (p.aliases || []).join(" "),
+        ).includes(q),
       )
+      .sort((a: any, b: any) => searchRank(b, q) - searchRank(a, q))
       .slice(0, 12);
     results.replaceChildren();
     if (!matches.length) {
@@ -238,15 +238,28 @@ const articleGrid = $("#article-grid");
 if (articleGrid) {
   const cards = Array.from(articleGrid.children) as HTMLElement[],
     query = $("#article-search") as HTMLInputElement;
+  const includeRetired = $("#library-retired") as HTMLInputElement;
   query.value = new URLSearchParams(location.search).get("q") || "";
-  let kind = "",
+  let kind = new URLSearchParams(location.search).get("tipo") || "",
     shown = 30;
+  const kindButtons = Array.from(
+    document.querySelectorAll<HTMLElement>("[data-article-kind]"),
+  );
+  if (!kindButtons.some((button) => button.dataset.articleKind === kind))
+    kind = "";
+  kindButtons.forEach((button) =>
+    button.setAttribute(
+      "aria-pressed",
+      String(button.dataset.articleKind === kind),
+    ),
+  );
   function filter(reset = true) {
     if (reset) shown = 30;
     const q = normalize(query.value);
     const matched = cards.filter(
       (c) =>
         (!kind || c.dataset.kind === kind) &&
+        (includeRetired.checked || c.dataset.retired !== "true") &&
         normalize(c.dataset.title || "").includes(q),
     );
     const visible = new Set(matched.slice(0, shown));
@@ -257,6 +270,7 @@ if (articleGrid) {
     $("#load-articles").hidden = shown >= matched.length;
   }
   query.addEventListener("input", () => filter());
+  includeRetired.addEventListener("change", () => filter());
   document.querySelectorAll("[data-article-kind]").forEach((b) =>
     b.addEventListener("click", () => {
       kind = (b as HTMLElement).dataset.articleKind || "";
@@ -272,58 +286,68 @@ if (articleGrid) {
   });
   filter();
 }
-function saved(): string[] {
-  try {
-    const ids = JSON.parse(localStorage.getItem("aa-favorites") || "[]");
-    return Array.isArray(ids) ? ids.filter((x) => typeof x === "string") : [];
-  } catch {
-    return [];
-  }
-}
 const favorite = $("[data-favorite]");
 if (favorite) {
   const id = favorite.dataset.favorite!;
-  function refresh() {
-    const active = saved().includes(id);
+  function refresh(active: boolean) {
     favorite.setAttribute("aria-pressed", String(active));
     favorite.textContent = active
       ? "Salvo nos favoritos ✓"
       : "Salvar nos favoritos ＋";
   }
-  favorite.addEventListener("click", () => {
-    let ids = saved(),
-      active = ids.includes(id);
-    ids = active ? ids.filter((x) => x !== id) : [...ids, id];
+  favorite.addEventListener("click", async () => {
+    (favorite as HTMLButtonElement).disabled = true;
     try {
-      localStorage.setItem("aa-favorites", JSON.stringify(ids));
-      refresh();
+      const result = await toggleFavorite(id);
+      refresh(result.active);
       toast(
-        active
-          ? "Artigo removido dos favoritos."
-          : "Artigo salvo nos favoritos.",
+        result.active
+          ? result.account
+            ? "Artigo salvo na sua conta."
+            : "Artigo salvo neste navegador."
+          : "Artigo removido dos favoritos.",
       );
-    } catch {
-      toast("Seu navegador não permitiu salvar favoritos.");
+    } catch (error) {
+      toast((error as Error).message || "Não foi possível salvar agora.");
+    } finally {
+      (favorite as HTMLButtonElement).disabled = false;
     }
   });
-  refresh();
+  getFavorites()
+    .then((state) => refresh(state.ids.includes(id)))
+    .catch(() => {
+      favorite.textContent = "Tentar salvar nos favoritos";
+    });
 }
 const favorites = $("#favorite-grid");
 if (favorites) {
-  getIndex()
-    .then((index) => {
-      const ids = new Set(saved());
+  Promise.all([getIndex(), getFavorites()])
+    .then(([index, state]) => {
+      const ids = new Set(state.ids);
       const found = index.filter((p: any) => ids.has(p.url.split("/")[2]));
       $("#favorite-empty").hidden = found.length > 0;
       for (const item of found) {
         const a = document.createElement("a");
-        a.className = "article-link-card";
+        a.className = item.image
+          ? "library-card"
+          : "library-card library-card--text";
         a.href = local(item.url);
         const box = document.createElement("div"),
           h = document.createElement("h2"),
           p = document.createElement("p");
         h.textContent = item.title;
         p.textContent = item.excerpt;
+        box.className = "library-card-copy";
+        if (item.image) {
+          const portrait = document.createElement("div"),
+            image = document.createElement("img");
+          portrait.className = "library-thumbnail";
+          image.src = local(item.image);
+          image.alt = "";
+          image.loading = "lazy";
+          portrait.append(image);
+          a.append(portrait);
+        }
         box.append(h, p);
         a.append(box);
         favorites.append(a);
@@ -414,3 +438,24 @@ if (mapStage) {
   scale(1);
 }
 import "./articles";
+import "./effects";
+import "./account";
+import { getFavorites, toggleFavorite } from "./favorites";
+
+function searchRank(item: any, q: string) {
+  const title = normalize(item.title),
+    aliases = (item.aliases || []).map(normalize);
+  return title === q
+    ? 100
+    : aliases.includes(q)
+      ? 95
+      : title.startsWith(q)
+        ? 80
+        : aliases.some((alias: string) => alias.startsWith(q))
+          ? 75
+          : title.includes(q)
+            ? 50
+            : aliases.some((alias: string) => alias.includes(q))
+              ? 45
+              : 1;
+}

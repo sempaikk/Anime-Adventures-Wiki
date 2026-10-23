@@ -1,8 +1,9 @@
 import sanitize from "sanitize-html";
 import { structureArticle } from "./article-structure.mjs";
+import { imageKey } from "./catalog.mjs";
 
-export function cleanArticle(input, resolve, images = new Map()) {
-  return sanitize(structureArticle(input), {
+export function cleanArticle(input, resolve, images = new Map(), catalog = {}) {
+  return sanitize(structureArticle(input, catalog), {
     allowedTags: [
       "a",
       "p",
@@ -67,7 +68,15 @@ export function cleanArticle(input, resolve, images = new Map()) {
         "data-article-panel",
       ],
       a: ["href", "rel", "target"],
-      img: ["src", "alt", "width", "height", "loading", "decoding"],
+      img: [
+        "src",
+        "alt",
+        "width",
+        "height",
+        "loading",
+        "decoding",
+        "data-animation-src",
+      ],
       td: ["colspan", "rowspan"],
       th: ["colspan", "rowspan", "scope"],
       details: ["open"],
@@ -79,6 +88,8 @@ export function cleanArticle(input, resolve, images = new Map()) {
     transformTags: {
       a(tag, attrs) {
         const href = attrs.href || "";
+        if (/^\/artigo\/[a-z0-9-]+\/(?:#[^\s]*)?$/.test(href))
+          return { tagName: tag, attribs: attrs };
         try {
           const parsed = new URL(href, "https://animeadventures.fandom.com");
           if (
@@ -106,17 +117,22 @@ export function cleanArticle(input, resolve, images = new Map()) {
       img(tag, attrs) {
         let src = attrs["data-src"] || attrs.src || "";
         if (src.startsWith("//")) src = "https:" + src;
+        const local = catalog.localImages?.has(src);
         try {
-          const url = new URL(src);
-          if (
-            ![
-              "static.wikia.nocookie.net",
-              "vignette.wikia.nocookie.net",
-              "images.wikia.com",
-            ].includes(url.hostname) ||
-            /GUI[_-]|Wiki[-_]wordmark|Fandom[-_]logo|Tier-List_icon/i.test(src)
-          )
-            src = "";
+          if (!local) {
+            const url = new URL(src);
+            if (
+              ![
+                "static.wikia.nocookie.net",
+                "vignette.wikia.nocookie.net",
+                "images.wikia.com",
+              ].includes(url.hostname) ||
+              /GUI[_-]|Wiki[-_]wordmark|Site-logo|Fandom[-_]logo|Tier-List_icon/i.test(
+                src,
+              )
+            )
+              src = "";
+          }
         } catch {
           src = "";
         }
@@ -126,7 +142,9 @@ export function cleanArticle(input, resolve, images = new Map()) {
         const height = /^\d+$/.test(attrs.height || "")
           ? Math.min(Number(attrs.height), 1600)
           : undefined;
-        const original = images.get(src.split("/revision/")[0]);
+        const original =
+          images.get(src.split("/revision/")[0]) ||
+          catalog.images?.get(imageKey(src));
         if (original) src = original;
         else if (src && width)
           src = src.replace(
@@ -160,6 +178,9 @@ export function cleanArticle(input, resolve, images = new Map()) {
             class: width && width <= 50 ? "source-icon" : "source-image",
             loading: "lazy",
             decoding: "async",
+            ...(catalog.animations?.has(src)
+              ? { "data-animation-src": catalog.animations.get(src) }
+              : {}),
           },
         };
       },

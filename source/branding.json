@@ -1,0 +1,9 @@
+{
+  "name": "Adventures Wiki",
+  "image": "/art/branding-release.png",
+  "source_url": "https://cdn.discordapp.com/avatars/1561527465657114644/3d95df82033bc2633700346a3e8c423c.png?size=512",
+  "selection": "Same release game artwork used by the bot, explicitly requested by its owner.",
+  "sha256": "30af8c681a276456b5becc48dfa9bab674cdd30f54f69fbeb7070bce7dbe2c54",
+  "processing": "original_copy",
+  "generation": false
+}

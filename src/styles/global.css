@@ -4066,3 +4066,138 @@ main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+
+/* Optional account: the same reading experience without a required login. */
+.account-panel {
+  max-width: 850px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  border-radius: 10px;
+  padding: 36px;
+}
+.account-panel h2 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin: 13px 0 18px;
+  overflow-wrap: anywhere;
+}
+.account-panel p {
+  font-size: 14px;
+  line-height: 1.9;
+  max-width: 650px;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+.account-panel .account-note {
+  font-size: 12px;
+  margin-top: 22px;
+  margin-bottom: 0;
+  max-width: 520px;
+}
+.account-identity {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.account-identity > img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 16px;
+  background: var(--raised);
+}
+.account-identity h2 {
+  font-size: 28px;
+  margin: 6px 0;
+}
+.account-identity p {
+  margin: 0;
+  font-size: 13px;
+}
+.account-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.account-privacy {
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+  margin-top: 32px;
+}
+.account-privacy h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.account-privacy .plain-button {
+  font-size: 13px;
+}
+.account-shortcut {
+  margin-top: 18px;
+  width: max-content;
+  max-width: 100%;
+}
+.confirm-dialog {
+  padding: 30px;
+  width: min(500px, calc(100% - 32px));
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  border-radius: 10px;
+}
+.confirm-dialog::backdrop {
+  background: #000a;
+  backdrop-filter: blur(4px);
+}
+.confirm-dialog h2 {
+  font-size: 26px;
+  margin: 0 0 18px;
+}
+.confirm-dialog p {
+  font-size: 14px;
+  line-height: 1.9;
+  margin: 0 0 24px;
+}
+.confirm-dialog .account-actions {
+  gap: 10px;
+}
+@media (max-width: 650px) {
+  .account-panel {
+    padding: 24px;
+  }
+  .account-panel h2 {
+    font-size: 27px;
+  }
+  .account-panel p {
+    font-size: 13px;
+  }
+  .account-identity {
+    gap: 14px;
+    align-items: start;
+  }
+  .account-identity > img {
+    width: 58px;
+    height: 58px;
+    border-radius: 12px;
+  }
+  .account-identity h2 {
+    font-size: 24px;
+  }
+  .account-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+  .account-actions .button {
+    width: 100%;
+  }
+  .account-privacy h3 {
+    font-size: 21px;
+  }
+  .confirm-dialog {
+    padding: 24px;
+  }
+  .confirm-dialog h2 {
+    font-size: 24px;
+  }
+}

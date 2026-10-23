@@ -4,6 +4,7 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import { cleanArticle } from "../src/lib/sanitize.mjs";
 import { load } from "cheerio";
+import { createCatalog } from "../src/lib/catalog.mjs";
 
 const resolve = (t) => (t === "Traits" ? { slug: "traits-165" } : null);
 test("community source cannot inject active script, handlers, styles or frames", () => {
@@ -148,4 +149,67 @@ test("summaries contain readable text and all original portraits match the cache
       unit.original_image.sha256,
       unit.name,
     );
+});
+test("old names resolve to the exact current form and skip empty obsolete articles", () => {
+  const wiki = JSON.parse(fs.readFileSync("source/wiki.json")),
+    media = JSON.parse(fs.readFileSync("source/media-library.json")),
+    catalog = createCatalog(wiki, media);
+  assert.equal(
+    catalog.resolve("Metal Knight (Arsenal)").title,
+    "Iron Knight (Arsenal)",
+  );
+  assert.equal(
+    catalog.resolve("Golden Freezo (Emperor)").title,
+    "Golden Tyrant (Emperor)",
+  );
+  assert.notEqual(
+    catalog.fileImage("Metal Knight (Arsenal).png").url,
+    catalog.fileImage("Metal Knight.png").url,
+  );
+  assert.equal(catalog.fileImage("Dracula (Unholy King).png"), null);
+  assert.equal(catalog.fileImage("Agony (Divine) Shiny.png")?.unit, undefined);
+});
+test("the reported Air/Hill page keeps its descriptions and uses real portraits instead of broken file references", () => {
+  const wiki = JSON.parse(fs.readFileSync("source/wiki.json")),
+    media = JSON.parse(fs.readFileSync("source/media-library.json")),
+    catalog = createCatalog(wiki, media);
+  const original = JSON.parse(fs.readFileSync("source/rendered/2732.json"))
+    .parse.text;
+  const html = cleanArticle(original, catalog.resolve, catalog.images, catalog),
+    $ = load(html);
+  assert.doesNotMatch(
+    $.text(),
+    /File:[^\n]*\.(?:png|webp|gif)|Lua error|traceback/,
+  );
+  assert.equal($(".tier-unit").length, 14);
+  assert.equal($(".tier-unit>summary img").length, 12);
+  assert.match($(".tier-unit-description").text(), /Godly DPS/);
+  assert.equal($(".container_ChBox").length, 0);
+  assert(
+    $("img")
+      .toArray()
+      .every((node) => !$(node).attr("src").includes("/Unknown.png/")),
+  );
+});
+test("cached media and animation posters match their recorded bytes without generated imagery", () => {
+  const media = JSON.parse(fs.readFileSync("source/media-library.json"));
+  for (const entry of Object.values(media).filter((entry) => entry.url)) {
+    assert.equal(
+      crypto
+        .createHash("sha256")
+        .update(fs.readFileSync("public" + entry.url))
+        .digest("hex"),
+      entry.sha256,
+      entry.filename,
+    );
+    if (entry.animated) {
+      assert(
+        entry.animation_url.startsWith(
+          "https://static.wikia.nocookie.net/animeadventures/images/",
+        ),
+      );
+      assert.equal(entry.processing.generation, false);
+      assert.equal(entry.processing.type, "first_frame_lossless");
+    }
+  }
 });

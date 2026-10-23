@@ -1,29 +1,60 @@
 # Publicação na Cloudflare
 
-O site público pode usar um repositório privado. O bot continua na hospedagem atual e não recebe a carga do site.
+Produção: https://anime-adventures-wiki.estrmozica.workers.dev
 
-## Conectar o GitHub
+O repositório `sempaikk/Anime-Adventures-Wiki` é privado. O site permanece público na Cloudflare. A hospedagem e os dados do bot continuam separados.
 
-No painel Cloudflare, abra **Create app**, conecte o GitHub e selecione somente `Anime-Adventures-Wiki`.
+## Integração com GitHub
 
-Configure:
+A aplicação `anime-adventures-wiki` está conectada ao repositório. Configuração:
 
-- Project name: `anime-adventures-wiki`
-- Build command: `npm run build`
-- Deploy command: `npx wrangler deploy`
-- Production branch: `main`
-- Root directory: a raiz do repositório
-- Node: `24` (o arquivo `.node-version` já fornece essa preferência)
-- Cloudflare Access: desligado, pois a wiki é pública
+- Build: `npm run build`
+- Deploy: `npx wrangler deploy`
+- Branch de produção: `main`
+- Diretório raiz: raiz do repositório
+- Node: `24`, conforme `.node-version`
+- Cloudflare Access: desligado para o endereço público
 
-Não configure `SITE_BASE`: na Cloudflare o site usa `/`. O prefixo do GitHub Pages só é aplicado pelo workflow específico do GitHub.
+Não configure `SITE_BASE`: a Cloudflare publica na raiz `/`. `wrangler.jsonc` fornece o Worker e os arquivos estáticos em `dist`. Cada push inicia uma publicação. A integração deve conservar acesso ao repositório privado. Não é necessária uma credencial Cloudflare no GitHub Actions.
 
-`wrangler.jsonc` fornece a pasta de publicação `dist` e o Worker. Cada push na branch principal inicia uma nova publicação pela integração Git. Não é necessário fornecer uma chave da Cloudflare ao GitHub Actions.
+O endereço Production é o endereço permanente para compartilhar. Preview identifica uma versão para conferência e não substitui o link de produção.
 
-Depois do primeiro sucesso, copie o endereço `https://anime-adventures-wiki.<seu-subdominio>.workers.dev`. Confira a página inicial, um artigo, busca e favoritos. Só então altere a visibilidade do repositório do site para privado. A integração da Cloudflare deve continuar autorizada a esse repositório privado.
+## Ativar contas com Discord
 
-## Contas
+O site funciona sem login. A API informa `enabled: false` enquanto a configuração estiver incompleta. A interface não oferece um login que ainda não pode funcionar.
 
-A publicação inicial funciona sem login. A API de sessão indica explicitamente que contas ainda não estão habilitadas. Não há tela de login de demonstração nem sincronização simulada. A ativação depende de banco e credenciais OAuth do Discord configurados apenas no ambiente da Cloudflare.
+### Banco D1
 
-As credenciais do bot e os bancos dele não fazem parte deste projeto. Nunca coloque um Client Secret no código, no GitHub, no campo de build ou em uma conversa.
+1. O banco `adventures-wiki` foi criado; o binding `DB` e o identificador já estão registrados no `wrangler.jsonc`.
+2. Aplique `migrations/0001_accounts.sql` no console SQL desse banco. Outra opção, com o Wrangler autenticado na conta correta, é `npx wrangler d1 migrations apply adventures-wiki --remote`.
+3. Mantenha o binding no arquivo de configuração para que publicações futuras o preservem.
+
+Formato da configuração (o identificador real já está no arquivo):
+
+```json
+"d1_databases": [{
+  "binding": "DB",
+  "database_name": "adventures-wiki",
+  "database_id": "ID-REAL-DO-BANCO",
+  "migrations_dir": "migrations"
+}]
+```
+
+### Discord e segredos
+
+Na aplicação Discord `1561527465657114644`, em OAuth2, autorize exatamente este redirect:
+
+`https://anime-adventures-wiki.estrmozica.workers.dev/api/auth/callback`
+
+Em Settings → Variables and Secrets do Worker, crie os segredos:
+
+- `DISCORD_CLIENT_SECRET`: Client Secret de OAuth2 da aplicação Discord. Não é o token do bot.
+- `SESSION_SECRET`: valor aleatório de pelo menos 32 caracteres, criado por um gerador de senhas seguro.
+
+Cadastre os valores diretamente no painel, como Secret. Não envie segredos em conversa, não adicione ao repositório e não os configure como comando de build. `APP_ORIGIN` e `DISCORD_CLIENT_ID` são valores públicos já fornecidos pelo Wrangler. `keep_vars` preserva variáveis cadastradas no painel.
+
+### Conferência após ativação
+
+Acesse `/conta/`, entre com Discord e confirme um favorito em outro dispositivo. Confira também cancelamento, saída, importação dos favoritos locais e exclusão dos dados do site. Os testes automatizados usam Discord simulado e SQLite temporário; eles não substituem esta confirmação na conta real.
+
+Só é solicitado `identify`: identificação básica, nome de exibição e avatar. Tokens Discord não são persistidos. Sessões do site duram até 30 dias e são armazenadas por hash. Os favoritos pertencem à conta, com limite de 1.000. O visitante pode sair de um dispositivo ou excluir os dados e todas as sessões. Falhas de conexão não devem transformar silenciosamente os favoritos de uma conta em favoritos locais.

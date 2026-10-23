@@ -3,11 +3,19 @@ import path from "node:path";
 import { cleanArticle } from "./sanitize.mjs";
 import { articleSections } from "./article-structure.mjs";
 import snapshot from "../../source/wiki.json";
+import media from "../../source/media-library.json";
+import { createCatalog, kindLabels } from "./catalog.mjs";
 
 export const wiki = snapshot;
 export const articles = wiki.articles;
 export const units = wiki.units;
 export const icons = wiki.icons;
+export const libraryArticles = articles.filter(
+  (page) =>
+    !page.editorial && (!page.empty || page.canonical_slug === page.slug),
+);
+export { kindLabels };
+export const catalog = createCatalog(wiki, media);
 const imageCopies = new Map(
   units
     .filter((u) => u.image && u.original_image)
@@ -23,19 +31,7 @@ export function normalize(t: string) {
     .trim();
 }
 export function findArticle(title: string) {
-  let candidate = title,
-    visited = new Set();
-  while (!visited.has(candidate)) {
-    visited.add(candidate);
-    const found = byTitle.get(normalize(candidate));
-    if (found) return found;
-    const redirect = Object.entries(wiki.aliases).find(
-      ([key]) => normalize(key) === normalize(candidate),
-    );
-    if (!redirect) return null;
-    candidate = redirect[1];
-  }
-  return null;
+  return catalog.resolve(title);
 }
 export function articleUrl(title: string) {
   const p = findArticle(title);
@@ -47,7 +43,7 @@ export function unitUrl(unit: any) {
   return unit.article ? `/artigo/${unit.article}/` : `/personagem/${unit.id}/`;
 }
 export function art(key: string) {
-  return (icons as any)[key]?.url || icons["ui-units"].url;
+  return (icons as any)[key]?.url || null;
 }
 export function metadata(page: any) {
   return {
@@ -66,6 +62,11 @@ export function renderArticle(page: any) {
   const sourceError = /class="[^"]*(?:scribunto-error|error mw-ext)/.test(
     result.parse.text,
   );
-  const html = cleanArticle(result.parse.text, findArticle, imageCopies);
+  const html = cleanArticle(
+    result.parse.text,
+    findArticle,
+    imageCopies,
+    catalog,
+  );
   return { html, sections: articleSections(html), ready: true, sourceError };
 }
