@@ -12,29 +12,74 @@ function toast(message: string) {
   box.classList.add("show");
   setTimeout(() => box.classList.remove("show"), 2600);
 }
-const themeButton = $("[data-theme-toggle]");
-function themeLabel() {
-  themeButton.setAttribute(
-    "aria-label",
-    document.documentElement.dataset.theme === "dark"
-      ? "Ativar tema claro"
-      : "Ativar tema escuro",
-  );
-}
-themeLabel();
-themeButton.addEventListener("click", () => {
-  const next =
-    document.documentElement.dataset.theme === "dark" ? "light" : "dark";
-  document.documentElement.dataset.theme = next;
-  try {
-    localStorage.setItem("aa-theme", next);
-  } catch {
-    toast(
-      "O tema foi aplicado. Seu navegador não permitiu salvar a preferência.",
+const themeMenu = document.querySelector<HTMLDetailsElement>(".theme-menu")!;
+function markTheme() {
+  document
+    .querySelectorAll<HTMLElement>("[data-set-theme]")
+    .forEach((button) =>
+      button.setAttribute(
+        "aria-pressed",
+        String(
+          button.dataset.setTheme === document.documentElement.dataset.theme,
+        ),
+      ),
     );
-  }
-  themeLabel();
+}
+markTheme();
+document
+  .querySelectorAll<HTMLButtonElement>("[data-set-theme]")
+  .forEach((button) =>
+    button.addEventListener("click", () => {
+      const next = button.dataset.setTheme!;
+      document.documentElement.dataset.theme = next;
+      try {
+        localStorage.setItem("aa-theme", next);
+      } catch {
+        toast(
+          "O tema foi aplicado. Seu navegador não permitiu salvar a preferência.",
+        );
+      }
+      markTheme();
+      themeMenu.open = false;
+      themeMenu.querySelector<HTMLElement>("summary")?.focus();
+    }),
+  );
+document.addEventListener("click", (event) => {
+  if (!(event.target as Element).closest(".theme-menu")) themeMenu.open = false;
 });
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && themeMenu.open) {
+    themeMenu.open = false;
+    themeMenu.querySelector<HTMLElement>("summary")?.focus();
+  }
+});
+window.addEventListener("storage", (event) => {
+  if (
+    event.key === "aa-theme" &&
+    ["adventures", "dark", "light"].includes(event.newValue || "")
+  ) {
+    document.documentElement.dataset.theme = event.newValue!;
+    markTheme();
+  }
+});
+
+document
+  .querySelectorAll<HTMLButtonElement>("[data-hub-filter]")
+  .forEach((button) =>
+    button.addEventListener("click", () => {
+      const kind = button.dataset.hubFilter;
+      document
+        .querySelectorAll<HTMLElement>("[data-hub-kind]")
+        .forEach((entry) => {
+          entry.hidden = kind !== "all" && entry.dataset.hubKind !== kind;
+        });
+      document
+        .querySelectorAll("[data-hub-filter]")
+        .forEach((item) =>
+          item.setAttribute("aria-pressed", String(item === button)),
+        );
+    }),
+  );
 const menu = $("[data-menu-toggle]");
 function closeMenu() {
   const wasOpen = document.body.classList.contains("sidebar-open");
@@ -324,7 +369,9 @@ if (favorites) {
   Promise.all([getIndex(), getFavorites()])
     .then(([index, state]) => {
       const ids = new Set(state.ids);
-      const found = index.filter((p: any) => ids.has(p.url.split("/")[2]));
+      const found = index.filter((p: any) =>
+        ids.has(p.favorite_id || p.url.split("/")[2]),
+      );
       $("#favorite-empty").hidden = found.length > 0;
       for (const item of found) {
         const a = document.createElement("a");
@@ -440,6 +487,7 @@ if (mapStage) {
 import "./articles";
 import "./effects";
 import "./account";
+import "./unit-preview";
 import { getFavorites, toggleFavorite } from "./favorites";
 
 function searchRank(item: any, q: string) {

@@ -1,6 +1,7 @@
 import fs from "node:fs";
 import { load } from "cheerio";
 import { classify, createCatalog, normalize } from "../src/lib/catalog.mjs";
+import { unitFavoriteKey } from "../src/lib/favorite-key.mjs";
 
 const wiki = JSON.parse(fs.readFileSync("source/wiki.json", "utf8"));
 const originals = fs.existsSync("source/original-images.json")
@@ -121,6 +122,20 @@ const index = wiki.articles
     aliases: page.aliases,
     image: page.thumbnail,
   }));
+index.push(
+  ...wiki.units
+    .filter((unit) => !unit.article)
+    .map((unit) => ({
+      title: unit.name,
+      url: `/personagem/${unit.id}/`,
+      excerpt:
+        "Forma presente no catálogo. Ainda não há um artigo correspondente no arquivo da fonte.",
+      kind: "unit",
+      aliases: unit.aliases,
+      image: unit.image,
+      favorite_id: unitFavoriteKey(unit),
+    })),
+);
 index.push({
   title: "Anime Adventures Map",
   url: "/mapa/",
@@ -129,6 +144,25 @@ index.push({
 });
 fs.writeFileSync("public/data/search.json", JSON.stringify(index));
 fs.writeFileSync("public/data/coverage.json", JSON.stringify(wiki.counts));
+fs.writeFileSync(
+  "public/data/units.json",
+  JSON.stringify(
+    wiki.units.map((unit) => ({
+      id: unit.id,
+      favorite_id: unitFavoriteKey(unit),
+      name: unit.name,
+      aliases: unit.aliases,
+      rarity: unit.rarity,
+      image: unit.image,
+      retired: Boolean(unit.retired),
+      url: unit.article
+        ? `/artigo/${unit.article}/`
+        : `/personagem/${unit.id}/`,
+      facts:
+        wiki.articles.find((page) => page.slug === unit.article)?.facts || [],
+    })),
+  ),
+);
 console.log(
   `Prepared ${wiki.counts.rendered} articles and ${wiki.units.filter((unit) => unit.original_image).length} original portraits.`,
 );

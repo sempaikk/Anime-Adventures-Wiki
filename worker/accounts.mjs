@@ -133,7 +133,7 @@ const validSlug = (value) =>
   typeof value === "string" &&
   value.length <= 110 &&
   /^[a-z0-9-]+$/.test(value) &&
-  /\d/.test(value);
+  (/\d/.test(value) || /^unit-[a-z0-9-]+$/.test(value));
 async function body(request) {
   if (!request.headers.get("Content-Type")?.startsWith("application/json"))
     throw new Error("content-type");

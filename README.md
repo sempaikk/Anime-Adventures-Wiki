@@ -1,6 +1,6 @@
 # Adventures Wiki
 
-Wiki independente de Anime Adventures, com interface em português, artigos no idioma original, temas claro e escuro e artes do próprio jogo.
+Wiki independente de Anime Adventures, com interface em português, artigos no idioma original, temas Adventures, Escuro e Claro e artes do próprio jogo.
 
 Site público: https://www.adventureswiki.workers.dev
 
@@ -19,6 +19,8 @@ npx wrangler deploy --dry-run
 Para desenvolver a interface: `npm run dev`. Para conferir o site construído junto da API local: `npx wrangler dev --local` após o build.
 
 O GitHub Actions verifica o código e a integridade do conteúdo. A integração Git da Cloudflare publica a branch `main`. O repositório pode permanecer privado; o endereço público da wiki continua acessível. O bot usa outra hospedagem e seus tokens e bancos não fazem parte deste projeto.
+
+A direção visual e os componentes estão documentados em [docs/design.md](docs/design.md).
 
 ## Conteúdo e imagens
 

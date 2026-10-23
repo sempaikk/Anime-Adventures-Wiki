@@ -22,3 +22,7 @@ particulares de cada arquivo continuam válidas.
 O projeto é independente e não afirma afiliação oficial com os desenvolvedores,
 a Fandom ou os autores dos animes. Nenhum script, template Lua ou JavaScript
 da origem é executado pelo site. O HTML importado é sanitizado antes da publicação.
+
+## Referências adicionais do jogo
+
+Artes de Anime Adventures publicadas por Gomu na página oficial do jogo no Roblox: https://www.roblox.com/games/8304191830/Anime-Adventures. Cópias originais e seus hashes estão documentados em `source/official-links.json`. Todos os direitos das artes permanecem com seus respectivos titulares. O projeto é independente. Os links fornecidos pelo proprietário para Gomu no YouTube e para o Discord do jogo são apresentados como destinos externos; seu conteúdo não foi republicado.

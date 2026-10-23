@@ -3,7 +3,7 @@ const motion = matchMedia(
   "(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
 );
 const selector =
-  ".unit-card,.library-card,.quick-card,.hero,.map-view,.bot-strip,.knowledge-panel,.account-panel";
+  ".unit-card,.library-card,.game-tile,.hub-intro,.unit-profile,.map-view,.feed-entry,.account-panel";
 let current: HTMLElement | null = null,
   frame = 0,
   point = { x: 0, y: 0 };

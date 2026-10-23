@@ -1,0 +1,12 @@
+---
+import { articleUrl, art, catalog } from '../lib/wiki';
+const tiles = [
+  ['Personagens', '/personagens/', '/art/game-Units_Icon.png', 'gold'],
+  ['Itens', articleUrl('Items'), art('ui-items'), 'green'],
+  ['Traits', articleUrl('Traits'), art('ui-traits'), 'orange'],
+  ['Evoluções', articleUrl('Evolution'), art('item-star-fruit'), 'lime'],
+  ['Summon', articleUrl('Summon'), '/art/game-Summon_Icon.png', 'pink'],
+  ['Relíquias', articleUrl('Relics'), catalog.fileImage('Relic Shard.png')?.url, 'cyan'],
+];
+---
+<nav class="explore-tiles" aria-label="Explore o jogo por categoria">{tiles.map(([label,href,image,tone])=><a href={href} class="game-tile" data-tile-tone={tone}><span class="game-tile-art">{image&&<img src={image} alt="" width="72" height="72" loading="eager"/>}<span class="tile-spark" aria-hidden="true"></span></span><strong>{label}</strong><span class="tile-arrow" aria-hidden="true"><i class="arrow-diagonal"></i></span></a>)}</nav>

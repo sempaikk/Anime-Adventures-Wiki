@@ -1,39 +1,51 @@
 ---
 import '../styles/global.css';
 import '../styles/content.css';
-import '../styles/futuristic.css';
-import { wiki, articleUrl } from '../lib/wiki';
-const { title = 'Adventures Wiki — Anime Adventures', description = 'Personagens, evoluções, itens e guias de Anime Adventures. Explore informações do jogo com organização e artes originais.', active = 'inicio' } = Astro.props;
+import '../styles/adventures.css';
+import { wiki, articleUrl, art } from '../lib/wiki';
+import { channels, botInvite } from '../lib/community';
+const { title = 'Adventures Wiki — Anime Adventures', description = 'Um universo de personagens, guias e descobertas de Anime Adventures. Conheça o jogo e encontre sua comunidade.', active = 'inicio' } = Astro.props;
 const nav = [
-  ['inicio','Início','/'], ['personagens','Personagens','/personagens/'],
-  ['biblioteca','Biblioteca','/biblioteca/'], ['evolution','Evoluções',articleUrl('Evolution')],
-  ['items','Itens e recursos',articleUrl('Items')], ['traits','Traits',articleUrl('Traits')],
-  ['modes','Modos de jogo','/biblioteca/?tipo=mode'], ['tiers','Tier lists',articleUrl('Tier Lists')],
-  ['map','Mapa do jogo','/mapa/'], ['updates','Atualizações','/atualizacoes/'],
+  ['inicio','Descobrir','/',''], ['personagens','Personagens','/personagens/','/art/game-Units_Icon.png'],
+  ['biblioteca','Explorar a wiki','/biblioteca/',''], ['evolution','Evoluções',articleUrl('Evolution'),art('ui-evolution')],
+  ['items','Itens e recursos',articleUrl('Items'),'/art/game-Items_Icon.png'], ['traits','Traits',articleUrl('Traits'),art('ui-traits')],
+  ['modes','Modos de jogo','/biblioteca/?tipo=mode',''], ['tiers','Tier lists',articleUrl('Tier Lists'),''],
+  ['map','Mapa do jogo','/mapa/',''], ['comunidade','Comunidade','/comunidade/',''], ['updates','Atualizações','/atualizacoes/',''],
 ];
-const invite='https://discord.com/oauth2/authorize?client_id=1561527465657114644&scope=bot+applications.commands&permissions=378494110720&integration_type=0';
+const themes = [['adventures','Adventures','A energia do jogo'],['dark','Escuro','Luz mais suave'],['light','Claro','Leve e colorido']];
 ---
-<!doctype html><html lang="pt-BR" data-theme="dark"><head>
+<!doctype html><html lang="pt-BR" data-theme="adventures"><head>
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content={description}/><meta name="color-scheme" content="dark light"/>
   <meta name="robots" content="noindex,follow"/>
   <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
-  <meta name="theme-color" content="#090a0c"/><title>{title}</title>
+  <meta property="og:image" content={new URL('/art/branding-release.png', Astro.site).href}/>
+  <meta name="theme-color" content="#10142c"/><title>{title}</title>
   <link rel="icon" href={wiki.branding.image} type="image/png"/>
-  <script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('aa-theme')||'dark'}catch{}</script>
+  <script is:inline>try{const t=localStorage.getItem('aa-theme');document.documentElement.dataset.theme=['adventures','dark','light'].includes(t)?t:'adventures'}catch{}</script>
 </head><body id="top">
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
-<header class="site-header"><a class="brand" href="/" aria-label="Adventures Wiki — início"><span class="brand-emblem"><img src={wiki.branding.image} alt="" width="40" height="40"/></span><span>ADVENTURES<span class="brand-sub">WIKI</span></span></a><a class="preview-label" href="/sobre/" title="Conteúdo e apresentação em revisão">PRÉVIA</a>
-  <nav class="top-nav" aria-label="Navegação principal"><a href="/personagens/" class:list={{selected:active==='personagens'}}>Personagens</a><a href="/biblioteca/" class:list={{selected:active==='biblioteca'}}>Explorar a wiki</a><a class="install-link" href={invite} target="_blank" rel="noopener noreferrer">Adicionar ao Discord <span class="external-arrow" aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></a></nav>
-  <div class="header-actions"><button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><span>Pesquisar na wiki</span><kbd>Ctrl K</kbd><span class="search-mark" aria-hidden="true">⌕</span></button><button class="theme-toggle square-button" aria-label="Ativar tema claro" title="Alternar tema" data-theme-toggle><span class="theme-symbol" aria-hidden="true">◐</span></button><button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span aria-hidden="true">☰</span></button></div>
+<header class="site-header">
+  <a class="brand" href="/" aria-label="Adventures Wiki — início"><span class="brand-emblem"><img src={wiki.branding.image} alt="" width="42" height="42"/></span><span>ADVENTURES<span class="brand-sub">WIKI / COMUNIDADE</span></span></a>
+  <button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><span class="search-mark" aria-hidden="true">⌕</span><span>Qual é a sua próxima descoberta?</span><kbd>Ctrl K</kbd></button>
+  <div class="header-actions">
+    <details class="theme-menu"><summary class="square-button" aria-label="Escolher tema" title="Escolher tema"><span class="theme-symbol" aria-hidden="true">◐</span></summary><div class="theme-options"><span class="eyebrow">DO SEU JEITO</span>{themes.map(([key,name,detail])=><button type="button" data-set-theme={key} aria-pressed={key==='adventures'}><span class={`theme-swatch theme-swatch-${key}`} aria-hidden="true"></span><span><strong>{name}</strong><small>{detail}</small></span><span class="theme-check" aria-hidden="true">✓</span></button>)}</div></details>
+    <a class="header-account" href="/conta/" data-account-link><span class="account-avatar-placeholder" aria-hidden="true"></span><span data-account-label>Sua conta</span></a>
+    <button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span aria-hidden="true">☰</span></button>
+  </div>
 </header>
-<div class="site-shell"><aside class="sidebar" id="side-nav"><div class="sidebar-top"><span class="eyebrow">ANIME ADVENTURES</span><span class="sidebar-coordinate">WIKI</span></div>
-  <nav aria-label="Explorar"><span class="nav-label">EXPLORAR</span>{nav.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}>{label}<span aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></a>)}</nav>
-  <div class="sidebar-divider"></div><nav aria-label="Sua coleção"><span class="nav-label">SUA COLEÇÃO</span><a class="side-link" href="/favoritos/">Favoritos<span aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/" data-account-entry hidden>Sua conta<span aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></a><a class="side-link" href={invite} target="_blank" rel="noopener noreferrer">Adicionar o bot<span aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></a></nav>
-  <div class="sidebar-bottom"><span>Uma wiki da comunidade.<br/><small>Conheça. Planeje. Evolua.</small></span></div>
-</aside><div class="page-wrapper"><main id="main"><slot/></main><footer class="site-footer"><div><strong>ADVENTURES WIKI</strong><p>O universo do jogo, organizado para você.</p></div><div><a href="/sobre/">Sobre e fontes</a><span>Projeto independente da comunidade.</span><small>Textos da Anime Adventures Wiki sob <a href="https://www.fandom.com/licensing" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>. Artes com créditos nas fontes.</small></div><a href="#top" class="back-top" aria-label="Voltar ao topo">↑</a></footer></div></div>
+<div class="site-shell"><aside class="sidebar" id="side-nav">
+  <div class="sidebar-top"><span class="eyebrow">SEU UNIVERSO COMEÇA AQUI</span><span class="sidebar-coordinate">AA</span></div>
+  <nav aria-label="Explorar"><span class="nav-label">EXPLORE</span>{nav.map(([key,label,href,icon])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}>{icon&&<img src={icon} alt="" width="25" height="25"/>}<span class="side-label">{label}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav>
+  <div class="sidebar-divider"></div><nav aria-label="Sua coleção"><span class="nav-label">SEU ESPAÇO</span><a class:list={['side-link',{active:active==='favoritos'}]} href="/favoritos/">Seus favoritos<span class="side-indicator" aria-hidden="true">›</span></a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/">Sua conta<span class="side-indicator" aria-hidden="true">›</span></a></nav>
+  <a class="sidebar-bot" href={botInvite} target="_blank" rel="noopener noreferrer"><span class="eyebrow">LEVE PARA O SEU SERVIDOR</span><strong>As aventuras continuam<br/>no Discord.</strong><span>Adicionar o bot <i class="arrow-diagonal" aria-hidden="true"></i></span></a>
+  <div class="sidebar-bottom"><a href="/sobre/">Sobre, fontes e créditos</a><span>Feito pela comunidade.<br/>Para quem vive o jogo.</span></div>
+</aside><div class="page-wrapper"><main id="main"><slot/></main>
+<footer class="site-footer"><div><strong>ADVENTURES WIKI</strong><p>O jogo. As descobertas. A comunidade.</p></div><div class="footer-links"><a href="/sobre/">Sobre e fontes</a>{channels.map(channel=><a href={channel.url} target="_blank" rel="noopener noreferrer">{channel.platform} <i class="arrow-diagonal" aria-hidden="true"></i></a>)}</div><small>Projeto independente. Textos da Anime Adventures Wiki sob <a href="https://www.fandom.com/licensing" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>. Artes com créditos nas fontes.</small><a href="#top" class="back-top" aria-label="Voltar ao topo">↑</a></footer></div></div>
+<nav class="mobile-dock" aria-label="Navegação rápida"><a href="/" aria-current={active==='inicio'?'page':undefined}>Início</a><a href="/biblioteca/" aria-current={active==='biblioteca'?'page':undefined}>Explorar</a><a href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}>Salvos</a><a href="/conta/" aria-current={active==='conta'?'page':undefined}>Conta</a></nav>
 <div class="nav-scrim" data-menu-close></div>
-<dialog id="search-dialog" aria-labelledby="search-title"><div class="search-head"><h2 id="search-title">O que você quer descobrir?</h2><button class="square-button" data-search-close aria-label="Fechar busca">×</button></div><label class="sr-only" for="global-search">Pesquisar personagens e artigos</label><input id="global-search" type="search" placeholder="Busque personagens, itens, modos…" autocomplete="off"/><div class="search-results" id="global-results" aria-live="polite"></div><div class="search-foot"><span>Busca nos artigos e nomes anteriores</span><span><kbd>Esc</kbd> para fechar</span></div></dialog>
+<dialog id="search-dialog" aria-labelledby="search-title"><div class="search-head"><div><span class="eyebrow">EXPLORE ANIME ADVENTURES</span><h2 id="search-title">Sua próxima descoberta.</h2></div><button class="square-button" data-search-close aria-label="Fechar busca">×</button></div><label class="sr-only" for="global-search">Pesquisar personagens e artigos</label><input id="global-search" type="search" placeholder="Personagens, itens, modos…" autocomplete="off"/><div class="search-results" id="global-results" aria-live="polite"></div><div class="search-foot"><span>Também encontramos nomes anteriores.</span><span><kbd>Esc</kbd> para fechar</span></div></dialog>
+<dialog class="unit-preview" id="unit-preview" aria-labelledby="preview-name"><button class="square-button preview-close" data-preview-close aria-label="Fechar ficha rápida">×</button><div class="preview-art"><span class="eyebrow">FICHA RÁPIDA</span><img data-preview-image alt="" width="300" height="300"/><span class="preview-orbit" aria-hidden="true"></span></div><div class="preview-copy"><span class="rarity-label" data-preview-rarity></span><h2 id="preview-name">Carregando personagem…</h2><p data-preview-aliases></p><dl class="unit-facts" data-preview-facts></dl><p class="preview-notice" data-preview-message role="status"></p><div class="preview-actions"><a class="button button-primary" data-preview-article href="/personagens/">Ver ficha completa <span>→</span></a><button class="button button-outline" data-preview-save disabled>Salvar</button></div></div></dialog>
 <div class="toast" role="status" aria-live="polite"></div>
 <script src="../scripts/client.ts"></script>
 </body></html>

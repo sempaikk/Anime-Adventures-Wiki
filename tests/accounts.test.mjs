@@ -331,3 +331,30 @@ test("logout revokes its session; deleting the profile clears all devices and ac
     401,
   );
 });
+
+test("catalog-only characters can be saved and removed without changing article favorite keys", async () => {
+  const { env } = fixture();
+  const { cookie } = await login(env);
+  const key = "unit-attack-titan";
+  const put = await accountRequest(
+    new Request(origin + "/api/favorites/" + key, {
+      method: "PUT",
+      headers: { Cookie: cookie, Origin: origin },
+    }),
+    env,
+  );
+  assert.equal(put.status, 200);
+  const list = await accountRequest(
+    new Request(origin + "/api/favorites", { headers: { Cookie: cookie } }),
+    env,
+  );
+  assert.deepEqual((await list.json()).ids, [key]);
+  const remove = await accountRequest(
+    new Request(origin + "/api/favorites/" + key, {
+      method: "DELETE",
+      headers: { Cookie: cookie, Origin: origin },
+    }),
+    env,
+  );
+  assert.equal(remove.status, 200);
+});

@@ -4,8 +4,8 @@ import { libraryArticles, kindLabels } from '../../lib/wiki';
 const filters = [['','Todos'],['unit','Personagens'],['item','Itens'],['mode','Modos'],['mechanic','Mecânicas'],['tierlist','Tier lists'],['guide','Guias']];
 ---
 <Layout title="Biblioteca — Adventures Wiki" active="biblioteca">
-<div class="page-heading"><span class="eyebrow">EXPLORE / BIBLIOTECA</span><span class="edition">CONHECIMENTO DA COMUNIDADE</span></div>
-<div class="catalog-heading"><div><h1>Encontre sua<br/><span>próxima resposta.</span></h1><p>Personagens, itens, modos e mecânicas. Busque pelo nome atual ou por um nome anterior do jogo.</p></div><span class="catalog-count">{libraryArticles.length}<small>ARTIGOS PARA EXPLORAR</small></span></div>
+<div class="page-heading"><span class="eyebrow">EXPLORE O UNIVERSO</span><span class="edition">PERSONAGENS · GUIAS · DESCOBERTAS</span></div>
+<div class="catalog-heading"><div><h1>Sua próxima<br/><span>descoberta está aqui.</span></h1><p>Personagens, itens, modos e mecânicas. Busque pelo nome atual ou por um nome anterior do jogo.</p></div><span class="catalog-count">{libraryArticles.length}<small>ARTIGOS PARA EXPLORAR</small></span></div>
 <section class="filter-panel library-filters"><label class="sr-only" for="article-search">Pesquisar artigos</label><input id="article-search" type="search" placeholder="Pesquise um personagem ou assunto…"/><div class="library-categories" aria-label="Tipo de artigo">{filters.map(([key,label])=><button data-article-kind={key} aria-pressed={key===''}>{label}</button>)}</div><label class="archive-filter library-archive"><input id="library-retired" type="checkbox"/> Incluir formas retiradas do catálogo ativo</label></section>
 <div class="results-heading"><span id="article-results" aria-live="polite"></span></div>
 <div class="library-grid" id="article-grid">{libraryArticles.map(page=><a class:list={['library-card',{'library-card--text':!page.thumbnail&&page.kind!=='unit'}]} href={`/artigo/${page.slug}/`} data-title={[page.title,page.excerpt,...(page.aliases||[])].join(' ').toLowerCase()} data-kind={page.kind} data-retired={String(page.retired)}>

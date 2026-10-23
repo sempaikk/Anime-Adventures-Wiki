@@ -53,13 +53,21 @@ function revealAnchor() {
       );
       button?.click();
     }
+    if (parent.dataset.statsSelectId) {
+      const select = document.getElementById(
+        parent.dataset.statsSelectId,
+      ) as HTMLSelectElement | null;
+      if (select) {
+        select.value = parent.dataset.statsStep || "0";
+        select.dispatchEvent(new Event("change"));
+      }
+    }
     if (parent instanceof HTMLDetailsElement) parent.open = true;
     parent = parent.parentElement;
   }
   requestAnimationFrame(() => target.scrollIntoView({ block: "start" }));
 }
 window.addEventListener("hashchange", revealAnchor);
-if (location.hash) revealAnchor();
 
 for (const image of document.querySelectorAll<HTMLImageElement>(
   "img[data-animation-src]",
@@ -148,3 +156,105 @@ for (const [index, table] of Array.from(
     count.textContent = `${found} de ${rows.length} entradas`;
   });
 }
+
+// Show the source's real upgrade values one step at a time; no interpolation.
+const statGroups = new Map<HTMLElement, HTMLElement[]>();
+for (const box of document.querySelectorAll<HTMLElement>(
+  ".wiki-content .Stats-Box",
+)) {
+  const root =
+    box.closest<HTMLElement>("[data-article-panel]") ||
+    box.closest<HTMLElement>(".mainStats");
+  if (!root) continue;
+  const title = box.querySelector("h3")?.cloneNode(true) as HTMLElement | null;
+  title?.querySelectorAll("details").forEach((e) => e.remove());
+  if (!/^(?:Deployment|Upgrade)\b/i.test(title?.textContent?.trim() || ""))
+    continue;
+  const list = statGroups.get(root) || [];
+  list.push(box);
+  statGroups.set(root, list);
+}
+let statsIndex = 0;
+for (const [root, boxes] of statGroups) {
+  if (boxes.length < 3) continue;
+  const tools = document.createElement("div"),
+    label = document.createElement("label"),
+    row = document.createElement("div"),
+    previous = document.createElement("button"),
+    next = document.createElement("button"),
+    select = document.createElement("select"),
+    foot = document.createElement("div"),
+    count = document.createElement("small"),
+    last = document.createElement("button");
+  tools.className = "stats-controls";
+  row.className = "stats-controls-row";
+  foot.className = "stats-controls-foot";
+  select.id = `stats-step-${++statsIndex}`;
+  select.dataset.statsSelect = "";
+  label.htmlFor = select.id;
+  label.textContent = "Escolha a etapa do personagem";
+  previous.type = next.type = last.type = "button";
+  previous.textContent = "‹";
+  next.textContent = "›";
+  last.textContent = "Última etapa";
+  previous.setAttribute("aria-label", "Etapa anterior");
+  next.setAttribute("aria-label", "Próxima etapa");
+  boxes.forEach((box, index) => {
+    const heading = box
+      .querySelector("h3")
+      ?.cloneNode(true) as HTMLElement | null;
+    heading?.querySelectorAll("details").forEach((e) => e.remove());
+    const option = document.createElement("option");
+    option.value = String(index);
+    option.textContent =
+      heading?.textContent?.replace(/\s+/g, " ").trim() || `Etapa ${index + 1}`;
+    select.append(option);
+    box.dataset.statsSelectId = select.id;
+    box.dataset.statsStep = String(index);
+  });
+  function choose() {
+    const index = Number(select.value);
+    boxes.forEach((box, i) => {
+      box.hidden = index !== i;
+    });
+    previous.disabled = index === 0;
+    next.disabled = index === boxes.length - 1;
+    count.textContent = `${index + 1} de ${boxes.length} etapas · valores da fonte`;
+  }
+  select.addEventListener("change", choose);
+  previous.addEventListener("click", () => {
+    select.value = String(Math.max(0, Number(select.value) - 1));
+    choose();
+  });
+  next.addEventListener("click", () => {
+    select.value = String(Math.min(boxes.length - 1, Number(select.value) + 1));
+    choose();
+  });
+  last.addEventListener("click", () => {
+    select.value = String(boxes.length - 1);
+    choose();
+  });
+  row.append(previous, select, next);
+  foot.append(count, last);
+  tools.append(label, row, foot);
+  const top = boxes[0];
+  let anchor: HTMLElement = top;
+  while (anchor.parentElement && anchor.parentElement !== root)
+    anchor = anchor.parentElement;
+  root.insertBefore(tools, anchor);
+  choose();
+}
+
+// Preserve the complete source infobox alongside the compact profile summary.
+for (const infobox of document.querySelectorAll<HTMLElement>(
+  ".article-kind-unit .portable-infobox",
+)) {
+  const detail = document.createElement("details"),
+    summary = document.createElement("summary");
+  detail.className = "unit-extra-data";
+  summary.textContent = "Ver dados adicionais da fonte";
+  infobox.before(detail);
+  detail.append(summary, infobox);
+}
+
+if (location.hash) revealAnchor();

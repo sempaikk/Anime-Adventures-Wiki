@@ -2,6 +2,24 @@ import { accountApi, getSession, localFavorites } from "./favorites";
 
 getSession()
   .then((session) => {
+    if (session.user) {
+      const link = document.querySelector<HTMLElement>("[data-account-link]");
+      const label = link?.querySelector<HTMLElement>("[data-account-label]");
+      if (label) label.textContent = session.user.name;
+      if (
+        link &&
+        /^https:\/\/cdn\.discordapp\.com\/(?:avatars|embed\/avatars)\//.test(
+          session.user.avatar,
+        )
+      ) {
+        const image = document.createElement("img");
+        image.src = session.user.avatar;
+        image.alt = "";
+        image.width = 29;
+        image.height = 29;
+        link.querySelector(".account-avatar-placeholder")?.replaceWith(image);
+      }
+    }
     if (session.enabled)
       document
         .querySelectorAll<HTMLElement>("[data-account-entry]")

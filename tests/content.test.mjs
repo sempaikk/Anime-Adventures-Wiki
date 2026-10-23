@@ -213,3 +213,23 @@ test("cached media and animation posters match their recorded bytes without gene
     }
   }
 });
+
+test("new official game artwork preserves its provenance and original bytes", () => {
+  const official = JSON.parse(fs.readFileSync("source/official-links.json"));
+  assert.equal(
+    official.roblox.url,
+    "https://www.roblox.com/games/8304191830/Anime-Adventures",
+  );
+  assert.equal(official.discord.url, "https://discord.gg/adventures");
+  assert.equal(official.youtube.url, "https://www.youtube.com/@GomuDev");
+  for (const asset of official.assets) {
+    assert.equal(asset.generation, false);
+    assert.equal(
+      crypto
+        .createHash("sha256")
+        .update(fs.readFileSync("public" + asset.file))
+        .digest("hex"),
+      asset.sha256,
+    );
+  }
+});

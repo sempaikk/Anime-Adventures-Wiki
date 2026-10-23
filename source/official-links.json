@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-10-23",
+  "roblox": {
+    "url": "https://www.roblox.com/games/8304191830/Anime-Adventures",
+    "universe_id": 3183403065,
+    "creator": "Gomu",
+    "verification": "Public Roblox game API identifies the supplied place and creator."
+  },
+  "discord": {
+    "url": "https://discord.gg/adventures",
+    "guild_id": "833234386249056267",
+    "name": "Anime Adventures",
+    "verification": "Public invite API describes this as the official Anime Adventures server."
+  },
+  "youtube": {
+    "url": "https://www.youtube.com/@GomuDev",
+    "verification": "Channel link supplied by the project owner; direct page access unavailable from this environment."
+  },
+  "assets": [
+    {
+      "file": "/art/official/roblox-cover.png",
+      "source_url": "https://tr.rbxcdn.com/180DAY-bd4fbfaf530e5a1f2f4a053791448977/768/432/Image/Png/noFilter",
+      "width": 768,
+      "height": 431,
+      "sha256": "48ee6fa50d734253f9204695a6ae99bf0ca4146e01e1882aded2d806d41f2ac9",
+      "generation": false
+    },
+    {
+      "file": "/art/official/roblox-icon.png",
+      "source_url": "https://tr.rbxcdn.com/180DAY-ceec97df50507c3436e05dfca16cd467/512/512/Image/Png/noFilter",
+      "width": 512,
+      "height": 512,
+      "sha256": "d35158d9cb562e482cb7e7c99036ed0b80ac42a6b11af5f15e3bb39de820e2a1",
+      "generation": false
+    }
+  ]
+}
