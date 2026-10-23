@@ -1,11 +1,13 @@
 ---
-import { unitUrl } from '../lib/wiki';
+import { unitUrl, articles } from '../lib/wiki';
 import { rarityTone } from '../lib/community';
+import { towerType, deploymentCost } from '../lib/unit-tools.mjs';
 const { unit, index = 0 } = Astro.props;
+const facts = articles.find(page=>page.slug===unit.article)?.facts || [];
 ---
-<article class="unit-entry" data-unit-card data-name={(unit.name+' '+unit.aliases.join(' ')).toLowerCase()} data-rarity={unit.rarity} data-evolved={String(unit.name.includes('('))} data-retired={String(unit.retired)} data-tone={rarityTone(unit.rarity)}>
+<article class="unit-entry" data-unit-card data-title={unit.name} data-name={(unit.name+' '+unit.aliases.join(' ')).toLowerCase()} data-rarity={unit.rarity} data-retired={String(unit.retired)} data-tone={rarityTone(unit.rarity)} data-tower={towerType({facts})} data-cost={deploymentCost({facts}) ?? ''}>
 <a class="unit-card" href={unitUrl(unit)} style={`--i:${index}`}>
   <div class="unit-art"><span class="unit-code">{unit.retired?'ARQUIVO':'UNIDADE'} / {String(index+1).padStart(3,'0')}</span>{unit.image ? <img src={unit.image} alt={unit.name} loading="lazy" decoding="async" width={unit.original_image?.width || 144} height={unit.original_image?.height || 144}/> : <div class="missing-portrait"><span>Retrato ainda<br/>indisponível</span></div>}<span class="unit-arrow" aria-hidden="true"><i class="arrow-diagonal" aria-hidden="true"></i></span></div>
   <div class="unit-caption"><span class="rarity-label">{unit.retired ? 'Arquivo histórico' : unit.rarity || 'Personagem'}</span><h3>{unit.name}</h3></div>
-</a><button type="button" class="unit-peek" data-unit-preview={unit.id} aria-label={`Abrir ficha rápida de ${unit.name}`}>Ficha rápida <span aria-hidden="true">＋</span></button>
+</a><div class="unit-card-actions"><button type="button" class="unit-peek" data-unit-preview={unit.id} aria-label={`Abrir ficha rápida de ${unit.name}`}>Ficha rápida <span aria-hidden="true">＋</span></button><button type="button" class="unit-compare" data-compare={unit.id} aria-label={`Comparar ${unit.name}`} aria-pressed="false">Comparar</button></div>
 </article>

@@ -28,7 +28,7 @@ A coleção apresenta 661 artigos, com revisões textuais e apresentações pres
 
 O catálogo distingue as formas, os nomes históricos documentados e as páginas atuais. Não atribui a foto de outra evolução para preencher uma ausência. Retratos faltantes são informados ao visitante. A biblioteca separa personagens, itens, modos, mecânicas, guias e tier lists e permite incluir as formas retiradas.
 
-As mídias usadas nos artigos são hospedadas localmente. `source/media-library.json` registra a origem, dimensões e hashes. Animações extensas têm uma prévia estática sem perdas; o visitante pode carregar a animação original sob demanda. Não são utilizadas imagens geradas por IA nem ampliação artificial.
+As mídias usadas nos artigos são hospedadas localmente. `source/media-library.json` registra a origem, dimensões e hashes. Animações extensas têm uma prévia estática sem perdas; o visitante pode carregar a animação original sob demanda. Os retratos e as mídias dos artigos preservam as imagens das fontes, sem ampliação artificial. A ilustração de apresentação do site foi criada com IA e tem origem registrada em `source/site-artwork.json`.
 
 O build utiliza os arquivos presentes no repositório e não consulta a Fandom. `scripts/fetch_rendered.py` retoma a coleta com cache e intervalo entre consultas. `scripts/prepare_content.mjs` prepara o catálogo, os resumos e a busca; `scripts/audit_site.mjs` verifica links, imagens, âncoras e resíduos de marcação em todas as páginas construídas.
 

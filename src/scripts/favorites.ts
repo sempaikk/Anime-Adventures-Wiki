@@ -3,6 +3,7 @@ type Session = { enabled: boolean; user: User | null };
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 let sessionPromise: Promise<Session> | undefined;
 let favoritesPromise: Promise<{ ids: string[]; account: boolean }> | undefined;
+let mutationQueue: Promise<unknown> = Promise.resolve();
 const cleanIds = (value: unknown): string[] =>
   Array.isArray(value)
     ? [
@@ -95,19 +96,18 @@ export function getFavorites() {
       });
   return favoritesPromise;
 }
-export async function toggleFavorite(id: string) {
-  const state = await getFavorites(),
-    wasSaved = state.ids.includes(id);
-  if (!wasSaved && state.ids.length >= 1000)
+async function mutateFavorite(id: string, desired?: boolean) {
+  const state = await getFavorites();
+  if (!state.account) state.ids = localFavorites();
+  const wasSaved = state.ids.includes(id), active = desired ?? !wasSaved;
+  if (!wasSaved && active && state.ids.length >= 1000)
     throw Error("Sua coleção atingiu o limite de 1.000 favoritos.");
   if (state.account)
     await accountApi(
       "/favorites/" + encodeURIComponent(id),
-      wasSaved ? "DELETE" : "PUT",
+      active ? "PUT" : "DELETE",
     );
-  const ids = wasSaved
-    ? state.ids.filter((value) => value !== id)
-    : [...state.ids, id];
+  const ids = active ? wasSaved ? state.ids : [...state.ids, id] : state.ids.filter((value) => value !== id);
   if (!state.account) {
     try {
       localStorage.setItem("aa-favorites", JSON.stringify(ids));
@@ -118,5 +118,24 @@ export async function toggleFavorite(id: string) {
     }
   }
   state.ids = ids;
-  return { active: !wasSaved, account: state.account };
+  favoritesPromise = Promise.resolve(state);
+  try { localStorage.setItem("aa-favorites-updated", `${Date.now()}-${Math.random()}`); } catch { /* Saving already reports storage failures for guests. */ }
+  document.dispatchEvent(new Event("aa:favorites-changed"));
+  return { active, account: state.account };
 }
+function enqueue(id: string, active?: boolean) {
+  const result = mutationQueue.then(() => mutateFavorite(id, active));
+  mutationQueue = result.catch(() => {});
+  return result;
+}
+export const toggleFavorite = (id: string) => enqueue(id);
+export const removeFavorite = (id: string) => enqueue(id, false);
+function invalidate() {
+  sessionPromise = favoritesPromise = undefined;
+  document.dispatchEvent(new Event("aa:favorites-changed"));
+}
+window.addEventListener("storage", (event) => {
+  if (event.key === null || ["aa-favorites", "aa-account-active", "aa-favorites-updated"].includes(event.key)) invalidate();
+});
+window.addEventListener("pageshow", (event) => { if (event.persisted) invalidate(); });
+document.addEventListener("visibilitychange", () => { if (document.visibilityState === "visible") invalidate(); });

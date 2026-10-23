@@ -121,6 +121,7 @@ const index = wiki.articles
     kind: page.kind,
     aliases: page.aliases,
     image: page.thumbnail,
+    favorite_id: page.canonical_slug || page.slug,
   }));
 index.push(
   ...wiki.units
@@ -160,6 +161,10 @@ fs.writeFileSync(
         : `/personagem/${unit.id}/`,
       facts:
         wiki.articles.find((page) => page.slug === unit.article)?.facts || [],
+      source: (() => {
+        const page = wiki.articles.find((page) => page.slug === unit.article);
+        return page ? { url: page.source_url + "?oldid=" + page.revision_id, revision: page.revision_timestamp } : null;
+      })(),
     })),
   ),
 );

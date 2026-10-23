@@ -1,15 +1,6 @@
 import { getFavorites, toggleFavorite } from "./favorites";
-type Unit = {
-  id: string;
-  favorite_id: string;
-  name: string;
-  aliases: string[];
-  rarity: string;
-  image: string | null;
-  retired: boolean;
-  url: string;
-  facts: { label: string; value: string }[];
-};
+import { getUnits, type Unit } from "./unit-data";
+import { factLabel, factValue } from "../lib/unit-tools.mjs";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const modal = document.querySelector<HTMLDialogElement>("#unit-preview")!;
 const title = modal.querySelector<HTMLElement>("#preview-name")!;
@@ -22,22 +13,8 @@ const article = modal.querySelector<HTMLAnchorElement>(
   "[data-preview-article]",
 )!;
 const save = modal.querySelector<HTMLButtonElement>("[data-preview-save]")!;
-let pending: Promise<Unit[]> | undefined,
-  version = 0,
+let version = 0,
   current: Unit | null = null;
-function loadUnits() {
-  if (!pending)
-    pending = fetch(base + "/data/units.json")
-      .then((r) => {
-        if (!r.ok) throw Error();
-        return r.json();
-      })
-      .catch((error) => {
-        pending = undefined;
-        throw error;
-      });
-  return pending;
-}
 const tone = (value: string) => {
   const s = value.toLowerCase();
   return s.includes("secret")
@@ -69,13 +46,21 @@ async function open(id: string) {
   image.removeAttribute("src");
   article.hidden = true;
   modal.removeAttribute("data-tone");
+  const compare = modal.querySelector<HTMLButtonElement>("[data-preview-compare]")!;
+  compare.disabled = true;
+  compare.removeAttribute("data-compare");
   modal.showModal();
   try {
-    const units = await loadUnits();
+    const units = await getUnits();
     if (request !== version || !modal.open) return;
     const unit = units.find((u) => u.id === id);
     if (!unit) throw Error();
     current = unit;
+    compare.dataset.compare = unit.id;
+    delete compare.dataset.compareLabel;
+    compare.setAttribute("aria-label", `Comparar ${unit.name}`);
+    compare.disabled = false;
+    document.dispatchEvent(new Event("aa:comparison-refresh"));
     title.textContent = unit.name;
     rarity.textContent = unit.retired
       ? "Arquivo histórico"
@@ -92,10 +77,11 @@ async function open(id: string) {
       message.textContent =
         "Ainda não há um retrato confirmado para esta forma.";
     for (const fact of unit.facts) {
+      if (!factValue(unit, fact.label)) continue;
       const row = document.createElement("div"),
         dt = document.createElement("dt"),
         dd = document.createElement("dd");
-      dt.textContent = fact.label;
+      dt.textContent = factLabel(fact.label);
       dd.textContent = fact.value;
       row.append(dt, dd);
       facts.append(row);
@@ -168,4 +154,15 @@ save.addEventListener("click", async () => {
   } finally {
     if (request === version) save.disabled = false;
   }
+});
+document.addEventListener("aa:favorites-changed", async () => {
+  const unit = current, request = version;
+  if (!unit || !modal.open) return;
+  try {
+    const state = await getFavorites();
+    if (request !== version || !modal.open) return;
+    const active = state.ids.includes(unit.favorite_id);
+    save.textContent = active ? "Salvo ✓" : "Salvar";
+    save.setAttribute("aria-pressed", String(active));
+  } catch (error) { if (request === version) message.textContent = (error as Error).message; }
 });

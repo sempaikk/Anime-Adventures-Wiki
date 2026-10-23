@@ -26,3 +26,7 @@ da origem é executado pelo site. O HTML importado é sanitizado antes da public
 ## Referências adicionais do jogo
 
 Artes de Anime Adventures publicadas por Gomu na página oficial do jogo no Roblox: https://www.roblox.com/games/8304191830/Anime-Adventures. Cópias originais e seus hashes estão documentados em `source/official-links.json`. Todos os direitos das artes permanecem com seus respectivos titulares. O projeto é independente. Os links fornecidos pelo proprietário para Gomu no YouTube e para o Discord do jogo são apresentados como destinos externos; seu conteúdo não foi republicado.
+
+## Ilustração do site
+
+A ilustração de apresentação em `src/assets/adventures-lobby.png` foi gerada com IA para este projeto, por solicitação do responsável. Origem e hash estão em `source/site-artwork.json`. Ela é usada como arte decorativa; os retratos identificados e as mídias dos artigos mantêm suas fontes de jogo.

@@ -236,102 +236,6 @@ document.addEventListener("keydown", (e) => {
     dialog.open ? dialog.close() : openSearch();
   }
 });
-const unitGrid = $("#unit-grid");
-if (unitGrid) {
-  const cards = Array.from(
-    unitGrid.querySelectorAll("[data-unit-card]"),
-  ) as HTMLElement[];
-  const query = $("#unit-search") as HTMLInputElement,
-    rarity = $("#rarity-filter") as HTMLSelectElement,
-    form = $("#form-filter") as HTMLSelectElement,
-    retired = $("#retired-filter") as HTMLInputElement;
-  let shown = 12;
-  function filter(reset = true) {
-    if (reset) shown = 12;
-    const q = normalize(query.value);
-    const matched = cards.filter(
-      (card) =>
-        normalize(card.dataset.name || "").includes(q) &&
-        (!rarity.value || card.dataset.rarity === rarity.value) &&
-        (!form.value ||
-          card.dataset.evolved === String(form.value === "variant")) &&
-        (retired.checked || card.dataset.retired !== "true"),
-    );
-    const visible = new Set(matched.slice(0, shown));
-    for (const c of cards) c.hidden = !visible.has(c);
-    $("#unit-results").textContent =
-      `${matched.length} personagem${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
-    $("#unit-empty").hidden = matched.length > 0;
-    $("#load-units").hidden = shown >= matched.length;
-  }
-  query.addEventListener("input", () => filter());
-  for (const control of [rarity, form, retired])
-    control.addEventListener("change", () => filter());
-  $("#load-units").addEventListener("click", () => {
-    shown += 12;
-    filter(false);
-  });
-  $("#clear-filters").addEventListener("click", () => {
-    query.value = "";
-    rarity.value = "";
-    form.value = "";
-    retired.checked = false;
-    filter();
-  });
-  filter();
-}
-const articleGrid = $("#article-grid");
-if (articleGrid) {
-  const cards = Array.from(articleGrid.children) as HTMLElement[],
-    query = $("#article-search") as HTMLInputElement;
-  const includeRetired = $("#library-retired") as HTMLInputElement;
-  query.value = new URLSearchParams(location.search).get("q") || "";
-  let kind = new URLSearchParams(location.search).get("tipo") || "",
-    shown = 12;
-  const kindButtons = Array.from(
-    document.querySelectorAll<HTMLElement>("[data-article-kind]"),
-  );
-  if (!kindButtons.some((button) => button.dataset.articleKind === kind))
-    kind = "";
-  kindButtons.forEach((button) =>
-    button.setAttribute(
-      "aria-pressed",
-      String(button.dataset.articleKind === kind),
-    ),
-  );
-  function filter(reset = true) {
-    if (reset) shown = 12;
-    const q = normalize(query.value);
-    const matched = cards.filter(
-      (c) =>
-        (!kind || c.dataset.kind === kind) &&
-        (includeRetired.checked || c.dataset.retired !== "true") &&
-        normalize(c.dataset.title || "").includes(q),
-    );
-    const visible = new Set(matched.slice(0, shown));
-    for (const c of cards) c.hidden = !visible.has(c);
-    $("#article-results").textContent =
-      `${matched.length} artigo${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
-    $("#article-empty").hidden = matched.length > 0;
-    $("#load-articles").hidden = shown >= matched.length;
-  }
-  query.addEventListener("input", () => filter());
-  includeRetired.addEventListener("change", () => filter());
-  document.querySelectorAll("[data-article-kind]").forEach((b) =>
-    b.addEventListener("click", () => {
-      kind = (b as HTMLElement).dataset.articleKind || "";
-      document
-        .querySelectorAll("[data-article-kind]")
-        .forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
-      filter();
-    }),
-  );
-  $("#load-articles").addEventListener("click", () => {
-    shown += 12;
-    filter(false);
-  });
-  filter();
-}
 const favorite = $("[data-favorite]");
 if (favorite) {
   const id = favorite.dataset.favorite!;
@@ -359,52 +263,13 @@ if (favorite) {
       (favorite as HTMLButtonElement).disabled = false;
     }
   });
-  getFavorites()
-    .then((state) => refresh(state.ids.includes(id)))
-    .catch(() => {
-      favorite.textContent = "Tentar salvar nos favoritos";
-    });
-}
-const favorites = $("#favorite-grid");
-if (favorites) {
-  Promise.all([getIndex(), getFavorites()])
-    .then(([index, state]) => {
-      const ids = new Set(state.ids);
-      const found = index.filter((p: any) =>
-        ids.has(p.favorite_id || p.url.split("/")[2]),
-      );
-      $("#favorite-empty").hidden = found.length > 0;
-      for (const item of found) {
-        const a = document.createElement("a");
-        a.className = item.image
-          ? "library-card"
-          : "library-card library-card--text";
-        a.href = local(item.url);
-        const box = document.createElement("div"),
-          h = document.createElement("h2"),
-          p = document.createElement("p");
-        h.textContent = item.title;
-        p.textContent = item.excerpt;
-        box.className = "library-card-copy";
-        if (item.image) {
-          const portrait = document.createElement("div"),
-            image = document.createElement("img");
-          portrait.className = "library-thumbnail";
-          image.src = local(item.image);
-          image.alt = "";
-          image.loading = "lazy";
-          portrait.append(image);
-          a.append(portrait);
-        }
-        box.append(h, p);
-        a.append(box);
-        favorites.append(a);
-      }
-    })
-    .catch(() => {
-      favorites.textContent =
-        "Não foi possível carregar seus favoritos. Atualize a página para tentar novamente.";
-    });
+  function refreshFavorite() {
+    getFavorites()
+      .then((state) => refresh(state.ids.includes(id)))
+      .catch(() => { favorite.textContent = "Tentar salvar nos favoritos"; });
+  }
+  document.addEventListener("aa:favorites-changed", refreshFavorite);
+  refreshFavorite();
 }
 const updateTabs = Array.from(
   document.querySelectorAll("[data-update-tab]"),
@@ -489,6 +354,9 @@ import "./articles";
 import "./effects";
 import "./account";
 import "./unit-preview";
+import "./compare";
+import "./catalog";
+import "./favorite-page";
 import { getFavorites, toggleFavorite } from "./favorites";
 
 function searchRank(item: any, q: string) {

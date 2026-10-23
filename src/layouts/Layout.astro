@@ -3,13 +3,16 @@ import '../styles/global.css';
 import '../styles/content.css';
 import '../styles/adventures.css';
 import '../styles/interface.css';
+import '../styles/tools.css';
 import { wiki, articleUrl, art, catalog } from '../lib/wiki';
 import { channels, botInvite } from '../lib/community';
 import NavigationMotion from '../components/NavigationMotion.astro';
+import ComparisonTray from '../components/ComparisonTray.astro';
 const isHome = Astro.url.pathname.replace(/\/$/, '') === import.meta.env.BASE_URL.replace(/\/$/, '');
 const { title = 'Adventures Wiki — Anime Adventures', description = 'Personagens, itens, guias e informações sobre Anime Adventures. Wiki independente da comunidade.', active = isHome ? 'inicio' : '' } = Astro.props;
 const pages = [
   ['inicio','Início','/'], ['biblioteca','Biblioteca','/biblioteca/'],
+  ['comparar','Comparar personagens','/comparar/'],
   ['tiers','Tier lists',articleUrl('Tier Lists')], ['map','Mapa do lobby','/mapa/'],
   ['comunidade','Jogo e comunidade','/comunidade/'], ['updates','Atualizações','/atualizacoes/'],
 ];
@@ -54,7 +57,8 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
 <nav class="mobile-dock" aria-label="Navegação rápida"><a href="/" aria-current={active==='inicio'?'page':undefined}>Início</a><a href="/biblioteca/" aria-current={active==='biblioteca'?'page':undefined}>Biblioteca</a><a href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}>Favoritos</a><a href="/conta/" aria-current={active==='conta'?'page':undefined}>Conta</a></nav>
 <div class="nav-scrim" data-menu-close></div>
 <dialog id="search-dialog" aria-labelledby="search-title"><div class="search-head"><div><span class="eyebrow">BUSCA</span><h2 id="search-title">Pesquisar na wiki</h2></div><button class="square-button" data-search-close aria-label="Fechar busca">×</button></div><label class="sr-only" for="global-search">Pesquisar personagens e artigos</label><input id="global-search" type="search" placeholder="Personagens, itens, modos…" autocomplete="off"/><div class="search-results" id="global-results" aria-live="polite"></div><div class="search-foot"><span>Você também pode pesquisar por nomes anteriores.</span><span><kbd>Esc</kbd> para fechar</span></div></dialog>
-<dialog class="unit-preview" id="unit-preview" aria-labelledby="preview-name"><button class="square-button preview-close" data-preview-close aria-label="Fechar ficha rápida">×</button><div class="preview-art"><span class="eyebrow">FICHA RÁPIDA</span><img data-preview-image alt="" width="300" height="300"/><span class="preview-orbit" aria-hidden="true"></span></div><div class="preview-copy"><span class="rarity-label" data-preview-rarity></span><h2 id="preview-name">Carregando personagem…</h2><p data-preview-aliases></p><dl class="unit-facts" data-preview-facts></dl><p class="preview-notice" data-preview-message role="status"></p><div class="preview-actions"><a class="button button-primary" data-preview-article href="/personagens/">Ver ficha completa <span>→</span></a><button class="button button-outline" data-preview-save disabled>Salvar</button></div></div></dialog>
+<dialog class="unit-preview" id="unit-preview" aria-labelledby="preview-name"><button class="square-button preview-close" data-preview-close aria-label="Fechar ficha rápida">×</button><div class="preview-art"><span class="eyebrow">FICHA RÁPIDA</span><img data-preview-image alt="" width="300" height="300"/><span class="preview-orbit" aria-hidden="true"></span></div><div class="preview-copy"><span class="rarity-label" data-preview-rarity></span><h2 id="preview-name">Carregando personagem…</h2><p data-preview-aliases></p><dl class="unit-facts" data-preview-facts></dl><p class="preview-notice" data-preview-message role="status"></p><div class="preview-actions"><a class="button button-primary" data-preview-article href="/personagens/">Ver ficha completa <span>→</span></a><button class="button button-outline" data-preview-save disabled>Salvar</button><button type="button" class="button button-outline" data-preview-compare disabled>Comparar</button></div></div></dialog>
 <div class="toast" role="status" aria-live="polite"></div>
+<ComparisonTray/>
 <script src="../scripts/client.ts"></script>
 </body></html>
