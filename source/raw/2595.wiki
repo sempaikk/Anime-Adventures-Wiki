@@ -1,0 +1,18 @@
+{{Unobtainable Unit|Update 12 - ''My Hero Academia'' update}}
+==Overview==
+Mist Ninja is a {{Rarity|Mythic}} {{LU}}. He was only obtainablе by getting on the Top 50 Infinite Run leaderboard (top 10 for his shiny) after Update 11.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="When I was your age, my hands were already soaked in blood."
+|caption2="You talk too much, kid... Your words cut deep... Deeper than any blade"
+|image1=Mist Ninja.png}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

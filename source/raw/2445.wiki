@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 11.75 - Freezo's Invasion Raid}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by evolving [[Lightning God]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Human. I have one request to make... don't die for me now"
+|caption2="Bastard. That strength is wasted on a Human like you"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades..
+
+==Trivia==
+
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Battle Pass Units]]

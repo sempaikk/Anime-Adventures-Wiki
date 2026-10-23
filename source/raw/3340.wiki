@@ -1,0 +1,24 @@
+==Overview==	
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Well done... everyone go! Show them the power of the Revolutionary Army!"
+|caption2="Oops, I'm still not used to this power."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]

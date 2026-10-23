@@ -1,0 +1,23 @@
+==Overview==
+'''Ashborn''' is a {{Rarity|Mythical}} unit. He is Reobtainable since 20.0.0.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Heroes and villains both thrive on violence, but we're still categorized. "You're good" "You're evil" That's how it is! [[Prime Force (Peace)|Symbol of Peace]]? Hah! In the end you're just a tool for violence, made to keep us down. And violence only breed more violence."
+|caption2="Violence for the sake of others makes it admirable."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Magic]]

@@ -1,0 +1,26 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through evolving [[Illusionist (Chrysalis)]].
+
+{{EvolutionTable}}
+*You also need to at least kill 5000 enemies during [[Illusionist (Chrysalis)]] form and 62.5% awakening.
+
+*
+* To get Worthy Souls (each Worthy Soul has 0.5% awakening), you need to either clear Spirit Town - Act 6 (Legend Stage), or by sacrificing {{Rarity|Mythical}} units for 12.5% each.
+*'''Illusionist (Fusion)''' can be evolved into [[Illusionist (Final)]]
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Seeping crest of turbidity. Arrogant vessel of lunacy! Boil forth and deny! Grow numb and flicker! Disrupt sleep! Crawling queen of iron! Eternally self-destructing doll of mud! Unite! Repulse! Fill with soil and know your own powerlessness!"
+|caption2="Fear is necessary to achieve evolution. The fear that, in one's current state, one could quite possibly be destroyed at any time. I thank you, White Snake. It is thanks to your presence that I have finally succeeded in surpassing both Psychopomps and Spirits."
+|image1=Illusionist_(Final).png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* At Update 11.5, his ability duration got nerfed from 20 seconds to 10 seconds.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

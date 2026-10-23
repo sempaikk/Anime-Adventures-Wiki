@@ -1,0 +1,24 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Magic Disbeliever]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="As you live you lose reason and hope. But as you keep going, you will find new reasons and hopes!! As I found this out, I also found out that my magic... is never giving up!!!"
+|caption2="I'll never forgive them. This malice will never disappear. Devils are scum. Every last one of them. And so, I'm gonna kill them all!!! Even if I have to steal your body to do it!!!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

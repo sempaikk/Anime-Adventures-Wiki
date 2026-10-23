@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 17 - Fate Update - 30 September 2023}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He can only be obtained be evolving [[Smoka]].   
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Sorry kid, looks like my pants ate your ice cream."
+|caption2="Sorry kid, looks like my pants ate your ice cream."
+}}{{Main Stats}}
+
+==Selling==
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

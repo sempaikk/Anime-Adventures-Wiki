@@ -1,0 +1,130 @@
+local p = {}
+local data = mw.loadData('Module:ItemData/Data')
+local Shared = require( "Module:UnitData" )
+
+function toNil(thing)
+	if thing==nil or thing=='' then return nil else return thing end
+end
+
+
+function p.getItem(f)
+	local name = f.args["item"]
+	if not toNil(name) then return 'name' end
+	
+	if toNil(data[2][name]) then itemName = data[2][name]
+	elseif toNil(data[1][name]["name"]) then
+	gamename = data[1][name]["name"]
+	itemName = data[2][gamename]
+	end
+	return p.Main(itemName)
+end
+
+
+
+
+function p.Main(iName)
+	local Item = type(iName)=='table' and iName or p.getIcon(iName)
+	local cIndex={
+		["Boosts"]='drawBoost',
+		['Stars']='drawStas',
+		['XP Food']='drawXPFood',
+		['Materials']='drawMaterial',
+		['NoIcon']='drawNoIcon',
+	} --если класс не совпадает, использует функцию drawIcon
+ --   setmetatable(cIndex, {__index = function () return 'drawIcon' end})
+	if not toNil(Item.item_group) then
+		return p['drawIcon'](Item)
+	end
+	return p[cIndex[Item.item_group] or 'drawIcon'](Item)
+end
+
+
+function callCustomTooltip(targetClass, ...) --возвращает тултип запрошенного класса.
+	return drawIcon( ... )
+		:addClass( targetClass )
+		:attr('data-param', select( 1 , ... )['name'] )
+end
+
+function p.drawBoost(...) return tostring(drawBoost(...)) end
+function drawBoost(...)
+	return callCustomTooltip('boost-tooltip', ...)
+end
+
+function p.drawStas(...) return tostring(drawStas(...)) end
+function drawStas(...)
+	return callCustomTooltip('stas-tooltip', ...)
+end
+
+function p.drawXPFood(...) return tostring(drawXPFood(...)) end
+function drawXPFood(...)
+	return callCustomTooltip('XPFood-tooltip', ...)
+end
+
+function p.drawMaterial(...) return tostring(drawMaterial(...)) end
+function drawMaterial(...)
+	return callCustomTooltip('material-tooltip', ...)
+end
+
+
+
+
+
+function p.getIcon(iName)
+	local Item = {}
+
+	if type(data[2][iName])=='table' then
+		copy(data[2][iName])
+	end
+	Item.name = Item.name or iName
+	return Item
+end
+
+
+
+
+
+
+
+function p.drawIcon(...) return tostring(drawIcon(...)) end
+function drawIcon(item)
+	Item = item
+	if Item.item_group == "Materials" then 
+		Link = "Items#Materials"
+		return draftIcon(Item, Link):wikitext(' ')
+					:tag('span'):attr('class','dottedText')
+					:wikitext('[['.. Link  ..'|'.. Item.name ..']]'):done()
+	elseif Item.item_group == "Evolution" then 
+		Link = "Evolution"
+		return draftIcon(Item, Link):wikitext(' ')
+					:tag('span'):attr('class','dottedText')
+					:wikitext('[['.. Link  ..'|'.. Item.name ..']]'):done()
+	elseif Item.item_group == "XP Food" then 
+		Link = "Items#XP_Food"
+		return draftIcon(Item, Link):wikitext(' ')
+					:tag('span'):attr('class','dottedText')
+					:wikitext('[['.. Link  ..'|'.. Item.name ..']]'):done()
+	elseif Item.item_group == "Boosts" then 
+		Link = "Items#Boosts"
+		return draftIcon(Item, Link):wikitext(' ')
+					:tag('span'):attr('class','dottedText')
+					:wikitext('[['.. Link  ..'|'.. Item.name ..']]'):done()
+	elseif Item.item_group == "Stars" then 
+		Link = "Items#Materials"
+		return draftIcon(Item, Link):wikitext(' ')
+					:tag('span'):attr('class','dottedText')
+					:wikitext('[['.. Link  ..'|'.. Item.name ..']]'):done()
+	else return draftIcon(Item):wikitext(' '.. Item.name):attr('class','dottedText') end  
+end
+
+
+function p.draftIcon(...)	return tostring(draftIcon(...)) end
+function draftIcon(Item, Link)
+	return mw.html.create('span')
+		:wikitext('[[File:'.. Item.name ..'.png|x'.. 24 ..'px|link='.. (Item.Link or '') ..'|'.. (Item.name or '') ..']]')
+end
+
+
+
+
+
+return p

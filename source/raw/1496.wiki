@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas 2022 Update Part 1}}
+
+=='''Overview'''==
+'''Morbid''' is a {{Rarity|Mythical}}. He is only obtainable by evolving [[Morbid]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You think you're closest to becoming Pirate King? That title is mine!"
+|caption2="You think you're closest to becoming Pirate King? That title is mine!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Event Units]]

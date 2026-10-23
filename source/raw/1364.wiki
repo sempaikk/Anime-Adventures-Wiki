@@ -1,0 +1,24 @@
+''If you were looking for a different Experiment X unit, see [[Experiment X (disambiguation)]].''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is obtainable through the West city raid with a unknown chance, or by [[Raids|Raid Shop]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=My plan? Who said anything About a Plan? I want to become Stronger because I want to become Stronger! I seek Power for powers sake! It's What the Computer designed me to Do!
+|caption2="...I'll take my time killing every person on this planet. Even the mighty [[Carrot (Super)|Carrot]]."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Air}} damage type, along with other units without a second damage type.
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Air]]
+[[Category:Epic Units]]

@@ -1,0 +1,39 @@
+{{Meta Unit}}
+{{Meta Support Unit}} 
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+
+{{Unobtainable Unit|Update 15.5 - Summer update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}​. She can only be obtained by evolving [[Shadowgirl]]​. 
+
+{{EvolutionTable}}
+
+{{Takedowns|5,000}} 
+==Stats Overview==
+
+{{Tower_Infobox
+|caption1="[[Magic Girl (Salvation)|Magic Girl]]. My only friend... If... If it's for your sake... I don't mind being locked in this eternal maze!"
+|caption2=“It's only natural that you don't understand. Yes… No one in the world could possibly understand. This emotion is mine alone. It is for [[Magic Girl|Magic Girl]] alone. I told you, [[Magic Girl (Salvation)|Magic Girl]]. I’ll never let you go again!"
+}}{{Main Stats}}
+
+Attacks starting from Upgrade 7 are able to hit air type enemies. She also has dark as her secondary.
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+**She is the first Limited Unit to get buffed.
+**She is the first Unit to get buffed more than once upon debut.
+*During Update 13.5.0, her Final Measure attack's AoE size got buffed, and her Timestop active on upgrade 3 buffed from 42s -> 28s.
+**Also during Update 13.5.0, her Final Measure ability cooldown got buffed from 28 -> 15s. Her Final Measure attack cooldown and damage rebalanced (same dps, lower cd) as well (It used to have 19 SPA, 18 SPA on max).
+
+<gallery>
+</gallery>{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Secret Units]]
+
+
+<references />
+[[Category:Event Units]]

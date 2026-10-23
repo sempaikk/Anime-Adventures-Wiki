@@ -1,0 +1,24 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Great"
+|caption2="What the hell did you just say about my hair?!"
+}}{{Main Stats}}
+
+== Passive Ability: Disassembling Punch ==
+Josuka now attacks the enemy and then disassembles them with a object stunning them for 2 seconds.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

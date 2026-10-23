@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 15 - Anniversary + Eclipse! - 3 July 2023}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He can be obtained via Tier 50 of [[Battlepass|Magic Pass]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

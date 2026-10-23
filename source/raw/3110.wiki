@@ -1,0 +1,26 @@
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Sepsis]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox|caption1="The sufferings of my past were lessons on what to do to others as revenge! If I don't cause misery equal to my own unhappiness, I'll never balance the scales! That's how it was when you're a demon! And we kill anyone who tries to tell us otherwise."
+|caption2="Come on, there's no use crying."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}} 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Sepsis's shiny skin is based on when he was a human and he also wields normal pair of [https://en.wikipedia.org/wiki/Kama_(tool) Kama].
+*Sepsis has a 100% crit chance against bleeding enemies making his DPS increase by 50% consistently when paired with great bleed units such as [[Menace (Terror)]] or [[Berserker (Rage)]], both that can output high amounts of bleed ticks for maximum critical hits for Sepsis.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

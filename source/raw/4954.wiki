@@ -1,0 +1,20 @@
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. She could be obtained via [[Explode Star]] from [[Infinity Mansion]] (Season 9), while her Shiny Version can be obtained by placing {{RarityColor|Mythical|Master}} or highest.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The whole point of fighting is that you don't want to die! That you'll be killed if you lose! If you throw your life away in battle, where's the point in winning?!"
+|caption2="Actually, aren't you here a bit too soon? Heroes are meant to show up late, right? It'd be way more exciting if you showed up after I'd laid waste to a good bit of Seireitei."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]

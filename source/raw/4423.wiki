@@ -1,0 +1,28 @@
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythic}} unit. She can only be obtained by evolving [[Cherub]].
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Why won’t [[Supreme Being (Sovereign)|you]] promise me?! What are [[Supreme Being (Sovereign)|you]] dissatisfied about?! If you tell me, we will quickly eliminate the problem! If [[Supreme Being (Sovereign)|you]] say I’m the one in your way, I would kill myself immediately!”
+|caption2="Overseer of the Floor Guardians Cherub, at your command."
+|image1=
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+*She is one of the units who can be sacrifice to get [[Supreme Being]]
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

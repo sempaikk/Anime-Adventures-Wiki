@@ -1,0 +1,30 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Donut]].
+
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Set your heart ablaze, go beyond your limits!"
+|caption2="Set your heart aglaze, go beyond your limits!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Passive Ability: Burn ==
+All attacks of {{PAGENAME}} apply Burn DoT DMG (Damage over Time) to all enemies.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Burn Units]]

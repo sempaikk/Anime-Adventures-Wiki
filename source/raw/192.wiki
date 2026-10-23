@@ -1,0 +1,53 @@
+__NOTOC__
+This page will list the terms/slang and abbreviations used on certain pages, or just used by community a lot in general.
+
+== Terms & Abbreviations ==
+
+=== <big>'''AA''' - Anime Adventures</big> ===
+An abbreviation for the name of the game.
+
+=== <big>'''DPS''' - Damage Per Second</big> ===
+A calculation of how much damage a unit could theoretically do in 1 second, calculated using {Damage/SPA = DPS}.
+
+=== <big>'''SPA''' - Second Per Attack</big> ===
+Alternatively, "Attack speed", or how long it will take for a unit to attack.
+
+=== <big>'''CD''' - Cooldown</big> ===
+Short for the amount of time it takes an ability to refresh.
+
+=== <big>'''AoE''' - Area of Effect</big> ===
+* '''AoE (Cone)''' - Attacks with an AoE that resembles a cone. Any enemies within the cone will get damaged.
+* '''AoE (Circle)''' - Attacks with an AoE that resembles a circle . Any enemies within the circle will get damaged.
+* '''AoE (Line)''' - Attacks with an AoE that resembles a line. Any enemies within the line will get damaged.
+* '''AoE (Full)''' - Attacks within said unit's '''range bubble'''. Any enemies within the bubble will get damaged.
+
+=== <big>'''META'''  - Most Effective Tactic Available</big> ===
+The strongest units/lineup/placements a '''Player''' can use or have. To check a unit's viability, visit the [[Tier Lists]] page.
+
+=== <big>'''RND''' - Random</big> ===
+Short for '''Random'''. Commonly used as a term for a Unit's stats. <small>''Why Random? Refer to the '''[[FAQ]]''' page.''</small>
+
+=== <big>'''Inf''' - Infinite</big> ===
+Short for the '''[[Infinite]]''' Gamemode.
+
+=== <big>'''LB''' - Leaderboard</big> ===
+Short for the '''Leaderboards''' in the Lobby.
+
+=== <big>'''TS''' - Timestop</big> ===
+Short for '''[[Effects|Timestop]]''', an ability usable by certain Units.
+
+=== '''<big>TA - Time Acceleration</big>''' ===
+
+Short for '''Time Accel/Acceleration'''. [[Priest (Heaven)]]'s Ability.
+
+<big>'''RR - Reroll'''</big>
+
+Short for '''Reroll Tokens''', which is the tokens used for rerolling units's [[traits]] ''(not to be confused with '''Star Remnants''')'' . It's also a tradable item, and can be used as the base trading value for units/items/...
+
+<big>'''LF/MLF/NLF - Looking for/Mainly Looking For/Not Looking For'''</big>
+
+Mainly used in trading to discuss what a trader wants. <small>''*Could also be used as "Might Look For"''</small>
+
+<big>'''SAO - Sword Art Online'''</big>
+
+Used to refer to the map "[https://animeadventures.fandom.com/wiki/Story#Virtual_Dungeon Virtual Dungeon]".

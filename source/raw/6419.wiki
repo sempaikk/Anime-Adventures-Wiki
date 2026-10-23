@@ -1,0 +1,24 @@
+<div style="display: flex; align-items: center;">
+
+  <!-- Left Banner -->
+  <div style="flex: 1; text-align: center;">
+    <div style="max-width: 100%; overflow: hidden; border-radius: 10px;">
+      [[File:{{{BannerL|Unknown Banner L.webp}}}|160px|link={{{BannerLUnit|https://animeadventures.fandom.com/wiki/Anime_Adventures_Wiki}}}|class=LiveBanner_img]]
+    </div>
+  </div>
+
+  <!-- Middle Banner -->
+  <div style="flex: 1; text-align: center;">
+    <div style="max-width: 100%; overflow: hidden; border-radius: 10px;">
+      [[File:{{{BannerM|Unknown Banner M.webp}}}|160px|link={{{BannerMUnit|https://animeadventures.fandom.com/wiki/Anime_Adventures_Wiki}}}|class=LiveBanner_img]]
+    </div>
+  </div>
+
+  <!-- Right Banner -->
+  <div style="flex: 1; text-align: center;">
+    <div style="max-width: 100%; overflow: hidden; border-radius: 10px;">
+      [[File:{{{BannerR|Unknown Banner R.webp}}}|160px|link={{{BannerRUnit|https://animeadventures.fandom.com/wiki/Anime_Adventures_Wiki}}}|class=LiveBanner_img]]
+    </div>
+  </div>
+
+</div>

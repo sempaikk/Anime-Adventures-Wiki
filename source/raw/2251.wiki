@@ -1,0 +1,22 @@
+== Overview==
+{{PAGENAME}} is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons.]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If this is the path you choose to walk… I will not interfere. But if you turn the people against you… Will you be able to function as a hero? This worries me. But if you ever get in a tight spot… I will be there."
+|caption2="If this is the path you choose to walk… I will not interfere. But if you turn the people against you… Will you be able to function as a hero? This worries me. But if you ever get in a tight spot… I will be there."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+[[Category:Damage Type Fire]]
+[[Category:Burn Units]]

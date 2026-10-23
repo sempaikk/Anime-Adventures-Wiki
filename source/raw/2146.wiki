@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by buying the Devil Star from Makimo for 1000 bullets and rolling one of the 9 units, being Curse.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Enemies are enemies… we’re only using them. I have no intention of getting friendly with one.”
+|caption2="The one who killed my family and the one who killed my buddy are still alive. So, what would I be quitting for?"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Contract: Kon==
+[[File:ContractKonIcon.png|thumb|left]]
+Curse gains 50% more damage from his Curse Devil Form but he gains 50% more SPA. Akin now has a bigger AOE from his previous form which lets him attack more enemies.
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

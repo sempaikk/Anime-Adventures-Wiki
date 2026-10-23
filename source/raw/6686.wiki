@@ -1,0 +1,33 @@
+{{Meta Unit}}{{Meta Support Unit}}{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. Hе is only obtainable by еvolving [[Switchblade]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Killing is easy. It’s living that’s hard."
+|caption2="Style over substance? Nah, I’ll take both."
+|image1=|image2=Switchblade (Deception) Shiny.png
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+* Each time '''Switchblade (Deception)''' attacks, there is a chance to apply [[Effects|Dismember]], making enemies take 25% more [[Damage Affinities / Elements|Physical]] damage. He is the second unit to have this, the first being [[Cursed King]].
+* [[Switchblade]] and [[Switchblade (Deception)]] are the third and fourth units in the game who do 100% more damage when they attack with their critical hit, the first and second being [[Lex]] and [[Lex Akoman]].
+* At max upgrade, he will deal an average damage per second ( Average DPS ) of '''73,423.34''', which includes both his base damage and the additional average damage his crit will add. His total group DPS ( TDPS ) will be '''220,270.02'''. However, if you have the [[Relics|Endless Blades]] relic equipped and if that relic provides an additional 50% crit chance, then his DPS will increase to '''97,897.79''', raising his total group DPS to '''293,693.36'''. (excluding the 25% physical damage buff from his [[Effects|dismember]])
+
+==Gallery==
+<gallery>
+
+</gallery>
+[[File:Event Boss Losing Left leg.png|none|thumb]]
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Secret Units]]
+
+<references />

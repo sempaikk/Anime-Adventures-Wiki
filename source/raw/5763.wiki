@@ -1,0 +1,36 @@
+{{Meta Unit}}
+{{Meta Support Unit}}
+{{Unobtainable Unit|Update 20.4.1 Fool's Hunt!}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only bе obtained through opening Icy Stars with a 1/80,000 chance. (0.00125%)
+
+==Stats Overview ==
+{{Tower_Infobox
+|caption1="You shall fall... Bewildered, confused, shattered... I transcend everything."
+|caption2="Since The Beginning, no one has ever stood in the heavens, neither you, nor I, not even God himself, but that emptiness in the throne of heaven will be filled from this day forth, I will be the one to stand in the heavens.”}}{{Main Stats
+}}
+
+
+== Passive Ability: Transcending Heavenly Pressure ==
+Enemies that are hit by '''Illusionist (Transcended)''' that are '''25%''' health or lower (not including bosses) are set into a '''fragile state''', which leaves them one hit to anything.
+
+* Note: Enemies with purple health bars will say "Fragile" on it and have a text in full black saying "SHATTERED" when this is activates. 
+== Active Ability: Beyond the Heavens ==
+[[File:TrancendedAbilityIcon.png|left|thumb|80x80px]]
+On placement, Illusionist (Transcended) is given this ability that makes all enemies on the map (Including bosses) are stunned for 5 seconds whilst any enemy 35% health or lower to a fragile state. 
+
+* Note: Boss enemies that give themselves hyper armor (Like martial boss that gives itself a speed boost and regen) Or a buff might be unaffected by the ability.
+
+* Ability Cooldown is 6 minutes.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Illusionist (Transcended) is the second most expensive unit in the game, only second to [[Usurper (Founder)]].
+*Illusionist (Transcended)'s shiny appearance is based on a fanart by [https://x.com/AlbedoBlender/status/1510611236832129032 BE023], which can be found in X (Formerly known as twitter).
+*It has been tested that If Illusionist (Transcended) hits an enemy who has the explosive attribute and are affected by the fragile status will not stun any nearby units upon death.
+__NOTOC____NOEDITSECTION__
+{{Unit Navigation}}
+[[Category:Secret Units]]

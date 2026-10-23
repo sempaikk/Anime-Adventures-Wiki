@@ -1,0 +1,23 @@
+=='''Overview'''==
+'''Mochi''' is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Give up now! I used my Haki to see the future, this doesn't end well for you!"
+|caption2="You can see the future that I cannot yet see."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

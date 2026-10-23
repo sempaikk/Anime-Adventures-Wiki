@@ -1,0 +1,23 @@
+{{Disenchant Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can be obtained by evolving [[Falcon]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I just wanna enjoy myself. Seriously. Do some leisurely patrolling, put in a few appearances, say "Aw shucks, no trouble today," and get a good night's sleep! That's my ideal life!"
+|caption2="My back won't be enough to let you feel safe."
+|image1= {{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+[[Category:Evolved_Units]]

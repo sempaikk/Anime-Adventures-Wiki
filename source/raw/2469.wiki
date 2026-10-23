@@ -1,0 +1,34 @@
+''If you were looking for a different Izo unit, see [[Izo (disambiguation)]]''.
+{{Meta Unit}}{{Infinity Castle Meta Unit}}{{Meta Burn Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He can only be obtained by evolving [[Izo (Black Fire)]].
+He is also the boss of stage 5 of [[Raids#Storm Hideout|Storm Hideout]] in The Final Confrontation.
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“People live their lives bound by what they accept as correct and true. That’s how they define ‘reality’. But what does it mean to be ‘correct’ or ‘true’? Merely vague concepts.”
+|caption2="People’s lives don’t end when they die. It ends when they lose faith."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Passive Ability: Black Flames==
+Enemies can take more Burn DoT and he can deal 100% burn damage making his burn DPS very efficient. it's also really good for {{Damage Type|Fire}} Affinity Stages (weakness), or any stages with Ice enemies involved, such as Magic Town or Clover Kingdom.
+
+However, it's worth noting that since half of his damage comes from burn, he isn't as effective against Regen enemies.  This is because burn damage is dealt over time; as a result, it gives Regen enemies time to heal.  Consider a Regen enemy with 2000 HP, an Itochi (Susanoo) that does 1000 damage plus 1000 burn, and a different character that does 2000 damage.  Since Itochi (Susanoo)'s burn occurs over time, the enemy would be able to regen and survive his attack.  On the other hand, the character that dealt the damage all at once would prevent regeneration from occurring.
+
+With the [[Relics|Infernal Gaze]], his Burn Damage will be doubled and given his duration of 10 ticks (100% before the relic is applied), he would technically deal triple damage if including his normal damage. A max level {{PAGENAME}} can deal up to 660k+ damage with his burn, each burn dealing around 30k damage and also adding on the initial attack damage. His burn stacks with other burn units.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+Itachi's Shiny skin is him at the age of 11, from when he joined the Leaf Village's Special Anbu Force. 
+
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Burn Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

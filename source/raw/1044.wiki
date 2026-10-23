@@ -1,0 +1,28 @@
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Mochi]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't you dare... give unwanted support in a duel between men!!! If you're going to laugh at that idiot... then laugh at me too...!!!"
+|caption2="Oh, doughnuts! So delicious, doughnuts!"
+|image1={{PAGENAME}}.png
+|deployment_cost=1,200}}{{Main Stats}}
+
+== Passive Ability: Sticky Mochi ==
+{{PAGENAME}} slows down each enemy he attacks using a sticky mochi, making him a useful support unit. 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Burn Units]]

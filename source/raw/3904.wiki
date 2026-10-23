@@ -1,0 +1,29 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+
+==Overview==
+
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox|caption1="I’m going to become a Harem King!"|caption2="I’m going to become a Harem King!"}}
+{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* He was debuted as an NPC during the Demon Academy Portal event in the April Fools 2023 Update before the unit itself was added in the Anniversary 2023 Update. 
+
+==Gallery==
+
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Event Units]]

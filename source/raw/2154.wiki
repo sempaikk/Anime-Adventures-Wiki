@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtainable by evolving [[Paragon]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Sometimes... the humans my power killed and turned into weapons show up in my dreams and blame me for doing it. If I just let you die, I have this feeling you'll start haunting my dreams too. I also want to do everything I can to help you stay alive."
+|caption2="Sometimes... the humans my power killed and turned into weapons show up in my dreams and blame me for doing it. If I just let you die, I have this feeling you'll start haunting my dreams too. I also want to do everything I can to help you stay alive."
+|image1= {{PAGENAME}}.png
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Passive Ability: ??? ==
+Angel Requires base hp to attack. If the base does not have enough HP then Angel will stop attacking. The base HP will not go to 0 when Angel attacks.
+
+==Trivia==
+It's recommended to bring [[Sakuro]] when using this unit due to it's passive ability that attacks the base.{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

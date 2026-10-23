@@ -1,0 +1,22 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Guess we don't have a choice.
+We'll go by broomstick."
+|caption2="Guess we don't have a choice.
+We'll go by broomstick."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

@@ -1,0 +1,19 @@
+=='''Overview'''==
+{{PAGENAME}} is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Dragonslayer]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "I'm all FIRED UP NOW!!!"
+|caption2= “I am already used to taking on the same sins. For a Mage, the true sin is averting one's eyes... and no longer being able to believe in anyone!”
+}}{{Main Stats}}
+
+{{Selling}}
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Burn Units]]

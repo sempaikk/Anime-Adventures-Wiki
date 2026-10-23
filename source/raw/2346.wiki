@@ -1,0 +1,839 @@
+'''Tournament mode''' is a new mode added in '''Update 10'''. This mode allows you to compete against other players to gain rewards. Tournaments last '''one week'''. To access the tournament menu, go to the yellow tournament board next to '''Zen-o''', which is located to the right of the stairs leading to the Play area. Starting second week of the Tournament, unit traits are disabled but the relic still allowed.
+
+"Fight to surpass rivals in your bracket, and get rewarded based on your ranking! '''Brackets are assigned randomly every tournament.'''"
+
+
+
+=== Current Tournament: ===
+{| class="fandom-table"
+!Location
+!Time Limit
+!Type
+!--Damage Buff--
+!Modifier
+!Modifier 2
+!Modifier 3
+|-
+|Storm Hideout
+|20 Mins
+|Most DMG
+|[[File:Damage type Aqua.png|frameless|29x29px]] '''500%'''
+|None
+|None 
+|None
+|}
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; display:block; width:675px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Tier</center> 
+!<center>Reward</center>
+|-
+|<center>99.90% ~ 100%</center>
+|{{Trophies|x50}}, {{Gems|x4000}}, x40[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]], x1 {{RarityColor|Mythic|Special Shiny Unit}}
+|-
+|<center>99.00% ~ 99.89%</center>
+|{{Trophies|x45}}, {{Gems|x3500}}, x30[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]], x1 {{RarityColor|Mythic|Special Unit}}
+|-
+|<center>95.00% ~ 98,99%</center>
+|{{Trophies|x40}}, {{Gems|x3000}}, x25[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>90.00% ~ 94.99%</center>
+|{{Trophies|x35}}, {{Gems|x2750}}, x22[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>80.00% ~ 89.99%</center>
+|{{Trophies|x30}}, {{Gems|x2500}}, x20[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>70.00% ~ 79.99%</center>
+|{{Trophies|x30}}, {{Gems|x2000}}, x17[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>60.00% ~ 69.99%</center>
+|{{Trophies|x25}}, {{Gems|x1750}}, x15[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>50.00% ~ 59.99%</center>
+|{{Trophies|x25}}, {{Gems|x1500}}, x12[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>40.00% ~ 49.99%</center>
+|{{Trophies|x20}}, {{Gems|x1000}}, x10[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>25.00% ~ 39.99%</center>
+|{{Trophies|x15}}, {{Gems|x750}}, x7[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|-
+|<center>0.00% ~ 24.99%</center>
+|{{Trophies|x10}}, {{Gems|x500}}, x5[[File:StarRemnant.png|35px|link=Items#Misc._Items|Star Remnant]]
+|}
+
+== Past Tournament List ==
+{| class="fandom-table"
+!#
+!Location
+!Time Limit
+!--Damage Buff--
+!Modifier 
+!Extra Modifer
+!Special Unit
+|-
+|'''1st'''
+|Hollow World
+|20 Mins
+|       '''None'''
+|None
+|None
+|[[Tattermo]]
+|-
+|'''2nd'''
+|Marine Ford
+|20 Mins
+|       '''None'''
+|Fast Enemies 
+|Traits Disabled 
+|[[Tattermo]]
+|-
+|'''3rd'''
+|Cursed Academy 
+|20 Mins
+|       '''None'''
+|Powerful Enemies
+|None
+|[[Tattermo]]
+|-
+|'''4th'''
+|Magic Town
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Boss Waves
+|[[Tattermo]]
+|-
+|'''5th'''
+|Ghoul City
+|20 Mins
+|       '''None'''
+|Magic Resistant 
+|None
+|[[Dog Demon]]
+|-
+|'''6th'''
+|Snowy Town
+|20 Mins
+|       '''None'''
+|Max 10 Enemies
+|Traits Disabled
+|[[Dog Demon]]
+|-
+|'''7th'''
+|Shiganshinu District
+|20 Mins
+|       '''None'''
+|Fast Enemies
+|Boss Waves
+|[[Dog Demon]]
+|-
+|'''8th'''
+|Clover Kingdom
+|20 Mins
+|       '''None'''
+|Fast Enemies
+|Traits Disabled
+|[[Dog Demon]]
+|-
+|'''9th'''
+|Fable Kingdom
+|20 Mins
+|       '''None'''
+|Shield Enemies 
+|None
+|[[Wukong]]
+|-
+|'''10th'''
+|Hidden Sand Village
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Boss Waves
+|[[Wukong]]
+|-
+|'''11th'''
+|Ant Kingdom
+|20 Mins
+|       '''None'''
+|Fast Enemies
+|None
+|[[Wukong]]
+|-
+|'''12th'''
+|Planet Namak
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Mini Range
+|[[Wukong]]
+|-
+|'''13th'''
+|Cape Canaveral 
+|20 Mins
+|       '''None'''
+|Powerful Enemies
+|None
+|[[Wukong]]
+|-
+|'''14th'''
+|Alien Spaceship
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Regen Enemies
+|[[Wukong]]
+|-
+|'''15th'''
+|Cursed Academy
+|20 Mins
+|       '''None'''
+|Fast Enemies
+|None
+|[[Boxer]]
+|-
+|'''16th'''
+|Clover Kingdom
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Boss Waves
+|[[Boxer]]
+|-
+|'''17th'''
+|Marine's Ford
+|20 Mins
+|       '''None'''
+|Short Range II
+|None
+|[[Boxer]]
+|-
+|'''18th'''
+|Magic Town
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Fast Enemies
+|[[Boxer]]
+|-
+|'''19th'''
+|Shiganshinu District
+|20 Mins
+|       '''None'''
+|Godspeed Enemies
+|None
+|[[Boxer]]
+|-
+|'''20th'''
+|Ant Kingdom
+|20 Mins
+|       '''None'''
+|Traits Disabled
+|Boss Waves
+|[[Stitches]]
+|-
+|'''21st'''
+|Fabled Kingdom
+|20 Mins
+|       '''None'''
+|Max 10 Enemies
+|None
+|[[Stitches]]
+|-
+|'''22nd'''
+|Puppet Island
+|20 Mins
+|[[File:Damage type Storm.png|30x30px]] '''200%'''
+[[File:Damage type Dark.png|30x30px]] '''150%'''
+|Fast Enemies
+|Traits Disabled
+|[[Stitches]]
+|-
+|'''23rd'''
+|Ghoul City
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''150%'''    
+[[File:Damage type Rose.png|30x30px]] '''200%'''
+|Short Range
+|None
+|[[Stitches]]
+|-
+|'''24th'''
+|Cursed Academy
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]] '''200%'''
+[[File:Damage type Air.png|30x30px]] '''150%'''
+|Traits Disabled
+|Shield Enemies
+|[[Stitches]]
+|-
+|'''25th'''
+|Hidden Sand Village
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''200%'''
+[[File:Damage type Storm.png|30x30px]] '''150%'''
+|Fast Enemies
+|None
+|[[Stitches]]
+|-
+|'''26th'''
+|Fabled Kingdom
+|20 Mins
+|[[File:Damage type Air.png|30x30px]] '''150%'''
+[[File:Damage type Rose.png|30x30px]] '''200%'''
+|Traits Disabled
+|Boss Waves
+|[[Stitches]]
+|-
+|'''27th'''
+|Alien Spaceship
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''200%'''
+[[File:Damage type Dark.png|30x30px]] '''50%'''
+|Shield Enemies
+|None
+|[[Stitches]]
+|-
+|'''28th'''
+|Virtual Dungeon
+|20 Mins
+|[[File:Damage type Storm.png|30x30px]] '''150%''' 
+[[File:Damage type Light.png|30x30px]] '''200%'''
+|Traits Disabled
+|Fast Enemies
+|[[Stitches]]
+|-
+|'''29th'''
+|Magic Town
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]] '''50%'''
+[[File:Damage type Rose.png|30x30px]] '''150%'''
+|Short Range II
+|None
+|[[Messi]]
+|-
+|'''30th'''
+|Planet Namak
+|20 Mins
+|[[File:Damage type Air.png|30x30px]] '''150%'''
+[[File:Damage type Dark.png|30x30px]] '''150%'''
+|Traits Disabled
+|Powerful Enemies
+|[[Messi]]
+|-
+|'''31th'''
+|Entertainment District
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''200%'''
+[[File:Damage type Light.png|30x30px]] '''150%'''
+|Boss Waves
+|None
+|[[Messi]]
+|-
+|'''32nd'''
+|Windhym
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]] '''50%'''
+[[File:Damage type Storm.png|30x30px]] '''150%'''
+|Traits Disabled
+|Short Range
+|[[Messi]]
+|-
+|'''33rd'''
+|Cape Canaveral
+|20 Mins
+|[[File:Damage type Air.png|30x30px]] '''100%'''
+[[File:Damage type Rose.png|30x30px]] '''150%'''
+|Fast Enemies
+|None
+|[[Messi]]
+|-
+|'''34th'''
+|Shiganshinu District
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''150%'''
+
+[[File:Damage type Dark.png|30x30px]] '''100%'''
+|Traits Disabled
+|Regen Enemies
+|[[Messi]]
+|-
+|'''35th'''
+|Virtual Dungeon
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]] '''50%'''     
+[[File:Damage type Light.png|30x30px]] '''200%'''
+|Short Range II
+|None
+|[[Messi]]
+|-
+|'''36th'''
+|Thriller Park
+|20 Mins
+|[[File:Damage type Storm.png|30x30px]] '''150%'''
+[[File:Damage type Rose.png|30x30px]] '''50%'''
+|Powerful Enemies
+|Traits Disabled
+|[[Messi]]
+|-
+|'''37th'''
+|Puppet Island
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]] '''200%'''      
+[[File:Damage type Light.png|30x30px]] '''100%'''
+|Boss Waves
+|None
+|[[Messi]]
+|-
+|'''38th'''
+|Marine's Ford
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''100%'''
+
+[[File:Damage type Air.png|30x30px]] '''200%'''
+|Traits Disabled
+|Shield Enemies
+|[[Messi]]
+|-
+|'''39th'''
+|Clover Kingdom
+|20 Mins
+|[[File:Damage type Rose.png|30x30px]] '''150%'''
+
+[[File:Damage type Dark.png|30x30px]] '''50%'''
+|Regen Enemies
+|None
+|[[Messi]]
+|-
+|'''40th'''
+|Ghoul City
+|20 Mins
+|[[File:Damage type Storm.png|30x30px]] '''150%'''
+
+[[File:Damage type Light.png|30x30px]] '''150%'''
+|Traits Disabled
+|Mini Range
+|[[Messi]]
+|-
+|'''41st'''
+|Cursed Academy
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]] '''100%'''
+
+[[File:Damage type Air.png|30x30px]] '''150%'''
+|Boss Waves
+|None
+|[[Messi]]
+|-
+|'''42nd'''
+|Hidden Sand Village
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''200%'''
+
+[[File:Damage type Dark.png|30x30px]] '''150%'''
+|Traits Disabled
+|Magic Resistant Enemies
+|[[Julias]]
+|-
+|'''43rd'''
+|Storm Hideout
+|20 Mins
+|[[File:Damage type Storm.png|30x30px]] '''150%'''
+
+[[File:Damage type Light.png|30x30px]] '''100%'''
+|Powerful Enemies
+|None
+|[[Julias]]
+|-
+|'''44th'''
+|West City
+|20 Mins
+|[[File:Damage type Air.png|30x30px]] '''100%'''
+[[File:Damage type Rose.png|30x30px]] '''150%'''
+|Traits Disabled
+|Short Range II
+|[[Julias]]
+|-
+|'''45th'''
+|Karakora Town
+|20 Mins
+|[[File:Damage type Fire.png|30x30px]]'''100%[[File:Damage type Dark.png|30x30px]]150%'''
+|Shield Enemies
+|None
+|[[Julias]]
+|-
+|'''46th'''
+|Devil City
+|20 Mins
+|[[File:Damage type Aqua.png|30x30px]] '''150%'''
+[[File:Damage type Light.png|30x30px]] '''150%'''
+|Traits Disabled
+|Boss Waves
+|[[Julias]]
+|-
+|'''47/101th'''
+|Magic Town
+|20 Mins
+|[[File:Damage type Storm.png|30x30px]] '''100%'''
+[[File:Damage type Air.png|30x30px]] '''200%'''
+|Godspeed Enemies
+|None
+| [[Deer-tan|Deer-Tan]]
+|-
+|'''48/102nd'''
+|Strange Town
+|20 Mins
+|[[File:Rose.png|frameless|30x30px]] '''200%'''
+[[File:Damage type Light.png|frameless|30x30px]] '''100%'''
+|Traits Disabled
+|Burst Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''49/103rd'''
+|Fabled kingdom
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''100%'''[[File:Damage type Aqua.png|frameless|30x30px]]'''200%'''
+|Boss Waves
+|Armored Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''50/104th'''
+|Virtual Dungeon
+|20 Mins
+|[[File:Damage type Storm.png|frameless|30x30px]]'''100%'''[[File:Dark.png|frameless|30x30px]]'''200%'''
+|Traits Disabled
+|Powerful Enemies
+No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''51/105th'''
+|Snowy Kingdom
+|20 Mins
+|[[File:Damage type Magic.png|frameless|30x30px]]'''300%'''[[File:Damage type Air.png|frameless|30x30px]]'''100%'''
+|Short Range II
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''52/106th'''
+|Puppet Island
+|20 Mins
+|[[File:Damage type Physical.png|frameless|30x30px]] '''200%'''
+[[File:Damage type Rose.png|frameless|30x30px]] '''300%'''
+
+|Traits Disabled
+|Low Cost
+Max 10 Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''53/107th'''
+|Port Agency
+|20 Mins
+|[[File:Damage type Magic.png|frameless|30x30px]] '''200%'''
+[[File:Damage type Aqua.png|frameless|30x30px]] '''300%'''
+|Burst Enemies
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''54/108th'''
+|Thriller Park
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''150%'''[[File:Damage type Dark.png|frameless|30x30px]]'''150%'''
+|Traits Disabled
+|Boss Waves
+Armored Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''55/109th'''
+|Walled City
+|20 Mins
+|[[File:Damage type Air.png|frameless|30x30px]]'''150%'''[[File:Damage type Light.png|frameless|30x30px]]'''300%'''
+|Mini-range
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''56/110th'''
+|Cursed Festival
+|20 Mins
+|[[File:Damage type Storm.png|frameless|30x30px]]'''200%'''
+[[File:Damage type Rose.png|frameless|30x30px]]'''150%'''
+|Traits Disabled
+|Hyper-Regen
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''57/111th'''
+|Space Center
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''150%'''
+'''[[File:Damage type Dark.png|frameless|30x30px]]200%'''
+|Burst Enemies
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''58/112th'''
+|Spirit World
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''200%'''
+'''[[File:Damage type Air.png|frameless|30x30px]]200%'''
+|Traits Disabled
+|Boss Waves
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''59/113th'''
+|Future City
+|20 Mins
+|[[File:Damage type Rose.png|frameless|30x30px]]'''200%'''
+[[File:Damage type Light.png|frameless|30x30px]]'''200%'''
+|Powerful Enemies
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''60/114th'''
+|Dungeon Throne
+|20 Mins
+|[[File:Damage type Storm.png|frameless|30x30px]]'''200%'''
+[[File:Damage type True.png|frameless|30x30px]]'''400%'''
+|Traits Disabled
+|Short Range
+No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''61/115th'''
+|Sacred Planet
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''400%'''
+'''[[File:Damage type Air.png|frameless|30x30px]]200%'''
+|Lowcost
+|Max 10 Enemies
+|[[Deer-tan]]
+|-
+|'''62/116th'''
+|Fiend City
+|20 Mins
+|[[File:Damage type Light.png|frameless|30x30px]]'''300%'''
+[[File:Dark.png|frameless|30x30px]]'''300%'''
+|Traits Disabled
+|Mini-Range
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''63/117th'''
+|Virtual Dungeon
+|20 Mins
+|[[File:Damage type Storm.png|frameless|30x30px]]'''200%'''
+[[File:Damage type Rose.png|frameless|30x30px]]'''300%'''
+|Boss Waves
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''64/118th'''
+|Haunted Academy
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''200%'''
+[[File:Damage type Air.png|frameless|30x30px]]'''400%'''
+|Traits Disabled
+|Hyper Regen
+No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''65/119th'''
+|Alien Spaceship
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''400%'''
+[[File:Damage type Light.png|frameless|30x30px]]'''200%'''
+|Godspeed Enemies
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''66/120th'''
+|Fabled Kingdom
+|20 Mins
+|[[File:Dark.png|frameless|30x30px]]'''400%'''
+|Traits Disabled
+|Burst Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''67/121st'''
+|Magic Hills
+|20 Mins
+|[[File:Damage type Storm.png|frameless|30x30px]]'''200%'''
+[[File:Damage type True.png|frameless|30x30px]]'''700%'''
+|Mini-Range
+|No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''68/122nd'''
+|Pupped Island
+|20 Mins
+|[[File:Damage type Air.png|frameless|30x30px]]'''200%'''
+'''[[File:Damage type Rose.png|frameless|30x30px]]400%'''
+|Traits Disabled
+|Boss Waves
+Armored Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''69/123rd'''
+|Dungeon Throne
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''300%'''
+[[File:Dark.png|frameless|30x30px]]'''100%'''
+|Low Cost
+|Max 10 Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''70/124th'''
+|Cursed Festival
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''150%'''
+[[File:Storm.png|frameless|30x30px]]'''400%'''
+|Traits Disabled
+|Short Range II
+No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''71/125th'''
+|Walled City
+|20 Mins
+|[[File:Damage type Light.png|frameless|30x30px]]'''500%'''
+|Triple Cost
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''72/126th'''
+|Port Agency
+|20 Mins
+|[[File:Damage type Air.png|frameless|30x30px]]'''400%'''
+[[File:Damage type Rose.png|frameless|30x30px]]'''200%'''
+|Traits Disabled
+|Boss Waves
+Armored Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''73/127th'''
+|Navy Bay
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''100%'''
+[[File:Dark.png|frameless|30x30px]]'''300%'''
+|Godspeed Enemies
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''74/128th'''
+|Strange Town
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''400%'''
+[[File:Damage type Storm.png|frameless|30x30px]]'''200%'''
+|Traits Disabled
+|Burst Enemies
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''79/129th'''
+|Snowy Kingdom
+|20 Mins
+|[[File:Damage type Rose.png|frameless|30x30px]]'''500%'''
+'''[[File:Damage type Light.png|frameless|30x30px]]200%'''
+|Short Range II
+|No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''80/130th'''
+|Space Center
+|20 Mins
+|'''None'''
+|Traits Disabled
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''81/131st'''
+|Virtual Dungeon
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''300%'''
+[[File:Damage type Storm.png|frameless|30x30px]]'''100%'''
+|Triple Cost 
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''82/132nd'''
+|Cursed Festival
+|20 Mins
+|'''[[File:Damage type Light.png|frameless|30x30px]]300%'''
+[[File:Dark.png|frameless|30x30px]]'''400%'''
+|Traits Disabled
+|Hyper-Regen Enemies
+No Flying
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''83/133rd'''
+|Walled City
+|20 Mins
+|[[File:Damage type Rose.png|frameless|30x30px]]'''500%'''
+|Mini-Range
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''84/134th'''
+|Magic Town
+|20 Mins
+|'''[[File:Damage type Aqua.png|frameless|30x30px]]300%'''
+'''[[File:Storm.png|frameless|30x30px]]100%'''
+|Traits Disabled
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''85/135th'''
+|Fiend City
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''100%'''
+|None
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''86/136th'''
+|Fabled Kingdom
+|20 Mins
+|[[File:Damage type Air.png|frameless|30x30px]]'''200%'''
+'''[[File:Damage type True.png|frameless|30x30px]]200%'''
+|Traits Disabled
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''87/137th'''
+|Cursed Festival
+|20 Mins
+|[[File:Damage type Light.png|frameless|30x30px]]'''200%'''
+|None
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''88/138th'''
+|Spirit Invasion
+|20 Mins
+|[[File:Damage type Storm.png|frameless|30x30px]]'''200%'''
+|Traits Disabled
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''89/139th'''
+|Pupped Island
+|20 Mins
+|[[File:Damage type Fire.png|frameless|30x30px]]'''300%'''
+[[File:Dark.png|frameless|30x30px]]'''200%'''
+|None
+|None
+|[[Deer-tan|Deer-Tan]]
+|-
+|'''90/140th'''
+|Walled City
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''400%'''
+[[File:Damage type Rose.png|frameless|30x30px]]'''200%'''
+|Traits Disabled
+|None
+|???
+|-
+|'''91/141st'''
+|Storm Hideout
+|20 Mins
+|[[File:Damage type Aqua.png|frameless|30x30px]]'''500%'''
+|None
+|None
+|???
+|}
+Updated List at 03/10/25 (3rd October)
+[[Category:Game Modes]]

@@ -1,0 +1,28 @@
+{{Meta Unit}}
+{{Meta Support Unit}}{{Unobtainable Unit|Update 20 - Shibuya + Dungeons!}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Agony (Path)]]. 
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Learn to embrace the fear of feeling about what it's like to contemplate what it is to know true agony. Because when I had nothing and no one – I always had agony.”
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Attacks starting Upgrade 6 also hit flying enemies.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

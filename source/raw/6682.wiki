@@ -1,0 +1,29 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can be obtained by summoning the new [[Summon|Assassin Banner]]. 
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I don’t need a reason to kill. Breathing is reason enough."
+|caption2="The difference between us? You hesitate. I don’t."
+|image1=Killstreak.png
+|image2=Killstreak Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+*His shiny form is based off of 
+*[[Killstreak]] can only be placed 3 times while his evolved version, [[Killstreak (Speedrun)]], can be placed 4 times. 
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+<references />

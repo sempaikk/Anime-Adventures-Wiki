@@ -1,0 +1,19 @@
+
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He could only be obtained by redeeming a code which is unavailable now.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="TAKE THAT, [[Carrot|CARROT]]! I'VE CRAWLED BACK UP FROM THE DEPTHS OF HELL TO TAKE REVENGE AGAINST YOU!"
+|caption2="No matter what, I'll always hate monkeys"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*This is a stronger reskin of [[Tyrant (Final)]] and one of the bosses in the [[Raids#West City|West City Raid]].
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

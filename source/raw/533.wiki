@@ -1,0 +1,15 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The next generation will always surpass the previous one. It's one of the never-ending cycles in life"
+|caption2="Walking down a path without knowing where you really want to go… Having a grace period like that isn't so bad. But if that's all you end up doing, you'll come up against barriers that you won't be able to break"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

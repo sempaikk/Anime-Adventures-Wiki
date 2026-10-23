@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 2 - Tokyo Ghoul Update }}
+
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Secret}}  unit. He was only obtainable if the player purchased him with 100 [[Items#Materials|Fire Shards]] during the Marine's Ford event.
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am fire itself. You can't even touch me." 
+|caption2="I don't wanna live a thousand years. If I just live through today, that'll be enough."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+File:Fire Fist Cosmetic .gif|Normal Fire Fist Cosmetic
+File:Ace Shiny.gif|Shiny Fire Fist Cosmetic
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Burn Units]]
+[[Category:Event Units]]

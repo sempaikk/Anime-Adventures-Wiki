@@ -1,0 +1,16 @@
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained y evolving [[Black Assassin]]
+{{EvolutionTable}}
+== Stats Overview ==
+{{Tower Infobox
+|caption1= “If you pretend to feel a certain way, the feeling can become genuine all by accident”
+|caption2= “Spilled water will never return to its container”
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+__NOTOC____NOEDITSECTION__

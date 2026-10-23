@@ -1,0 +1,21 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't address me casually. Little insect with your paltry magic."
+|caption2="Don't address me casually. Little insect with your paltry magic."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

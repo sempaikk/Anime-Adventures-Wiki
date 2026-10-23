@@ -1,0 +1,20 @@
+
+{{Meta Unit}}
+{{Meta Support Unit}}
+{{Raid Meta Unit}}
+{{Story Meta Unit}}
+{{Infinity Castle Meta Unit}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Allow me to elucidate! The name is Robert E.O. Speedwagon!"
+|caption2="Allow me to elucidate! The name is Robert E.O. Speedwagon!"
+|image1=C.E.O..png|Damage_type=physical|Secondary_Damage_type=|deployment_cost=550|total_cost=8800|upgrade_levels=4|spawn_cap=3|Tower_type=Ground}}{{Main Stats}}
+==Selling==
+Units sell for 30% of their deployment cost and upgrades.
+
+==Trivia==
+__NOTOC____NOEDITSECTION__{{DEFAULTSORT:Jake}}
+[[Category:Secret Units|Jake]]
+[[Category:Meta Units]]
+[[Category:JAKE UNITS]]
+* First Farm in The game

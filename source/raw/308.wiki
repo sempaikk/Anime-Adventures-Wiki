@@ -1,0 +1,1 @@
+<div class="anchor" id="{{#replace:{{{id|{{{1|}}}}}}|<nowiki> </nowiki>|_}}" style="position: absolute; {{{css|}}}"></div>

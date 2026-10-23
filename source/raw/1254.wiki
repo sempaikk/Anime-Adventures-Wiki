@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 6.5 - Jujutsu Kaisen Update Part 2}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She is only obtainable by evolving [[Elize]] and her evolved form is only available from the Heavenly Invasion event.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+
+==Trivia==
+
+* Elize (True Heart) bleed damage is 25% of her damage
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Bleed Units]]

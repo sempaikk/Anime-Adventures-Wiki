@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 14.5}}
+
+==Overview==
+
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. She is only obtainable by clearing stage 4 or 5 of the [[Raids#Entertainment District|Entertainment District]] raid with a 1% and 3% chance respectively.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+
+{{Tower_Infobox |caption1="You humans are so miserable. No matter how hard you try, this is all you got. How unfortunate..." |caption2="You can't leave me! You mustn't leave me! We have to stay together! No matter how many times I might be reborn, I'll always be your little sister!"
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Bleed Units]]

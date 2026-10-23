@@ -1,0 +1,2 @@
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.

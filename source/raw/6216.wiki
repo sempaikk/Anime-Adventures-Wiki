@@ -1,0 +1,18 @@
+{{Limited Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. She is a [[Tournament|Tournament-exclusive]] (preceding [[Julias]]), only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with her shiny being the 99.90% ~ 100% ranking reward.
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1=
+|caption2=
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

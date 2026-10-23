@@ -1,0 +1,20 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { articles, units, renderArticle, metadata, unitUrl } from '../../lib/wiki';
+import fs from 'node:fs';
+export function getStaticPaths(){return articles.map(page=>({params:{slug:page.slug},props:{page}}))}
+const { page } = Astro.props;
+const content=renderArticle(page), source=metadata(page);
+const unit=units.find(u=>u.id===page.unit_id);
+const related=unit ? units.filter(u=>u.id!==unit.id && u.name.split(' (')[0]===unit.name.split(' (')[0]) : [];
+const raw=fs.readFileSync(`source/raw/${page.pageid}.wiki`,'utf8');
+---
+<Layout title={`${page.title} — Adventures Archive`} description={page.excerpt} active={unit?'personagens':'biblioteca'}>
+<div class="page-heading"><nav class="breadcrumbs" aria-label="Caminho"><a href="/">Início</a><span>/</span><a href={unit?'/personagens/':'/biblioteca/'}>{unit?'Personagens':'Biblioteca'}</a><span>/</span><span>{page.title}</span></nav></div>
+<div class="article-title"><div><span class="eyebrow">{unit?(unit.rarity || 'PERSONAGEM'):'BIBLIOTECA / GUIA'}</span><h1>{page.title}</h1><p>Conteúdo no idioma original da fonte.</p></div><button class="button button-outline" data-favorite={page.slug} aria-pressed="false">Salvar nos favoritos <span>＋</span></button></div>
+{unit?.retired && <aside class="notice">Arquivo histórico: esta forma foi marcada como retirada do catálogo ativo do jogo.</aside>}
+<div class="article-layout"><article class="wiki-content" lang="en">
+{content.ready ? <Fragment set:html={content.html}/> : <div class="article-import"><h2>Texto original preservado</h2><p>A apresentação desta página ainda está sendo preparada. O texto completo da revisão coletada está disponível abaixo, sem executar os módulos da fonte.</p><pre>{raw}</pre></div>}
+</article><aside class="article-aside">{unit?.image && <div class="article-portrait"><img src={unit.image} alt={unit.name}/><span>{unit.name}</span></div>}{content.sections.length>0 && <nav class="table-of-contents" aria-label="Neste artigo"><span class="nav-label">NESTE ARTIGO</span>{content.sections.map(s=><a href={`#${s.anchor}`} class={`level-${s.toclevel}`}>{s.line.replace(/<[^>]+>/g,'')}</a>)}</nav>}{related.length>0&&<div class="related-forms"><span class="nav-label">OUTRAS FORMAS</span>{related.map(u=><a href={unitUrl(u)}>{u.image&&<img src={u.image} alt=""/>}{u.name}<span>↗︎</span></a>)}</div>}</aside></div>
+<details class="source-details"><summary>Fonte, revisão e créditos</summary><p>Texto adaptado na apresentação a partir da <a href={source.url} target="_blank" rel="noopener noreferrer">Anime Adventures Wiki — revisão {source.revision}</a>, sob <a href="https://www.fandom.com/licensing">CC-BY-SA</a>. <a href={source.history}>Ver histórico e colaboradores</a>. Imagens mantêm seus créditos e condições de uso na fonte original.</p><p>A data da revisão é {new Date(page.revision_timestamp).toLocaleDateString('pt-BR')}; ela não corresponde necessariamente à data de uma atualização do jogo. Esta é uma fonte comunitária e pode conter lacunas.</p><details><summary>Consultar código original da página</summary><pre>{raw}</pre></details></details>
+</Layout>

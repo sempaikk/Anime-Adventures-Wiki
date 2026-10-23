@@ -1,0 +1,47 @@
+<!--
+  Start of green doc box
+--><div id="template-documentation" class="template-documentation iezoomfix" style="border: 1px solid #AAAAAA; clear: both; margin: 1em 0 0; padding: 1em;"><!--
+  Add the heading at the top of the doc box:
+-->{{#ifeq: {{{heading|¬}}} | <!--Defined but empty-->
+| <!--"heading=", do nothing-->
+| <div style="padding-bottom: 3px; border-bottom: 1px solid #aaa; margin-bottom: 1ex;">{{
+  #if: {{{content|}}}
+  | 
+  | <!--Add the [view][edit][history][purge] or [create] links-->
+    <span class="editsection plainlinks" id="doc_editlinks">{{
+    #if: {{{doc exist|yes}}}
+    | &#91;[[{{{docpage|{{FULLPAGENAME}}/doc}}}|view]]&#93; [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=edit}} edit]] [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}|action=history}} history]] [{{purge|purge}}] 
+    | <!--/doc doesn't exist-->
+      [[{{fullurl:{{{docpage|{{FULLPAGENAME}}/doc}}}| action=edit&preload={{
+        #if: {{{preload|}}} 
+        | {{urlencode:{{{preload}}}}}
+        | {{#ifeq: {{SUBJECTSPACE}} | {{ns:File}}
+          | Template:Documentation/preload-filespace
+          | Template:Documentation/preload
+          }} }} }} create]]
+    }}</span>
+  }} <span style="{{#if: {{{heading-style|}}}
+  | {{{heading-style|}}}
+  | {{#ifeq: {{SUBJECTSPACE}} | {{ns:Template}}
+    | font-weight: bold; font-size: 125%
+    | font-size: 150%
+    }}
+  }}">{{#switch: {{{heading|¬}}}
+  | ¬ =   
+    <!--"heading" not defined in this or previous level-->
+    {{#switch: {{SUBJECTSPACE}} 
+    | {{ns:Template}} = <!--[[File:Template-info.png|50px|link=|alt=Documentation icon]]--> Template documentation
+    | {{ns:File}} = Summary
+    | #default = Documentation
+    }}
+  | #default = 
+    <!--"heading" has data or is empty but defined-->
+    {{{heading|}}}
+  }}</span></div>
+}}<noinclude><!-- close the div --></div>
+
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude><noinclude>
+*created by User:BryghtShadow - for wiki -  [https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki leagueoflegends.fandom.com]
+*taken from https://leagueoflegends.fandom.com/wiki/Template:Documentation/start_box
+[[Category:Templates]]</noinclude>

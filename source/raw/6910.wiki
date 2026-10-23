@@ -1,0 +1,10 @@
+{{TierList/Item|{{#invoke:InfoChar|getName|{{{1}}}}}
+|Description={{#invoke:InfoChar|getMansionDesc|{{{1}}}}}
+* {{#invoke:InfoChar|getCost|{{{1}}}}}
+----
+* {{#invoke:InfoChar|gSC|{{{1}}}}}
+----
+* {{#invoke:InfoChar|getDPS|{{{1}}}}}
+----
+{{#invoke:InfoChar|getExtra|{{{1}}}}}
+}}

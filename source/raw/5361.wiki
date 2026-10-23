@@ -1,0 +1,21 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can be obtained via [[Cool Star]] from [[Infinity Mansion]] (Season 10), while his Shiny Version can be obtained by placing {{RarityColor|Mythical|Master}} or highest.
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="I am the supreme master of this universe! I am the great destroyer, the taker of life! It is my will that this planet and everyone on it, BE ANNIHILATED!"
+|caption2="Look upon my form. I think i shall call it... Golden Fridge! Shall we begin?}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Hill Unit]]

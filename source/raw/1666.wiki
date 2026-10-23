@@ -1,0 +1,23 @@
+<blockquote>
+=='''Overview'''==
+</blockquote>'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. She is only obtainable by evolving [[Aquatic Mage]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You'd better be grateful!"
+|caption2="Im a pwetty princess"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

@@ -1,0 +1,141 @@
+return {
+	['Special_Effect_List'] = {
+		["Slow"] = {
+			note = 'Slow:<br>The speed of enemies is reduced for the duration of the effect.',
+			link = "Effects#Slow"
+		},
+		["Stun"] = {
+			note = 'Stun:<br>Freezes enemies for the duration of the effect.',
+			link = "Effects#Stun"
+		},
+		["Cursed (15%)"] = {
+			note = 'Cursed:<br>Makes enemies take 15% more {{Tower_Infobox/Damage_type|magic}} damage.',
+			link = "Effects#Cursed"
+		},
+		["Cursed (30%)"] = {
+			note = 'Cursed:<br>Makes enemies take 30% more {{Tower_Infobox/Damage_type|magic}} damage.',
+			link = "Effects#Cursed"
+		},
+		["Confused"] = {
+			note = 'Confused:<br>Makes all enemies in range walk backwards for 5 seconds.',
+			link = "Effects#Confused"
+		},
+		["Knockback"] = {
+			note = 'Knockback:<br>Pushes enemies towards their spawn.', 
+			link = "Effects#Knockback"
+		},
+		["Freeze"] = {
+			note = 'Freeze:<br>Freezes enemies for the duration of the effect (Has a cooldown of 10-12 seconds).<br><br>Conflicts with [[Lulu (Geass)|Confusion]] ability (by [[Lulu (Geass)|Lulu]]), and other users dealing Freeze/Timestop.',
+			link = "Effects#Freeze"
+		},
+		["Timestop"] = {
+			note = 'Timestop:<br>Freezes enemy for duration of the effect (Has a cooldown of 10-12 seconds).<br><br>Conflicts with [[Lulu (Geass)|Confusion]] ability (by [[Lulu (Geass)|Lulu]]), and other users dealing Freeze/Timestop.',
+			link = "Effects#Timestop"
+		},
+		["Dismembered"] = {
+			note = 'Dismembered:<br>Brutally removes a random limb from the enemy and causes the enemy to take 20% more {{Tower_Infobox/Damage_type|physical}} damage permanently (does not stack)', link = "Effects#Dismembered"
+		},
+		["Motivate"] = {
+			note = 'Motivate:<br>Each attack buffs all allies in range by 15% damage or 10% range for 10 seconds, same effects do not stack.', 
+			link = "Effects#Motivate"
+		},
+		["Battlelust"] = {
+			note = 'Battlelust:<br>Each attack increases damage by 5% up to 25% as long as the unit has a target.',
+			link = "Effects#Battlelust"
+		},
+		["Shatter"] = {
+			note = 'Shatter:<br>Removes all shield instances on enemies when hit.',
+			link = "Effects#Shatter"
+		},
+		["Snatched"] = {
+			note = 'Snatched:<br>Each attack increases damage by 3% up to 33% (99% on a max upgrade) for 90 seconds.',
+			link = 'Effects#Snatched'
+		},
+		["Mind Control"] = {
+			note = 'Walk Back:<br>Forces enemies with a 10% chance in range to walk back for 1.5 seconds.', 
+			link = 'Effects#Mind_Control'
+		},
+		["Hexed (20%)"] = {
+			note = 'Hexed:<br>Curses enemy and debuffs which causes the enemy to take 30% more {{Tower_Infobox/Damage_type|magic}} damage permanently (does not stack)',
+			link = "Effects#Hexed"
+		},
+		["Hexed (25%)"] = 	{
+			note = 'Hexed:<br>Curses enemy and debuffs which causes the enemy to take 30% more {{Tower_Infobox/Damage_type|magic}} damage permanently (does not stack)',
+			link = "Effects#Hexed"
+		},
+		["Sunshine"] = {
+			note = 'Sunshine:<br>Damage and range increases every wave. Up to 15 waves. Receives 2.25x more damage and 1.67x range at maximum sunshine.',
+			link = "Effects#Sunshine"
+		},
+		["Decay"] = {
+			note = 'Decay:<br>Prevents regen enemies from healing.',
+			link = "Effects#Decay"
+		},
+		["OverCrit"] = {
+			note = 'OverCrit:<br>Guarantees a crit on enemies that are currently bleeding.',
+			link = "Effects#OverCrit"
+		},
+		["Unconscious"] = {
+			note = 'Unconscious:<br>Makes the enemy unconscious for 0.5s.',
+			link = "Effects#Stun"},
+		["Wild Card"] = {
+			note = 'Applies fire, slow, bleed, freeze, or knockback randomly.',
+			link = "Effects"
+		}
+	},
+ --[[
+		['Effect'] = {
+			['Name'] = 'Burn Bleed',
+			['Ticks'] = 10,
+			['Multiplier'] = 0.025
+		}
+,
+		['Special_Effect'] = {
+			['Name'] = 'Stun',
+		}
+	--]]
+	["light_kira:one"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+	},
+	["light_kira:two"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8,
+	},
+	["light_kira:three"] = {
+		['AOE_TYPE'] = 'AoE (Full)',
+	},
+	["giorno_2:one"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8,
+	},
+	["giorno_2:two"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12,
+		['hits'] = 3,
+	},
+	["giorno_2:three"] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50,
+		['hits'] = 1,
+	},
+	["giorno_2:four"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 20,
+		['hits'] = 3,
+	},
+	["abbacchio:one"] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 20,
+	},
+	["abbacchio:two"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9,
+		['Hits'] =	2,
+	},
+	["abbacchio:three"] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 14,
+		['Hits'] = 4,
+	}
+}

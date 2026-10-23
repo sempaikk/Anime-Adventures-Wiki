@@ -1,0 +1,26 @@
+''If you were looking for a different Vego unit, see [[Vego (disambiguation)|Vego (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained via [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="You may have invaded my brain, and my body, but there's one thing Vego always keeps... HIS HUBRIS!!"
+|caption2="Playtime is over. Let's finish this!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

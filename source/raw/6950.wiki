@@ -1,0 +1,28 @@
+{{Limited Unit}}
+== '''Overview''' ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained via completing the [[Secret Portal|Restriction Portal]] portal (guaranteed if you are the host). The Secret Portal Drop Rate is believed to be 1%.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You don’t get it, do you? I’m a non-sorcerer… but I’m the one who kills sorcerers."
+|caption2="Cursed energy? Useless to me. All I need is raw strength."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

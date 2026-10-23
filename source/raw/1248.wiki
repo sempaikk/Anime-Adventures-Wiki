@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 5.5 - Fairy Tail Update Part 2}}
+=='''Overview'''==
+'''Jelly''' is a {{Rarity|Secret}} {{LU}}. He was only obtainable as a random drop in the Heavenly Invasion event.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It's your words that gave me courage. They became my light that would guide me towards the right path again."
+|caption2="It's your words that gave me courage. They became my light that would guide me towards the right path again."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

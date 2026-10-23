@@ -1,0 +1,43 @@
+{{Meta Support Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+
+=='''Overview'''==
+'''Commander''' is a {{Rarity|Legendary }} unit. He is only obtainable through [[Summon|summons]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1="My Soldiers Push Forward, My Solders Scream Out! My Soldiers RAAAGEEEEEE!"
+|caption2="Onward Christian Soldiers!"
+}}{{Main Stats}}
+Note that he has a maximum of 3 summon (called ''Survey Corps Member'') in the map per 1 Commander placed.
+
+His buff stacks with [[Blossom]] which makes the Physical damage buff reach up to 35-110%.
+
+==Active Ability: Dedicate your hearts!==
+[[File:0F75D44E-3835-4BCC-90B6-4AC10158526B.jpg|left|thumb|80x80px]]
+When activated, Commander increases the {{Damage Type|Physical}} damage stats of units in his range by 25%. If he buffs other Commanders in his range, their ability is going to buff by 56% to 95 to 100%. The buff lasts for 30 seconds and the ability has a cooldown of 60 seconds.
+
+
+=="Infinite" Buff Guide==
+Commander '''MUST BE CURSED''' with <span style="color:#ff3839;">'''+SPA'''</span> curse in order for this to work. '''ATTACK SPEED FROM STATS DO NOT MATTER AND DO NOT AFFECT ABILITY COOLDOWN.'''
+
+The percent shouldn't really matter, but depending on how high or low the increase might effect how long the loop will last. (Not exactly sure on the specifics yet.)
+
+Guide:
+*1. Place 4 Commander's, doesn't really matter the position as long as all they are all in each others range.
+*2. Activate the first Commander's ability, then wait 4-5 seconds. (Using an auto-clicker set to a 4-5 second interval can help if you are having trouble timing it.)
+*3. Activate a second Commander's ability. Then wait for the 25% buff to disappear.
+*4. As soon as the 25% disappears, immediately activate your third Commander's ability, then wait until the 56% buff to disappear.
+*5. As soon as the 56% disappears, immediately activate the your fourth Commander's ability.
+After this they should all buff to 95% then loop 100% for a while, this loop isn't truly infinite since over time the ability will slowly desync, but if timed right can last for over 50 rounds, which is long enough for pretty much every situation.
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* At the time [[Wind Dragon]] is added in the game, he was nerfed to the point he can only buff Physical damage units.
+* As of Update 14:
+** His ability is now available at Upgrade 0 instead of Upgrade 3.
+** He used to have maximum of 3 units per person. It's adjusted to 6 (global). This is the same thing inflicted to [[Wenda]].
+*Chaining his buffs allows him to buff all Physical units by 100%, although to consistently do this you may need to apply curses to his SPA to get this to a full uptime, this also applies to [[Wenda]].
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

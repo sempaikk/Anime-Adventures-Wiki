@@ -1,0 +1,179 @@
+[[File:Infinity Castle.png|thumb|275x275px|<span style="font-size:200%;">Muzo</span><br><span style="color: #9e0000; font-size:125%;"><i>"I am an eternal creature infinitely close to perfection."</i>]]
+
+The '''Infinity Mansion''', introduced in [[Update_Log#Update_6_-_Jujutsu_Kaisen_Update_Part_1|Update 6]] as '''Infinity Castle,''' is a mode where the player is challenged with a series of seemingly infinite rooms. It's '''EXTREMELY''' tedious, but the rewards are worth your while!
+
+==Information==
+* As of Update 18, for the first 63 rooms in the Mansion, the player is tasked with beating 3 acts of each story all the way up until Rain village gaining 150 gems for each floor.
+:* After the 57th room, the Mansion becomes unpredictable, however the next three floors after the 57th room will have higher HP before nerfing down at the 60th room onwards, so be careful!
+* Starting Season 2, on Floors 100 and higher, [[Damage Affinities / Elements|resistances]] show up, the further you go the stronger those values are.
+* To access the Mansion, talk to the Muzo NPC by spawn. After heading inside, the Nakimo NPC will let you challenge the Mansion!
+* From this season 9, you can change the mode to hard, it will clear 2 rooms, but the stage will be harder! However, after the 100th room, the mode is always set to hard, but you do not clear 2 rooms at once getting 300 gems instead of 150.
+<br><br>
+
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 0px 3px; margin-left: auto; margin-right: auto; text-align: left; border: 0px; color: #FFFFFF;"
+|+ style="border-collapse: separate; margin-left: auto; margin-right: auto; border: 0px;"| <font size="4">At the end of every season, players are awarded based on their performance in the Infinity Mansion. The '''ranks''' go as the following:</font>
+! style="border-image: linear-gradient(#FF6666,#FF0101) 10; background: #101010;" |<font size="5">Tier</font>
+! style="border-image: linear-gradient(#FF6666,#FF0101) 10; background: #101010;" |<font size="5">Title</font>
+! style="border-image: linear-gradient(#FF6666,#FF0101) 10; background: #101010;" |<font size="5">Rewards</font>
+|-
+| style="border: 1px solid #FFFFFF; background: #101010;" |99.99% ~ 100%
+| style="border: 1px solid #FFFFFF; background: #101010;" |<span class="game-font-face" style="position: relative; background: linear-gradient(0, #EB0F0F 0%, #FB1D1D 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"><font size="4">Grandmaster</font></span>
+| style="border: 1px solid #FFFFFF; background: #101010;" |<font size="2">x5000 Gems, x50 Star Remnant, x1 Shiny Unit</font>
+|-
+| style="border: 1px solid #FFFFFF; background: #101010;" |99.90% ~ 99.98%
+| style="border: 1px solid #FFFFFF; background: #101010;" |<span class="game-font-face" style="position: relative; background: linear-gradient(0, #96CDFF 30%, #FF6EEC 50%, #FFC4AB 90%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"><font size="4">Master</font></span>
+| style="border: 1px solid #FFFFFF; background: #101010;" |<font size="2">x3500 Gems, x45 Star Remnant, x1 Shiny Unit</font>
+|-
+| style="border: 1px solid #FFFFFF; background: #101010;" |99.00% ~ 99.89%
+| style="border: 1px solid #FFFFFF; background: #101010;" |<span class="game-font-face" style="position: relative; background: linear-gradient(0, #FFC213 0%, #FFDC28  100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"><font size="4">Expert</font></span>
+| style="border: 1px solid #FFFFFF; background: #101010;" |x2500 Gems, x35 Star Remnant
+|-
+| style="border: 1px solid #FFFFFF; background: #101010;" |75.00% ~ 98.99%
+| style="border: 1px solid #FFFFFF; background: #101010;" |<span class="game-font-face" style="position: relative; background: linear-gradient(0, #5C01FD 0%, #7304F6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"><font size="4">Adept</font></span>
+| style="border: 1px solid #FFFFFF; background: #101010;" |x1000 Gems, x25 Star Remnant
+|-
+| style="border: 1px solid #FFFFFF; background: #101010;" |50.00% ~ 74.99%
+| style="border: 1px solid #FFFFFF; background: #101010;" |<span class="game-font-face" style="position: relative; background: linear-gradient(0, #0C63CF 0%, #0F87E9 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"><font size="4">Disciple</font></span>
+| style="border: 1px solid #FFFFFF; background: #101010;" |x500 Gems, x15 Star Remnant
+|-
+| style="border: 1px solid #FFFFFF; background: #101010;" |0.00% ~ 49.99%
+| style="border: 1px solid #FFFFFF; background: #101010;" |<font size="4">Initiate</font>
+| style="border: 1px solid #FFFFFF; background: #101010;" |x250 Gems
+|}
+<br><br>
+<tabber>
+|-|Season 1 (October 9th)=
+Season 1 (October 9th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">1x Treasure Radar</span>
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">2x Luck Potion</span> 
+*Room 100: [[Sound Sealed Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Sound Sealed Star</span>]]
+<br><br>
+
+|-|Season 2 (November 13th)=
+Season 2 (November 13th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">1x Treasure Radar</span>
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">2x Luck Potion</span> 
+*Room 100: [[Ice Flower Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Ice Flower Star</span>]]
+<br><br>
+
+|-|Season 3 (December 22nd)=
+Season 3 (December 22nd) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">1x Treasure Radar</span>
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">2x Luck Potion</span> 
+*Room 100: [[Dimensional Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Dimensional Star</span>]]
+<br><br>
+
+|-|Season 4 (January 28th)=
+Season 4 (January 28th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">1x Treasure Radar</span>
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">2x Luck Potion</span> 
+*Room 100: [[Love Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Love Star</span>]]
+<br><br>
+
+|-|Season 5 (February 25th)=
+Season 5 (February 25th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span>
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Blood Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Blood Star</span>]]
+<br><br>
+|-|Season 6 (April 1st)=
+Season 6 (April 1st) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span>
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Silver Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Silver Star</span>]]
+<br><br>
+|-|Season 7 (May 15th)=
+Season 7 (May 15th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span> 
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Turtle Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Turtle Star</span>]]
+<br><br>
+|-|Season 8 (August 21th)=
+Season 8 (August 21th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span> 
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Flash Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Flash Star</span>]]
+<br><br>
+|-|Season 9 (September 30th)=
+Season 9 (September 30th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span> 
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Explode Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Explode Star</span>]]
+<br><br>
+|-|Season 10 (November 18th)=
+Season 10 (November 18th) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span> 
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Cool Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Cool Star</span>]]
+<br><br>
+|-|Season 11 (TBD)=
+Season 11 (TBD) rewards:
+*{{Gems|150}} per room!
+*Room 10: <span style="color: #ffc71e;">5x Summon Ticket</span>
+*Room 20: <span style="color: #ffc71e;">10x Summon Ticket</span>
+*Room 30: <span style="color: #ffc71e;">5x Star Remnant</span>
+*Room 40: <span style="color: #ffc71e;">3x Stat Cube</span> 
+*Room 50: <span style="color: #ffc71e;">10x Star Remnant</span>
+*Room 75: <span style="color: #ffc71e;">1x Perfect Stat Cube</span> 
+*Room 100: [[Puppet Star|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">1x Puppet Star</span>]]
+<br><br>
+</tabber>
+
+==Trivia==
+* As of Update 16...
+** Developers added Hard mode for which makes you skip 2 rooms instead of 1 (until Floor 100).
+** They even added [[Raids|Raid]]-exclusive maps and [[Events|Event]]-exclusive maps into the mix. 
+** On room 50 onwards damage types are added to enemies.
+__NOEDITSECTION____NOTOC__
+[[Category:Game Modes]]
+{{DEFAULTSORT:Infinity_Mansion}}

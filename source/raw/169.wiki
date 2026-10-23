@@ -1,0 +1,23 @@
+''If you were looking for a different Spirit Reaper unit, see [[Spirit Reaper (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="That's right. It's not like I ever felt superior to anyone else because I could see ghosts. And I never planned to take it up as a profession. Hell, I never even felt the need to use my ability to help others. All I ever wanted was the normal life I couldn't have. I've finally achieved what I always wanted."
+|caption2="Dusk? That isn’t Dusk. I keep saying that I am Dusk, Spirit Reaper, What’s the difference between a King and his Horse ? And I’m not talking about obvious stuff, like one’s an animal and one’s a person and one has two legs and one has four. Form, Ability and Power. That’s what’s puzzling. If their Form,Ability and power are exactly the same, why should that one becomes the King and leads them into battle while the other becomes the horse and carries the King ? So what’s the Characteristic which distinguishes these two beings? There’s only one answer… INSTINCT!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

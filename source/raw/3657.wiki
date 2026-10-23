@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 14 - Sword Art Online}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can be obtained via [[Turtle Star]] from [[Infinity Mansion]] (Season 7), while his Shiny Version can be obtained by placing {{RarityColor|Mythical|Master}} or higher. 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "Move well, study well, play well, eat well, and rest well... That is the Turtle Master way!."
+|caption2="Goku do me a favor. Tell Shenron...Thank you for the Dragon Balls."
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Units]]
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]

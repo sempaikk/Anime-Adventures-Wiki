@@ -1,0 +1,167 @@
+local p = {}
+
+local tags = {
+	m = "{{Meta Unit}}",
+	l = "{{Limited Unit}}",
+	n = "{{Recent Unit}}",
+	bl = "{{Meta Bleed Unit}}",
+	bn = "{{Meta Burn Unit}}",
+	sp = "{{Meta Support Unit}}",
+	s = "{{Story Meta Unit}}",
+	r = "{{Raid Meta Unit}}",
+	i = "{{Infinite Castle Meta Unit}}",
+	u = "{{Unobtainable Unit|",
+}
+
+local unitData = mw.loadData('Module:UnitData/Data')
+local characterMap = mw.loadData('Module:InfoChar/Data')
+local aoeData = mw.loadData('Module:UnitData/Data/AoE_Type') -- Load AoE data
+local infoChar = require('Module:InfoChar/Test')
+
+p.descriptions = {}
+
+local dpsThresholds = {
+    { threshold = 15000, category = "Low" },
+    { threshold = 25000, category = "Average" },
+    { threshold = 35000, category = "High" },
+    { threshold = 45000, category = "Extreme" },
+    { threshold = math.huge, category = "Peak" },
+}
+
+local spaCategories = {
+    { threshold = 5, category = "Low" },
+    { threshold = 9, category = "Average" },
+    { threshold = 13, category = "High" },
+    { threshold = 21, category = "Very High" },
+    { threshold = math.huge, category = "Slow" },
+}
+
+local rangeCategories = {
+    { threshold = 25, category = "Small" },
+    { threshold = 35, category = "Average" },
+    { threshold = 45, category = "Big" },
+    { threshold = 50, category = "Huge" },
+    { threshold = math.huge, category = "Colossal" },
+}
+
+local aoeSizeCategories = {
+    { threshold = 8, category = "Small" },
+    { threshold = 15, category = "Average" },
+    { threshold = 21, category = "Big" },
+    { threshold = 31, category = "Huge" },
+    { threshold = math.huge, category = "Colossal" },
+}
+
+local function categorizeValue(value, categories)
+    for _, category in ipairs(categories) do
+        if value < category.threshold then
+            return category.category
+        end
+    end
+    return "Unknown"
+end
+
+local function generateAutomatedDescription(characterName, frame)
+    local info = characterMap[characterName]
+    if not info then
+        return "Error: Character not found in characterMap."
+    end
+
+    local unitId = info.name
+    local data = unitData[unitId]
+
+    if not data then
+        return "Error: Unit data not found."
+    end
+
+    local dps, _, _ = infoChar.calculateDPS(unitData, characterMap, characterName)
+    local dpsCategory = "Not Available"
+    if dps then
+        for _, thresholdData in ipairs(dpsThresholds) do
+            if dps < thresholdData.threshold then
+                dpsCategory = thresholdData.category
+                break
+            end
+        end
+    end
+
+    local spa = data.attack_cooldown or info.attack_cooldown
+    local spaCategory = "Not Available"
+    if spa then
+        spaCategory = categorizeValue(spa, spaCategories)
+    end
+
+    local range = data.range or info.range
+    local rangeCategory = "Not Available"
+    if range then
+        rangeCategory = categorizeValue(range, rangeCategories)
+    end
+
+    local aoeType = "Not Available"
+    local attackName
+    if data.upgrade and data.upgrade[#data.upgrade] and data.upgrade[#data.upgrade].primary_attack then
+        attackName = data.upgrade[#data.upgrade].primary_attack
+    elseif data.primary_attack_no_upgrades then
+        attackName = data.primary_attack_no_upgrades
+    end
+    if attackName then
+        local attackData = aoeData[attackName]
+        if attackData and attackData.AOE_TYPE then
+            aoeType = attackData.AOE_TYPE
+            if aoeType == 'AoE (Circle)' and attackData.radius then
+                aoeType = categorizeValue(attackData.radius, aoeSizeCategories) .. " AoE Circle"
+            end
+        end
+    end
+
+    local placementCap = data.spawn_cap or info.placement_cap or "Unknown"
+
+    local description = string.format(
+        "%s DPS, %s AoE, %s Range, %s SPA and %s Placements.",
+        dpsCategory, aoeType, rangeCategory, spaCategory, placementCap
+    )
+
+    return description
+end
+
+local function getDescription(characterName, frame, descriptionType)
+    local description
+    if descriptionType == "story" then
+        description = p.story_desc[characterName]
+    elseif descriptionType == "mansion" then
+    	description = p.mansion_desc[characterName]
+    else
+        -- Check if manual description exists
+        if p.descriptions[characterName] then
+            description = p.descriptions[characterName]
+        else
+            -- Generate automated description
+            description = generateAutomatedDescription(characterName, frame)
+        end
+    end
+
+    if description then
+        return frame:preprocess(description)
+    else
+        return nil
+    end
+end
+
+function p.getDescription(frame, characterName)
+    return getDescription(characterName, frame)
+end
+
+function p.getStoryDesc(frame, characterName)
+    return getDescription(characterName, frame, "story")
+end
+
+function p.getMansionDesc(frame, characterName)
+    return getDescription(characterName, frame, "mansion")
+end
+
+-- Function to get custom DPS data based on character *name* (from InfoChar/Data)
+function p.getCustomDPS(characterName)
+    return p.customDPS[characterName]
+end
+
+return p

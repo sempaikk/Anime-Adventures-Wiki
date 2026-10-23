@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 11 - Seven Deadly Sins Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. She can only bе obtained via completing [[Secret Portal|Frost Queen's Portal]] (guaranteed if you are the host).
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I don't understand the feelings of the weak. The law of the world is survival of the fittest. It's how the weak are weeded out. It just means those people that died were too weak. It's only natural for the weak to perish."
+|caption2="I wish that you had been beside me."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Event Units]]

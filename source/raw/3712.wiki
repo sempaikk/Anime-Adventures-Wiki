@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 16.5 - JoJo Part 4 Update}}
+{{Story Meta Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by evolving [[Crusader]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="We almost lost members, as well."
+|caption2="But we simply cannot allow our second-in-command to leave."
+}}{{Main Stats}}
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+<references />
+[[Category:Mythic Units]]

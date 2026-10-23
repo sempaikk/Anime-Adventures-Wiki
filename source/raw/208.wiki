@@ -1,0 +1,22 @@
+{{Disenchant Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It is fine now. Why? Because I am here!"
+|caption2="Now it’s [[Verdant Hero|your]] turn to become the better of [[Verdant Hero (Dark)|yourself]]."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

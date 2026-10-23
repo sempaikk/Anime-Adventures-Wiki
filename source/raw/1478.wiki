@@ -1,0 +1,52 @@
+*[[Template:TierList/Container]] <includeonly>'''<- You're here'''</includeonly>
+**[[Template:TierList/Item Container]]
+***[[Template:TierList/Item]]
+
+<h2>Examples:</h2>
+
+<h2 style="text-align: center;">code</h2>
+
+{{Template:Doc/TemplateCode/Container
+|TierList/Container
+|
+{{!}}{{Doc/TemplateCode/tooltip|id{{=}}infiniti|id}}<br>{{!}}{{Doc/TemplateCode/tooltip|tag=span|tag2=span|Fast travel for Mobile only{{=}}<br><span style{{=}}"color: #290;"><nowiki><div></nowiki></span>&#123;&#123;Anchor1{{!}}META Ground&#125;&#125;<span style{{=}}"color: #290;"><nowiki></div></nowiki></span><br><span style{{=}}"color: #290;"><nowiki><div></nowiki></span>&#123;&#123;Anchor1{{!}}META Hill/Hybrid&#125;&#125;<span style{{=}}"color: #290;"><nowiki></div></nowiki></span><div style{{=}}"color: #84a0a0;"><nowiki><!-- list of all "TierList/Item Container" names inside this "TierList/Container" --></nowiki></div>|names}}
+{{!}}
+<br><div style{{=}}"color: #80808080 !important; font-size: 88%;">{{Doc/TemplateCode/tooltip|tag=span|<nowiki>{{TierList/Item Container|color=#ff7f7f|id=infiniti|name=META Ground</nowiki><br><nowiki>|</nowiki><br><nowiki>{{TierList/Item|Kent (Overtime)</nowiki><br><nowiki>|Description=Great DPS from CRIT and large AoE, increasing in damage by 1% per wave.}}</nowiki><br><nowiki>}}</nowiki><br><br><nowiki>{{TierList/Item Container|color=#febf85|id=infiniti|name=META Hill/Hybrid</nowiki><br><nowiki>|</nowiki><br><nowiki>{{TierList/Item|Getu</nowiki><br><nowiki>|Description=Massive DPS and moderate AoE.}}</nowiki><br><nowiki>{{TierList/Item|Ezra (Lightning)</nowiki><br><nowiki>|Description=Massive DPS and range.}}</nowiki><br><nowiki>}}</nowiki>|Value 1}}<br><br></div>
+}}
+
+
+<h2 style="text-align: center;">view</h2>
+
+{{TierList/Container|id=infiniti
+|Fast travel for Mobile only=
+<div>{{Anchor1|META Ground}}</div>
+<div>{{Anchor1|META Hill/Hybrid}}</div>
+<!-- list of all "TierList/Item Container" names inside this "TierList/Container" -->
+|
+{{TierList/Item Container|color=#ff7f7f|id=infiniti|name=META Ground
+|
+{{TierList/Item|Kent (Overtime)
+|Description=Great DPS from CRIT and large AoE, increasing in damage by 1% per wave.}}
+}}
+{{TierList/Item Container|color=#febf85|id=infiniti|name=META Hill/Hybrid
+|
+{{TierList/Item|Getu
+|Description=Massive DPS and moderate AoE.}}
+{{TierList/Item|Ezra (Lightning)
+|Description=Massive DPS and range.}}
+}}
+}}
+
+
+<h2>Values:</h2>
+{| class="article-table"  style="margin-top: 0;"
+|Value 1
+*Should use this [[Template:TierList/Item Container]]
+|-
+|id
+*''"Fast travel function for mobile phones"''
+*id must match the id of its (content) [[Template:TierList/Item_Container|"TierList/Item Container"]]
+|names
+*''"Fast travel function for mobile phones"''
+*list of all "[[Template:TierList/Item_Container|TierList/Item Container]]" names inside this "TierList/Container"
+|}__NOTOC____NOEDITSECTION__<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly>

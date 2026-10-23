@@ -1,0 +1,32 @@
+{{Meta Support Unit}}
+{{Custom Disclaimer|1=Leaderboard Meta Unit|2=Time Erase is currently one of the most effective abilities for Infinite Mode leaderboard runs, but is not viable for anything else.}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable from [[summon|summons]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1="A person grows once they are able to defeat their weaker self. Wouldn't you agree, Jean Pierre Polnareff?"
+|caption2="I will not allow anyone to threaten my throne, no matter what."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Active Ability: Time Erase==
+[[File:TimeEraseIcon.png|thumb|left]] 
+When Devil Boss uses his ability "Time Erase", he gives every unit on the map a 50% damage boost while heavily slowing units down (duration is 8-9 seconds).
+
+
+
+
+==Trivia==
+*{{PAGENAME}} is one of the first units that increases the vulnerability of enemies along with [[Blackhair]], followed up by [[Shadow Sorcerer]] and [[Cursed King]]
+*{{PAGENAME}} Time Erase causes all enemies to move so slowly that they're basically frozen, which is why people usually call his ability a "TS" instead of slow.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,19 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Salmon."
+|caption2="Bonito flakes."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

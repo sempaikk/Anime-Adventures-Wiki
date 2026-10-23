@@ -1,0 +1,20 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. She can only be obtained by evolving [[Spirit Sniper]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="I can't let other people take care of my problems forever. I want to go and search for them myself."
+|caption2="I can't let other people take care of my problems forever. I want to go and search for them myself."
+}}{{Main Stats}}
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}} - Amatori Chika}}
+__NOTOC____NOEDITSECTION__

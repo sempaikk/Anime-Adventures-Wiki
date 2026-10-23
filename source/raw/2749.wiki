@@ -1,0 +1,27 @@
+''If you were looking for a different Tyrant unit, see [[Tyrant (disambiguation)]].''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]]. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Hahahaha! I've made my new form gold so it's clear who's sitting atop the pecking order. And to simplify things even further, let's call this Golden Tyrant, shall we?"
+|caption2="Before you begin your pathetic struggle to survive, I should warn you. Your chance of winning is nonexistent."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

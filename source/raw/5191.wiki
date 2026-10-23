@@ -1,0 +1,29 @@
+{{Unobtainable Unit|Update 19.5 - assasin park event}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained through opening Spooky Stars.
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="My master, it shall be done. As you command."
+|caption2="Releasing control art restriction systems... Level 0 released."
+|image1=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

@@ -1,0 +1,21 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. She is only obtainable by achieving a Top 25 Infinite Run in the leaderboard during update 9.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't bother me, and don't get in my way!"
+|caption2="Time for another delightful hunt!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*{{PAGENAME}} = '''[Limited]''' - Obtained by achieving a top 25 infinite run by Update 8.
+
+==Gallery==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Unobtainable Units]]
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

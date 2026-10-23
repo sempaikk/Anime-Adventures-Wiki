@@ -1,0 +1,10 @@
+{{TierList/Item|{{#invoke:InfoChar/Test|getName|{{{1}}}}}
+|Description={{#invoke:InfoChar/Test|getDesc|{{{1}}}}}
+<p>{{#invoke:InfoChar/Test|getCost|{{{1}}}}}</p>
+----
+* {{#invoke:InfoChar/Test|gSC|{{{1}}}}}
+----
+* {{#invoke:InfoChar/Test|getDPS|{{{1}}}}}
+----
+{{#invoke:InfoChar/Test|getExtra|{{{1}}}}}
+}}

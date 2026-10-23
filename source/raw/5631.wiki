@@ -1,0 +1,23 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't worry, I'm the strongest."
+|caption2="Me, a target of the great [[Cursed King]]? What an honor!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

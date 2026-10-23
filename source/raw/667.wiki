@@ -1,0 +1,71 @@
+<infobox>
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+    <panel name="img">
+        <section name="section1">
+            <label>{{{skin1|Original Skin}}}</label>
+			<image source="image1">
+				  <caption source="caption1"/>
+				</image>
+        </section>
+        <section name="section2">
+            <label>{{{skin2|Shiny Skin}}}</label>
+				<image source="image2">
+					<default>{{#ifexist:File:{{PAGENAME}} Shiny (Pose).png|{{PAGENAME}} Shiny (Pose).png|{{#invoke:UnitData2|CheckIMG_TowerInfobox}} Shiny (Pose).png}}</default>
+					<caption source="caption2"/>
+				</image>
+        </section>
+        <section name="section3">
+            <label>{{{skin3}}}</label>
+				<image source="image3">
+					<caption source="caption3"/>
+				</image>
+        </section>
+   </panel>
+  <data source="deployment_cost">
+    <label>Deployment Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{{deployment_cost}}}}}¥</span></format>
+    <default>{{#iferror:<span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum: {{#invoke:UnitData2|get|Akoku (Destruction)|cost}}}}¥</span>|}}</default>
+  </data>
+  <data source="upgrade_levels">
+    <label>Upgrade Levels</label>
+    <default>{{#iferror:{{#invoke:UnitData2|get|Akoku (Destruction)|upgrade_levels}}|}}</default>
+  </data>
+    <data source="spawn_cap">
+    <label>Spawn Cap</label>
+    <default>{{#iferror:{{#invoke:UnitData2|get|Akoku (Destruction)|spawn_cap}}|}}</default>
+  </data>
+  <data source="total_cost">
+    <label>Total Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{{total_cost}}}}}¥</span></format>
+    <default>{{#iferror:<span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{#invoke:UnitData2|get|Akoku (Destruction)|total_cost}}}}¥</span>|}}</default>
+  </data>
+  <data source="Tower_type">
+    <label>Tower Type</label>
+    <default>{{#iferror:{{formatnum:{{#invoke:UnitData2|get|Akoku (Destruction)|tower_type}}}}|}}</default>
+  </data>
+  <data source="Traits">
+    <label>Traits</label>
+    <default>{{Trait}}</default>
+  </data>
+  <group>
+    <header>Attack Stats</header>
+    <data source="Attack_Type">
+      <label>Attack Type</label>
+    <default>{{#iferror:{{formatnum:{{#invoke:UnitData2|get|Akoku (Destruction)|attack_type}}}}|}}</default>
+    </data>
+    <data source="damage">
+		<label>Damage</label>
+		<default>{{#iferror:{{formatnum: {{#invoke:UnitData2|get|Akoku (Destruction)|damage}} }} {{#ifeq:{{#invoke:UnitData2|get|Akoku (Destruction)|damage}}|{{#invoke:UnitData2|get|Akoku (Destruction)|upgrade|damage|max}}|Akoku (Destruction)|-> {{formatnum:{{#invoke:UnitData2|get|Akoku (Destruction)|upgrade|damage|max}} }}}}|}}</default>
+    </data>
+    <data source="seconds_per_attack">
+      <label>Attack Rate/SPA</label>
+      <default>{{#iferror:{{formatnum: {{#invoke:UnitData2|get|Akoku (Destruction)|attack_cooldown}} }} {{#ifeq:{{#invoke:UnitData2|get|Akoku (Destruction)|attack_cooldown}}|{{#invoke:UnitData2|get|Akoku (Destruction)|upgrade|attack_cooldown|max}}|Akoku (Destruction)|-> {{formatnum:{{#invoke:UnitData2|get|Akoku (Destruction)|upgrade|attack_cooldown|max}} }}}}|}}</default>
+    </data>
+    <data source="range">
+    	<label>Range</label>
+    	<default>{{#iferror:{{formatnum: {{#invoke:UnitData2|get|Akoku (Destruction)|range}} }} {{#ifeq:{{#invoke:UnitData2|get|Akoku (Destruction)|range}}|{{#invoke:UnitData2|get|Akoku (Destruction)|upgrade|range|max}}|Akoku (Destruction)|-> {{formatnum: {{#invoke:UnitData2|get|Akoku (Destruction)|upgrade|range|max}} }}}}|}}</default>
+	</data>
+  </group>
+</infobox>

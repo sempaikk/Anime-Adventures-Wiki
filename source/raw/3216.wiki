@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 13.5 - Madoka Magica Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by evolving [[Haze]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="YOU STUPID DELINQUENT! ARE YOU MESSING WITH ME?! HOW MANY TIMES DO I HAVE TO TEACH YOU THIS BEFORE YOU LEARN?! YOU SHIT-FOR-BRAINS!"
+|caption2="You'll be the one dying... once you've witnessed my Stand!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* His shiny form refers his Manga version, with the red suit, black tie and red/green shoes.
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Unobtainable Units]]
+[[Category:Battle Pass Units]]

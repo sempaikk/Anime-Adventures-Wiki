@@ -1,0 +1,53 @@
+-- Written by [[User:Bitomic|bitomic]]
+---- Inspired by IZ*ONE Wiki [[w:c:iz-one:Template:Lyrics]]
+local p = {}
+
+function p.main( frame )
+	local args = frame:getParent().args
+	
+	return p.buildTabber( args )
+end
+
+function p.buildTabber( args )
+	local frame = mw.getCurrentFrame()
+	local infobox = mw.html.create( 'infobox' ):attr( 'theme', 'tabber' )
+	local panel = mw.html.create( 'panel' ):attr('class','test')
+	
+	-- Because, apparently, you can't count args through `#args`
+	local flag = true
+	local i = 1
+	while flag do
+		local tab_name = args[ 2 * i - 1 ]
+		local tab_content = args[ 2 * i ]
+		
+		if tab_name and tab_content then
+			local section = createSection( tab_name, tab_content )
+			panel:node( section )
+		
+			i = i + 1
+		else
+			flag = false
+		end
+	end
+	
+	infobox:node( panel )
+	
+	return frame:preprocess( tostring( infobox ) )
+end
+
+function createSection( title, content )
+	content = mw.text.trim( content )
+	local section = mw.html.create( 'section' )
+	local label = mw.html.create( 'label' ):wikitext( title )
+	local header = mw.html.create( 'header' ):wikitext( title )
+	local data = mw.html.create( 'data' )
+	local default = mw.html.create( 'default' ):wikitext( content )
+	data:node( default )
+	section:node( label )
+	section:node( header )
+	section:node( data )
+	
+	return section
+end
+
+return p

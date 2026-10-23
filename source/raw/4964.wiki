@@ -1,0 +1,22 @@
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Sword Queen]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1= "This light is the planet's hope... proof of the life that illuminates this world! Let us end this! EXCALIBUR!!!" 
+|caption2= "GAOOOOOOOOOOOOOOOOOOO"
+|damage=}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__

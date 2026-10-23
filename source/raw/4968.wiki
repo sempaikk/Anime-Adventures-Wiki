@@ -1,0 +1,25 @@
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. They can only be obtained by evolving [[Lilia]].
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1="Berserker can't lose to anyone... Because Berserker's the strongest in the world!"
+|caption2="Protect her, in my stead."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

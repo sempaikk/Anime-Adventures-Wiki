@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 3 - Bleach Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} unit. He was only obtainable if the player purchased him with 100 [[Items#Materials|Clown Mask]] during the Ghoul City event.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="All we can do is live while losing things."
+|caption2="We can only live while we lose. Things."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Event Units]]

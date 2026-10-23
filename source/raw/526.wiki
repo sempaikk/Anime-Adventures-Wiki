@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 3 - Bleach Update}}
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} unit. He is only obtainable by Infinite Run Leaderboard.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You know you can't win! You can't destroy what I really am! Even if you manage to kill this body, someone even stronger would surface and take my place! Not one death will go unaccounted for, not one!"
+|caption2=Huh... oh no! Now it's... the Z Dagger...?
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* {{PAGENAME}} - ['''Limited'''] - Obtained by achieving a top 25 infinite run in Week 1
+* {{PAGENAME}} Shiny - ['''Limited'''] Obtained by achieving a top 10 infinite run in Week 1
+
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

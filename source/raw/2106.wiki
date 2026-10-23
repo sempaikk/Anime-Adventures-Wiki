@@ -1,0 +1,5 @@
+===<center style="margin: 17px 0 5px 0; font-size: 124%;>Anime Adventure Trading Tier list</center>===
+<center class="mobileonly">[https://docs.google.com/spreadsheets/d/16x-R--T8EUgEEUGO6frTTyesmaXXknCg01jtPQoyiZU]</center>
+<div style="overflow-x: auto; overflow-y: hidden;"><div class="googlespreadsheet"
+data-spreadsheet-id="16x-R--T8EUgEEUGO6frTTyesmaXXknCg01jtPQoyiZU"
+style="width: 828px; height: 400px;"></div></div>

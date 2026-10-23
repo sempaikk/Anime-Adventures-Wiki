@@ -1,0 +1,1 @@
+<includeonly>[[File:Icy Star.png|24px|link=Items]] [[Items|<span class="Tsh(Game) C(White) game-font-face">{{{1|}}} Icy Star</span>]]</includeonly><noinclude>{{Doc}}</noinclude>

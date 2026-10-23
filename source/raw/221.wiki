@@ -1,0 +1,28 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Let's end this with a just victory!"
+|caption2="Prepare not only for my anger, but also prepare to be burned alive by magma!"
+|image1=Akano.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*{{PAGENAME}} was featured as a Secret Boss on Marine's Ford [[Infinite]] Mode during Update 1.
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Burn Units]]

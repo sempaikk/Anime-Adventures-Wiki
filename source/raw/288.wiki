@@ -1,0 +1,5 @@
+<div style="display:inline-block";> <div class="grid-item">
+{| class="portal" style="background:#FF7F7F; -moz-border-radius:7px; -webkit-border-radius:7px; border-radius:7px; -khtml-border-radius:7px; display:inline-block;"
+|<div class="Top-GunBox-InfRola  StandBoxs"><div style="border-radius: 5px; padding: 1px; position: relative; text-decoration: none "><div style="border-radius: 4px; overflow: hidden; width: 150px; height: 160px;">[[Image:{{{image}}}|165px|{{{articlename}}}|link={{{articlename}}}]]</div><span style="position: absolute; right: 0px; bottom: 0px;left: 0px; font-weight: bold; color: white; padding: 0px; text-align:center;">[[{{{articlename}}}|{{{name}}}]]</span></div></div>
+|}
+</div></div>

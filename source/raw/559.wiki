@@ -1,0 +1,22 @@
+''If you were looking for a different Carrot unit, see [[Carrot (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am the warrior you've heard of in legends, pure of heart and awakened by fury, that's what I am. I am the Super Carrot..."
+|caption2="Don't be so shy! Soon, you're the one that be protecting the Earth!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+<gallery>
+
+</gallery>
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

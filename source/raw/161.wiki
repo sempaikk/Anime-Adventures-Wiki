@@ -1,0 +1,70 @@
+<infobox>
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+  <image source="image1">
+    <caption source="caption1"/>
+  </image>
+  <data source="deployment_cost">
+    <label>Deployment Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{{deployment_cost}}}</span></format>
+  </data>
+  <data source="upgrade_levels">
+    <label>Upgrade Levels</label>
+  </data>
+  <data source="total_cost">
+    <label>Total Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{{total_cost}}}</span></format>
+  </data>
+  <data source="tower_type">
+    <label>Tower Type</label>
+  </data>
+  <group>
+    <header>Attack Stats</header>
+    <data source="attack_type">
+      <label>Attack Type </label>
+    </data>
+    <data source="damage">
+      <label>Damage</label>
+    </data>
+    <data source="spa_(second_per_attack)">
+      <label>SPA (Second Per Attack)</label>
+    </data>
+    <data source="range">
+      <label>Range</label>
+    </data>
+  </group>
+</infobox>
+<noinclude>
+Example usage:
+<pre>
+{{Unit Stats
+
+  | title1=Example
+
+  | image1=Example
+
+  | caption1=Example
+
+  | deployment_cost=Example
+
+  | upgrade_levels=Example
+
+  | total_cost=Example
+
+  | tower_type=Example
+
+  | attack_type=Example
+
+  | damage=Example
+
+  | spa_(second_per_attack)=Example
+
+  | range=Example
+
+}}
+</pre>
+<templatedata>
+{"params":{"title1":{"suggested":true},"image1":{"suggested":true},"caption1":{"suggested":true},"deployment_cost":{"suggested":true},"upgrade_levels":{"suggested":true},"total_cost":{"suggested":true},"tower_type":{"suggested":true},"attack_type":{"suggested":true},"damage":{"suggested":true},"spa_(second_per_attack)":{"suggested":true},"range":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

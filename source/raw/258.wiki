@@ -1,0 +1,135 @@
+<infobox type="character">
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+    <panel name="img">
+        <section name="section1">
+            <label>{{{skin1|Original Skin}}}</label>
+			<image source="image1">
+				  <default>{{#ifexist:File:{{PAGENAME}} (Pose).png|{{PAGENAME}} (Pose).png|{{#ifexist:File:{{PAGENAME}}.png|{{PAGENAME}}.png|}}}}</default>
+				  <caption source="caption1"/>
+				</image>
+        </section>
+        <section name="section2">
+            <label>{{{skin2|Shiny Skin}}}</label>
+				<image source="image2">
+					<default>{{#ifexist:File:{{PAGENAME}} Shiny (Pose).png|{{PAGENAME}} Shiny (Pose).png|{{#ifexist:File:{{PAGENAME}} Shiny.png|{{PAGENAME}} Shiny.png|}}}}</default>
+					<caption source="caption2"/>
+				</image>
+        </section>
+        <section name="section3">
+            <label>{{{skin3}}}</label>
+				<image source="image3">
+					<caption source="caption3"/>
+				</image>
+        </section>
+   </panel>
+  <data source="deployment_cost">
+    <label>Deployment Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{{deployment_cost}}}}}¥</span></format>
+    <default>{{#iferror:<span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum: {{#invoke:UnitData|get|cost}}}}¥</span>|[[Category:UnitData error]]}}</default>
+  </data>
+  <data source="total_cost">
+    <label>Total Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{{total_cost}}}}}¥</span></format>
+    <default>{{#iferror:<span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{#invoke:UnitData|get|total_cost}}}}¥</span>|[[Category:UnitData error]]}}</default>
+  </data>
+  <data source="upgrade_levels">
+    <label>Upgrade Levels</label>
+    <default>{{#iferror:{{#invoke:UnitData|get|upgrade_levels}}|[[Category:UnitData error]]}}</default>
+  </data>
+    <data source="spawn_cap">
+    <label>Spawn Cap</label>
+    <default>{{#iferror:{{#invoke:UnitData|get|spawn_cap}}|[[Category:UnitData error]]}}</default>
+  </data>
+  <data source="Tower_type">
+    <label>Tower Type</label>
+    <default>{{#iferror:{{#invoke:UnitData|get|tower_type}}|[[Category:UnitData error]]}}</default>
+  </data>
+  <data source="Damage_type">
+  	<label>Damage Type</label>
+  	<format><span 
+  	>{{#ifeq:{{{Damage_type}}}|true|{{Tower Infobox/Damage type|true_damage}}|{{Tower Infobox/Damage type|{{{Damage_type}}}}}}}</span></format>
+  	<default>{{#iferror:{{#invoke:UnitData|get|base_damage_type}}|[[Category:UnitData error]]}}</default>
+  </data>
+  <data source="Secondary_Damage_type">
+  	<label>Secondary Damage Type</label>
+  	<format><span 
+  	>{{Tower Infobox/Damage type|{{{Secondary_Damage_type}}}_damage}}</span></format>
+  	<default>{{#iferror:{{#invoke:UnitData|get|secondary_damage_types}}|[[Category:UnitData error]]}}</default>
+  </data>
+  <group>
+    <header>Attack Stats</header>
+    <data source="Crit_Chance">
+      <label>Crit Chance</label>
+    <default>{{#iferror:{{#invoke:UnitData|get|crit_chance}}|[[Category:UnitData error]]}}</default>
+    </data>
+    <data source="Attack_Type">
+      <label>Attack Type</label>
+    <default>{{#iferror:{{#invoke:UnitData|get|attack_type}}|[[Category:UnitData error]]}}</default>
+    </data>
+    <data source="damage">
+		<label>Damage</label>
+		<format><span
+		>{{formatnum:{{{damage}}}}}</span></format>
+		<default>{{#iferror:{{formatnum: {{#invoke:UnitData|get|damage}} }} {{#ifeq:{{#invoke:UnitData|get|damage}}|{{#invoke:UnitData|get|upgrade|damage|max}}||-> {{formatnum:{{#invoke:UnitData|get|upgrade|damage|max}} }}}}|[[Category:UnitData error]]}}</default>
+    </data>
+    <data source="seconds_per_attack">
+      <label>Attack Rate</label>
+      <default>{{#iferror:{{formatnum: {{#invoke:UnitData|get|attack_cooldown}} }} {{#ifeq:{{#invoke:UnitData|get|attack_cooldown}}|{{#invoke:UnitData|get|upgrade|attack_cooldown|max}}||-> {{formatnum:{{#invoke:UnitData|get|upgrade|attack_cooldown|max}} }}}}|[[Category:UnitData error]]}}</default>
+    </data>
+    <data source="range">
+    	<label>Range</label>
+    	<default>{{#iferror:{{formatnum: {{#invoke:UnitData|get|range}} }} {{#ifeq:{{#invoke:UnitData|get|range}}|{{#invoke:UnitData|get|upgrade|range|max}}||-> {{formatnum: {{#invoke:UnitData|get|upgrade|range|max}} }}}}|[[Category:UnitData error]]}}</default>
+	</data>
+  </group>
+  <group>
+    <header>About</header>
+    <data source="release">
+    	<label>Release</label>
+	</data>
+  </group>
+</infobox>
+
+<noinclude>
+Example usage:
+<pre>
+
+{{Tower Infobox
+
+  |caption1= "I don't need a reason to fight. I just follow my instincts."
+  
+  |caption2= "It's best to crush insects quickly once they've gotten inside, right?"
+
+  |Damage_type= physical
+  
+  |Secondary_Damage_type= lightning
+  
+  |deployment_cost= 1350
+  
+  |total_cost= 89300
+
+  |upgrade_levels= 8
+  
+  |spawn_cap = 3
+
+  |Tower_type= Ground
+  
+  |Crit_Chance = 50%
+  
+  |Attack_Type= AoE (Circle)
+
+  |damage= 1950 -> 37500
+
+  |seconds_per_attack= 8 -> 9
+
+  |range= 15 -> 33
+
+}}
+
+</pre>
+
+<templatedata>
+{"params":{"caption1":{"suggested":true, "label": "Text", "description": "The quote from the unit without any references from the anime (such as names or places) This caption will be use it in his original image version", "type": "string"}, "caption2":{"suggested":true, "label": "Text", "description": "The quote from the unit without any references from the anime (such as names or places). This caption will be use it in his shiny image version", "type": "string"},"Damage_type":{"suggested":true, "label":"physical, magic, true", "description": "The primary damage type of the unit", "type": "string"},"Secondary_Damage_type":{"suggested":true, "label":"fire, light, dark, rose, water, lightning, air", "description": "The secondary damage type of the unit", "type": "string"},"deployment_cost":{"suggested":true, "label":"Number", "description": "The amount of yen it requires to place the unit", "type": "number"},"total_cost":{"suggested":true, "label":"Number", "description": "The total amount of yen it requires to max out the unit", "type": "number"},"upgrade_levels":{"suggested":true, "label":"Number", "description": "Amount of upgrades the unit has", "type": "number"},"spawn_cap":{"suggested":true, "label":"Number", "description": "The max amount of placement the unit has", "type": "number"}, "Tower_type":{"suggested":true, "label":"Ground, Hybrid, HILL", "description": "The tower type of the unit", "type": "string"},"Crit_Chance":{"suggested":true, "label":"Number%", "description": "The percentage chance that the unit have to land a critic per hit", "type": "number"},"Attack_Type":{"suggested":true, "label":"AoE (Circle), AoE (Cone), AoE (Full), Single", "description": "The attack type of the unit", "type": "string"},"Damage":{"suggested":true, "label":"Number -> Number", "description": "Deployment lvl 1 Attack Stat -> Final Upgrade lvl 1 Attack Stat", "type": "number"},"seconds_per_attack":{"suggested":true, "label":"Number -> Number", "description": "Deployment SPA Stat -> Final Upgrade SPA Stat", "type": "number"},"range":{"suggested":true, "label":"Number -> Number", "description": "Deployment Range Stat -> Final Upgrade Range Stat", "type": "number"}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

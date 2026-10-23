@@ -1,0 +1,17 @@
+{{Unobtainable Unit|Update 19 - Winter + Re-release Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. He is a [[Tournament|Tournament-exclusive]] (preceding [[Messi]] and succeeding [[Deer-tan]]), only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward.
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="This is golden supremacy of Bubble Cutter. This is my final attack. BUBBLE LENSES OVERDRIVE! The light passes from lense to lense. Expose comepletely into light itself."
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*His page creation suggests he is supposedly is going to be the [[Tournament|Tournament-exclusive]] during Fate update, but instead it was [[Messi]].
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__

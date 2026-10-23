@@ -1,0 +1,15 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="When you lose to someone smaller than you, it destroys your soul."
+|caption2="There are no shortcuts. Only hard work. Train hard and be patient. It will pay off."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

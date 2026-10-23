@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 17 - Fate Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through opening Summer Stars.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Yes! I am!"
+|caption2="I hope you don't think the flames of Arcane Blaze only burn upward or with the wind. I am not bound by the laws of nature. I can control fire as I wish."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

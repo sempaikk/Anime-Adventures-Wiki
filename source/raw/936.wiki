@@ -1,0 +1,23 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Morals...? With that 'morality' you can't crush evil. We are justice, that is our morality."
+|caption2="This world is wrong."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Aqua}} damage type, along with other units without a second damage type.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Aqua]]
+[[Category:Rare Units]]

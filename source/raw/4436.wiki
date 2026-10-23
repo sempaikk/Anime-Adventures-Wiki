@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 18 - Naruto: Rain Village Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. He is a [[Tournament|Tournament-exclusive]] (preceding [[Stitches]] and succeeding [[Caesar]]), only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Nonsense? It is nonsensical indeed. But then, so is the world. Either you win or you lose. While you were getting excited over your mediocre successes, true strikers tread a path of winning or losing everything. Every single day, in order to keep on surviving.”
+|caption2=“I'm telling you to not get in our way."}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* He used to be dropped out of [[Update Log#Update 17 - Fate Update|Fate update]], but he lasted one more update than usual as the developers forgot to replace him for [[Caesar]].<ref>This is due to [[Caesar]]'s page being created during Fate update.</ref>
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

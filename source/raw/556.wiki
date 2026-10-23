@@ -1,0 +1,18 @@
+=='''Overview'''==
+'''Usurper''' is a summoner unit with an ability it is {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'm gonna destroy them! Every last one of those animals that's on this earth!"
+|caption2="This is... Freedom!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

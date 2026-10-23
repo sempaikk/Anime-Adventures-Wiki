@@ -1,0 +1,29 @@
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Secret}} unit. He can only be obtained by awakening the Sovereign's Staff after sacrificing 3 evolved {{Rarity|Mythical}}. This sacrifices can be from [[Cherub (Overseer)]], [[Lucifer (Demon Emperor)]], [[Bloodcry (Fallen)]], [[Thunder Maid (Servant)]] or [[Crystal Rose (Impact)]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am Supreme Being. With that name at stake, there can be no defeat."
+|caption2="I am Supreme Being. With that name at stake, there can be no defeat."
+|deployment_cost=}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*He and his [[Supreme Being (Sovereign)|evolved form]] are the second {{Rarity|Secret}} units added in the game that are not limited-time. The first units are [[Lulu]] and his [[Lulu (Emperor)|evolved form]].
+*It takes a total of 40 rings of each color to get [[Supreme Being (Sovereign)]].
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

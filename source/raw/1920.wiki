@@ -1,0 +1,22 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}.'' He is only obtainable by evolving [[Priest]] with a [[Evolution|Green Baby]].
+
+{{EvolutionTable}}
+{{Takedowns|10000}}
+=='''Stats Overview'''==
+{{Tower_Infobox
+|caption1="I feel it, this is the spot for [[Priest (Heaven)|Heaver]]!"
+|caption2="Do you believe in gravitational forces between humans? That certain people attract certain others? I believe this, now."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* All of his upgrade costs are prime numbers, befitting the character's personality.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

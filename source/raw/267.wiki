@@ -1,0 +1,25 @@
+=='''Overview'''==
+'''Illusionist''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“ From the very start, no one has stood upon the cosmos. Not you, not I, nor even deities. However, that intolerable vacuum has come to a conclusion. Henceforth...I shall stand upon the cosmos.”
+|caption2="Welcome... to my Spirit Society."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

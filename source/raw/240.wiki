@@ -1,0 +1,22 @@
+''If you were looking for a different Shinobi unit, see [[Shinobi (disambiguation)]]''
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]]. 
+
+==Stats ==
+{{Tower_Infobox
+|caption1="I have already awakened."
+|caption2="This is the path I walk. Not you or anyone can change that."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]
+[[Category:Burn Units]]

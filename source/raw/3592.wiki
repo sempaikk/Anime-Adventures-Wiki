@@ -1,0 +1,36 @@
+'''Vego''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Rare}}</center>
+|{{Characterbox|Vego}}
+|'''[[Vego]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Vego (Super)}}
+|'''[[Vego (Super)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Vego (Super II)}}
+|'''[[Vego (Super II)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Vego (Mage)}}
+|'''[[Vego (Mage)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Vego (Mage II)}}
+|'''[[Vego (Mage II)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Fused Hero}}
+|'''[[Fused Hero]]'''
+|-
+|<center>{{Rarity|Secret}}</center>
+|{{Characterbox|Veko}}
+|'''[[Veko]]'''
+|-
+|}

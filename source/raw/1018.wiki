@@ -1,0 +1,17 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit''.'' He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="At what point did I ever claim that I was cutting you down in my capacity as a Dusk? To justify the actions I have taken, I need but one reason. You raised your blade in contempt of my pride."
+|caption2="Be proud, as someone who, after being struck by this power, is still able to retain the form of his body."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

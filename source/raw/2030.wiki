@@ -1,0 +1,22 @@
+{{Unobtainable Unit| Update 10.5 - Cloud Pass Update}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He was only obtainable by reaching rank 50 in Cake Hunt and with Premium Pass for his shiny version.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The thing called justice changes its shape depending on where you stand."
+|caption2="What comes first? The dream or the dreamers? As long as pirates pursue their dreams, there will also be people who have to grieve the loss of loved ones."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

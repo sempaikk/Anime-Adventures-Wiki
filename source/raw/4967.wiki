@@ -1,0 +1,26 @@
+{{Story Meta Unit}}{{Meta Unit}}{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}{{Unobtainable Unit|Update 18.5 - Sacred Planet}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Golden King]].
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I will tell you of the beginning. Heaven and Earth split, nothingness congratulated creation, my Sword of Rupture cleaved the world! Mortar of the stars, heaven's hell is the eve of creation's celebration.. Now you shall die and be silent.. ENUMA ELISH!”
+|caption2="There are two kinds of arrogance. One where you are unequal to the task and one where your dreams are too big. The former is commonplace stupidity... but the latter is a rare species that is difficult to find."}}{{Main Stats}} 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+
+<references />

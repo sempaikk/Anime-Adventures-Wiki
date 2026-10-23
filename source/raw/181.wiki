@@ -1,0 +1,20 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''Mazara''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons.]]
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=The longer you live… The more you realize that reality is just made of pain, suffering and emptiness.
+|caption2=The concept of hope is nothing more than giving up. A word that holds no true meaning.
+|image1={{PAGENAME}}.png
+|title1=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

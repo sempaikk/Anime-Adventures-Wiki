@@ -1,0 +1,17 @@
+'''Ice Queen's''' is a Secret Portal drop by doing the frozen portal which is currently unobtainable after the Christmas event has ended.
+
+'''Ice Queen's Portal''' can obtained by the following:
+{| class="mw-collapsible fandom-table"
+|Required Items:
+|Frozen Portals
+|-
+|Result
+|Ice Queen's portal (Not Guaranteed From Every Frozen Portal)
+|}
+
+* The Drop Chance in a Ice Queen's Portal is 100% for the host and 5% for the other players in the portal 
+* The portal Drops a '''''Secret''''' unit "[[Ice Queen]]" Which can be later evolved to"[[Ice Queen (Empire's Strongest)|Ice Queen (Empires strongest)]]"
+*
+[[File:Ice_queens_portal.png]]
+[[Category:Ice queen]]
+[[Category:Portals]]

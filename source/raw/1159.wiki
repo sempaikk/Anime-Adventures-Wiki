@@ -1,0 +1,13 @@
+<includeonly><div class="anchor" id="{{trim|{{{id|{{PAGENAME}}}}}}}"></div>{{#if:{{{Fast travel for Mobile only|}}}|<div class="mobileonly" style="margin: 10px 0;">
+<div class="mw-customtoggle-{{#replace:{{trim|{{{id|{{PAGENAME}}}}}}}|<nowiki> </nowiki>|_}}-M-Fast_travel">
+<div class="mw-collapsible" id="mw-customcollapsible-{{#replace:{{trim|{{{id|{{PAGENAME}}}}}}}|<nowiki> </nowiki>|_}}-M-Fast_travel">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-{{#replace:{{trim|{{{id|{{PAGENAME}}}}}}}|<nowiki> </nowiki>|_}}-M-Fast_travel">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-{{#replace:{{trim|{{{id|{{PAGENAME}}}}}}}|<nowiki> </nowiki>|_}}-M-Fast_travel">
+<center>
+{{{Fast travel for Mobile only|}}}
+</center>
+</div></div>
+}}<div class="tierList_container">{{{1|}}}</div></includeonly><noinclude>{{Doc}}</noinclude>

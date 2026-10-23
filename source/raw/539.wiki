@@ -1,0 +1,22 @@
+''If you were looking for a different Tyrant unit, see [[Tyrant (disambiguation)]].''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+He is also the boss of stage 6 of [[Story#Planet Namak|Planet Namak]] as The Purple Tyrant.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Hahahaha...Hello monkeys!"
+|caption2="My power level is 530.000."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

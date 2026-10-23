@@ -1,0 +1,25 @@
+{{Unobtainable Unit}}{{Meta Unit}}{{Meta Support Unit}}
+
+==Overview==
+{{PAGENAME}} is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[InHuman]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+==Stats Overview==
+{{Tower_Infobox}}{{
+Main Stats}}
+
+==Active Ability: No Longer Human==
+His ability temporarily nullifies [[Enemy Mechanics|enemy passives]] (such as Fire, Ice, Armored, Shields or Flying) for the given amount of time. This does not temporarily nullify shields that had any damage modifiers.
+*Duration: 20s
+*Global Cooldown: 90s
+
+==Selling==
+
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+
+<references />

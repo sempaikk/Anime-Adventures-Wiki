@@ -1,0 +1,22 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It just sorta happened. I tend to get lonely. I wanna help a lot of people, so when I die, I want to be surrounded by a lot of people."
+|caption2=“You're right Mahito, I'm you”
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

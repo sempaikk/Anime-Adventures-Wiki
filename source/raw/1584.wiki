@@ -1,0 +1,81 @@
+<tabber>
+|-|Cursed Parade=
+[[File:Cursed Parade.png|thumb|300x300px|<i>"Are you the strongest because you're Satoru Gojo? Or are you Satoru Gojo because you're the strongest?"</i>]]
+===<span style="font-size: 200%;">Cursed Parade</span>===
+Introduced in [[Update Log#Update_6.5_-_Jujutsu_Kaisen_Update_Part_2|Update 6: Part 2]], '''Cursed Parade''' is a challenging dungeon where you and up to 6 others have to protect the academy from the sudden surge of curses. Will you be able to exorcise them?
+
+==Information==
+* This dungeon does not hold back, so make sure to bring heavy damage dealers and air support!
+
+* On wave 20, your final challenge is to defeat the [[Getu|Getu Boss]]!
+
+==Keys==
+* Key (Cursed Parade): {{Gems|200}} or {{Gold|2000}}
+:* Gives you the normal amount of rewards
+* Shiny Key (Cursed Parade): {{Robux|99}}
+:* Doubles the chance of getting a {{Rarity|Secret}} unit
+__NOEDITSECTION____NOTOC__
+==Rewards==
+{| class="fandom-table" style="text-align: center;"
+!Drop
+!Chance
+|-
+||{{Characterbox|Getu}}
+|1% (2% with shiny key) (No longer obtainable)
+|-
+|x4-10 {{Item|Cursed Orb}}
+|100%
+|}
+__NOEDITSECTION____NOTOC__
+|-|Cursed Womb=
+[[File:Cursed Womb.png|thumb|300x300px|<i>"Throughout heaven and earth, he alone is the honored one."</i>]]
+===<span style="font-size: 200%;">Cursed Womb</span>===
+Introduced in [[Update Log#Update_6.5_-_Jujutsu_Kaisen_Update_Part_2|Update 6: Part 2]], '''Cursed Womb''' is a dungeon that hides the remains of a very powerful curse; the strongest even. What lengths are you willing to go to retrieve these remains?
+
+==Information==
+* This dungeon is not the hardest, but it's never good to be cocky. Make sure to bring a buddy!
+
+* On wave 15, defeating the Finger Bearer boss will reward you with one of the strongest curses' lost finger
+
+==Requirement==
+To enter the dungeon, you must defeat a Womb Curse in '''Cursed Academy''' infinite and obtain their key
+* x1 Key (Cursed Womb)
+
+==Rewards==
+* x1 {{Item|Cursed Finger}}
+__NOEDITSECTION____NOTOC__
+
+|-|The Fire=
+===<span style="font-size: 200%;">The Fire</span>===
+Introduced in [[Update Log#Update 7.6 - Karakora Town Update Part 2 - 2 December 2022|Update 7.6: Part 2]].
+
+==Rewards==
+{| class="fandom-table" style="text-align: center;"
+!Drop
+!Chance
+|-
+|{{Characterbox|Yamomoto}}
+|5% (No longer obtainable)
+|-
+|x??? {{Item|Worthy Soul}}
+|100%
+|}
+
+|-|Anniversary Island=
+===<span style="font-size: 200%;">Anniversary Island</span>===
+Introduced in [[1st Anniversary Update]].
+
+==Rewards==
+{| class="fandom-table" style="text-align: center;"
+!Drop
+!Chance
+|-
+|{{Item|Anniversary Star}}
+|100%
+|-
+|{{Item|Anniversary Starry Ball}}
+|100% (one times a day MAX, 24 hour cooldown)
+|}
+</tabber>
+__NOEDITSECTION____NOTOC__
+[[Category:Game Modes]]

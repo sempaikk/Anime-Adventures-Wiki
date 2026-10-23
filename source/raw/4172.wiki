@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 17 - Fate Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained through opening Summer Stars.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Wealth, Fame, Power..."
+|caption2=“Inherited will, the destiny of the age, and the dreams of the people. As long as people continue to pursue the meaning of Freedom, these things will never cease to be!”
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*He became unobtainable after Summer Event has ended.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Event Units]]

@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by completing a Devil City Secret Portal, and chances are guaranteed if it's the host.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I want you to live a normal life and die a normal death. Make my dreams come true for me!"
+|caption2=
+|image1=Blade_Beast_(Past).png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Denjy's bleed damage is 50% of his damage
+*He is able to get unshinyed for 3 Star remnants.
+*He is second unit who is considered a palette swap of another unit, his case being [[Blade Beast (Hybrid)]], with the other case being [[Mecha Tyrant]], who is a palette swap of [[Tyrant (Final)]].
+**This rate, if you place 2 [[Blade Beast (Hybrid)]]s and 2 of Denjys, and you place another one of Chainsaw or Denjy, an error pops up. ''[Confirmation Needed]''
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Event Units]]

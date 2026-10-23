@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 15 - Anniversary + Eclipse! - 3 July 2023}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He can only be obtained by evolving [[Bodybuilder]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="When it come's to that, i'd beat the stuffings out of you. With my fists.
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

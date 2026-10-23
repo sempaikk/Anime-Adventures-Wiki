@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 16.5 - JoJo Part 4 Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He is only obtainable from [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Stay alive you hear? I don't care how you do it. Just stay alive until the end."
+|caption2=
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+* {{PAGENAME}} along with the other Units have damage buffs against the [[Legend Stages#Virtual Dungeon (Bosses)|Virtual Dungeon (Bosses) Legend Stages]].
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

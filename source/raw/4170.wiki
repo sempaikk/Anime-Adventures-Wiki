@@ -1,0 +1,27 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She is only obtainable through opening Summer Stars.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“No world is without sacrifices. But if we produce casualties, we would also sustain casualties of our own.”
+|caption2=“I do not intend to fight for no reason. That is why I became strong.”
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* She happens to be the boss of [[Legend Stages|Hollow Invasion (Legend stage), Act 1]], as '''Tiel.'''
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

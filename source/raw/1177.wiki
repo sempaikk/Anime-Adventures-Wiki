@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 6 - Jujutsu Kaisen Update Part 1}}
+=='''Overview'''==
+'''Luci''' is a {{Rarity|Mythical}} {{LU}}. She was only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=Even if you lose everything, something remains.
+|caption2=Even if you lose everything, something remains.
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+This unit can '''NOT''' be sold once placed.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

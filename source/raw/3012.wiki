@@ -1,0 +1,1 @@
+Units with a   {{Damage_Type|lightning_damage}} affinity.

@@ -1,0 +1,27 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Shadow Sorcerer]].
+{{EvolutionTable}}
+
+== Stats Overview==
+{{Tower_Infobox
+|caption1="It's incomplete! It's ugly work at best. But for now, that's fine!"
+|caption2="Imagine a future version of myself who's freely surpassed my limits! Oh I can do that!"                                                                                                                            
+                                                                                                                                             "With a strong foundation, and a little bit of sense and imagination, it just takes the slightest trigger to change a person." -Goju
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* {{PAGENAME}} is one of two units along with [[Blackhair]] that can curse enemies, making them take more magic damage.
+* On update 20.0 , '''Shade Sorcerer (Hybrid Shadow)''' can be evolved into [[Shadow Sorcerer (Incident)]].
+** Along with [[Priest]] and [[Illusionist]], it has the most evolution form in the game.
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

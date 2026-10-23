@@ -1,0 +1,23 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable from [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview ==
+{{Tower_Infobox|caption1="You’re right, we are mortal and fragile. But even if we are tortured or wounded, we’ll fight to survive. You should feel the pain we feel and understand. I am the messenger that will deliver you to that pain and understanding."
+|caption2="I am just a man... but this arm... this sword... will cut even the gods themselves."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+
+<references />

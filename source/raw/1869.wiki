@@ -1,0 +1,105 @@
+==Information==
+This page classifies different units to different ranks depending on how good they are in most modes. DPS is the main factor in this list, although all aspects are considered such as SPA, AoE, Range, Placement, Etc. Keep in mind that the rankings are not completely indicative of a units' power - some may be better or worse in certain maps or gamemodes.
+
+<ul class="game-font-face" style="display: flex;justify-content: space-evenly;">
+<dd style="margin: 0;">[[Legendary unit Tier List|Tier List about Legendaries.]]</dd>
+<dd style="margin: 0;">[[Tier List|Main Tier List.]]</dd>
+</ul>
+
+===Rules===
+*If you don't agree with a unit placing, talk it out instead of making a huge argument.
+*Don't put bad characters such as Piccolo on high tiers. hello!
+*Be respectful of other people's opinions, everyone has different opinions.
+==The Tier List==
+{{TierList/Container|id=infiniti
+
+|Fast travel for Mobile only=
+
+<div>{{Anchor1|META Ground}}</div>
+
+<div>{{Anchor1|META Hill/Hybrid}}</div>
+
+<!-- list of all "TierList/Item Container" names inside this "TierList/Container" -->
+
+|{{TierList/Item Container|color=#ff7f7f|id=infiniti<!-- id TierList -->|name=GREAT Ground
+|
+{{TierList/Item|Lao
+|Description=Ultimate DPS with Single Attacks.}}
+}}
+{{TierList/Item Container|color=#fe80fb|id=infiniti<!-- id TierList -->|name=GREAT Hill/Hybrid
+|
+{{TierList/Item|Cel (Imperfect)
+|Description=Massive DPS with Circle AoE.}}
+{{TierList/Item|Geno
+|Description=Great DPS with Circle AoE}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=infiniti<!-- id TierList -->|name=GREAT Support
+|
+{{TierList/Item|Jokujo
+|Description=Insane DPS with Single attacks.<br /><br />Timestop ability at Upgrade 4.}}
+{{TierList/Item|Todorro
+|Description=High DPS with Cone AoE and Slow attacks.<br /><br />Gets a Burn attack at Upgrade 5.}}
+{{TierList/Item|Speedcart
+|Description=Money unit.}}
+}}
+
+{{TierList/Item Container|color=#82fe89|id=infiniti<!-- id TierList -->|name=Good Ground
+|
+{{TierList/Item|Croc
+|Description=Great DPS with Line AoE.<br /><br />Changes to Circle AoE at Upgrade 3.}}
+}}
+
+{{TierList/Item Container|color=#82fffe|id=infiniti<!-- id TierList -->|name=Good Hill/Hybrid
+|
+{{TierList/Item|Freezo (Final)
+|Description=good DPS with Circle AoE.}}
+{{TierList/Item|Karyoin
+|Description=good DPS with Circle AoE.}}
+}}
+
+{{TierList/Item Container|color=#80bffc|id=infiniti<!-- id TierList -->|name=Good Support
+|
+{{TierList/Item|Gaaro
+|Description=high DPS with Cone AoE.<br /><br />Changes to Circle AoE at Upgrade 5.<br /><br />Gets a Stun attack at Upgrade 5.}}
+}}
+
+{{TierList/Item Container|color=#7f7ffa|id=infiniti<!-- id TierList -->|name=Decent
+|
+{{TierList/Item|Inosoku
+|Description=high DPS with Cone AoE.}}
+{{TierList/Item|Bakayua
+|Description=high DPS with Circle AoE.}}
+{{TierList/Item|Luffo (Marine's Ford)
+|Description=high DPS with Circle AoE.<br /><br />Changes to Cone at Upgrade 4.}}
+{{TierList/Item|Kizzua
+|Description=good DPS with Circle AoE.}}
+{{TierList/Item|Zennu
+|Description=good DPS with Single attacks.<br /><br />Changes to Line AoE at Upgrade 4.}}
+{{TierList/Item|Underhaul
+|Description=good DPS with Single attacks.<br /><br />Changes to Circle AoE at Upgrade 5.}}
+{{TierList/Item|Kazashu
+|Description=good DPS with Circle AoE.<br /><br />Changes to Line AoE at Upgrade 4.}}
+}}
+
+{{TierList/Item Container|color=#fe80fb|id=infiniti<!-- id TierList -->|name=Unviable
+|
+{{TierList/Item|Ichi (Masked)
+|Description=moderate DPS with Line AoE.}}
+{{TierList/Item|Piccoru
+|Description=moderate DPS with Line AoE.}}
+}}}}Per-Unit (single) DPS is usually what most people in the community talk about as calculations are easier without taking into account number of placement. Please keep in mind that while certain characters' singular DPS may be higher than others, placement limits affect Total DPS significantly. The approximate range for DPS (PER SINGLE UNIT) descriptions are:
+*Bad DPS 60-89
+*Moderate DPS 90-119
+*Good DPS 120-169
+*High DPS 170-269
+*Great DPS 270-319
+*Amazing DPS 320-379
+*Massive DPS 380-469
+*Insane DPS 470-719
+*Ultimate DPS 720-999
+*Godly DPS 1000+
+DPS accounts for the DMG (Damage) of a unit divided by its SPA (Attack speed) . The total damage of a unit can be higher or lower as some units can only be placed 3, 4, 5, etc amount times.
+
+__NOTOC__
+__NOEDITSECTION__

@@ -1,0 +1,19 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through the Raid Shop and Rumbling Stars. He can be bought for 50 Path Shards and you need 2 of him to evolve [[Usurper]] into [[Usurper (Founder)]].
+He is also the boss of stage 3 of [[Story#Shiganshinu District|Shiganshinu District]] as The Beast Titan.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="This Is Goodbye. We Never Did Learn To Trust One Another. But I Can't Blame You. The World I've Seen Was Just Too Different From What You've All Seen."
+|caption2="[[Usurper (Founder)|We]] Were Both Victims Of Your Father."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

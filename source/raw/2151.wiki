@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by evolving [[Blade Beast]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If dreams come true, I wanna hug a girl."
+|caption2="I just want to touch some boobs."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* Blade Beast's bleed damage is 50% of his damage
+* Blade Beast (Hybrid) and [[Blade Beast (Past)]] have the 3rd highest bleed damage in the game. With [[Saka (Ribbon)]] having the 2nd highest, and [[Berserker (Rage)]] having the highest.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

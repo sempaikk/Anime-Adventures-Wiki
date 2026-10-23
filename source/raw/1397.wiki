@@ -1,0 +1,29 @@
+{{Unobtainable Unit|Update 7 - Black Clover Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He is only obtainable by evolving [[Ratio]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I hate overtime, so let's just finish this quickly."
+|caption2="[[Itukoda|You]] got it from here."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Passive Ability: Overtime ==
+When deployed, {{PAGENAME}} will gain a compound 1% Damage buff each time a wave passes. 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* It is best to deploy {{PAGENAME}} at the start of the game to gain full benefits of the buff.
+* Damage buff automatically scales as you upgrade him.
+* Damage buff caps at 100 waves for a total of 12442.14 dps each.
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]

@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 18.5 - Sacred Planet}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained via completing [[Secret Portal|Golden Portal]] (guaranteed if you are the host).
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+== Stats Overview==
+{{Tower_Infobox|title1=Gilgamesh
+|caption1= "You break the law and I'll punish you, there is no room for discussion."
+|caption2= "I will tell you of the beginning. Heaven and Earth split, nothingness congratulated creation, my Sword of Rupture cleaved the world. Mortar of the stars, heaven's hell is the eve of creation's celebration.. ENUMA ELISH!"
+}}{{Main Stats}}
+
+Attacks starting from Upgrade 5 are able to hit air type enemies.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*He is the NPC of the [[Relics]] crafting menu, debuted since [[Update Log#Update 7 - Black Clover Update Part 1 - 12 November 2022|Update 7]].
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

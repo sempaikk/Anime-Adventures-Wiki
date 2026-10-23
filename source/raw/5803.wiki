@@ -1,0 +1,43 @@
+= Guild Rankings =
+
+== Guild Box ==
+{{Temp guild}}
+
+== Clan Ranking Badges ==
+
+Guild rankings in [https://animeadventures.fandom.com/wiki/Anime_Adventures_Wiki ''Anime Adventures''] are determined by your clan's total performance and are displayed through unique badges. Here’s a breakdown of the ranking system:
+
+<center>
+{| class="wikitable"
+! Badge
+! Ranking
+! Description
+|-
+| [[File:Bronze.png|frameless|61x61px]] '''Bronze'''
+| 50,000+
+| Awarded to clans ranked at 50,000 or higher.
+|-
+| [[File:SilverGuild.png|frameless|60x60px]] '''Silver'''
+| 49,999–26,000
+| For clans ranked between 50,000 and 26,000.
+|-
+| [[File:GoldGuild.png|frameless|61x61px]] '''Gold'''
+| 25,999–11,000
+| Reserved for clans achieving ranks between 26,000 and 11,000.
+|-
+| [[File:PlatGuild.png|frameless|62x62px]] '''Plat'''
+| 10,999-1,000
+| Awarded to top-performing clans ranked between 11,000 and 1,000.
+|-
+| [[File:DiamondGuild.png|frameless|62x62px]] '''Diamond''' 
+| 999–101
+| Represents the highest-ranked clans, just short of the top 100.
+|-
+| [[File:MasterGuild.png|frameless|60x60px]] '''Master'''
+| Top 100
+| The ultimate badge, awarded to the top 100 clans in the global rankings.
+|}
+
+
+== How to Improve Your Guild Ranking ==
+__NOTOC____NOEDITSECTION__

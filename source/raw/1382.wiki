@@ -1,0 +1,23 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't move! [[Itukoda|You're]] no longer human."
+|caption2="Don't move! [[Itukoda|You're]] no longer human."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 14 - Sword Art Online Update - 16 June 2023}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} unit. He is a [[Tournament|Tournament-exclusive]] (preceding [[Wukong]] and succeeding [[Stitches]]), only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="What does it mean to be strong?"
+|caption2="Until I understand what true strength is, I'm the Challenger! So I'll always stand up!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* Boxer's final attack has the highest hit count for any unit in the game! He is followed by [[Berserker (Rage)]] at 6 Multi Hits in his 2nd to last attack.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Tournament Units]]

@@ -1,0 +1,37 @@
+''If you were looking for a different Tango unit, see [[Tango (disambiguation)|Tango (disambiguation)]]'' 
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}.  He is only obtainable by evolving [[Tango (Score)]].  
+
+{{EvolutionTable}}
+
+{{Takedowns|7,500}}
+
+==Stats ==
+{{Tower_Infobox
+|caption1="Do I look like someone with any talent? See, this country is vast. It's teeming with people who'd blow your mind. Some are complete enigmas. Some can take up a sword and become a experts in two months. Me, chosen? Don't give me that crap! Just how many lives do you think I've let slip through my fingers until now?"
+|caption2="I am a god! You three are trash! That's the first thing you need to pound into your heads! Drive it in!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Attacks starting from Upgrade 8 are able to hit air type enemies. 
+* After Update 14.0.0, Tango (Flash God) has been given the {{Damage Type|Rose|Rose}} Damage type, along with other units without a second damage type.
+* Tango (Flash God) has also been given 50% crit chance which can be useful.
+* After the rerelease of the game, Tango (Flash God) has recived a damage buff with a few other units like [[Hubris (The One)]],  [[JIO (Over Heaven)]], [[Umbra (Nuclear)]].
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+[[Category:Damage Type Rose]]

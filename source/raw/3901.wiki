@@ -1,0 +1,19 @@
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He is only obtainable after achieving Tier 25 in the [[Battlepass]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="[[Spirit Reaper]] wants to save her. [[Spirit Reaper (Masked)|Spirit Reaper]] went all out for her, and that's enough. That's all the reason I need to put my life on the line for anything."
+|caption2="[[Spirit Reaper]] wants to save her. [[Spirit Reaper (Masked)|Spirit Reaper]] went all out for her, and that's enough. That's all the reason I need to put my life on the line for anything."
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

@@ -1,0 +1,16 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Chunks]]
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="THIS IS FOR [[Future Goh|GOH]]!”
+|caption2="[[Vego (Super)|Father]], one day I will prove myself to you. Maybe then you'll understand. All of these dangers that you're so eager to face, you don't have to face them alone."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

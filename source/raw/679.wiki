@@ -1,0 +1,26 @@
+<div class="mw-customtoggle-ShowImage-{{#replace:{{{location|Planet Namak}}}|<nowiki> </nowiki>|}} mobileonly">
+<div class="mw-collapsible" id="mw-customcollapsible-ShowImage-{{#replace:{{{location|Planet Namak}}}|<nowiki> </nowiki>|}}"><center>⮟ '''Show Image'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-ShowImage-{{#replace:{{{location|Planet Namak}}}|<nowiki> </nowiki>|}}"><center>⮝ '''Hide Image'''</center></div>
+</div>
+
+<div style="position: relative; margin: 16px auto; max-width: 719px;  display: grid; border-radius: 12px; background: #000000a6;  box-shadow: -1.2px -1px 5px -2px #ffb833, inset 1.2px 1px 20px -2px #0000006e; overflow: hidden;">
+<div class="game-font-face mobile-hidden" style="color: #e6e6e6; position: relative; text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; padding: 29px 25px;  row-gap: 20px; display: grid; grid-template-columns: repeat(auto-fill,minmax(168px,1fr));  justify-items: center; align-content: stretch;">
+{{#if:{{{Act 1|}}}{{{Boss 1|}}}|{{Story-MapBox/act_info|{{{Act 1|Evil Elegeance}}}|{{{Boss 1|Evil Elegeance}}}|Act=1}}}}
+{{#if:{{{Act 2|}}}{{{Boss 2|}}}|{{Story-MapBox/act_info|{{{Act 2|Evil Elegeance}}}|{{{Boss 2|Evil Elegeance}}}|Act=2}}}}
+{{#if:{{{Act 3|}}}{{{Boss 3|}}}|{{Story-MapBox/act_info|{{{Act 3|Evil Elegeance}}}|{{{Boss 3|Evil Elegeance}}}|Act=3}}}}
+{{#if:{{{Act 4|}}}{{{Boss 4|}}}|{{Story-MapBox/act_info|{{{Act 4|Evil Elegeance}}}|{{{Boss 4|Evil Elegeance}}}|Act=4}}}}
+{{#if:{{{Act 5|}}}{{{Boss 5|}}}|{{Story-MapBox/act_info|{{{Act 5|Evil Elegeance}}}|{{{Boss 5|Evil Elegeance}}}|Act=5}}}}
+{{#if:{{{Act 6|}}}{{{Boss 6|}}}|{{Story-MapBox/act_info|{{{Act 6|Evil Elegeance}}}|{{{Boss 6|Evil Elegeance}}}|Act=6}}}}
+</div>
+
+<div style="height: 100%; width: 100%;display: flex;position: absolute; align-items: flex-end;  z-index: -1; justify-content: center;">
+<div class="mw-collapsible mw-collapsed D(b)!" id="mw-customcollapsible-ShowImage-{{#replace:{{{location|Planet Namak}}}|<nowiki> </nowiki>|}}">[[File:Map - {{{location|Planet Namak}}}.png]]</div>
+</div></div>
+<table class="mobileonly">
+{{#if:{{{Act 1|}}}{{{Boss 1|}}}|{{Story-MapBox/M-act_info|{{{Act 1|}}}|{{{Boss 1|}}}|Act=1}}}}
+{{#if:{{{Act 2|}}}{{{Boss 2|}}}|{{Story-MapBox/M-act_info|{{{Act 2|}}}|{{{Boss 2|}}}|Act=2}}}}
+{{#if:{{{Act 3|}}}{{{Boss 3|}}}|{{Story-MapBox/M-act_info|{{{Act 3|}}}|{{{Boss 3|}}}|Act=3}}}}
+{{#if:{{{Act 4|}}}{{{Boss 4|}}}|{{Story-MapBox/M-act_info|{{{Act 4|}}}|{{{Boss 4|}}}|Act=4}}}}
+{{#if:{{{Act 5|}}}{{{Boss 5|}}}|{{Story-MapBox/M-act_info|{{{Act 5|}}}|{{{Boss 5|}}}|Act=5}}}}
+{{#if:{{{Act 6|}}}{{{Boss 6|}}}|{{Story-MapBox/M-act_info|{{{Act 6|}}}|{{{Boss 6|}}}|Act=6}}}}
+</table>

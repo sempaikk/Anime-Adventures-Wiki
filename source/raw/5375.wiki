@@ -1,0 +1,29 @@
+''If you were looking for a different Fox Ninja unit, see [[Fox Ninja (disambiguation)]]''.
+
+{{Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Fox Ninja (Sage)]]
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="There were six tails...! Fox Ninja seethed the worst emotions he'd ever felt!!"
+|caption2="We won't lose! Isn't that right, Kurama?!?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

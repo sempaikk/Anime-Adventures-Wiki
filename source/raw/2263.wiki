@@ -1,0 +1,19 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through evolving [[Supersound]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Whenever I face you, I cannot picture myself winning for some reason. Unless I defeat you and wipe out this thought, I cannot move on."
+|caption2="You haven't even been able to hit me once, so stop talking big,"
+|title1=Sonic (Speed)}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+ __NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

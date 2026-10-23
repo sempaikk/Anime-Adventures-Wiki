@@ -1,0 +1,20 @@
+=='''Overview'''==
+'''Gajoze''' is a {{Rarity|Legendary}} unit. He is obtainable through [[Summon|summons]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Care too little, you lose them. Care too much, you get hurt."
+|caption2="You want war... with Fairy Tail? I'm not the same... as before... I'll make you feel the same."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

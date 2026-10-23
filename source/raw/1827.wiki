@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 9 - Chainsaw Man Update}}
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}} unit. He was only obtainable as a secret drop from [[Dungeons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Why, precisely, do you think I have served as Captain-Commander of the Gotei 13 for a thousand years? Because in all those thousand years, no Shinigami was born to rival me in strength."
+|caption2="Ah, that picture... That is a monster that appeared in Soul Society long ago. It appeared when Soul Society was in great need and only brought further turmoil. It will not trouble us again. If, someday, that monster were to appear before us again... I fear that will be the last day I am ever seen in this place."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

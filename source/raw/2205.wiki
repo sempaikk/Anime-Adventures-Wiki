@@ -1,0 +1,42 @@
+'''This page could use some work. Feel free to make edits!'''
+
+Titles are a feature in the game which allow players to have a title above their head. 
+
+== Current Titles: ==
+----Event titles:
+----
+*'''[Frozen]''' - Obtained by completing Tiers 10 of Frozen portal during Christmas 2022 update part 2.
+* '''[Devil Hunter]''' - Obtained by getting over 1000 Gun Devil Bullets during the Devil City Event.
+* '''[Fool]''' - Obtained by completing Tier 10 Devil Academy portal during update 12.
+* '''[Wishful]''' - Obtained by completing Tier 10 Witch City portal during the update 13.5.
+* '''[Holy Quintet]''' - Obtained by obtaining and evolving all 5 units from the Update 13.5.
+* '''[Sunny]''' - Obtained by completing Tier 10 Summer portal during Update 15.5.
+* '''[Overlord]''' - Obtained by obtaining and evolving all 6 units from the Update 16
+* '''[Noble]'''  - Obtained by obtaining and evolving all 6 units from the Update 17.0.
+*'''[Detective]''' - Obtained by obtaining and evolving all 5 units from the Update 17.5.
+*'''[Spooky]''' - Obtained by completing wave 50 on Nightmare Hunt during Halloween 2023 or Christmas 2024.
+*'''[Unholy]''' - Be an original owner of Dracula.
+*'''[Festive]''' - Obtained by completing wave 50 on Holiday Hunt during Christmas 2024.
+*'''[Enlightened]''' - Be an original owner of Enlightened.
+*'''[Transcended]''' - Be an original owner of Illusionist (Transcended).
+*'''[Assassin]''' - Obtained by obtaining and evolving all 4 event units during Update 19.5.
+----Ranking titles: 
+----
+*'''[Tournament # Champion]''' - Obtained by being Rank #1 in your weekly tournament bracket when it ends. ( # is specific to weekly tournament number)
+*'''[Top 50 Infinity Castle Upd #]''' - Obtained by placing in the top 50 at the end of Infinity Castle leaderboard. ( # is specific to update number)
+* '''[Top 25 Infinity Castle Upd #]''' - Obtained by placing in the top 25 at the end of Infinity Castle leaderboard. ( # is specific to update number)
+* '''[Top 10 Infinity Castle Upd #]''' - Obtained by placing in the top 10 at the end of Infinity Castle leaderboard. ( # is specific to update number)
+
+* '''[Top 50 Upd #]''' - Obtained by placing in the top 50 at the end of any infinite leaderboard. ( # is specific to update number)
+
+* '''[Top 25 Upd #]''' - Obtained by placing in the top 25 at the end of any infinite leaderboard. ( # is specific to update number
+
+* '''[Top 10 Upd #]''' - Obtained by placing in the top 10 at the end of any infinite leaderboard. ( # is specific to update number)
+----Other titles: 
+----
+*'''[Content Creator]''' - Obtained by having the "Content Creator" role in the [https://discord.com/invite/adventures Official Discord].
+*'''[Moderator]''' - Obtained by having the "Moderator" role in the [https://discord.com/invite/adventures Official Discord].
+*'''[Admin]''' - Obtained by having the "Administrator" role in the [https://discord.com/invite/adventures Official Discord].
+*'''[Tester]''' - By being a game tester
+*'''[OG]''' - Playing the game before re-release (before UPD 19)
+*

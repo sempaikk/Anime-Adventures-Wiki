@@ -1,0 +1,35 @@
+{{Meta Support Unit}}
+{{Raid Meta Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a ​{{Rarity|Mythical}} unit​. She can only be obtained by evolving [[Elfy]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+
+{{Tower_Infobox
+|caption1="Hey, do your best. You can't give up on [https://animeadventures.fandom.com/wiki/Gamer_Girl_(Flash) who you love] so easily!"
+|caption2="I have to endure."
+}}{{Main Stats}}
+
+==Active Ability: Verdant Enchantment==
+[[File:VerdandEnchant.png|thumb]]
+When activated, increases the Magic damage stats of units in her range by 50%. If Leafy buffs other Leafy´s in her range, their ability is going to buff by 100%. The buff lasts for 30 seconds and the ability has a cooldown of 60 seconds.
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*She can do the infinite buff like [[Commander]] or [[Wind Dragon]].
+*Also, she needs a negative SPA curse to do the infinite buff.
+*{{PAGENAME}} have damage buffs against the [[Legend Stages#Virtual Dungeon (Bosses)|Virtual Dungeon (Bosses) Legend Stages]].
+==Gallery==
+
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

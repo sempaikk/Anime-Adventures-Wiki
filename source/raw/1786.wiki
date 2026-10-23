@@ -1,0 +1,16 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. She is only obtainable by evolving [[Wasp]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If your comrade is being defeated, you should see it as an opportunity. Rather than standing in the way, you should stab the enemy in the back. And if the enemy is so far above your level that you cannot even manage that, then you should let your comrade die. That is the way."
+|caption2="If your comrade is being defeated, you should see it as an opportunity. Rather than standing in the way, you should stab the enemy in the back. And if the enemy is so far above your level that you cannot even manage that, then you should let your comrade die. That is the way."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

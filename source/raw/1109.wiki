@@ -1,0 +1,4 @@
+<tr>
+<td>[[File:{{{img|}}}|300px|center]]<center>{{{note|}}}</center></td>
+<td style="font-size: 95%; line-height: 1.4; class="game-font-face">{{Characterbox|{{{unit|unknown}}}}}<br><center><div style="font-size: 140%; line-height: 1.4; class="game-font-face">{{{cosmetics|}}}</div></center></td>
+</tr>

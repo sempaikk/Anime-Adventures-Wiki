@@ -1,0 +1,26 @@
+{{Disenchant Unit}}
+{{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She can only be opened via Mysterious Egg #2 from the Easter event, which has concluded.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I live every day of my life like there's no tomorrow so that when my number's up, I can check out with no regrets! No way this horde of zombies is gonna end Lunar Hare!"
+|caption2="To all plotters and schemers out there!! Hope you're ready for me to kick your butts."
+|image1= {{PAGENAME}}.png
+}}{{Main Stats}} 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

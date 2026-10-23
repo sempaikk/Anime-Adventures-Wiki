@@ -1,0 +1,12 @@
+#REDIRECT [[Renkoko]]
+
+=='''Overview'''==
+=='''Stats'''==
+=='''Selling'''==
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Gallery==
+<gallery>
+</gallery>
+==Trivia==
+{{Unit Navigation}}

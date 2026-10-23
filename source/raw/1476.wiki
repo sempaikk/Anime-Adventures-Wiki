@@ -1,0 +1,1 @@
+<div style="display: inline-block; color: {{{color|#9500e0}}}; font-family: monospace; user-select: all;"><nowiki>{{</nowiki>{{#tag:nowiki|{{trim|{{{1|2}}}}}}}{{trim|{{{2|}}}}}<nowiki>}}</nowiki></div>

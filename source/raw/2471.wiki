@@ -1,0 +1,6 @@
+<tabber>
+|-|Story mode =
+|-|Raids =
+|-|Challenge =
+|-|Event mode =
+</tabber>

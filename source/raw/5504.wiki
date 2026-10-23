@@ -1,0 +1,21 @@
+''If you were looking for a different Carrot unit, see [[Carrot (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]]. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Pardon me for the delay.. This is Super III."
+|caption2="Behold! This is the transcendent power of Super III!"
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

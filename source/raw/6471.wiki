@@ -1,0 +1,2 @@
+* Placement Cost: {{Yen|{{#invoke:NumFormatting/Sub1|getCost|{{{1|}}}}}}}
+* Max Up. Cost: {{Yen|{{#invoke:NumFormatting/Sub1|getCost|{{{1|}}}|total}}}}

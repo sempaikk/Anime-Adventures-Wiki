@@ -1,0 +1,20 @@
+*[[Template:TierList/Container]]
+**[[Template:TierList/Item Container]]
+***[[Template:TierList/Item]] <includeonly>'''<- You're here'''</includeonly>
+
+<h2>Examples:</h2>
+{| class="article-table"  style="margin-top: 0;"
+| style="text-align: center" |code
+| style="text-align: center; border-left: 1px solid #59584a;" |view
+|-
+| style="color: #9500e0; font-family: monospace; user-select: all;"|<nowiki>{{TierList/Item|</nowiki><span class="advanced-tooltip" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Kent (Overtime)</nowiki><div class="tooltip-contents" style="display: none"><div class="game-tooltip__container game-font-face">Value 1</div></div></span><br><nowiki>|</nowiki><span class="advanced-tooltip" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Description=Great DPS from CRIT and large AoE</nowiki><div class="tooltip-contents" style="display: none"><div class="game-tooltip__container game-font-face">Description</div></div></span><nowiki>}}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{TierList/Item|Kent (Overtime)
+|Description=Great DPS from CRIT and large AoE}}
+|-
+|}<br><h2>Values:</h2>
+{| class="article-table"  style="margin-top: 0;"
+|Value 1
+*Name of an existing character in the game
+|Description
+*A brief description of the character
+|}<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly>

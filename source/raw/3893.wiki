@@ -1,0 +1,23 @@
+{{Meta Support Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. This unit is a part of [[Griffin (Ascension)]], it is activated by sacrificing buff units.
+
+He buffs all units' damage by 100%, including other users' units. His buff stacks with other buff units such as [[Commander|{{RarityColor|Legendary|Commander}}]], [[Wind Dragon|{{RarityColor|Legendary|Wind Dragon}}]], [[Elfy (Sylph)|{{RarityColor|Mythic|Elfy (Sylph)}}]], [[Blossom|{{RarityColor|Rare|Blossom}}]], [[Skeleton (Soul King)|{{RarityColor|Mythic|Skeleton (Soul King)}}]]. [[Idol (Star)|{{RarityColor|Mythic|Idol (Star)}}]] 
+
+==Stats Overview==
+{{Tower_Infobox|caption1=“The time has come, for the reason of this world to change”
+}}{{Main Stats}}
+
+==Selling==
+This unit cannot be sold.
+
+==Trivia==
+
+* This buff scales additionally with [[Blossom]] and [[Idol (Star)]], this means that the multiplier for your towers will be 2.1x for [[Blossom]] and 2.15x for [[Idol (Star)]].
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]

@@ -1,0 +1,45 @@
+==Information==
+Robux Shop:[[File:Store anime adventures.png|none|400x400px]]
+
+==Products==
+{| class="fandom-table"
+!Name
+!Description
+!Price
+|-
+|Super Lucky
+|Gives the Player 2x Legendary and Mythical rates for one banner.
+|{{Robux|99}}
+|-
+|Ultra Lucky
+|Gives the Player 3x Legendary and Mythical rates for one banner.
+|{{Robux|149}}
+|-
+|VIP
+|Reduces Summon prices by '''20%,''' gives the Player an '''Exclusive Nametag,''' and gives '''100% Time Machine''' rewards
+|{{Robux|299}}
+|-
+|Shiny Hunter
+|Gives the Player a 3x chance for a '''Shiny''' unit
+|{{Robux|1299}}
+|-
+|Unit Storage
+|Grants the Player +100 Unit Storage
+|{{Robux|99}}
+|-
+|Display 3 Units
+|Grants the Player 3 showcase slots, being the first 3 units you have equipped will be at your side
+|{{Robux|199}}
+|-
+|Display All Units
+|Grants the Player as many showcase slots as they have loadout slots
+|{{Robux|699}}
+|-
+|Spooky Bundle #1
+|<nowiki>+</nowiki>50 trait Rerolls, +30,000 Candies, +10 Spooky star
+|{{Robux|3999}}
+|-
+|Spooky Bundle #2
+|<nowiki>+</nowiki>75 trait Rerolls, +60,000 Candies, +20 Spooky star
+|{{Robux|5999}}
+|}

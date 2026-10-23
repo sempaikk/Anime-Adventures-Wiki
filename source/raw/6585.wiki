@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Exclusive}}. He is a Leaderboard exclusive unit and can only be obtained by placing Top 50 or higher on any [[Infinite|Infinite Mode]] maps while placing Top 10 or higher for his Shiny version.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You can die anytime, but living takes true courage."
+|caption2="You can die anytime, but living takes true courage."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

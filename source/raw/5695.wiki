@@ -1,0 +1,19 @@
+'''Verdant Hero''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Rare}}</center>
+|{{Characterbox|Verdant Hero}}
+|'''[[Verdant Hero]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Verdant Hero (Dark)}}
+|'''[[Verdant Hero (String)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Verdant Hero (Dark)}}
+|'''[[Verdant Hero (Dark)]]'''
+|}

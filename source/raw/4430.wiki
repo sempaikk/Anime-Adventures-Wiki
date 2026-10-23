@@ -1,0 +1,27 @@
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Crystal Rose]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I've always insisted that magic casters who rely on attack spells are second-rate, but I guess I have to eat my words now."
+|caption2="I am Crystal Rose. I am a woman of legend. No matter how powerful my enemy is — I must fight!"
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

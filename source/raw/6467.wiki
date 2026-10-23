@@ -1,0 +1,972 @@
+local p = {}
+
+-- Update paths to match your module structure
+local characterMap = {
+	["Switchblade"] ={name ="nagumo"},
+	["Switchblade (Deception)"] = {name ="nagumo_evolved"},
+	["Spider"] = {name = "feitan"},
+	["Spider (Immolation)"] = {name = "feitan_evolved"},
+	["Somber"] = {name= "osaragi"},
+	["Somber (Buzzsaw)"] = {name= "osaragi_evolved"},
+	["Killstreak"] = {name = "gaku"},
+	["Killstreak (Speedrun)"] = {name = "gaku_evolved"},
+	["Legendary Assassin"] = {name ="sakamoto"},
+	["Legendary Assassin (Prime)"] = {name ="sakamoto_evolved"},
+	--19.0 UPD
+    ["Psychic Princess"] = {name ="starlia"},
+    ["Psychic Princess (Evo)"] = {name ="starlia_evo"},
+    ["Silver Slayer"] = {name ="ragna"},
+    ["Silver Slayer (Hunter)"] = {name ="ragna_evo"},
+
+	["Illusionist (Transcended)"] = {name ="aizen_transcended"},
+    ["Honey"] = {name ="honey"},
+    ["Honey (Hive)"] = {name ="honey_evo"},
+    ["Elf Mage"] = {name ="frieren"},
+    ["Elf Mage (Aura)"] = {name ="frieren_evo"},
+    ["Siren"] = {name ="monet"},
+    ["Siren (Harpy)"] = {name ="monet_evo"},
+    ["Enlightened"] = {name ="buddha"},
+    ["Enlightened (Nirvana)"] = {name ="buddha_evo"},
+    ["Iceclaw (Rebirth)"] = {name ="grimmjow_2"},
+    ["Iceclaw (Azure Fang)"] = {name ="grimmjow_2_evo"},
+    ["Dreamer"] = {name ="gremmy"},
+    ["Dreamer (Visionary)"] = {name ="gremmy_evo"},
+    ["Cream"] = {name ="vanilla_ice"},
+    ["Cream (Void)"] = {name ="vanilla_ice_evo"},
+    ["Ghost-kun"] = {name ="hanako-kun"},
+    ["Ghost-kun (Bound)"] = {name ="hanako-kun_evo"},
+    ["Dark Mage"] = {name ="judar"},
+    ["Dark Mage (Fallen Star)"] = {name ="judar_evo"},
+
+--Update 18.5.0
+	["Carrot (Super III)"] = {name ="goku_ssj3"},
+	["Carrot (Ultra)"] = {name ="goku_ssj3_evolved"},
+	["Vego (Mage)"] = {name ="vegeta_majin"},
+	["Vego (Mage II)"] = {name ="vegeta_majin_evolved"},
+	["Bubblegum"] = {name ="buu"},
+	["Bubblegum (Ultimate)"] = {name ="buu_evolved"},
+	["Fused Hero"] = {name ="vegito"},
+	
+
+--Update 18.0.0
+	["Agony (Path)"] = {name ="pain_2"},
+	["Agony (Divine)"] = {name ="pain_2_evolved"},
+	["Toad Sensei"] = {name ="jiraiya"},
+	["Toad Sensei (Toad Sage)"] = {name ="jiraiya_evolved"},
+	["Shinobi (Awakened)"] = {name ="sasuke_3"},
+	["Shinobi (Eternal)"] = {name ="sasuke_3_evolved"},
+	["Fox Ninja (Sage)"] = {name ="naruto_sage"},
+	["Fox Ninja (Six Tails)"] = {name ="naruto_6tails"},
+	["Fridge"] = {name ="cooler"},
+	["Origami"] = {name ="konan_unit"},
+	["Origami (Paper Angel)"] = {name ="konan_unit_evolved"},
+	["Spirit Sniper"] = {name ="chika"},
+	["Spirit Sniper (Prodigy)"] = {name ="chika_evolved"},
+	["Shrimp"] = {name ="yuma"},
+	["Shrimp (White Terror)"] = {name ="yuma_evolved"},
+	["Dispenser"] = {name ="boxxo"},
+
+
+--Update Halloween 2023
+	["Death Ninja"] = {name ="hidan_unit"},
+	["Death Ninja (Immortal Butcher)"] = {name ="hidan_unit_evolved"},
+	["Gas"] = {name ="caesarclown"},
+	["Gas (Toxic)"] = {name ="caesarclown_evolved"},
+	["Fiend Girl"] = {name ="hinami"},
+	["Fiend Girl (Butterfly)"] = {name ="hinami_evolved", },
+	["Dracula"] = {name ="alucard"},
+	["Dracula (Unholy King)"] = {name ="alucard_evolved", },
+	["Umbra"] = {name ="cid"},
+	["Umbra (Nuclear)"] = {name ="cid_evolved", },
+
+
+--Update 17.5.0
+	["Tiger"] = {name ="atsushi"},
+	["Tiger (Moonlight Beast)"] = {name ="atsushi_evolved"},
+	["Gravity Mage"] = {name ="chuya"},
+	["Gravity Mage (Void)"] = {name ="chuya_evolved", },
+	["InHuman"] = {name ="dazai"},
+	["InHuman (Nullifier)"] = {name ="dazai_evolved", },
+	["Black Dog"] = {name ="akutagawa"},
+	["Black Dog (HellHound)"] = {name ="akutagawa_evolved", },
+	["Scarlet Slayer"] = {name ="izumi"},
+	["Scarlet Slayer (Cursed Frost)"] = {name ="izumi_evolved"},
+
+
+
+--Update 17.0.0
+	["Takamu"] = {name ="tsuna"},
+	["Takamu (Reborn)"] = {name ="tsuna_evolved"},
+	["Caesar"] = {name ="caesar"},
+	["Sword Queen"] = {name ="saber"},
+	["Sword Queen (Knight)"] = {name ="saber_evolved"},
+	["Faker"] = {name ="archer"},
+	["Faker (Hero's Spirit)"] = {name ="archer_evolved", },
+	["Hex"] = {name ="medea"},
+	["Hex (Witch of Betrayal)"] = {name ="medea_evolved", },
+	["Lilia"] = {name ="illya"},
+	["Lilia (Homunculus)"] = {name ="illya_evolved", },
+	["Bombietta"] = {name ="bambietta"},
+	["Kimoaro"] = {name ="kimimaro"},
+	["Player"] = {name ="cranel"},
+	["Player (Argus)"] = {name ="cranel_evolved"},
+	["Spearer"] = {name ="lancer"},
+	["Spearer (Child of Light)"] = {name ="lancer_evolved"},
+	["Golden King"] = {name ="gilgamesh"},
+	["Golden King (Lord of Heroes)"] = {name ="gilgamesh_evolved"},
+	
+	
+	
+	
+
+--Update 16.5.0
+	["Mangaka"] = {name ="rohan"},
+	["Mangaka (Artist)"] = {name ="rohan_evolved"},
+	["Reliable Student"] = {name ="koichi"},
+	["Reliable Student (Echoes)"] = {name ="koichi_evolved"},
+	["Calm Killer"] = {name ="kira"},
+	["Calm Killer (Meets the End)"] = {name ="kira_evolved"},
+	["Jose (Shining Gem)"] = {name ="josuke_2"},
+	["Jose (Unbreakable)"] = {name ="josuke_2_evolved", },
+	
+
+
+--Update 16.0.0
+	["Connor"] = {name ="conrad"},
+	["Connor (Wizard King)"] = {name ="conrad_evolved", },
+
+
+	["Supreme Being"] = {name ="ainz"},
+	["Supreme Being (Sovereign)"] = {name ="ainz_evolved"},
+	["Cherub"] = {name ="albedo"},
+	["Cherub (Overseer)"] = {name ="albedo_evolved"},
+	["Lucifer"] = {name ="demiurge"},
+	["Lucifer (Demon Emperor)"] = {name ="demiurge_evolved"},
+	["Bloodcry"] = {name ="shalltear"},
+	["Bloodcry (Bloodfallen)"] = {name ="shalltear_evolved"},
+	["Thunder Maid"] = {name ="narberal"},
+	["Thunder Maid (Servant)"] = {name ="narberal_evolved"},
+	["Flash Ninja"] = {name ="minato"},
+	["Kanata"] = {name ="kenshin"},
+	["Smoka"] = {name ="smoker_unit"},
+	["Smoka (Hunter)"] = {name ="smoker_unit_evolved", },
+	["Dark Young"] = {name ="dark_young"},
+	["Messi"] = {name ="isagi"},
+	["Crystal Rose"] = {name ="evileye"},
+	["Crystal Rose (Impact)"] = {name ="evileye_evolved", },
+
+
+
+
+
+--Update 15.5.0
+	["Sharkfin (Tailless Beast)"] = {name ="kisame_unit_evolved", },
+	["Sharkfin"] = {name ="kisame_unit"},
+	["Sea God (Tyrant of the Seas)"] = {name ="poseidon_evolved"},
+	["Sea God"] = {name ="poseidon"},
+	["Flamefeather (Magician's Red)"] = {name ="avdol_evolved", },
+	["Flamefeather"] = {name ="avdol"},
+	["Hammerhead (Shark Empress)"] = {name ="harribel_evolved"},
+	["Hammerhead"] = {name ="harribel"},
+	["Pirate King (Final)"] = {name ="roger_evolved", },
+	["Pirate King"] = {name ="roger"},
+	
+--Update ???
+	["Fan Ninja"] = {name ="temari"},
+
+
+		 --Update 15
+	["Flower Ninja"] = {name ="gabimaru"},
+	["Flower Ninja (Austere Flame)"] = {name ="gabimaru_evolved"},
+	["Brawler"] = {name ="chad"},
+	["Brawler (Soul)"] = {name ="chad_evolved"},
+
+
+	["Griffin (Reincarnation)"] = {name ="griffith_reincarnation"},
+	["Griffin (Ascension)"] = {name ="femto_egg"},
+	["Griffin (Darkness)"] = {name ="femto"},
+	["Berserker"] = {name ="guts"},
+	["Berserker (Rage)"] = {name ="guts_berserker", },
+	["Griffin"] = {name ="griffith"},
+	["Skeleton Knight"] = {name ="skull_knight"},
+	["Skeleton Knight (King)"] = {name ="skull_knight_evolved", },
+	["Dragon Knight"] = {name ="issei"},
+	["Dragon Knight (Gauntlet)"] = {name ="issei_evolved"},
+	["Golden Navy"] = {name ="sengoku_unit"},
+	["Golden Navy (Buddha)"] = {name ="sengoku_unit_evolved", },
+
+         --Update 14
+	
+	["Gamer"] = {name ="kirito"},
+	["Gamer (Dual)"] = {name ="kirito_evolved", },
+	["Menace"] = {name ="stain"},
+	["Menace (Terror)"] = {name ="stain_evolved"},
+	["Gamer Girl"] = {name ="asuna"},
+	["Gamer Girl (Flash)"] = {name ="asuna_evolved", },
+	["Crusader"] = {name ="heathcliff", },
+	["Crusader (Admin)"] = {name ="heathcliff_evolved", },
+	["Virtual Samurai"] = {name ="klein"},
+	["Virtual Samurai (Bachelor)"] = {name ="klein_evolved"},
+	["Elfy"] = {name ="leafa"},
+	["Elfy (Sylph)"] = {name ="leafa_evolved", },
+	["Roshy"] = {name ="roshi"},
+	["Stitches"] = {name ="buggy"},
+	["Fan Ninja"] = {name ="temari"},
+	
+			-- Update 13.5
+
+	["Bodybuilder"] = {name="mash"},
+	["Bodybuilder (Muscles)"] = {name="mash_evolved", },
+	["Cotton"] = {name="charmy"},
+	["Cotton (Sheep)"] = {name="charmy_evolved", },
+
+
+
+	["Shadowgirl"] = {name="homura"},
+	["Shadowgirl (Time Traveller)"] = {name="homura_evolved"},
+	["Millie"] = {name="mami"},
+	["Millie (Holy)"] = {name="mami_evolved", },
+	["Magic Girl"] = {name="madoka"},
+	["Magic Girl (Salvation)"] = {name="madoka_evolved"},
+	["Kyko"] = {name="kyoko"},
+	["Kyko (Crimson Spear)"] = {name="kyoko_evolved"},
+	["Saki"] = {name="sayaka"},
+	["Saki (Cyanblade)"] = {name="sayaka_evolved"}, 
+	
+			-- Update 13
+	
+	["Captain (Timeskip)"] = {name="usopp_ts", },	
+	["Captain (God)"] = {name="usopp_ts_evolved", },	
+	["Joykid (Bounce)"] = {name="luffy_g4", },	
+	["Joykid (Gear IV)"] = {name="luffy_g4_evolved", },	
+	["Operator (Heart)"] = {name="law_2", },	
+	["Operator (ROOM)"] = {name="law_2_evolved", },	
+	["Gravity Navy"] = {name="fujitora", },	
+	["Gravity Navy (Admiral)"] = {name="fujitora_evolved", },	
+	["Rebel"] = {name="sabo", },	
+	["Rebel (Flame Emperor)"] = {name="sabo_evolved", },	
+	["Silver King"] = {name="rayleigh"},	
+	["Boxer"] = {name="ippo"},	
+	["Stringy"] = {name="doflamingo", },	
+	["Stringy (Awakened)"] = {name="doflamingo_evolved"},
+	["WindSpire"] = {name="nejire"},	
+
+           --Update 12.5
+
+	["Haze"] = {name="fugo"},
+	["Haze (Rage)"] = {name="fugo_evolved", },
+	["Idol"] = {name="hoshino"},
+	["Idol (Star)"] = {name="hoshino_evolved", },
+	
+	
+	
+	["Bunny"] = {name="carrot"},	
+	["Bunny (Night)"] = {name="carrot_evolved", },	
+	["Lunar Hare"] = {name="mirko"},	
+	["Lunar Hare (Tiger Bunny)"] = {name="mirko_evolved"},
+	["Puppet Girl"] = {name="yoshino"},	
+	["Puppet Girl (Spirit)"] = {name="yoshino_evolved", },	
+	["Sepsis"] = {name="gyutaro"},
+	["Sepsis (Moon)"] = {name="gyutaro_evolved",	},
+	["Tango (Score)"] = {name="tengen_2"},	
+	["Tango (Flash God)"] = {name="tengen_2_evolved", },	
+	["Saka"] = {name="daki"},
+	["Saka (Ribbon)"] = {name="daki_evolved"},
+	
+	        --Update 12.0.0
+	        
+	["Gunslinger"] = {name="vash"},
+	["Gunslinger (Cross)"] = {name="vash_evolved", },
+	["Verdant Hero (String)"] = {name="deku_vigilante", },	
+	["Verdant Hero (Dark)"] = {name="deku_vigilante_evolved", },	
+	["Flame Hero"] = {name="endeavor"},
+	["Flame Hero (Hellflame)"] = {name="endeavor_evolved", },	
+	["Bakugo (Explosion)"] = {name="bakugou_2", },	
+	["Explosion Hero (Impact)"] = {name="bakugou_2_evolved", },	
+	["Falcon"] = {name="hawks"},
+	["Falcon (Feather Wings)"] = {name="hawks_evolved"},
+	["Ashborn"] = {name="shigaraki"},
+	["Ashborn (Decay)"] = {name="shigaraki_evolved", },
+	["Bleed Queen"] = {name="unohana"},
+	["Wukong"] = {name="jin_mori"},
+	["Bozo"] = {name="jozu"},
+	["Veko"] = {name="gogeta_failed"},
+	["Riony"] = {name="rias"},
+	["Riony (Devil Princess)"] = {name="rias_evolved"},
+	["Catgirl"] = {name="koneko"},
+	["Catgirl (Hell-Cat)"] = {name="koneko_evolved"},
+	["Akemy"] = {name="akeno"},
+	["Akemy (Fallen Angel)"] = {name="akeno_evolved"},
+	
+	
+	
+	
+	
+	
+	        --Update 11.7.5
+	["Eccentric Researcher"] = {name="hange"},
+	["Eccentric Researcher (Captain)"] = {name="hange_evolved", },
+	
+	
+	["Golden Tyrant"] = {name="frieza_golden"},
+	["Golden Tyrant (Emperor)"] = {name="frieza_golden_evolved", },	
+	["Green Alien (Fusion)"] = {name="piccolo_fused", },	
+	["Green Alien (Nameless)"] = {name="piccolo_fused_evolved", },
+	["Vego (Super)"] = {name="vegeta_super", },
+	["Vego (Super II)"] = {name="vegeta_super_evolved", },
+	
+	
+	
+            --Update 11.5.0
+	["Hubris (Day)"] = {name="escanor"},
+	["Hubris (Night)"] = {name="escanor_weak"},
+	["Hubris (The One)"] = {name="escanor_evolved", },
+	["Infinity Mage"] = {name="merlin"},
+	["Infinity Mage (Endless)"] = {name="merlin_evolved", },	
+	["Dog Demon"] = {name="inuyasha"},
+	    --Update 11.0.0
+
+	["Mist Ninja"] = {name="zabuza"},
+	["Snake Princess"] = {name="boa"},
+	    
+	    
+	    
+	["Wratho"] = {name="meliodas"},
+	["Wratho (Assault)"] = {name="meliodas_evolved", },
+	["Crimson Thief"] = {name="ban"},
+	["Crimson Thief (Hunt)"] = {name="ban_evolved",	},
+	["Doll"] = {name="gowther"},
+	["Doll (Spirit Archer)"] = {name="gowther_evolved", },	
+	["Fairy Ruler"] = {name="king_7ds"},
+	["Fairy Ruler (Sloth)"] = {name="king_7ds_evolved"},
+	["Hammer Giantess"] = {name="diane"},
+	["Hammer Giantess (Creation)"] = {name="diane_evolved", },
+	
+	
+	
+	
+		--Update 10.7.5
+	["Shizo"] = {name ="shisui"},
+	["Shizo (Flicker)"] = {name ="shisui_evolved", },	
+	["Shinobi (Hood)"] = {name ="sasuke_2", },	
+	["Shinobi (Storm)"] = {name ="sasuke_2_evolved", },	
+	["Izo (Black Fire)"] = {name ="itachi_2", },	
+	["Izo (Samurai)"] = {name ="itachi_2_evolved", },	
+	
+	
+	    --Update 10.5 ? (Maybe)
+	["Lightning God"] = {name ="thor"},
+	["Lightning God (Awakened)"] = {name ="thor_evolved", },	
+	    
+	    
+	    --Update ????
+	["Ice Shaper"] = {name='geten'},
+	
+	
+		--Update 10
+	["Weather Girl (Thief)"] = {name ="nami_evolved", },	
+	["Weather Girl"] = {name ="nami"},
+	["Tattermo"] = {name ="tatsumi"},
+	["Toby"] = {name ="obito"},
+	["Android AAA"] = {name ="android21"},
+	["Alien King"] = {name ="boros"},
+	["Lord Alien King"] = {name ="boros_evolved", },
+	["Waterfist"] = {name ="bang"},
+	["Waterfist (Silver Fang)"] = {name ="bang_evolved"},
+	["Cyborg (Overdrive)"] = {name ="genos_2", },	
+	["Cyborg (Incinerate)"] = {name ="genos_2_evolved", },
+	["Iron Knight"] = {name ="metal_knight", },
+	["Iron Knight (Arsenal)"] = {name ="metal_knight_evolved", },
+	["Supersound"] = {name ='sonic'},
+	["Supersound (Speed)"] = {name ="sonic_evolved", },
+	["Tamiki"] = {name ='tatsumaki', },
+	["Tamiki (Tornado)"] = {name ="tatsumaki_evolved", },
+	
+	--Update 9
+	["Curse"] = {name ="aki"},
+	["Curse (Contract)"] = {name ="aki_evolved", },
+	["Blade Beast"] = {name ="denji"},
+	["Blade Beast (Hybrid)"] = {name ="denji_evolved", },
+	["Blade Beast (Past)"] = {name ="denji_secret"},	
+	["Paragon"] = {name ="angel_devil"},
+	["Paragon (Devil)"] = {name ="angel_devil_evolved", },
+	["Ghosty"] = {name ="himeno"},
+	["Ghosty (Sacrifice)"] = {name ='himeno_evolved', },
+	["Blood"] = {name ="power"},
+	["Blood (Unleashed)"] = {name ='power_evolved', },
+	["Cowardly"] = {name ="kobeni"},
+	["Cowardly (Scared)"] = {name ='kobeni_evolved', },
+
+	--Update 8
+	["Ice Queen"] = {name ="esdeath"},
+	["Ice Queen (Empire's Strongest)"] = {name ="esdeath_evolved"},
+	["JIO (Over Heaven)"] = {name ="dio_heaven"},
+	["Aokijo"] = {name ="aokiji"},
+	["Aokijo (Blue Pheasant)"] = {name ="aokiji_evolved"},
+	["Mirror Ninja"] = {name ="haku"},
+	["Mirror Ninja (Reflection)"] = {name ="haku_evolved"},
+	["Todorro (Half)"] = {name ="todoroki_2"},
+	["Todorro (Released)"] = {name ="todoroki_2_evolved"},
+	["Icy Dragon"] = {name ="toshiro"},
+	["Icy Dragon (Lotus)"] = {name ="toshiro_evolved"},
+
+	
+	["Skater"] = {name ="ghiaccio"},
+	["Skater (Album)"] = {name ="ghiaccio_evolved"},
+	
+	["Demonshade"] = {name ="hiei"},
+	["Ice Lily"] = {name ="emilia"},
+	
+            ["Weather"] = {name ="dominico"},
+            ["Heavy Weather"] = {name ="dominico_evolved"},
+            ["Jolyna"] = {name ="jolyne"},
+            ["Jolyna (Determination)"] = {name ="jolyne_evolved"},
+            ["Ermo"] = {name ="ermes"},
+            ["Ermo (Duplicate)"] = {name ="ermes_evolved"},
+
+            ["Priest"] = {name ="pucci"},
+            ["Priest (New Moon)"] = {name ="pucci_cmoon"},
+            ["Priest (Heaven)"] = {name ="pucci_heaven"},
+            ["Delinquent (Serious)"] = {name ="jotaro_p6"},
+            ["Delinquent (The World)"] = {name ="jotaro_p6_evolved"},
+
+         -- Update 7
+            ["Illusionist (Chrysalis)"] = {name ="aizen_chrys"},
+            ["Illusionist (Fusion)"] = {name ="aizen_hog"},
+            ["Illusionist (Final)"] = {name ="aizen_hog_evolved"},
+            ["Fiery Commander"] = {name ="yamamoto"},
+            ["Fiery Commander (Hellfire)"] = {name ="yamamoto_evolved"},
+
+	
+            ["White Snake"] = {name ="gin"},
+            ["White Snake (Sacred Spear)"] = {name ="gin_evolved"},
+            ["Spirit Reaper (Dusk)"] = {name ="ichigo_mugetsu"},
+            ["Spirit Reaper (Final Dusk)"] = {name ="ichigo_mugetsu_evolved"},
+            ["Wasp"] = {name ="soifon"},
+            ["Wasp (Hornet)"] = {name ="soifon_evolved"},
+            ["Packy"] = {name ="kenpachi"},
+            ["Packy (Maniac)"] = {name ="kenpachi_evolved"},
+            ["Swingo"] = {name ="shinji"},
+
+	
+-- Black Clover
+	["Time Wizard"] = {name ="julius"},
+	["Time Wizard (Chrono)"] = {name ="julius_evolved"},
+
+	["Noel"] = {name ="noelle"},
+	["Yamo"] = {name ="yami"},
+	["Yamo (Captain)"] = {name ="yami_evolved"},
+	["Tango"] = {name ="tengen"},
+	["Kumo"] = {name ="kuma_unit"},
+	["Asto"] = {name ="asta"},
+	["Yono"] = {name ="yuno"},
+	["Lucky"] = {name ="luck"},
+	["Magnu"] = {name ="magna"},
+	["Wenda"] = {name ="wendy"},
+	["Noel (Valkyrie Armor)"] = {name ="noelle_evolved"},
+	["Dark Asto"] = {name ="asta_evolved"},
+	["Yono (Spirit)"] = {name ="yuno_evolved"},
+	["Lucky (Thunder Fiend)"] = {name ="luck_evolved"},
+	-- [""] = {name =""},
+	-- [""] = {name =""},
+	
+
+	-- Halloween 6.5
+	["Nightmare Luffo"] = {name ="luffy_nightmare"},
+	["Peruna"] = {name ="perona"},
+	["Peruna (Ghost Princess)"] = {name ="perona_evolved"},
+	
+	["Broke"] = {name ="brook"},
+	["Broke (Soul King)"] = {name ="brook_evolved"},
+	["Moriu"] = {name ="moria"},
+	["Moriu (Shadow Lord)"] = {name ="moria_evolved"},
+
+	
+	
+	-- Update 6.5
+	["Gazu (Maximum)"] = {name ="geto_evolved"},
+	["Gazu"] = {name ="geto"},
+	["Yuto"] = {name ="yuta"},
+	["Yuto (Cursed Child)"] = {name ="yuta_evolved"},
+	["Sukuno"] = {name ="sukuna"},
+
+	-- Update 6
+	["Paradox"] = {name ="gojo"},
+	["Paradox (Divine Sight)"] = {name ="gojo_evolved"},
+	["Itadoki"] = {name ="itadori"},
+	["Shade Sorceror"] = {name ="megumi"},
+	["Shade Sorceror (Hybrid Shadow)"] = {name ="megumi_evolved"},
+	["Ratio"] = {name ="kento"},
+	["Ratio (Overtime)"] = {name ="kento_evolved",},
+	["Hammergirl"] = {name ="nobara"},
+	["Togu"] = {name ="toge"},
+
+
+	-- Update 5.3
+	["Experiment X (Imperfect)"] = {name ="cell_imperfect"},
+	["Experiment X (Semi-Perfect)"] = {name ="cell_semi_perfect"},
+	["Experiment X (Perfect)"] = {name ="cell_perfect"},
+	["Experiment X (SUPER PERFECT)"] = {name ="cell_super_perfect"},
+	["Chunks"] = {name ="trunks"},
+	["Super Chunks"] = {name ="trunks_evolved"},
+	["Mecha Tyrant"] = {name ="frieza_mecha"},
+
+
+
+	-- Update 5.2: Magic Town! ✨
+
+	["Jelly"] = {name ="jellal"},
+	["Jelly (Heaven)"] = {name ="jellal_evolved"},
+	["Elize"] = {name ="erza"},
+	["Elize (Random Equip)"] = {name ="erza_evolved"},
+	["Elize (True Heart)"] = {name ="erza_samurai"},
+	["Elize (Valkyrie)"] = {name ="erza_valkyrie"},
+	["Elize (Lightning)"] = {name ="erza_lightning"},
+	["Saickik"] = {name ="saiki"},
+
+
+	-- Update 5: Magic Town! ✨
+	["Natzo (Lightning Dragon Mode)"] = {name ="natsu_evolved"},
+	["Natzo"] = {name ="natsu"}, 
+	["Lyla"] = {name ="lucy"},
+	["Lyla (Celestial)"] = {name ="lucy_evolved"},
+	["Gray"] = {name ="gray"},
+	["Gray (Devil Slayer)"] = {name ="gray_evolved"},
+	["Gajule"] = {name ="gajeel"},
+	["Crush (Ace)"] = {name ="gildarts_evolved"},
+	["Crush"] = {name ="gildarts"},
+	["Juvy"] = {name ="juvia"},
+
+	-- Update 4: Ant Kingdom! 🐛
+	["Gone (???)"] = {name ="gon_adult_evolved"},
+	["Gone (Adult)"] = {name ="gon_adult"},
+	["Gone"] = {name ="gon"},
+	["Chairman Neteru"] = {name ="netero_evolved"},
+	["Neteru"] = {name ="netero"},
+	["Pito (Terpsichora)"] = {name ="pitou_evolved"},
+	["Pito"] = {name ="pitou"},
+	["King Meruam"] = {name ="meruem_evolved"},
+	["Meruam"] = {name ="meruem"},
+	["Kizzua (Godspeed)"] = {name ="killua_godspeed_evolved"},
+	["Kizzua (Whirlwind)"] = {name ="killua_godspeed"},
+	["Hisova"] = {name ="hisoka"},
+
+
+	["Chance (Focus)"] = {name ="kite_evolved_focus"},
+	["Chance (Lethal)"] = {name ="kite_evolved_lethal"},
+	["Chance (Precision)"] = {name ="kite_evolved_precision"},
+	["Chance (Frenzy)"] = {name ="kite_evolved_frenzy"},
+	["Chance"] = {name ="kite"},
+
+
+	
+	["Donut (ABLAZE)"] = {name ="rengoku_evolved"},
+	["Martial Demon"] = {name ="akaza_unit"},
+	["Martial Demon (Destruction)"] = {name ="akaza_unit_evolved"},
+	["Blue Devil"] = {name ="rin_oku"},
+	["Future Goh"] = {name ="future_gohan"},
+	
+	
+	["Agony"] = {name ="pain"},
+	["Illusionist (Betrayal)"] = {name ="aizen_evolved"},
+	["Illusionist"] = {name ="aizen"},
+	["Akano"] = {name ="akainu"},
+	["Prime Force (Peace)"] = {name ="all_might_evolved"},
+	["Prime Force"] = {name ="all_might"},
+	["Aman"] = {name ="amon"},
+	["Ariva (Reaper)"] = {name ="arima_evolved"},
+	["Ariva"] = {name ="arima"},
+	["Armein"] = {name ="armin"},
+	["Attack Titan"] = {name ="attack_titan"},
+	["Bakayua"] = {name ="byakuya"},
+	["Bakugo"] = {name ="bakugou"},
+	["Blackhair"] = {name ="blackbeard"},
+	["Britannia Soldier"] = {name ="britannia_soldier"},
+	["Bro"] = {name ="broly"},
+	["Bulby"] = {name ="bulma"},
+	["Coyote (Primera)"] = {name ="starrk_evolved"},
+	["Coyote"] = {name ="starrk"},
+	["Croc"] = {name ="crocodile"},
+	["Dabo"] = {name ="dabi"},
+	["Verdent Hero"] = {name ="deku"},
+	["Devil Boss"] = {name ="diavolo"},
+	["Emperor Whitehair"] = {name ="whitebeard_evolved"},  
+	["Erein (Founder)"] = {name = "eren_final"},
+	["Erein"] = {name ="eren"},
+	["Eta (One-Eye)"] = {name ="eto_evolved"},
+	["Eta"] = {name ="eto"},
+	["Fire Fist"] = {name ="ace"},
+	["Fleet Admiral Akano"] = {name ="akainu_evolved"},
+	["Tyrant (Final)"] = {name ="frieza"},
+	["Gaaro"] = {name ="gaara"},
+	["Cyborg"] = {name ="genos"},
+	["Carrot Black"] = {name ="goku_black"},
+	["Carrot (Super)"] = {name ="goku_ssb"},
+	["Carrot"] = {name ="goku"},
+	["Grim Jaw"] = {name ="grimmjow"},
+	["Spirit Reaper (Full Hollow)"] = {name = "ichigo_hollow"},      
+	["Spirit Reaper (Masked)"] = {name = "ichigo_mask"},
+	["Spirit Reaper"] = {name ="ichigo"},
+	["Inosoku"] = {name ="inosuke"},
+	["Itochi"] = {name ="itachi"},
+	["JIO"] = {name ="dio"},
+	["Jiorno"] = {name ="giorno"},
+	["Johna"] = {name ="jonathan"},
+	["Delinquent"] = {name ="jotaro"},
+	["Jose"] = {name ="josuke"},
+	["Juozu (Joker)"] = {name ="juuzou_evolved"},
+	["Juozu"] = {name ="juuzou"},
+	["Karyoin"] = {name ="kakyoin"},
+	["Kazashu"] = {name ="kakashi"},
+	["Kazeki (Centipede)"] = {
+		name ="kaneki_2"},
+	["Kazeki"] = {name ="kaneki"},
+	["Kazoru"] = {name ="kizaru_unit"},
+	["Trickster (Release)"] = {name ="kisuke_evolved"},
+	["Trickster"] = {name ="kisuke"},
+	["Kizzua"] = {name ="killua"},
+	["Krillo"] = {name ="krillin"},
+	["Operator"] = {name ="law"},
+	["Super Bro"] = {name ="broly_evolved"},
+	["Levy Ackman"] = {name ="levi_evolved"},
+	["Levy"] = {name ="levi"},
+	["Joykid (Navy Bay)"] = {name ="luffy_marineford"},
+	["Joykid"] = {name ="luffy"},
+	["Lulu (Emperor)"] = {name ="lelouch_evolved"},
+	["Lulu"] = {name ="lelouch"},
+	["Marada (Founder)"] = {name ="madara_evolved"},
+	["Marada"] = {name ="madara"},
+	["Mivawk"] = {name ="mihawk"},
+	["Mochi Charlot"] = {name ="katakuri_evolved"},
+	["Mochi"] = {name ="katakuri"},
+	["Nezuka"] = {name ="nezuko"},
+	["Norro"] = {name ="noro"},
+	["Fox Ninja (Beast Cloak)"] = {name ="naruto_pts_evolved"},
+	["Fox Ninja (Demon Cloak)"] = {name ="naruto_pts"},
+	["Fox Ninja"] = {name ="naruto"},
+	["Commander"] = {name ="erwin"},
+	["Piccoru"] = {name ="piccolo"},
+	["Red Scar (Conqueror)"] = {name ="shanks_evolved"},
+	["Red Scar"] = {name ="shanks"},
+	["Renkoko"] = {name ="rengoku"},
+	["Renzi"] = {name ="renji",},
+	["Ruki"] = {name ="rukia"},
+	["Sakuro"] = {name ="sakura"},
+	["Sanjay"] = {name ="sanji"},
+	["Shinkura"] = {name ="shinkiro"},
+	["Shinobi"] = {name ="sasuke"},
+	["C.E.O"] = {name ="speedwagon"},
+	["Spirit Wolf"] = {name ="starrk_wolf_unit"},
+	["Survey Corps Member"] = {name ="aot_generic"},
+	["Tanji"] = {name ="tanjiro"},
+	["Tarata (Ignite)"] = {name ="tatara_evolved"},
+	["Tarata"] = {name ="tatara"},
+	["Todorro"] = {name ="todoroki"},
+	["Touci"] = {name ="touka"},
+	["Ulquiro (Resurrección)"] = {name ="ulquiorra_evolved"},
+	["Ulquiro"] = {name ="ulquiorra"},
+	["Underhaul"] = {name ="overhaul"},
+	["Gravity Hero"] = {name ="uraraka"},
+	["Uru (Antithesis)"] = {name ="uryu_evolved"},
+	["Uru"] = {name ="uryu"},
+	["Usoap"] = {name ="usopp"},
+	["Vegita"] = {name ="vegeta"},
+	["Whitehair"] = {name ="whitebeard"},
+	["Zeike"] = {name ="zeke"},
+	["Zennu"] = {name ="zenitsu"},
+	["Zoru"] = {name ="zoro"},
+}
+local characterData = {mw.loadData('Module:UnitData/Data')}
+local aoeData = mw.loadData('Module:UnitData/Data/AoE_Type')
+
+function p.getDamage(frame)
+    local characterName = frame.args[1] or ''
+    local attackPattern = frame.args[2] or 'one' -- Default to first attack if not specified
+    local manualPlacementCost = frame.args[3] -- Optional manual placement cost
+    local manualTotalCost = frame.args[4] -- Optional manual total cost
+    
+    -- Find the character data using the name
+    local unitId = nil
+    for displayName, info in pairs(characterMap) do
+        if displayName == characterName then
+            unitId = info.name
+            break
+        end
+    end
+    
+    if not unitId then
+        return "Character not found"
+    end
+    
+    -- Get character data using the ID
+    local data = characterData[unitId]
+    
+    if not data then
+        return "No damage data available"
+    end
+    
+    local output = {}
+    local finalDamage
+    local placementCost = data.cost or 0
+    local totalUpgradeCost = 0
+    
+    -- Calculate total upgrade cost and get final damage
+    if data.upgrade then
+        -- Find the highest upgrade level
+        local maxLevel = 0
+        for level, _ in pairs(data.upgrade) do
+            if type(level) == "number" and level > maxLevel then
+                maxLevel = level
+            end
+        end
+        
+        -- Calculate total upgrade cost
+        for i = 1, maxLevel do
+            if data.upgrade[i] and data.upgrade[i].cost then
+                totalUpgradeCost = totalUpgradeCost + data.upgrade[i].cost
+            end
+        end
+        
+        if maxLevel > 0 then
+            finalDamage = data.upgrade[maxLevel].damage
+        else
+            finalDamage = data.damage
+        end
+    else
+        finalDamage = data.damage
+    end
+
+    -- Add cost information based on manual inputs
+    if manualPlacementCost ~= "n/a" then
+        if manualPlacementCost then
+            -- Use manual placement cost
+            table.insert(output, string.format("Placement Cost: %d", tonumber(manualPlacementCost)))
+        else
+            -- Use module placement cost
+            table.insert(output, string.format("Placement Cost: %d", placementCost))
+        end
+    end
+    
+    if manualTotalCost ~= "n/a" then
+        if manualTotalCost then
+            -- Use manual total cost
+            table.insert(output, string.format("Total Cost: %d", tonumber(manualTotalCost)))
+        elseif not manualPlacementCost and totalUpgradeCost > 0 then
+            -- Use module costs
+            table.insert(output, string.format("Total Upgrade Cost: %d", totalUpgradeCost))
+            table.insert(output, string.format("Total Cost: %d", placementCost + totalUpgradeCost))
+        end
+    end
+    
+    -- Rest of the damage calculation code remains the same
+    local attackName
+    if data.upgrade and data.upgrade[#data.upgrade] and data.upgrade[#data.upgrade].primary_attack then
+        attackName = data.upgrade[#data.upgrade].primary_attack
+    elseif data.primary_attack_no_upgrades then
+        attackName = data.primary_attack_no_upgrades
+    end
+    
+    -- Calculate DoT damage if available
+    if attackName then
+        local attackData = aoeData[attackName]
+        if attackData and attackData.Effect then
+            local effect = attackData.Effect
+            if effect.Name == "Bleed" or effect.Name == "Burn" or 
+               effect.Name == "Poison" or effect.Name == "Decay" then
+                local tickDamage = finalDamage * effect.Multiplier
+                -- Add effect information
+                table.insert(output, string.format("%sEffect: %s", #output > 0 and "\n" or "", effect.Name))
+                table.insert(output, string.format("Ticks: %d", effect.Ticks))
+                table.insert(output, string.format("Multiplier: %.3f", effect.Multiplier))
+                
+                -- Calculate damages
+                local damagePerTick = tickDamage
+                local totalDotDamage = tickDamage * effect.Ticks
+                
+                -- Add damage information
+                table.insert(output, string.format("Base Damage: %.2f", finalDamage))
+                table.insert(output, string.format("Damage per Tick: %.2f", damagePerTick))
+                table.insert(output, string.format("Total DoT Damage: %.2f", totalDotDamage))
+                table.insert(output, string.format("Total Damage: %.2f", finalDamage + totalDotDamage))
+            else
+                table.insert(output, string.format("%sDamage: %.2f", #output > 0 and "\n" or "", finalDamage))
+            end
+        else
+            table.insert(output, string.format("%sDamage: %.2f", #output > 0 and "\n" or "", finalDamage))
+        end
+    else
+        table.insert(output, string.format("%sDamage: %.2f", #output > 0 and "\n" or "", finalDamage))
+    end
+    
+    return table.concat(output, "\n")
+end
+
+function p.TotalDMG(frame)
+    local characterName = frame.args[1] or ''
+    local attackPattern = frame.args[2] or 'one'
+    
+    -- Find the character data using the name
+    local unitId = nil
+    for displayName, info in pairs(characterMap) do
+        if displayName == characterName then
+            unitId = info.name
+            break
+        end
+    end
+    
+    if not unitId then return "0" end
+    
+    -- Get character data using the ID
+    local data = characterData[unitId]
+    if not data then return "0" end
+    
+    local finalDamage
+    local attackCooldown
+    
+    -- Get final damage and cooldown from upgrades if available
+    if data.upgrade then
+        local maxLevel = 0
+        for level, _ in pairs(data.upgrade) do
+            if type(level) == "number" and level > maxLevel then
+                maxLevel = level
+            end
+        end
+        if maxLevel > 0 then
+            finalDamage = data.upgrade[maxLevel].damage
+            attackCooldown = data.upgrade[maxLevel].attack_cooldown or data.attack_cooldown
+        else
+            finalDamage = data.damage
+            attackCooldown = data.attack_cooldown
+        end
+    else
+        finalDamage = data.damage
+        attackCooldown = data.attack_cooldown
+    end
+
+    -- Get the attack name from unit data
+    local attackName
+    if data.upgrade and data.upgrade[#data.upgrade] and data.upgrade[#data.upgrade].primary_attack then
+        attackName = data.upgrade[#data.upgrade].primary_attack
+    elseif data.primary_attack_no_upgrades then
+        attackName = data.primary_attack_no_upgrades
+    end
+    
+    -- Calculate DoT damage if available
+    local totalDamage = finalDamage
+    if attackName then
+        local attackData = aoeData[attackName]
+        if attackData and attackData.Effect then
+            local effect = attackData.Effect
+            if effect.Name == "Bleed" or effect.Name == "Burn" or 
+               effect.Name == "Poison" or effect.Name == "Decay" then
+                local tickDamage = finalDamage * effect.Multiplier
+                local totalDotDamage = tickDamage * effect.Ticks
+                totalDamage = finalDamage + totalDotDamage
+            end
+        end
+    end
+    
+    -- Calculate DPS (Damage Per Second)
+    if attackCooldown and attackCooldown > 0 then
+        local dps = totalDamage / attackCooldown
+        -- Multiply by the specific number
+        local multipliedDPS = dps * 9.20406514
+        return string.format("%.0f", multipliedDPS)
+    else
+        -- If no cooldown found, just return the multiplied damage
+        local multipliedDamage = totalDamage * 9.20406514
+        return string.format("%.0f", multipliedDamage)
+    end
+end
+
+-- Add this helper function for K formatting
+local function formatNumberK(number)
+    if number >= 1000 then
+        return string.format("%.2fK", number/1000)
+    else
+        return string.format("%.0f", number)
+    end
+end
+
+function p.getCost(frame)
+    local characterName = frame.args[1] or ''
+    local costType = frame.args[2] or 'placement' -- 'placement' or 'total'
+    
+    -- Find the character data using the name
+    local unitId = nil
+    for displayName, info in pairs(characterMap) do
+        if displayName == characterName then
+            unitId = info.name
+            break
+        end
+    end
+    
+    if not unitId then return "0" end
+    
+    -- Special case for femto
+    if unitId == "femto" then
+        if costType == 'placement' then
+            return formatNumberK(100000)  -- Force placement cost to 100000
+        else
+            return "inf"  -- Hide total cost
+        end
+    end
+    
+    -- Get character data using the ID
+    local data = characterData[unitId]
+    if not data then return "0" end
+    
+    local placementCost = data.cost or 0
+    local totalUpgradeCost = 0
+    
+    -- Calculate total upgrade cost if needed
+    if costType == 'total' and data.upgrade then
+        local maxLevel = 0
+        for level, _ in pairs(data.upgrade) do
+            if type(level) == "number" and level > maxLevel then
+                maxLevel = level
+            end
+        end
+        
+        -- Calculate total upgrade cost
+        for i = 1, maxLevel do
+            if data.upgrade[i] and data.upgrade[i].cost then
+                totalUpgradeCost = totalUpgradeCost + data.upgrade[i].cost
+            end
+        end
+    end
+    
+    -- Return the requested cost type with K formatting
+    if costType == 'total' then
+        return formatNumberK(placementCost + totalUpgradeCost)  -- Include both placement and upgrade costs
+    else
+        return formatNumberK(placementCost)
+    end
+end
+
+function p.getSpawnCap(frame)
+    local characterName = frame.args[1] or ''
+    
+    -- Find the character data using the name
+    local unitId = nil
+    for displayName, info in pairs(characterMap) do
+        if displayName == characterName then
+            unitId = info.name
+            break
+        end
+    end
+    
+    if not unitId then return "0" end
+    
+    -- Get character data using the ID
+    local data = characterData[unitId]
+    if not data then return "0" end
+    
+    -- Get spawn cap value
+    local spawnCap = data.spawn_cap
+    if not spawnCap then return "1" end -- Default to 1 if not specified
+    
+    return string.format("%d", spawnCap)
+end
+
+return p

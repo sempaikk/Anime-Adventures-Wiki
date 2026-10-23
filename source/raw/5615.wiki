@@ -1,0 +1,479 @@
+=='''Overview'''==  
+
+<tabber>
+|-|Cosmetics=
+{{#tag:tabber|
+
+Banner Units=
+
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #283acf; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Lelouch Normal.gif|cosmetics=Normal|unit=Lulu (Emperor)}}
+{{Cosmetics/Item|img=Lelouch Shiny.gif|cosmetics=Shiny|unit=Lulu (Emperor) Shiny}}
+{{Cosmetics/Item|img=TricksterUpdated.gif|cosmetics=Normal|unit=Trickster (Release)}}
+{{Cosmetics/Item|img=Kisuke Shiny.gif|cosmetics=Shiny|unit=Trickster (Release) Shiny}}
+{{Cosmetics/Item|img=Kite Normal.gif|cosmetics=Normal|unit=Chance}}
+{{Cosmetics/Item|img=Kite Shiny.gif|cosmetics=Shiny|unit=Chance Shiny}}
+{{Cosmetics/Item|img=Luci (Celestial) Blessing.png|cosmetics=Normal|unit=Luci (Celestial)}}
+{{Cosmetics/Item|img=Kent Blessing.png|cosmetics=Normal|unit=Kent}}
+{{Cosmetics/Item|img=LuckyThunderFiend.png|cosmetics=Normal|unit=Lucky (Thunder Fiend)}}
+{{Cosmetics/Item|img=ShinyLuckyThunderFiend.gif|cosmetics=Shiny|unit=Lucky (Thunder Fiend)}}
+{{Cosmetics/Item|img=Ging Blessing.png|cosmetics=Normal|unit=Ging}}
+{{Cosmetics/Item|img=ShinyGingBlessing.png|cosmetics=Shiny|unit=Ging}}
+{{Cosmetics/Item|img=Weather Cosmetic.gif|cosmetics=Normal|unit=Weather}}
+{{Cosmetics/Item|img=Image 2023-01-28 140847561.png|cosmetics=Shiny|unit=Weather}}
+{{Cosmetics/Item|img=Gowthers.gif|cosmetics=Normal|unit=Gowthy}}
+{{Cosmetics/Item|img=Shiny Gowthy Cosmetic.gif |cosmetics=Shiny|unit=Gowthy}}
+{{Cosmetics/Item|img=Klein Cosmetic.gif |cosmetics=Normal|unit=Klay (Bachelor)}}
+{{Cosmetics/Item|img=Shiny Klein Cosmetic.gif |cosmetics=Shiny|unit=Klay (Bachelor)}}
+{{Cosmetics/Item|img=Heathcliff Cosmetic.gif |cosmetics=Normal|unit=Heathcliff (Admin)}}
+{{Cosmetics/Item|img=Shiny Heath Cosmetic.gif |cosmetics=Shiny|unit=Heathcliff (Admin)}}
+{{Cosmetics/Item|img=ToadSenseiCosmetic.gif |cosmetics=Normal|unit=Toad Sensei (Toad Sage)}}
+{{Cosmetics/Item|img=ShinyToad.gif |cosmetics=Shiny|unit=Toad Sensei (Toad Sage)}}
+{{Cosmetics/Item|img=IceclawN.gif |cosmetics=Normal|unit=Iceclaw (Azure Fang)}}
+{{Cosmetics/Item|img=Shiny IceClaw.gif |cosmetics=Shiny|unit=Iceclaw (Azure Fang)}}
+{{Cosmetics/Item|img=Honey_cosmetic.gif |cosmetics=Normal|unit=Honey (Hive)}}
+{{Cosmetics/Item|img=Shiny Honey.gif |cosmetics=Shiny|unit=Honey (Hive)}}
+{{Cosmetics/Item|img=GhostKun.gif |cosmetics=Normal|unit=Ghost-kun (Bound)}}
+{{Cosmetics/Item|img=Shiny ghost kun.gif |cosmetics=Shiny|unit=Ghost-kun (Bound)}}
+{{Cosmetics/Item|img=Dreamer_(Visonary)Cosmetic.gif |cosmetics=Normal|unit=Dreamer (Visionary)}}
+{{Cosmetics/Item|img=Gremmy Shiny Cosmetic.gif |cosmetics=Shiny|unit=Dreamer (Visionary) Shiny}}
+{{Cosmetics/Item|img=ElyssiaCosmetic.gif|cosmetics=Normal|unit=Elyssia (Abyssal)}}
+{{Cosmetics/Item|img=Elyssia (Abyssal) (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Elyssia (Abyssal)}}
+{{Cosmetics/Item|img=DemihumanCosmetic.gif|cosmetics=Normal|unit=Demihuman (Gamer)}}
+{{Cosmetics/Item|img=DemihumanShinyCosmetic.gif|cosmetics=Shiny|unit=Demihuman (Gamer)}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Event Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #0ebd99; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Fire Fist Cosmetic .gif|cosmetics=Normal|unit=Fire Fist}}
+{{Cosmetics/Item|img=Ace Shiny.gif|cosmetics=Shiny|unit=Fire Fist}}
+{{Cosmetics/Item|img=Renzi Normal.gif|cosmetics=Normal|unit=Renzi}}
+{{Cosmetics/Item|img=Renzi Shiny.gif|cosmetics=Shiny|unit=Renzi}}
+{{Cosmetics/Item|img=SpiritReaper.gif|cosmetics=Normal|unit=Spirit Reaper (Full Hollow)}}
+{{Cosmetics/Item|img=Ichigo Shiny.gif|cosmetics=Shiny|unit=Spirit Reaper (Full Hollow) Shiny}}
+{{Cosmetics/Item|img=Broke Cosmetic.gif|cosmetics=Normal|unit=Broke}}
+{{Cosmetics/Item|img=Peruna Normal.gif|cosmetics=Normal|unit=Peruna}}
+{{Cosmetics/Item|img=Moriu Cosmetic.gif|cosmetics=Normal|unit=Moriu}}
+{{Cosmetics/Item|img=Haka Cosmetic.gif|cosmetics=Normal|unit=Haka}}
+{{Cosmetics/Item|img=Toshin Cosmetic.gif|cosmetics=Normal|unit=Toshin}}
+{{Cosmetics/Item|img=ShinyToshin Cosmetic.gif|cosmetics=Shiny|unit=Toshin}}
+{{Cosmetics/Item|img=Todorro Cosmetic.gif|cosmetics=Normal|unit=Todorro (Half)}}
+{{Cosmetics/Item|img=TodorroShinyBlessing.PNG|cosmetics=Shiny|unit=Todorro (Half)}}
+{{Cosmetics/Item|img=Newdiotwoh.gif
+|cosmetics=Normal|unit=JIO (Over Heaven)}}
+{{Cosmetics/Item|img=Dioshiny.gif|cosmetics=Shiny|unit=JIO (Over Heaven) Shiny}}
+{{Cosmetics/Item|img=PowerCosmetic.gif|cosmetics=Normal|unit=Power (Fiend)}}
+{{Cosmetics/Item|img=Power Shiny Cosmetic.gif|cosmetics=Shiny|unit=Power (Fiend)}}
+{{Cosmetics/Item|img=Angel normal cosmetic.gif|cosmetics=Normal|unit=Paragon (Devil)}}
+{{Cosmetics/Item|img=(Shiny) Angel Devil.gif|cosmetics=Shiny|unit=Paragon (Devil) Shiny}}
+{{Cosmetics/Item|img=Blade Beast Cosmetic.gif|cosmetics=Normal|unit=Chainsaw (Hybrid)}}
+{{Cosmetics/Item|img=Shinychainsaw.gif|cosmetics=Shiny|unit=Chainsaw (Hybrid)}}
+{{Cosmetics/Item|img=Akin (Contract) Cosmetic.gif|cosmetics=Normal|unit=Akin (Contract)}}
+{{Cosmetics/Item|img=Hime (Ghost) Cosmetic.gif|cosmetics=Normal|unit=Hime (Ghost)}}
+{{Cosmetics/Item|img=Shiny Hime Cosmetic.gif|cosmetics=Shiny|unit=Hime (Ghost)}}
+{{Cosmetics/Item|img=Kobeni Normal cosmetic.gif|cosmetics=Normal|unit=Kobeno (Scared)}}
+{{Cosmetics/Item|img=Shiny Kobeno(Cosmetic).gif|cosmetics=Shiny|unit=Kobeno (Scared)}}
+{{Cosmetics/Item|img=Mirka Normal.gif|cosmetics=Normal|unit=Mirka (Tiger Bunny)}}
+{{Cosmetics/Item|img=Shiny Mirko Cosmetic.gif|cosmetics=Shiny|unit=Mirka (Tiger Bunny)}}
+{{Cosmetics/Item|img=Yoshino normal.gif|cosmetics=Normal|unit=Yoshina (Spirit)}}
+{{Cosmetics/Item|img=Shiny Yoshina cosmetic.gif|cosmetics=Shiny|unit=Yoshina (Spirit)}}
+{{Cosmetics/Item|img=Carrot Cosmetic.gif|cosmetics=Normal|unit=Carrot (Sulong)}}
+{{Cosmetics/Item|img=Shiny Carrot Cosmetic.gif|cosmetics=Shiny|unit=Carrot (Sulong)}}
+{{Cosmetics/Item|img=Kuneko HellCat Cosmetic.gif|cosmetics=Normal|unit=Catgirl (Hell-Cat)}}
+{{Cosmetics/Item|img=Kuneko HellCat (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Catgirl (Hell-Cat)}}
+{{Cosmetics/Item|img=Akena (Fallen Angel) Cosmetic.gif|cosmetics=Normal|unit=Akemy (Fallen Angel)}}
+{{Cosmetics/Item|img=Akena (Fallen Angel) (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Akemy (Fallen Angel)}}
+{{Cosmetics/Item|img=Ria (Devil Princess) Cosmetic.gif|cosmetics=Normal|unit=Riony (Devil Princess)}}
+{{Cosmetics/Item|img=Ria (Devil Princess) (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Riony (Devil Princess)}}
+{{Cosmetics/Item|img=Madokanormal.gif |cosmetics=Normal|unit=Madoko (Salvation)}}
+{{Cosmetics/Item|img=Shiny Madoka Cosmetic.gif |cosmetics=Shiny|unit=Madoko (Salvation)}}
+{{Cosmetics/Item|img=Sayko.gif |cosmetics=Normal|unit=Sayako (Sapphire Blade)}}
+{{Cosmetics/Item|img=Shinysayako.gif|cosmetics=Shiny|unit=Sayako (Sapphire Blade)}}
+{{Cosmetics/Item|img=Kyoka Cosmetic.gif |cosmetics=Normal|unit=Kyoka (Scarlet Lance)}}
+{{Cosmetics/Item|img=Kyoko shiny.gif |cosmetics=Shiny|unit=Kyoka (Scarlet Lance)}}
+{{Cosmetics/Item|img=Mamy 2.0.gif |cosmetics=Normal|unit=Mamy (Holy)}}
+{{Cosmetics/Item|img=ShinyMamyCosmetic.gif|cosmetics=Shiny|unit=Mamy (Holy)}}
+{{Cosmetics/Item|img=Issei Cosmetic.gif|cosmetics=Normal|unit=Dragon Knight (Boosted Gear)}}
+{{Cosmetics/Item|img=Issei (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Dragon Knight (Boosted Gear)}}
+{{Cosmetics/Item|img=Sharkfin.gif|cosmetics=Normal|unit=Sharkfin (Tailless Beast)}}
+{{Cosmetics/Item|img=KizumeShinyCosmetic.gif|cosmetics=Shiny|unit=Kizume (Tailless Beast)}}
+{{Cosmetics/Item|img=AvdoCosmetic.gif|cosmetics=Normal|unit=Avdo (Magician's Red)}}
+{{Cosmetics/Item|img=Shiny_Avdol.gif|cosmetics=Shiny|unit=Avdo (Magician's Red)}}
+{{Cosmetics/Item|img=HarribuCosmetic.gif|cosmetics=Normal|unit=Harribu (Shark Empress)}}
+{{Cosmetics/Item|img=HarribuShinyCosmetic.gif|cosmetics=Shiny|unit=Harribu (Shark Empress)}}
+{{Cosmetics/Item|img=PirateKing.gif|cosmetics=Normal|unit=Pirate King (Final)}}
+{{Cosmetics/Item|img=RogerShinyCosmetic.gif|cosmetics=Shiny|unit=Roger (Pirate King)}}
+{{Cosmetics/Item|img=GasCosmetic.gif|cosmetics=Normal|unit=Gas (Toxic)}}
+{{Cosmetics/Item|img=GasGasGasCosmetic.gif|cosmetics=Shiny|unit=Gas (Toxic)}}
+{{Cosmetics/Item|img=HinamyCosmetic.gif|cosmetics=Normal|unit=Fiend Girl (Butterfly)}}
+{{Cosmetics/Item|img=ShinyHinamyCosmetic2.gif|cosmetics=Shiny|unit=Fiend Girl (Butterfly)}}
+{{Cosmetics/Item|img=HidoCosmetic.gif|cosmetics=Normal|unit=Death Ninja (Immortal Butcher)}}
+{{Cosmetics/Item|img=Death_Ninja_(Immortal_Butcher)_(Shiny)_Cosmetic.gif|cosmetics=Shiny|unit=Death Ninja (Immortal Butcher)}}
+{{Cosmetics/Item|img=Umbra (Nuclear) Cosmetic.gif|cosmetics=Normal|unit=Umbra (Nuclear)}}
+{{Cosmetics/Item|img=Shiny umbra.gif|cosmetics=Shiny|unit=Umbra (Nuclear)}}
+{{Cosmetics/Item|img=AlucardCosmetic.gif|cosmetics=Normal|unit=Dracula (Unholy King)}}
+{{Cosmetics/Item|img=Dracula (Unholy King) (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Dracula (Unholy King)}}
+{{Cosmetics/Item|img=Black Dog (HellHound) Cosmetic.gif |cosmetics=Normal|unit=Black Dog (HellHound)}}
+{{Cosmetics/Item|img=Black_Dog_(HellHound)_(Shiny)_Cosmetic.gif|cosmetics=Shiny|unit=Black Dog (HellHound)}}
+{{Cosmetics/Item|img=Gravity Mage (Void) Cosmetic.gif|cosmetics=Normal|unit=Gravity Mage (Void)}}
+{{Cosmetics/Item|img=ImageNeeded.png |cosmetics=Shiny|unit=Gravity Mage (Void)}}
+{{Cosmetics/Item|img=Scarletslayercosm-resize.gif |cosmetics=Normal|unit=Scarlet Slayer (Cursed Frost)}}
+{{Cosmetics/Item|img=Scarlet Slayer (Cursed Frost) (Shiny) Cosmetic.gif |cosmetics=Shiny|unit=Scarlet Slayer (Cursed Frost)}}
+{{Cosmetics/Item|img=Tiger (Moonlight Beast) Cosmetic.gif |cosmetics=Normal|unit=Tiger (Moonlight Beast)}}
+{{Cosmetics/Item|img=Atsushi Shiny Cosmetic.gif |cosmetics=Shiny|unit=Tiger (Moonlight Beast)}}
+{{Cosmetics/Item|img=Cream (Void) Cosmetic.gif|cosmetics=Normal|unit=Cream (Void)}}
+{{Cosmetics/Item|img=Cream (Void) (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Cream (Void)}}
+{{Cosmetics/Item|img=Elf Mage (Aura) Cosmetic.gif|cosmetics=Normal|unit=Elf Mage (Aura)}}
+{{Cosmetics/Item|img=Elf_Mage_(Shiny)_Cosmetic.gif|cosmetics=Shiny|unit=Elf Mage (Aura)}}
+{{Cosmetics/Item|img=Siren (Harpy) Cosmetic.gif|cosmetics=Normal|unit=Siren (Harpy)}}
+{{Cosmetics/Item|img=ShinySirenCosmetic.gif|cosmetics=Shiny|unit=Siren (Harpy)}}
+{{Cosmetics/Item|img=Illusionist(Transcended)Cosmetic.gif|cosmetics=Normal|unit=Illusionist (Transcended)}}
+{{Cosmetics/Item|img=ShinyIllusionistTranscended.gif|cosmetics=Shiny|unit=Illusionist (Transcended)}}
+{{Cosmetics/Item|img=Killstreak_(Speedrun) cosmetic.gif|cosmetics=Normal|unit=Killstreak (Speedrun)}}
+{{Cosmetics/Item|img=Killstreak (Speedrun) (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Killstreak (Speedrun)}}
+{{Cosmetics/Item|img=Somber_Buzzsaw_Cosmetic.gif|cosmetics=Normal|unit=Somber (Buzzsaw)}}
+{{Cosmetics/Item|img=Somber(Buzzsaw) Shiny.gif|cosmetics=Shiny|unit=Somber (Buzzsaw)}}
+
+
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Battle Pass Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #29d019; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=GhaccoNormal.PNG|cosmetics=Normal|unit=Ghacco}}
+{{Cosmetics/Item|img=GhaccoShiny.png|cosmetics=Shiny|unit=Ghacco}}
+{{Cosmetics/Item|img=AokijoBlessings.gif|cosmetics=Normal|unit=Aokijo}}
+{{Cosmetics/Item|img=ShinyAokijoBlessings.gif|cosmetics=Shiny|unit=Aokijo}}
+{{Cosmetics/Item|img=Nami Non Shiny.gif|cosmetics=Normal|unit=Navi}}
+{{Cosmetics/Item|img=Nami Shiny.gif|cosmetics=Shiny|unit=Navi}}
+{{Cosmetics/Item|img=Thor Non Shiny.gif|cosmetics=Normal|unit=Thor}}
+{{Cosmetics/Item|img=Thor Shiny.gif|cosmetics=Shiny|unit=Thor}}
+{{Cosmetics/Item|img=Hanje normal.gif|cosmetics=Normal|unit=Hanje (Captain)}}
+{{Cosmetics/Item|img=Hanje (Captain) Cosmetic.gif|cosmetics=Shiny|unit=Hanje (Captain)}}
+{{Cosmetics/Item|img=Vas normal.gif|cosmetics=Normal|unit=Vas (Cross)}}
+{{Cosmetics/Item|img=Vas(Cross) Cosmetic.gif|cosmetics=Shiny|unit=Vas (Cross)}}
+{{Cosmetics/Item|img=Haze Cosmetic.gif|cosmetics=Normal|unit=Haze (Rage)}}
+{{Cosmetics/Item|img=Shiny Haze Cosmetic2.gif|cosmetics=Shiny|unit=Haze (Rage)}}
+{{Cosmetics/Item|img=Oshy Cosmetic.gif|cosmetics=Normal|unit=Oshy (Idol)}}
+{{Cosmetics/Item|img=Oshy Shiny Cosmetic.gif|cosmetics=Shiny|unit=Oshy (Idol)}}
+{{Cosmetics/Item|img=Charmi Cosmetic.gif|cosmetics=Normal|unit=Charmi (Sheep)}}
+{{Cosmetics/Item|img=Charmi Shiny Cosmetic.gif|cosmetics=Shiny|unit=Charmi (Sheep)}}
+{{Cosmetics/Item|img=Mash Shiny Cosmetic.gif|cosmetics=Shiny|unit=Bodybuilder (Muscles) Shiny}}
+{{Cosmetics/Item|img=Gabimaro (Ascetic Blaze).gif|cosmetics=Normal|unit=Gabimaro (Ascetic Blaze)}}
+{{Cosmetics/Item|img=Gabimaro (Ascetic Blaze) shiny.gif|cosmetics=Shiny|unit=Gabimaro (Ascetic Blaze)}}
+{{Cosmetics/Item|img=Smoka_Normal(Hunter).gif|cosmetics=Normal|unit=Smoka (Hunter)}}
+{{Cosmetics/Item|img=Smoka_Shiny.png|cosmetics=Shiny|unit=Smoka (Hunter)}}
+{{Cosmetics/Item|img=Normalconrod.png|cosmetics=Normal|unit=Conrod (Wizard King)}}
+{{Cosmetics/Item|img=Conrod_Cosmetic_Shiny.gif|cosmetics=Shiny|unit=Conrod (Wizard King)}}
+{{Cosmetics/Item|img=Bell_Cosmetic.gif|cosmetics=Normal|unit=Bell (Argonaut)}}
+{{Cosmetics/Item|img=ShinyBell_Cosmetic.gif|cosmetics=Shiny|unit=Bell (Argonaut)}}
+{{Cosmetics/Item|img=TunaReborn.gif|cosmetics=Normal|unit=Tuna (Reborn)}}
+{{Cosmetics/Item|img=Shinytunareborn.gif|cosmetics=Shiny|unit=Tuna (Reborn)}}
+{{Cosmetics/Item|img=Chiko_Cosmetic.gif|cosmetics=Normal|unit=Chiko (Trion Prodigy)}}
+{{Cosmetics/Item|img=ShinyChiko_Cosmetic.gif|cosmetics=Shiny|unit=Chiko (Trion Prodigy)}}
+{{Cosmetics/Item|img=Cosmetic_Yumo.gif|cosmetics=Normal|unit=Yumo (White Nightmare)}}
+{{Cosmetics/Item|img=Shinyyumo.gif|cosmetics=Shiny|unit=Yumo (White Nightmare)}}
+{{Cosmetics/Item|img=PsychicPrincessN.gif|cosmetics=Normal|unit=Psychic Princess}}
+{{Cosmetics/Item|img=Psychic_Princess_cosmetic.gif|cosmetics=Shiny|unit=Psychic Princess}}
+{{Cosmetics/Item|img=SilverSlayerN.gif|cosmetics=Normal|unit=Silver Slayer (Hunter)}}
+{{Cosmetics/Item|img=Silver Slayer Shiny.png|cosmetics=Shiny|unit=Silver Slayer (Hunter)}}
+{{Cosmetics/Item|img=Black_Assassin_(Reaper)_Shiny_Cosmetic.gif|cosmetics=Shiny|unit=Black Assassin (Reaper)}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Portal Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #d019c8; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Ice Queen (Empire's Strongest) Normal.gif|cosmetics=Normal|unit=Ice Queen}}
+{{Cosmetics/Item|img=Ice Queen (Empire's Strongest) Shiny.gif|cosmetics=Shiny|unit=Ice Queen Shiny}}
+{{Cosmetics/Item|img=New_cosmetic_denjy.Gif|cosmetics=Shiny|unit=Blade Beast (Past)}}
+{{Cosmetics/Item|img=Lord Boron Cosmetic.gif|cosmetics=Normal|unit=Lord Alien King}}
+{{Cosmetics/Item|img=Lord Boron (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Lord Alien King Shiny}}
+{{Cosmetics/Item|img=Merlyn Cosmetic.gif|cosmetics=Normal|unit=Merlyn}}
+{{Cosmetics/Item|img=Merlyn (Shiny) Cosmetic.gif|cosmetics=Shiny|unit=Merlyn}}
+{{Cosmetics/Item|img=Homuru normal.gif|cosmetics=Normal|unit=Shadowgirl (Time Traveller)}}
+{{Cosmetics/Item|img=Homuru shiny.gif|cosmetics=Shiny|unit=Shadowgirl (Time Traveller) Shiny}}
+{{Cosmetics/Item|img=PoseidonCosmetic.gif|cosmetics=Normal|unit=Sea God (Tyrant of the Seas)}}
+{{Cosmetics/Item|img=PoseidonShinyCosmetic.gif|cosmetics=Shiny|unit=Sea God (Tyrant of the Seas) Shiny}}
+{{Cosmetics/Item|img=Newdoffycosmetic.gif|cosmetics=Normal|unit=Flamingo (Awakened)}}
+{{Cosmetics/Item|img=DoffyShinyCosmetic.gif|cosmetics=Shiny|unit=Flamingo (Awakened)}}
+{{Cosmetics/Item|img=Skullknightcosmetic.gif|cosmetics=Normal|unit=Skull Knight (King)}}
+{{Cosmetics/Item|img=SkullknightShinycosmetic.gif|cosmetics=Shiny|unit=Skull Knight (King)}}
+{{Cosmetics/Item|img=GilgameshReRelease2.gif|cosmetics=Normal|unit=Gilgamesh (King of Heroes)}}
+{{Cosmetics/Item|img=GoldeKingShinyCos.gif|cosmetics=Shiny|unit=Gilgamesh (King of Heroes)}}
+{{Cosmetics/Item|img=Dazaibasecosmetic.gif|cosmetics=Normal|unit=InHuman (Nullifier)}}
+{{Cosmetics/Item|img=Shinydazaicos.gif|cosmetics=Shiny|unit=InHuman (Nullifier)}}
+{{Cosmetics/Item|img=DarkMageNormalCosmetic.gif|cosmetics=Normal|unit=Dark Mage (Fallen Star)}}
+{{Cosmetics/Item|img=ShinyDarkMage.gif|cosmetics=Shiny|unit=Dark Mage (Fallen Star)}}
+{{Cosmetics/Item|img=EnlightenedPose.gif|cosmetics=Normal|unit=Enlightened (Nirvana)}}
+{{Cosmetics/Item|img=ShinyEnlightened.gif|cosmetics=Shiny|unit=Enlightened (Nirvana)}}
+{{Cosmetics/Item|img=Nagumo Normal Cosmetic.gif|cosmetics=Normal|unit=Switchblade (Deception)}}
+{{Cosmetics/Item|img=ShinySwitchblade.gif|cosmetics=Shiny|unit=Switchblade (Deception)}}
+{{Cosmetics/Item|img=AgonyNormal.gif|cosmetics=Normal|unit=Agony (Path)}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Raid Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #e81111; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Shisui cosmetic.gif|cosmetics=Normal|unit=Shisu (Flicker)}}
+{{Cosmetics/Item|img=Shiny Shisui cosmetic.gif|cosmetics=Shiny|unit=Shisu (Flicker)}}
+{{Cosmetics/Item|img=PiccoruNameless cosmetic.gif|cosmetics=Normal|unit=Piccoru (Nameless)}}
+{{Cosmetics/Item|img=PiccoruNameless Shiny cosmetic.gif|cosmetics=Shiny|unit=Piccoru (Nameless)}}
+{{Cosmetics/Item|img=Daky cosmetic.gif|cosmetics=Normal|unit=Daky (Obi)}}
+{{Cosmetics/Item|img=Daky Shiny cosmetic.gif|cosmetics=Shiny|unit=Daky (Obi)}}
+{{Cosmetics/Item|img=Rohun cosmetic.gif|cosmetics=Normal|unit=Rohon (Artist)}}
+{{Cosmetics/Item|img=Rohun Shiny cosmetic.gif|cosmetics=Shiny|unit=Rohon (Artist)}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Dungeon Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #dfb814; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Ezra (Valkyrie) Cosmetic.gif|cosmetics=Normal|unit=Ezra (Valkyrie)}}
+{{Cosmetics/Item|img=Ezra (Lightning) Cosmetic.gif|cosmetics=Normal|unit=Ezra (Lightning)}}
+{{Cosmetics/Item|img=Ezra (True Heart) Cosmetic.gif|cosmetics=Normal|unit=Ezra (True Heart)}}
+{{Cosmetics/Item|img=Erza Trueheart Shiny.gif|cosmetics=Shiny|unit=Ezra (True Heart)}}
+{{Cosmetics/Item|img=Jelly (Heaven) Cosmetic.gif|cosmetics=Normal|unit=Jelly (Heaven)}}
+{{Cosmetics/Item|img=ShinyJelly.png|cosmetics=Shiny|unit=Jelly (Heaven)}}
+{{Cosmetics/Item|img=Getu Maximum.gif|cosmetics=Normal|unit=Gazu (Maximum)}}
+{{Cosmetics/Item|img=YamomotoHellfire.gif|cosmetics=Normal|unit=Yamomoto (Hellfire)}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Infinity Castle Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #df4314; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Tango Blessing.gif|cosmetics=Normal|unit=Tango}}
+{{Cosmetics/Item|img=Emilicosmeticnew.gif|cosmetics=Normal|unit=Ice Lily}}
+{{Cosmetics/Item|img=ShinyEmiliBlessings.gif|cosmetics=Shiny|unit=Ice Lily Shiny}}
+{{Cosmetics/Item|img=TobyCosmeticNormalReRelease2.gif|cosmetics=Normal|unit=Toby}}
+{{Cosmetics/Item|img=7ec1af97193f46f2d7397144bfa15b0b.gif|cosmetics=Shiny|unit=Toby}}
+{{Cosmetics/Item|img=Boa Hancock Normal Cosmetic.gif|cosmetics=Normal|unit=Snake Princess}}
+{{Cosmetics/Item|img=Shiny SnakeP cosmetic.gif|cosmetics=Shiny|unit=Snake Princess}}
+{{Cosmetics/Item|img=UnohonaCosmetic.gif|cosmetics=Normal|unit=Unohona}}
+{{Cosmetics/Item|img=Shiny Unohana Cosmetic.png|cosmetics=Shiny|unit=Unohona}}
+{{Cosmetics/Item|img=Reighlay .gif|cosmetics=Normal|unit=Raylay}}
+{{Cosmetics/Item|img=Shiny Raylay Cosmetic.gif|cosmetics=Shiny|unit=Raylay}}
+{{Cosmetics/Item|img=Roshy Cosmetic.gif|cosmetics=Normal|unit=Roshy}}
+{{Cosmetics/Item|img=ShinyRoshy Cosmetic.gif|cosmetics=Shiny|unit=Roshy}}
+{{Cosmetics/Item|img=Minata Cosmetic.gif|cosmetics=Normal|unit=Minata}}
+{{Cosmetics/Item|img=Minata Shiny Cosmetic.gif|cosmetics=Shiny|unit=Minata}}
+{{Cosmetics/Item|img=NormalBambi.gif|cosmetics=Normal|unit=Bombietta}}
+{{Cosmetics/Item|img=ShinyBambietta.gif|cosmetics=Shiny|unit=Bombietta}}
+{{Cosmetics/Item|img=Cooler.gif|cosmetics=Normal|unit=Cooler}}
+{{Cosmetics/Item|img=Robot_Sorcerer_Cosmetic.gif|cosmetics=Normal|unit=Robot Sorcerer}}
+{{Cosmetics/Item|img=Robot_Sorcerer_Shiny_Cosmetic.gif|cosmetics=Shiny|unit=Robot Sorcerer}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Tournament Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #d5820d; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=TatsumoCosmetic.png|cosmetics=Normal|unit=Tatsumo}}
+{{Cosmetics/Item|img=TatsumoShiny.gif|cosmetics=Shiny|unit=Tatsumo}}
+{{Cosmetics/Item|img=Inuyasha Cosmetic.gif|cosmetics=Shiny|unit=Inuyashu}}
+{{Cosmetics/Item|img=Jin Mori Cosmetic.gif|cosmetics=Normal|unit=Ji Mo Ri}}
+{{Cosmetics/Item|img=Jin Mori Cosmetic Shiny.gif|cosmetics=Shiny|unit=Ji Mo Ri}}
+{{Cosmetics/Item|img=Ipo Cosmetic Normal.gif|cosmetics=Normal|unit=Ipo}}
+{{Cosmetics/Item|img=Ipo Cosmetic.gif|cosmetics=Shiny|unit=Ipo}}
+{{Cosmetics/Item|img=Bugger Cosmetic Normal.gif|cosmetics=Normal|unit=Buggy}}
+{{Cosmetics/Item|img=Bugger Cosmetic.gif|cosmetics=Shiny|unit=Buggy}}
+{{Cosmetics/Item|img=04bee889e7f70313bd85536667f6bc91.gif|cosmetics=Normal|unit=Isago}}
+{{Cosmetics/Item|img=Shiny Isagi Cos.gif|cosmetics=Shiny|unit=Isago}}
+{{Cosmetics/Item|img=Caesar Cosmetic.gif|cosmetics=Normal|unit=Caesar}}
+{{Cosmetics/Item|img=Caesar Cosmetic Shiny.gif|cosmetics=Shiny|unit=Caesar}}
+{{Cosmetics/Item|img=Basedeer-tancosmetic.gif |cosmetics=Normal|unit=Deer-tan}}
+{{Cosmetics/Item|img=Nokotan Shiny cosmetic.gif|cosmetics=Shiny|unit=Deer-tan Shiny}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}
+Leaderboard Units =
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #770ebd; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/Item|img=Gohan Normal.gif|cosmetics=Normal|unit=Future Goh}}
+{{Cosmetics/Item|img=Gohan Shiny.gif|cosmetics=Shiny|unit=Future Goh Shiny}}
+{{Cosmetics/Item|img=Blue Devil Normal.gif|cosmetics=Normal|unit=Blue Devil}}
+{{Cosmetics/Item|img=Blue Devil Shiny.gif|cosmetics=Shiny|unit=Blue Devil Shiny}}
+{{Cosmetics/Item|img=Saicky Normal.gif|cosmetics=Normal|unit=Saickik}}
+{{Cosmetics/Item|img=Saicky Shiny.gif|cosmetics=Shiny|unit=Saickik Shiny}}
+{{Cosmetics/Item|img=Kumo Cosmetic.gif|cosmetics=Normal|unit=Kumo}}
+{{Cosmetics/Item|img=Hie Cosmetic 2.gif|cosmetics=Normal|unit=Hie}}
+{{Cosmetics/Item|img=HieShiny.png|cosmetics=Shiny|unit=Hie}}
+{{Cosmetics/Item|img=Basea21cos.gif|cosmetics=Normal|unit=Android 21}}
+{{Cosmetics/Item|img=Android 21.gif|cosmetics=Shiny|unit=Android 21}}
+{{Cosmetics/Item|img=MistNinja Cosmetic Shiny.gif|cosmetics=Shiny|unit=Mist Ninja}}
+{{Cosmetics/Item|img=Juzo Cosmetic.gif|cosmetics=Normal|unit=Jozo}}
+{{Cosmetics/Item|img=Juzo Cosmetic Shiny.gif|cosmetics=Shiny|unit=Jozo}}
+{{Cosmetics/Item|img=Nejiri Cosmetic.gif|cosmetics=Normal|unit=Nejiri}}
+{{Cosmetics/Item|img=Nejiri Cosmetic Shiny.gif|cosmetics=Shiny|unit=Nejiri}}
+{{Cosmetics/Item|img=Temari Cosmetic.gif|cosmetics=Normal|unit=Temori}}
+{{Cosmetics/Item|img=Shiny_Temari.gif|cosmetics=Shiny|unit=Temori}}
+{{Cosmetics/Item|img=Kenshi Cosmetic.gif|cosmetics=Normal|unit=Kenshin}}
+{{Cosmetics/Item|img=Shiny Kenshi Cosmetic.gif|cosmetics=Shiny|unit=Kenshin Shiny}}
+{{Cosmetics/Item|img=Joker Cosmetic.gif|cosmetics=Normal|unit=Joker}}
+{{!}}}
+</center>
+}}
+|-|Skins=
+{{#tag:tabber|
+Academy Star Capsule=
+
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #ff816beb; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/RarityItem|img=Placeholder.png|cosmetics=Nezuka Academy|rarity=Rare|unit=Nezuka}}
+{{Cosmetics/RarityItem|img=Scout Regiment Levi.png|cosmetics=Levi's Paper Fans|rarity=Epic|unit=Levy}}
+{{Cosmetics/RarityItem|img=Uryu (school).png|cosmetics=Uryu's Kojaku (School)|rarity=Epic|unit=Uru}}
+{{Cosmetics/RarityItem|img=Kizzua (Arena).png|cosmetics=Kizzua (Arena)|rarity=Legendary|unit=Kizzua (Whirlwind)}}
+{{Cosmetics/RarityItem|img=static-assets-upload9534848630525489106.webp|cosmetics=Armin's Blanket|rarity=Legendary|unit=Armein}}
+{{Cosmetics/RarityItem|img = Orwin (Delinquent).png|cosmetics=Orwin (Delinquent)|rarity= Mythic|unit= Orwin}}
+{{Cosmetics/RarityItem|img = Bulmy (Teen).png|cosmetics= Bulmy (Teen)|rarity = Mythic|unit= Bulmy}}
+{{!}}}
+</center>
+
+
+{{!}}-{{!}}Haunted Star Capsule=
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #ffbf6beb; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/RarityItem|img=Dezu (Trick or Treat).png|cosmetics=Dezu (Trick or Treat)|rarity=Rare|unit=Dezu}}
+{{Cosmetics/RarityItem|img=Luffo (Pirate).png|cosmetics=Luffo (Pirate)|rarity=Rare|unit=Luffo}}
+{{Cosmetics/RarityItem|img=Frankengone.png|cosmetics=Frankengone|rarity=Epic|unit=Gone (Adult)}}
+{{Cosmetics/RarityItem|img=Marada (Skelly).png|cosmetics=Marada (Skelly)|rarity=Epic|unit=Marada}}
+{{Cosmetics/RarityItem|img=Mochi (Halloween).png|cosmetics=Mochi (Halloween)|rarity=Legendary|unit=Mochi}}
+{{Cosmetics/RarityItem|img=Ruki (Devil).png|cosmetics=Ruki (Devil)|rarity=Legendary|unit=Ruki}}
+{{Cosmetics/RarityItem|img=Eta (Bandaged).png|cosmetics=Eta (Bandaged)|rarity=Legendary|unit=Eta}}
+{{Cosmetics/RarityItem|img=Goju (Vampire) Cosmetic.gif|cosmetics=Goju (Vampire)|rarity=Legendary|unit=Goju}}
+{{Cosmetics/RarityItem|img=Kent Butcher Blessing.png|cosmetics=Kent(Butcher)|rarity=Legendary|unit=Kent}}
+{{Cosmetics/RarityItem|img=Cel (BALLIN').png|cosmetics=Cel (BALLIN')|rarity=Legendary|unit=Cel (Perfect)}}
+{{Cosmetics/RarityItem|img=Juozo (Reaper) Cosmetic.gif|cosmetics=Juozu (Reaper)|rarity=Legendary|unit=Juozu}}
+{{Cosmetics/RarityItem|img=Pito (Peach).gif|cosmetics=Pito (Halloween)|rarity=Mythic|unit=Pito}}
+{{Cosmetics/RarityItem|Skin=Haunted Star|img=Orwin (Headless).png|cosmetics=Orwin (Headless)|rarity=Mythic|unit=Orwin}}
+{{!}}}
+</center>
+
+{{!}}-{{!}}Frozen Star Capsule=
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #49336beb; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/RarityItem|img=Ruki (Winter).png|cosmetics=Ruki|rarity=Rare|unit=Snow Reaper|Skin=(Winter)}}
+{{Cosmetics/RarityItem|img=Armein snow man.png|cosmetics=Armein (Snowman)|rarity=Epic|unit=Armein}}
+{{Cosmetics/RarityItem|img=Santa Whitehair.PNG|cosmetics=Santa Whitehair|rarity=Epic|unit=Whitehair}}
+{{Cosmetics/RarityItem|img=Lucky (Elf).png|cosmetics=Lucky (Elf)|rarity=Legendary|unit=Lucky (Thunder Fiend)}}
+{{Cosmetics/RarityItem|img=Sukuno (Christmas).png|cosmetics=Sukuno (Christmas)|rarity=Legendary|unit=Sukuno}}
+{{Cosmetics/RarityItem|img=Erza True Heart (Christmas).png|cosmetics=Ezra (Christmas)|rarity=Legendary|unit=Ezra (True Heart)}}
+{{Cosmetics/RarityItem|img=Ezra (Christmas).png|cosmetics=Ezra (Christmas)|rarity=Legendary|unit=Ezra (Lightning)}}
+{{Cosmetics/RarityItem|img=Ezra (Christmas) Valkyrie.png|cosmetics=Ezra (Christmas)|rarity=Legendary|unit=Ezra (Valkyrie)}}
+{{Cosmetics/RarityItem|img=Soi Fan (Christmas).png|cosmetics=Soi Fan (Christmas)|rarity=Legendary|unit=Soi Fan}}
+{{Cosmetics/RarityItem|img=Bulmy (Christmas).png|cosmetics=Bulmy (Christmas)|rarity=Legendary|unit=Bulmy}}
+{{Cosmetics/RarityItem|img=Asto (Angel) effect.png|cosmetics=Asto (Angel)|rarity=Mythical|unit=Dark Asto}}
+{{!}}}
+</center>
+
+{{!}}-{{!}}Summer Star Capsule=
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #49336beb; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/RarityItem|img=Sakurosummerskin.gif|cosmetics=Sakuro (Summer)|rarity=Rare|unit=Sakuro}}
+{{Cosmetics/RarityItem|img=Juvy Skin.gif|cosmetics=Juvy (Summer)|rarity=Epic|unit=Juvy}}
+{{Cosmetics/RarityItem|img=RukiSummer Skin.gif|cosmetics=Ruki (Summer)|rarity=Epic|unit=Ruki}}
+{{Cosmetics/RarityItem|img=Pride Skin.gif|cosmetics=Hubris (Summer)|rarity=Legendary|unit=Hubris (The One)}}
+{{Cosmetics/RarityItem|img=Kiroto Skin.gif|cosmetics=Kiroto (Fisher)|rarity=Legendary|unit=Kiroto (Dual)}}
+{{Cosmetics/RarityItem|img=Oshy Skin.gif|cosmetics=Oshy (Beach)|rarity=Legendary|unit=Oshy (Idol)}}
+{{Cosmetics/RarityItem|img=ArmeinSummer Skin.gif|cosmetics=Armein (Festival)|rarity=Legendary|unit=Armein}}
+{{Cosmetics/RarityItem|img=Dany Skin.gif|cosmetics=Dany (Pool)|rarity=Legendary|unit=Dany (Creation)}}
+{{Cosmetics/RarityItem|img=Summerhawksskin.gif|cosmetics=Hawk (Beach)|rarity=Legendary|unit=Hawk (Fierce Wings)}}
+{{Cosmetics/RarityItem|img=Tatsumiki Skin.gif|cosmetics=Tatsumiki (Pool)|rarity=Legendary|unit=Tatsumiki (Tornado)}}
+{{Cosmetics/RarityItem|img=newsummerusoap.gif|cosmetics=Captain (Timeskip) (Summer)|rarity=Legendary|unit=Captain (God)}}
+{{Cosmetics/RarityItem|img=MKSummer Skin.gif|cosmetics=Cocoknight|rarity=Mythical|unit=Metal Knight (Arsenal)}}
+{{Cosmetics/RarityItem|img=GoldenFreezo Skin.gif|cosmetics=Golden Freezo<br>(Icecream)|rarity=Mythical|unit=Golden Freezo (Emperor)}}
+{{Cosmetics/RarityItem|img=TangoSummer Skin.gif|cosmetics=Tango (Festival)|rarity=Mythical|unit=Tango (God of Flashiness)}}
+{{!}}}
+</center>
+
+{{!}}-{{!}}Spooky Star Capsule=
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #49336beb; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/RarityItem|img=Zoru_halloween_cosmetic.png|cosmetics=Zoru (Halloween)|rarity=Rare|unit=Zoru}}
+{{Cosmetics/RarityItem|img=Grim_jaw_halloween_cosmetic.png|cosmetics=Grim Jaw (Chained)|rarity=Rare|unit=Grim Jaw}}
+{{Cosmetics/RarityItem|img=Wendy Cosmetic.gif|cosmetics=Wenda (Halloween)|rarity=Epic|unit=Wenda}}
+{{Cosmetics/RarityItem|img=Oshysp.png|cosmetics=Oshy (Halloween)|rarity=Epic|unit=Oshy (Idol)}}
+{{Cosmetics/RarityItem|img=Asuno Cosmetic.gif|cosmetics=Asuno (Harvest)|rarity=Legendary|unit=Asuno (Flash)}}
+{{Cosmetics/RarityItem|img=Leafy Halloween Cosmetic.gif|cosmetics=Leafy (Demon)|rarity=Legendary|unit=Leafy (Sylph)}}
+{{Cosmetics/RarityItem|img=Homuru Halloween Cosmetic.gif|cosmetics=Homuru (Devil)|rarity=Legendary|unit=Homuru (Time Traveller)}}
+{{Cosmetics/RarityItem|img=Narbera Halloween Cosmetic.gif|cosmetics=Narbera (Witch)|rarity=Legendary|unit=Narbera (Battle Maid)}}
+{{Cosmetics/RarityItem|img=Tatsumaki Witch Cosmetic.gif|cosmetics=Tatsumiki (Witch)|rarity=Legendary|unit=Tatsumiki (Tornado)}}
+{{Cosmetics/RarityItem|img=Gilgamesh Cosmetic.gif|cosmetics=Gilgamesh (Halloween)|rarity=Legendary|unit=Gilgamesh (King of Heroes)}}
+{{Cosmetics/RarityItem|img=Law Halloween Cosmetic.gif|cosmetics=Lao (Halloween)|rarity=Legendary|unit=Lao (ROOM)}}
+{{Cosmetics/RarityItem|img=Saber Cosmetic.gif|cosmetics=Saber (Halloween)|rarity=Legendary|unit=Saber (Promised Sword)}}
+{{Cosmetics/RarityItem|img=Meliodas cosmetic.gif|cosmetics=Melio (Count)|rarity=Mythical|unit=Melio (Assault)}}
+{{Cosmetics/RarityItem|img=Guts Cosmetic.gif|cosmetics=Berserker (Rage)|rarity=Mythical|unit=Berserker (Rage)}}
+{{!}}}
+</center>
+
+{{!}}-{{!}}Icy Star Capsule=
+<center>
+{{{!}} class="article-table" style="box-shadow: 0px 3px 15px -3px #49336beb; border-radius: 8px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Image
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" {{!}} Unit
+{{Cosmetics/RarityItem|img=Idol Winter Cosmetic.gif|cosmetics=Idol (Winter)|rarity=Epic|unit=Idol(Star)}}
+{{Cosmetics/RarityItem|img=Cherub Winter Cosmetic.gif|cosmetics=Cherub (Winter)|rarity=Legendary|unit=Cherub (Overseer)}}
+{{Cosmetics/RarityItem|img=Origami.gif|cosmetics=Origami (Winter)|rarity=Legendary|unit=Origami (Paper Angel)}}
+{{Cosmetics/RarityItem|img=Reliable Kid Winter Cosmetic.gif|cosmetics=Reliable Student (Elf)|rarity=Legendary|unit=Reliable Student (Echoes)}}
+{{Cosmetics/RarityItem|img=ShadowGirl Winter Cosmetic.gif|cosmetics=Shadowgirl(Winter)|rarity=Legendary|unit=Shadowgirl(Time Traveller)}}
+{{Cosmetics/RarityItem|img=Spearer(Winter)Cosmetic.gif|cosmetics=Spearer (Winter)|rarity=Legendary|unit=Spearer (Child of Light)}}
+{{Cosmetics/RarityItem|img=Bloodcry_(Winter)cosmetic.gif|cosmetics=Bloodcry (Winter)|rarity=Mythical|unit=Bloodcry (Bloodfallen)}}
+{{Cosmetics/RarityItem|img=Menace Jetstream Sam Cosmetic.gif|cosmetics=Menace (Jetstream)|rarity=Mythical|unit=Menace (Terror)}}
+{{!}}}
+</center>
+
+}}
+
+</tabber>
+__NOEDITSECTION__
+[[Category:Money Units]]

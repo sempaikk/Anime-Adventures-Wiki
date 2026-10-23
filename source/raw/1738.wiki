@@ -1,0 +1,15 @@
+The '''Ice Flower Star''', added in [[Update_Log#Update_7_-_Black_Clover_Update_Part_1|Update 7]], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (2nd Season). This item has become '''unobtainable''' as of Update 8.
+
+==Information==
+* <span style="color:#FFC208;">+Required to obtain a special unit...</span>
+* <span style="color:#921296;">''"I can't imagine this will make things any easier, but this is all I can do!"''</span>
+* <span style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span> (Prior to Update 8)
+
+==Rewards==
+{{Container Characterbox
+|
+{{Characterbox|Emili}}
+}}
+
+__NOEDITSECTION____NOTOC__
+[[Category:Infinity Castle Stars]]

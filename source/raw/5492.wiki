@@ -1,0 +1,97 @@
+= Map Lengths for Story Mode =
+
+== Overview: ==
+This Page is meant for Finding the Longest and Shortest Maps, and for information of which Map is the best for AFK Gem Farming using Infinite Mode.
+
+To measure the Map Length, walking speed is used, and starting from the top of the NPC Path , and ending to where the NPC Path Ends. The Seconds are approximate, But the Gems, and the Minutes are Not.
+
+== MAPS ==
+
+# '''<big>[[Story|Planet Namak - (AFK - Infinite Mode)]]</big>'''
+#* Length: 14 Seconds
+#* Gems: 21
+#* Minutes: 2:06
+# '''<big>[[Story|Shiganshinu District - (AFK - Infinite Mode)]]</big>'''
+#* Length: 8 Seconds
+#* Gems: 18
+#* Minutes: 1:22
+# '''<big>[[Story|Snowy Town - (AFK - Infinite Mode)]]</big>'''
+#* Length: 11 Seconds
+#* Gems: 0
+#* Minutes: 1:10
+# '''<big>[[Story|Hidden Sand - (AFK - Infinite Mode)]]</big>'''
+#* Length: 16 Seconds
+#* Gems: 18
+#* Minutes: 1:42
+# '''<big>[[Story|Marine Ford - (AFK - Infinite Mode)]]</big>'''
+#* Length: 14 Seconds
+#* Gems: 18
+#* Minutes: 1:48
+# '''<big>[[Story|Ghoul City - (AFK - Infinite Mode)]]</big>'''
+#* Length: 20 Seconds
+#* Gems: 21
+#* Minutes: 2:13
+# '''<big>[[Story|Hollow World - (AFK - Infinite Mode)]]</big>'''
+#* Length: 24 Seconds
+#* Gems: 27
+#* Minutes: 04:04
+# '''<big>[[Story|Ant Kingdom - (AFK - Infinite Mode)]]</big>'''
+#* Length: 15 Seconds
+#* Gems: 24
+#* Minutes: 2:35
+# '''<big>[[Story|Magic Town - (AFK - Infinite Mode)]]</big>'''
+#* Length: 22 Seconds
+#* Gems: 27
+#* Minutes: 3:41
+# <big>'''[[Story|Cursed Academy - (AFK - Infinite Mode)]]'''</big>
+#* Length: 23 Seconds
+#* Gems: 21
+#* Minutes: 2:12
+# '''<big>[[Story|Clover Kingdom - (AFK - Infinite Mode)]]</big>'''
+#* Length: 21 Seconds
+#* Gems: 21
+#* Minutes: 1:52
+# '''<big>[[Story|Cape Carneval - (AFK - Infinite Mode)]]</big>'''
+#* Length: 18 Seconds
+#* Gems: 27
+#* Minutes: 3:04
+# '''<big>[[Story|Alien SpaceShip - (AFK - Infinite Mode)]]</big>'''
+#* Length: 20 Seconds
+#* Gems: 24
+#* Minutes: 2:39
+# '''<big>[[Story|Fabled Kingdom - (AFK - Infinite Mode)]]</big>'''
+#* Length: 27 Seconds
+#* Gems: 27
+#* Minutes: 3:57
+# '''<big>[[Story|Hero City - (AFK - Infinite Mode)]]</big>'''
+#* Length: 15 Seconds
+#* Gems: 21
+#* Minutes: 2:26
+# '''<big>[[Story|Puppet Island - (AFK - Infinite Mode)]]</big>'''
+#* Length: 23 Seconds
+#* Gems: 21
+#* Minutes: 2:00
+# '''<big>[[Story|Virtual Dungeon - (AFK - Infinite Mode)]]</big>'''
+#* Length: 14 Seconds
+#* Gems: 21
+#* Minutes: 2:05
+# '''<big>[[Story|Windhym - (AFK - Infinite Mode)]]</big>'''
+#* Length: 20 Seconds
+#* Gems: 21
+#* Minutes: 1:59
+# '''<big>[[Story|Undead Tomb - (AFK - Infinite Mode)]]</big>'''
+#* Length: 36 Seconds
+#* Gems: 27
+#* Minutes: 3:16
+# '''<big>[[Story|Mountain Temple - (AFK - Infinite Mode)]]</big>'''
+#* Length: 18 Seconds
+#* Gems: 24
+#* Minutes: 2:27
+# '''<big>[[Story|Rain Village - (AFK - Infinite Mode)]]</big>'''
+#* Length: 20 Seconds
+#* Gems: 21
+#* Minutes: 1:59
+
+== Trivia ==
+
+* Updated as of December 12th, 2023

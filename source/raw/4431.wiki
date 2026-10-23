@@ -1,0 +1,26 @@
+==Overview ==
+'''Thunder Maid (Servant)''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Thunder Maid]].
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am Thunder Maid, one of the battle maids, who swore loyalty to the [[Supreme Being (Sovereign)|supreme being]]. You lower life forms should be honored to battle with me."
+|caption2=""I am Thunder Maid, one of the battle maids, who swore loyalty to the [[Supreme Being (Sovereign)|supreme being]]. You lower life forms should be honored to battle with me.""
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Evolved Units]]

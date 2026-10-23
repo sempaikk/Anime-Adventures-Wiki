@@ -1,0 +1,28 @@
+{{Meta Unit}}
+
+== Overview ==
+Fused Hero is a {{Rarity|Mythical}} unit. Hе can only be obtained by upgrading [[Carrot (Ultra)]] and [[Vego (Mage II)]] to when they get the fusion skill (upgrade 7 for both) and using the Fusion active skill with [[Carrot (Ultra)]] and [[Vego (Mage II)]]. Takes both of their [[Traits]], but will only take the initial units Level, [[Relics]] and stat alterations (ex. SSS ATK Carrot = SSS ATK Fused Hero).
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The merging of   [[Vego (Mage II)| Vego]]  and  [[Carrot (Ultra)|Carrot ]] needs a name! I think {{PAGENAME}} has a nice ring!"
+|caption2="You call this 'fighting for real'?"
+|attack_type=Hybrid|title1=Fused Hero}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+*This is the first unit who can achieve three traits or more.
+*You cannot place a new Carrot or Vego after forming a unique Fused Hero.
+**This effect only happens if Fusion is activated on the unit with unique on it
+*Double Unique is possible with {{PAGENAME}} if Carrot and Vego have the Unique trait.
+**This makes Quadruple Unique technically possible.
+
+* This units secondary damage type changes depending on the initial unit using the Fusion active, Carrot giving Fused Hero the {{Damage Type|Storm}} Damage Type and Vego giving the {{Damage Type|Light}} Damage Type.
+
+*You only need one of the fusion candidates to be a {{RarityColor|Mythic|Shiny}} to form a {{RarityColor|Mythic|Shiny}} Fused Hero.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

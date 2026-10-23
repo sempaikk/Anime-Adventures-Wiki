@@ -1,0 +1,9 @@
+<div style="display: flex; justify-content: space-between; font-family: 'Fredoka One'; gap: 5px; font-size: 90%;">
+<div>[[Module:InfoChar/Data|/Data (Units)]]<br>
+<div>[[Module:InfoChar/SubData|/SubData (Descriptions)]]<br>
+<div>[[Module:InfoChar/2ndSubData|/2ndSubData (Recommended Stuff)]]<br>
+<div>[[Module:InfoChar/Test|/Test Environment]]<br>
+</div>
+</div>
+</div>
+</div>

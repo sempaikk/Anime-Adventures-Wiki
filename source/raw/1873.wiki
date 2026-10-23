@@ -1,0 +1,9 @@
+{| class="article-table" style="border: 1px; box-shadow: 0px 3px 15px -3px #adadad; border-radius: 6px; font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;"
+! style="font-family: rubik,helvetica,arial,sans-serfic;" | Unit
+! style="font-family: rubik,helvetica,arial,sans-serfic;" | Value
+! style="font-family: rubik,helvetica,arial,sans-serfic;" | Demand
+! style="font-family: rubik,helvetica,arial,sans-serfic;" | Rarity
+! style="font-family: rubik,helvetica,arial,sans-serfic;" | Comment
+|+
+{{{1|}}}
+|}

@@ -1,0 +1,41 @@
+<div style="font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;">
+
+<div class="main-page-warning"><span class="main-page-warning_text">The Wiki is outdated</span>, it will be updated soon so please give us some time.</div>
+
+<div class="custom-main-page-tag-lcs custom-main-page-tag-lcs-exploded">
+<div class="custom-lcs-container">
+
+{{Home/About}}
+
+<div style="margin: 10px 0 12px;">{{Home/MainNavigation}}</div>
+<div style="fex: 66.6%; margin-top:10px">{{Home/Popular Pages}}</div>
+
+</div>
+</div>
+
+<div class="custom-main-page-tag-rcs">
+<div class="custom-rcs-container">
+
+<div style="display: flex; flex-wrap: wrap; align-content: center; gap: 10px; align-items: center; justify-content: center;">
+{{Home/RobloxGame-block}}
+<div style="display: inline-block;">{{Home/Latest Game Update
+|title=Assassin Park Event! - Update 19.5
+|note=
+- New Raid: The Spider!<br />
+- Beat new raid quests to earn extra rewards! Speak with Legendary Assassin in the lobby for more information!<br />
+- Brand new unique units to collect, upgrade, and evolve! New units have increased damage and drop rate boost in Assassin Contracts!
+- New Unique Relic added with a powerful effect!<br />
+- New Gamemode/Event: Assassin Contracts<br />
+- New Event Quests!<br />
+- Challenge rewards bug fixed!<br />
+- New unit mechanics!<br />
+- More units have become tradable!<br />
+- And much more coming soon!
+}}</div>
+{{Home/Social}}
+</div>
+</div>
+
+</div>
+</div>
+__NOEDITSECTION____NOTOC__

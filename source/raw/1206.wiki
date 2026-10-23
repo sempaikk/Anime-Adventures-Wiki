@@ -1,0 +1,22 @@
+=='''Overview'''==
+'''Juvy''' is a {{Rarity|Legendary}} unit. She is only obtainable through summons. She is also the boss of stage 4 of [[Story#Magic Town|Magic Town]] as The Water Mage.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

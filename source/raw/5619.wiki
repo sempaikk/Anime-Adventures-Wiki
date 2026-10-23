@@ -1,0 +1,24 @@
+''If you were looking for a different Verdant Hero unit, see [[Verdant Hero (disambiguation)]]''
+{{Disenchant Unit}}{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can be obtained by evolving [[Verdant Hero (String)]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="At this point i'm fighting at a level comparable to [[Prime Force (Peace)|you]] when you were 100% and without any backlash! Don't you see? That's why... You don't have to worry."
+|caption2=""}}{{Main Stats}}
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia ==
+*Alongside [[Falcon (Feather Strike)|Falcon]], they're the second and third units respectively to be buffed during their debut, after [[Paradox (Divine Sight)|Paradox]].
+*His shiny is his costume after the explosion that happened in Season 6.
+*Due to My Hero Academia units being changed up shortly before Anime Adventures closed along side Gamefam releasing an official My Hero Academia game, players have speculated that this unit is the reason that Anime Adventures got closed down and earned the nickname "AA killer". This has not been confirmed.
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+[[Category:Damage Type Lightning]]

@@ -1,0 +1,10 @@
+[[File:Relic Shard..webp|thumb]]
+Relic Shards are a rare material used to craft [[Relics]].
+
+They can currently only be obtained from the newest [[Raids|raid]] stages. These are:
+
+Sacred Planet Stage 4 (The Genie) (10% Chance), and Sacred Planet Stage 5 (The Pure Form) (Guaranteed).
+
+They are currently used to craft the [[Relics|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mangekyō Eye</span>]], the [[Relics|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mirrorblade</span>]], and the [[Relics|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Endless Blades</span>]].
+==Trivia==
+*They also appear to be very similar to [https://cookierunkingdom.fandom.com/wiki/Sugar_Crystals Cookie Run: Kingdom's "Purity Crystals"].

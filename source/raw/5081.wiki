@@ -1,0 +1,20 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}​. He can only be obtained via [[Summon|summons]]​ in the Limited-Time Event Banner.
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The weak will die. Die, and make way for others."
+|caption2="[[Tiger (Moonlight Beast)|You]] have a great special ability and [[Tiger (Moonlight Beast)|you]] have the help of your friends. [[Tiger (Moonlight Beast)|You]] gained [[InHuman (Nullifier)|InHuman]]'s approval without having to put in any effort. [[Tiger (Moonlight Beast)|You]] don't know how lucky [[Tiger (Moonlight Beast)|you]] are! [[Tiger (Moonlight Beast)|You]]'re a fool who keeps dwelling on [[Tiger (Moonlight Beast)|your]] past!"
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__

@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 12.5 - Entertainment District Raid Update}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}} unit. She is only obtainable through [[Past Battlepasses|Ammo Pass]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Do you people know why we the Scouts have shed so much blood?! To take back our freedom from the Titans! I was willing to sacrifice my own life for that cause!"
+|caption2="I devoted my heart to the freedom of mankind... It feels like... I can see all my comrades. The vast majority of them died without ever knowing that humanity existed outside the Walls. Still... "Just bringing freedom to this island is enough for me." Do you think a single one of them would be so narrow-minded... as to say that? We only have one chance to stop this slaughter... and it's now."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+{{Unit Navigation}}
+
+== Trivia ==
+Hanje (Captain) can not attack enemies that are above a certain speed until she gets Dive Maneuver, such as Police Bikes on Cape Canaveral.
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Bleed Units]]
+[[Category:Battle Pass Units]]

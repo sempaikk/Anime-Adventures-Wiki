@@ -1,0 +1,17 @@
+==Overview==
+'''Blackhair''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Who sows fear reaps defeat, we just need to live in the moment!!"
+|caption2="PEOPLES DREAMS... NEVER END!!!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

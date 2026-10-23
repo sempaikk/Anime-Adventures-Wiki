@@ -1,0 +1,22 @@
+{{Meta Unit}}
+{{Meta Support Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Zombie]].  
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower Infobox
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Passive:Undead Blessing==
+Zombie (Risen) provides a buff to all summons spawned on the map. This buff increases the damage dealt by summons and the range of summons by +25% dmg and +10% range for each Zombie (Risen) placed on the map. The damage bonus is capped at 8 placements (+200% dmg (3x), +80% rng (1.8x). The buff stacks multiplicatively with other buffers such as [[Commander]], [[Wind Dragon]], and [[Griffin (Reincarnation)]].
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+[[Category:Units]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+__NOTOC____NOEDITSECTION__

@@ -1,0 +1,28 @@
+{{Unobtainable Unit}}{{Story Meta Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Silver Slayer]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I lost and lost and lost and lost and lost and lost and lost and lost and won and lost and lost and lost and lost and lost and won and lost and lost and lost and won and lost and lost and won and lost and won and won and won and won and won and won and won and hunted dragons!"
+|caption2="Are you afraid of me? Despite causing so much death... You are afraid... ...of your own death?!"
+|image1=Silver_Slayer_Pose.png
+|image2=Silver_Slayer_Shiny_(Pose).png
+}}{{Main Stats }}
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+==Trivia==
+Unit has a 50% critical hit chance that is obtained upon evolution. This increases his dps from ~34k up to ~51k dps.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]

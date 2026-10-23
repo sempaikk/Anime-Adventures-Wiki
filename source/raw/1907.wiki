@@ -1,0 +1,23 @@
+''If you were looking for a different Jokujo unit, see [[Delinquent (disambiguation)]]  ''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=Yare yare daze.
+|caption2="Let's go. It's prison break time."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Physical]]
+[[Category:Mythic Units]]

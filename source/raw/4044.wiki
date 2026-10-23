@@ -1,0 +1,7 @@
+The '''anniversary star''' is an obtainable item introduced in the [[Update Log|Anniversary]] update which can be obtained by defeating NPCS in any gamemode or by completing the [[Dungeons#Anniversary Island|anniversary island]] stage. An enemy will be wearing a party hat if they're going to drop an anniversary star.
+==Drops==
+* {{Gems|15-40}}
+* {{Item|Star Remnant}}
+* {{Item|Stat Cube}}
+* {{Item|Star Fruit Capsule}}
+* {{Item|Anniversary Starry Ball}}

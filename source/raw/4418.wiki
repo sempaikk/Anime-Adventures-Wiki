@@ -1,0 +1,24 @@
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} unit. She can only be obtained through summons.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am {{PAGENAME}}, one of the battle maids, who swore loyalty to the [[Supreme Being (Sovereign)|supreme being]]. You lower life forms should be honored to battle with me."
+|caption2="I am {{PAGENAME}}, one of the battle maids, who swore loyalty to the [[Supreme Being (Sovereign)|supreme being]]. You lower life forms should be honored to battle with me."
+|title1=Thunder Maid}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

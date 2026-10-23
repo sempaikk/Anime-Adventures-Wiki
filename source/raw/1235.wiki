@@ -1,0 +1,8 @@
+<h2>Examples:</h2>
+{| class="article-table"  style="margin-top: 0;"
+| style="text-align: center" |<h3 style="margin: 12px 0;">Code</h3>
+| style="text-align: center; border-left: 1px solid #59584a;" |<h3 style="margin: 12px 0;">View</h3>
+|-
+| style="color: #9500e0;"|<nowiki>{{</nowiki><span class="cm-mw-pagename"><nowiki>Gems</nowiki></span><nowiki>|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>1000</nowiki></span><nowiki>}}</nowiki>
+|{{Gems|1000}}
+|}

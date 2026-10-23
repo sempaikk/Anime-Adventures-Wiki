@@ -1,0 +1,21 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He is only obtainable by evolving [[Player]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It hurts.. My body is trembling from the pain.. But.. As long as i can feel the pain, I can move! Just so you wait.. Because I will protect her!"
+|caption2=
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+
+==Trivia==
+__NOTOC____NOEDITSECTION__

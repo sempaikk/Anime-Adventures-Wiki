@@ -1,0 +1,25 @@
+''If you were looking for a different Jokujo unit, see [[Delinquent (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He can only be obtained by evolving [[Delinquent (Serious)]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="There's only one reason you lost, [[JIO]]... just one simple reason. You pissed me off."
+|caption2="Star Platinum: The World! I've got you! Take this, [[Priest|Father Priest]]!
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+==Passive Ability: The Universe==
+Every attack he starts to timestop/freeze enemies (even flying) in his AoE for a few seconds and attacking them after (multi-hit) making him very useful for [[Enemy Mechanics|Fire Enemies]] when they are sprinting past.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

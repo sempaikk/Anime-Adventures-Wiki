@@ -1,0 +1,33 @@
+{{Story Meta Unit}}
+{{Meta Support Unit}}
+=='''Overview'''==
+'''Blossom''' is a {{Rarity|Rare}} unit. She is only obtainable through [[Summon|summons]]. Upon deployment, she buffs the damage of units within her range. She also heals/adds the base HP every wave.
+
+==Stats Overview==
+{{Tower_Infobox
+|skin3=Summer Skin
+|image3=Sakuro Summer (Pose).png
+|caption1= "I love you, [[Shinobi|Shinobi]]!"
+|caption2= "All I've been doing is watching you two, [[Fox Ninja|Fox Ninja]] and [[Sosuke|Shinobi]], from behind... now get a good look at my back!"
+}}{{Main Stats}}
+Note that her buff doesn't stack with [[Idol (Star)|Idol]]'s.
+
+Her buff also stacks with [[Commander]] making the Physical buff reach up to 35% - 110%.
+
+==Selling==
+Units sell for 25% of the sum of their deployment cost and upgrades.
+
+==Trivia==
+* On Update 9.0.0, she used to heal 25 HP of tower HP per wave (stacks each unit), now she heals 3%-5% each wave (stacks each unit).
+* As of Update 12.5.0, she, [[Idol (Star)]] and [[Skeleton (Soul King)]] are the only ones capable of buffing both Physical and Magical damage.
+** She's the only character that can still be obtained as of now.
+* Before Update 4.0, she was a ground unit, meaning she could not be deployed on hill areas.
+* Before Update ???, her damage buff was 5% instead of 10%.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

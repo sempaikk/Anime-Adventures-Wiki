@@ -1,0 +1,27 @@
+''If you were looking for a different Operator unit, see [[Operator (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="[[Joykid]]! You're the worst!"
+|caption2="People call me the 'Surgeon of Death'..."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]

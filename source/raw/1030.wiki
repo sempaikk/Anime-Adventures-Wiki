@@ -1,0 +1,30 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+''If you were looking for a different Killer unit, see [[Killer (disambiguation)]]''
+
+== '''Overview''' ==  
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+== Stats Overview ==  
+{{Tower_Infobox
+|caption1="Who wants to have their life planned out for them."
+|caption2="Friends are supposed to help [https://animeadventures.fandom.com/wiki/Gene friends]."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Selling ==  
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==  
+
+
+== Gallery ==  
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}  
+__NOTOC__  
+__NOEDITSECTION__  
+[[Category:Mythic Units]]

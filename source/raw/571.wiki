@@ -1,0 +1,19 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He can only be obtained by evolving [[Bro]].
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="HAAAAAAAAAAAAAAAAAAA!!!!!"
+|caption2="[[Carrot|CARROOOOOOTTTT]]!!!!!!!!!!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*After Update 14.0.0, Super Bro has been given the {{Damage Type|Air}} damage type, along with other units without a second damage type.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Air]]
+[[Category:Evolved Units]]

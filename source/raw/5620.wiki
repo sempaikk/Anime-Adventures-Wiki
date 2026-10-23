@@ -1,0 +1,449 @@
+'''Items''' are used in various ways to help boost the player and their units. They're obtainable from every game mode.<tabber>
+|-|XP Items=
+'''XP Items''' are used to be fed to units, which will give them XP if they aren't already at the max unit level. You're able to hold a maximum of 1000 of each XP Food.
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+! style="width:185px;" | <center>Item</center> 
+!<center>Information</center>
+|-
+|Senzu Bean<br>[[File:Senzu Bean.png|center|115x115px|Senzu Bean]]<br>Give a Unit +25 XP
+|Completing '''[[Story#Planet Greenie|Planet Greenie]]''' Acts, the '''Gold Shop''', or getting far in its '''[[Infinite|Infinite Mode]]'''
+|-
+|Mysterious Fluid<br>[[File:Mysterious Fluid.png|center|115x115px|Mysterious Fluid]]<br>Give a Unit +50 XP
+|Completing '''[[Story#Walled City|Walled City]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Wisteria Flower<br>[[File:Wisteria Flower.png|center|115x115px|Wisteria Flower]]<br>Give a Unit +115 XP
+|Completing '''[[Story#Snowy Town|Snowy Town]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Ramen Bowl<br>[[File:Ramen Bowl.png|center|115x115px|Ramen Bowl]]<br>Give a Unit +250 XP
+|Completing '''[[Story#Hidden Sand Village|Hidden Sand Village]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Devil Fruit<br>[[File:Devil Fruit.png|115x115px|center|Devil Fruit]]<br>Give a Unit +550 XP
+|Completing '''[[Story#Navy Bay|Navy Bay]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Ghoul Coffee<br>[[File:Ghoul Coffee.png|115x115px|center|Ghoul Coffee]]<br>Give a Unit +575 XP
+|Completing '''[[Story#Fiend City|Fiend City]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Soul Candy<br>[[File:Soul Candy.png|115x115px|center|Soul Candy]]<br>Give a Unit +1000 XP
+| Completing '''[[Story#Hollow World|Hollow World]]''' Acts, the '''Gold Shop''', getting far in its '''Infinite Mode , or completing Summer portals from the Summer 2023 event
+|-
+|Cooked Fish<br>[[File:Cooked Fish.png|115x115px|center|Cooked Fish]]<br>Give a Unit +2160 XP
+|Completing '''[[Story#Ant Kingdom|Ant Kingdom]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Magical Artifact<br>[[File:Magical Artifact.png|115x115px|center|Magical Artifact]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Magic Town|Magic Town]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Curse Talisman<br>[[File:Curse Talisman.png|115x115px|center|Curse Talisman]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Cursed Academy|Cursed Academy]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Magic Stone<br>[[File:Magic Stone.png|115x115px|center|Magic Stone]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Magic Hills|Magic Hills]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Stone Pendant<br>[[File:Stone Pendant.png|115x115px|center|Stone Pendant]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Cape Canaveral|Cape Canaveral]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Alien Core<br>[[File:Alien Core.png|115x115px|center|Alien Coret]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Cape Canaveral|Alien Spaceship]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Tavern Pie<br>[[File:Tavern Pie.png|115x115px|center|Tavern Pie]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Fabled Kingdom|Fabled Kingdom]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Quirk Shard<br>[[File:Quirk Shard.png|115x115px|center|Quirk Shard]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Hero City|Hero City]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Pirate Grapes<br>[[File:Pirate Grapes.png|115x115px|center|Pirate Grapes]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Puppet Island|Puppet Island]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|XP Potion<br>[[File:XP Potion.png|115x115px|center|XP Potion]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Virtual Dungeon|Virtual Dungeon]]''' Acts, the '''Gold Shop''', or getting far in its '''Infinite Mode'''
+|-
+|Coin Bag<br>[[File:Coin Bag.png|115x115px|center|Coin Bag]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Windhym|Windhym]]''' Acts, the '''Gold Shop''', '''[[Portals#Eclipse Portal|Eclipse Portal]]''', '''[[Portals#King's Portal|King's Portal]]''', or getting far in its '''Infinite Mode'''
+|-
+|Jewel Pendant<br>[[File:Jewel Pendant.png|115x115px|center|Jewel Pendant]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Mountain Temple|Mountain Temple]]''' Acts, the '''Gold Shop''', '''[[Portals#Noble Portal|Noble Portal]]''', '''[[Portals#Golden Portal|Golden Portal]]''', or getting far in its '''Infinite Mode'''
+|-
+|Chakra Rod<br>[[File:Jewel Pendant.png|115x115px|center|Chakra Rod]]<br>Give a Unit +3450 XP
+|Completing '''[[Story#Rain Village|Rain Village]]''' Acts, the '''Gold Shop''', '''[[Portals#Path Portal|Path Portal]]''', or getting far in its '''Infinite Mode'''
+|} 
+
+
+|-|Portals=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:650px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Item</center>
+!<center>Information</center>
+|-
+| rowspan="2" |Frozen Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Completing frozen worlds during Christmas 2022 event. Receiving the next tier portal or the random (same or lower) tier portal.
+|-
+| rowspan="2" |Frost Queen's Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Completing frozen worlds in Tier 3 and above during Christmas 2022 event, the higher the tier, the higher chances. Chances are doubled if you happen to be the host.
+|-
+| rowspan="2" |Devil Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Obtained by purchasing Devil Contract (Rank 0-5) from talking to a NPC ''Makimo''.
+|-
+| rowspan="2" |Alien Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Received from a random drop in '''Alien Spaceship''' infinite mode.
+|-
+| rowspan="2" |Alien King's Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Received from a drop in '''Alien Spaceship (Final)''' with a low chance. Chances are doubled if you happen to be the host.
+|-
+| rowspan="2" |Demon Leader's Portal<br>
+|Used to to opened a portal to a special stage
+|-
+|Received from clearing Act 1/2/3 of Legend Stage '''Fabled Kingdom (Ten Commandments)''' (20% chance) or dropped from Sunshine Demons (guaranteed, but Sunshine Demons spawns at unknown chance).
+|-
+| rowspan="2" |Puppet Island Portal (Bird Cage)<br>
+|Used to opened a portal to a special stage 
+|-
+|Received from a drop in '''Puppet Islands''' in Infinity Mode.
+|-
+| rowspan="2" |Puppet Island Portal (Secret Portal)<br>
+|Used to opened a portal to a special stage 
+|-
+|Completing '''Puppet Island Portal (Bird Cage)''' with an extremely low chance. Chances are doubled if you happen to be the host.
+|-
+| rowspan="2" |Eclipse Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Received from a drop in '''Windhym''' in Infinity Mode.
+|-
+| rowspan="2" |King's Portal (Secret Portal)<br>
+|Used to opened a portal to a special stage 
+|-
+|Completing '''Eclipse Portal''' with an extremely low chance. Chances are doubled if you happen to be the host.
+|-
+| rowspan="2" |Summer Portal<br> 
+|Used to opened a portal to a special stage 
+|-
+|Received by completing summer worlds during Summer 2023 event or bought for 200 Gems at Summer Event shop.
+|-
+| rowspan="2" |Noble Portal<br>
+|Used to opened a portal to a special stage 
+|-
+|Received from a drop in '''Mountain Temple ''' Infinity Mode.
+|-
+| rowspan="2" |Golden Portal (Secret Portal)<br>
+|Used to opened a portal to a special stage 
+|-
+|Completing '''Noble Portal''' with a very low chance. Chances are doubled if you happen to be the host, and chances are increased if you have Update 17 units equipped.
+|-
+'''[[Portals|Portals]]''' page
+|}
+
+|-|Materials=
+'''Materials''' are used to purchase items and units at NPCs and evolve troops. For details on '''Evolution Items''', see [[Evolution]].
+
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:650px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Item</center>
+!<center>Information</center>
+|-
+| style="height:165px;"  rowspan="2" |Star Fruit<br>[[File:Star Fruit.png|100x100px]]
+| style="height: 3em;"|Used for crafting evolution items.
+|-
+|Purchased through the [[Travelling Merchant Shop]] for {{Gems|50}}, the '''Gold Shop''', and received from doing [[Challenges|Star Fruit challenges]]. You can hold 100 Star Fruits in your inventory.
+|-
+| style="height:165px;"  rowspan="2" |Star Fruit (Rainbow)<br>[[File:Star Fruit (Rainbow).png|100x100px]]
+| style="height: 3em;"|Used for crafting evolution items.
+|-
+|Purchased through the [[Travelling Merchant Shop]] for {{Gems|300}}, the '''Gold Shop''', and received from doing Star Fruit challenges. You can hold 25 Rainbow Star Fruits in your inventory.
+|-
+| style="height:165px;"  rowspan="2" |Star Fruit (Green)<br>[[File:Star Fruit (Green).png|100x100px]]
+| style="height: 3em;"|Used for crafting evolution items.
+|-
+|Received from doing Star Fruit challenges, purchasing them from the '''Gold Shop''', and from opening capsules. You can hold 75 Green Star Fruits in your inventory.
+|-
+| style="height:165px;"  rowspan="2" |Star Fruit (Red)<br>[[File:Star Fruit (Red).png|100x100px]]
+| style="height: 3em;"|Used for crafting evolution items.
+|-
+|Received from doing Star Fruit challenges, purchasing them from the '''Gold Shop''', and from opening capsules. You can hold 75 Red Star Fruits in your inventory.
+|-
+| style="height:165px;"  rowspan="2" |Star Fruit (Blue)<br>[[File:Star Fruit (Blue).png|100x100px]]
+| style="height: 3em;"|Used for crafting evolution items.
+|-
+|Received from doing Star Fruit challenges, purchasing them from the '''Gold Shop''', and from opening capsules. You can hold 75 Blue Star Fruits in your inventory.
+|-
+| style="height:165px;"  rowspan="2" |Star Fruit (Pink)<br>[[File:Star Fruit (Pink).png|100x100px]]
+| style="height: 3em;"|Used for crafting evolution items.
+|-
+|Received from doing Star Fruit challenges, purchasing them from the '''Gold Shop''', and from opening capsules. You can hold 75 Pink Star Fruits in your inventory.
+|-
+| style="height:165px;"  rowspan="2" |Tailed Beast Shard<br>[[File:Tailed Beast Shard.png|100x100px]]
+|Used for purchasing units and evolution items from the raid shop NPC.
+|-
+| style="height: 3em;"|Received from opening Desert Star capsules.
+|-
+| style="height:165px;"  rowspan="2" |Path Shard<br>[[File:Path Shard.png|100x100px]]
+|Used for purchasing units and evolution items from the raid shop NPC.
+|-
+| style="height: 3em;"|Received from opening Rumbling Star capsules.
+|-
+| style="height:165px;"  rowspan="2" |Blazing Shard<br>[[File:Blazing Shard.png|100x100px]]
+|Used for purchasing units and evolution items from the raid shop NPC.
+|-
+| style="height: 3em;"|Received from opening Blazing Star capsules.
+|-
+| style="height:165px;"  rowspan="2" |Fire Shard<br>[[File:Fire Shard.png|100x100px]]
+|Used for purchasing <br>[[Fire Fist]] during the Navy Bay event. (DISCONTINUED)
+|-
+| style="height: 3em;"|Received from opening Ocean Star capsules.
+|-
+| style="height:165px;"  rowspan="2" |Clown Mask<br>[[File:Clown Mask.png|100x100px]]
+|Used for purchasing [[Renzi]] during the Fiend City event. (DISCONTINUED)
+|-
+| style="height: 3em;"|Received from beating the Secret Boss in Fiend City infinite mode.
+|-
+| style="height:165px;"  rowspan="2" |Soul Shard<br>[[File:Soul Shard.png|100x100px]]
+|Used for purchasing [[Ichi (Full Hollow)]] and Soul Orbs during the Hollow World event. (DISCONTINUED)
+|-
+| style="height: 3em;"|Received from opening Soul Star capsules.
+|-
+| style="height:165px;"  rowspan="2" |Chimera Shard<br>[[File:Chimera Shard.png|100x100px]]
+|Used for purchasing Clown Effigy during the Chimera World event. (DISCONTINUED)
+|-
+| style="height: 3em;"|Received from opening Chimera Star capsules. 
+|-
+| style="height:165px;"  rowspan="2" |Celestial Shard<br>[[File:Celestial Shard.png|100x100px]]
+|Used for purchasing Celestial Keys during the Magic Town event. (DISCONTINUED)
+|-
+| style="height: 3em;"|Received from opening Celestial Star capsules. 
+|-
+| style="height:165px;"  rowspan="2" |Infused Crystal<br>[[File:Infused Crystal.png|100x100px]]
+|Used for earning Jewels and evolving '''[[Elize]]''' and '''[[Jelly]]''' during the Magic Town event. (DISCONTINED)
+|-
+| style="height: 3em;"|Received from beating the Magic Town Dungeon. (DISCONTINED)
+|-
+| style="height:165px;"  rowspan="2" |Power Cell<br>[[File:Power Cell.png|100x100px]]
+|Used for purchasing units and evolution items from the raid shop NPC.
+|-
+| style="height: 3em;"|Received from beating the West City raid.
+|-
+| style="height:165px;"  rowspan="2" |Cursed Shard<br>[[File:Cursed Shard.png|100x100px]]
+|Used for purchasing Precision Glasses during the Curse Academy event.
+|-
+| style="height: 3em;"|Received from opening Curse Star capsules.
+|-
+| style="height:165px;"  rowspan="2" |Peerless Eye<br>[[File:Rikugan Eye.png|100x100px]]
+|Used for crafting Divine Sight and unlocking Limitless for '''[[Paradox (Divine Sight)]]''' from Paradox in Limitless Domain.
+|-
+|Received from defeating '''Hanamo''', '''Fire Curse''', and '''Mahoti''' by 10% chance in Curse Academy infinite mode and bought from the [[Travelling Merchant Shop]] for {{Gems|5000}}.
+|-
+| style="height:165px;"  rowspan="2" |Cursed Orb<br>[[File:Cursed Orb.png|100x100px]]
+|Used for earning Key (Cursed Parade) and crafting Promise Ring evolution item.
+|-
+| style="height: 3em;"|Received from beating the Cursed Parade Dungeon.
+|-
+| style="height:165px;"  rowspan="2" |Cursed Token<br>[[File:Cursed Finger.png|100x100px]]
+|Used for teleporting to Cursed King's Domain to apply Curse on a unit and evolving '''[[Itukoda]]''' to Cursed King.
+|-
+|Received from beating the Cursed Womb Dungeon. You can hold 20 Cursed Token and 1 Indestructible Cursed Token.
+|-
+| style="height:165px;"  rowspan="2" |Ore (Steel)<br>[[File:Ore (Steel).png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from defeating enemies from, and beating any act of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Holy Sprig<br>[[File:Holy Sprig.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Acts 1 and 2 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Empty Tome<br>[[File:Empty Tome.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from defeating enemies from, and beating any act of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Magic Scroll<br>[[File:Magic Scroll.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 1 and 2 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Ingots (Steel)<br>[[File:Ingots (Steel).png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from crafting [[Relics]] from Golden King.
+|-
+| style="height:165px;"  rowspan="2" |Fairy Wings<br>[[File:Fairy Wings.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 1 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Fairy Circlet<br>[[File:Fairy Circlet.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 1 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Wind Splinter<br>[[File:Wind Splinter.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 1 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Demonic Tail<br>[[File:Demonic Tail.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 2 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Demonic Skull<br>[[File:Demonic Skull.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 2 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Demonic Horns<br>[[File:Demonic Horns.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 2 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Lost Chapter<br>[[File:Lost Chapter.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King. Also can be used to craft [[Evolution|Endless Tome]] to evolve '''[[Time Wizard]]'''.
+|-
+|Received from beating Act 3 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Devil Heart<br>[[File:Devil Heart.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from beating Act 3 of the Legend Stage '''Magic Hills (Elf Invasion)''' in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Tear Mask<br>[[File:Aranca Mask.png|100x100px]]
+| style="height: 3em;"|Used for crafting [[Relics]] from Golden King.
+|-
+|Received from defeating mobs in all Acts of the Karakora Town stages in Story Mode.
+|-
+| style="height:165px;"  rowspan="2" |Worthy Soul
+| style="height: 3em;"|Used for awakening on Imperfect Soul Orb, something that can evolve Illusionist ([[Illusionist (Betrayal)|Betrayal]], [[Illusionist (Chrysalis)|Chrysalis]], and
+[[Illusionist (Fusion)|Fusion]]).
+|-
+|Received from defeating mobs in Act 6 of the Spirit Invasion stage in Story Mode.
+|-
+| style="height:165px;" rowspan="2"|Final Disc Fragment<br>[[File:Final Disc (Fragments).png|100x100px]]
+| style="height: 3em;"|Used to crafting [[Evolution|Final DISC]]​
+|-
+|Received from any acts of the Legend Stage "Space Center".
+|-
+|-
+| style="height:165px;"  rowspan="2" |Treasure Radar
+| style="height: 3em;"|Used to boost raid drops by 100%. Currently, this works on Cursed Womb.
+|-
+|Received from the Infinity Castle
+|-
+|-
+| style="height:165px;"  rowspan="2" |Lesser Grail<br>[[File:Lesser Grail.png|100x100px]]
+| style="height: 3em;"|Used to evolve Update 17 units.
+|-
+|Received from playing Mountain Temple portal stages
+|-|Keys=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:630px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Item</center>
+!<center>Information</center>
+|-
+| style="height:165px; width:175px"  rowspan="2" |Key (Heavenly Invasion)<br>[[File:Key (Heavenly Invasion).png|100x100px]]
+|Allows the player to participate in the '''Heavenly Invasion''' Dungeon. (DISCONTINUED)
+|-
+| style="height: 3em;"|Purchased at the '''Mirojane''' or '''Mysterious Mage''' NPCs for {{Jewels|100}} or {{Gems|175}} during '''Heaven Invasion''' event. (DISCONTINUED)
+|-
+| style="height:165px; width:175px"  rowspan="2" |'''Shiny''' Key (Heavenly Invasion)<br>[[File:Shiny Key (Heavenly Invasion).png|100x100px]]
+|Allows the player to participate in the '''Heavenly Invasion''' Dungeon with grants one extra drop on completion. (DISCONTINUED)
+|-
+| style="height: 3em;"|Purchased at the '''Mirojane''' or '''Mysterious Mage''' NPCs for {{Gems|500}} during '''Heaven Invasion''' event. (DISCONTINUED)
+|-
+| style="height:165px; width:175px"  rowspan="2" |Key (Cursed Parade)<br>[[File:Key (Cursed Parade).png|100x100px]]
+|Allows the player to participate in the '''Cursed Parade''' Dungeon.
+|-
+| style="height: 3em;"|Purchased at the '''Maky''' NPC for {{Gold|1750}} or {{Gems|175}} '''Curse Parade''' event. 
+|-
+| style="height:165px; width:175px"  rowspan="2" |'''Shiny''' Key (Cursed Parade)<br>[[File:Shiny Key (Cursed Parade).png|100x100px]]
+|Allows the player to participate in the '''Cursed Parade''' Dungeon with doubles chance of [[Getu|'''Getu's''']] drop.
+|- 
+| style="height: 3em;"|Purchased at the '''Maky''' NPC for 99 Robux during '''Cursed Parade''' event.
+|-
+| style="height:165px; width:175px"  rowspan="2" |Key (Cursed Womb)<br>[[File:Key (Cursed Womb).png|100x100px]]
+|Allows the player to participate in the '''Cursed Womb''' Dungeon.
+|-
+| style="height: 3em;"|Received from a random drop in '''Curse Academy''' infinite mode.
+|-
+| style="height:165px; width:175px"  rowspan="2" |Key (The Fire)<br>[[File:Key (The Fire).png|100x100px]]
+|Allows the player to participate in the '''Karakora Town: The Fire''' Dungeon.
+|-
+| style="height: 3em;"|Received from completing in the Legend Stage '''Karakora Town: The Final Showdown'''  or purchased at the '''Shunso''' NPC for 499 Robux.
+|}
+
+|-|Misc. Items=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:595px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Item</center>
+!<center>Information</center>
+|-
+| style="height:165px;"  rowspan="2" |Star Remnant<br>[[File:StarRemnant.png|100x100px]]
+|Reroll or gives a Unit '''[[Traits]]'''
+|-
+|Purchased through the [[Travelling Merchant Shop]] for {{Gems|400}}, low chance to get from summons, received from opening up capsules and awarded from challenges.
+|-
+| style="height:165px;"  rowspan="2" |Summon Ticket<br>[[File:Summon Ticket.png|100x100px]]
+|Roll for a unit in '''[[Summon]]''' for free.
+|-
+|Purchased through the '''Travelling Merchant Shop''' for {{Gold|500}}, received from opening up capsules and daily login rewards (day 6).
+|-
+| style="height:165px;"  rowspan="2" |Perfect Stat Cube<br>[[File:Perfect Stat Cube.png|100x100px]]
+| style="height: 3em;"|Used to reroll a specific stat on a unit.
+|-
+|Received from the battlepass, and evolving units
+|-
+| style="height:165px;"  rowspan="2" |Stat Cube<br>[[File:Stat Cube.png|100x100px]]
+| style="height: 3em;"|Used to reroll all stats on a unit.
+|-
+|Received from the battlepass, and evolving units
+|-
+| style="height:165px;"  rowspan="2" |Periapt of the King<br>[[File:Egg of the King.png|100x100px]]
+| style="height: 3em;"|Used to travel to the eclipse in lobbies to evolve [[Griffin]]
+|-
+|Received from summoning [[Griffin]]
+|-
+| style="height:165px;" rowspan="2"|JIO's Bone<br>[[File:JIO's Bone.png|100x100px]]
+| style="height: 3em;"|Used for obtaining [[Evolution|Green Baby]]
+|-
+|Received from Space Station in Infinite Mode.
+|-
+| style="height:165px;"  rowspan="2" |Raid Ticket (Midnight Attack)<br>[[File:Raid Ticket (Midnight Attack).png|100x100px]]
+|Allows the player to participate in the [[Raids|Midnight Attack Raid]].
+|-
+| style="height: 3em;"|Purchased at the '''Red Scar''' NPC for {{Gold|1500}}. Unused tickets are refunded for Gold after 10.7.5 update.
+|-
+| style="height:165px;"  rowspan="2" |Raid Ticket (Rumbling)<br>[[File:Raid Ticket (Rumbling).png|100x100px]]
+|Allows the player to participate in the [[Raids|Rumbling Raid]].
+|-
+| style="height: 3em;"|Purchased at the '''Red Scar''' NPC for {{Gold|1500}}. Unused tickets are refunded for Gold after 10.7.5 update.
+|-
+| style="height:165px;"  rowspan="2" |Raid Ticket (Infinity Train)<br>[[File:Raid Ticket (Infinity Train).png|100x100px]]
+|Allows the player to participate in the [[Raids|Infinity Train Raid]].
+|-
+| style="height: 3em;"|Purchased at the '''Red Scar''' NPC for {{Gold|1500}}. Unused tickets are refunded for Gold after 10.7.5 update.
+|-
+| style="height:165px;"  rowspan="2" |Raid Ticket (Android Attack)<br>[[File:Raid Ticket (Android Attack).png|100x100px]]
+|Allows the player to participate in the [[Raids|Android Attack Raid]].
+|-
+| style="height: 3em;"|Purchased at the '''Red Scar''' NPC for {{Gold|2500}}. Unused tickets are refunded for Gold after 10.7.5 update.
+|} 
+<p style="text-align:center;"> 
+
+|-|Boosts=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:650px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Item</center>
+!<center>Information</center>
+|-
+| rowspan="2" |Luck Potion<br>[[File:Luck Potion.png|100x100px]]
+|Increases '''Luck''', lasts until the current banner ends
+|-
+|Purchased through the [[Travelling Merchant Shop]] for {{Gems|200}} and received from daily login rewards (day 7).
+|},
+</tabber>
+==Trivia==
+*After update 10.7.5 the raid tickets have been removed and refunded to whoever had it.
+
+*

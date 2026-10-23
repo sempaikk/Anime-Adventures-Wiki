@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He is only obtainable once you get rank 50 in [[Past Battlepasses#Flower Hunt|Flower Hunt]] and with Premium Pass for his shiny version.
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="But I'll sacrifice whatever it takes otherwise. My ideals, reason, sense, even my humanity.”
+|caption2="But I'll sacrifice whatever it takes otherwise. My ideals, reason, sense, even my humanity.”
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}
+==Trivia==
+* This unit can't be upgraded.__NOTOC____NOEDITSECTION__ But the evolved version can be upgraded.
+[[Category:Damage Type Physical]]
+[[Category:Damage Type Rose]]
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

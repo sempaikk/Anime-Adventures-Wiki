@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 17 - Fate Update - 30 September 2023}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He can only be obtained by evolving [[Connor]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="A world where everyone respects each other and laugh with one another! 
+How could I be wrong to want such a world?!"
+|caption2="I will create a perfect world..."}} {{Main Stats}}  
+Attacks starting from Upgrade 6 are able to hit air type enemies.
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia== 
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

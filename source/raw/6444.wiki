@@ -1,0 +1,7 @@
+* {{#invoke:NumFormatting|getDPS|{{#if:{{{1}}}|{{{1}}}}}}}
+* {{#invoke:NumFormatting|getDPM|{{#if:{{{1}}}|{{{1}}}}}}}
+* {{#invoke:NumFormatting|getTotalSection|{{#if:{{{1}}}|{{{1}}}}}|{{#if:{{{2}}}|{{{2}}}}}}}
+----
+* {{#invoke:NumFormatting|recom|{{#if:{{{3}}}|[[Image:{{{3}}} icon.png|18px]]}}{{#if:{{{4}}}|[[Image:{{{4}}} icon.png|18px]]}}}}
+* {{#invoke:NumFormatting|recom||{{#if:{{{5}}}|{{Item|{{{5}}}}}}}{{#if:{{{6}}}|{{Item|{{{6}}}}}}}}}
+* {{#invoke:NumFormatting|recom|||{{#if:{{{7}}}|[[Image:Trait {{{7}}}.png|18px]]}}{{#if:{{{8}}}|[[Image:Trait {{{8}}}.png|18px]]}}{{#if:{{{9}}}|[[Image:Trait {{{9}}}.png|18px]]}}}}

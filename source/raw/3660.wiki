@@ -1,0 +1,25 @@
+==Overview==
+Gamer Girl is a {{Rarity|Mythical}}. She can only be obtained through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Life isn’t just doing things for yourself. It’s possible to live in such a way that other people’s happiness, makes you happy too."
+|caption2="If we ever return to the real world, I'll definitely find [[Gamer|you]] and fall in love with [[Gamer (Dual)|you]] all over again." 
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+{{DISPLAYTITLE:}}
+[[Category:Mythic Units]]

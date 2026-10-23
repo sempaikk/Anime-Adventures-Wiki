@@ -1,0 +1,40 @@
+* </span>
+
+{{Rarity|Secret}} <span style="color:#FF0000;">'''Portals'''</span>
+
+{{Rarity|Secret}} <span style="color:#FF0000;">'''Portals'''</span> are limited time portals that drop Special {{RarityColor|Mythic|Units}}. They hold up to 6 players. Secret portals have a slight chance of appearing as a reward for completing their respective portals, such as the <span style="color:#FF0000;">'''Frost Queen's Portal'''</span> dropping after completing a Frozen Portal.<div class="grid_body" style="padding: 20px;border-radius: 5px;box-shadow: inset #49578059 0px 0px 10px 5px, #4957801f 0px 0px 15px 5px;border: solid 2px #525e81d9;background: #232a3e99;"><tabber>
+
+|-|Obtainable Secret Portals=
+
+* {{RarityColor|Secret|Deception Portal}}</span> - drops '''''[[Switchblade]]'''''
+
+* {{RarityColor|Secret|Restriction Portal}}</span> - drops '''''[[Sorcerer Killer]]'''''
+
+
+|-|Unobtainable Secret Portals=
+
+* {{RarityColor|Secret|Sky Club (Detective mission)}}</span> - drops '''''[[InHuman]]'''''
+
+* {{RarityColor|Secret|Frost Queen's Portal}}</span> - drops '''[[Ice Queen|''Ice Queen'']]'''  '''''(unobtainable since [https://animeadventures.fandom.com/wiki/Update_Log#Update_11_-_Seven_Deadly_Sins_Update_Part_1 Update 11])'''''
+
+* {{RarityColor|Secret|Devil Katana (Portal)}}</span> - drops '''''[[Blade Beast (Past)]] (unobtainable since [[Update Log#Update 12 - My Hero Academia Update|Update 12]])'''''
+
+* {{RarityColor|Secret|Alien King's Portal}}</span> - drops '''''[[Alien King]] (unobtainable since [[Update Log|Update 13]])'''''
+
+* {{RarityColor|Secret|Witch City (Walpurges)}}</span> - drops '''''[[Shadowgirl]] (unobtainable since [[Update Log|Update 15.5]])'''''
+
+* {{RarityColor|Secret|String Portal}}</span> - drops '''''[[Stringy]] (unobtainable since [[Update Log|Update 16.0]])'''''
+
+* {{RarityColor|Secret|King's Portal}}</span> - drops '''''[[Skeleton Knight]] (unobtainable since [[Update Log|Update 17.0]])'''''
+
+* {{RarityColor|Secret|Sea God's Portal}}</span> - drops '''''[[Sea God]] (unobtainable since [[Update Log|Update 17.0]])'''''
+
+* {{RarityColor|Secret|Golden Portal}}</span> - drops '''''[[Golden King]] (unobtainable since [[Update Log|Update 18.5]])'''''
+
+* {{RarityColor|Secret|Rain Village (Portal)}}</span> - drops '''''[[Agony (Path)]] (unobtainable since [[Update Log|Update 20]])'''''
+
+* {{RarityColor|Secret|The Fallen Star Portal}}</span> - drops '''''[[Dark Mage]] (unobtainable since [[Update Log|Update 20.4.1]])'''''
+
+* {{RarityColor|Secret|Enlightenment Portal}}</span> - drops '''''[[Enlightened]] (unobtainable since [[Update Log|Update 20.4.1]])'''''
+
+</tabber>

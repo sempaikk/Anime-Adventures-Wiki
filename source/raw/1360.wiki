@@ -1,0 +1,22 @@
+''If you were looking for a different Experiment X unit, see [[Experiment X (disambiguation)]].''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. This unit is only obtainable by evolving [[Experiment X (Perfect)]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You thought you'd never see me again didn't you? Well TOO BAD! I'm alive."
+|caption2="My dear [https://animeadventures.fandom.com/wiki/Android_21 Android], when will [https://animeadventures.fandom.com/wiki/Android_21 you] understand that [https://animeadventures.fandom.com/wiki/Android_21 you] belong to me?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Unit sells for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+* Experiment X (Perfect) and {{PAGENAME}} have a Damage boost on place doubling the displayed damage, technically doubling the DPS, this would be changed when upgraded to Ultimate Blitz.
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Air}} damage type, along with other units without a second damage type.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Air]]
+[[Category:Mythic Units]]

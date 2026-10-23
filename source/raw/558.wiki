@@ -1,0 +1,17 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The strongest black blade and swordsmanship... This is why I am the swordsman with no peer."
+|caption2="The strongest black blade and swordsmanship... This is why I am the swordsman with no peer."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+[[Category:Legendary Units]]
+__NOTOC____NOEDITSECTION__

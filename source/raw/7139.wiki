@@ -1,0 +1,21 @@
+{{Limited Unit}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by summoning on the 2025 April Fool's banner
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "Every morning... when I wash my face and look in the mirror... I see this scar. And I remember that day. So every day... I start the morning with fresh hatred"
+|caption2= “I'm a sinner too. The first time I killed a person... I accepted that I'm a monster. The least I can do is refrain from causing pain to others and take you bastards to hell with me.”
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]

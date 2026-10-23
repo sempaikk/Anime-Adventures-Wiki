@@ -1,0 +1,19 @@
+[[File:Trading Button.png|thumb|(Trading Button)]]
+Trading is a feature that got added in Update 6. The requirements to trade is level 40. Currently, you can trade unit skins and units. As of Update 8 you are only able to trade Limited units, along with unit skins and some relics. Here are some Trading info you may use while Trading. small add = 5-50 add normal add = 50-100 big add = 100-200 huge add = 200-500 massive add = 500+ and above
+
+== Trade Tax ==
+Every trade has a tax that is scaled off the rarity.
+*{{Rarity|Rare}} skins - {{Gems|50}}
+* {{Rarity|Epic}} skins - {{Gems|100}}
+* {{Rarity|Legendary}} skins - {{Gems|200}}
+* {{Rarity|Mythic}} skins - {{Gems|2000}}
+* {{Rarity|Mythic}} relics - {{Gems|2000}}
+* {{Rarity|Epic}} units - {{Gems|200}}
+* {{Rarity|Legendary}} units (including [[Fire Fist]], [[Renzi]] and [[Ichi (Full Hollow)|'''Ichi''' ('''Full Hollow''')]]) - {{Gems|400}}
+* Pre-evolve {{Rarity|Mythic}} & {{Rarity|Secret}} units - {{Gems|4000}}
+* Post-evolve {{Rarity|Mythic}} & {{Rarity|Secret}} units - {{Gems|6000}}
+
+==Trivia==
+* As of [[Update Log|Update 11.7.5]], Skins, Limited units that are now unavailable (that are not [[Battlepass]] units), [[Lulu]], and Limited Relics can be traded.
+*
+*Only limited units can be traded.

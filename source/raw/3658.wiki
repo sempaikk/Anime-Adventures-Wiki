@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. He is a [[Tournament|Tournament-exclusive]] (precеding [[Boxer]] and succeeding [[Messi]]), only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Prepare yourself for a taste of the terror of the great pirate captain Stitches!"
+|caption2="Prepare yourself for a taste of the terror of the great pirate captain Stitches!"}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Tournament Units]]

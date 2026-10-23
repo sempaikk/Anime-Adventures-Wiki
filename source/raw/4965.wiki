@@ -1,0 +1,24 @@
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Spearer]].
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+== Stat overview ==
+{{Tower Infobox
+|caption1="This is my shield. I bear it before me into battle but it is not mine alone. I will never let my brother out of it's shadow nor my city out of its shelter."
+|caption2="My light side... isn't he too bright? Is he for real? I could never act like that. Not that I would want to."
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* If you consider his 50% crit, Lancer's dps on average is 1.25x more than shown in the stat charts
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__

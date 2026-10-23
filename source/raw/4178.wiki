@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 15.5 - Summer update}}
+
+==Overview==
+{{PAGENAME}}​ is a {{Rarity|Secret}} {{LU}}​. He can only be obtained via completing [[Secret Portal|Sea God's Portal]] (guaranteed if you are the host).
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Hmph. You will not hear any thanks from me... Brother."
+|caption2=“Supporters? We have no need for the herd... no need for scheming... and no need for support. Such are the Gods. Supporters are entirely unnecessary to those who have already attained extended car warranty.”}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+Poseidon's shiny skin seems to be based off of ANY SHARK ONESIE EVER, AND NOT ON A VTUBER.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC__  
+__NOEDITSECTION__
+[[Category:Limited Units]]
+[[Category:Secret Units]]

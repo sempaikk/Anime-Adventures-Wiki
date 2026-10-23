@@ -1,0 +1,28 @@
+{{Meta Unit}}{{Raid Meta Unit}}{{Infinity Castle Meta Unit}}{{Story Meta Unit}}{{Meta Bleed Unit}}{{Limited Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can bе obtained by evolving [[Somber]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview ==
+{{Tower_Infobox
+|caption1="I don’t need reasons. I just need results."
+|caption2="The bigger they are, the louder they fall."
+}}{{Main Stats}}
+==Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+* This unit deals bleed equal to 35% of their damage.
+* This unit is currently tied with [[Green Alien (Nameless)]] for having the highest range in the game. 
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]

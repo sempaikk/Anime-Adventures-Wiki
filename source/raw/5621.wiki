@@ -1,0 +1,46 @@
+{{Meta Unit}}
+
+==Overview==
+Supreme Being (Sovereign)  is a {{Rarity|Secret}} unit. Hе can only be obtained by evolving [[Supreme Being]]. 
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Ovеrview==
+{{Tower_Infobox
+|caption1="It does not matter if you are rich, a hero, or the common people. In death, everyone is equal."
+|caption2=“Life and death are nothing more than states of being. To move someone between the two is a simple matter to one such as I.”
+}}{{Main Stats}}
+Attacks starting from Upgrade 7 are able to hit air type enemies.
+
+==Passive Ability: Shade Birth==
+Summons a Shade Birth after taking down 10 enemies (max 3), the Shade Birth will have 5x of his displayed damage. 
+
+* [[Zombie (Risen)]] increases the amount of HP the Shade Birth spawns in by 25% of each placement (up to 200%). Buffs to {{PAGENAME}} by Elfy (Slyph), Wind Dragon or Idol, do not affect the amount of HP the Shade Birth spawns with.
+* [[Griffin (Reincarnation)]] and [[Commander]] increase the amount of damage Shade Birth does when colliding with an enemy.
+* You can increase the damage the Shade Birth does by increasing {{PAGENAME}}'s base damage stats: having high [[Powerups|stat potential]], [[Traits]] that increase damage and [[Relics]].
+* Shade Birth does not do Dark damage like {{PAGENAME}}, instead only doing physical.
+
+==Active Ability: Nihilism==
+[[File:Supreme Being (Sovereign) Passive.png|left|thumb|103x103px]]
+Once Activated, a 12-second interval will appear above {{PAGENAME}}, once the time ticks down to zero, any enemy in the range of Supreme Being will take 5x of his damage, enemies who are caught by this also have a purple effect around them.
+
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*He is the second {{Rarity|Secret}} unit added in the game that is not limited-time. The first unit being [[Lulu]].
+*In the winter event his Shade Births have a spawn cap of 3 per path and thus can have 9 of them at the same time.
+*Before update 18.5, he need at least 50 kills in order to summon a Shade Birth. From update 19.0, his passive requirement has been buff with only required 1 kill in order to summon.
+**However from update 19.5, he has received a nerf, making his kill requirement into 10 kills in order to summon.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Secret Units]]
+[[Category:Evolved Units]]

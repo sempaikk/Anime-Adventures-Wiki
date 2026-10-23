@@ -1,0 +1,23 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="No matter how much power you have, there's a limit to everything."
+|caption2="No matter how much power you have, there's a limit to everything."
+|image1=[[File:Image-removebg-preview (9).png|thumb]]}}{{Main Stats}}
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

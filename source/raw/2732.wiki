@@ -1,0 +1,248 @@
+{{Anchor2|id=back}}
+<div class="anchor" id="InfinityTierLists"></div>
+<div class="mobileonly">
+<div class="mw-customtoggle-InfinityTierLists-M-Fast_travel">
+<div class="mw-collapsible" id="mw-customcollapsible-InfinityTierLists-M-Fast_travel">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-InfinityTierLists-M-Fast_travel">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+
+<div class="mw-collapsible mw-collapsed">
+<center>
+<div>{{Anchor1|Magic Wave 50}}</div>
+<div>{{Anchor1|Physical Wave 50}}</div>
+</center>
+</div><br><br>
+</div>
+
+<center>'''A list of all the Air/Hill units in the game. Air/Hill units can only be placed on hills, making them not as convenient as [[Hybrid Units]], however, there are many Air/Hill units that rise to the same potential as Hybrid Units.'''</center>
+<br />
+{{Container Characterbox|
+{{Characterbox|Metal Knight (Arsenal)}}
+{{Characterbox|King (Sloth)}}
+{{Characterbox|Peruna (Ghost Princess)}}
+{{Characterbox|Soi Fan (Hornet)}}
+{{Characterbox|Cel (SUPER PERFECT)}}
+{{Characterbox|Yono (Spirit)}}
+{{Characterbox|Uru (Antithesis)}}
+{{Characterbox|Ezra (Lightning)}}
+{{Characterbox|Levy Ackman}}
+{{Characterbox|Fleet Admiral Akano}}
+{{Characterbox|Golden Freezo (Emperor)}}
+{{Characterbox|Hanje (Captain)}}
+{{Characterbox|Ria (Devil Princess)}}
+{{Characterbox|Hawk (Fierce Wings)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+<br />
+'''Air units are currently one of the lower ranked Tower Types in the game, as ground units and [[Hybrid Units]] tend to have more overwhelming power. However, air units are more prone to have more range, more group DPS, and can sometimes be useful for many things such as [[Metal Knight (Arsenal)]] and [[Golden Freezo (Emperor)]].'''
+
+<tabber>
+|-|Air/Hill=
+<h2 style="text-align: center; border: 0;"">Air/Hill [[File:Damage type Magic.png|24px]] [[File:Damage type Physical.png|24px]]</h2>
+{{TierList/Container|id=Magic Wave 50<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=Magic Wave 50-META Hill/Hybrid|text=META}}</div>
+<div>{{Anchor1|id=Magic Wave 50-META Ground|text=SUPPORT}}</div>
+<div>{{Anchor1|id=Magic Wave 50-META Support|text=META Support}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Good|text=Good}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Decent|text=Decent}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Bad|text=Bad}}</div><!-- names must match Item Container names -->}}
+{{TierList/Item Container|color=#ff7f7f|id=Magic Wave 50<!-- id TierList -->|name=META
+|
+{{TierList/Item|Golden Freezo (Emperor)
+|Description=Godly DPS, Ginormous AoE circle and GREAT range. Golden Freezo's huge AoE circle, resulting in huge coverage and a massive amount of enemies being hit at one time makes him one of the best units in the game currently, and truly an "emperor" in terms of his capabilities to do insane amounts of damage. Upon release, he was being compared to [[Metal Knight (Arsenal)]], which after further testing, Freezo just barely beats Metal Knight because of his 3 placements contrasting from Metal Knight only having 2, which equates to Freezo having more Group DPS and DPM. Golden Freezo's affinity combo is also really good because it is identical to [[JIO (Over Heaven)]]'s making him extremely good with the [[Relics|Miracle Timepiece]]. Traits like Nimble III, Godspeed, and curses with SPA reduction are best with this unit, as he has long SPA. (Costs {{Yen|119.75K}} to reach his maximum upgrade.)
+<br />
+'''DPS (Damage Per Second): 21,366
+<br />
+DPM (Damage Per Minute): 1,281,960
+<br />
+Total DPS (Group DPS): 64,098
+<br />
+Total DPM (Group DPM): 3,845,880}}
+{{TierList/Item|Metal Knight (Arsenal)
+|Description=Ultimate DPS, strong Circle AoE, summons drones every 20 takedowns, these do 25% damage with 5.5 SPA, same range as his (50% damage with 4 SPA, and 120% of his range if Upgrade 6). Slightly expensive to max, and his placements are limited to 2.<br /><br />He's recommended to have any trait but SPA traits as the two benefit the units' drones as well.
+<br />
+DPS (Damage Per Second): 18,585 [#6 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,115,107
+<br />
+Total DPS (Group DPS): 37,170
+<br />
+Total DPM (Group DPM): 2,230,215}}
+{{TierList/Item|Hanje (Captain)
+|Description=Amazing-Insane DPS, Moderate AoE Circle and Good range. Being much like her comrade, [[Levy Ackman]], she is able to make units bleed while also carrying the 50% crit chance with her, making her very destructive and efficient with her job of killing enemies. However, with Levy already having been long from the meta, Hanje replaced [[Toshin (Dragon Lotus)]] and [[King (Sloth)]], because of her 5 placement cap AND bleeding with good damage alongside crit. Truly demonstrating the role of a captain, she is the BEST bleed HILL unit in Anime Adventures in its current state! She is only obtainable from the [[Ammo Pass]]. When equipped with the [[Relics|Lostvain]] relic and the [[Relics|Nail]] relic her power spikes heavily, especially when synergies with [[Power (Fiend)]] (Costs {{Yen|43.5K}} to reach her maximum upgrade.)
+<br />
+DPS (Damage Per Second): 6,979
+<br />
+DPM (Damage Per Minute): 418,740
+<br />
+Total DPS (Group DPS): 34,895
+<br />
+Total DPM (Group DPM): 2,093,700}}
+{{TierList/Item|Hawk (Fierce Wings)
+|Description=Ultimate DPS, Good AoE Circle, Great Range! Hawks is the first unit after 5+ updates to officially dethrone the former best physical hill unit, [[Soi Fan (Hornet)]], Hawks release now makes her the third best physical hill. Unfortunately, Hawk does NOT beat [[Hanje (Captain)]] as Hanje contains 50% crit, with bleed, and insane boss killing abilities! However, Hawk is still the SECOND best physical hill unit, as he has potentials to do absolutely insane damage because of his crit, multi hit, and his good AoE Circle. Combined with the power of his telekentical abilities, can be proven a viable unit in both infinite mode and story mode! Time-consuming to evolve, however, if you don't have [[Hanje (Captain)]] and need a good physical hill, Hawks is a good candidate!
+<br>
+DPS (Damage Per Second): 10,529
+<br>
+DPM (Damage Per Minute): 631,767
+<br>
+Total DPS (Group DPS): 42,117
+<br>
+Total DPM (Group DPM): 2,527,068 (Crit Information soon!)
+<br>
+<br>
+Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]  }}
+{{TierList/Item|King (Sloth)
+|Description=Insane DPS, with Amazing Range and 5 Placement Cap.
+<br />
+DPS (Damage Per Second): 8,342.83
+<br />
+DPM (Damage Per Minute): 500,569.8
+<br />
+Total DPS (Group DPS): 41,714.15
+<br />
+Total DPM (Group DPM): 2,502,849}}
+{{TierList/Item|Cel (SUPER PERFECT)
+|Description=Great DPS and Gigantic Circle-AoE with Medium SPA, Medium Range, and has a potential to shred low amounts of shields. He can deal 2x damage at his first few upgrades though. EXTREMELY time-consuming to get and evolve. 
+<br /><br />Easier to obtain good traits due to Legendary form.
+<br />
+'''DPS (Damage Per Second): 7,777
+<br />
+DPM (Damage Per Minute): 466,620
+<br />
+Total DPS (Group DPS): 31,108
+<br />
+Total DPM (Group DPM): 1,866,480}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=Magic Wave 50<!-- id TierList -->|name=GOOD
+|
+{{TierList/Item|Ria (Devil Princess)
+|Description=}}
+{{TierList/Item|Yono (Spirit)|Description=Amazing DPS with Medium SPA, Medium Range, and Large Circle-AoE. High placement damage, and can shred low amounts of shields. He is comparable to (Lightning Erza), but with his relic he out damages her by a lot.
+<br />
+'''DPS (Damage Per Second): 6,281
+<br />
+DPM (Damage Per Minute): 376,860
+<br />
+Total DPS (Group DPS): 18,843
+<br />
+Total DPM (Group DPM): 1,130,580}}
+{{TierList/Item|Soi Fan (Hornet)
+|Description=Great DPS, Great SPA, Huge Range and Large Circle-AoE. Despite she can only shred 1 shield, her placement damage is strong, and she is cheap to max.
+<br />
+'''DPS (Damage Per Second): 5,982
+<br />
+DPM (Damage Per Minute): 358,958
+<br />
+Total DPS (Group DPS): 29,913
+<br />
+Total DPM (Group DPM): 1,794,792}}
+{{TierList/Item|Ezra (Lightning)
+|Description=Amazing DPS, Medium SPA, Huge Range, and Large Circle-AoE. Amazing for all modes, though has relatively poor placement damage.
+<br />
+'''DPS (Damage Per Second): 6,311
+<br />
+DPM (Damage Per Minute): 378,660
+<br />
+Total DPS (Group DPS): 25,244
+<br />
+Total DPM (Group DPM): 1,514,640}}
+{{TierList/Item|Uru (Antithesis)
+|Description=Moderate DPS, Sizeable AoE Circle, Huge Range. Exclusive to only himself, every 5 attacks, he switches animations and attack mechanics which is called "Holy Arrow". This passive ability allows him to do 2x damage every 5th attack while already having 25% crit.
+<br />
+'''DPS (Damage Per Second): 2,991
+<br />
+DPM (Damage Per Minute): 179,460
+<br />
+Total DPS (Group DPS): 14,955
+<br />
+Total DPM (Group DPM): 897,300
+----
+(Crit + Holy Arrow) 
+<br />
+[The Information calculated for this passive is the the number of times Holy Arrow can be casted in 60 seconds.]
+<br />
+<br />
+'''DPS (Damage Per Second): 4,486
+<br /> 
+(If Holy Arrow: 8,973)
+<br />
+DPM (Damage Per Minute): 269,190 
+<br />
+(Total Holy Arrow Damage: 44,860)
+<br />
+Total DPS (Group DPS): 33,645 
+<br />
+(Total Holy Arrow Damage: 44,865)
+<br />
+Total DPM (Group DPM): 2,018,700 
+<br />
+(Total Holy Arrow Damage: 2,691,900)
+<br />
+<br />
+Final Combined Damage: 4,710,600}}
+}}
+
+{{TierList/Item Container|color=#febf85|id=Magic Wave 50<!-- id TierList -->|name=SUPPORT
+|
+{{TierList/Item|Peruna (Ghost Princess)
+|Description=High DPS, Medium SPA, Small Range, and Small Circle-AoE. Slows enemies on attack, even flying enemies. <br /><br />Reccomended to get to 3rd upgrade before another placement, as she is single target until then.
+<br />
+DPS (Damage Per Second): 4,602
+<br />
+DPM (Damage Per Minute): 276,121
+<br />
+Total DPS (Group DPS): 23,010
+<br />
+Total DPM (Group DPM): 1,380,609}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=Magic Wave 50<!-- id TierList -->|name=MID
+|
+{{TierList/Item|Levy Ackman
+|Description=Good DPS, Extremely Small AoE Circle, Good Range. Exclusive to only himself, his crit damage does 100% of his damage, contrasting from normal crit units only doing 50% damage with crit. Although his DPS doesn't seem impressive, you can also place SIX of him which equates to more group DPS. When combined with the [[Power (Fiend)]]'s Bleed Amplification, he will boast the HIGHEST DPS in the game, yes, he beats dio. However, he is unable to cover large areas of enemies because of his extremely tiny AoE circle, however, can be used as a boss killer with the nail relic.
+<br />
+'''DPS (Damage Per Second): 3,593
+<br />
+DPM (Damage Per Minute): 215,580
+<br />
+Total DPS (Group DPS): 21,558
+<br />
+Total DPM (Group DPM): 1,293,480
+----
+(Crit [100%] + Situational)
+<br />
+'''DPS (Damage Per Second): 7,186
+<br />
+DPM (Damage Per Minute): 431,160
+<br />
+Total DPS (Group DPS): 43,116
+<br />
+Total DPM (Group DPM): 2,586,960}}
+}}
+
+{{TierList/Item Container|color=#ffff8b|id=Magic Wave 50<!-- id TierList -->|name=BAD
+|
+{{TierList/Item|Fleet Admiral Akano
+|Bad DPS, Huge AoE Circle, Huge Range.}}
+}}
+</tabber>
+'''Per-Unit (single) DPS is usually what most people in the community talk about as calculations are easier without taking into account number of placement. Please keep in mind that while certain characters' singular DPS may be higher than others, placement limits affect Total DPS significantly. The approximate range for DPS (PER SINGLE UNIT) descriptions are:'''
+
+*Bad DPS 1,000-2000
+*Moderate DPS 2,001-3,000
+*Good DPS 3,001-4000
+*High DPS 4,001-5,000
+*Great DPS 5,001-6,000
+*Amazing DPS 6,001-7,000
+*Massive DPS 7,001-8,000
+*Insane DPS 8,001-9,000
+*Colossal DPS 9,001-10,000
+*Ultimate DPS 10,001-25,000
+*Godly DPS 25,001-30,000+
+
+'''DPS accounts for the DMG (Damage) of a unit divided by its SPA (Attack Speed). The Total damage of a unit can be higher or lower as some units can only be placed 3, 4, 5, etc. amount times.'''<br><center class="mobileonly">{{Anchor1|text=⮝ back start|id=back}}</center>
+__NOTOC____NOEDITSECTION__

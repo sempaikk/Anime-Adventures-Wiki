@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 14 - Sword Art Online}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}} unit.
+
+{{EvolutionTable}}
+{{Takedowns|5,000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Black magic is powerful, the more you know about it, the more you wanted it!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*She is the first (and currently only) {{Rarity|Secret}} unit that can be obtained via drop from Normal Portals rather than from the Secret Portals that drops from Normal Portals.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret_Units]]

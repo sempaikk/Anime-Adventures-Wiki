@@ -1,0 +1,16 @@
+{{Disenchant Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' (Blaze Frost after the rerelease) is an {{Rarity|Epic}} unit. He is obtainable from [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If You're Going To Rely On Words Alone, Then They Better Be Incredibly Powerful."
+|caption2="It's Not Your Fault, We're Just Playing On Different Levels."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

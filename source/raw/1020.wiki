@@ -1,0 +1,21 @@
+''If you were looking for a different Gene unit, see [[Gene (disambiguation)]]''
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}}. He is only obtainable through [[Summon|summons]]. He can be evolved into [[Gene (Adult)]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Qualification isn't something we have to talk about. The ones who are not okay with their success can go through training until they are."
+|caption2="In my next life, I want to be me, and meet [[Killer (Whirlwind)|you]] again."
+}}{{Main Stats}}
+==Trivia==
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

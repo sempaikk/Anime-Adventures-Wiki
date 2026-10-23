@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 20 - Shibuya + Dungeons!}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained via completing [[Secret Portal|Path Portal]] (guaranteed if you are the host).
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Even the most ignorant, innocent child will eventually grow up as they learn what true pain is. It affects what they say, what they think…and they become real people,"
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

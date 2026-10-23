@@ -1,0 +1,28 @@
+'''Spirit Reaper''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Rare}}</center>
+|{{Characterbox|Spirit Reaper}}
+|'''[[Spirit Reaper]]'''
+|-
+|<center>{{Rarity|Epic}}</center>
+|{{Characterbox|Spirit Reaper (Masked)}}
+|'''[[Spirit Reaper (Masked)]]'''
+|-
+|<center>{{Rarity|Mythic}}</center>
+|{{Characterbox|Spirit Reaper (Dusk)}}
+|'''[[Spirit Reaper (Dusk)]]'''
+|-
+|<center>{{Rarity|Mythic}}</center>
+|{{Characterbox|Spirit Reaper (Final Dusk)}}
+|'''[[Spirit Reaper (Final Dusk)]]'''
+|-
+|<center>{{Rarity|Secret}}</center>
+|{{Characterbox|Spirit Reaper (Full Hollow)}}
+|'''[[Spirit Reaper (Full Hollow)]]'''
+|-
+|}

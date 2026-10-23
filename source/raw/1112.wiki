@@ -1,0 +1,145 @@
+==Information==
+This page classifies different units to different ranks depending on how good they are in both [[Story|Story]] and [[Infinite|Infinite]] mode. We consider all aspects: SPA, Damage, Range, Cost, etc...
+
+=== Rules===
+*If you don't agree with a unit placing, talk it out instead of making a huge argument, huge arguments will result in punishments being handed out. 😱
+*
+*
+*
+*Don't put bad characters such as Armin on high tiers. (Partially considered griefing)
+*Be respectful of other people's opinions, everyone has different opinions.
+
+==The Tier List==
+{{TierList/Container|id=infiniti<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|META Ground}}</div>
+<div>{{Anchor1|META Hill/Hybrid}}</div>
+<div>{{Anchor1|META Support}}</div>
+<div>{{Anchor1|META Bleed}}</div>
+<div>{{Anchor1|META Burn}}</div>
+<div>{{Anchor1|Good Ground}}</div>
+<div>{{Anchor1|Good Hill/Hybrid}}</div>
+<div>{{Anchor1|Good Support}}</div>
+<div>{{Anchor1|Decent}}</div>
+<div>{{Anchor1|Unviable}}</div><!-- names must match Item Container names -->
+|
+
+{{TierList/Item Container|color=#ff7f7f|id=infiniti<!-- id TierList -->|name=META Ground
+|
+{{TierList/Item|Ezra (Valkyrie) 
+|Description=Description}}
+{{TierList/Item|Crush (Ace)
+|Description=Description}}
+{{TierList/Item|Coyote (Primera)
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#febf85|name=META Hill/Hybrid
+|
+{{TierList/Item|Jelly (Heaven)
+|Description=Description}}
+{{TierList/Item|Ezra (Lightning)
+|Description=Description}}
+{{TierList/Item|King Meruam
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|name=META Support
+|
+{{TierList/Item|Kisoko (Bankai)
+|Description=Description}}
+{{TierList/Item|Gray (Devil Slayer)
+|Description=Description}}
+{{TierList/Item|Kizzua (Godspeed)
+|Description=Description}}
+{{TierList/Item|Mochi Charlot
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#ffff8b|name=META Bleed
+|
+{{TierList/Item|Ezra (True Heart)
+|Description=Description}}
+{{TierList/Item|Pito (Terpsichora)
+|Description=Description}}
+{{TierList/Item|Juozu (Joker)
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#c0ff8a|name=META Burn
+|
+{{TierList/Item|Natzo (Lightning Dragon Mode)
+|Description=Description}}
+{{TierList/Item|Renkoko (ABLAZE)
+|Description=Description}}
+{{TierList/Item|Fleet Admiral Akano
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#82fe89|name=Good Ground
+|
+{{TierList/Item|Kit (Frenzy)
+|Description=Description}}
+{{TierList/Item|Ariva (Reaper)
+|Description=Description}}
+{{TierList/Item|Ulquiro (Resurrección)
+|Description=Description}}
+{{TierList/Item|Chairman Neteru
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#82fffe|name=Good Hill/Hybrid
+|
+{{TierList/Item|Gone (???)
+|Description=Description}}
+{{TierList/Item|Uru (Antithesis)
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#80bffc|name=Good Support
+|
+{{TierList/Item|All Force (Symbol of Peace) 
+|Description=Description}}
+{{TierList/Item|Red Scar (Conqueror)
+|Description=Description}}
+{{TierList/Item|Erein (Founder)
+|Description=Description}}
+{{TierList/Item|Aizo (Betrayal)
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#7f7ffa|name=Decent
+|
+{{TierList/Item|Luci (Celestial)
+|Description=Description}}
+{{TierList/Item|Eta (One-Eye)
+|Description=Description}}
+{{TierList/Item|Tarata (Ignite)
+|Description=Description}}
+{{TierList/Item|Legendary Brulo
+|Description=Description}}
+{{TierList/Item|Marada (Founder)
+|Description=Description}}
+}}
+
+{{TierList/Item Container|color=#fe80fb|name=Unviable
+|
+{{TierList/Item|Levy Ackman
+|Description=Description}}
+{{TierList/Item|Emperor Whitehair
+|Description=Description}}
+{{TierList/Item|Blue Devil
+|Description=Description}}
+{{TierList/Item|Future Guhon
+|Description=Description}}
+{{TierList/Item|Noruto (Beast Cloak)
+|Description=Description}}
+{{TierList/Item|Diavoro
+|Description=Description}}
+{{TierList/Item|Armein
+|Description=Description}}
+}}
+
+}}
+
+__NOTOC____NOEDITSECTION__

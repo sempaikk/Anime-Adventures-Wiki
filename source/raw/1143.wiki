@@ -1,0 +1,13 @@
+{{#switch: {{SUBJECTSPACE}}
+  | {{ns:0}}
+  | {{ns:File}}
+  | {{ns:MediaWiki}}
+  | {{ns:Category}} = {{TALKSPACE}}
+  | #default = {{SUBJECTSPACE}}
+}}<noinclude>
+{{documentation|content=
+This subtemplate of {{tl|documentation}} is used to determine the namespace of the documentation page.
+[[Category:Metatemplates]]
+}}
+*created by User:[https://leagueoflegends.fandom.com/wiki/User:BryghtShadow BryghtShadow] - for wiki -  [https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki leagueoflegends.fandom.com]
+*taken from https://leagueoflegends.fandom.com/wiki/Template:Documentation/docspace</noinclude>

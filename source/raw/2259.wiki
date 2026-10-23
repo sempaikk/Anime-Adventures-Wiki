@@ -1,0 +1,28 @@
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable from Summons. 
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Come here to stop the meteor?"
+|caption2="Come here to stop the meteor?"}}
+{{Main Stats}}
+
+==Passive Ability: Arsenal Drones==
+{{PAGENAME}} can spawn Arsenal Drones every time he takes down 20 enemies (despite showing it is 50). Note that its drones' attacks are not AoE and has 3 hits.
+* His drones will inherit 25% of his DMG, same range, and will have 5.5 SPA. Each individual drone last 30 seconds upon deployment.
+* After Upgrade 6, His drones will inherit 50% of his DMG, 120% of his Range, will last longer and have 4.0 SPA as well. Each individual drone last 1 minute upon deployment.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}} __NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

@@ -1,0 +1,40 @@
+{{Meta Unit}}
+{{Story Meta Unit}}{{Meta Support Unit}}{{Raid Meta Unit}} {{Infinity Castle Meta Unit}} {{Meta Bleed Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Menace]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The only one I'll let kill me is the true hero, [[Prime Force (Peace)|Prime Force]]!"
+|caption2="People show their true colors when they're on the verge of death."
+}}{{Main Stats}}
+
+==Active Ability: Terror==
+[[File:BloodcurdleIcon.png|thumb|left]]
+*x3 Menace's current DMG to every BLEEDING enemy inside his range (including Air)
+*Ability can crit for x4.5 Menace's current DMG
+*Stuns Enemies for 2 seconds
+*10 Seconds Stun Cooldown on enemies which have been affected by it.
+*20 Seconds Ability Cooldown (No Global Cooldown)
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+*Menace's bleed damage is 30% of his damage
+
+*Menace has the ability to become a potential full AOE with his active ability if paired with a meta bleed unit, with [[Berserker (Rage)]] he can damage air enemies while having full aoe, but having [[Saka (Ribbon)|Saka]] and [[Eccentric Researcher (Captain)]] have similar effects,  
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

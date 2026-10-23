@@ -1,0 +1,71 @@
+Some enemies have abilities with a cost on them which may disable effects from certain units.
+
+{| class="fandom-table"
+|+
+!Enemy Type
+!Effects
+!Counters
+!First Encounter
+|-
+|Shielded Enemies
+|Will appear with a set amount of shield, the shield will be depleted by one point every hit.
+|
+* Hard Counter: Multi-hit units,  and [[Effects#Shatter|Shatter]] units will shred shields.
+* Soft Counter: [[InHuman_(Nullifier)|Inhuman]] also shred these via his ability. The thing is, they return back after some time!
+|
+* [[Challenges|Challenge: Shield Enemies]]
+* Shiganshinu District, Act 4 (Wave 15)
+|-
+|Tank enemies
+|Appearing with a white glow over their model, they take slightly reduced damage overall.
+|
+[[Effects|Any non-damaging effect]] still works at full effect. However, [[InHuman_(Nullifier)|Inhuman]]'s ability temporarily nullifies the effect!
+|
+* First Debut: [[Challenges|Challenge: Tank Enemies]]
+* Story Debut: Marine's Ford (Marine Flagbearer)
+|-
+|Fire enemies
+|Will move faster than normal enemies and cause ice units to deal less damage. They also happen to be immune of [[Effects#Slow|slows]] and [[Effects#Stun|stuns]].
+|
+* Other units that can do effects other than [[Effects#Slow|slows]] and [[Effects#Stun|stuns]] (especially [[Effects#freeze|Freeze]]).
+* [[InHuman_(Nullifier)|Dazai]] may remove that trait, for them to be able to get stunned or slowed for awhile.
+|Magic Town, Act 2 (Wave 10)
+|-
+|Ice enemies
+|Will take less damage from normal units.
+|
+* Fire-aligned units deal THRICE the damage on these types of enemies.
+* Anyone witb a [[Effects#Burn|burn]] will also suffice, as the effect in question has {{Damage Type (No Category)|Fire}} attribute (even if their attribute isn't even {{Damage Type (No Category)|Fire}}, meaning units like [[Shinobi (Eternal)]] will also counter those enemies very well!
+* [[InHuman_(Nullifier)|Inhuman]] may remove that trait for non-Fire aligned units to deal usual damage, but will remove the intended counter for awhile.
+|Magic Town, Act 4 (Wave 10)
+|-
+|Regen Enemies
+|Will regenerate health when damaged.
+|[[Ashborn (Decay)|Ashborn]], [[InHuman_(Nullifier)|Inhuman]]'s ability, or units that deal bleeding damage will temporarily nullify its effects.
+|Snowy Town, Act 4 (Wave 10)
+|-
+|Flying Enemies
+|Ignores ground units and can only be hit by hill units and hybrid unit.
+|High DPS hill units or Hybrid ground units. Or [[InHuman_(Nullifier)|Inhuman]]'s ability can nullify their trait for Ground units to be able to hit them.
+|Hollow World, Act 1 (Wave 10)
+|-
+|Armored Enemies
+|Full AoE units deal half the damage against these units.
+|
+* All other units deal damage regularly against them. And Full AoE effect characters still affect them at full duration (e.g. [[Shadowgirl (Time Traveller)]] or [[Frost Navy (Blue Pigeon)]]).
+* The same intended nerf can be nullified for awhile by [[InHuman_(Nullifier)|Inhuman]]'s ability.
+|
+* First Debut: [[Portals|Witch City Portals]]
+* Story Debut: Virtual Dungeon, Act 4 (Wave 10)
+|-
+|Burst Enemies
+|They spawn really fast, but slow down as they get closer to your base.
+|
+* Don't place your units close to the spawn area.
+* The same intended nerf can be nullified for awhile by [[InHuman_(Nullifier)|Inhuman]]'s ability.
+
+
+
+|
+* First Debut: Frozen Abyss (Holiday Event 2024)
+|}

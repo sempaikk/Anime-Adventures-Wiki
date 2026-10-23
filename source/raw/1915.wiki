@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 10 - One Punch Man Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by evolving [[Weather]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="This is the end, [[Priest (Heaven)|Priest]]".
+|caption2="Don't breathe too heavily... I gathered the remaining air from the room and surrounded our bodies with 'clouds' to stabilize the air pressure."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+Heavy Weather's shiny is based off of the cloud suit he uses
+
+Heavy Weather's copyright could be a reference to an album by Weather Report, which is fitting for obvious reasons.
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Magic]]
+[[Category:Damage Type Lightning]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

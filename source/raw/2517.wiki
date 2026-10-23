@@ -1,0 +1,24 @@
+''If you were looking for a different Shinobi unit, see [[Shinobi (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is obtainable by evolving [[Shinobi (Hood)]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It's not the future I dream of anymore. Only the past."
+|caption2="Having too many bonds causes one to lose focus, weakening their strongest wish, their greatest desire."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Attacks starting from upgrade 8 are able to hit air enemies.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

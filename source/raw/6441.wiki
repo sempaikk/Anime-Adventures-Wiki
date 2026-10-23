@@ -1,0 +1,129 @@
+local p = {}
+
+-- Helper function for number formatting
+local function formatNumber(number)
+    local isNegative = number < 0
+    number = math.abs(number)
+    
+    local formatted = tostring(number)
+    local integer, decimal = formatted:match("([^.]+)%.?(.*)$")
+    
+    local result = ""
+    local count = 0
+    for i = #integer, 1, -1 do
+        count = count + 1
+        result = integer:sub(i,i) .. result
+        if count % 3 == 0 and i > 1 then
+            result = "," .. result
+        end
+    end
+    
+    if decimal ~= "" then
+        result = result .. "." .. decimal
+    end
+    
+    if isNegative then
+        result = "-" .. result
+    end
+    
+    return result
+end
+
+function p.calculate(frame)
+    local dps = frame.args[1]
+    local multiplier = tonumber(frame.args[2] or 1)
+    
+    local output = ""
+    
+    -- Only add DPS and DPM if dps is not empty
+    if dps and dps ~= "" and not dps:match("{{{%d+}}}") then
+        dps = tonumber(dps) or 0
+        output = string.format([[
+%s
+
+%s]], formatNumber(dps), formatNumber(dps * 60))
+    end
+    
+    -- Only add Total DPS and Total DPM if multiplier > 1
+    if multiplier > 1 and dps and dps ~= "" and not dps:match("{{{%d+}}}") then
+        output = output .. string.format([[
+
+
+Total DPS: %s
+
+Total DPM: %s]], 
+            formatNumber(dps * multiplier),
+            formatNumber(dps * 60 * multiplier))
+    end
+    
+    return output
+end
+
+function p.getDPS(frame)
+    local dps = frame.args[1]
+    if dps and dps ~= "" and not dps:match("{{{%d+}}}") then
+        return "DPS: " .. formatNumber(tonumber(dps) or 0)
+    end
+    return ""
+end
+
+function p.getDPM(frame)
+    local dps = frame.args[1]
+    if dps and dps ~= "" and not dps:match("{{{%d+}}}") then
+        return "DPM: " .. formatNumber((tonumber(dps) or 0) * 60)
+    end
+    return ""
+end
+
+function p.getTotalSection(frame)
+    local dps = frame.args[1]
+    local multiplier = tonumber(frame.args[2] or 1)
+    
+    if multiplier > 1 and dps and dps ~= "" and not dps:match("{{{%d+}}}") then
+        dps = tonumber(dps) or 0
+        return string.format([[
+Total DPS: %s
+
+Total DPM: %s]], 
+            formatNumber(dps * multiplier),
+            formatNumber(dps * 60 * multiplier))
+    end
+    return ''  -- Return empty string if multiplier <= 1 or dps is empty
+end
+
+function p.recom(frame)
+    local curse = frame.args[1] or ""
+    local relics = frame.args[2] or ""
+    local traits = frame.args[3] or ""
+    
+    -- Check if any content exists first
+    local hasContent = false
+    if (curse ~= "" and not curse:match("{{{%d+}}}")) or
+       (relics ~= "" and not relics:match("{{{%d+}}}")) or
+       (traits ~= "" and not traits:match("{{{%d+}}}")) then
+        hasContent = true
+    end
+    
+    -- Only show header if there's any content
+   local output = ""
+if hasContent then
+    output = "'''Recommended'''"
+end
+    
+    -- Only add sections that have content
+    if curse ~= "" and not curse:match("{{{%d+}}}") then
+        output = output.."\nCurse: " .. curse
+    end
+    
+    if relics ~= "" and not relics:match("{{{%d+}}}") then
+        output = "\nRelics: " .. relics
+    end
+    
+    if traits ~= "" and not traits:match("{{{%d+}}}") then
+        output = "\nTraits: " .. traits
+    end
+    
+    return output
+end
+
+return p

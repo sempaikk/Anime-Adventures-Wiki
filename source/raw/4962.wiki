@@ -1,0 +1,20 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by summons.
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="You'll die if you don't summon it soon, Onii-chan.
+|image1={{PAGENAME}}.png"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]

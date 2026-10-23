@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 5 - Fairy Tail Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} unit.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'm not your weapon; Demon King or savior! I'm Blue Evil! And when I'm done, I'm going to be the best Exorcist you ever laid your eyes on!"
+|caption2="I'm not your weapon; Demon King or savior! I'm Blue Evil! And when I'm done, I'm going to be the best Exorcist you ever laid your eyes on!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Blue Devil ['''Limited'''] - Obtained by achieving a top 25 infinite run in Update 1-2
+*Blue Devil Shiny = ['''Limited'''] - Obtained by achieving a top 10 infinite run in Update 1-2
+
+==Gallery==
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

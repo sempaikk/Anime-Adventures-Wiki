@@ -1,0 +1,25 @@
+== '''Overview''' ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Fear is not evil. It tells you what you weakness is. And once you know your weakness, you can become stronger as well as kinder."
+|caption2="Fear is not evil. It tells you what you weakness is. And once you know your weakness, you can become stronger as well as kinder."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

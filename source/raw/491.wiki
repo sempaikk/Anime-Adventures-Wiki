@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 4 - ''Hunter X Hunter'' Update}}
+''If you were looking for a different Spirit Reaper unit, see [[Spirit Reaper (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} unit. He was only obtainable if the player purchased him with 100 [[Items#Materials|Soul Shards]] during the Hollow World event.
+
+
+== Stats Overview==
+{{Tower_Infobox
+|caption1="Must...protect ...her. Help... her. I must. I will...protect her.”
+|caption2="It's been a long time Ichigo... Don't you recognize me?”
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia== 
+*His shiny is based off of Zangetsu's appearance after Ulquiorra's defeat.
+
+==Gallery==
+<gallery>
+File:SpiritReaper.gif|Normal Spirit Reaper (Full Hollow) Cosmetic
+File:Ichigo Shiny.gif|Shiny Spirit Reaper (Full Hollow) Cosmetic
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Event Units]]

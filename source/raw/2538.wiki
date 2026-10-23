@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by evolving [[Doll]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Memories are merely information. Creating or erasing them is not difficult. What I want to understand is the "emotion" that reaches beyond them."
+|caption2="If having a heart brings so much pain, I don't want it"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Attacks starting from Upgrade 7 are able to hit air type enemies.
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

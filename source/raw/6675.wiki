@@ -1,0 +1,27 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can be obtained via [[Summon|Assassin Banner]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I don’t enjoy killing. I just don’t care."
+|caption2="Emotions are a liability. That’s why I left mine behind."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+*His shiny form is based off of
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

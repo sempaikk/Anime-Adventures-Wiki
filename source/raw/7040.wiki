@@ -1,0 +1,37 @@
+{{Meta Unit}}{{Limited Unit}}{{Meta Support Unit}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} unit. They can only be obtained by evolving [[Snow Reaper (War)]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="In a battle, the ones who get in the way are not the ones that lack power, but the ones that lack resolve."
+|caption2="Bankai... Hakka no Togame."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+|Damage_type=True|Secondary_Damage_type=Air}}{{Main Stats}}
+
+==Active Ability: Gale of the Moon==
+On placement [[Snow Reaper (Final)]] obtains a bar which fills up by 1.25 every half second, maxing out at 100.
+
+At '''Upgrade 1''', {{PAGENAME}} unlocks the ability '''Gale of the Moon'''. While this ability is active, the bar will be drained by 2.5 every half second, enemies within her range are '''slowed''', take '''1/6th''' of her '''damage''' every half second and are inflicted with '''Chilled'''. Chilled enemies have an icon of a snowflake that freezes the enemy and deals an additional hit equal to her damage stat once it reaches 6. 
+
+Pressing the ability again will deactivate it manually, or it will automatically deactivate if the bar reach to 0. 
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*The snowflake icon disappears after 2 seconds. 
+*Her ability counts as full AOE.
+*If you wait for her ability to be at 100% and then let it drain till 0% she would have an additional dps of about 4.9k
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+<references />

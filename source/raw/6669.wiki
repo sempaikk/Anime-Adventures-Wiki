@@ -1,0 +1,20 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by clearing stage 1 of the [[Raids#Ant Kingdom (Midnight)|Ant Kingdom (Midnight)]] raid with a 1% chance respectively '''or''' completing the raid 15 times for guaranteed drop. 
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If you don't know how to live, why wonder about death?"
+|caption2="Welcome, ladies and gentlemen. Let us do without formal greeting... You all die now."
+|image1=Spider.png|image2=Spider Shiny.png}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades. 
+
+==Trivia==
+
+
+__NOTOC__  
+__NOEDITSECTION__

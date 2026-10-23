@@ -1,0 +1,48 @@
+[[File:Haunted Star.png|thumb]]
+
+The '''Haunted Star''' is a new obtainable item introduced in the [[Update_Log#Update_Halloween_-_Halloween_2022_Update|HALLOWEEN]] update which can be purchased for {{Candies|150}} from the Navi NPC next to spawn!
+
+==Information==
+* Inside the '''Haunted Star''', you can discover 3 new exclusive units and 13 different Halloween themed skins!
+* If you haven't received a {{Rarity|Mythic}} after 400 '''Haunted Stars''', you will get one guaranteed!
+
+==Star Chances==
+<div style="font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;">
+* <span style="color: #0d8cff;">Rare Skin: 81.5%</span>
+* <span style="color: #7c04f5;">Epic Skin: 16.0%</span>
+* ⭐<span style="color: #ffc71e;">Legendary Skin: 2.0%</span>
+* 🎃<span style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mythic Skin: 0.25%<span class="Tsh(Game) mobile-hidden" style="position: absolute; z-index: -1; left: 0;">Mythical</span></span>
+* 👻<span style="color: #e01419;">Mythic Unit: 0.25%</span>
+</div>
+
+==Obtainable Units==
+{{Container Characterbox
+|
+{{Characterbox|Moriu}}
+{{Characterbox|Peruna}}
+{{Characterbox|Broke}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+==Obtainable Skins==
+===<center>Skins obtainable from the Haunted Star capsule</center>===
+{| class="fandom-table" align=center
+!Image
+!Unit
+!Skin
+{{Cosmetics/RarityItem|img=Dezu (Trick or Treat).png|cosmetics=Dezu (Trick or Treat)|rarity=Rare|unit=Dezu}}
+{{Cosmetics/RarityItem|img=Luffo (Pirate).png|cosmetics=Luffo (Pirate)|rarity=Rare|unit=Luffo}}
+{{Cosmetics/RarityItem|img=Frankengone.png|cosmetics=Frankengone|rarity=Epic|unit=Gone (Adult)}}
+{{Cosmetics/RarityItem|img=Marada (Skelly).png|cosmetics=Marada (Skelly)|rarity=Epic|unit=Marada}}
+{{Cosmetics/RarityItem|img=Mochi (Halloween).png|cosmetics=Mochi (Halloween)|rarity=Legendary|unit=Mochi}}
+{{Cosmetics/RarityItem|img=Ruki (Devil).png|cosmetics=Ruki (Devil)|rarity=Legendary|unit=Ruki}}
+{{Cosmetics/RarityItem|img=Eta (Bandaged).png|cosmetics=Eta (Bandaged)|rarity=Legendary|unit=Eta}}
+{{Cosmetics/RarityItem|img=Goju (Vampire) Cosmetic.gif|cosmetics=Goju (Vampire)|rarity=Legendary|unit=Goju}}
+{{Cosmetics/RarityItem|img=Kent Butcher Blessing.png|cosmetics=Kent(Butcher)|rarity=Legendary|unit=Kent}}
+{{Cosmetics/RarityItem|img=Cel (BALLIN').png|cosmetics=Cel (BALLIN')|rarity=Legendary|unit=Cel (Perfect)}}
+{{Cosmetics/RarityItem|img=Juozo (Reaper).png|cosmetics=Juozu (Reaper)|rarity=Legendary|unit=Juozu}}
+{{Cosmetics/RarityItem|img=Pito (Peach).gif|cosmetics=Pito (Halloween)|rarity=Mythic|unit=Pito}}
+{{Cosmetics/RarityItem|Skin=Haunted Star|img=Orwin (Headless).png|cosmetics=Orwin (Headless)|rarity=Mythic|unit=Orwin}}
+|}
+
+__NOTOC__

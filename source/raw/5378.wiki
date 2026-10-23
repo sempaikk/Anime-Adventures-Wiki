@@ -1,0 +1,30 @@
+{{Meta Unit}}{{Meta Support Unit}}{{Unobtainable Unit|Update 20 Shibuya + Dungeons!}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through summons.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= [https://animeadventures.fandom.com/wiki/Fox_Ninja_(Sage) Fox Ninja]...you are the child of prophecy. I'm sure of it now. 
+|caption2= [https://animeadventures.fandom.com/wiki/Fox_Ninja_(Sage) Fox Ninja]...you are the child of prophecy. I'm sure of it now. 
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+<references />
+{{DEFAULTSORT:Toad_Sensei_(Toad_Sage)}}

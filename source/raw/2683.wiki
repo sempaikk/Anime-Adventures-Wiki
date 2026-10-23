@@ -1,0 +1,14 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable via [[Summon]].
+
+{{EvolutionTable}}
+{{Takedowns|500}}
+
+==Stats Overview==
+{{Tower_Infobox|caption1="i will throw away my pride just for you."}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,55 @@
+<div class="Xbody mobile-hidden" style="user-select: auto; display: none;"></div>{{#ifeq:{{{buff|}}}|{{{buff}}}||{{Buff-List-Button}}}}{{#ifeq:{{{ORB|}}}|{{{ORB}}}|{{OrbButton}}
+<div class="mw-collapsible" id="mw-customcollapsible-ON">
+
+<div class="mainStats mw-customtoggle-statsBoxMax mw-customtoggle-statsBoxLow">
+<div class="mw-collapsible" id="mw-customcollapsible-statsBoxLow">
+<div class="Level-1-ON">Level 1<span style="display: none;"> - Active</span></div>
+<div class="Level-80-OFF">Level 175</div></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBoxMax" style="display: none;">
+<div class="Level-1-OFF">Level 1</div>
+<div class="Level-80-ON">Level 175<span style="display: none;"> - Active</span></div></div>
+{{{1}}}
+<div class="mw-collapsible" id="mw-customcollapsible-statsBoxLow">
+<div class="click-on-I-Box" id="click-on-I-Box-OFF";>⁣⁣⁣⁣click on any part of the information block</div></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBoxMax" style="display: none;">
+<div class="click-on-I-Box" id="click-on-I-Box-ON">⁣⁣⁣⁣click on any part of the information block</div></div>
+</div>
+
+</div>
+
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF" style="display: none;">
+
+<div class="mainStats mw-customtoggle-statsBoxMax mw-customtoggle-statsBoxLow">
+<div class="mw-collapsible" id="mw-customcollapsible-statsBoxLow">
+<div class="Level-1-ON-ORB">Level 1<span style="display: none;"> - Active</span></div>
+<div class="Level-80-OFF-ORB">Level 175</div></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBoxMax">
+<div class="Level-1-OFF-ORB">Level 1</div>
+<div class="Level-80-ON-ORB">Level 175<span style="display: none;"> - Active</span></div></div>
+{{{2}}}
+<div class="mw-collapsible" id="mw-customcollapsible-statsBoxLow">
+<div class="click-on-I-Box" id="click-on-I-Box-OFF-ORB">⁣⁣⁣⁣click on any part of the information block</div></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBoxMax">
+<div class="click-on-I-Box" id="click-on-I-Box-ON-ORB">⁣⁣⁣⁣click on any part of the information block</div></div>
+</div>
+
+</div>
+|<div class="mainStats mw-customtoggle-statsBoxMax mw-customtoggle-statsBoxLow">
+
+<div class="mw-collapsible" id="mw-customcollapsible-statsBoxLow">
+<div class="Level-1-ON">Level 1<span style="display: none;"> - Active</span></div>
+<div class="Level-80-OFF">Level 175</div>
+</div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBoxMax" style="display: none;">
+<div class="Level-1-OFF">Level 1</div>
+<div class="Level-80-ON">Level 175<span style="display: none;"> - Active</span></div>
+</div>
+{{{1}}}
+<div class="mw-collapsible" id="mw-customcollapsible-statsBoxLow">
+<div class="click-on-I-Box" id="click-on-I-Box-OFF">⁣⁣⁣⁣click on any part of the information block</div>
+</div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBoxMax" style="display: none;">
+<div class="click-on-I-Box" id="click-on-I-Box-ON">⁣⁣⁣⁣click on any part of the information block</div>
+</div>
+</div>}}
+<br>

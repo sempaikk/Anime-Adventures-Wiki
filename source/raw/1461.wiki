@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 7 - Black Clover Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He is only obtainable as a random drop in the Curse Parade event.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="No matter what, I'll always hate those monkeys."
+|caption2="Filthy monkeys who can't even use Jujutsu."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

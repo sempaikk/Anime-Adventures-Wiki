@@ -1,0 +1,55 @@
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Elyssia]].
+
+{{EvolutionTable}}
+{{Takedowns|2500}}
+
+==Stat Overview==
+{{Tower_Infobox
+|caption1="I am waiting for you, Dr. I've waited for you for too long, far too long, to the point that I have already forgotten why I am waiting for you here... But none of this is important anymore. It's not that important anymore."
+|caption2="Dream... What kind of dream will you have? Where are you now? There... Is this also a dream?"
+|image1=Elyssia (Abyssal).png
+|image2=Elyssia (Abyssal) Shiny.png
+|deployment_cost=2,000|total_cost=122000|upgrade_levels=4|spawn_cap=2|Tower_type=Ground}}{{Main Stats - Outer Shell Part|
+{{Stats Box|Upgrade_No=0|Upgrade_Cost=2000|Hits=Hits: 1|Tower_Type=Ground|Attack_Type=AoE (Circle And Full)|Damage=2800|Range=9|SPA=4|Spawn=2800}}
+{{Stats Box|Upgrade_No=1|Upgrade_Cost=5000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=7000|Range=12|SPA=4|Spawn=7000}}
+{{Stats Box|Upgrade_No=2|Upgrade_Cost=10000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=14000|Range=12|SPA=4|Spawn=14000}}
+{{Stats Box|Upgrade_No=3|Upgrade_Cost=35000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=21000|Range=15|SPA=4|Spawn=21000}}
+{{Stats Box|Upgrade_No=4|Upgrade_Cost=70000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=42000|Range=15|SPA=4|Spawn=42000}}
+}}
+
+== Passive Ability: Elyssia's Seaborn ==
+'''{{PAGENAME}}''' has the ability to summon Abyssal Jellies and Abyssal Eels. 
+<tabber>
+|-|Echoes From Below=
+'''Abyssal Jellies''' will be summoned on '''{{PAGENAME}}''''s SPA maxing out at 3. Abyssal Jellies have only 1 HP, but explode dealing a full AoE burst of Magic damage equal to {{PAGENAME}}'s damage on death. The range of this explosion is believed to be equivalent to {{PAGENAME}}'s range. Once an Abyssal Jelly dies, she will be put on cooldown for 1.5x her SPA and begin summoning another one afterwards.
+|-|Wretched Communion=
+'''Abyssal Eels''' will be summoned once '''{{PAGENAME}}''' takes down 5 enemies. Abyssal Eels will be spawned near {{PAGENAME}} maxing out at 3, despawning after a minute passes. Abyssal Eels will attack with a small circle AoE with 1/4x {{PAGENAME}}'s damage, 2x her SPA, and 2.5x her range.
+</tabber>
+
+{{Selling}}
+
+==Trivia==
+* Summons possess the same damage type, element type and relic {{PAGENAME}} has.
+* Abyssal Jellies can break 2 shields due to the explosion they deal on contact.
+* Both of her summons can be buffed by [[Zombie (Risen)]].
+* Since Abyssal Jellies are summons that move down the path, they are able to hit flying enemies, while Abyssal Eels only count as ground and cannot.
+* {{PAGENAME}} will be put on cooldown if an Abyssal Jelly dies before she has summoned all three, causing her to only summon one.
+* Since {{PAGENAME}} gets put on cooldown anytime an Abyssal Jelly dies, some strange situations can occur if she is on cooldown and another Abyssal Jelly dies:
+# Her cooldown will be '''reset''', causing her to only start summoning the dead Abyssal Jellies after 1.5x her SPA at the time the '''second Abyssal Jelly died rather than the first'''.
+# Her summoning can be '''canceled''' if an Abyssal Jelly dies as the animation is playing, causing no Abyssal Jelly to spawn once her animation ends.
+
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

@@ -1,0 +1,29 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can be obtained by summoning the new [[Summon|Assassin Banner]]. 
+
+{{EvolutionTable}}
+
+{{Takedowns|5000}} 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I made a promise to my family—I won’t kill anymore."
+|caption2="There’s no need to talk. My actions will be the last thing you see."
+|image1={{PAGENAME}}.png|image2=Legendary Assassin Shiny.png}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+*His shiny form is based off of himself during his Assassin Days.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+
+<references />

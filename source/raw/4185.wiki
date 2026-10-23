@@ -1,0 +1,31 @@
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+{{Unobtainable Unit|Update 17 - Fate Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is {{Rarity|Mythical}} {{LU}}. She can only be obtained by evolving [[Hammerhead]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“I do not intend to fight for no reason. That is why I became strong.”
+|caption2=“I do not intend to fight for no reason. That is why I became strong.”
+|title1=Hammerhead (Shark Empress)|image1=}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*She happens to be the boss of [[Legend Stages|Hollow Invasion (Legend stage), Act 1]], as '''Tiel.'''
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+[[Category:Hill Unit]]
+[[Category:Event Units]]

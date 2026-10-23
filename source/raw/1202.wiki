@@ -1,0 +1,28 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Crush]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Fear is not evil. It tells you what you weakness is. And once you know your weakness, you can become stronger as well as kinder."
+|caption2="Fear is not evil. It tells you what you weakness is. And once you know your weakness, you can become stronger as well as kinder."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Shatter==
+{{PAGENAME}} has a capability/ability to break shields instantly, regardless of how many amount of instances the enemies had. He is great for shield enemies or Shield Challenges. However, he can't hit flying, so for flying enemies with shields, use [[Karyn]], [[Elf Spirit (Wind)]], [[Hammerhead (Shark Empress)]], or [[Gravity Navy (Admiral)]].
+
+==Selling==
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

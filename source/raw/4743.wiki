@@ -1,0 +1,27 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through summons. he was added in update 16.5.0.
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Yeah, you're about to kill me. But even so, I was able to figure out your name. You're nothing special. You might get away for now, but how do you feel? A little brat like me managed to find out what your name was. I'll say it again. A little brat figured out who you are! You're a complete idiot! I'll be looking forward to seeing you in the next world!"
+|caption2="Didn't I tell you? Don't underestimate me."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

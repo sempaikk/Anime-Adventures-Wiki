@@ -1,0 +1,23 @@
+''If you were looking for a different Captain unit, see [[Captain (Disambiguation)]]''.
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I AM A FEARSOME PIRATE, A WARRIOR AMONG WARRIORS, AND I COMMAND AN ARMY OF OVER EIGHT-THOUSAND MEN! I AM THE GREAT CAPTAIN!"
+|caption2="Then stand up right away! And don't act like you're about to die! It's not like you! Even if there are billows of smoke, we can still see the sky. We can still see the ocean! It ain't like it's hell here! So don't act like you're about to die!"
+|title1=Captain
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

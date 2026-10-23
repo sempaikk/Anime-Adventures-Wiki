@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 11 - Seven Deadly Sins Update Part 1}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through opening the [[Events|Frozen Star]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="When a person… has something important they want to protect… that's when they can become truly strong."
+|caption2="When a person… has something important they want to protect… that's when they can become truly strong."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

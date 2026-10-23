@@ -1,0 +1,15 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="no matter what, whatever it takes."
+|caption2="i will eliminate you"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

@@ -1,0 +1,26 @@
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Hex]].
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1="It's the weakest weapon that cannot kill even one human nor create anything. But it is an indulgence from the Age of Gods that is forgiven anything for one purpose."
+|caption2="May it become a world where no one can hurt others and no one can be hurt...'Pain Breaker!'"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__

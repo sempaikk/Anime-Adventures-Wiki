@@ -1,0 +1,36 @@
+return {
+	-- [""] = {name =""},
+	-- [""] = {name =""},
+	-- [""] = {name =""},
+	-- [""] = {name ="",Asushi (Moonlight Beast)
+
+	--	ChBox_Text = "",
+	--	ChBox_Text_Style = "Fz(__%)"},
+--Vento Aureo
+    ["Valentae/Gold Boy (Windy)"] = {name ="giorno_2"},
+    ["Valentae/Gold Boy (Requiem)"] = {name ="giorno_2_evo"},
+    ["Devil Boss (Emperor)"] = {name ="diavolo_evo"},
+    ["Devil Hand (Epitaph)"] = {name ="doppio"},
+    ["Threnody Of The Soul"] = {name ="chariot_requiem"},
+    ["Sergio"] = {name ="abbacchio"},
+    ["Sergio (Moody Jazz)"] = {name ="abbacchio_evo"},
+    ["Pistole"] = {name ="mista"},
+    ["Pistole (Six Rounds)"] = {name ="mista_evo"},
+    ["Bomberman"] = {name ="narancia"},
+    ["Bomberman (Aviator)"] = {name ="narancia_evo"},
+    ["Capo"] = {name ="bruno"},
+    ["Capo (Zipp Fingers)"] = {name ="bruno_Evo"},
+    
+--Dream Banner
+    ["Yundere"] = {name ="yuno_gasai"},
+    ["Yundere (Love Diary)"] = {name ="yuno_gasai_evo"},
+    ["Dark Librarian"] = {name ="roland"},
+    ["Dark Librarian (Silence)"] = {name ="roland_evo"},
+    
+    ["Kire"] = {name ="light_kira"},
+    ["Kire (Death Deity)"] = {name ="light_kira_evo"},
+    ["Letter"] = {name ="l_lawliet"},
+    ["Letter (Greatest Detective)"] = {name ="l_lawliet_evo"},
+    ["Sky Raijin (Volt)"] = {name ="enel_amaru"},
+    ["Sky Raijin"] = {name ="enel"},
+}

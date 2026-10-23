@@ -1,0 +1,34 @@
+{{Meta Unit}}
+
+{{Meta Burn Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Ghost-kun]].
+
+{{EvolutionTable
+}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You can't change anything in the past, but try and keep your future safe."
+|caption2="You can’t change the past, but you can shape the future."
+|image1=Ghost-kun (Pose).png
+|image2=Ghost-kun Shiny (Pose).png}}{{Main Stats
+}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*This unit currently deals '''3x its displayed damage''' at upgrade 6-8. (Its Burn isn't affected by this.)
+** At base max upgrade, the combined damage per second ( DPS ) with his burn and his x3 displayed dmg is '''45,099.92'''. However, with the infernal gaze relic equipped, his DPS will increase to '''51,542.76''' having a total damage per second ( TDPS ) of '''154,628.29'''.
+*Rerelease Unit/NPC
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Mythic Units]]
+
+<references />

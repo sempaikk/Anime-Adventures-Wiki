@@ -1,0 +1,17 @@
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} unit. Can only be obtained by placing Top 50 or higher on any [[Infinite|Infinite Mode]] maps while placing Top 10 or higher for his Shiny version.
+==Stats Overview==
+{{Tower_Infobox
+|image1=Dispenser.png|image2=Dispenser.png
+|caption1="Thank you very much! and I look forward to your next use!"
+|caption2="Please insert coins."
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}
+__NOEDITSECTION____NOTOC__

@@ -1,0 +1,7 @@
+<tr>
+<td>'''Act {{{Act|}}} {{#if:{{{1|}}}|-<br>}} {{{1|}}}'''</td>
+<td rowspan="2">[[File:Boss - {{{1|}}}.png]]</td>
+</tr>
+<tr>
+<td>Boss {{#if:{{{2|}}}|-<br>}} {{{2|}}}</td>
+</tr>

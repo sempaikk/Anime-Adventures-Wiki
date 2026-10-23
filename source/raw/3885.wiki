@@ -1,0 +1,31 @@
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable from [[Summon|summon]]. When you obtain Griffin you will automatically be rewarded the Periapt of the King.
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}  
+
+Additionally, he requires at least 100% Ascension in the Periapt of the King to evolve. 
+
+== About Ascension ==
+When one uses the Periapt of the King in the Items section of their inventory, they will be teleported to a domain. By talking to the Griffin (Fallen) NPC, the player will be immediately given the choice between [Ascend] and [Sacrifice]. If [Sacrifice] is selected, the player will be offered a choice between sacrificing Periapts of Sacrifice, which raises Ascension by 0.5% each, or sacrificing Mythic units, giving 4.2% for unevolved units and 8.4% for evolved units. Any Mythics can be sacrificed, including Griffin and his evolved variant. If [Ascend] is selected the inventory will pop up, prompting the player to pick the Griffin they want to evolve, consuming 100% of the Ascension stored. 
+
+Do note that before sacrificing an eligible unit, one will be given a warning similar to that seen when sacrificing eligible units to the [[Supreme Being|Sovereign's Staff]].
+
+==Stats Overview==
+{{Tower_Infobox|caption1="There is one thing I can do for them: it is to win and keep winning until I obtain my dream. My dream is already smeared with blood. I don’t regret, I don’t feel guilty, but I’d rather sacrifice myself than watch anymore innocent children die in the name of my dream."
+|caption2="Even idols need a means to spread their reputation."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+{{Unit Navigation}}{{DISPLAYTITLE:{{PAGENAME}}}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]

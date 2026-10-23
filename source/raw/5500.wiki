@@ -1,0 +1,28 @@
+'''Shinobi''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Rare}}</center>
+|{{Characterbox|Shinobi}}
+|'''[[Shinobi]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Shinobi (Hood)}}
+|'''[[Shinobi (Hood)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Shinobi (Storm)}}
+|'''[[Shinobi (Storm)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Shinobi (Awakened)}}
+|'''[[Shinobi (Awakened)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Shinobi (Eternal)}}
+|'''[[Shinobi (Eternal)]]'''
+|-
+|}

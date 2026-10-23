@@ -1,0 +1,21 @@
+{{Unobtainable Unit}}
+''If you were looking for a different Tengen unit, see [[Tango (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He can be obtained from clearing Room 100 in [[Infinity Mansion]] and opening the [[Sound Sealed Star]]. Players who achieved a rank of Master or higher by the end of the 1st season were automatically given his shiny version.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Starting now, things are gonna get real flashy!"
+|caption2="Starting now, things are gonna get real flashy!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* {{PAGENAME}} = '''[Limited]''' - Obtained by reaching Room 100 in Update 6, 
+* {{PAGENAME}} Shiny = '''[Limited]''' - Obtained by reaching a rank of Master or higher in Update 6.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

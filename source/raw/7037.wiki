@@ -1,0 +1,16 @@
+
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can only be obtained by getting to lvl 50 in the [[Battlepass|Lily Hunt Battlepass]]
+{{EvolutionTable}}
+== Stats Overview ==
+{{Tower Infobox
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+|caption1= “Don’t worry, we don’t think of you as one of us. Miserably cowering in fear like that.”
+|caption2= “We contractors don’t have the same unflattering emotions that you do. Luckily for us.”
+}}{{Main Stats}}
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+__NOTOC____NOEDITSECTION__

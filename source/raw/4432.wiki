@@ -1,0 +1,29 @@
+
+
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Lucifer]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Any great leader requires a successor, no? [[Supreme Being (Sovereign)|Supreme]]-sama may have stayed with us until the end, but if he loses interest in us one day, he may leave for another place like the rest of the Supreme Beings. Thus, there is a need for a successor to whom we can pledge our loyalty."
+|caption2="Any great leader requires a successor, no? [[Supreme Being (Sovereign)|Supreme]]-sama may have stayed with us until the end, but if he loses interest in us one day, he may leave for another place like the rest of the Supreme Beings. Thus, there is a need for a successor to whom we can pledge our loyalty."
+|image1=
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Attacks starting from Upgrade 7 are able to hit air type enemies.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

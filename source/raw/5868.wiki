@@ -1,0 +1,90 @@
+Level rewards are a way for players to earn rewards through leveling up, in order to claim the rewards talk to Prayer Master located in leaderboards
+{| class="mw-collapsible article-table" style=" line-height: 1;"
+!level
+!5
+!10
+!15
+!20
+!25
+!30
+!35
+!40
+!45
+!50
+!55
+!60
+!65
+!70
+!75
+!80
+!85
+!90
+!95
+!100
+|-
+|reward
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|{{Gems|500}}
+|-
+|
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|5x Reroll Token]]'''
+|'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|2x Reroll Token]]'''
+|'''[[File:Reroll_Token.png|link=Traits|35x35px|Reroll Tokens]][[Traits|5x Reroll Token]]'''
+|-
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|1x Divine Wish
+|}

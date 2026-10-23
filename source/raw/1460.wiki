@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 7 - Black Clover Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He is only obtainable by evolving [[Gazu]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Filthy monkeys!"
+|caption2="Let's curse each other as much as we want!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]

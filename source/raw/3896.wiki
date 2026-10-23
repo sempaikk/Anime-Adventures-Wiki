@@ -1,0 +1,27 @@
+{{Meta Unit}}{{Meta Bleed Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. Hе is only obtainablе by evolving [[Berserker]].
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="What's going on with this armor..? The moment I put it on my body the pain from the wound disappeared like it was never there.. No, I just don't care, I don't care about pain anymore, however it happened.. This great urge is gushing from my body.. Something savage is melting into me.. I see.. This is.. This is, my.. GRAHHHHHHHHHHHHHHHHHHHH!!!"
+|caption2=GRIFFINNNNNNN!!!!!!
+}}{{Main Stats}}
+
+Attacks starting from Upgrade 8 are able to hit flying enemies.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Starting from upgrade 8, Guts becomes hybrid and can hit air enemies
+* {{PAGENAME}} bleed damage is 25% of his damage (when paired with Bloodcry (Fallen) or Blood (Unleashed) his bleed does 125% of his total damage)
+* At base max upgrade, the combined damage per second ( DPS ) with his bleed is '''28,375.25''' (Stats may vary)
+* {{PAGENAME}} "Dragonslayer Assault" attack has the fourth highest multi-hit count in the entire game, only being topped by [[Boxer]] and [[Mimic Sorcerer (Cursed Child)]] at 7 Hits and Ghost-kun (Bound) at 9 Hits!
+* On Guts "Beast of Darkness" attack, bleed is applied on the second hit rather than the first. This is mainly due to the fact that {{PAGENAME}} is missing one of his eyes and can not properly aim.
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

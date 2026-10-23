@@ -1,0 +1,21 @@
+''If you were looking for a different Carrot unit, see [[Carrot (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Now I've figured it out. The reason for the runaway growth in your power level compared to my own. It's anger, isn't it? Watching us hurt your son made you angry which made you stronger. So that's how Super strength works. How primal. Turning your fleeting raw emotions into power! Only a pathetic mortal like yourself could thrive on a tactic that unrefined, which explains why it took so long to realize it! But if that's what fuels this body, I shall use my anger! Anger toward the mortals who defile the universe. Anger toward the other gods who have tolerated such behavior. And most importantly, the white hot rage I now feel toward myself... for letting you get the upper hand on me in our battle."
+|caption2="I heard about my future from Fu. He said that the limitations of this body will come. And so... As I crossed various timelines, I fought every [[Carrot]] in them... In order to become familiar with this body. This fight was with the 100th one. Now this perfected body is completely mine."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+
+==Trivia==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

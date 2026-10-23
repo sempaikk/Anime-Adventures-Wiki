@@ -1,0 +1,7 @@
+[[File:Time_Traveller's_Shard.png|371x371px|The Time Traveller Shard.|alt=The Time Traveller Shard.|thumb]]
+The {{RarityColor|Secret|Time Traveler Shard}} is a {{RarityColor|Secret|Secret Limited}} item that was added in the [[Update Log|13.5 Update]].  It is received by completing tier 5 or above [[Portals|Witch Portals]] with a small drop chance. It is used to create the [[Secret Portal]], Witch City (Walpurges), which guarantees the host [[Homuru]]. You need 4 shards to create the secret portal. 
+
+==Trivia==
+* Remember to make sure when crafting the portal that you don't have all portal slots full. The portal has a chance of being lost if all slots are full. Make sure you have 199/200 portals or fewer.
+* The drop chance is '''estimated''' to be around 3%. Up until the summer update, the drop rate of Time Traveler Shard was increased by 50%,from 3% to 4.5%.
+* It is '''believed''' to be that drop chance does not scale with the difficulty of the portal.

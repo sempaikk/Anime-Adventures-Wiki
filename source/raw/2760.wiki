@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 14 - Sword Art Online Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He is only obtainable by clearing stage 4 or 5 of the [[Raids#West City (Freezo Invasion)|West City]] raid with a 1% and 5% chance respectively.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“My greatest opponent is myself. If I can discover what my weaknesses are, then I will be an even stronger fighter than I already am.”
+|caption2=”Sometimes, we have to look beyond what we want and do what's best.”
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret_Units]]

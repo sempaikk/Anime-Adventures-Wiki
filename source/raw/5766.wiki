@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 20.4.1 Fool's Hunt!}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can be obtained by summoning on the 2024 Christmas banner or by opening Icy Stars.
+
+{{EvolutionTable
+}}
+{{Takedowns|5000}}
+
+== Stats Overview ==
+
+{{Tower Infobox
+|caption1="I, Cream, will dissolve your atoms across my void."|damage=900 -> 14,000
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+== Trivia==
+*Rerelease Unit/NPC
+__NOTOC____NOEDITSECTION__

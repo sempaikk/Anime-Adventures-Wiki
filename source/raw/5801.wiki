@@ -1,0 +1,26 @@
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Psychic Princess]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|image1=[[File:Psychic Princess (Pose).png|184px]]
+|image2=[[File:Physic Princess Shiny (Pose).png|184px]]
+|caption1="Welcome... to my fortress. You don't need an introduction, do you? For it is I!"
+|caption2="Even if I were to die, I would definitely make a sword that matches [[Silver Slayer (Hunter)|you]]."
+}}{{Main Stats
+}}
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Psychic Princess is the only unit who shares the same name as her unevolved form.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

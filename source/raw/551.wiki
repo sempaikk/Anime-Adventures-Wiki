@@ -1,0 +1,14 @@
+=='''Overview'''==
+'''Touci''' is a {{Rarity|Legendary}} unit. She is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Everything is 'terrible'? Don't make me laugh. So what about me... for me, it's been terrible since I was born."
+|caption2="Everything is 'terrible'? Don't make me laugh. So what about me... for me, it's been terrible since I was born."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

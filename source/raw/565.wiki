@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 3 - Bleach Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through [[Summon|summons]] during Hollow World event.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You give me too much credit. These days, I'm just a plain old candy-store owner."
+|caption2="I made a decision when I got out of bed this morning. 'Once I get out of this bed, I'm a member of the Twelfth Division. From now on, I'm only going to get angry if someone badmouths the Twelfth Division.' After all, I think changing what makes you mad and what doesn't is kind of basically the same thing as 'changing your own feelings'. Right?"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Trickster was the first limited mythical unit added to the game that can be obtained via summoning on the banner, and can evolve into a evolved secret unit.
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

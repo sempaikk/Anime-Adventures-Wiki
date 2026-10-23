@@ -1,0 +1,10 @@
+The '''Demon Academy Stars''' are limited capsules from '''Update 12''' that granted the player a '''random mythic unit''' from Update 12 and could be obtained by purchasing them from Issai for 650 Demon Academy Symbols.
+
+==Information==
+*<span style="color:#FFC208;">+Guaranteed to contain one of 3 Limited Demon Academy Mythic Units</span>
+*<span style="color:#921296;">''"I'm fine with being fool. If there's no way I can win with my abilities, then I'll stick with being a fool to the end!"''</span>
+
+==Obtainable Mythics==
+{{Container Characterbox|{{Characterbox|Ria}}
+{{Characterbox|Akena}}
+{{Characterbox|Kuneko}}|color=#c70000}}

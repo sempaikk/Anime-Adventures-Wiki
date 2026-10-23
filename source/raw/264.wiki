@@ -1,0 +1,17 @@
+''If you were looking for a different Operator unit, see [[Operator (disambiguation)]]''
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is an {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="All who interfere will be wiped out...!"
+|caption2="I don't plan to lose."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. She can only be obtainable by evolving [[Cowardly]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I can’t take it anymore… doing a job like this makes you crazy.."
+|caption2="I’m sorry! I’m sorry! I’m going to quit, so please don’t kill me!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Physical]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Event Units]]

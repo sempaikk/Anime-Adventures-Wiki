@@ -1,0 +1,47 @@
+{{Meta Support Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. She is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It's not about whether or not you're a human or an Exceed. We're all living beings and we have to do what is right. I'll be right beside you. There's nothing to be afraid of."
+|caption2="It's not about whether or not you're a human or an Exceed. We're all living beings and we have to do what is right. I'll be right beside you. There's nothing to be afraid of."
+|title1=Wind Dragon
+}}{{Main Stats}}
+
+
+==Active Ability: Sky Enchantment==
+[[File:SkyEnchantmentIcon.png|thumb|left]]
+Sky Enchantment is available upon placement. When activated, Wenda increases the magical damage stats of units in her range by 30%. The buff lasts for 30 seconds and the ability has a cooldown of 60 seconds. When correctly placed down and timed correctly, she can buff units by 100%.
+
+
+=="Infinite" Buff Guide==
+Wind Dragon '''MUST BE CURSED''' with <span style="color:#ff3839;">'''+SPA'''</span> curse in order for this to work. '''ATTACK SPEED FROM STATS DO NOT MATTER AND DO NOT AFFECT ABILITY COOLDOWN.'''
+
+The percent shouldn't really matter, but depending on how high or low the increase might effect how long the loop will last. (Not exactly sure on the specifics yet.)
+
+Guide:
+*1. Place 4 Wind Dragon's, doesn't really matter the position as long as all they are all in each others range.
+*2. Activate the first Wind Dragon's ability, then wait 4-5 seconds. (Using an auto-clicker set to a 4-5 second interval can help if you are having trouble timing it.)
+*3. Activate a second Wind Dragon's ability. Then wait for the 25% buff to disappear.
+*4. As soon as the 30% disappears, immediately activate your third Wind Dragon's ability, then wait until the 69% buff to disappear.
+*5. As soon as the 69% disappears, immediately activate the your fourth Wind Dragon's ability.
+After this they should all loop 100% for a while, this loop isn't truly infinite since over time the ability will slowly desync, but if timed right can last for over 50 rounds, which is long enough for pretty much every situation.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Before Update 7.6.0 (Karakora Town Event Part 2), she was a ground unit, meaning she could not be deployed on hill areas. 
+*Before Update 12.0.0 (Cloud Hunt), her damage wasn't going up from her upgrades. As of this update, she currently has the highest DPS of all {{Rarity|Legendary}} tier units in the game, as her DPS on max upgrade is just as the same as [[Devil Boss]] on his max upgrade.
+*Before Update 14.0.0 (Sword Art Online):
+** Her spawn cap was 3. Now it's 6, and global.
+*Chaining her buffs allows her to buff all magic units by 100%, although to consistently do this you may need to apply curses to her SPA to get this to a full uptime, this also applies to [[Commander]]
+
+==Gallery==
+__NOTOC__ __NOEDITSECTION__
+{{Unit Navigation}}
+[[Category:Legendary Units]]

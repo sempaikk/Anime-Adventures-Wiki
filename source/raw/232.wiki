@@ -1,0 +1,23 @@
+==Overview==
+'''Joan''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I don't care if you're a god. If you lay even one finger on [[Weather Girl (Thief)|Weather Girl-san]]]], I'll become the Devil of the Blue Sea"
+|caption2="Men cannot hit women. It's been common sense since the dinosaurs lived!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* His shiny skin is a reference to Sanji's common reaction to seeing pretty girls.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]
+[[Category:Burn Units]]

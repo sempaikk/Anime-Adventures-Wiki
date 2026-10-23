@@ -1,0 +1,203 @@
+[[File:Raid.png|thumb|x120px]]
+'''Raids''' is a mode accessible from Neo-Tokyo. As of Update 10.7.5, players no longer are required to buy a raid ticket to enter. All raid ticket in player's inventory were refunded automatically.
+
+<h2 style="text-align: center;">Available Raids</h2>
+{{Anchor2|id=back}}
+<div class="mobileonly">
+<div class="mw-customtoggle-OFF mw-customtoggle-ON">
+<div class="mw-collapsible" id="mw-customcollapsible-ON">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>
+<div>{{Anchor1|Ant Kingdom (Midnight)}}</div>
+<div>{{Anchor1|Sacred Planet}}</div>
+<div>{{Anchor1|Strange Town}}</div>
+<div>{{Anchor1|Marine's Ford (Buddha)}}</div>
+<div>{{Anchor1|Ruined City (The Menace)}}</div>
+<div>{{Anchor1|Cursed Festival}}</div>
+<div>{{Anchor1|Sand Village}}</div>
+<div>{{Anchor1|Nightmare Train}}</div>
+<div>{{Anchor1|Future City}}</div>
+<div>{{Anchor1|Storm Hideout}}</div>
+<div>{{Anchor1|Future City (Tyrant's Invasion)}}</div>
+</center>
+</div><br></div>
+<div class="grid_body" style="background-color: #00000026;border: 2px solid #87ceeb;padding: 10px;border-radius: 5px;">
+<center>Raids</center>
+<tabber>
+
+|-|Ant Kingdom (Midnight)=
+<h2 style="text-align: center;">Ant Kingdom (Midnight)</h2>
+
+==Raid Rewards==
+* [[Spider]] (1%)
+* {{Gems|75}}
+
+==Clear Rewards (One-Time)==
+<span style="color: rgb(63, 209, 254); font-weight: bold;">?/5</span>
+* +{{Gems|250}}
+<span style="color: rgb(63, 209, 254); font-weight: bold;">?/10</span>
+* +[[File:Reroll Token.png|25px]] 3x Trait Reroll Tokens
+<span style="color: rgb(63, 209, 254); font-weight: bold;">?/15</span>
+* +1x Guaranteed Unit ([[Spider]])
+
+|-|Sacred Planet=
+<h2 style="text-align: center;">Sacred Planet</h2>
+
+== Raid Rewards ==
+* The Guardian (Act 1): {{Gems|30}} and {{Item#Materials|Mage Mark|3-7}}
+* The Demon King(Act 2): {{Gems|40}} and {{Item#Materials|Mage Mark|5-9}}
+* The Warlock (Act 3): {{Gems|40}} and {{Item#Materials|Mage Mark|7-14}}
+* The Genie (Act 4): {{Gems|40}}, {{Item#Materials|Mage Mark|12-18}}, {{Item#Materials|Relic Shard|1 (10%)}}, [[Bubblegum]] (1%)
+* The Pure Form (Act 5): {{Gems|75}}, {{Item#Materials|Mage Mark|22-28}}, {{Item#Materials|Relic Shard|1 (100%)}}, [[Bubblegum]] (3%)
+
+== Raid Shop ==
+*[[Items|Fusion Earrings]][[File:Fusion Earrings.png|30px]] - {{Item#Materials|Mage Mark|25}}
+
+|-|Strange Town=
+<h2 style="text-align: center;">Strange Town</h2>
+
+== Raid Rewards ==
+* Love Deluxe (Act 1): {{Gems|40}} and {{Item#Materials|Killer Coin|3-7}}
+* Highway Star (Act 2): {{Gems|40}} and {{Item#Materials|Killer Coin|5-9}}
+* The Harvest (Act 3): {{Gems|40}} and {{Item#Materials|Killer Coin|7-14}}
+* Atom Heart (Act 4): {{Gems|40}}, {{Item#Materials|Killer Coin|12-18}}
+* Killer Queen (Act 5): {{Gems|75}}, {{Item#Materials|Killer Coin|22-28}}
+
+== Raid Shop ==
+*[[Items|Heart Bomb]][[File:Heart Bomb.png|30px]] - {{Item#Materials|Killer Coin|30}}
+*[[Evolution|Restoration Diamond]][[File:Restoration Diamond.png|30px]] - {{Item#Materials|Killer Coin|400}}
+*[[Evolution|Reality Pen]][[File:Reality Pen.png|30px]] - {{Item#Materials|Killer Coin|400}}
+*[[Evolution|Stray Cat]][[File:Stray Cat.png|30px]] - {{Item#Materials|Killer Coin|400}}
+*[[Evolution|Echo Egg]][[File:Echo Egg.png|30px]] - {{Item#Materials|Killer Coin|400}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}
+
+|-|Marine's Ford (Buddha)=
+<h2 style="text-align: center;">Marine's Ford (Buddha)</h2>
+
+== Raid Rewards ==
+
+* [[Golden Navy]] (1%)
+* {{Gems|40}}
+
+|-|Ruined City (The Menace)=
+<h2 style="text-align: center;">Ruined City (The Menace)</h2>
+
+== Raid Rewards ==
+
+* [[Menace]] (1%)
+* {{Gems|40}}
+
+|-|Cursed Festival=
+<h2 style="text-align: center;">Cursed Festival</h2>
+
+==Raid Rewards==
+* Cursed Festival - Wisteria Bloom
+* {{Gems|75}} 
+
+==Raid Shop==
+*[[Items|Nichirin Blade]][[File:Nichirin Blade.png|30px]] - {{Item#Materials|Wisteria Bloom|30}}
+<br>
+*[[Evolution|Flesh Kama]][[File:Flesh Kama.png|30px]] - {{Item#Materials|Wisteria Bloom|130}}
+*[[Evolution|Demon Obi]][[File:Demon Obi.png|30px]] - {{Item#Materials|Wisteria Bloom|130}}
+*[[Evolution|Nichirin Cleavers]][[File:Nichirin Cleavers.png|30px]] - {{Item#Materials|Wisteria Bloom|130}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}
+
+|-|Future City (Tyrant's Invasion)=
+<h2 style="text-align: center;">Future City (Tyrant's Invasion)</h2>
+
+==Raid Rewards==
+* Future City (Tyrant's Invasion) - Scouter
+* {{Gems|200}}
+
+==Raid Shop==
+*[[Items|Superior Senzu Bean]][[File:Superior Senzu Bean.png|30px]] - {{Item|Scouter|25}}
+<br>
+*[[Evolution|Supernova]][[FIle:Supernova.png|30px]] - {{Item|Scouter|120}}
+*[[Evolution|Super Capsule]][[File:Super Capsule.png|30px]] - {{Item|Scouter|120}}
+*[[Evolution|Demon Symbol]][[File:Demon Symbol.png|30px]] - {{Item|Scouter|120}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}
+
+|-|Storm Hideout=
+<h2 style="text-align: center;">Storm Hideout</h2>
+
+==Raid Rewards==
+* Storm Hideout - Tomoe
+* {{Gems|200}}
+
+==Raid Shop==
+*[[Items|Awakened Tomoe]][[File:Awakened Tomoe.png|30px]] - {{Item|Tomoe|25}}
+*[[Items|Awakened Double Tomoe]][[File:Awakened Double Tomoe.png|30px]] - {{Item|Tomoe|50}}
+*[[Items|Awakened Triple Tomoe]][[File:Awakened Triple Tomoe.png|30px]] - {{Item|Tomoe|200}}
+<br>
+*[[Evolution|Lightning Blade]][[FIle:Lightning Blade.png|30px]] - {{Item|Tomoe|120}}
+*[[Evolution|Yata Mirror]][[File:Yata Mirror.png|30px]] - {{Item|Tomoe|120}}
+*[[Evolution|Chakra Drill]][[File:Chakra Drill.png|30px]] - {{Item|Tomoe|120}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}
+
+|-|Future City=
+<h2 style="text-align: center;">Future City</h2>
+
+==Raid Rewards==
+* {{Item#Materials|Power Cell}}
+* [[Chunks]]
+* [[Experiment X (Imperfect)]]
+* {{Gems|200}}
+
+==Raid Shop==
+The Future City raid shop can be opened by talking to the Red Hair NPC who sells:
+*[[Chunks]] - {{Item|Power Cell|50}}
+*[[Experiment X (Imperfect)]] - {{Item|Power Cell|25}}
+*[[Evolution|Infinite Power Core]][[File:Infinite Power Core.png|30px]] - {{Item|Power Cell|150}}
+*[[Evolution|Mini Time Machine]][[File:Mini Time Machine.png|30px]] - {{Item|Power Cell|200}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Nightmare Train=
+<h2 style="text-align: center;">Nightmare Train</h2>
+
+== Raid Rewards ==
+
+* Demonic Invasion - Blazing Star -> Blazing Shards + Chance of getting [[Martial Demon]]
+* {{Gems|200}}
+
+==Raid Shop==
+*[[Martial Demon]] - {{Item|Blazing Shard|50}}
+*[[Evolution|Blazing Creme Donut]][[File:Blazing Creme Donut.png|30px]] - {{Item|Blazing Shard|75}}
+*[[Evolution|Demon Beads]][[File:Demon Beads.png|30px]] - {{Item|Blazing Shard|100}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Shigashinu District=
+<h2 style="text-align: center;">Shigashinu District</h2>
+
+== Raid Rewards ==
+* Rumbling - Rumbling Star -> Path Shards + Chance of getting [[Monkey]]
+* {{Gems|200}}
+
+== Raid Shops Items==
+*[[Monkey]] - {{Item|Path Shard|50}}
+*[[Evolution|Path Branch]][[File:Path Branch.png|35px]] - {{Item|Path Shard|25}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Sand Village=
+<h2 style="text-align: center;">Sand Village</h2>
+
+==Raid Rewards==
+* Midnight Attack - Desert Star -> Tailed Beast Shards + Chance of getting [[Fox Ninja (Demon Cloak)]]
+* {{Gems|75}}
+
+==Raid Shop==
+*[[Fox Ninja (Beast Cloak)]] - {{Item|Tailed Beast Shard|50}}
+*[[Evolution|Hidden Seal]][[File:Hidden Seal.png|30px]] - {{Item|Tailed Beast Shard|100}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+</tabber>
+</div>
+
+==Trivia==
+*Enemy raid units' HP were nerfed on Update 5.5, and on the Halloween update.         
+*Shigashinu District raid and Marine's Ford (Buddha) was removed since Update 19.0.
+__NOEDITSECTION____NOTOC__
+[[Category:Game Modes]]

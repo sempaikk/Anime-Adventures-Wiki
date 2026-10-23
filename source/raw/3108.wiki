@@ -1,0 +1,25 @@
+''If you were looking for a different Tango unit, see [[Tango (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained through summons.
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Do I look like someone with any talent? See, this country is vast. It's teeming with people who'd blow your mind. Some are complete enigmas. Some can take up a sword and become expert in two months. Me, chosen? Don't give me that crap! Just how many lives do you think I've let slip through my fingers until now?"
+|caption2="As a Demon Slayer, it goes without saying that I'll protect the public leading their nonchalant, drab lives. But to be blunt in my flashy way, you three are more important to me. So don't die on me."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

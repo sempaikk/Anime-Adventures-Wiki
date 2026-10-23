@@ -1,0 +1,26 @@
+=='''Overview'''==
+'''Emperor Whitehair''' is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Whitehair]].
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The One Piece is real!"
+|caption2="No matter who your parents are, we are all children to the sea."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

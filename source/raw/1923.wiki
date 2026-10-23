@@ -1,0 +1,16 @@
+[[File:Dimensionalstar.png|thumb]]
+The '''Dimensional Star''', added in [https://animeadventures.fandom.com/wiki/Update_Log#Update_8_-_JoJo's_Bizarre_Adventure_+_Christmas_Update_Part_1 Update 8], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (3rd Season). This item will become '''unobtainable''' as of Update 10.
+==Information==
+*<span style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span style="color:#921296;">''"I'm no one."''</span>
+
+* <span style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span> (Prior to Update 10)
+
+==Rewards==
+{{Container Characterbox
+|
+{{Characterbox|Toby}}
+}}
+
+__NOEDITSECTION____NOTOC__
+[[Category:Infinity Castle Stars]]

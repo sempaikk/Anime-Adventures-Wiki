@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 12.5 - Entertainment District Raid Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}.  He is only obtainable by evolving [[Gunslinger]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You're wrong. At this moment you are facing a simple Gun-man. And you shall kneel before that simple Gun-man. Nothing more."
+|caption2="Maybe I am a coward. But is it really that bad? Is fighting the most important thing? Even if people die for it?"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Gunslinger deals 1.85x damage upon acheiving a critical attack unlike the usual 1.5x damage boost. it is clearly listed he gets a +35% crit damage buff in his evolution details making him deal over 2x with nail and dish out DESTRUCTIVE damage when equipped with the lostvaine relic. These factors, combined with him hitting 3 times on placement and having really cheap upgrade costs make him one of the best first placements in the game 
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved_Units]]
+[[Category:Trigun Units]]
+[[Category:Damage Type Physical]]
+[[Category:Battle Pass Units]]

@@ -1,0 +1,83 @@
+-- created by User:AnataBakka - for wiki -  https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki */
+-- taken from https://leagueoflegends.fandom.com/wiki/Module:Fd */
+
+-- This module formats numbers and changes the fraction of a number to a lower sized font. E.g. 12.34 ... the .34 would be in a smaller sized font.
+
+--<pre>
+
+local p = {}
+
+local find = string.find
+local tostring,match = tostring,match
+
+function p.get(frame)
+    local args = (frame.args[1] and frame.args) or frame:getParent().args
+    
+    args[1] = tostring(args[1])
+
+    if find(args[1],".", 1, true) == nil or find(args[1], "[0-9]") == nil then
+        return tostring(args[1])
+    end
+
+    if find(args[1], "</span>", 1, true) == nil then
+    	local a, b, c = args[1]:match"([^%.]*)%.([0-9]*)(.*)"
+        return tostring(a .. ".<small>" .. b .. "</small>" .. c)
+	end
+
+    local a,b,c = args[1]:match"([^%.]*)%.(.*)</span>(.*)"
+
+    if find(b, "<span", 1, true) == nil then
+        return tostring(a .. ".<small>" .. b .. "</small></span>" .. c)
+    end
+
+	return tostring(a .. ".<small>" .. b .. "</small>" .. c)
+end
+
+function p.getmulti(frame)
+    local args = (frame.args[1] and frame.args) or frame:getParent().args
+    
+    args[1] = tostring(args[1])
+
+    if find(args[1], ".", 1, true) == nil or find(args[1], "[0-9]") == nil then
+        return args[1]
+    end
+    
+    local val    = require('Module:Feature').split(args[1], ".", true)
+    local values = {val[1]}
+    local len_values = 1
+    local i      = 2
+    
+    while val[i] ~= nil do
+        if find(val[i],"</span>", 1, true) == nil then
+        	local b,c    = val[i]:match"([0-9]*)(.*)"
+			len_values = len_values + 1
+
+            if find(b, "[0-9]") == nil then
+                values[len_values] = "." .. val[i]
+            else
+                values[len_values] = ".<small>" .. b .. "</small>" .. c
+            end
+        else
+            local b,c    = val[i]:match"(.*)</span>(.*)"
+			len_values = len_values + 1
+
+            if find(b, "[0-9]") == nil then
+                values[len_values] = "." .. val[i]
+            elseif find(b, "<span", 1, true) == nil then
+                values[len_values] = ".<small>" .. b .. "</small></span>" .. c
+            else
+                values[len_values] = ".<small>" .. b .. "</span></small>" .. c
+            end
+        end
+
+        i = i + 1
+    end
+    
+    return frame:preprocess(table.concat(values))
+end
+
+return p
+
+--</pre>
+
+--[[Category:Lua]]

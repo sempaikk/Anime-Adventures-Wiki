@@ -1,0 +1,15 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]] .
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I hate myself more than anyone. I always think I have to get my act together, but I end up cowering, running away, sniveling. I want to change. I want to be a competent person"
+|caption2="DEMON GIRL CHAN"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

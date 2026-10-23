@@ -1,0 +1,6 @@
+<table class="advanced-tooltip" style="border-spacing: 0;">
+
+<tr><th class="game-font-face" style="padding: 0;">[[{{#switch: {{{check_img|69}}}| 69 = File:{{{1|}}}| {{#ifexist:File:{{{1|}}}.png|File:{{#invoke:UnitData|get|Non_Evo_Name|name={{{1|}}}|File:{{{1|}}}}}}}}} (Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]</th></tr>
+<tr class="tooltip-contents" style="display: none;"><td style="display: block; padding: 8px 12px; background: linear-gradient(135deg, rgb(24 24 24), rgb(7 7 7)); border-radius: 8px; font-size: 13px; font-family: 'Fredoka One'; color: #e6e6e6; display: block; max-width: 500px; width: max-content; height: fit-content; line-height: 1.2; font-size: 14px; border: 2px solid rgb(100 100 100);"><span style="margin-bottom: 6px; line-height: 1.28;"><span style="font-size: 17.5px;">{{{1|}}}</span><br>{{{Rarity|}}}</span><div style="display: flex; align-items: center; gap: 6px;">g1{{{base_damage_type|}}}G2{{{secondary_damage_types|}}}G3</div><hr style="border-color: #36383b;">{{{Description|}}}</td></tr>
+
+</table>

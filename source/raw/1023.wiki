@@ -1,0 +1,21 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit''.'' She is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Even if no one in the world believes you, stick out your chest and scream in defiance."
+|caption2="Don't even try to move one step from there. If you try to follow me... I'll never forgive you!"
+}}{{Main Stats}}
+Attacks starting from Upgrade 7 are able to hit air type enemies.
+
+==Passive Ability:==
+She can freeze enemies with her attacks (Single-target --> Cone --> Full AOE). She is the best stunner for beginners.
+
+==Trivia== 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

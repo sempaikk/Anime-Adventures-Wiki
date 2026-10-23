@@ -1,0 +1,35 @@
+{{Unobtainable Unit|Update 11 - Seven Deadly Sins Update Part 1}}
+{{Meta Unit}}{{Meta Support Unit}}
+
+==Overview ==
+'''JIO (Over Heaven)'''  is a {{Rarity|Secret}} {{LU}}.  Hе can only be obtained through opening Frozen Stars. 
+
+== Evolution==
+
+{{Tower_Infobox
+|caption1="This is... The Universe Over Heaven!"
+|caption2="Rеality bends to my will!"
+|image1=
+}}{{Main Stats}}
+
+== Active Ability: This is... The Universe Over Heaven! ==
+[[File:JIO (Over Heaven) Ability.png|left|thumb|100x100px]]
+JIO (Over Heaven) can stop time for 20 seconds at the whole map including the wave timer. Take that ability as an advantage to destroy insanely high HP enemies. The cooldown  is 6 minutes.
+{{Clr}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia== 
+
+*{{PAGENAME}} is the first secret unit which could be pulled from an event star, which is also now over. Since the 2023 summer update, he is now not the only unit to be obtained like this, units like [[Pirate King (Final)]], [[Dracula (Unholy King)]], and [[Illusionist (Transcended)]] are obtained the same way.
+*This was the hardest unit to get, not only for the winter update, but overall, due to its unreleased drop chance (predicted to be 1/200k or (0.000005%)).
+*The shiny version of him is so rare that trading for it is almost impossible due to this shiny unit's value being labelled as "Owner's Choice", meaning so few exists that the owner gets to decide the value of the unit. (Estimated to be less than '''''30''''' total unboxed in the entire game, and a very small portion of that on regular trade)
+*This unit with unique gets very overpowered with a dps increase of 433% due to its one placement, that is also valid for ainz and other units with one placement
+*This unit is one of the most valuable units in the entire game, as its value can reach up to 80,000 Robux due to its rarity and ludicrous amount of damage with the "Unique" trait equipped.
+*Since the Update 19.0, he got a 50% buff.
+
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Damage Type Magic]]
+[[Category:Damage Type Light]]
+[[Category:Event Units]]

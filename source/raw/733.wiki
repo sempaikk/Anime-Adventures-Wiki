@@ -1,0 +1,27 @@
+{{Unobtainable Unit|}}
+=='''Overview'''==
+
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable by evolving [[Cat Guard]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'm sorry, but I have to kill [[Gene|you]]. For the [[King Ant|King]]..."
+|caption2="I must stop [[Gene|him]] here!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Bleed Units]]

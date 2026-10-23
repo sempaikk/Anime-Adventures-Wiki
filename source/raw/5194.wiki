@@ -1,0 +1,25 @@
+{{Unobtainable Unit}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by clearing the Nightmare Hunt with an estimated 0.5% chance, which increases up to 1% as you bring in Halloween 2023 units/skins.
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1="I Am The All-Range....A̵̡͓͉͛̕̕T̵͖̞̫͛̾͝O̴̦̘͕͆̓͊M̸̻̻͕̔̾͑I̸̟̻̔̔͆C̴͓̦͊͝͝"
+|caption2="Once upon a time, there was a man who wished to withstand a nuclear bomb. The man developed his muscles, honed his mind, and perfected his skills. However, there were yet heights he could not attain. But I couldn't allow myself to give up. So after years upon years of training, I arrived at a single solution. If I don't want to be vaporized in a nuclear explosion... I simply have to become nuclear myself."
+}}{{Main_Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+* He and his [[Umbra (Nuclear)|evolved form]] are the second units to not deal Physical, Magic or Burn damage. Their case is ''purely'' true damage/dark.
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__  
+[[Category:Secret Units]]
+[[Category:Event Units]]

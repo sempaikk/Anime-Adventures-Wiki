@@ -1,0 +1,29 @@
+{{Meta Support Unit}}
+{{Unobtainable Unit|Update 3 - Bleach Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Trickster]] and his evolved form is only available from the Hollow World event. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="What’s so outrageous? This is a real battle. If you lose, you die. Taking every possible precaution to avoid death...isn't that what everyone does?"
+|caption2="I made a decision when I got out of bed this morning. 'Once I get out of this bed, I'm a member of the Twelfth Division. From now on, I'm only going to get angry if someone badmouths the Twelfth Division.' After all, I think changing what makes you mad and what doesn't is kind of basically the same thing as 'changing your own feelings'. Right?"}}{{Main Stats}}
+
+== Active Skill: Kannonbiraki Benihime Aratame ==
+Kisuke will buff his allies’ range by 20% and SPA by 10%. This ability is stackable with other buffs (except [[Priest (Heaven)]]'s Time Acceleration, but range buffs still stack), his ability cooldown is not global and is very useful for pretty much every mode making Kisuke very worth getting.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* His upgrades' costs were just the same as [[Paradox (Divine Sight)]].
+
+==Gallery==
+<gallery>
+File:New trickster cosmetic.png</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]

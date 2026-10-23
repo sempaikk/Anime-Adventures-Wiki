@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 6 - Jujutsu Kaisen Update Part 1}}
+=='''Overview'''==
+'''Lyla (Celestial)''' is a {{Rarity|Secret}} {{LU}}. She is only obtainable by evolving [[Lyla|Lyla]] and obtaining all her keys, including Taurus, Leo, and Aquarius.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=I need to fight... or else everyone will die...
+|caption2=Even if you lose everything, something remains.
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+This unit can '''NOT''' be sold once placed.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+
+[[Category:Evolved Units]]

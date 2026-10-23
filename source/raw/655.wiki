@@ -1,0 +1,26 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Ariva]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I... I've... always... hated it. I hated myself, who only ever stole from others... I feel like I was finally... able to leave something behind..."
+|caption2="I... I've... always... hated it. I hated myself, who only ever stole from others... I feel like I was finally... able to leave something behind..."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

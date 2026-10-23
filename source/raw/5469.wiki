@@ -1,0 +1,21 @@
+{{Story Meta Unit}}{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained evolving [[Shrimp]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="I told you that I'd send you flying. You guys... Shouldn't lie."
+|caption2="Even though my chances of winning are slim, I still can't run away."
+}}{{Main Stats}}
+
+Attacks starting from upgrade 6 are able to hit air type enemies
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__

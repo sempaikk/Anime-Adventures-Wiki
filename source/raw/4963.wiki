@@ -1,0 +1,23 @@
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by summons.
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1= “Brilliant people shine more brightly than ordinary ones. They never regret or agonize over what they’ve done."
+|caption2= "I killed, and killed, and killed. I killed many people to act on my ideal. I killed so many that I stopped caring about innocent people, and I saved a thousand times as many as I killed."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+== SeIIing ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+<references />

@@ -1,0 +1,47 @@
+== Traits ==
+Traits are one of the most common modifiers to a units viability. They can range from giving a unit a boost to their three core base stats, to allowing them to gain more money or inflict more damage upon certain enemies. 
+
+Traits can be applied to units via. Wis who stands outside of the evolution area in the main lobby. Star Remnants can be collected via. Bulmy's shop, challenges, capsules, and many other methods. 5 star remnants are required to spin a trait onto a mythic or secret unit, while only 1 is required for any unit under that rarity level. Trait reroll tokens on the other hand only require one of themselves to spin a trait on a unit of any rarity. They can be traded for, aquired through the pass, or bought with Robux.
+
+Unique and Divine are both the best trait in the game, Unique is better for units for less than 4 placements and Divine is better for 4 or more.
+
+==Traits Tier List==
+{{TierList/Container|id=infiniti<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=S|text=S}}</div>
+<div>{{Anchor1|id=A|text=A}}</div>
+<div>{{Anchor1|id=B|text=B}}</div>
+<div>{{Anchor1|id=C|text=C}}</div>
+<div>{{Anchor1|id=D|text=D}}</div>
+<div>{{Anchor1|id=E|text=E}}</div>
+<div>{{Anchor1|id=F|text=F}}</div><!-- names must match Item Container names -->
+|1=
+{{TierList/Item Container|color=#ff7f7f|id=infiniti<!-- id TierList -->|name=S
+|
+[[File:Trait Unique.png|90x90px]]
+[[File:Trait Divine.png|90x90px]]}}
+{{TierList/Item Container|color=#febf85|id=infiniti<!-- id TierList -->|name=A
+|
+[[File:Trait Golden.png|90x90px]]
+[[File:Trait Celestial.png|90x90px]]
+[[File:Trait Godspeed.png|90x90px]]
+}}
+{{TierList/Item Container|color=#ffdf87|id=infiniti<!-- id TierList -->|name=B
+|
+[[File:Trait Reaper.png|90x90px]]
+[[File:Trait Superior.png|90x90px]]
+[[File:Trait Nimble.png|90x90px]]
+[[File:Trait Sniper.png|90x90px]]
+}}
+{{TierList/Item Container|color=#ffff8b|id=infiniti<!-- id TierList -->|name=C
+|
+[[File:Trait Range.png|90x90px]]
+[[File:Trait Adept.png|90x90px]]}}
+{{TierList/Item Container|color=#82fe89|id=infiniti<!-- id TierList -->|name=D
+}}
+{{TierList/Item Container|color=#82fffe|id=infiniti<!-- id TierList -->|name=F
+|
+[[File:Trait Culling.png|90x90px]]
+}}
+}}
+__NOTOC____NOEDITSECTION__

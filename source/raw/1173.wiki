@@ -1,0 +1,25 @@
+=='''Overview'''==
+{{PAGENAME}} is a Mythical unit. He is only obtainable by evolving [[Cold Mage]]. 
+
+{{EvolutionTable}}
+==Stats Overview ==
+{{Tower_Infobox
+|caption1="I'll do what I want till the end. Cut me down if you want."
+|caption2="I'll do what I want till the end. Cut me down if you want."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+
+==Trivia==
+* Gray is able to damage and freeze air units.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

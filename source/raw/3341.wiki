@@ -1,0 +1,28 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Being blind has its advantages, because there are many things in this world i would rather not look at."
+|caption2="If you don't want justice to be dishonored, keep it close to you all the time! If we lose credibility just by admitting fault, then we didn't have any in the first place!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Units]]
+[[Category:Mythic Units]]

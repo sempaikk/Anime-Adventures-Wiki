@@ -1,0 +1,4 @@
+* {{#invoke:NumFormatting|getDPS|{{#if:{{{1}}}|{{{1}}}}}}}
+* {{#invoke:NumFormatting|getDPM|{{#if:{{{1}}}|{{{1}}}}}}}
+* {{#invoke:NumFormatting|getTotalSection|{{#if:{{{1}}}|{{{1}}}}}|{{#if:{{{2}}}|{{{2}}}}}}}
+----

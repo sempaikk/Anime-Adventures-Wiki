@@ -1,0 +1,9 @@
+====<center>example</center>====
+<nowiki>{{StatsBox|Upgrade_No=0|Attack_Type=AoE (Cone)/AoE (Circle)/AoE (Very Large Circle)}}</nowiki>
+
+
+----
+
+====<center>result</center>====
+<code>{{StatsBox|Upgrade_No=0|Attack_Type=AoE (Cone)/AoE (Circle)/AoE (Very Large Circle)}}</code>
+__NOTOC____NOEDITSECTION__

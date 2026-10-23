@@ -1,0 +1,1 @@
+{{#invoke:NumFormatting/Sub1|getSpawnCap|{{{1|}}}}}

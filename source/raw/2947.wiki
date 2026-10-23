@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 12.5 - Entertainment District Raid Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He is only obtainable by Evolving 15 [[Vego]] and 15 [[Carrot]]. Or 5 Shiny Vegos and 5 Shiny Carrots to make a shiny variant of him. You also have to acquire the [[Evolution|Fusion Jacket]] for {{Gold|999}} from Green Alien in 2023 April Fools Event.
+
+Veko was added as part of the 2023 April Fools Event.
+==Stats Overview==
+{{Tower_Infobox
+|caption1=FU-SION HA!!!!!!
+|caption2=I've transcended heaven and hell to obtain what power? NO TO OUT PIZZA THE HUT
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Event Units]]
+[[Category:Secret Units]]

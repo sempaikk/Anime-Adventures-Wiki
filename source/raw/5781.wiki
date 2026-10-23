@@ -1,0 +1,32 @@
+{{Infinity Castle Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit that is an original charactеr created by [[Anime Adventures Wiki|''Gomu'']]. She is only obtainable by evolving [[Honey]].
+
+{{EvolutionTable}}
+{{Takedowns|100}}
+
+== Stats Ovеrview ==
+{{Tower_Infobox
+|caption1="Nine stings, pollinated flowers, copyright claims and [https://www.roblox.com/games/8304191830/Anime-Adventures terrible models], the hive from within and without... Honeybee Technique: Nector Nova!"
+|caption2="I want to protect [https://www.roblox.com/games/8304191830/Anime-Adventures this world], and everyone in it... I know I can do it!"
+|Damage_type=physical|deployment_cost=1000|total_cost=29000|upgrade_levels=6|spawn_cap=5|Tower_type=HILL}}{{Main Stats}}
+==Passive Ability: Hivemind + Nectar Nova==
+On Upgrade 3, {{PAGENAME}} will do 3x Her DMG 
+
+At Upgrade 6, {{PAGENAME}} will do 5x Her DMG
+
+{{Selling}}
+
+== Trivia ==
+
+Official Anime Adventures Character
+== Gallery ==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]

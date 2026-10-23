@@ -1,0 +1,30 @@
+{{Unobtainable Unit|Update 17 - Fate Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}​​. He can only be obtained by evolving [[Sharkfin]] .
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I get stronger in direct proportion to how strong my opponent is. I do not tire, and cannot be defeated."
+|caption2="My massive blade Samehada, doesn't slice… It shreds you to ribbons!”
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* He is the boss of stage 2 of [[Story#Hidden Sand Village|Hidden Sand Village]] as The Monster of the Hidden Mist.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+[[Category:Event Units]]

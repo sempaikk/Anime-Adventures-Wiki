@@ -1,0 +1,63 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. Hе can only be obtained by upgrading [[Shadow Sorcerer (Ritual)]] to when he gets the Ritual skill, and using the Ritual active skill. The player will have the ability to control what mode {{PAGENAME}} fights in, these modes being: Attack, Defend, and Boss.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=""
+|caption2=""
+|attack_type=|damage_type=Dark|tower_type=|seconds_per_attack=|range=|upgrade_levels=|deployment_cost=|total_cost=|damage=|image1=|image2=}}
+
+==Attacks==
+<tabber>
+|-|Scream=
+In '''Defend Mode''', {{PAGENAME}} uses a Full AOE attack to scream at his current location. This attack deals about '''0.51x''' the value of the '''Damage''' stat or equally '''1.66x''' the value of the '''Summon''' stat of the [[Shadow Sorcerer (Ritual)]] used to summon {{PAGENAME}}. This attack triggers at a rate of about '''1x''' the SPA of [[Shadow Sorcerer (Ritual)]]. His '''Jump''' attack triggers at a rate of about '''2x''' the SPA of [[Shadow Sorcerer (Ritual)]]. This attack targets the '''First''' enemy on the map.
+
+|-|Car Toss=
+In '''Attack Mode''', {{PAGENAME}} uses a Circle AOE attack to throw a car at enemies. This attack deals '''1.25x''' the amount of damage of his '''Scream''' attack. This attack triggers at a rate of about '''1x''' the SPA of [[Shadow Sorcerer (Ritual)]]. His '''Jump''' attack triggers at a rate of about '''2x''' the SPA of [[Shadow Sorcerer (Ritual)]]. This attack targets the '''First''' enemy on the map.
+
+|-|Slash=
+In '''Boss Mode''', {{PAGENAME}} uses a Single Target attack to teleport to an enemy and slash them. This attack deals '''2.5x''' the amount of damage of his '''Scream''' attack. This attack triggers at a rate of about '''0.5x''' the SPA of [[Shadow Sorcerer (Ritual)]]. His '''Jump''' attack triggers at a rate of about '''1.5x''' the SPA of [[Shadow Sorcerer (Ritual)]]. This attack targets the '''Strongest''' enemy on the map.
+
+|-|Jump=
+Used in '''all Modes''', {{PAGENAME}} uses a Circle AOE attack to disappear from the map and land on a targeted enemy (targeting varies based on mode). This attack deals '''2x''' the amount of damage of his '''Scream''' attack. This attack's rate seems to vary depending on the mode.
+</tabber>
+
+==Adaption==
+{{PAGENAME}} has the ability to adapt every time he kills an enemy or assists in killing an enemy. The player will be able to choose an adaptation (one of three) every 50 takedowns. {{PAGENAME}} becomes fully adapted once all adaptations have been unlocked (150 total takedowns).
+
+<tabber>
+|-|Divine Wings=
+'''Divine Wings''' turns {{PAGENAME}} '''hybrid'''. Allowing {{PAGENAME}} to target and attack '''flying enemies'''.
+
+|-|Heavenly Force=
+'''Heavenly Force''' adds the '''[[Effects#Knockback|Knockback]]''' effect to his '''Scream''' and '''Jump''' attacks.
+
+|-|Adapted Slash=
+'''Adapted Slash''' grants a '''+100% Crit Rate''' while using his '''Slash''' attack.
+</tabber>
+
+==Trivia==
+*{{PAGENAME}} is currently bugged, whenever it is summoned it will always be its shiny version.
+
+*{{PAGENAME}} is the first summon unit that can walk while attacking and does not die when colliding with another unit.
+
+*Although {{PAGENAME}}'s Scream attack damage depends on the '''Summon''' value of the [[Shadow Sorcerer (Ritual)]] used to summon {{PAGENAME}}, all of his other attacks' damage seemingly scales off of his Scream attack instead, if you have buffs applied to the [[Shadow Sorcerer (Ritual)]] they do not carry over to Divine General, instead Divine General only takes the buffless dmg
+
+*{{PAGENAME}} is able to be buffed by limit breaks, applying a 30% damage boost to all his attacks. When applied with the damage boost [[Shadow Sorcerer (Ritual)]] gains, he can gain a x1.69 damage boost from max limit break.
+
+*{{PAGENAME}} can be buffed by [[Elfy (Sylph)]], [[Wind Dragon]], [[Griffin (Reincarnation)]], [[Zombie (Risen)]], and [[Blossom]] if {{PAGENAME}} is within their range.
+
+*{{PAGENAME}} wont be buffed by [[Zombie (Risen)]] if {{PAGENAME}} is summoned before [[Zombie (Risen)]] is placed
+
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />
+[[Category:Damage Type Dark]]

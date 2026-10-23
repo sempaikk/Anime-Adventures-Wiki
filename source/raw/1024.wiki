@@ -1,0 +1,32 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Red Scar]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'll leave this hat with [[Joykid|you]]. It's dear to me. Take good care of it! Come bring it back to me someday, once you've become a great pirate!"
+|caption2="Listen up bandits! Whether I'm sprayed with alcohol, or doused with food, hell even if I'm spit on, most of the time ill just laugh it off and forget about it, but if you hurt a [[Joykid|friend]] of mine, you'll pay for it regardless of you're reason."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Active Ability: Conqueror's Haki==
+Shanks uses the Haoshoku Haki to make enemies in his range sleep/unconscious for 3 seconds with a cooldown of 15 seconds. This works against flying enemies as well.
+
+This ability stacks with any other effects (stun, freeze, mind control) making it very useful for stalling enemies. (must be used 1 second after previous effect wears off)
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Red Scar's shiny skin is based off of Shanks when he was young.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Fire]]
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]

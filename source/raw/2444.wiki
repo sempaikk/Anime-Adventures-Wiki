@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 11.75 - Freezo's Invasion Raid}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable once you get rank 50 in Cloud Hunt and with Premium Pass for his shiny version.
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Human. I have one request to make... don't die on me now.”
+|caption2="Bastard. That strength is wasted on a Human like you"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

@@ -1,0 +1,16 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Good and evil hold no interest for me. I care only for my duty and pride in being a captain. All who prevent me in this are my enemies. Enemies to be slain. That is all. You as well, Ōmaeda. Never mistake your very place in things. Forget it not. If you ever stand in my way, then you will be the enemy."
+|caption2="Good and evil hold no interest for me. I care only for my duty and pride in being a captain. All who prevent me in this are my enemies. Enemies to be slain. That is all. You as well, Ōmaeda. Never mistake your very place in things. Forget it not. If you ever stand in my way, then you will be the enemy."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

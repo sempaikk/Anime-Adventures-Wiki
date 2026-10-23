@@ -1,0 +1,28 @@
+<includeonly>{{#ifeq: {{lc:{{SUBPAGENAME}}}} | {{{override|doc}}}
+  | <!-- doc page -->
+</includeonly>{{
+    #ifeq: {{{doc-notice|show}}} | show
+    | {{ambox
+      | image    = [[File:Surrender at 20 Emote.png|65px|link=Template:Documentation subpage]]
+      | border = grey
+      | category = {{{category|false}}}
+      | info = 
+'''This is a [[wikipedia:Wikipedia:Template documentation|documentation]] [[wikipedia:Wikipedia:Subpages|subpage]] for {{{1|[[:{{SUBJECTSPACE}}:{{BASEPAGENAME}}]]}}}'''.<br />It contains usage information, [[wikipedia:Wikipedia:Categorization|categories]] and other content that is not part of the original {{ #if: {{{text2|}}} | {{{text2}}} | {{ #if: {{{text1|}}} | {{{text1}}} | {{ #ifeq: {{SUBJECTSPACE}} | {{ns:User}} | {{lc:{{SUBJECTSPACE}}}} template page | {{ #if: {{SUBJECTSPACE}} |{{lc:{{SUBJECTSPACE}}}} page|article}}}}}}}}. 
+      }}
+    }}{{DEFAULTSORT:{{{defaultsort|{{PAGENAME}}}}}}}{{
+    #if: {{{inhibit|}}}
+    | <!-- skip -->
+    | <includeonly>{{#ifexist:{{NAMESPACE}}:{{BASEPAGENAME}}|[[Category:{{
+      #switch: {{SUBJECTSPACE}}
+      | Template  = Template
+      | User      = User
+      | #default  = Wiki
+    }} documentation]]|[[Category:Documentation subpages without corresponding pages]]}}</includeonly>
+  }}<includeonly>
+| <!-- if not on a /doc subpage, do nothing -->
+}}</includeonly><noinclude>
+{{documentation}}
+<!-- Add categories to the /doc subpage, not here! -->
+*created by User:[https://leagueoflegends.fandom.com/wiki/User:BryghtShadow BryghtShadow] - for wiki -  [https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki leagueoflegends.fandom.com]
+*taken from https://leagueoflegends.fandom.com/wiki/Template:Documentation_subpage
+</noinclude>

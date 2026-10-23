@@ -1,0 +1,21 @@
+
+== Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Mental strength is secondary. All you really need is overwhelming power."
+|caption2="Mental strength is secondary. All you really need is overwhelming power."
+}}{{Main Stats}}
+Can hit air type enemies after upgrade 6+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+
+{{DISPLAYTITLE:{{PAGENAME}}}} __NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

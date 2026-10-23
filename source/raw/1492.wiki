@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas 2022 Update Part 1}}
+
+=='''Overview'''==
+'''Morbid''' is a {{Rarity|Mythical}} unit. He is only obtainable through opening the [[Events|Haunted Star Capsule]] during the Thriller Park event.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="All your shadows will serve me!"
+|caption2="All your shadows will serve me!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

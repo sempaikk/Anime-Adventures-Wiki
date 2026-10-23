@@ -1,0 +1,30 @@
+[[File:Cursed Finger.png|thumb|<span class="game-font-face" style="color: #6500b3;">''"Ah! I knew it! Light is best appreciated in the flesh!''"</span>]]
+
+==THIS PAGE HAS BEEN MOVED==
+https://animeadventures.fandom.com/wiki/Powerups
+
+'''{{PAGENAME}}''', added in ''[[Update Log#Update 6.5 - Jujutsu Kaisen Update Part 2|Update 6.5]]'', are a way to increase the stats of any unit at the cost of another stat. Are you willing to sacrifice something?
+
+
+==Requirement==
+To curse a unit, you need at least one {{Item|Cursed Finger}} which can be obtained from the '''[[Dungeons#Cursed_Womb|Cursed Womb]]''' dungeon. To enter the '''[[Dungeons#Cursed_Womb|Cursed Womb]]''' dungeon, you need a Cursed Womb key which can be dropped from secret enemies that spawn in '''Cursed Academy Infinite'''
+
+==Where to curse units==
+After you've received your first Cursed Finger, click/tap on it in your '''Items Or Go To Your Area''' and you'll be brought to ''Sukuno's'' ([https://jujutsu-kaisen.fandom.com/wiki/Sukuna Sukuna])domain
+
+==Cursing units==
+{| class="article-table"
+! style="font-family: rubik,helvetica,arial,sans-serif; text-align: center;" | Gain (1 At Random)
+! style="font-family: rubik,helvetica,arial,sans-serif; text-align: center;" | Lose (1 At Random)
+|+
+| {{Stat|Damage|2.5% - 11%}}
+|{{Stat|Damage|2.5% - 11%}}
+|+
+| {{Stat|Range|2.5% - 11%}}
+| {{Stat|Range|2.5% - 11%}}
+|+
+| {{Stat|SPA|2.5% - 11%}}
+| {{Stat|SPA|2.5% - 11%}}
+|}
+
+__NOTOC__

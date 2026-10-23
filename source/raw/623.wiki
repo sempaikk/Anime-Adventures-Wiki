@@ -1,0 +1,1 @@
+<includeonly>[[File:Gems.png|24px|link=Currencies]] [[Currencies|<span class="Pos(r) Bg(Gems) Bgcp(text) Tfc(transparent) game-font-face">{{{1|}}} {{plural:{{{1}}}|Gem|Gems}}<span class="Tsh(Game) Pos(a) Start(0) Z(-1)">{{{1|}}} {{plural:{{{1}}}|Gem|Gems}}</span></span>]]</includeonly><noinclude>{{Doc}}</noinclude>

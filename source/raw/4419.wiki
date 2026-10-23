@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} {{LU}}. He could only be obtained from clearing Room 100 in [[Infinity Mansion]] and opening the [[Flash Star]]. Players who achieved a rank of Master or higher by the end of the 8th season were automatically given his shiny version.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't be afraid of death, be afraid of the unlived life."
+|caption2="Even if I live I would never be able to substitute you, there are things that need to be told him by his mother, even if you have briefest moments to do so, This isn't just for you, its for [[Fox Ninja]]."
+|image1= {{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* {{PAGENAME}} = '''[Limited]''' - Obtained by reaching Room 100 in Update 6, 
+* {{PAGENAME}} Shiny = '''[Limited]''' - Obtained by reaching a rank of Master or higher in Update 6.
+==Gallery==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]

@@ -1,0 +1,21 @@
+{{Recent Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The most powerful force in this world is 'imagination.' Anything I imagine, anything at all, becomes reality."
+|caption2=""
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} (Visionary) Shiny.png
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Rerelease Unit/NPC
+
+__NOTOC____NOEDITSECTION__

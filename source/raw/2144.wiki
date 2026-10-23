@@ -1,0 +1,287 @@
+==Overview==
+Portals are items that can be obtained in different ways, such as buying it in limited stores or obtaining it from infinite modes. They can be found in the "Portals" tab in the game inventory. They grant you evolution items, units, more portals of their type or even an exclusive Secret Portal.
+
+==List Of Portals==
+<div class="grid_body" style="padding: 20px;border-radius: 5px;box-shadow: inset #49578059 0px 0px 10px 5px, #4957801f 0px 0px 15px 5px;border: solid 2px #525e81d9;background: #232a3e99;"><tabber>
+|-|Obtainable Portals=
+{{#tag:tabber|
+Shibuya Portal=
+
+*Release Date: '''[[Update Log|Update 20 (Shibuya + Dungeons Update)]]''' 
+*Map(s): Shibuya District
+*Variability: 1
+*Obtainable by: Shibuya District Infinite Mode
+
+Drops:
+*'''Sacred Treasure (5-15 for host and non host to be confirmed)'''
+*'''[[Sorceror Killer|Sorceror Killer]]'''
+{{!}}-{{!}}Final Disc=
+*Release Date: '''[[Update Log|Update 8 (JoJo Update)]]''' 
+*Map(s): Cape Canaveral (New Moon)
+*Variability: 1
+*Obtainable by: Disc Fragments
+
+Drops:
+*'''{{RarityColor|Mythic|[[Evolution|Heavenly Clock]]}}'''
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Stone Pendant]]</span>''' (1-6)
+
+
+{{!}}-{{!}}Alien Portal=
+*Release Date: '''[[Update Log|Update 10 (OPM Update)]]'''
+*Map: Alien Spaceship (Final)
+*Variability: 1 
+*Obtainable by: Alien Spaceship - Infinite Mode
+
+Drops:
+*'''{{RarityColor|Mythic|[[Evolution|Full Power Core]]}}''' (1-4)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Alien Core]]</span>''' (1-6)
+
+{{!}}-{{!}}Demon Leader's Portal=
+*Release Date: '''[[Update Log|Update 11.5 (7DS Update Part 2)]]'''
+*Map: Fabled Kingdom (Cube)
+*Variability: 1 
+*Obtainable by: Fabled Kingdom - Legend Stages (20%), Fabled Kingdom - Infinite Mode
+
+Drops:
+*'''{{RarityColor|Mythic|[[Evolution|Sunshine Essence]]}}'''
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Tavern Pie]]</span>''' (1-6)
+*'''{{RarityColor|Mythic|[[Evolution|Demonic Spellbook]]}}'''
+
+
+{{!}}-{{!}}Puppet Portal=
+*Release Date: '''[[Update Log|Update 13 (Dressrosa)]]'''
+*Map: Puppet Island (Birdcage)
+*Variability: 1 
+*Obtainable by: Puppet Island - Infinite Mode
+
+Drops:
+*'''{{RarityColor|Mythic|[[Evolution|SMILE Fruit]]}}''' (1-4)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Pirate Grapes]]</span>''' (1-6)
+
+{{!}}-{{!}}Eclipse Portal=
+*Release Date: '''[[Update Log|Update 15 (Berserk)]]'''
+*Map: The Eclipse: The Eclipse
+*Variability: 1 
+*Obtainable by: Windhym - Infinite Mode
+
+Drops:
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #ffc71e 30%, #ffc71e 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Evolution|Egg of Sacrifice]]</span>''' (1-2 if normal player,  2-4 if host)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Coin Bag]]</span>''' (2-8)
+
+
+{{!}}-{{!}}Noble Portal=
+*Release Date: '''[[Update Log|Update 17 (Fate Update)]]'''
+*Map: Mountain Temple
+*Variability: 1 
+*Obtainable by: Mountain Temple - Infinite Mode
+
+Drops:
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #ffc71e 30%, #ffc71e 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Lesser Grail]]</span>''' (5-20)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Jewel Pendant]]</span>''' (1-6)
+
+
+ 
+
+{{!}}-{{!}}Path Portal=
+*Release Date: '''[[Update Log|Update 18.0 (Rain Village Update)]]'''
+*Map: Rain Village
+*Variability: 1
+*Obtainable by: Rain Village - Legend Stages (???%)
+
+Drops:
+*'''{{RarityColor|Secret|[[Pain (Path)]]}}''' (100% For Host)
+*'''{{RarityColor|Legendary|Ninja Scroll (Fire, Water, Wood)}}''' (3-6 with no boost) (6-12 with max boost)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Chakra Rod]]</span>''' 2
+
+
+
+
+{{!}}-{{!}}Winter Portals=
+*Release Date: '''[[Update Log|Update 19.0 (CHRISTMAS Update)]]'''
+*Map: Special Winter Map
+*Variability: 2
+*Obtainable by: Winter Event
+
+'''{{RarityColor|Secret|[[Enlightenment Portal]]}}'''
+
+Drops:
+*'''{{RarityColor|Secret|[[Enlightened]]}}'''(100% For Host)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Chakra Rod]]</span>''' 2-6
+
+ 
+'''The Fallen Star Portal'''
+
+Drops:
+*'''{{RarityColor|Secret|[[Dark Mage]]}}'''(100% For Host)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Chakra Rod]]</span>''' 2-6
+
+}}
+
+|-|Unobtainable Portals=
+{{#tag:tabber|Frozen Portal=
+Release Date: '''[[Update Log|Christmas 2022 Update Part 2]]''' 
+
+Maps:
+*Planet Namak (Frozen)
+*Shiganshinu District (Winter)
+*Hidden Sand Village (Winter)
+*Ghoul City (Winter)
+*Magic Town (Snow)
+*Cursed Academy (Frozen)
+
+
+Variability: 1 -> 12
+
+Drops:
+*'''{{RarityColor|Mythic|[[Events|Frozen Portal]]}}''' (1-2)
+*Around {{Stars|100}} multiplied by portal rewards multiplier'''
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|XP food of the map]]</span>''' (1-6)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Secret Portal|Frost Queen's Portal]]</span>''' (low chance)
+
+{{!}}-{{!}}Alien Portal=
+Release Date: '''[[Update Log|Update 10 (OPM Update)]]'''
+
+Map: Alien Spaceship (Final)
+
+Variability: 1
+
+Drops:
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Boron|Boron]]</span>''' (guaranteed if host)
+
+{{!}}-{{!}}Devil Portal=
+Release Date: [[Update Log|'''Update 9 CSM Update''']] 
+
+Map: Devil City
+
+Variability: 0 -> 5
+
+Drops:
+*'''{{RarityColor|Mythic|{{Gun Devil Bullet|3-4}}}}''' (multiplied by portal rewards multiplier)
+*'''{{RarityColor|Mythic|[[Devil Star|Devil Star]]}}''' (low chance) 
+*'''[[Devil Portal (Katana)]]''' (low chance, dropped from Tier 5 Devil Portals)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Stone Pendant]]</span>''' (1-6)
+
+{{!}}-{{!}}Demon Academy Portal=
+Release Date: '''[[Update Log|Update 12 (April Fools)]]'''
+
+Map: Random Maps
+
+Variability: 0 -> 12
+
+Drops:
+*'''{{RarityColor|Mythic|[[Evolution|Demon Academy Symbol]]}}'''
+*'''{{RarityColor|Mythic|[[Events|Demon Academy Portal]]}}''' (0-2)
+
+{{!}}-{{!}}Witch Portal=
+Release Date: '''[[Update Log|Update 13.5 (Madoka Update)]]'''
+
+Map: 
+
+Tier 0 - 4: Random Maps
+
+Tier 5 - 11: Witch City
+
+Variability: 1 -> 11
+
+Drops:
+*[[Items#Materials|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Grief Seed</span>]]
+*'''{{RarityColor|Secret|Time Traveller's Shard}}''' (Very Rare)
+
+{{!}}-{{!}}Witch City (Walpurges)=
+Release Date: '''[[Update Log|Update 13.5 (Madoka Update)]]'''
+
+Map: Witch City
+
+Variability: 1 
+
+Drops:
+*'''[[Homuru]]''' (Guaranteed if Host)
+*[[Items#Materials|<span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Grief Seed</span>]]
+*'''{{RarityColor|Secret|Time Traveller's Shard}}''' (around 5% before July 23rd 2023, around 7.5% after)
+
+{{!}}-{{!}}String Portal=
+Release Date: '''[[Update Log|Update 13 (Dressrosa)]]'''
+
+Map: Puppet Island (Birdcage): The Puppet Master
+
+Variability: 1
+
+Drops:
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Flamingo|Flamingo]]</span>''' (guaranteed if host)
+
+{{!}}-{{!}}King's Portal=
+Release Date: '''[[Update Log|Update 15 (Anniversary + Eclipse)]]'''
+
+Map: The Eclipse: The Wings of Darkness
+
+Variability: 1
+
+Drops:
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Skull Knight|Skull Knight]]</span>''' (guaranteed if host)
+
+{{!}}-{{!}}Summer Portal=
+Release Date: '''[[Update Log|
+Update 15.5 - Summer Event!
+]]''' 
+
+Maps:
+*Planet Namak (Summer)
+*Shiganshinu District (Summer)
+*Ant Kingdom (Summer)
+*Fabled Kingdom (Summer)
+*Cursed Academy (Summer)
+*Puppet Island (Summer)
+*Alien Spaceship (Underwater) ('''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Secret Portal|Sea God's Portal]]</span>'''  's Map)
+
+
+
+Variability: 1 -> 11                         (hello :D)
+
+Drops:
+*'''{{RarityColor|Mythic|[[Events|Summer Portal]]}}''' (1-2)
+*Around {{Pearls|100}} multiplied with portal's difficulty multiplier'''
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(#0d8cff 30%, #0d8cff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Soul Candy]]</span>''' (1-6)(XP food)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Secret Portal|Sea God's Portal]]</span>''' (very low chance)
+
+{{!}}-{{!}}Golden Portal=
+Release Date: '''[[Update Log|Update 17 (Fate Update)]]'''
+
+Map: Mountain Temple
+
+Variability: 1 
+
+Drops:
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #e01419 30%, #e01419 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Gilgamesh|Gilgamesh]]</span>''' (guaranteed if host)
+
+{{!}}-{{!}}Port Agency Portal=
+*Release Date: '''[[Update Log|Update 17.5 (Stray Dogs Update)]]'''
+*Map: Sky Club
+*Variability: 1 -> 12
+*Obtainable by: NPC Dazai
+
+Drops:
+*'''{{RarityColor|Secret|Detective Shard}}''' Estimated to be (2.5% with no boost) (5% with max boost)
+*'''{{RarityColor|Mythic|[[Supernatural Book]]}}''' (1-12 with no boost) (1-25 with max boost)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #ffc71e 30%, #ffc71e 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Soul Candy]]</span>''' (1-6)
+
+
+{{!}}-{{!}}Detective Portal=
+*Release Date: '''[[Update Log|Update 17.5 (Stray Dogs Update)]]'''
+*Map: Sky Club
+*Variability: 1
+*Obtainable by: Using 4 Detective Shards
+
+Drops:
+*'''{{RarityColor|Secret|[[Dazai]]}}''' (100% For Host)
+*'''{{RarityColor|Secret|[[Detective Shard]]}}''' Estimated to be (2.5% with no boost) (5% with max boost)
+*'''{{RarityColor|Mythic|[[Supernatural Book]]}}''' (1-30 with no boost) (1-60 with max boost)
+*'''<span class="game-font-face" style="position: relative; background: linear-gradient(0, #ffc71e 30%, #ffc71e 50%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">[[Items#XP_Items|Pirate Grapes]]</span>''' (1-6)
+
+}}
+
+
+
+</tabber></div>
+
+==Trivia==
+[[Category:Game Modes]]

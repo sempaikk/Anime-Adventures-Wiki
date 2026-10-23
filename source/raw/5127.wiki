@@ -1,0 +1,27 @@
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+{{Meta Bleed Unit}}
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}​. He can only be obtained via evolving [[Tiger]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="At the orphanage, people always told me I'm worthless. I have no idea where my next meal will come from or my next bed. No one would care if I died on the street. I might as well just let that beast eat me and be done with it."
+|caption2="It's so dark here that once they put on masks, even friends can suddenly look like strangers. I wonder if everyone knows who I am..."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

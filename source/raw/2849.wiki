@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} unit. He can be obtained via placing in Top 50 (Top 10 if Shiny) or higher on [[Infinite]] in Update 11.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Stop this if you can!"
+|caption2="Stop this if you can!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+[[Category:Leaderboard Units]]

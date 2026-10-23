@@ -1,0 +1,21 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}​. He can only be obtained via completing [[Secret Portal|Detective Portal]] (guaranteed if you are the host).
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“I am convinced that human life is filled with many pure, happy, serene examples of insincerity, truly splendid of their kind-of people deceiving one another without (strangely enough) any wounds being inflicted, of people who seem unaware even that they are deceiving one another.”
+|caption2="Stop feeling sorry for [[Tiger (Moonlight Beast)|yourself]]. As long as [[Tiger (Moonlight Beast)|you]] do, [[Tiger (Moonlight Beast)|your]] life will be an unending nightmare."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC__ __NOEDITSECTION__
+[[Category:Secret Units]]

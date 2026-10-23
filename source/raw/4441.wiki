@@ -1,0 +1,10 @@
+The '''{{PAGENAME}}''', added in [[Update Log|Update 16]], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (9th Season).
+
+As of 30/09/23, the day of [[Update Log|Update 17]], and the end of Season 9, the Explode Star could be opened to receive [[Bombietta|Bombietta.]]
+
+== Information ==
+*<span data-darkreader-inline-color="" style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span data-darkreader-inline-color="" style="color:#921296;">''"If you throw away your life in battle, where's the point in winning?!!"''</span>
+*<span data-darkreader-inline-color="" style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span>
+==Rewards ==
+{{Container Characterbox|{{Characterbox|Bombietta}}}}

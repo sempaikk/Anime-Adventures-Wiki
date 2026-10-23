@@ -1,0 +1,51 @@
+[[File:C5736022-3266-4C52-80F8-0BB6E457AEA1.jpg|thumb|80x80px]]
+Damage Affinities are primary/secondary attacks of a specific units. They matter because in portals/legend stages each enemy has a resistance and weakness. 
+
+== Icons and Symbols ==
+* In any Portal/Legend Stage there are enemies with resistances and weaknesses.
+
+* The damage affinity icon with a percent represents how much additional damage you would deal with that specific affinity
+
+[[File:C5736022-3266-4C52-80F8-0BB6E457AEA1.jpg|thumb|center]]
+* The picture above represents 150 Physical Resistance and 30% Magic Weakness, meaning they would take less damage when using a physical unit and they would take extra damage from magic units.
+*Weaknesses appear as an icon with a percentage above the enemy's health bar. Weakness increases damage received by X%, so an enemy with 30% Magic Weakness means units with the Magic trait will deal 30% more damage to them. For example: A {{Damage Type|Physical}}/{{Damage Type|Rose}} Unit that deals 10000 Damage against an enemy that has a 400% boost to {{Damage Type|Physical}} damage, and a 150% boost to {{Damage Type|Rose}} damage, will deal (10000)x(1.00+4.00+1.50) damage to the enemy, which equals 65000 damage.
+*Damage resistance appears as a shield above the enemy's health bar. Resistance reduces damage by ''100 / (100 + Resistance),'' so an enemy with 150 Magic Resistance will only take 40% Magic Damage. Damage Penetration ''reduces'' Resistance.
+----
+
+
+'''Each Affinity Explained:'''
+
+* {{Damage Type|Magic}} Units that  have supernatural abilities or magical spells.
+* {{Damage Type|Physical}} Units that use their hands or weapons with natural abilities.
+* {{Damage Type|True}} - Units with True Damage ignore type resistances on enemies, dealing the full damage to them without having it reduced by resistance. True damage also ignores damage resistance from enemies with the ice attribute.
+* {{Damage Type|Fire}} - Units with the element of Fire, most fire units have the ability to '''burn''' enemies, reducing their regen by a bit.
+*{{Damage Type|Aqua}} - Units with the element of Aqua.
+*{{Damage Type|Storm}} -  Units with the element of Storm, most storm units have the ability to freeze/slow enemies.
+*{{Damage Type|Air}} - Units with the element of Air.
+* {{Damage Type|Rose}} - Units with the element of Rose.
+*{{Damage Type|Dark}} - Units with the element of Dark.
+*{{Damage Type|Light}} - Units with the element of Light.
+==Tips==
+
+*Whenever you collect a portal, always check out the affinity icon showing their weakness. Try to use units with the affinity shown to complete the portal easier.
+*It is best to use Physical Units on Legend Stages with Magic Resistances, It is same for the Magical Units.
+*It is always best to use the recommended Affinities in challenges.
+*Always use relics to boost your units damage or penetration to resistances or PWR to increase DPS (It would be useful if your unit is weak because of resistances)
+
+==Buffs==
+Certain units have the ability to create damage buffs that significantly increases a unit's damage/DPS.
+
+They would be very useful especially for portals, legend stages and challenges.  Due to enemies with weaknesses or resistances.
+*[[Megomu (Chimera Shadow)]] can buff magic damage taken by an enemy by '''30%'''
+*[[Blackhair]] can buff magic damage taken by an enemy by '''15%'''
+*[[Commander]]'s ability can buff physical units' damage by '''25%(Stackable)''' for a limited time
+*[[Wenda]]'s ability can buff magical units' damage by '''30%(Stackable)''' for a limited time
+*[[Merlyn (Infinity)]]'s Hexed passive can buff magic damage taken by an enemy by 30% (permanent)
+*[[Sukuno]] and [[Switchblade (Deception)|Switchblade]]'s '''dismember''' passive can buff physical damage taken by an enemy by '''25%''' (permanent)
+*[[Griffin (Reincarnation)|Griffin (Ascension)]] passively buffs '''ALL''' units, including other players' units, by '''100%'''. (permanent)
+*[[Oshy]] [[Oshy (Idol)|and her evolution]] passively buffs '''ALL''' units, but not including other players' units, depending on its upgrade (permanent).
+*[[Chuuni (Delusion)]] can buff magic damage taken by an enemy by '''50%(Stackable)''' until she is no longer targetting the enemy.
+
+[[Category:Damage Type Aqua]]
+[[Category:Damage Type Storm]]
+[[Category:Damage Type Rose]]

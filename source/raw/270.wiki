@@ -1,0 +1,14 @@
+{{Disenchant Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1="A goal with no plan is called a delusion. You need a plan in order to achieve your goal."
+|caption2="A goal with no plan is called a delusion. You need a plan in order to achieve your goal."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

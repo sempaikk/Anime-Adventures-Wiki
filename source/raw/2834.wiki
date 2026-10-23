@@ -1,0 +1,23 @@
+''If you were looking for a different Verdant Hero unit, see [[Verdant Hero (disambiguation)]]''
+{{Disenchant Unit}}{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If I match my pace with everyone else, then I'll never be number one.”
+|caption2="When the enemy becomes certain of their victory, that will be our chance."
+|title1=Dezu (Blackwhip)}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

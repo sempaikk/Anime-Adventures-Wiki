@@ -1,0 +1,100 @@
+[[File:Legacy.png|thumb|329x329px|Legacy Banner]]
+'''Summon''' is an area in the lobby where players can obtain powerful '''characters''' to aid them in the completion of Levels. It is located to the left of the '''Leaderboard''' area. '''Please note that not every''' {{Rarity|Mythical}} '''can be viably used in later stages.  If you've saved up gems, it's suggested to find a video showcasing of a unit before attempting to spin for it on the unit banner.'''  
+
+== Legacy Banner ==
+Each summon will cost you '''50''' {{Gems}} ('''40''' {{Gems}} with the VIP Gamepass) or a '''Summon Ticket'''. Every hour the '''banner''' will be refreshed with random units, with 3 {{Rarity|Mythic}} units being featured. 
+
+(Legacy gems are required for this banner, which can be obtained by either converting regular gems, or by disenchanting certain units.) 
+
+The summoning rates for this banner are similar to the Special Banner, however each individual unfeatured {{Rarity|Mythic}} will have a '''''SLIGHTLY ''''' higher chance to be summoned (0.714% vs 0.625% out of the 0.5% mythic chance), due to the units from Update 19 and onwards not being present in this banner.
+
+Summoning builds up '''Pity''' bar for middle unit; with each summon, you will accumulate 1/400 in pity bar for {{Rarity|Mythic}} '''Pity'''. Accumulating '''400 pulls''' will grant you a '''guaranteed''' {{Rarity|Mythic}} featured middle unit.
+
+Pulling a {{Rarity|Mythic}} character at any point whilst summoning will '''reset''' the corresponding '''Pity''' back to '''0'''. '''Pity''' will also reset once the banner has refreshed.
+
+==Special Banner==
+[[File:Image2.png|thumb|321x321px|Special Banner]]
+Since Update 7, The Special Banner can summon any unit in the game, excluding those obtainable through other means, and other banners. '''The chances of getting a''' {{Rarity|Mythic}} '''unit are 0.5%.''' As opposed to the Legacy Banner, units from Update 19 and onwards are obtainable from this banner.
+
+Three Mythics will be featured. The center {{Rarity|Mythic}} has a 50% chance of being the summoned {{Rarity|Mythic}}. The Mythics beside it have a 10% chance, and any unfeatured {{Rarity|Mythic}} has a 0.526% chance. Just like the standard banner, the featured Mythics are refreshed every hour. 
+
+Since Update 17, all {{Rarity|Mythic}} units from Release to Update 6.5 have been removed from the Special Banner. As of Update 19, however, they have been added back to this banner.
+
+Like '''Legacy Banner''', there is also a pity for middle featured unit to guarantee summoned after 400 pulls, which cost total of {{Gems|20,000}} ({{Gems|16,000}} if owned '''VIP''' gamepass)
+==Units Removed From Special Banner==
+{{Container Characterbox|
+{{Characterbox|Mazara}}
+{{Characterbox|Super Bro}}
+{{Characterbox|Lex}}
+{{Characterbox|Devil Boss}}
+{{Characterbox|Donut}}
+{{Characterbox|Arlem}}
+{{Characterbox|Whitehair}}
+{{Characterbox|Magma}}
+{{Characterbox|Red Scar}}
+{{Characterbox|Mochi}}
+{{Characterbox|Ariva}}
+{{Characterbox|Eta}}
+{{Characterbox|Tarata}}
+{{Characterbox|Juozu}}
+{{Characterbox|Spirit Archer}}
+{{Characterbox|Illusionist}}
+{{Characterbox|Void Spear}}
+{{Characterbox|Jackal}}
+{{Characterbox|Killer (Whirlwind)}}
+{{Characterbox|Ant}}
+{{Characterbox|Cat Guard}}
+{{Characterbox|Prayer Master}}
+{{Characterbox|Gene (Adult)}}
+{{Characterbox|Cold Mage}}
+{{Characterbox|Dragonslayer}}
+{{Characterbox|Crush}}
+{{Characterbox|Itukoda}}
+{{Characterbox|Shadow Sorcerer}}
+{{Characterbox|Paradox}}
+{{Characterbox|Mimic Sorcerer}}
+}}
+== Event Banner==
+[[File:Limited-Time Banner.png|thumb|321x321px|Event Banner]]
+Since Update 13.5, limited-time {{Rarity|Mythic}} units can be summoned from the Event Banner. '''The chance to obtain a Mythic is 0.5%''', similar to the special banner. However, only 3 limited-time {{Rarity|Mythic}} units are featured, with no other {{Rarity|Mythic}} units being obtainable from this banner. Units on the Event Banner can only be summoned using a limited-time currency, typically obtained from the current event. 
+
+The {{Rarity|Mythic}} units featured are constant, and the banner does not refresh every hour; the featured units stay from the beginning to the end of the event. They will instead be replaced by new event {{Rarity|Mythic}} units from future events. {{Rarity|Mythic}} Pity can be achieved by summoning '''200 times.''' Unowned {{Rarity|Mythic}} units are prioritized by the Pity, until all featured Mythics are obtained. It costs a total of 2000 event currency to get the {{Rarity|Mythic}} '''Pity''' for the '''current''' event.
+
+
+''{{Rarity|Legendary}} pity is not included in this banner.'' 
+
+== Summon Chance==
+Every single '''unit''' has the same chance of being obtained from a Summon according to their Rarity. Below are the chances for each Rarity:
+
+*{{Rarity|Rare}} = 81.9% / '''Shiny''' {{Rarity|Rare}}: 0.819% chance of dropping (2.457% with shiny hunter).
+*{{Rarity|Epic}} = 16% / '''Shiny''' {{Rarity|Epic}}: 0.16% chance of dropping (0.48% with shiny hunter).
+*{{Rarity|Legendary}} = 2% / '''Shiny''' {{Rarity|Legendary}}: 0.02% chance of dropping (0.06% with shiny hunter).
+*{{Rarity|Mythic}} = 0.25% / '''Shiny''' {{Rarity|Mythic}}: 0.0025% chance of dropping (0.0075% with shiny hunter). 
+**{{Rarity|Mythic}} from the Special Banner = 0.5% / '''Shiny''' {{Rarity|Mythic}}:  0.005% chance of dropping (0.015% with shiny hunter).
+**{{Rarity|Mythic}} from the Event Banner = 0.5% / '''Shiny''' {{Rarity|Mythic}}:  0.005% chance of dropping (0.015% with shiny hunter). (Same as special.)
+*{{Rarity|Secret}} = 1/400,000 chance / '''Shiny''' {{Rarity|Secret}} = ??? (estimated to be around 0.005% chance for non-shinies)
+*All summoned unit has 1% chance to be '''Shiny''' version (3% if obtained '''Shiny Hunter''' gamepass)
+{{Rarity|Secret}} (Normal and Shiny) and Shiny {{Rarity|Mythic}} units are known to be very rare. Whenever somebody summons one in '''''any''''' server, it is announced in the Roblox chat globally.
+
+Consuming a Luck Potion will increase the odds of obtaining an {{Rarity|Epic}}, {{Rarity|Legendary}}, or {{Rarity|Mythic}}, but will '''NOT''' reduce the pity.
+
+In the banner window, extra potent luck potions can be purchased for Robux. These potions increase the odds of obtaining {{Rarity|Legendary}} and {{Rarity|Mythic}} summons. The Super Lucky potion costs 99 Robux and increases odds for said rarities by 2x. The Ultra Lucky potion costs 149 Robux and increases odds for said rarities by '''3x'''. 
+
+These buffs ''DO'' stack and using a Luck, Super Lucky, and Ultra Lucky all at once, will set the {{Rarity|Mythic}} chance to '''0.936%.'''
+
+Luck Potion does not shows to affect on '''Event Banner'''.
+
+== Banner Tiers==
+Banner Tiers are a mechanic released in '''Update 1.5''' to make it so that newer players aren't able to roll for certain types of units. This is to make sure late-game players can't make alt accounts to pull better and stronger Units.
+
+*'''Tier 0 (Player Level 0+)''': Can't summon {{Rarity|Secret}} units or shinies.
+*'''Tier 1 (Player Level 5+)''': Can summon shinies but not {{Rarity|Secret}} units.
+*'''Tier 2 (Player Level 20+)''': Can summon {{Rarity|Secret}} units and shinies.
+
+==Trivia==
+*Since the Halloween 2022 update, if anyone pulls a Shiny {{Rarity|Mythic}} or a {{Rarity|Secret}}, it announces it in chat for everyone playing to see.
+*Since update 20.4.1, secret chance has been revealed to be 1/400,000 chance, however it does not have a pity.
+**Along with all banner has been added pity chance for middle unit after 200 times summon.
+**{{Rarity|Legendary}} pity has also been removed, replace with {{Rarity|Mythic}} pity with 400 pulls.
+
+__NOEDITSECTION____NOTOC__

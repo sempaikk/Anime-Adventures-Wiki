@@ -1,0 +1,12 @@
+return {
+	-- [""] = {name =""},
+	-- [""] = {name =""},
+	-- [""] = {name =""},
+	-- [""] = {name ="",
+	--	ChBox_Text = "",
+	--	ChBox_Text_Style = "font-size: px"},
+--Concept Unit (Gammas)
+    ["Gammas (Blaster)"] = {name ="gammas_evolved"},
+
+
+}

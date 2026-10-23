@@ -1,0 +1,23 @@
+''If you were looking for a different Verdant Hero unit, see [[Verdant Hero (disambiguation)]]''
+{{Unobtainable Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit.
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Soon to become the one and only...
+|caption2="I want to be strong enough so no one will worry about me."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrade.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]
+[[Category: Units]]

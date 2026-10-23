@@ -1,0 +1,28 @@
+''If you were looking for a different Joykid unit, see [[Joykid (disambiguation)]]''
+
+{{Unobtainable Unit|Update 2 - Tokyo Ghoul Update}}
+==Overview==
+'''{{PAGENAME}}''' is an {{Rarity|Epic}} {{LU}}. He was only obtainable through the Marine's Ford event.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="[[Fire_Fist|FIRE FIIIIIIISSSSSTTT]]"
+|caption2="If you don't take risks, you can't create a future"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* {{PAGENAME}} is the First limited unit that is an Epic tier
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Fire}} damage type, along with other units without a second damage type.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Fire]]
+[[Category:Epic Units]]
+[[Category:Event Units]]

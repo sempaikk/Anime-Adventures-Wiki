@@ -1,0 +1,19 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through summons.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“I won't lose to anyone. Not until I become the Strongest Swordsman and defeat [[Zorrawk|him]]. Isn't that what [[Joykid|you]] need...King of the pirates?"
+|caption2="Hey [[Joykid]]! Were in the New World now, stakes are high!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.          
+
+==Trivia==
+
+{{Unit Navigation}}
+[[Category:Rare Units]]
+__NOTOC__ 
+__NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}

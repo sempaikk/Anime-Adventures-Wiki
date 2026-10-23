@@ -1,0 +1,170 @@
+Dungeons is a game mode that adds a choose your own adventure feeling to the game.
+
+in order to start a dungeon, the player must have a [[Items|dungeon key]] which can be obtained through [[Quests|Daily Quests]], the gambler npc outside of [[Summon]].
+
+upon starting a dungeon, the key will be consumed, and the player will be granted 3 choices, the three Tiles on the bottom show you what loot you will get for winning that Match, the Tiles on top of the bottom Tiles show what games you will be able to choose next, choosing a different bottom Tile changes what your next Match options will be.
+
+through playing the dungeon games the player is able to receive rewards like hoard, chests, and rare chests.
+
+when choosing which game to play there will be smaller Tiles in the option Tile telling you what your rewards will be, theses Smaller tiles can be any of:
+<tabber>
+|-|Hoard=
+The Hoard Tile, upon completion, will give you [[Currencies|Currency]] called {{Hoard}}, which can be used in the Shop Tile
+
+|-|Shop=
+the shop Tile, upon completion of that game, will open a shop ui which allows you to spend your Hoard in return for blessings
+
+|-|Curse=
+The Curse Tile will add a curse to your Dungeon inventory. More information about the curse can be viewed by hovering over the tile.
+
+|-|Chest=
+the Chest Tile, upon completion of that game, will give the player a chest
+
+|-|Rare Chest=
+the Rare Tile square, upon completion of that game, will give the player a rare chest
+
+|-|Open=
+Upon completion, you will have the ability to open Treasure Chests or Rare Chests. It is recommended to NOT open Rare Chests before the end, since you'll have a chance to get a Secret Unit.
+
+Treasure Chests can give Stat Rerolls, {{Gems|150}}, and [[Traits|2 Star Remanents]].
+Rare Chests can give Stat Rerolls, {{Gems|450}}, [[Traits|5 Star Remanents]], [[Powerups|Curse Tokens]], and the chance for a Secret Unit
+
+|-|Relics=
+the Relic square, upon completion of that game, will open a Relic UI, where you can choose to take a relic or not, relics can give both curses and blessings, and the relic will tell you what the curses and blessings are
+
+</tabber>
+<tabber>
+|-|.=
+|-|Curses=
+== Curses ==
+
+{| class="article-table" style="border: 20px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; width:550px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<span style="display: inline-block; min-width: 300px;"><center>name<center></span>
+!<center>effect<center>
+|-
+|<center>curse of vamperism<center>[[File: Curse vamperism.png]]
+|enemies will have +3% regen
+|-
+|<center>curse of Wind<center>[[File: Curse wind.png]]
+|enemies will move +25% faster
+|-
+|<center>curse of burst<center>[[File: Curse Burst.png]]
+|enemies will have +100% chance to have the burst trait
+|-
+|<center>curse of Shielding<center>[[File: Curse Shielding.png]]
+|enemies will have +3 shield
+|-
+|<center>curse of Regen<center>[[File: Curse Regen.png]]
+|enemies will have +1% regen
+|-
+|<center>curse of Armor<center>[[File: Curse Armor.png]]
+|enemies will have a +100% chance to spawn with armr trait
+|-
+|<center>curse of money<center>[[File: Curse Money.png]]
+| -10% Hoard drops
+|-
+|<center>curse of Frenzy<center>[[File: Curse Frenzy.png]]
+|enemies will move +50% faster
+|-
+|<center>curse of Flight<center>[[File: Curse Flight.png]]
+|enemies will have a +20% chance to spawn with flying trait
+|-
+|<center>curse of Chaos<center>[[File: Curse Chaos.png]]
+|All Curses are random
+|-
+|<center>curse of Eruption<center>[[File: Curse Eruption.png]]
+|enemies will have +24 explosive death range
+|-
+|<center>curse of Health<center>[[File: Curse Health.png]]
+|enemies will have +80% hp
+|-
+|<center>curse of Shopping<center>[[File: Curse Shopping.png]]
+| +10% shop prices
+|-
+|<center>curse of Explosion<center>[[File: Curse Explosion.png]]
+| enemies will have +12 explosive death range
+
+|}
+
+|-|Blessings=
+
+{| class="article-table" style="border: 20px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; width:550px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<span style="display: inline-block; min-width: 300px;"><center>name<center></span>
+!<center>effect<center>
+|-
+|<center>Mask of Riches<center>image
+|towers get -50% upgrade/placement costs
+|-
+|<center>Golden Mushroom<center>image
+|towers will have -30% upgrade and placement costs
+|-
+|<center>Golden Branch<center>image
+|towers get -15% upgrade/placement costs
+|-
+|<center>Genie Lamp<center>image
+| +100% chest luck
+|-
+|<center>Golden Fishhook<center>image
+| +40% chest luck
+|-
+|<center>Fish Hook<center>image
+| +20% chest luck
+|-
+|<center>Archmage's Hat<center>image
+| +250% magic dmg
+|-
+|<center>Magic Tome<center>image
+| +100% Magic dmg
+|-
+|<center>Mage Coat<center>image
+| +50% magic dmg
+|-
+|<center>Aures Maul<center>image
+| +200% physical dmg
+|-
+|<center>Headsplitter<center>image
+| +75% Physical dmg
+|-
+|<center>Axe<center>image
+| +50% physical crit chance
+|-
+|<center>Solar Clearver<center>image
+| +100% physical crit chance
+|-
+|<center>Sylvanthorn<center>image
+| +150% range
+|-
+|<center>Elf Bow<center>image
+| +50% range
+|-
+|<center>Reaper Sythe<center>image
+|towers deal +75% boss damage
+|-
+|<center>Clesestial Blade<center>image
+| +777% true dmg
+|-
+|<center>Scimitar<center>image
+| +75% attack
+|-
+|<center>Sword<center>image
+| +30% dmg
+|-
+|<center>Ninja Belt<center>image
+| -12% attack speed
+|-
+|<center>Glacial Axe<center>image
+|enemies will move -30% Slower
+|-
+|<center>Philosophers Stone<center>image
+|instantly convert all chests to rare chests
+|-
+|<center>Shimmering Moon Fragment<center>image
+| +1 star [[Traits|Star Remnant]] to each chest you open
+|}
+
+</tabber>
+
+
+if the player loses a match, the player will have 4 more chances to win that match, if the player fails to do so, they lose the dungeon
+
+in order to complete a dungeon, the play must win 20 games

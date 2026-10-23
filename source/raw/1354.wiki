@@ -1,0 +1,24 @@
+''If you were looking for a different Experiment X unit, see [[Experiment X (disambiguation)]].''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Experiment X (Semi-Perfect)]]. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You see, I'm perfect, my strength is perfect, and with that I shall bring equally perfect destruction through the rest of the universe."
+|caption2="You see, I'm perfect, my strength is perfect, and with that I shall bring equally perfect destruction through the rest of the universe."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Air}} damage type, along with other units without a second damage type.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Damage Type Air]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

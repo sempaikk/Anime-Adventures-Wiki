@@ -1,0 +1,17 @@
+=='''Overview'''==
+'''Agony''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="This world shall know real agony..."
+|caption2="There's no such thing as true peace! As long as we live in this cursed world, PEACE IS IMPOSSIBLE!"
+}}{{Main Stats}}
+
+== Passive Ability: ALMIGHTY PUSH! ==
+Every time Agony attacks, he uses the Almighty Push's overwhelming force to push back enemies by a few studs. Agony is a good support legendary though it is not recommended to get him as your first legendary as there are more useful ones. 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

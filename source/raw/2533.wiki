@@ -1,0 +1,22 @@
+==Overview==
+{{PAGENAME}} is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“I wanted to protect everything. But I failed, and that's the sin I bare. So this time, I can't fail to protect them!”
+|caption2=“I wanted to protect everything. But I failed, and that's the sin I bare. So this time, I can't fail to protect them!”
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*He is the only banner unit from [[Update Log#Update 11 - Seven Deadly Sins Update Part 1|Seven Deadly Sins update]] to not require any takedowns to evolve.
+
+{{Unit Navigation}}
+
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

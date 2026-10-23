@@ -1,0 +1,24 @@
+'''Tyrant''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Epic}}</center>
+|{{Characterbox|Tyrant (Final)}}
+|'''[[Tyrant (Final)]]'''
+|-
+|<center>{{Rarity|Legendary}}</center>
+|{{Characterbox|Mecha Tyrant}}
+|'''[[Mecha Tyrant]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Golden Tyrant}}
+|'''[[Golden Tyrant]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Golden Tyrant}}
+|'''[[Golden Tyrant (Emperor)]]'''
+|-
+|}

@@ -1,0 +1,2 @@
+Units with an  {{Damage_Type|ice_damage}}  affinity.
+[[Category:Units by damage type]]

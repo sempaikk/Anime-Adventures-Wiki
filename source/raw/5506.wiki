@@ -1,0 +1,21 @@
+''If you were looking for a different Carrot unit, see [[Carrot (disambiguation)]]''{{Meta Unit}}{{Story Meta Unit}}{{Infinity Castle Meta Unit}}
+
+==Overview== 
+{{PAGENAME}} is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Carrot (Super III)]]
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="And this is to go... EVEN FURTHER BEYOND!"
+|caption2="Behold! This is the transcendent power of Super III!"
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia== 
+*
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

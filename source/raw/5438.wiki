@@ -1,0 +1,12 @@
+The '''Puppet Star''' added in Update 18, is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (11th Season).
+
+== Infomation ==
+
+* <span style="color:#FFC208;">+Required to obtain a special unit...</span>
+* <span style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span>
+
+==Rewards==
+{{Container Characterbox
+|
+{{Characterbox|Robot Sorceror}}
+}}

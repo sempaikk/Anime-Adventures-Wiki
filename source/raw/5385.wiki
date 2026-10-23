@@ -1,0 +1,28 @@
+{{Tabber|Limited Unit=This unit is limited and can only be obtained for a limited amount of time.}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}} based on Chika Amatori from the anime [https://worldtrigger.fandom.com/wiki/Main_Page World Trigger].
+
+She is only obtainable once you get to rank 25 in Trion Hunt [[Battlepass]] and buying Premium Pass for her shiny version.
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

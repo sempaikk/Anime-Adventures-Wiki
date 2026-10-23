@@ -1,0 +1,26 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through evolution by evolving [[Illusionist (Fusion)]].''
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Fear is necessary for evolution. The fear that one could be destroyed at any moment.”
+|caption2=“Since the inoculation of this world, neither truth nor lies have existed. Only authoritative reality. Regardless, every being in this world lives misrecognizing only convenient “facts” as truth. This is because they have no other way to live. However, for the powerless who make up the majority of this world, the inconvenient “facts” they affirm through themselves is entirely the truth."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+Attacks starting from Upgrade 9 are able to hit air type enemies.
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Active Ability: Illusion==
+On activation, Illusionist will summon an illusion that pushes back any enemies on contact, this state lasts for 10 seconds and takes 6 minutes / 360 seconds to recharge.
+
+==Trivia==
+* At Update 11.5, his ability duration got nerfed from 20 seconds to 10 seconds.
+* At upgrade 9, he can damage flying enemies and multi-hit (4 hits).
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

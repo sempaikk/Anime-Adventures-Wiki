@@ -1,0 +1,2 @@
+Units with a  {{Damage_Type|rose_damage}}  affinity.
+[[Category:Units by damage type]]

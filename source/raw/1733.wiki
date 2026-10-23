@@ -1,0 +1,12 @@
+{{#switch: {{{1|}}}
+| physical | Physical = <span class="game-font-face" style="color: #ffabab; text-shadow: 0 0 2px #fc0b0b, 0 0 2px #fc0b0b, 0 0 2px #fc0b0b;">{{#if: {{{2|}}} | {{{2|}}} | Physical [[Category:Damage Type Physical]]}}</span> [[File:Damage type Physical.png|24px]]
+| magic | Magic = <span class="game-font-face" style="color: #38fcff; text-shadow: 0 0 2px #0f3efa, 0 0 2px #0f3efa, 0 0 2px #0f3efa;">{{#if: {{{2|}}} | {{{2|}}} | Magic [[Category:Damage Type Magic]]}}</span> [[File:Damage type Magic.png|24px]]
+| dark_damage | Dark = <span class="game-font-face" style="color: #6d6da3; text-shadow: 0 0 2px #27003a, 0 0 2px #27003a, 0 0 2px #27003a;">{{#if: {{{2|}}} | {{{2|}}} | Dark [[Category:Damage Type Dark]]}}</span> [[File:Damage type Dark.png|24px]]
+| aqua_damage | Aqua = <span class="game-font-face" style="color: #00aaff; text-shadow: 0 0 2px #043daf, 0 0 2px #043daf, 0 0 2px #043daf;">{{#if: {{{2|}}} | {{{2|}}} | Aqua [[Category:Damage Type Aqua]]}}</span> [[File:Damage type Aqua.png|24px]]
+| storm_damage | Storm = <span class="game-font-face" style="color: #cff2ff; text-shadow: 0 0 2px #0191ff, 0 0 2px #0191ff, 0 0 2px #0191ff;">{{#if: {{{2|}}} | {{{2|}}} | Storm [[Category:Damage Type Storm]]}}</span> [[File:Damage type Storm.png|24px]]
+| air_damage | Air = <span class="game-font-face" style="color: #e7ffd7; text-shadow: 0 0 2px #01c661, 0 0 2px #01c661, 0 0 2px #01c661;">{{#if: {{{2|}}} | {{{2|}}} |  Air [[Category:Damage Type Air]]}}</span> [[File:Damage type Air.png|24px]]
+| light_damage | Light = <span class="game-font-face" style="color: #fffbc9; text-shadow: 0 0 2px #c3c135, 0 0 2px #c3c135, 0 0 2px #c3c135;">{{#if: {{{2|}}} | {{{2|}}} | Light [[Category:Damage Type Light]]}}</span> [[File:Damage type Light.png|24px]]
+| fire_damage | Fire = <span class="game-font-face" style="color: #ffab19; text-shadow: 0 0 2px #fe2a00, 0 0 2px #fe2a00, 0 0 2px #fe2a00;">{{#if: {{{2|}}} | {{{2|}}} | Fire [[Category:Damage Type_Fire]]}}</span> [[File:Damage type Fire.png|24px]]
+| rose_damage | Rose = <span class="game-font-face" style="color: #FFB2E6; text-shadow: 0 0 2px #FF66CC, 0 0 2px #FF66CC, 0 0 2px #FF66CC;">{{#if: {{{2|}}} | {{{2|}}} | Rose [[Category:Damage Type_Rose]]}}</span> [[File:Damage type Rose.png|24px]]
+| true_damage | True = <span class="game-font-face" style="color: black; text-shadow: 0 0 3px white, 0 0 2px white, 0 0 2px white, 0 0 2px black;">{{#if: {{{2|}}} | {{{2|}}} | True [[Category:Damage Type True]]}}</span> [[File:Damage type True.png|24px]]
+}}

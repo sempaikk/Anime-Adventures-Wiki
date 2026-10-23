@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 11 - Seven Deadly Sins Update Part 1}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. She could only be obtained from clearing Room 100 in [[Infinity Mansion]] and opening the [[Love Star]]. Players who achieved a rank of Master or higher by the end of the 2nd season were automatically given her shiny version.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I will enrapture each and every one of you"
+|caption2="I'm gonna turn into a big snake and eat you up!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]

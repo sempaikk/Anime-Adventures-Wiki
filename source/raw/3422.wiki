@@ -1,0 +1,13 @@
+The '''Turtle Star''', added in [[Update Log|Update 13]], was a reward obtained from reaching Room 100 in the [[Infinity Castle]] (7th Season). Later, in Update 14 it was revealed to be [[Roshy]].
+== Information ==
+*<span data-darkreader-inline-color="" style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span data-darkreader-inline-color="" style="color:#921296;">''"Move well, study well, play well, eat well, and rest well... That is the Turtle Master way!"''</span>
+*<span data-darkreader-inline-color="" style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span>
+==Rewards ==
+
+{{Container Characterbox
+
+
+|
+{{Characterbox|Roshy}}
+}}

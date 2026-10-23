@@ -1,0 +1,21 @@
+''If you were looking for a different Vego unit, see [[Vego (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Then something just snapped , something inside of me. I didn't care anymore , I didn't care about being better than [[Carrot]], I didn't care about being a Super, I didn't care if I lived , I didn't care about anything! , and then it happened."
+|caption2="Are [https://animeadventures.fandom.com/wiki/Bulmy you] out of your mind?! Augh... I will not be seen wearing this PINK MONSTROSITY!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*In 2023 April Fools Event, needed to have 15 {{PAGENAME}} and 15 [[Carrot|Carrots]] or 5 Shiny {{PAGENAME}} and 5 Shiny [[Carrot|Carrots]] to evolve into a Secret Unit [[Veko]].
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

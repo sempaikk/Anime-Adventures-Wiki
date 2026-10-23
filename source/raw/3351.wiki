@@ -1,0 +1,39 @@
+''If you were looking for a different Operator unit, see [[Operator (disambiguation)]].''
+{{Meta Unit}}{{Infinity Castle Meta Unit}}{{Meta Support Unit}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Operator (Heart)]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}} 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Its been two years since the War of Best. Did anyone actually accomplish anything? All you did was stay calm. All [[Whitehair|Whitehair]] did was end an Era. The Navy Headquarters rounded up new forces. The Big-timers didn't take any action. It was like everybody was just preparing for something. That war was only the beginning. You always told me that the new Era of the daring ones is coming along with an unstoppable swell. I BROKE THE GEAR. Now, there is no turning back."
+|caption2="ROOM, Tact, Shambles!"|title1=Lao (ROOM)
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Active Ability: Scramble==
+[[File:Operator (ROOM) Passive.png|left|thumb|103x103px]]
+{{PAGENAME}} has an ability called "Scramble" that teleports enemies back 50% of Lao's Range. This scales with his range, so the more range {{PAGENAME}} has, the further back the enemies are teleported. For example, if he has 10 Range, Scramble will teleport enemies 5 'range' backwards on the Path. Scramble works on all enemies in his range, including Bosses.
+
+
+
+* Global Cooldown: 75s
+* This ability wont work on enemies that have already been affected by Scramble 3 times.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]

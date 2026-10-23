@@ -1,0 +1,18 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable as a random drop in the [[Raids|West City Raid]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "You hate the fact that you're powerless to stop me. That you're completely outmatched. Well, imagine feeling the way you do you think my master [[Future Goh]] felt when you ganged up on him in the rain and he had no way out? Well, now it's your turn. I hope you enjoy it!"
+|caption2="I can't rely on others forever. I have to win my own battles!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

@@ -1,0 +1,1884 @@
+<div class="main-page-warning"><span class="main-page-warning_text">This List is only to be used as a '''Guide''' and not to base 100% of your trades off of</span></div>
+
+== Overview ==
+<big>This page classifies different units into various ranks based on their overall value in most trades, Keep in mind that the rankings are not completely indicative of your trades - some may get overpays and some may not. This is simply used as a '''Guide''' to your trades. '''This tierlist is not final and is always subject to change.'''</big> 
+
+'''Last Update:''' 3/14/2025 (March 14th 2025) 
+<tabber>
+
+|-|Game Pass=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+! style="width:185px;" | <center>Gamepass</center> 
+!style="width:100px;" | <center>Value</center>
+!<center>Demand</center>Drac
+!style="width:185px;" | <center>Trend</center>
+|-
+|<center>{{RarityColor|Exclusive|Super Bundle}}</center>[[File:Super Bundle.png|100x100px]]
+|3400
+|6
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Festive Bundle #2}}</center>[[File:Festive Bundle -2.png|100x100px]]
+|1300
+|5
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Festive Bundle #1}}</center>[[File:Festive Bundle -1.png|100x100px]]
+|850
+|5
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Battlepass Start}}</center>[[File:Battlepass.png|100x100px]]
+|340
+|6
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Shiny Hunter}}</center>[[File:Shiny Hunter.png|100x100px]]
+|280
+|5
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Assasins Bundle}}</center>[[File:Assasins Bundle.png|100x100px]]
+|280
+|4
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Starter Bundle}}</center>[[File:Starter Bundle.png|100x100px]]
+|260
+|4
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Skip 10 Levels}}</center>[[File:Skip 10 levels.png|100x100px]]
+|240
+|4
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Mid/End Battlepass}}</center>[[File:Battlepass.png|100x100px]]
+|230
+|4
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Display All Units}}</center>[[File:Display All Units.png|100x100px]]
+|130
+|3
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Vip}}</center>[[File:Vip.png|100x100px]]
+|50
+|2
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Display 3 Units}}</center>[[File:Display 3 Units.png|100x100px]]
+|25
+|2
+|Stable
+|-
+|<center>{{RarityColor|Mythic|Unit Storage}}</center>[[File:Unit Storage.png|100x100px]]
+|20
+|2
+|Stable
+|}
+
+|-|Skins=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+! style="width:185px;" | <center>Name</center> 
+!<center>Value</center>
+!<center>Rerolls</center>
+!<center>Demand</center>
+!style="width:185px;" | <center>Trend</center>
+|-
+|<center>Teen Rainbow</center>{{Characterbox|Bulby|Skin= Teen Rainbow}}
+|10000
+|n/a
+|2
+|Stable
+|-
+|<center>Headless Rainbow</center>{{Characterbox|Commander|Skin= Headless Rainbow}}
+|4500
+|n/a
+|3
+|Stable
+|-
+|<center>Halloween Rainbow</center>{{Characterbox|Pito|Skin= Halloween Rainbow}}
+|2500
+|n/a
+|2
+|Stable
+|-
+|<center>Teen (Any Color)</center>{{Characterbox|Bulby|Skin= Teen}}
+|400
+|n/a
+|5
+|Stable
+|-
+|<center>Delinquent (Any Color)</center>{{Characterbox|Commander|Skin= Delinquent}}
+|150
+|n/a
+|4
+|Stable
+|-
+|<center>Headless (Any Color)</center>{{Characterbox|Commander|Skin= Headless}}
+|140
+|n/a
+|4
+|Stable
+|-
+|<center>Vampire</center>{{Characterbox|Paradox|Skin= Vampire}}
+|55
+|n/a
+|2
+|Stable
+|-
+|<center>Halloween (Any Color)</center>{{Characterbox|Pito|Skin= Halloween}}
+|20
+|n/a
+|1
+|Stable
+|-
+|<center>Slayer</center>{{Characterbox|Berserker|Skin= Slayer}}
+|10
+|n/a
+|2
+|Stable
+|-
+|<center>Jetstream</center>{{Characterbox|Menace|Skin= Jetstream}}
+|5
+|n/a
+|2
+|Stable
+|-
+|<center>Angel</center>{{Characterbox|Asto|Skin= Angel}}
+|1
+|n/a
+|1
+|Stable
+|-
+|<center>Festival</center>{{Characterbox|Tango|Skin= Festival}}
+|1
+|n/a
+|1
+|Stable
+|-
+|<center>Coco</center>{{Characterbox|Metal Knight|Skin= Coco}}
+|1
+|n/a
+|1
+|Stable
+|-
+|<center>other skins</center>{{TierList/Item}}
+|0
+|0
+|0
+|Stable
+|}
+
+
+|-|Relics=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+! style="width:185px;" | <center>Name</center> 
+!<center>Value</center>
+!<center>Rerolls</center>
+!<center>Demand</center>
+!style="width:185px;" | <center>Trend</center>
+|-
+|style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Nail.png|center]] {{RarityColor|Exclusive|Nail (high%)}}
+|380
+|n/a
+|5
+|Stable
+|-
+|style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Nail.png|center]] {{RarityColor|Mythic|Nail (low%)}}
+|250
+|n/a
+|4
+|Stable
+|-
+| style="padding: 20px; text-align: center; font-size: 110;" | [[File:Black Blade- Autumn Water.png|100px|center]] {{RarityColor|Legendary|Black Blade: Autumn Water}}
+|65
+|n/a
+|2
+|Stable
+|-
+|style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Hellfire Blade.png|center]] {{RarityColor|Epic|Hellfire Blade}}
+|45
+|n/a
+|1
+|Stable
+|}
+
+
+|-|Stats=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+!<center>Tier</center>
+! style="width:185px;" | <center>Stat</center> 
+!<center>Value</center>
+!<center>Reroll Tokens</center>
+!<center>Demand</center>
+!<center>Trend</center>
+|-
+|{{RarityColor|Exclusive|SSS}}
+|DMG
+|460
+|27
+|6
+|Stable
+|-
+|{{RarityColor|Exclusive|SSS}}
+|SPA
+|440
+|26
+|5
+|Stable
+|-
+|{{RarityColor|Exclusive|SSS}}
+|RNG
+|350
+|21
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|SS}}
+|DMG
+|110
+|7
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|SS}}
+|SPA
+|90
+|5
+|2
+|Stable
+|-
+|{{RarityColor|Mythic|SS}}
+|RNG
+|60
+|4
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|S+ to S-}}
+|ANY
+|20
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Epic|Under S-}}
+|ANY
+|0
+|0
+|0
+|Stable
+|}
+
+|-|S Tier=
+
+<center>
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+!<center>Tier</center>
+! style="width:185px;" | <center>Name</center> 
+!<center>Value</center>
+!<center>Reroll Tokens</center>
+!<center>Demand</center>
+!<center>Trend</center>
+|-
+|{{RarityColor|Exclusive|SSS}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|JIO (Over Heaven) Shiny}}
+|Owner's Choice
+|Owner's Choice
+|4
+|Overpriced
+|-
+|{{RarityColor|Exclusive|SS}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Future Goh Shiny}}
+|Owner's Choice
+|Owner's Choice
+|5
+|Stable
+|-
+|{{RarityColor|Exclusive|S+}}
+|{{Characterbox|JIO (Over Heaven)}}
+|16,750
+|1,250
+|6
+|Stable
+|-
+|{{RarityColor|Exclusive|S+}}
+|{{Characterbox|Future Goh}}
+|16,250
+|1,200
+|5
+|Unstable
+|-
+|{{RarityColor|Exclusive|S+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Blue Devil Shiny}}
+|13,000
+|800
+|5
+|Stable
+|-
+|{{RarityColor|Exclusive|S+}}
+|{{Characterbox|Blue Devil}}
+|8,000
+|650
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Mist Ninja Shiny}}
+|6,500
+|530
+|7
+|Overpriced
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Android AAA Shiny}}
+|5,700
+|370
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Dracula (Unholy King) Shiny}}
+|5,100
+|360
+|5
+|Unstable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Shadowgirl (Time Traveller) Shiny}}
+|4,300
+|365
+|8
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Pirate King (Final) Shiny}}
+|4,250
+|280
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ice Lily Shiny}}
+|3,700
+|240
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|{{Characterbox|Android AAA}}
+|3,500
+|280
+|7
+|Overpriced
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Tobi Shiny}}
+|3,750
+|290
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Skeleton Knight (King) Shiny}}
+|3,400
+|200
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|S}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Hei Shiny}}
+|3,200
+|185
+|5
+|Overpriced
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Lord Alien King Shiny}}
+|2,750
+|140
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Saickik Shiny}}
+|2,500
+|125
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ging Shiny}}
+|2,300
+|130
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Jelly Shiny}}
+|2,100
+|113
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Lulu (Emperor) Shiny}}
+|1,850
+|100
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Golden King (Lord Of Heros) Shiny}}
+|1,900
+|115
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Bleed Queen Shiny}}
+|1,750
+|110
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kuma Shiny}}
+|1,650
+|80
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Millie (Holy) Shiny}}
+|1,600
+|95
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|S-}}
+|{{Characterbox|Joker Shiny}}
+|1,600
+|95
+|6
+|Hyped
+|-
+|{{RarityColor|Mythic|S-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Blood (Unleashed) Shiny}}
+|1,550
+|90
+|6
+|Stable
+|}
+</center>
+
+
+|-|A Tier=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+!<center>Tier</center>
+! style="width:185px;" | <center>Name</center> 
+!<center>Value</center>
+!<center>Reroll Tokens</center>
+!<center>Demand</center>
+!<center>Trend</center>
+|-
+|{{RarityColor|Mythic|A+}}
+|{{Characterbox|Dracula}}
+|1,500
+|83
+|6
+|Unstable
+|-
+|{{RarityColor|Mythic|A+}}
+|{{Characterbox|Demonshade}}
+|1,450
+|74
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Tango Shiny}}
+|1,425
+|72
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|{{Characterbox|Saickik}}
+|1,400
+|70
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Piccoru (Nameless) Shiny}}
+|1,400
+|78
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|{{Characterbox|Kumo}}
+|1,350
+|68
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|{{Characterbox|Pirate King (Final)}}
+|1,250
+|70
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Stringy (Awakened) Shiny}}
+|1,200
+|69
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Trickster (Release) Shiny}}
+|1,200
+|72
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Elize (Lightning) Shiny}}
+|1,175
+|64
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Infinity Mage (Endless) Shiny}}
+|1,100
+|62
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Fiery Commander (Hellfire) Shiny}}
+|1,000
+|58
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Riony (Devil Princess) Shiny}}
+|975
+|66
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Nejiri Shiny}}
+|975
+|53
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Snake Princess Shiny}}
+|935
+|54
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Shizo (Flicker) Shiny}}
+|925
+|60
+|6
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|{{Characterbox|Shadowgirl (Time Traveller)}}
+|900
+|75
+|9
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Umbra (Nuclear) Shiny}}
+|900
+|55
+|5
+|Unstable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Silver King Shiny}}
+|875
+|53
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kenshin Shiny}}
+|850
+|47
+|4
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Sea God (Tyrant of the Seas) Shiny}}
+|825
+|44
+|5
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kimomaro Shiny}}
+|800
+|39
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Fan Ninja Shiny}}
+|800
+|39
+|3
+|Stable
+|-
+|{{RarityColor|Mythic|A+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Bozo Shiny}}
+|800
+|32
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|InHuman (Nullifier) Shiny}}
+|750
+|35
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|{{Characterbox|Mist Ninja}}
+|725
+|34
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|{{Characterbox|Joker}}
+|700
+|37
+|6
+|Hyped
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Angel Shiny}}
+|700
+|37
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Pain Shiny}}
+|700
+|37
+|4
+|Unstable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Luci Shiny}}
+|675
+|47
+|6
+|Overpriced
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Issai Shiny}}
+|650
+|33
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Bombeitta Shiny}}
+|640
+|32
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Rohon Shiny}}
+|620
+|30
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Hammerhead Shiny}}
+|600
+|31
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Saka (Ribbon) Shiny}}
+|600
+|29
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Boxo Shiny}}
+|600
+|20
+|1
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Gazu (Maximum) Shiny}}
+|575
+|28
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ice Queen Shiny}}
+|575
+|28
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Akena Shiny}}
+|550
+|27
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|{{Characterbox|Nejiri}}
+|545
+|26
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Yoshina Shiny}}
+|525
+|28
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Gowther Shiny}}
+|500
+|27
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Madoko Shiny}}
+|500
+|26
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Toad Sensei Shiny}}
+|500
+|26
+|5
+|Unstable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Inuyasha Shiny}}
+|480
+|25
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Heathcliff Shiny}}
+|475
+|24
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Peruna Shiny}}
+|475
+|24
+|4
+|Unstable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Akin Shiny}}
+|470
+|24
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ji Mo Ri Shiny}}
+|470
+|24
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Tatsumo Shiny}}
+|460
+|23
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Chuyo Shiny}}
+|450
+|24
+|4
+|Unstable
+|-
+|{{RarityColor|Legendary|A}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Cooler Shiny}}
+|450
+|23
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Blade Beast Shiny}}
+|430
+|22
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Kenshi}}
+|415
+|21
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Death Ninja (Immortal Butcher) Shiny}}
+|400
+|23
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Isago Shiny}}
+|400
+|23
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Kimomaro}}
+|400
+|22
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Temori}}
+|400
+|19
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Scarlet Slayer Shiny}}
+|400
+|20
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ipo Shiny}}
+|385
+|18
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Bozo}}
+|380
+|12
+|1
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Saki (Cyanblade) Shiny}}
+|375
+|17
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Minata Shiny}}
+|375
+|17
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kuneko Shiny}}
+|375
+|17
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Fiend Girl Shiny}}
+|375
+|16
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Skeleton (Soul King) Shiny}}
+|370
+|17
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Ice Lily}}
+|350
+|20
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kit Shiny}}
+|350
+|16
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Roshy Shiny}}
+|350
+|16
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kyko Shiny}}
+|350
+|14
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Asushi Shiny}}
+|345
+|15
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Klay Shiny}}
+|340
+|17
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Todoro Shiny}}
+|340
+|15
+|3
+|Unstable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Wheather Shiny}}
+|335
+|14
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Golden King (Lord of Heros)}}
+|325
+|14
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Akutagawa Shiny}}
+|325
+|19
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|{{Characterbox|Akutagawa Shiny}}
+|325
+|13
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Buggy Shiny}}
+|300
+|9
+|1
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Elize (Valkaryie) Shiny}}
+|300
+|12
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|A-}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Avdo Shiny}}
+|300
+|12
+|3
+|Stable
+|-
+
+|-|B Tier=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+!<center>Tier</center>
+! style="width:185px;" | <center>Name</center> 
+!<center>Value</center>
+!<center>Reroll Tokens</center>
+!<center>Demand</center>
+!<center>Trend</center>
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Gas (Toxic) Shiny}}
+|275
+|14
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ratio (Overtime) Shiny}}
+|275
+|14
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Erza}}
+|275
+|14
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Sharkfin}}
+|275
+|11
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Fire Fist}}
+|270
+|14
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Toshin}}
+|260
+|13
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|{{Characterbox|Skeleton Knight}}
+|250
+|15
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Kobeno Shiny}}
+|245
+|12
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Hime Shiny}}
+|245
+|12
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|{{Characterbox|Boxo}}
+|235
+|8
+|1
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|{{Characterbox|Umbra (Nuclear)}}
+|200
+|11
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Idol Shiny}}
+|210
+|14
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|{{Characterbox|Lord Alien King}}
+|195
+|11
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Lucky Shiny}}
+|185
+|9
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Morbid Shiny}}
+|185
+|9
+|2
+|Stable
+|-
+|{{RarityColor|Legendary|B+}}
+|{{Characterbox|Stringy}}
+|180
+|11
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Fiery Commander}}
+|180
+|10
+|3
+|Declining
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Lulu (Emperor)}}
+|175
+|10
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Blood}}
+|175
+|11
+|5
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Dog Demon}}
+|175
+|9
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Wukong}}
+|175
+|9
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Tattermo}}
+|175
+|8
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Boxer}}
+|165
+|8
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Mira Shiny}}
+|150
+|7
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Bladebeast Shiny}}
+|140
+|7
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Messi}}
+|135
+|7
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Carrot Shiny}}
+|135
+|7
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Ichi (Full Hollow) Shiny}}
+|125
+|6
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Erza (Lightning)}}
+|125
+|6
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Trickster}}
+|120
+|7
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Infinity Mage}}
+|115
+|6
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Sea God}}
+|115
+|6
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Mirror Ninja Shiny}}
+|115
+|6
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Weather Girl Shiny}}
+|110
+|6
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|{{Characterbox|Jellal}}
+|110
+|5
+|3
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Agony}}
+|100
+|5
+|3
+|Untable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Toad Sensei}}
+|100
+|5
+|4
+|Stable
+|-
+|{{RarityColor|Legendary|B}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Renzi Shiny}}
+|100
+|5
+|3
+|Stable
+|-
+|{{RarityColor|Epic|B-}}
+|{{Characterbox|Inhuman}}  
+|90  
+|4  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Mangaka}}  
+|80  
+|4  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Saka}}  
+|75  
+|5 
+|4  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Gazu}}  
+|75  
+|4  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Veko}}  
+|75  
+|2  
+|1  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Stitches}}  
+|70  
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Ice Queen}}  
+|70  
+|4  
+|4  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Lyla}}  
+|65
+|4  
+|4  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Weather Girl}}  
+|65  
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Crusader}}  
+|65  
+|3 
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Green Alien}}  
+|60 
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Millie}}  
+|60  
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Shisu}}  
+|60  
+|4  
+|4 
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Idol}}  
+|60  
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Dragon Knight}}  
+|60  
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Paragon}}  
+|55  
+|3  
+|3  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Riony}}  
+|55  
+|4  
+|4  
+|Stable  
+|-
+|{{RarityColor|Epic|B-}}  
+|{{Characterbox|Skeleton}}  
+|55  
+|4  
+|3  
+|Stable  
+|-
+
+
+|-|C Tier=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:550px; box-shadow: 5px 5px 15px #000000; margin-left: auto; margin-right: auto;"
+!<center>Tier</center>
+! style="width:185px;" | <center>Name</center> 
+!<center>Value</center>
+!<center>Reroll Tokens</center>
+!<center>Demand</center>
+!<center>Trend</center>
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Magic Girl}}
+|50
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Gravity Mage}}
+|50
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Akemy}}
+|50
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Gati Shiny}}
+|50
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Nightmare Luffo Shiny}}
+|50
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Shingo Shiny}}
+|50
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|<center>{{Shiny|Shiny}}</center>{{Characterbox|Mecha Freezo Shiny}}
+|50
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Blade Beast}}
+|50
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Curse}}
+|50
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Catgirl}}
+|50
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Death Ninja}}
+|45
+|3
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Bombietta}}
+|45
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Saki}}
+|45
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Hammerhead}}
+|45
+|3
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Fiend Girl}}
+|40
+|3
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Scarlet Slayer}}
+|40
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Tiger}}
+|40
+|2
+|3
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Ghost Lady}}
+|40
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Virtual Samurai}}
+|40
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Erza (Valkyrie)}}
+|35
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Gas (Toxic)}}
+|35
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Flamefeather}}
+|35
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Snake Princess}}
+|35
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Flash Ninja}}
+|30
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Silver King}}
+|30
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Tango}}
+|30
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Black Dog}}
+|30
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C+}}
+|{{Characterbox|Bleed Queen}}
+|30
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Sharkfin}}
+|25
+|2
+|1
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Kyko}}
+|25
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Hime}}
+|25
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Kobeno}}
+|25
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Doll}}
+|25
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Fridge}}
+|25
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Tobi}}
+|20
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Erza (True Heart)}}
+|20
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Turtle}}
+|20
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Lily}}
+|15
+|2
+|1
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Todorro}}
+|20
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Toshin}}
+|15
+|2
+|1
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Ratio}}
+|15
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Epic|C}}
+|{{Characterbox|Heavy Weather}}
+|15
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Kit}}
+|10
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Lucky}}
+|10
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Veko}}
+|10
+|2
+|2
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|White Snake}}
+|10
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Morbid}}
+|10
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Fire First}}
+|10
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Ichi (Full Hollow)}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Renzi}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Luffo (Marine's Ford)}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Nightmare Luffo}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Shingo}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Gati}}
+|5
+|1
+|1
+|Stable
+|-
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Mecha Freezo}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Puppet Girl}}
+|5
+|1
+|2
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Carrot}}
+|5
+|1
+|1
+|Stable
+|-
+|{{RarityColor|Rare|C-}}
+|{{Characterbox|Mira}}
+|5
+|1
+|1
+|Stable
+|-
+
+
+
+|-|Credits=
+<center>
+And a heartfelt thank you to the incredible creators of the value list, whose dedication and effort have updated the old and outdated value list. These thoughtful people have created the value list you are viewing right now.
+</center>
+<div>
+{{ValueListTeam}}
+</div>
+<li style="display: inline-block;">[https://discord.gg/aavalue <span class="Scale(1.061):h Scale(1.061):h Scale(.97):a Trs(GameStyle):a" style="z-index: 1; position: relative; display: inline-block; width: 100px; height: 100px; transition: .4s all cubic-bezier(.15,.66,.15,1);border-radius: 8px; border: 2px solid black; box-sizing: content-box;background:  -webkit-linear-gradient(177deg, #2f40ee, #414aa3);"><span class="ChBox-boxBackground ChBox-boxShadow" style="display: block;"></span><span style="position: relative; display: block; width: calc(100% - 6px); height: calc(100% - 8px);transform: translate(3px,4px); background: repeating-radial-gradient(#000000a8,#000000 100%); border-radius: 8px;"></span><span style="display: block; position: absolute; width: min-content; height: min-content; margin: auto; bottom: 0; top: 0; left: 0; right: 0;"><span class="navButton-Discord" style="display: block; background: -webkit-linear-gradient(177deg, #2f40ee, #414aa3);"></span></span><span class="ChBox-boxShadow2 ChBox-boxBackground" style="display: block;"></span><span style="display: block; font-size: 22px; line-height: 0.92; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 1px black; color: #e6e6e6;position: absolute; bottom: 0; left: 0; right: 0; margin: auto; width: fit-content; padding: 4px 0 4px;">Discord]</span></span></li>
+
+<div class="main-page-warning"><span class="main-page-warning_text">The staff of the wiki have no association with the creation of the value list.</span></div>
+
+</tabber>
+
+__NOEDITSECTION____NOTOC__

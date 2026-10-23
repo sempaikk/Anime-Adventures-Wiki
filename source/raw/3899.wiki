@@ -1,0 +1,31 @@
+{{Unobtainable Unit|Update 19 - Winter Event}}
+
+==Overview==
+{{PAGENAME}}​ is a {{Rarity|Mythical}}​ unit. He is only obtainable by completing [[Raids|raids]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Justice lies in values wich cannot transcend the generations." 
+|caption2="Don't try to find a reason... for somebody's love!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+*As of Update 19.0.0, Golden Navy is now unobtainable as his raid has been removed.
+
+==Gallery==
+
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythical Units]]

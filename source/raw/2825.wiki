@@ -1,0 +1,1 @@
+<includeonly><span class="game-font-face Tsh(Game)" style="color: #ff0000;">{{{1|}}}Damage icon</span></includeonly><noinclude>{{Doc}}</noinclude>

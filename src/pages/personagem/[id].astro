@@ -1,0 +1,7 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { units } from '../../lib/wiki';
+export function getStaticPaths(){return units.filter(u=>!u.article).map(unit=>({params:{id:unit.id},props:{unit}}))}
+const { unit }=Astro.props;
+---
+<Layout title={`${unit.name} — Adventures Archive`} active="personagens"><div class="page-heading"><span class="eyebrow">PERSONAGENS / CATÁLOGO</span></div><div class="article-title"><h1>{unit.name}</h1></div><div class="empty-state">{unit.image&&<img src={unit.image} alt={unit.name} width="160"/>}<h2>Identidade presente no catálogo.</h2><p>A coleta não contém um artigo correspondente a esta forma. Vamos preservar essa ausência em vez de atribuir informações de outro personagem.</p><a class="button button-outline" href="/personagens/">Explorar outros personagens</a></div></Layout>

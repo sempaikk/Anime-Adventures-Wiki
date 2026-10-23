@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas Update Part 1}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He was obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Wanna fight?"
+|caption2="Wanna fight?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Luck's shiny variant is based off from when he was wearing the Royal Knights uniform.
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,29 @@
+''If you were looking for a different Gene unit, see [[Gene (disambiguation)]]''
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Gene (Adult)]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I’m kind of happy, I finally get to be the same as [[Chance]] was back then"
+|caption2="I don't care.. if this is the end. So.. I'll use everything. I'll kill you, [[Cat Guard|CAT GUARD]]!!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* On upgrade 8, the explosion from his attack can hit air enemies
+*Gene (???) has the biggest full AOE range in game
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

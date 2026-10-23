@@ -1,0 +1,23 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].  
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I wonder... did we make the right choice? I can't help but think... if there could have been another, different path."
+|caption2="Willpower alone isn't enough in battle."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*{{PAGENAME}}'s SPA cannot be affect by [[Powerups|Stats]] or [[Traits]], but can be affected by [[Powerups|Curses]].
+*Starting Update 7.5, he can now damage flying units.
+*After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Light}} damage type, along with other units without a second damage type.
+
+{{Unit Navigation}}
+[[Category:Damage Type Light]]
+[[Category:Mythic Units]]
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}

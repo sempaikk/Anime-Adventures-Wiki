@@ -1,0 +1,64 @@
+<!--
+  Automatically add {{template sandbox notice}} when on a /sandbox page.
+-->{{#ifeq: {{SUBPAGENAME}} | sandbox
+| <div style="clear: both;"></div>{{template sandbox notice|{{{livepage|}}}}}
+}}<!--
+  Start of green doc box.
+-->{{documentation/start box2
+| preload = {{{preload|}}}   <!--Allow custom preloads-->
+| heading = {{{heading|¬}}}   <!--Empty but defined means no header-->
+| heading-style = {{{heading-style|}}}
+| content = {{{content|}}}
+
+<!--Some namespaces must have the /doc, /sandbox and /testcases 
+    in talk space-->
+| docspace = {{documentation/docspace}}
+
+| 1 = {{{1|}}}   <!--Other docname, if fed-->
+
+<!--The namespace is added in /start box2-->
+| template page = {{documentation/template page}}
+
+}}<!-- Start content --><!--
+  Start load the /doc content:
+  Note: The line breaks between this comment and the next line are necessary
+  so  "=== Headings ===" at the start and end of docs are interpreted.
+-->
+{{#switch: {{#if:{{{content|}}}|1|0}}{{#if:{{{1|}}}|1|0}}{{#ifexist:{{{1|}}}|1|0}}{{#ifexist:{{documentation/docspace}}:{{documentation/template page}}/doc|1|0}}
+| 1000 | 1001 | 1010 | 1011 | 1100 | 1101 | 1110 
+| 1111 = {{{content|}}}
+| 0110 | 0111 = {{ {{{1}}} }}
+| 0001 | 0011 = {{ {{documentation/docspace}}:{{documentation/template page}}/doc }}
+| 0000 | 0100 | 0010 | 0101 = 
+}}
+<!--
+  End load the /doc content:
+  Note: The line breaks between this comment and the previous line are necessary
+  so  "=== Headings ===" at the start and end of docs are interpreted.
+-->{{documentation/end box2
+| preload = {{{preload|}}}   <!--Allow custom preloads-->
+| content = {{{content|}}}
+| link box = {{{link box|}}}   <!--So "link box=off" works-->
+
+<!--Some namespaces must have the /doc, /sandbox and /testcases 
+    in talk space-->
+| docspace = {{documentation/docspace}}
+
+| 1 = {{{1|}}}   <!--Other docname, if fed-->
+
+<!--The namespace is added in /end box2-->
+| template page = {{documentation/template page}}
+
+}}<!--
+  End of green doc box
+--><noinclude>
+*created by User:[https://leagueoflegends.fandom.com/wiki/User:BryghtShadow BryghtShadow] - for wiki -  [https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki leagueoflegends.fandom.com]
+*taken from https://leagueoflegends.fandom.com/wiki/Template:Documentation/docspace
+<!-- Add categories and interwikis to the /doc subpage, not here! -->
+</noinclude>
+{{clr}}
+{| cellspacing="8" cellpadding="0" style="width:100%; font-size:95%; border-color:#393e4a; border-top-style:solid;border-bottom-style:solid; margin-top:1em; clear:both; position:relative;"
+| style="width:30px; vertical-align:top;" |
+* [[Special:Whatlinkshere/{{FULLPAGENAME}}|Usage]] of this template.
+* [[Special:Prefixindex/{{FULLPAGENAME}}|List of all subpages]].
+|}

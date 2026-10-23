@@ -1,0 +1,4 @@
+<div class="mobile-hidden" style="position: relative;">
+<div class="Character-List-text-New_Game_Units" style="position: absolute; top: -38px; left: 6px; font-size: 130%; background: #54070469; border-radius: 7px 7px 0 0; padding: 1px 5px; height: 36px; z-index: -1;>{{{text|}}}</div>
+{{{|}}}
+</div><noinclude>[[Category:Design templates]]</noinclude>

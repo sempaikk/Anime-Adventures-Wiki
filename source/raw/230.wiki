@@ -1,0 +1,26 @@
+''If you were looking for a different Joykid unit, see [[Joykid (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="My name is Joykid, and I am going to become the king of the pirates!"
+|caption2="Don't talk to me about your dreams! Your dreams made the people of this country starve!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* His shiny skin is based on Luffy's outfit during the Wano arc.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]
+[[Category:Damage Type Fire]]

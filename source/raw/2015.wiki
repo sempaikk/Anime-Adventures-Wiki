@@ -1,0 +1,21 @@
+{{Disenchant Unit}}
+{{Unobtainable Unit|Update 11 - Seven Deadly Sins Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} He is only obtainable through opening the [[Events|Frozen Star]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I want... to be a hero, too!"
+|caption2="I want... to be a hero, too!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 14 - Sword Art Online}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. She is only obtainable via evolving [[Infinity Mage]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Justice can become evil. Reality can become an illusion. Meaning can be found in something that can appear meaningless."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Passive Ability: Hexed==
+Similar to [[Sukuno]]'s [[Effects#Dismember|Dismember]], she has either 20% (Upgrades 4-6), or 25% (Upgrade 7+) chance to Hex enemies -  enemies affected this way take 30% more {{Damage Type|Magic}} damage '''permanently'''.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret_Units]]
+[[Category:Evolved_Units]]

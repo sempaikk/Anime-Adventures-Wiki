@@ -1,0 +1,1 @@
+<includeonly>[[File:Shiny.png|24px|link=Unit_List]] [[Unit_List|<span class="Pos(r) Bg(Gems) Bgcp(text) Tfc(transparent) game-font-face">{{{1|}}} {{plural:{{{1}}}|}}<span class="Tsh(Game) Pos(a) Start(0) Z(-1)">{{{1|}}} {{plural:{{{1}}}|}}</span></span>]]</includeonly><noinclude>{{Doc}}</noinclude>

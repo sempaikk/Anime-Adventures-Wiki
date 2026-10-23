@@ -1,0 +1,31 @@
+<center><font size="6px">'''Effect Navigation'''</font></center>
+<center style="background: #0000001c;">
+----
+<div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; column-gap: 3px; grid-row-gap: 7px; font-weight: 700; font-size: 16px; padding: 5px 0 7px 0;text-shadow: 0 0 4px #000000f7; box-sizing: content-box; border-radius: 5px;">
+<div>
+<div style="display: inline-block;">[[Effects#Supports|<span class="LinkButton" style="background-color: #a9a8003b;box-shadow: 0 0 11px -2px #fffd0080, inset 0 0 20px 0px #ffbc403d;border: 2px solid #a9a80080;">Supports</span>]]</div>
+<div style="display: inline-block;">[[Effects#Movement Manipulation|<span class="LinkButton" style="background-color: #9393933b;box-shadow: 0 0 11px -2px #e1e1e180, inset 0 0 20px 0px #d0c2a43d;border: 2px solid #93939380;">Movement Manipulation</span>]]</div>
+<div style="display: inline-block;">[[Effects#Burn|<span class="LinkButton" style="background-color: #a7651d3b;box-shadow: 0 0 11px -2px #ec8f2a80, inset 0 0 20px 0px #ec5b5b3d;border: 2px solid #a7651d80;">Burn</span>]]</div>
+<div style="display: inline-block;">[[Effects#Bleed|<span class="LinkButton" style="background-color: #a200003b;box-shadow: 0 0 11px -2px #e6000080, inset 0 0 20px 0px #ea36603d;border: 2px solid #a2000080;">Bleed</span>]]</div>
+<div style="display: inline-block;">[[Effects#Poison|<span class="LinkButton" style="background-color: #420c9b3b;box-shadow: 0 0 11px -2px #5c10d980, inset 0 0 20px 0px #3860d93d;border: 2px solid #420c9b80;">Poison</span>]]</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; column-gap: 3px; grid-row-gap: 7px; font-weight: 700; font-size: 16px; padding: 5px 0 7px 0;text-shadow: 0 0 4px #000000f7; box-sizing: content-box; border-radius: 5px;">
+<div>
+<div style="display: inline-block;">[[Effects#True Damage|<span class="LinkButton" style="background-color: #7a948c3b;box-shadow: 0 0 11px -2px #d2fff280, inset 0 0 20px 0px #ffffff3d;border: 2px solid #7a948c80;">True Damage</span>]]</div>
+<div style="display: inline-block;">[[Effects#Speed Manipulation|<span class="LinkButton" style="background-color: #3e7d3d3b;box-shadow: 0 0 11px -2px #64cb6280, inset 0 0 20px 0px #89cb883b;border: 2px solid #3e7d3d80;">Speed Manipulation</span>]]</div>
+<div style="display: inline-block;">[[Effects#Base Protection|<span class="LinkButton" style="background-color: #5650903b;box-shadow: 0 0 11px -2px #988dff80, inset 0 0 20px 0px #a7d0f83d;border: 2px solid #56509080;">Base Protection</span>]]</div>
+<div style="display: inline-block;">[[Effects#Summoning|<span class="LinkButton" style="background-color: #756a533b;box-shadow: 0 0 11px -2px #d1bf9680, inset 0 0 20px 0px #d2baaf3d;border: 2px solid #756a5380;">Summoning</span>]]</div>
+</div>
+</div>
+<div style="display: flex; justify-content: space-evenly; flex-wrap: wrap; column-gap: 3px; grid-row-gap: 7px; font-weight: 700; font-size: 16px; padding: 5px 0 7px 0;text-shadow: 0 0 4px #000000f7; box-sizing: content-box; border-radius: 5px;">
+<div>
+<div style="display: inline-block;">[[Effects#Critical Hit|<span class="LinkButton" style="background-color: #a200003b;box-shadow: 0 0 11px -2px #e6000080, inset 0 0 20px 0px #ea36603d;border: 2px solid #a2000080;">Critical Hit</span>]]</div>
+<div style="display: inline-block;">[[Effects#Shatter|<span class="LinkButton" style="background-color: #7d9ba43b;box-shadow: 0 0 11px -2px #a7cfdb80, inset 0 0 20px 0px #c3d9d53d;border: 2px solid #7d9ba480;">Shatter</span>]]</div>
+<div style="display: inline-block;">[[Effects#Battlelust|<span class="LinkButton" style="background-color: #8742423b;box-shadow: 0 0 11px -2px #bf5f5f80, inset 0 0 20px 0px #bf5f893d;border: 2px solid #87424280;">Battlelust</span>]]</div>
+<div style="display: inline-block;">[[Effects#Sunshine|<span class="LinkButton" style="background-color: #ffd0003b;box-shadow: 0 0 11px -2px #ffa96280, inset 0 0 20px 0px #ffb5623d;border: 2px solid #ffd00080;">Sunshine</span>]]</div>
+<div style="display: inline-block;">[[Effects#Curse Stack|<span class="LinkButton" style="background-color: #7d9ba43b;box-shadow: 0 0 11px -2px #a7cfdb80, inset 0 0 20px 0px #c3d9d53d;border: 2px solid #7d9ba480;">Curse Stack</span>]]</div>
+</div>
+</div>
+----
+</center>

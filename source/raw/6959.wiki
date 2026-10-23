@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 20 - Shibuya + Dungeons!}}
+=='''Overview'''==
+'''Joker''' is an {{Rarity|Exclusive}} {{LU}}. He was obtainable by achieving top 50 Infinity Leaderboard by [[Update Log#Update 20 - Shibuya + Dungeons!|Update 20 - Shibuya + Dungeons!]]
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Who decides what's impossible?"
+|caption2="People who can't destroy themselves... Can never create explotions."
+|image1= Joker.png
+|image2=
+}}{{Main Stats}}
+
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Exclusive Units]]
+
+<references />

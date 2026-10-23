@@ -1,0 +1,15 @@
+The '''Flash Star''', added in [[Update Log|Update 14]], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (8th Season).
+
+As of 19/08/23, the day of [[Update Log|Update 16]], and the end of Season 8, the Flash Star could be opened to receive [[Minata]].
+== Information ==
+*<span data-darkreader-inline-color="" style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span data-darkreader-inline-color="" style="color:#921296;">''"Those who stray from the path of justice have no courage, but under the wing of a strong leader, cowardice cannot survive."''</span>
+*<span data-darkreader-inline-color="" style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span>
+==Rewards ==
+
+{{Container Characterbox
+
+
+|
+{{Characterbox|Minata}}
+}}

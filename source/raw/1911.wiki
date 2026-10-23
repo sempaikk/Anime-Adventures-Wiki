@@ -1,0 +1,18 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Revenge is for settling a score with your own fate!"
+|caption2="Revenge is for settling a score with your own fate!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Physical]]
+[[Category:Mythic Units]]

@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by opening the Devil Star.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="C'mere! C'mere! Yes Good Dog, Sit, Roll Over, Hahaha! Whos a good chainsaw? You are, Yes you are!"
+|caption2="C'mere! C'mere! Yes Good Dog, Sit, Roll Over, Hahaha! Whos a good chainsaw? You are, Yes you are!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

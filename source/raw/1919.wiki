@@ -1,0 +1,261 @@
+The travelling merchant shop is an area in the lobby, near the [[Summon|summoning]] area where people can acquire [[items]]. After the timer runs out (60 mins), the shop is closed and a sign is left asking to check back later. After a further 30 minutes, the shop returns with up to 3 new items, which the player can buy with either gems or coins.
+
+== Shop Items ==
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:750px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+!<center>Item</center>
+!<center>Description</center>
+|-
+|Star Fruit
+<br>[[File:Star Fruit.png|100x100px]]
+<br>{{Gems|50}}
+|<font size="5">Used for crafting [[evolution]] items.</font>
+|-
+|Star Fruit (Red)
+<br>[[File:Star Fruit (Red).png|100x100px]]
+<br>{{Gems|200}}
+|<font size="5">Used for crafting [[evolution]] items.</font>
+|-
+|Star Fruit (Green)
+<br>[[File:Star Fruit (Green).png|100x100px]]
+<br>{{Gems|200}}
+|<font size="5">Used for crafting [[evolution]] items.</font>
+|-
+| Star Fruit (Blue)
+<br>[[File:Star Fruit (Blue).png|100x100px]]
+<br>{{Gems|200}}
+|<font size="5">Used for crafting [[evolution]] items.</font>
+|-
+| Star Fruit (Pink)
+<br>[[File:Star Fruit (Pink).png|100x100px]]
+<br>{{Gems|200}}
+|<font size="5">Used for crafting [[evolution]] items.</font>
+|-
+|Star Fruit (Rainbow)
+<br>[[File:Star Fruit (Rainbow).png|100x100px]]
+<br>{{Gems|300}}
+|<font size="5">Used for crafting [[evolution]] items.</font>
+|-
+|Rikugan Eye
+<br>[[File:Rikugan Eye.png|85x85px]]
+<br>{{Gems|5000}}
+|<font size="5">Used for crafting Six Eyes</font><br><br><br>(to unlock Limitless for '''[[Goju (Six Eyes)]]''' from Goju in Limitless Domain).
+|-
+|Luck Potion
+<br>[[File:Luck Potion.png|85x85px]]
+<br>{{Gems|200}}
+|<font size="5">Increases '''Luck''', lasts for one banner</font>
+|-
+|Star Remnant
+<br>[[File:StarRemnant.png|85x85px]]
+<br>{{Gems|400}}
+|<font size="5">Reroll or gives a Unit '''[[Traits]]'''</font>
+|-
+|Summon Ticket
+<br>[[File:Summon Ticket.png|85x85px]]
+<br>{{Gold|500}}
+|<font size="5">Roll for a unit in '''[[Summon]]''' for free.</font>
+|-
+|Hat of the Conqueror
+<br>[[File:Hat of the Conqueror.png|85x85px]]
+<br>{{Gems|3000}}
+|<font size="5">Used on ''[[Red Scar]]''</font><br><br><br>Gives +50% Attack and ''Conqueror's Haki''.
+|-
+|Forbidden Candy
+<br>[[File:Forbidden Candy.png|85x85px]]
+<br>{{Gems|7000}}
+|<font size="5">Used on ''[[Juozu]]''</font><br><br><br>Gives +30% Attack and ''Joker Arata''.
+|-
+|Arsenal Briefcase
+<br>[[File:Arsenal Briefcase.png|85x85px]]
+<br>{{Gems|7000}}
+|<font size="5">Used on ''[[Ariva]]''</font><br><br><br>Gives +35% Attack and ''Owl''.
+|-
+|Scales of the Salamander
+<br>[[File:Scales of the Salamander.png|85x85px]]
+<br>{{Gems|3000}}
+|<font size="5">Used on ''[[Tarata]]''</font><br><br><br>Gives +10% Attack, 2x Burn Damage, and ''Scorching Slam''.
+|-
+|Magma Fruit
+<br>[[File:Magma Fruit.png|85x85px]]
+<br>{{Gems|4500}}
+|<font size="5">Used on ''[[Akano]]''</font><br><br><br>Gives +30% Attack and +20% ''Volcano'' Range.
+|-
+|Quake Fruit
+<br>[[File:Quake Fruit.png|85x85px]]
+<br>{{Gems|3000}}
+|<font size="5">Used on ''[[Whitehair]]''</font><br><br><br>Gives +30% Attack and ''Sea Quake''.
+|-
+|Cupcake
+<br>[[File:Cupcake.png|85x85px]]
+<br>{{Gems|2250}}
+|<font size="5">Used on ''[[Mochi]]''</font><br><br><br>Gives +25% Attack and ''Mochi Slow''.
+|-
+|King's Idol
+<br>[[File:King's Idol.png|85x85px]]
+<br>{{Gems|3000}}
+|<font size="5">Used on ''[[Lulu]]''</font><br><br><br>Gives +25% Attack and ''Geass''.
+|-
+|Restraining Necklace
+<br>[[File:Restraining Necklace.png|85x85px]]
+<br>{{Gems|2500}}
+|<font size="5">Used on ''[[Brulo]]''</font><br><br><br>Gives +25% Attack and +50% ''Saiyan Rage'' Range.
+|-
+|Divine Eye
+<br>[[File:Divine Eye.png|85x85px]]
+<br>{{Gems|2500}}
+|<font size="5">Used on ''[[Marada]]''</font><br><br><br>Gives +20% Attack and ''Susanoo Fire''.
+|-
+|Shining Extract
+<br>[[File:Shining Extract.png|85x85px]]
+<br>{{Gems|2000}}
+|<font size="5">Used on ''[[All Force]]''</font><br><br><br>Gives +40% Attack, -10% ''Smash'' Cooldown, and ''Smash'' knocks back.
+|-
+|Ultrasteel Blade
+<br>[[File:Ultrasteel Blade.png|85x85px]]
+<br>{{Gems|2250}}
+|<font size="5">Used on ''[[Levy]]''</font><br><br><br>Gives +30% Attack and +25% Crit. 
+|-
+|Crystal Shards
+<br>[[File:Crystal Shards.png|85x85px]]
+<br>{{Gems|2200}}
+|<font size="5">Used on ''[[Eta]]''</font><br><br><br>Gives +15% Attack, ''Laser Augment'', and ''Kakuja Evolution''.
+|-
+|Thread of the Exile
+<br>[[File:Thread of the Exile.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Kisoko]]''</font><br><br><br>Gives +40% Attack and ''Opened Crimson Princess''.
+|-
+|Negation Box
+<br>[[File:Negation Box.png|85x85px]]
+<br>{{Gems|7000}}
+|<font size="5">Used on ''[[Aizo]]''</font><br><br><br>Gives +30% Attack and ''Kyōka Suigetsu''.
+|-
+|Quincy Cross
+<br>[[File:Quincy Cross.png|85x85px]]
+<br>{{Gems|2350}}
+|<font size="5">Used on ''[[Uru]]''</font><br><br><br>Gives +25% Attack, +25% Crit and ''Holy Arrow''.
+|-
+|Soul Partition
+<br>[[File:Soul Partition.png|85x85px]]
+<br>{{Gems|7000}}
+|<font size="5">Used on ''[[Coyote]]''</font><br><br><br>Gives 50% Attack and ''Los Lobos''.
+|-
+|Spirit Spear
+<br>[[File:Spirit Spear.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Ulquiro]]''</font><br><br><br>Gives +40% Attack and ''Resurreción''.
+|-
+|Crazy Dice
+<br>[[File:Crazy Dice.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Kit]]''</font><br><br><br>Gives +20% Attack and ''Random Blessing''.
+|-
+|Gungi Set
+<br>[[File:Gungi Set.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Meruam]]''</font><br><br><br>Gives ''King Meruam''.
+|-
+|Final Contract
+<br>[[File:Final Contract.png|85x85px]]
+<br>{{Gems|8000}}
+|<font size="5">Used on ''[[Gone (Adult)]]''</font><br><br><br>Gives +50% Attack and ''???''.
+|-
+|Electric Yo-yo
+<br>[[File:Electric Yo-yo.png|85x85px]]
+<br>{{Gems|7000}}
+|<font size="5">Used on ''[[Kizzua (Whirlwind)]]''</font><br><br><br>Gives +50% Attack and ''Paralysis''.
+|-
+|Broken Puppet
+<br>[[File:Broken Puppet.png|85x85px]]
+<br>{{Gems|2350}}
+|<font size="5">Used on ''[[Pito]]''</font><br><br><br>Gives +20% Attack, +25% Crit, and ''Terpsichora''.
+|-
+|Golden Rose
+<br>[[File:Golden Rose.png|85x85px]]
+<br>{{Gems|7000}}
+|<font size="5">Used on ''[[Neteru]]''</font><br><br><br>Gives +35% Attack and ''Zero Hand''.
+|-
+|Dragon Fire
+<br>[[File:Dragon Fire.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Natzo]]''</font><br><br><br>Give +35% Damage and ''Lightning Fire''
+|-
+|Devil Ice
+<br>[[File:Devil Ice.png|85x85px]]
+<br>{{Gems|2200}}
+|<font size="5">Used on ''[[Gray]]''</font><br><br><br>Give +50% Damage and ''Devil Ice''
+|-
+|Celestial Key (Final)
+<br>[[File:Celestial Key (Final).png|85x85px]]
+<br>{{Gems|7250}}
+|<font size="5">Used on ''[[Luci]]''</font><br><br><br>Give +50% Damage and ''Multi Summon''
+|-
+|Fractured Cubes
+<br>[[File:Fractured Cubes.png|85x85px]]
+<br>{{Gems|2400}}
+|<font size="5">Used on ''[[Crush]]''</font><br><br><br>Give +35% Damage, ''Spreading Truth: Infinite Heaven'', and ''Crash''.
+|-
+|Celestial Tear
+<br>[[File:Celestial Tear.png|85x85px]]
+<br>{{Gems|7500}}
+|<font size="5">Used on ''[[Jelly]]''</font><br><br><br>Give +30% Damage and ''Sema''
+|-
+|Wolf Shadow
+<br>[[File:Wolf Shadow.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Megomu]]''</font><br><br><br>Gives +20% Attack, ''Cursed Technique'' and ''Shadow Garden''
+|-
+|Cursed Wristwatch
+<br>[[File:Cursed Wristwatch.png|85x85px]]
+<br>{{Gems|3500}}
+|<font size="5">Used on ''[[Kent]]''</font><br><br><br>Gives +20% Damage, 20% Crit, ''Precision Flash Onslaught'' and ''Overtime''
+|-
+|Promise Ring
+<br>[[File:Promise Ring.png|85x85px]]
+<br>{{Gems|???}}
+|<font size="5">Used on ''[[Yuto]]''</font><br><br><br>Gives +50% Attack and ''Full Manifestion''
+|-
+|Cursed Orb (Maximum)
+<br>[[File:Cursed Orb (Maximum).png|85x85px]]
+<br>{{Gems|???}}
+|<font size="5">Used on ''[[Getu]]''</font><br><br><br>Gives +40% Damage and ''Maximum: Uzumaki''
+|-
+|Mermaid Scale
+<br>[[File:Mermaid Scale.png|85x85px]]
+<br>{{Gems|1850}}
+|<font size="5">Used on ''[[Noel]]''</font><br><br><br>Gives +30% Attack and ''Sea Dragon's Roar''
+|-
+|Dark Katana
+<br>[[File:Dark Katana.png|85x85px]]
+<br>{{Gems|5650}}
+|<font size="5">Used on ''[[Yamo]]''</font><br><br><br>Gives +50% Attack and ''True Dark Dimension Slash''
+|-
+|Lightning Fiend's Horns
+<br>[[File:Lightning Fiend's Horns.png|85x85px]]
+<br>{{Gems|2800}}
+|<font size="5">Used on ''[[Lucky]]''</font><br><br><br>Gives +30% Attack and ''True Lightning Magic''
+|-
+|Demonic Wing
+<br>[[File:Demonic Wing.png|85x85px]]
+<br>{{Gems|2850}}
+|<font size="5">Used on ''[[Asto]]''</font><br><br><br>Gives +50% Damage and ''Black Hurricane''
+|-
+|Spirit Crown
+<br>[[File:Spirit Crown.png|85x85px]]
+<br>{{Gems|5650}}
+|<font size="5">Used on ''[[Yono]]''</font><br><br><br>Gives +30% Attack and ''Spirit of Zephyr''
+|-
+|Endless Tome
+<br>[[File:Endless Tome.png|85x85px]]
+<br>{{Gems|???}}
+|<font size="5">Used on ''[[Julio]]''</font><br><br><br>Gives +20% Attack and ''Chrono Reversal''
+|-
+|Sealed Fire Staff
+<br>[[File:Sealed Fire Staff.png|85x85px]]
+<br>{{Gems|???}}
+|<font size="5">Used on ''[[Yamomoto]]''</font><br><br><br>Gives +50% Attack and ''Zanka no Tachi''.
+|}
+
+== Trivia ==
+
+* From Update 19.0, all of the items required for evolving unit has been removed.

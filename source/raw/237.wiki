@@ -1,0 +1,18 @@
+''If you were looking for a different Carrot unit, see [[Carrot (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Hey! It's me! Carrot!”
+|caption2="It's about time i get a chance to fight!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*In 2023 April Fools Event, needed to have 15 [[Vego|Vegos]] and 15 {{PAGENAME}} or 5 Shiny [[Vego|Vegos]] and 5 Shiny {{PAGENAME}} to evolve into a Secret Unit [[Veko]].
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

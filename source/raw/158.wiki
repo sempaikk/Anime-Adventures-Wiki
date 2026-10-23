@@ -1,0 +1,318 @@
+'''Codes''' are redeemable gifts in-game which grants the Player rewards and boosts. Codes can be redeemed from the Codes area in the Lobby. If one of the codes aren't working, please leave a comment below.
+
+<tabber>
+|-|Active Codes=
+<center>
+{| class="article-table" style="width: 100%; max-width: 580px;"
+!Code
+!Rewards
+!Date
+|-
+|2BILLIONAA (Level 50+)
+|50x[[File:StarRemnant.png|x24px|link=Items#Misc._Items|Star Remnant]][[Items#Misc._Items|Star Remnant]]{{Gems|500}}{{Stars|5000}}
+|01.01.2025
+|-
+|MILLIONFAVES(Level 20+)
+|25x[[File:StarRemnant.png|x24px|link=Items#Misc._Items|Star Remnant]][[Items#Misc._Items|Star Remnant]]{{Gems|500}}{{Stars|2500}}
+|25.01.2025
+|-
+|UPD20INCOMING(Level 20+)
+|[[Items#Misc._Items|Star Remnant]]{{Gems|500}}{{Stars|2000}}
+|07.03.2025
+|-
+|-
+|DUNGEONS
+| 1 Dungeon key
+|Unknown
+|-
+|-
+|UPDATESOON5189(Level 20+)
+|{{Gems|500}}
+|Unknown
+|-
+|-
+|APRILFOOLS(Level 20+)
+|25x[[Items#Misc._Items|Star Remnant]]{{Gems|1500}} 1500 april fool token
+|Unknown
+|-
+|}
+
+
+</center>
+
+|-|Expired Codes=
+<center>
+{| class="article-table" style="width: 100%; max-width: 580px;"
+!Code
+!Rewards
+!Status
+|-
+|ASSASSIN (Level 20+)
+|{{Gems|500}}{{Stars|1500}}
+|style="background: Red; color:#FFF" |Expired
+|-
+|UPDSOON (Level 20+)
+|{{Gems|500}}{{Stars|1500}}
+|25.12.2024
+|-
+|HOLIDAYS2024
+|{{Gems|500}}{{Stars|1500}}
+|24.12.2024
+|-
+|MERRYCHRISTMAS2
+|{{Gems|500}}{{Stars|1500}}
+|style="background: Red; color:#FFF" |Expired
+|-
+|SHUTDOWNCODE1230
+|{{Gems|500}}{{Stars|1500}}
+|style="background: Red; color:#FFF" |Expired
+|-
+|HOLYGRAIL
+|{{Gems|500}}
+|10.01.2023
+|-
+|BILLION
+|[[Story|Skips up to Clover Kingdom, Act 6]]
+|05.??.2023
+|-
+|REASON2FIGHT
+|{{Gems|500}} ''(confirmation needed)''
+|09.??.2023
+|-
+|TOURNAMENTUIFIX
+|{{Gems|500}}
+|06.??.2023
+|-
+|ANNIVERSARY
+|{{Gems|2500}}
+|07.??.2023
+|-
+|MADOKA
+|{{Gems|500}}
+|05.27.2023
+|-
+|DRESSROSA
+|{{Gems|500}}
+|05.??.2023
+|-
+|ENTERTAINMENT
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|HAPPYEASTER
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|VIGILANTE
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|GOLDENSHUTDOWN
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|GOLDEN
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|SINS2
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|SINS
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|UCHIHA
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|HERO
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|CHAINSAW
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|NEWYEAR2023
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|PORTALFIX
+|{{Stars|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|CHRISTMAS2022
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|GRAVITY
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|DAILYFIX
+|{{Stars|1000}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|KARAKORA2
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|UPDATEHYPE
+|{{Gems|250}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|KARAKORA
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|CLOVER2
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|CLOVER
+|{{Gems|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|HALLOWEEN
+|{{Gems|250}}, {{Candies|500}}
+|style="background: Red; color:#FFF" |Unavailable
+|-
+|CURSE2
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|SorryForShutdown2
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|CURSE
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|ANDROID
+|{{Characterbox|Mecha Freezo}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|FAIRY2
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|FAIRY
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|RELEASE
+|{{Gems|50}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|GINYUFIX
+|{{Gems|100}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|CHALLENGEFIX
+|{{Gems|100}} 
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|SORRYFORSHUTDOWN
+|{{Gems|200}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|TWOMILLION
+|{{Gems|200}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|FIRSTRAIDS
+|{{Gems|200}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|MARINEFORD 
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|HOLLOW
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|QUESTFIX
+|{{Gems|250}}
+| style="background: Red; color:#FFF" |Unavailable
+|-
+|HUNTER
+|{{Gems|250}}
+| style="background: red; color:#FFF" |Unavailable
+|-
+|WINTER2023
+|{{Gems|500}}
+|12.20.2023
+|-
+|SACREDPLANET
+|{{Gems|???}}
+|12.9.2023
+|-
+|UNLEASHFUSESOON
+|{{Gems|???}}
+|12.6.2023
+|-
+|AMEGAKURE
+|{{Gems|500}}
+|11.18.2023
+|-
+|SIXPATHSUPD
+|{{Gems|500}}
+|11.14.2023
+|-
+|HAPPYHALLOWEEN
+|{{Gems|500}} {{Candies|500}}<ref>Candies used to be the additional reward until users start to create more accounts to increase their chances of getting stronger units, especially [[Dracula]].</ref>
+|10.29.2023
+|-
+|HALLOWEENUPDSOON
+|{{Gems|500}}
+|10.24.2023
+|-
+|STRAYDOGS
+|{{Gems|500}}
+|10.14.2023
+|-
+|SubToKelvingts
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|SubToBlamspot
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|TOADBOIGAMING
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|KingLuffy 
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|noclypso
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|subtosnowrbx
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|Cxrsed
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+| FictioNTheFirst
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+|-
+|subtomaokuma
+|1x [[File:Summon Ticket.png|x24px|link=Items#Misc._Items|Summon Ticket]] [[Items#Misc._Items|Summon Ticket]]
+|
+
+
+
+|}
+</center>
+</tabber>

@@ -1,0 +1,24 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He is only obtainable by evolving [[Void Spear]]. 
+
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Do not allow yourself to be shaken. Do not weaken your stance. Open your senses. And do not let your guard down for an instant."
+|caption2="Do not allow yourself to be shaken. Do not weaken your stance. Open your senses. And do not let your guard down for an instant."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* As of update 7.60 he got 30% damage buff and he can hit air enemies upon deployment.
+
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

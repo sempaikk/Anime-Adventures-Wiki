@@ -1,0 +1,31 @@
+{{Meta Unit}}
+{{Meta Burn Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by clearing stage 1 of the [[Raids#Ant Kingdom (Midnight)|Ant Kingdom (Midnight)]] raid with a 1% chance '''or''' completing the raid 15 times for guaranteed drop. He can only be obtained by evolving [[Spider]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If you don't know how to live, why wonder about death?"
+|caption2="Welcome, ladies and gentlemen. Let us do without formal greeting... You all die now."
+|image1=|image2=Spider (Immolation) Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades. 
+
+==Trivia==
+
+
+
+__NOTOC__  
+__NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

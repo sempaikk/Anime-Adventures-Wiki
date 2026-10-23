@@ -1,0 +1,29 @@
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Pirate King]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You want my treasure? You can have it! I left everything I gathered together in one place, now you just have to find it!”
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* Unlike the previous {{Rarity|Secret}} star unit, [[JIO (Over Heaven)]], he has the item needed to evolve him in the shop.
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]
+[[Category:Event Units]]

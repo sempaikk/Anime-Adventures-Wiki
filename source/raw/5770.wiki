@@ -1,0 +1,24 @@
+== Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable
+}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower Infobox}}{{Main Stats
+}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Rerelease Unit/NPC
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Mythic Units]]
+<references />

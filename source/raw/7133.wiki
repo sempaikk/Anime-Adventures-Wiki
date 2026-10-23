@@ -1,0 +1,15 @@
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|{{#invoke:UnitData|get|rarity}}}}.
+
+==Stats Overview==
+{{Tower_Infobox}}
+
+{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__

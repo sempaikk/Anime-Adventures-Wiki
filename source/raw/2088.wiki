@@ -1,0 +1,308 @@
+
+Legend Stages are stages that are separate from story. Furthermore, you need to previously have unlocked and beaten the Act 6 of the story the Legend Stage is from.
+
+As of now, all of the Legend Stages are designed to provide evolution materials for newer characters. Additionally, certain Legend Stages provide crafting materials for Relics.
+
+'''Ex:''' You need Soul (Wes) item from Karakora Town you would need to previously have beaten Hollow World Act 6 to unlock this legend stage.{{Anchor2|id=back}}<div class="mobileonly">
+<div class="mw-customtoggle-OFF mw-customtoggle-ON">
+<div class="mw-collapsible" id="mw-customcollapsible-ON">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>
+<div>{{Anchor1|Hollow Invasion}}</div>
+<div>{{Anchor1|Clover Kingdom (Elf Invasion)}}</div>
+<div>{{Anchor1|Cape Canaveral}}</div>
+</center>
+</div></div>
+<tabber>
+|-|Magic Hills (Elf Invasion)=
+==Magic Hills (Elf Invasion)==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 190px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Light Elf'''</font><br>'''1x-3x[[File:Enchanted Magic Stone.png|35px|link=Evolution|Enchanted Magic Stone]]'''<font size=2px>''For evolution''</font>
+'''?x-??x[[File:Ore (Steel).png|35px|link=Items#Materials|Ore (Steel)]]'''
+'''?x-??x[[File:Holy Sprig.png|35px|link=Items#Materials|Holy Sprig]]'''
+<br>'''?x-??x[[File:Empty Tome.png|35px|link=Items#Materials|Empty Tome]]'''
+'''?x-??x[[File:Magic Scroll.png|35px|link=Items#Materials|Magic Scroll]]'''
+<br>'''?x-??x[[File:Fairy Wings.png|35px|link=Items#Materials|Fairy Wings]]'''
+'''?x-??x[[File:Fairy Circlet.png|35px|link=Items#Materials|Fairy Circlet]]'''
+<br>'''?x-??x[[File:Wind Splinter.png|35px|link=Items#Materials|Wind Splinter]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 190px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - The Sealed Threat'''</font><br>'''1x-3x[[File:Cursed Magic Stone.png|35px|link=Evolution|Cursed Magic Stone]]'''<font size=2px>''For evolution''</font>
+'''?x-??x[[File:Ore (Steel).png|35px|link=Items#Materials|Ore (Steel)]]'''
+'''?x-??x[[File:Holy Sprig.png|35px|link=Items#Materials|Holy Sprig]]'''
+<br>'''?x-??x[[File:Empty Tome.png|35px|link=Items#Materials|Empty Tome]]'''
+'''?x-??x[[File:Magic Scroll.png|35px|link=Items#Materials|Magic Scroll]]'''
+<br>'''?x-??x[[File:Demonic Tail.png|35px|link=Items#Materials|Demonic Tail]]'''
+'''?x-??x[[File:Demonic Skull.png|35px|link=Items#Materials|Demonic Skull]]'''
+<br>'''?x-??x[[File:Demonic Horns.png|35px|link=Items#Materials|Demonic Horns]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 190px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - The Final Attack'''</font>
+'''?x-??x[[File:Ore (Steel).png|35px|link=Items#Materials|Ore (Steel)]]'''
+'''?x-??x[[File:Empty Tome.png|35px|link=Items#Materials|Empty Tome]]'''
+<br>'''?x-??x[[File:Lost Chapter.png|35px|link=Items#Materials|Lost Chapter]]'''
+'''?x-??x[[File:Devil Heart.png|35px|link=Items#Materials|Devil Heart]]'''
+|}
+</center>
+{{Story-MapBox|location=Clover Kingdom (Elf Invasion)
+|Act 1=The Light Elf
+|Act 2=The Sealed Threat
+|Act 3=The Final Attack
+|Boss 1=Patelo
+|Boss 2=Zagrad (Sealed)
+|Boss 3=Patelo (Dark) / Zagrad
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Spirit Invasion=
+==Spirit Invasion==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Shark Aranca'''</font>
+'''?x-??x[[File:Aranca Mask.png|35px|link=Items#Materials|Aranca Mask]]'''
+'''1x[[File:Soul (Tiel).png|35px|link=Evolution|Soul (Tiel)]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - The Bug Aranca'''</font>
+'''?x-??x[[File:Aranca Mask.png|35px|link=Items#Materials|Aranca Mask]]'''
+'''1x[[File:Soul (Toshe).png|35px|link=Evolution|Soul (Toshe)]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - The Restructured Aranca'''</font>
+'''?x-??x[[File:Aranca Mask.png|35px|link=Items#Materials|Aranca Mask]]'''
+'''1x[[File:Soul (Wes).png|35px|link=Evolution|Soul (Wes)]]'''
+|-
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 4 - The Decayed Aranca'''</font>
+'''?x-??x[[File:Aranca Mask.png|35px|link=Items#Materials|Aranca Mask]]'''
+'''1x[[File:Soul (Barrago).png|35px|link=Evolution|Soul (Barrago)]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 5 - The Traitor Reaper'''</font>
+'''?x-??x[[File:Aranca Mask.png|35px|link=Items#Materials|Aranca Mask]]'''
+'''1x[[File:Soul (Ging).png|35px|link=Evolution|Soul (Ging)]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 6 - The Final Standoff'''</font>
+'''1x[[File:Imperfect Soul Orb.png|35px|link=Evolution|Imperfect Soul Orb]]'''<font size=2px>''Only in first time''</font>
+<br>'''?x-??x[[File:Aranca Mask.png|35px|link=Items#Materials|Aranca Mask]]'''
+'''3x-7x[[File:Worthy Soul.png|35px|link=Evolution|Worthy Soul]]'''
+|}
+
+{{Story-MapBox|location=Hollow Invasion
+|Act 1=The Shark Aranca
+|Act 2=The Bug Aranca
+|Act 3=The Restructured Aranca
+|Act 4=The Decayed Aranca
+|Act 5=The Traitor Reaper
+|Act 6=The Final Standoff
+|Boss 1=Tiel
+|Boss 2=Toshe
+|Boss 3=Wes → Wes (Abomination)
+|Boss 4=Barrago (Returned)
+|Boss 5=Ging (Traitor)
+|Boss 6=Aizo
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Space Center=
+==Space Center==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Fantasy'''</font>
+'''1x[[File:DISC (Blue).png|35px|link=Evolution|DISC (Blue)]]'''or
+'''1x[[File:DISC (Green).png|35px|link=Evolution|DISC (Green)]]'''
+<br>'''1x[[File:Final Disc (Fragments).png|35px|link=Items#Materials|Final Disc Fragment]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - Sky High'''</font>
+'''1x[[File:DISC (Orange).png|35px|link=Evolution|DISC (Orange)]]'''or
+'''1x[[File:DISC (Pink).png|35px|link=Evolution|DISC (Pink)]]'''
+<br>'''1x[[File:Final Disc (Fragments).png|35px|link=Items#Materials|Final Disc Fragment]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - Under World'''</font>
+'''1x[[File:DISC (Purple).png|35px|link=Evolution|DISC (Purple)]]'''or
+'''[[File:DISC (Black).png|35px|link=Evolution|DISC (Black)]]'''
+<br>'''1x[[File:Final Disc (Fragments).png|35px|link=Items#Materials|Final Disc Fragment]]'''
+|}
+{{Story-MapBox|location=Cape Canaveral
+|Act 1=The Fantasy
+|Act 2=Sky High
+|Act 3=Under World
+|Boss 1=Ungulo
+|Boss 2=Ricki
+|Boss 3=Donatallo
+}}
+
+|-|Fabled Kingdom (Generals)=
+==Fabled Kingdom (Generals)==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Traitors'''</font>
+'''1x-2x[[File:Demonic Chalice.png|35px|link=Evolution|Demonic Chalice]]'''
+'''2x[[File:Tavern Pie.png|35px|link=Items|Tavern Pie]]'''
+<br>'''20%[[File:Demon Leader's Portal.png|35px|link=Items#Portals|Demon Leader's Portal]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - Truth and Faith'''</font>
+'''1x-2x[[File:Demonic Horn.png|35px|link=Evolution|Demonic Horn]]'''
+'''2x[[File:Tavern Pie.png|35px|link=Items|Tavern Pie]]'''
+<br>'''20%[[File:Demon Leader's Portal.png|35px|link=Items#Portals|Demon Leader's Portal]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - The False Demon'''</font>
+'''1x-2x[[File:Fairy Petals.png|35px|link=Evolution|Fairy Petals]]'''
+'''2x[[File:Tavern Pie.png|35px|link=Items|Tavern Pie]]'''
+<br>'''20%[[File:Demon Leader's Portal.png|35px|link=Items#Portals|Demon Leader's Portal]]'''
+|}
+{{Story-MapBox|location=Fabled Kingdom (Ten Commandments)
+|Act 1=The Traitors
+|Act 2=Truth and Faith
+|Act 3=The False Demon
+|Boss 1=Fairy Traitor
+|Boss 2=Snake Demon
+|Boss 3=Esta
+}}
+
+|-|Ruined City (Midnight)=
+==Ruined City (Midnight)==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Gecko Villain'''</font>
+'''2x-3x[[File:Hero Guantlet.png|35px|link=Evolution|Hero Gauntlet]]'''
+'''2x[[File:Quirk Shard.png|35px|link=Items|Quirk Shard]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - The Giant Villain'''</font>
+'''2x-3x[[File:Quirk Amplifier.png|35px|link=Evolution|Quirk Amplifier]]'''
+'''2x[[File:Quirk Shard.png|35px|link=Items|Quirk Shard]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - The Decay Villain'''</font>
+'''2x-3x[[File:Quirk Capsule.png|35px|link=Evolution|Quirk Capsule]]'''
+'''2x[[File:Quirk Shard.png|35px|link=Items|Quirk Shard]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 4 - The Muscle Villain'''</font>
+'''4x-6x[[File:Hero Guantlet.png|35px|link=Evolution|Hero Gauntlet]]'''
+'''2x[[File:Quirk Shard.png|35px|link=Items|Quirk Shard]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 5 - The Cremation Villain'''</font>
+'''4x-6x[[File:Quirk Amplifier.png|35px|link=Evolution|Quirk Amplifier]]'''
+'''2x[[File:Quirk Shard.png|35px|link=Items|Quirk Shard]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 6 - The Symbol of Fear'''</font>
+'''3x-5x[[File:Quirk Amplifier.png|35px|link=Evolution|Quirk Amplifier]]'''or
+<br>
+'''3x-5x[[File:Hero Guantlet.png|35px|link=Evolution|Hero Gauntlet]]'''
+<br>'''2x[[File:Quirk Shard.png|35px|link=Items|Quirk Shard]]'''
+'''4x-6x[[File:Quirk Capsule.png|35px|link=Items|Quirk Capsule]]'''
+|}
+{{Story-MapBox|location=Hero City (Midnight)
+|Act 1=The Gecko Villain
+|Act 2=The Giant Villain
+|Act 3=The Decay Villain
+|Act 4=The Muscle Villain
+|Act 5=The Cremation Villain
+|Act 6=The Symbol of Fear
+|Boss 1=Gecko
+|Boss 2=Giganto
+|Boss 3=Shigaruko
+|Boss 4=Muscle
+|Boss 5=Dabo
+|Boss 6=Shigaruko (Awakened)
+}}
+
+|-|Virtual Dungeon (Bosses)=
+==Virtual Dungeon (Bosses)==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Fatal Scythe'''</font>
+'''1x-2x[[File:Dark Crystallite.png|35px|link=Evolution|Dark Crystallite]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - The Crystal Wyrm'''</font>
+'''1x-2x[[File:Ice Crystallite.png|35px|link=Evolution|Ice Crystallite]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - The Skull Reaper'''</font>
+'''1x-2x[[File:Blood Crystallite.png|35px|link=Evolution|Blood Crystallite]]'''
+|}
+{{Story-MapBox|location=Virtual Dungeon (Bosses)
+|Act 1=The Fatal Scythe
+|Act 2=The Crystal Wyrm
+|Act 3=The Skull Reaper
+|Boss 1=Fatal Scythe
+|Boss 2=Crystal Wyrm
+|Boss 3=Skull Reaper
+}}
+==Boosted Characters==
+The following units have a damage boost in this stage:
+{{Container Characterbox|
+{{Characterbox|Gamer Girl}}
+{{Characterbox|Gamer Girl (Flash)}}
+{{Characterbox|Crusader}}
+{{Characterbox|Crusader (Admin)}}
+{{Characterbox|Gamer}}
+{{Characterbox|Gamer (Dual)}}
+{{Characterbox|Virtual Samurai}}
+{{Characterbox|Virtual Samurai (Bachelor)}}
+{{Characterbox|Elfy}}
+{{Characterbox|Elfy (Sylph)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+|-|Dungeon Throne=
+==Dungeon Throne==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - Principality Observation'''</font>
+'''1x-2x[[File:Overlord's Ring (Yellow).png|35px|link=Evolution|Overlord's Ring (Yellow)]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - Archangel Flame'''</font>
+'''1x-2x[[File:Overlord's Ring (Red).png|35px|link=Evolution|Overlord's Ring (Red)]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - Dominion Authority'''</font>
+'''1x-2x[[File:Overlord's Ring (Blue).png|35px|link=Evolution|Overlord's Ring (Blue)]]'''
+|}
+{{Story-MapBox|location=Undead Tomb
+|Act 1=Principality Observation
+|Act 2=Archangel Flame
+|Act 3=Dominion Authority
+|Boss 1=Principality Observation
+|Boss 2=Archangel Flame
+|Boss 3=Dominion Authority
+}}
+==Boosted Characters==
+The following units have a damage boost in this stage:
+{{Container Characterbox|
+{{Characterbox|Supreme Being}}
+{{Characterbox|Supreme Being (Sovereign)}}
+{{Characterbox|Cherub}}
+{{Characterbox|Cherub (Overseer)}}
+{{Characterbox|Lucifer}}
+{{Characterbox|Lucifer (Demon Emperor)}}
+{{Characterbox|Crystal Rose}}
+{{Characterbox|Crystal Rose (Impact)}}
+{{Characterbox|Thunder Maid}}
+{{Characterbox|Thunder Maid (Servant)}}
+{{Characterbox|Bloodcry}}
+{{Characterbox|Bloodcry (Fallen)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Rain Village=
+==Rain Village==
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; "
+|+ style="border: 10px; padding: 0px; background: width: 250px; margin-left: auto; margin-right: auto;"|<center><font size=6px>'''Reward'''</font></center>
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 1 - The Hell Path'''</font>
+'''5x-10x[[File:Ninja Scroll (Fire).png|35px|link=Evolution|Ninja Scroll (Fire)]]'''
+'''???[[File:Chakra Rod.png|35px|link=Items|Chakra Rod]]'''
+<br>'''???[[File:Path Portal.png|35px|link=Items#Portals|Path Portal]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 2 - The Puppet Path'''</font>
+'''5x-10x[[File:Ninja Scroll (Water).png|35px|link=Evolution|Ninja Scroll (Water)]]'''
+'''???[[File:Chakra Rod.png|35px|link=Items|Chakra Rod]]'''
+<br>'''???[[File:Path Portal.png|35px|link=Items#Portals|Path Portal]]'''
+| style="border-radius: 10px;padding: 5px 10px; width: 250px; height: 105px; background: #0C0C0C; border-color: #FFAE08; vertical-align: top; text-align: center; vertical-align: top; text-align: center;"|<font color=#44B6FD>'''Act 3 - The Animal Path'''</font>
+'''5x-10x[[File:Ninja Scroll (Wood).png|35px|link=Evolution|Ninja Scroll (Wood)]]'''
+'''???[[File:Chakra Rod.png|35px|link=Items|Chakra Rod]]'''
+<br>'''???[[File:Path Portal.png|35px|link=Items#Portals|Path Portal]]'''
+|}
+{{Story-MapBox|location=Rain Village
+|Act 1=The Hell Path
+|Act 2=The Puppet Path
+|Act 3=The Animal Path
+|Boss 1=Hell Path
+|Boss 2=Puppet Path
+|Boss 3=Animal Path
+}}
+==Boosted Characters==
+The following units have a damage and reward boost in this stage:
+{{Container Characterbox|
+{{Characterbox|Agony (Divine)}}
+{{Characterbox|Agony (Path)}}
+{{Characterbox|Origami (Paper Angel)}}
+{{Characterbox|Origami}}
+{{Characterbox|Fox Ninja (Six Tails)}}
+{{Characterbox|Fox Ninja (Sage)}}
+{{Characterbox|Shinobi (Eternal)}}
+{{Characterbox|Shinobi (Awakened)}}
+{{Characterbox|Toad Sensei (Toad Sage)}}
+{{Characterbox|Toad Sensei}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+</tabber>
+[[Category:Game Modes]]

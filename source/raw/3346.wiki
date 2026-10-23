@@ -1,0 +1,26 @@
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can only be obtained by evolving [[Rebel]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Everything will be decided here."
+|caption2="This is for our purpose. Sorry, but get out of here!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]
+[[Category:Meta Units]]

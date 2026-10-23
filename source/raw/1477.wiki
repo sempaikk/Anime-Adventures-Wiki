@@ -1,0 +1,42 @@
+*[[Template:TierList/Container]]
+**[[Template:TierList/Item Container]] <includeonly>'''<- You're here'''</includeonly>
+***[[Template:TierList/Item]]
+
+<h2>Examples:</h2>
+
+
+
+<h2 style="text-align: center;">code</h2>
+
+{{Template:Doc/TemplateCode/Container
+|TierList/Item Container
+|{{!}}{{Doc/TemplateCode/tooltip|color{{=}}#ff7f7f|color}}{{!}}{{Doc/TemplateCode/tooltip|id{{=}}infiniti|id}}{{!}}{{Doc/TemplateCode/tooltip|name{{=}}META Ground|Row Name}}
+{{!}}
+<br>
+<span style{{=}}"color: #80808080;">{{Doc/TemplateCode/tooltip|tag=span|<nowiki>{{TierList/Item|Kent (Overtime)</nowiki><br><nowiki>|Description=Great DPS from CRIT and large AoE, increasing in damage by 1% per wave.}}</nowiki><br><nowiki>{{TierList/Item|Goju (Six Eyes)</nowiki><br><nowiki>|Description=Massive DPS with large AoE and a good support skill. Has limitless potential but is extremely expensive.}}</nowiki>|Value 1}}</span>
+<br>}}
+
+
+<h2 style="text-align: center;">view</h2>
+
+{{TierList/Item Container|color=#ff7f7f|id=infiniti<!-- id TierList -->|name=META Ground
+|
+{{TierList/Item|Kent (Overtime)
+|Description=Great DPS from CRIT and large AoE, increasing in damage by 1% per wave.}}
+{{TierList/Item|Goju (Six Eyes)
+|Description=Massive DPS with large AoE and a good support skill. Has limitless potential but is extremely expensive.}}
+}}
+
+
+<h2>Values:</h2>
+{| class="article-table"  style="margin-top: 0;"
+|color
+*You can choose the color here [https://g.co/kgs/8BNfkD Colour picker]
+|id
+*id must match the id of its [[Template:TierList/Container]]
+|-
+|Value 1
+*Should use this [[Template:TierList/Item]]
+|Row Name
+|
+|}__NOTOC____NOEDITSECTION__<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly>

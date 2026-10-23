@@ -1,0 +1,29 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a Mythic unit. She is only obtainable by evolving [[Eta]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="There's no need for you to love someone who won't love you."
+|caption2="There's no need for you to love someone who won't love you."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Eta is the only character in the game to have damage increase with every kill that unit gets. Her damage increases 3 each kill.
+* Eta is the first, and only unit so far to have their shiny skin changed.
+*It takes Eta 73,243 kills to get [[Tier List|Godly DPS]].
+
+==Gallery==
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Evolved Units]]
+[[Category:Damage Type Dark]]

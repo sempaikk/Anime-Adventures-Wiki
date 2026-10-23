@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 16.5 - JoJo Part 4 Update}}
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} {{LU}}. He can only be obtained through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Even a top guild never has sufficient
+members for the front lines."
+|caption2="I didn't realize this would be such a big deal."
+}}{{Main Stats}}
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

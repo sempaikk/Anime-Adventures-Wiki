@@ -1,0 +1,22 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You can't protect others with pride, and the trust of others comes with merit."
+|caption2="The path I've walked is mine."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

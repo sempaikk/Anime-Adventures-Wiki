@@ -1,0 +1,23 @@
+''If you were looking for a different JIO unit, see [[JIO (disambiguation)]]''
+
+=='''Overview'''==
+'''JIO''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Oh, so [[Delinquent (Serious)| you're]] approaching me? Instead of running away, you're coming to me?"
+|caption2="This world’s Johnny Joestar is my greatest test. And I will overcome that test and kill him without fail."
+}}{{Main Stats}}
+
+== Passive Ability: The World ==
+JIO stops time and freezes every enemy he attacks. Although, the enemies then gain immunity to stuns from JIO or any other Freeze units, but can still be stunned by [[Killer (Godspeed)]] or [[Red Scar (Conqueror)|Red Scar]]'s active ability.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia== 
+
+
+{{Unit Navigation}}
+__NOTOC__
+__NOEDITSECTION__
+[[Category:Legendary Units]]

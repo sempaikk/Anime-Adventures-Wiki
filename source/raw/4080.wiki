@@ -1,0 +1,1081 @@
+<tabber>
+|-|Ammo Hunt=
+=== AMMO HUNT ===
+{| class="mw-collapsible article-table" style="line-height: 1;"
+! style="text-align: center;" | Level
+! style="text-align: center;" | 1
+! style="text-align: center;" | 2
+! style="text-align: center;" | 3 
+! style="text-align: center;" | 4
+! style="text-align: center;" | 5
+! style="text-align: center;" | 6
+! style="text-align: center;" | 7
+! style="text-align: center;" | 8
+! style="text-align: center;" | 9
+! style="text-align: center;" | 10
+! style="text-align: center;" | 11
+! style="text-align: center;" | 12
+! style="text-align: center;" | 13
+! style="text-align: center;" | 14
+! style="text-align: center;" | 15
+! style="text-align: center;" | 16
+! style="text-align: center;" | 17 
+! style="text-align: center;" | 18
+! style="text-align: center;" | 19
+! style="text-align: center;" | 20
+! style="text-align: center;" | 21
+! style="text-align: center;" | 22
+! style="text-align: center;" | 23
+! style="text-align: center;" | 24
+! style="text-align: center;" | 25
+! style="text-align: center;" | 26
+! style="text-align: center;" | 27
+! style="text-align: center;" | 28
+! style="text-align: center;" | 29
+! style="text-align: center;" | 30
+! style="text-align: center;" | 31
+! style="text-align: center;" | 32
+! style="text-align: center;" | 33
+! style="text-align: center;" | 34
+! style="text-align: center;" | 35
+! style="text-align: center;" | 36
+! style="text-align: center;" | 37
+! style="text-align: center;" | 38
+! style="text-align: center;" | 39
+! style="text-align: center;" | 40
+! style="text-align: center;" | 41
+! style="text-align: center;" | 42
+! style="text-align: center;" | 43
+! style="text-align: center;" | 44
+! style="text-align: center;" | 45
+! style="text-align: center;" | 46
+! style="text-align: center;" | 47
+! style="text-align: center;" | 48
+! style="text-align: center;" | 49
+! style="text-align: center;" | 50
+|-
+| style="text-align: center;" | Free
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | <code>{{Gems|250}}</code>
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | 2x Star Capsule
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Characterbox|Hanje|check_img=yes}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | [[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|2x Cursed Finger]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Characterbox|Vas|check_img=yes}}
+|-
+| style="text-align: center;" | Premium
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | 6x Star Capsule
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Characterbox|Hanje|articlename=Hanje|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Thunder Spears}}]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | [[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|4x Cursed Finger]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Characterbox|Vas|articlename=Vas|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Cross Gun}}]]
+|}
+
+|-|Cake Hunt 2=
+=== CAKE HUNT 2 ===
+{| class="mw-collapsible article-table" style="line-height: 1;"
+! style="text-align: center;" | Level
+! style="text-align: center;" | 1
+! style="text-align: center;" | 2
+! style="text-align: center;" | 3 
+! style="text-align: center;" | 4
+! style="text-align: center;" | 5
+! style="text-align: center;" | 6
+! style="text-align: center;" | 7
+! style="text-align: center;" | 8
+! style="text-align: center;" | 9
+! style="text-align: center;" | 10
+
+! style="text-align: center;" | 11
+! style="text-align: center;" | 12
+! style="text-align: center;" | 13
+! style="text-align: center;" | 14
+! style="text-align: center;" | 15
+! style="text-align: center;" | 16
+! style="text-align: center;" | 17 
+! style="text-align: center;" | 18
+! style="text-align: center;" | 19
+! style="text-align: center;" | 20
+! style="text-align: center;" | 21
+! style="text-align: center;" | 22
+
+! style="text-align: center;" | 23
+
+! style="text-align: center;" | 24
+! style="text-align: center;" | 25
+! style="text-align: center;" | 26
+
+! style="text-align: center;" | 27
+! style="text-align: center;" | 28
+! style="text-align: center;" | 29
+! style="text-align: center;" | 30
+! style="text-align: center;" | 31
+! style="text-align: center;" | 32
+! style="text-align: center;" | 33
+
+! style="text-align: center;" | 34
+! style="text-align: center;" | 35
+! style="text-align: center;" | 36
+! style="text-align: center;" | 37
+! style="text-align: center;" | 38
+! style="text-align: center;" | 39
+! style="text-align: center;" | 40
+! style="text-align: center;" | 41
+! style="text-align: center;" | 42
+! style="text-align: center;" | 43
+! style="text-align: center;" | 44
+! style="text-align: center;" | 45
+! style="text-align: center;" | 46
+! style="text-align: center;" | 47
+! style="text-align: center;" | 48
+! style="text-align: center;" | 49
+! style="text-align: center;" | 50
+|-
+| style="text-align: center;" | Free
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | <code>{{Gems|250}}</code>
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | 2x Star Capsule
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Characterbox|Haze|check_img=yes}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | [[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|2x Cursed Finger]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Characterbox|Oshy|check_img=yes}}
+|-
+| style="text-align: center;" | Premium
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | 6x Star Capsule
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Characterbox|Haze|articlename=Haze|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Poison Bulb}}]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | [[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|4x Cursed Finger]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Characterbox|Oshy|articlename=Oshy|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Idol Mic}}]]
+|}
+|-|Magic Hunt=
+=== MAGIC HUNT ===
+{| class="mw-collapsible article-table" style="line-height: 1;"
+! style="text-align: center;" | Level
+! style="text-align: center;" | 1
+! style="text-align: center;" | 2
+! style="text-align: center;" | 3 
+! style="text-align: center;" | 4
+! style="text-align: center;" | 5
+! style="text-align: center;" | 6
+! style="text-align: center;" | 7
+! style="text-align: center;" | 8
+! style="text-align: center;" | 9
+! style="text-align: center;" | 10
+
+! style="text-align: center;" | 11
+! style="text-align: center;" | 12
+! style="text-align: center;" | 13
+! style="text-align: center;" | 14
+! style="text-align: center;" | 15
+! style="text-align: center;" | 16
+! style="text-align: center;" | 17 
+! style="text-align: center;" | 18
+! style="text-align: center;" | 19
+! style="text-align: center;" | 20
+! style="text-align: center;" | 21
+! style="text-align: center;" | 22
+
+! style="text-align: center;" | 23
+
+! style="text-align: center;" | 24
+! style="text-align: center;" | 25
+! style="text-align: center;" | 26
+
+! style="text-align: center;" | 27
+! style="text-align: center;" | 28
+! style="text-align: center;" | 29
+! style="text-align: center;" | 30
+! style="text-align: center;" | 31
+! style="text-align: center;" | 32
+! style="text-align: center;" | 33
+
+! style="text-align: center;" | 34
+! style="text-align: center;" | 35
+! style="text-align: center;" | 36
+! style="text-align: center;" | 37
+! style="text-align: center;" | 38
+! style="text-align: center;" | 39
+! style="text-align: center;" | 40
+! style="text-align: center;" | 41
+! style="text-align: center;" | 42
+! style="text-align: center;" | 43
+! style="text-align: center;" | 44
+! style="text-align: center;" | 45
+! style="text-align: center;" | 46
+! style="text-align: center;" | 47
+! style="text-align: center;" | 48
+! style="text-align: center;" | 49
+! style="text-align: center;" | 50
+|-
+| style="text-align: center;" | Free
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | <code>{{Gems|250}}</code>
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | 2x Star Capsule
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Characterbox|Charmi|check_img=yes}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | [[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|2x Cursed Finger]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gold|500}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | [[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Gems|250}}
+| style="text-align: center;" | {{Characterbox|Mash|check_img=yes}}
+|-
+| style="text-align: center;" | Premium
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | 6x Star Capsule
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Characterbox|Charmi|articlename=Charmi|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Magic Cutlery}}]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | [[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|4x Cursed Finger]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gold|1500}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | [[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" | [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Gems|750}}
+| style="text-align: center;" | {{Characterbox|Mash|articlename=Mash|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Dumbell}}]]
+|}
+|-|Flower Hunt=
+[[File:Flower Hunt Icon.png|200px|left|]] 
+
+<br><br>
+
+<blockquote>''- Collect Flowers by killing enemies in any game mode! ''<br>''- Purchase a Premium Pass for Exclusive rewards! ''<br>''★ All previous rewards are automatically claimed on purchase!''</blockquote>
+
+<br>
+
+The Battlepass has 60 tiers which was originally 50 after the summer update, with the later half opening up after a week of release; a free and premium version. Each tier starts at 50 Battlepass points, going up to 1500 Battlepass points per tier which are obtained by killing enemies that can drop between 4 and 15 Battlepass points in any game mode.
+
+Each tier can offers the player {{Gems}}, {{Gold}}, [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Tokens]], [[File:Cursed Finger.png|35px|link=Traits|Cursed Fingers]][[Curses|Cursed Fingers]], [[Items|Star Capsules]] (summer shells) tier 51 , Emotes, and exclusive units, with the premium version providing extra items and shiny units.  
+
+The premium pass can be purchased for '''R$ 799'''. Skip 10 levels can be purchased for '''R$ 999'''. Both are giftable and tradable. 
+
+== Battlepass - Update 15.0.0.==
+
+=== FLOWER HUNT ===
+{| class="mw-collapsible article-table" style="line-height: 1;"
+! style="text-align: center;" | Level
+! style="text-align: center;" | 1
+! style="text-align: center;" | 2
+! style="text-align: center;" | 3
+! style="text-align: center;" | 4
+! style="text-align: center;" | 5
+! style="text-align: center;" | 6
+! style="text-align: center;" | 7
+! style="text-align: center;" | 8
+! style="text-align: center;" | 9
+! style="text-align: center;" | 10
+! style="text-align: center;" | 11
+! style="text-align: center;" | 12
+! style="text-align: center;" | 13
+! style="text-align: center;" | 14
+! style="text-align: center;" | 15
+! style="text-align: center;" | 16
+! style="text-align: center;" | 17
+! style="text-align: center;" | 18
+! style="text-align: center;" | 19
+! style="text-align: center;" | 20
+! style="text-align: center;" | 21
+! style="text-align: center;" | 22
+! style="text-align: center;" | 23
+! style="text-align: center;" | 24
+! style="text-align: center;" | 25
+! style="text-align: center;" | 26
+! style="text-align: center;" | 27
+! style="text-align: center;" | 28
+! style="text-align: center;" | 29
+! style="text-align: center;" | 30
+! style="text-align: center;" | 31
+! style="text-align: center;" | 32
+! style="text-align: center;" | 33
+! style="text-align: center;" | 34
+! style="text-align: center;" | 35
+! style="text-align: center;" | 36
+! style="text-align: center;" | 37
+! style="text-align: center;" | 38
+! style="text-align: center;" | 39
+! style="text-align: center;" | 40
+! style="text-align: center;" | 41
+! style="text-align: center;" | 42
+! style="text-align: center;" | 43
+! style="text-align: center;" | 44
+! style="text-align: center;" | 45
+! style="text-align: center;" | 46
+! style="text-align: center;" | 47
+! style="text-align: center;" | 48
+! style="text-align: center;" | 49
+! style="text-align: center;" | 50
+! style="text-align: center;" | 51
+! style="text-align: center;" | 52
+! style="text-align: center;" | 53
+! style="text-align: center;" | 54
+! style="text-align: center;" | 55
+! style="text-align: center;" | 56
+! style="text-align: center;" | 57
+! style="text-align: center;" | 58
+! style="text-align: center;" | 59
+! style="text-align: center;" | 60
+|-
+| style="text-align: center;" |Free
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |2x Star Capsule
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Characterbox|Chad|check_img=yes}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |[[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|2x Cursed Finger]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Characterbox|Gabimaro|check_img=yes}}
+| style="text-align: center;" |{{RarityColor|Mythic|500 Pearls}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{RarityColor|Mythic|500 Pearls}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br>[[Powerups#Stat_Rerolling|3x Stat Cube]]
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|1x Reroll Token]]
+| style="text-align: center;" |{{RarityColor|Mythic|500 Pearls}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|1x Reroll Token]]
+| style="text-align: center;" |{{RarityColor|Mythic|1000 Pearls}}
+|-
+| style="text-align: center;" |Premium
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |6x Star Capsule
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Characterbox|Shiny Chad|articlename=Chad|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Rusted Coin}}]]
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |[[File:Cursed Finger.png|35px|link=Powerups]]<br>[[Powerups|4x Cursed Finger]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Characterbox|Shiny Gabimaro|articlename=Gabimaro|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Hollow Flower}}]]
+| style="text-align: center;" |{{RarityColor|Mythic|1000 Pearls}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{RarityColor|Mythic|1000 Pearls}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |{{RarityColor|Mythic|1000 Pearls}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]
+| style="text-align: center;" |[[Emotes|Emote]]
+|}
+
+|-|Key Hunt=
+[[File:Key Hunt Icon.png|200px|left|]] 
+
+<br><br>
+
+<blockquote>''- Collect Keys by killing enemies in any game mode! ''<br>''- Purchase a Premium Pass for Exclusive rewards! ''<br>''★ All previous rewards are automatically claimed on purchase!''</blockquote>
+
+<br>
+
+The Battlepass has 60 tiers which was originally 50 after the update 16.5.0, with the later half opening up after a week of release; a free and premium version. Each tier starts at 50 Battlepass points, going up to 1500 Battlepass points per tier which are obtained by killing enemies that can drop between 4 and 15 Battlepass points in any game mode.
+
+Each tier can offers the player {{Gems}}, {{Gold}}, [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Tokens]], [[File:Cursed Finger.png|35px|link=Traits|Cursed Fingers]][[Curses|Cursed Fingers]], [[Items|Star Capsules]] (summer shells) tier 51 , Emotes, and exclusive units, with the premium version providing extra items and shiny units.  
+
+The premium pass can be purchased for '''R$ 799'''. Skip 10 levels can be purchased for '''R$ 999'''. Both are giftable and tradable. 
+
+== Battlepass - Update 16.0.0.==
+
+=== KEY HUNT ===
+{| class="mw-collapsible article-table" style=" line-height: 1;"
+! style="text-align: center;" | Level
+! style="text-align: center;" | 1
+! style="text-align: center;" | 2
+! style="text-align: center;" | 3
+! style="text-align: center;" | 4
+! style="text-align: center;" | 5
+! style="text-align: center;" | 6
+! style="text-align: center;" | 7
+! style="text-align: center;" | 8
+! style="text-align: center;" | 9
+! style="text-align: center;" | 10
+! style="text-align: center;" | 11
+! style="text-align: center;" | 12
+! style="text-align: center;" | 13
+! style="text-align: center;" | 14
+! style="text-align: center;" | 15
+! style="text-align: center;" | 16
+! style="text-align: center;" | 17
+! style="text-align: center;" | 18
+! style="text-align: center;" | 19
+! style="text-align: center;" | 20
+! style="text-align: center;" | 21
+! style="text-align: center;" | 22
+! style="text-align: center;" | 23
+! style="text-align: center;" | 24
+! style="text-align: center;" | 25
+! style="text-align: center;" | 26
+! style="text-align: center;" | 27
+! style="text-align: center;" | 28
+! style="text-align: center;" | 29
+! style="text-align: center;" | 30
+! style="text-align: center;" | 31
+! style="text-align: center;" | 32
+! style="text-align: center;" | 33
+! style="text-align: center;" | 34
+! style="text-align: center;" | 35
+! style="text-align: center;" | 36
+! style="text-align: center;" | 37
+! style="text-align: center;" | 38
+! style="text-align: center;" | 39
+! style="text-align: center;" | 40
+! style="text-align: center;" | 41
+! style="text-align: center;" | 42
+! style="text-align: center;" | 43
+! style="text-align: center;" | 44
+! style="text-align: center;" | 45
+! style="text-align: center;" | 46
+! style="text-align: center;" | 47
+! style="text-align: center;" | 48
+! style="text-align: center;" | 49
+! style="text-align: center;" | 50
+! style="text-align: center;" | 51
+! style="text-align: center;" | 52
+! style="text-align: center;" | 53
+! style="text-align: center;" | 54
+! style="text-align: center;" | 55
+! style="text-align: center;" | 56
+! style="text-align: center;" | 57
+! style="text-align: center;" | 58
+! style="text-align: center;" | 59
+! style="text-align: center;" | 60
+|-
+| style="text-align: center;" |'''Free'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |2x Star Capsule
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Characterbox|Smoka|check_img=yes}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |'''[[File:Cursed Finger.png|35px|link=Powerups]]<br />[[Powerups|2x Cursed Finger]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Characterbox|Conrod|check_img=yes}}
+| style="text-align: center;" |{{RarityColor|Mythic|500 Pearls}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{RarityColor|Mythic|500 Pearls}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{RarityColor|Mythic|500 Pearls}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{RarityColor|Mythic|1000 Pearls}}
+|-
+| style="text-align: center;" |'''Premium'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |6x Star Capsule
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Characterbox|Shiny Smoka|articlename=Smoka|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Seastone Jitte}}]]
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |'''[[File:Cursed Finger.png|35px|link=Powerups]]<br />[[Powerups|4x Cursed Finger]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Characterbox|Shiny Conrod|articlename=Conrod|check_img=yes}}
+| style="text-align: center;" |{{RarityColor|Mythic|1500 Pearls}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{RarityColor|Mythic|1500 Pearls}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{RarityColor|Mythic|1500 Pearls}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{RarityColor|Mythic|3000 Pearls}}
+|}
+
+|-|Flame Hunt=
+[[File:GUI Battlepass Flame Hunt icon.png|200px|left|]] 
+
+<br><br>
+
+<blockquote>''- Collect Flames by killing enemies in any game mode!''<br>''- Purchase a Premium Pass for Exclusive rewards!''<br>''★ All previous rewards are automatically claimed on purchase!''  </blockquote>
+
+<br>
+
+The Battlepass has 50 tiers, with the later half opening up after a week of release; a free and premium version. Each tier starts at 500 Battlepass points, going up to 15000 Battlepass points per tier which are obtained by killing enemies that can drop between 4 and 15 Battlepass points in any game mode.
+
+You will need to collect 31250 Battlepass points in order to get to tier 50.
+
+Each tier can offer the player '''{{Gems}}, {{Gold}}, [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Tokens]], [[File:Cursed Finger.png|35px|link=Traits|Cursed Fingers]][[Curses|Cursed Fingers]], [[Items|Star Capsules]], Emotes, and exclusive units''', with the premium version providing extra items and shiny units'''.'''  
+
+If you buy an outdated or previous gift of a premium pass, then it will stay the same and will not change or update. 
+
+== Battlepass==
+Current Battlepass began in [[Update Log|Update 17.0.0]]. Previous battlepasses can be found at [[Past Battlepasses]].
+
+=== '''FLAME HUNT''' ===
+{| class="mw-collapsible article-table" style=" line-height: 1;"
+! style="text-align: center;" | Level
+! style="text-align: center;" | 1
+! style="text-align: center;" | 2
+! style="text-align: center;" | 3
+! style="text-align: center;" | 4
+! style="text-align: center;" | 5
+! style="text-align: center;" | 6
+! style="text-align: center;" | 7
+! style="text-align: center;" | 8
+! style="text-align: center;" | 9
+! style="text-align: center;" | 10
+! style="text-align: center;" | 11
+! style="text-align: center;" | 12
+! style="text-align: center;" | 13
+! style="text-align: center;" | 14
+! style="text-align: center;" | 15
+! style="text-align: center;" | 16
+! style="text-align: center;" | 17
+! style="text-align: center;" | 18
+! style="text-align: center;" | 19
+! style="text-align: center;" | 20
+! style="text-align: center;" | 21
+! style="text-align: center;" | 22
+! style="text-align: center;" | 23
+! style="text-align: center;" | 24
+! style="text-align: center;" | 25
+! style="text-align: center;" | 26
+! style="text-align: center;" | 27
+! style="text-align: center;" | 28
+! style="text-align: center;" | 29
+! style="text-align: center;" | 30
+! style="text-align: center;" | 31
+! style="text-align: center;" | 32
+! style="text-align: center;" | 33
+! style="text-align: center;" | 34
+! style="text-align: center;" | 35
+! style="text-align: center;" | 36
+! style="text-align: center;" | 37
+! style="text-align: center;" | 38
+! style="text-align: center;" | 39
+! style="text-align: center;" | 40
+! style="text-align: center;" | 41
+! style="text-align: center;" | 42
+! style="text-align: center;" | 43
+! style="text-align: center;" | 44
+! style="text-align: center;" | 45
+! style="text-align: center;" | 46
+! style="text-align: center;" | 47
+! style="text-align: center;" | 48
+! style="text-align: center;" | 49
+! style="text-align: center;" | 50
+|-
+| style="text-align: center;" |'''Free'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |2x Star Capsule
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Characterbox|Bell|check_img=yes}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |'''[[File:Cursed Finger.png|35px|link=Powerups]]<br />[[Powerups|2x Cursed Finger]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gold|500}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Gems|250}}
+| style="text-align: center;" |{{Characterbox|Tuna|check_img=yes}}
+|-
+| style="text-align: center;" |'''Premium'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |6x Star Capsule
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Characterbox|Shiny Bell|articlename=Bell|check_img=yes}} & [[Evolution|{{RarityColor|Mythic|Cranel Sword}}]]
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |'''[[File:Cursed Finger.png|35px|link=Powerups]]<br />[[Powerups|4x Cursed Finger]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gold|1500}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+| style="text-align: center;" |'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Gems|750}}
+| style="text-align: center;" |{{Characterbox|Tuna (Shiny)|articlename=Tuna|check_img=yes}}
+|}
+</tabber>

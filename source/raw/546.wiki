@@ -1,0 +1,24 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through completing [[Raids|Infinity Train]] with a small chance, or by buying him at the Raid Shop for 50 Blazing Shards. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Let me tell you why [[Donut]] can't enter the realm of the highest. Because you're a human. Because you're going to grow old. Because you're going to die. Become a demon, [[Donut]]. Do that, and you can go on training for a hundred, two hundred years. You can become stronger."
+|caption2="I will cure you for sure. Help you. Protect. My life was worthless, filled with nothing but empty promises."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Aqua}} damage type, along with other units without a second damage type.
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Aqua]]
+[[Category:Legendary Units]]

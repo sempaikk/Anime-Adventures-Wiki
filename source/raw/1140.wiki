@@ -1,0 +1,22 @@
+{{#switch: {{{1}}}
+| Secret =<span class="C(Secret) game-font-face">Secret</span>
+| Exclusive = <span class="Pos(r) game-font-face" style="background: linear-gradient(180deg, #30B4E4, #538BFA, #c861f0); -webkit-background-clip: text; color: transparent;">Exclusive</span>
+| Mythic | Mythical = <span class="Pos(r) Bg(Mythical) Bgcp(text) Tfc(transparent) game-font-face">Mythical<span class="Tsh(Game) Pos(a) Start(0) Z(-1)">Mythical</span></span>
+| Legendary =<span class="C(Legendary) Tsh(Game) game-font-face">Legendary</span>
+| Epic =<span class="C(Epic) game-font-face">Epic</span>
+| Rare =<span class="C(Rare) game-font-face">Rare</span>
+| SSS =<span class="game-font-face" style="color: #00FFDD;">SSS</span>
+| SS =<span class="game-font-face" style="color: #00FFDD;">SS</span>
+| S =<span class="game-font-face" style="color: #00FFDD;">S</span>
+| S- =<span class="game-font-face" style="color: #00FFDD;">S-</span>
+| A+ =<span class="game-font-face" style="color: #00FF00;">A+</span>
+| A =<span class="game-font-face" style="color: #00FF00;">A</span>
+| A- =<span class="game-font-face" style="color: #A2FF00;">A-</span>
+| B+ =<span class="game-font-face" style="color: #C8FF00;">B+</span>
+| B =<span class="game-font-face" style="color: #EEFF00;">B</span>
+| B- =<span class="game-font-face" style="color: #FFE600;">B-</span>
+| C+ =<span class="game-font-face" style="color: #C70000;">C+</span>
+| C =<span class="game-font-face" style="color: #C70000;">C</span>
+| C- =<span class="game-font-face" style="color: #C70000;">C-</span>
+|<span class="game-font-face" style="color: #565456;">Unknown</span>
+}}<noinclude>{{Doc}}</noinclude>

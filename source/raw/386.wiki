@@ -1,0 +1,9 @@
+<includeonly>{{#invoke:Fd|get}}</includeonly><noinclude>This template takes a decimal number and formats the visual presentation of all the numbers after the decimal point to be reduced in font size. This only affects numbers and any characters inputted after the affected numbers will be displayed at full size.
+
+Examples:
+
+* <code><nowiki>{{Format decimal|17.5}}</nowiki></code>
+** {{Format decimal|17.5}}
+* <code><nowiki>{{Format decimal|80.744%}}</nowiki></code>
+** {{Format decimal|80.744%}}
+</noinclude>

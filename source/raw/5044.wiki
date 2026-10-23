@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 17 - Fate Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}} unit. He is only obtainable by achieving Top 50 Infinite Run leaderboard (Top 10 if shiny) in Update 16.
+
+==Stats Overview==
+{{Tower Infobox
+|caption1=  "I've realised recently… that everyone is given life for a reason. Everyone has something important to accomplish. The quest to discover what that is… …is the only freedom us humans have been given."
+|caption2= "This is an important "vessel" for that dream… but… you all were too late…"
+|image1={{PAGENAME}}.png}}{{Main Stats}} 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

@@ -1,0 +1,26 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Why won’t [[Supreme Being (Sovereign)|you]] promise me?! What are [[Supreme Being (Sovereign)|you]] dissatisfied about?! If you tell me, we will quickly eliminate the problem! If [[Supreme Being (Sovereign)|you]] say I’m the one in your way, I would kill myself immediately!”
+|caption2="Overseer of the Floor Guardians [[Cherub (Overseer)|Cherub]] , at your command."
+|image1=
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+*This unit's face has been changed after a few days of her release in a minor update for having a weird face (Blushing with her mouth open){{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

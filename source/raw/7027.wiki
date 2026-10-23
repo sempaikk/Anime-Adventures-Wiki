@@ -1,0 +1,1 @@
+<includeonly>[[File:Hoard.png|24px|link=Currencies]] [[Currencies|<span class="Tsh(Game) game-font-face" style="background: linear-gradient(0deg, #6A0DAD, #A45DBB 50%, transparent); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">{{{1|}}} Dungeon Money</span>]]</includeonly><noinclude>{{Doc}}</noinclude>

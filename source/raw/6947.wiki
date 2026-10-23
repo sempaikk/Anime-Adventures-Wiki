@@ -1,0 +1,28 @@
+
+
+=='''Overview'''==
+'''Shadow Sorcerer (Incident)''' is a {{Rarity|Mythical}} unit. He is obtainable through [[Summon|summons]], or by evolving [[Shadow Sorcerer (Hybrid Shadow)]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="With this treasure, I summon..."
+|caption2="I'm not a hero. I'm a jujutsu sorcerer.
+|image1=Shadow Sorcerer (Ritual).png
+|image2=Shadow Sorcerer (Ritual) Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

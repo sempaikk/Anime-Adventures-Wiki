@@ -1,0 +1,4 @@
+<div style="display: flex; height: 100%; width: 190px; flex-direction: column;justify-content: space-between;">
+<div style="font-size: 18px; color: rgb(68 182 253); line-height: 1.1; z-index: 2; position: relative;">Act {{{Act|}}} {{#if:{{{1|}}}|-}} {{{1|}}}</div>
+<div style="line-height: 1.1; z-index: 2; position: relative; font-size: 90%;">Boss {{#if:{{{2|}}}|-}} {{{2|}}}</div>
+<div style="border: rgb(255 174 8) 2px solid; background: black; margin-top: 25.65px; border-radius: 10px; height: 120.35px; width: 120.35px; display: flex; align-items: flex-end; justify-content: flex-start; z-index: 1; position: relative;">[[File:Boss - {{{1|}}}.png|140px|class=Bdrs(7.5px)]]</div></div>

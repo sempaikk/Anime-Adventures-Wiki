@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 12.5 - Entertainment District Raid Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He is only obtainable by clearing stage 4 or 5 of the [[Raids#Storm Hideout|Storm Hideout]] raid with a 1% and 5% chance respectively.
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The one who protects from the shadows, that’s the mark of a true shinobi."
+|caption2="As long as we have you, the future of the Uchiha’s is secure"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

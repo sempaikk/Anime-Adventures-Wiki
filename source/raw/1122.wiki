@@ -1,0 +1,4 @@
+<span style="display: inline-block;"><span class="advanced-tooltip">[[File:Trait Unique.png|x24px|link=Unique|Unique]]<span class="dottedText">[[Traits|Unique]]</span><div class="tooltip-contents" style="display: none"><div style="display: block; padding: 8px 12px; background: linear-gradient(135deg, rgb(24 24 24), rgb(7 7 7)); border-radius: 8px; font-size: 13px; font-family: 'Fredoka One'; color: #e6e6e6; display: block; max-width: 500px; width: max-content; height: fit-content; line-height: 1.2; font-size: 14px; border: 2px solid rgb(100 100 100);">
+*Units with this Trait have a 4x (+300%) Damage boost, 10% Range boost, and 10% SPA reduction. Units with this trait are restricted to a maximum of ONE of this unit placed per game.
+*This trait gives your unit an aura with runic letters and although the damage potential for some units may be decreased, you would need to spend a lot less money as you would only need to max out one.
+</div></div></span></span>

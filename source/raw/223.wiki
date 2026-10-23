@@ -1,0 +1,26 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''Red Scar''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Listen up… You can pour drinks on me, you can throw food at me… You can even spit on me. I’ll just laugh that stuff off. But… Good reason or not… Nobody hurts a friend of mine."
+|caption2="Someday [[Joykid|you'll]] return this when you become as great as me."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:Red Scar (Shanks)}}

@@ -1,0 +1,53 @@
+<h3 class="mobileonly">'''Tiers List'''</h3>
+
+{{TierList/Container|id=infiniti
+|Fast travel for Mobile only=
+{{TierList/Container/id|id=infiniti|META Ground}}
+<!-- names must match Item Container names -->
+|1={{TierList/Item Container|color=#ff7f7f|id=infiniti|name=META GROUND
+|
+
+{{TierList/Item|Kon (Adult)
+|Description={{Meta Unit}}<br>
+Kon (Adult) is a Celestial Unit based on Gon from Hunter x Hunter. He can be obtained from Banner 2. He has a max deployment of 3 and applies Cripple to enemies.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 40,900'''
+<br>
+'''Placement Cost:''' {{$|2.15K}}<br>
+'''Total cost to Max'''{{$|114.5K}}<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Traits: [[Image:AvatarThumb.png|18px]] [[Image:ShinigamiThumb.png|18px]]
+}}
+
+{{TierList/Item|Black Swordsman
+|Description={{Meta Unit}} {{Meta Bleed Unit}}<br>
+Black Swordsman is a Celestial Unit based on Guts from Berserk. He can be obtained from Banner 2. He has a max deployment of 2 and applies Bleed to enemies.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 3.17k'''
+----
+'''Placement Cost:''' {{$|800}}<br>
+'''Total cost to Max''' {{$|115.5k}}'''<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Traits: [[Image:AvatarThumb.png|18px]] [[Image:ShinigamiThumb.png|18px]]
+}}
+
+{{TierList/Item|Baldy (Bored)
+|Description={{Meta Unit}}<br>
+Baldy is a Celestial Unit based on Saitama from One Punch Man. He can be obtained on Banner 2. He has a max deployment of 2.
+<br>'''(Base Stats)'''<br>
+'''Dps: 34,515'''
+<br>'''Dps With Ability: 48,896 - (Wenda+Griffin + Time Piece: 166,121)'''
+<br>'''Summons Hp: 1,725,760 - (Griffin + Orwin: 5,177,280)'''
+----
+'''Placement Cost:''' {{$|1k}} - '''Cost to Max:''' {{$|74.341}}<br>
+----
+Recommended Traits: [[Image:Trait Unique.png|18px]]
+}}
+
+}}}}

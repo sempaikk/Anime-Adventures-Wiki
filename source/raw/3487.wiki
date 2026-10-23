@@ -1,0 +1,31 @@
+{{Unobtainable Unit|Update 15.5 - Summer update}}
+
+==Overview==
+
+'''{{PAGENAME}}''' is a ​{{Rarity|Mythical}} {{LU}}​. She can only be obtained via [[Summon|summons]]​ in Limited-Time Event Banner.
+
+{{EvolutionTable}}
+{{Takedowns|5,000}}
+
+==Stats Overview==
+
+{{Tower_Infobox
+|caption1="For all happiness you wish for someone, someone else gets cursed with equal misery."
+|caption2="It really shouldn't be all that uncommon - having a wish you'd go so far as to trade your life for. I think there are a lot of people in the world with wishes and desires like that. If we can't think of anything, it just means that we really haven't had anything that bad happen to us. We've had too much given to us and have become dull and stupid. It makes me wonder: Why us? Don't you think it's unfair? I'm sure there are other people who'd really want a chance like this."
+}}{{Main Stats}}
+
+==Selling==
+
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+
+[[Category:Event Units]]

@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 17 - Fate Update - 30 September 2023}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}.. He is only obtainable once you get rank 50 in [[Past Battlepasses#Key Hunt|Key Hunt]] and with Premium Pass for his shiny version.
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Then you understand me [[Magic Disbeliever]]... Never giving up is my magic!"
+|caption2="I will create a perfect world..."}} {{Main Stats}}
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery ==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

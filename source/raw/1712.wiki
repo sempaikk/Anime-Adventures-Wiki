@@ -1,0 +1,121 @@
+==='''Overview'''===
+'''{{PAGENAME}}''' were introduced in '''[[Update Log#Update 7 - Black Clover Update Part 1|Update 7]]''' alongside the new damage types, and can heavily boost a unit's damage or usability if used correctly.
+
+==Buff Types==
+<span class="game-font-face">
+* % DMG </span>: Increases the damage of units of that type by a percentage.
+
+* PEN: Penetrates through resistances of enemies. 
+**Resistance reduces damage by 100 / (100 + Resistance). So an enemy with 150 Magic Resistance will only take 40% Magic Damage.
+
+* PWR: Increases DPS/Upgrade. Scales with unit level. The amount will change if you equip it to a unit (to reflect the unit level scaling).
+
+==Relics==
+<tabber>
+|-|Obtainable=
+
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:775px; box-shadow: 0px 3px 15px -3px #6d42fc; margin-left: auto; margin-right: auto;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Requirement(s)
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Effects
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Item
+|+
+| style="padding: 20px;text-align: left;" | x10 {{Item|Ingots (Steel)}}
+| style="text-align: center;" | {{Damage Type|physical|+1% - 4% Physical DMG}}<br>{{Damage Type|physical|+0.5 - 2 Physical PWR}}<br>{{Damage Type|physical|+20 - 40 Physical PEN}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Steel Shiv.png|center]] {{RarityColor|Epic|Steel Shiv}}<br>{{Gold|4000}}
+|+
+| style="padding: 20px;text-align: left;" | x10 {{Item|Ingots (Steel)}}
+| style="text-align: center;" | {{Damage_Type|physical|+2% - 8% Physical Crit Chance}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Kunai.png|center]] {{RarityColor|Epic|Kunai}}<br>{{Gold|4000}}
+|+
+| style="padding: 20px;text-align: left;" | x20 {{Item|Empty Tome}}
+| style="text-align: center;" | {{Damage Type|magic|+1% - 4% Magic DMG}}<br>{{Damage Type|magic|+0.5 - 2 Magic PWR}}<br>{{Damage Type|magic|+20 - 40 Magic PEN}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Amplifying Codex.png|center]] {{RarityColor|Epic|Amplifying Codex}}<br>{{Gold|5000}}
+|+
+| style="padding: 20px;text-align: left;" | x25 {{Item|Demonic Tail}}<br>x25 {{Item|Empty Tome}}<br>x25 {{Item|Demonic Skull}}<br>x25 {{Item|Demonic Horns}}<br>x80 {{Item|Magic Scroll}}<br>x18 {{Item|Ingots (Steel)}}
+| style="padding: 20px; text-align: center; width: 50%" | {{Damage Type|physical|+2% - 5% Physical DMG}}<br>{{RarityColor|Legendary|+Anti Magic: Cannot deal Magic Damage. +10% - 15% Physical Damage against enemies with Magic Resistance}}<br><br>1 RANDOM ROLL:<br>{{Damage Type|physical|+30 - 50 Physical PEN}}<br>{{Damage Type|dark_damage|+2% - 8% Dark DMG}}<br>{{Damage Type|dark_damage|+1 - 3 Dark PWR}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:5-Leaf Clover.png|center]] {{RarityColor|Mythic|5-Leaf Clover}}<br>{{Gold|10000}}
+|+
+| style="padding: 20px;text-align: left;" | x25 {{Item|Empty Tome}}<br>x25 {{Item|Fairy Wings}}<br>x25 {{Item|Fairy Circlet}}<br>x18 {{Item|Ingots (Steel)}}<br>x25 {{Item|Wind Splinter}}<br> x80 {{Item|Holy Sprig}}
+| style="padding: 20px; text-align: center; width: 50%" | {{Damage Type|magic|+2% - 5% Magic DMG}}<br>{{RarityColor|Legendary|+Fairy Blessing: +10 - 15% Magic Damage against Flying enemies}}<br><br>1 RANDOM ROLL:<br>{{Damage Type|magic|+30 - 50 Magic PEN}}<br>{{Damage Type|air_damage|+2% - 8% Air DMG}}<br>{{Damage Type|air_damage|+1  - 3 Air PWR}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Clover Of The Wind.png|center]] {{RarityColor|Mythic|Clover Of The Wind}}<br>{{Gold|10000}}
+|+
+| style="padding: 20px;text-align: left;" | x25 {{Item|Empty Tome}}<br>x25 {{Item|Demonic Skull}}<br>x25 {{Item|Fairy Circlet}}<br>x25 {{Item|Demonic Horns}}<br>x18 {{Item|Ingots (Steel)}}<br> x80 {{Item|Holy Sprig}}
+| style="padding: 20px; text-align: center; width: 50%" | {{Damage Type|magic|+2% - 5% Magic DMG}}<br>{{RarityColor|Legendary|+Sea Serpent's Boon: Each Aqua Damage hit reduces the enemy's Magic Resistance by 1 - 4}}<br><br>1 RANDOM ROLL:<br>{{Damage Type|magic|+30 - 50 Magic PEN}}<br>{{Damage Type|aqua_damage|+2% - 8% Aqua DMG}}<br>{{Damage Type|aqua_damage|+1  - 3 Aqua PWR}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Mermaid_Crown.png|center]] {{RarityColor|Mythic|Mermaid Crown}}<br>{{Gold|10000}}
+|+
+| style="padding: 20px;text-align: left;" | x25 {{Item|Lost Chapter}}<br>x25 {{Item|Empty Tome}}<br>x2 {{Item|Devil Heart}}<br>x18 {{Item|Ingots (Steel)}}
+| style="padding: 20px; text-align: center; width: 50%" | {{Damage Type|magic|+2% - 5% Magic DMG}}<br>{{RarityColor|Legendary|+Final Hour: Every 30 - 50s, the next Magic attack deals 70% - 130% extra {{Damage_Type|true_damage}} damage}}<br><br>1 RANDOM ROLL:<br>{{Damage_Type|fire_damage|+2% - 8% Fire DMG}}<br>{{Damage_Type|aqua_damage|+2% - 8% Aqua DMG}}<br>{{Damage_Type|rose_damage|+2% - 8% Rose DMG}}<br>{{Damage_Type|air_damage|+2% - 8% Air DMG}}<br>{{Damage_Type|storm_damage|+2% - 8% Storm DMG}}<br>{{Damage_Type|light_damage|+2% - 8% Light DMG}}<br>{{Damage_Type|dark_damage|+2% - 8% Dark DMG}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Miracle Timepiece.png|center]] {{RarityColor|Mythic|Miracle Timepiece}}<br>{{Gold|10000}}
+|+
+| style="padding: 20px;text-align: left;" | x10 {{Item|Relic Shard}}
+| style="text-align: center;" |1 RANDOM ROLL:<br>{{Damage_Type|fire_damage|+2% - 5% Fire DMG}}<br>{{Damage_Type|aqua_damage|+2% - 5% Aqua DMG}}<br>{{Damage_Type|rose_damage|+2% - 5% Rose DMG}}<br>{{Damage_Type|air_damage|+2% - 5% Air DMG}}<br>{{Damage_Type|storm_damage|+2% - 5% Storm DMG}}<br>{{Damage_Type|light_damage|+2% - 5% Light DMG}}<br>{{Damage_Type|dark_damage|+2% - 5% Dark DMG}}<br>{{RarityColor|Legendary|+Eternal Flame: Burn Duration is Doubled.}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:alrzed.png|center]] {{RarityColor|Mythic|Infernal Gaze}}<br>{{Gold|10000}}
+|+
+| style="padding: 20px;text-align: left;" | x10 {{Item|Relic Shard}}<br>x5 {{Item|Demonic Spellbook}}
+| style="text-align: center;" | {{Damage Type|physical|+2% - 5% Physical DMG}}<br>{{Damage Type|physical|+10% - 20% Physical Crit Chance}}<br>{{RarityColor|Legendary|+Wrath: Every 4-6 Strikes, the next Strike gains +100% Crit Chance.}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Mirrorblade.png|center|80px]] {{RarityColor|Mythic|Mirrorblade}}<br>{{Gold|10000}}
+|+
+| style="padding: 20px;text-align: left;" | x10 {{Item|Relic Shard}}
+| style="text-align: center;" | {{Damage Type|physical|+2% - 6% Physical DMG}}<br>{{Damage Type|physical|+30 - 50 Physical PEN}}<br>{{Damage Type|physical|+20% - 50% Physical Crit Chance}}<br>{{RarityColor|Legendary|+Thousand Stings: Dismembering a Boss makes all strikes deal +0.0085% - 0.0140% of the current health as {{Damage_Type|true_damage}} Damage.}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Endless Blades.png|center|80px]] {{RarityColor|Mythic|Endless Blades}}<br>{{Gold|10000}}
+|}
+
+|-|Tears=
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:695px; box-shadow: 0px 3px 15px -3px #6d42fc; margin-left: auto; margin-right: auto;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Requirement(s)
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Effects
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Item
+|+
+| style="padding: 20px;text-align: left; width:170px;" | x25 {{Item|Tear}}
+| style="text-align: center;" | {{RarityColor|Legendary|+Increases all damage in Storm Hideout raids by 25% (Stacks)}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Awakened Tomoe.png|center]] {{RarityColor|Epic|Awakened Tear}}<br><font size="2">(3 maximum)</font>
+|+
+| style="padding: 20px;text-align: left;" | x50 {{Item|Tear}}
+| style="text-align: center;" | {{RarityColor|Legendary|+Increases all damage in Storm Hideout raids by 50% (Stacks)}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Awakened Double Tomoe.png|center]] {{RarityColor|Legendary|Awakened Double Tear}}<br><font size="2">(2 maximum)</font>
+|+
+| style="padding: 20px;text-align: left;" | x200 {{Item|Tear}}
+| style="text-align: center;" | {{RarityColor|Legendary|+Increases all damage in Storm Hideout raids by 100% (Stacks)}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Awakened Triple Tomoe.png|center]] {{RarityColor|Mythic|Awakened Triple Tear}}<br><font size="2">(1 maximum)</font>
+|}
+
+|-|Unobtainable=
+
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:695px; box-shadow: 0px 3px 15px -3px #6d42fc; margin-left: auto; margin-right: auto;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Requirement(s)
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Effects
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serfic;" | Item
+|+
+| style="padding: 20px;" | Was obtainable from [[Dungeons#🎃_Thriller_Park_🎃|Thriller Park]] with a small drop chance
+| style="text-align: center;" | {{Damage Type|physical|+30 - 50 Physical PEN}}
+| style="padding: 20px; text-align: center; font-size: 110;" | [[File:Black Blade- Autumn Water.png|100px|center]] {{RarityColor|Legendary|Black Blade: Autumn Water}}
+|+
+| style="padding: 20px;" | Was obtainable from [[Dungeons#🔥The Fire🔥|The Fire]] with a 20% chance
+| style="padding: 20px; text-align: center; width: 50%" | {{Damage_Type|fire_damage|+2% - 5% Fire DMG}}<br>{{RarityColor|Legendary|+Remnant Flame: 5% - 10% damage against burning enemies}}<br><br>1 RANDOM ROLL:<br>{{Damage_Type|fire_damage|+2 - 5 Fire PWR}}<br>{{Damage_Type|physical|+2% - 5% Physical DMG}}<br>{{Damage_Type|magic|+2% - 5% Magic DMG}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Hellfire Blade.png|center]] {{RarityColor|Mythic|Hellfire Blade}}
+|+
+| style="padding: 20px;text-align: left;width:235px;" | x10 {{Item|Aranca Mask}}
+| style="text-align: center;" | {{RarityColor|Legendary|+Hollow Purification: Increases damage in Karakora Town by 10% - 30%}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Aranca Blade.png|center]] {{RarityColor|Epic|Aranca Blade}}<br>{{Gold|100}}
+|+
+| style="padding: 20px;text-align: left;" | x1 {{Item|Ingots (Steel)}}<br>x4 {{Item|Aranca Blade}}
+| style="text-align: center;" | {{RarityColor|Legendary|+Hollow Purification: Increases damage in Karakora Town by 30% - 90%}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Aranca_Shark_Blade.png|center]] {{RarityColor|Legendary|Aranca Shark Blade}}<br>{{Gold|500}}
+|+
+| style="padding: 20px;text-align: left;" | x4 {{Item|Aranca Shark Blade}}
+| style="text-align: center;" | {{RarityColor|Legendary|+Hollow Purification: Increases damage in Karakora Town by 90% - 270%}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Aranca_Crown.png|center]] {{RarityColor|Mythic|Aranca Crown}}<br>{{Gold|3000}}
+|+
+| style="padding: 20px;text-align: left;" | x500 {{Item|Gun Devil Bullet}}
+| style="text-align: center;" | {{Damage Type|physical|+2% - 5.5% Physical DMG}}<br>{{Damage Type|physical|+10% - 20% Physical Crit Chance}}<br>{{RarityColor|Legendary|+Curse: Equipped unit does +15% - 30% critical damage}}
+| style="padding: 20px; text-align: center; font-size: 110%;" | [[File:Nail.png|center]] {{RarityColor|Mythic|Nail}}<br>{{Gun Devil Bullet|500}}
+|}
+</tabber>
+
+==Trivia==    
+*You can't equip relics on {{Rarity|Epic}} or below.
+*You can only equip one of ''each '' <span style="color:#f074e9;">'''Unique'''</span> Relic to a team at a time. (Ex: You can't have two units with Mirrorblade on the same team.)
+*Relics can be unequipped, allowing you to move them from unit to unit, as needed.
+*There are currently no {{Rarity|Rare}} or {{Rarity|Secret}} relics.
+
+__NOTOC__

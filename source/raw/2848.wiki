@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can be obtained via [[Blood Star]] from [[Infinity Mansion]] (Season 5), while her Shiny Version can be obtained by placing {{RarityColor|Mythical|Master}} or higher.
+==Stats Overview==
+{{Tower_Infobox
+|caption1="When the strong find the next strongest, they can no longer swing their sword for their own sake. The tip of their sword will always be pointed either toward killing the next strongest, or toward nurturing them."
+|caption2="What sheer bliss to die from accomplishing one's purpose."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+[[Cosmetics|Cosmetic]].
+*She is the first unit to have a Full AoE bleed inflicting attack.
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

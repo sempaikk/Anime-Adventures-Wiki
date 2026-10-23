@@ -1,0 +1,17 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Bungee Gum possesses the properties of both rubber and gum."
+|caption2="GENNEEEE CHANNNNNNNN"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their total cost.
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Rose]]
+[[Category:Legendary Units]]

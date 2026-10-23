@@ -1,0 +1,41 @@
+{{Infinity Castle Meta Unit}}{{Raid Meta Unit}}{{Meta Support Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Paradox]]. 
+
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Nah, I'd win."
+|caption2=“The reason you're going to lose is because you didnt chop my head off.”
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Active Ability: Unlimited Void==
+[[File:Paradox (Divine Sight) Passive.png|left|thumb|103x103px]]
+'''{{PAGENAME}}''' Stops every enemy in their tracks and buffs his damage by 100% for the duration of his domain. If an enemy has already been affected by [[Effects#Timestop|Timestop]] less than 10 seconds before use, the enemy will not be stopped in the domain.
+*Global Cooldown: 60
+*Duration: 8
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*For the {{Item|Six Eyes}}, you must get 6 Rikugan Eyes to form one.
+*His upgrades' costs (not including Limitless upgrades) are the same as [[Trickster (Release)]].
+*Limitless 1 costs 3 Rikugan Eyes, while all following Limitless upgrades require more and more Six Eyes (1 Six Eye for Limitless 2, 2 Six Eyes for Limitless 3, 4 Six Eyes for Limitless 4, 5 Six Eyes for Limitless 5, 8 Six Eyes for limitless 6, 12 Six eyes for limitless 7 etc.)
+*Every Limitless upgrade increases Paradox's DMG by 10% of his DMG at Upgrade 9 and costs 1,400¥ more than the previous upgrade.
+**Assuming a 50k {{PAGENAME}} at Upgrade 9, Limitless 1 would deal 55,000 (110%) and cost 15,400¥
+**At Limitless 3, {{PAGENAME}} would deal 65k (130%) and the upgrade would cost 18,200¥
+**At Limitless 6, {{PAGENAME}} would deal 80k (160%) and the upgrade would cost 22,400¥
+**At Limitless 10, {{PAGENAME}} would deal 100k (200%) and the upgrade would cost 28,000¥
+**Finally, at Limitless 15, {{PAGENAME}} would deal 126k (250%) and the upgrade would cost 35,000¥
+*After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Aqua}} damage type, along with other units without a second damage type.
+==Gallery==
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__

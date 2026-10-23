@@ -1,0 +1,46 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|2500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am waiting for you, Dr. I've waited for you for too long, far too long, to the point that I have already forgotten why I am waiting for you here... But none of this is important anymore. It's not that important anymore."
+|caption2="Dream... What kind of dream will you have? Where are you now? There... Is this also a dream?"
+|image1=Elyssia.png
+|image2=Elyssia Shiny.png
+|deployment_cost=2,000|total_cost=17000|upgrade_levels=2|tower_type=Ground}}
+{{Main Stats - Outer Shell Part|
+{{Stats Box|Upgrade_No=0|Upgrade_Cost=2000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=2000|Range=9|SPA=4|Spawn=2000}}
+{{Stats Box|Upgrade_No=1|Upgrade_Cost=5000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=5000|Range=12|SPA=4|Spawn=5000}}
+{{Stats Box|Upgrade_No=2|Upgrade_Cost=10000|Hits=Hits: 1|Tower_Type=Ground, Single|Damage=10000|Range=12|SPA=4|Spawn=10000}}
+}}
+
+== Summons: Abyssal Jellies ==
+'''{{PAGENAME}}''' has the ability to summon Abyssal Jellies. 
+<tabber>
+|-|Abyssal Jelly=
+'''Abyssal Jellies''' will be summoned on '''{{PAGENAME}}''''s SPA maxing out at 3. Abyssal Jellies have only 1 HP, but explode dealing a full AoE burst of Magic damage equal to {{PAGENAME}}'s damage on death. The range of this explosion is believed to be equivalent to {{PAGENAME}}'s range. Once an Abyssal Jelly dies, she will be put on cooldown for 1.5x her SPA and begin summoning another one afterwards.
+</tabber>
+
+{{Selling}}
+
+==Trivia==
+* Summons possess the same types {{PAGENAME}} has.
+* Abyssal Jellies can break 2 shields due to the explosion they deal on contact.
+* Her summons can be buffed by [[Zombie (Risen)]].
+* {{PAGENAME}} will be put on cooldown if an Abyssal Jelly dies before she has summoned all three, causing her to only summon one.
+* Since {{PAGENAME}} gets put on cooldown anytime an Abyssal Jelly dies, some strange situations can occur if she is on cooldown and another Abyssal Jelly dies:
+# Her cooldown will be '''reset''', causing her to only start summoning the dead Abyssal Jellies after 1.5x her SPA at the time the '''second Abyssal Jelly died rather than the first'''.
+# Her summoning can be '''canceled''' if an Abyssal Jelly dies as the animation is playing, causing no Abyssal Jelly to spawn once her animation ends.
+
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

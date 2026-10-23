@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 14.5}}
+
+==Overview==
+'''{{PAGENAME}}''' a {{Rarity|Secret}} {{LU}}. She is only obtainable by evolving [[Saka]]​.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“You humans are so miserable. No matter how hard you try, this is all you got. How unfortunate.”
+|caption2="[[Sepsis|You]] can't leave me! [[Sepsis (Moon)|You]] mustn't leave me! We have to stay together! No matter how many times I might be reborn, I'll always be your little sister!"
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Saka's bleed damage is 40% of her damage
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

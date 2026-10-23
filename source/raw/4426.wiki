@@ -1,0 +1,24 @@
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} unit. She can only be obtained through summons. 
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Ovеrview==
+{{Tower_Infobox
+|caption1="First, second, and third Floor Guardian, Bloodcry Fallen, at your command."
+|caption2="First, second, and third Floor Guardian, Bloodcry Fallen, at your command."
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,13 @@
+<nowiki>{{TierList/Item Container|id=</nowiki>
+
+
+{{Doc/TemplateCode/tooltip|Kent (Overtime)|Value 1}}
+<br>
+<nowiki>|</nowiki>
+
+<span class="advanced-tooltip" style="border-bottom: 2px dotted; cursor: help;">
+<nowiki>Description=Great DPS from CRIT and large AoE, increasing in damage by 1% per wave.</nowiki>
+<div class="tooltip-contents" style="display: none"><div class="game-tooltip__container game-font-face">Description</div></div>
+</span>
+
+<nowiki>}}</nowiki>

@@ -1,0 +1,33 @@
+
+''If you were looking for a different Joykid unit, see [[Joykid (disambiguation)]]''
+
+{{Disenchant Unit}}
+{{Story Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can only be obtained by evolving [[Joykid (Bounce)]]
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="This is my secret stratagem and I am serious!"
+|caption2="For two years, I fought monstrously-big savage breasts! To wrestle them to the ground, I needed this giant body and bounciness!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Fire}} damage type, along with other units without a second damage type.
+* Attacks starting from Upgrade 8 are able to hit air type enemies.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Units]]
+[[Category:Mythic Units]]
+<references />

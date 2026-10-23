@@ -1,0 +1,442 @@
+return {
+    guts = {
+		id = 'guts', _rateup_banner_only = true,
+		name = "Guts",
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'guts',
+			idle = { id = 'rbxassetid://13753043563' },
+			walk = { id = 'rbxassetid://13753057058' },
+			run = { id = 'rbxassetid://13753063117' }
+		},
+
+		_base_damage_type = 'physical', _secondary_damage_types = { fire_damage = true },
+
+		cost = 1450,
+		damage = 400, attack_cooldown = 8.0, range = 17.0,
+
+
+		evolve = {
+			normal = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 50 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					{ item_id = 'StarFruitBlue',    amount = 3 },
+					{ item_id = 'StarFruitRed',    amount = 5 },
+					{ item_id = 'StarFruitPink',    amount = 4 },
+					-- { item_id = 'StarFruitGreen',    amount = 4 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'guts', amount = 1 } },
+				_takedown_requirement = 7500,
+			},
+			shiny = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 50 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					{ item_id = 'StarFruitBlue',    amount = 3 },
+					{ item_id = 'StarFruitRed',    amount = 5 },
+					{ item_id = 'StarFruitPink',    amount = 4 },
+					-- { item_id = 'StarFruitGreen',    amount = 4 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'guts', amount = 1, shiny = true } },
+				_takedown_requirement = 7500,
+			},
+			evolve_unit = 'guts_berserker',
+			evolve_text = '+50% Attack, +Guts (Berserk)',
+		},
+		show_custom_unique_info = true,
+
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	guts_berserker = {
+		id = 'guts_berserker', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Guts (Berserk)",
+		rarity = "Mythic", evolved = { from = 'guts', use_own_model = true },
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'guts_berserker',
+			idle = { id = 'rbxassetid://13753819664' },
+			walk = { id = 'rbxassetid://13958843805' },
+			run = { id = 'rbxassetid://13958843805' }
+		},
+		shiny_passive_accessory_anim = 'guts_berserker_shiny',
+		shared_setup_script = 'guts_berserker',
+
+
+		_base_damage_type = 'physical', _secondary_damage_types = { fire_damage = true },
+
+		cost = 1450,
+		damage = 400 * 1.5, attack_cooldown = 7.0, range = 17.0,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	griffith = {
+		id = 'griffith', _rateup_banner_only = true,
+		name = "Griffin",
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'griffith',
+			idle = { id = 'rbxassetid://13744237555' },
+			walk = { id = 'rbxassetid://7331667456' },
+			run = { id = 'rbxassetid://7331658079' },
+		},
+
+		_base_damage_type = 'magic', _secondary_damage_types = { light_damage = true },
+
+		cost = 1300,
+		damage = 450, attack_cooldown = 7.0, range = 19.0,
+
+		evolve = {
+			normal = {
+				item_requirement = {},
+				unit_requirement = { { unit_id = 'griffith', amount = 1 } },
+				_behelit_xp_requirement = 1,
+				_takedown_requirement = 7500,
+			},
+			shiny = {
+				item_requirement = {},
+				unit_requirement = { { unit_id = 'griffith', amount = 1, shiny = true } },
+				_behelit_xp_requirement = 1,
+				_takedown_requirement = 7500,
+			},
+			evolve_unit = 'femto_egg',
+			evolve_text = '+Ascension',
+			hide_from_ui = true
+		},
+		show_custom_unique_info = true,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	femto_egg = {
+		id = 'femto_egg', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Griffin (Ascension)",
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+
+		evolved = { from = 'griffith', use_own_model = true },
+
+        animation_set = {
+			_id = 'femto_egg',
+			idle = { id = 'rbxassetid://13863890144' },
+		},
+		placement_animation_set = {
+			_id = 'femto_egg_placement',
+			idle = { id = 'rbxassetid://13874673536' },
+		},
+		placement_character_model = 'femto_egg',
+
+		shared_setup_script = 'femto_egg',
+		pet_character_model = 'femto',
+		pet_animation_set = { 
+			_id = 'femto_pet',
+			idle = { id = 'rbxassetid://13763998795' },
+			walk = { id = 'rbxassetid://13763998795' },
+			run = { id = 'rbxassetid://13763998795' }
+		},
+		shiny_animation_sets = {
+            pet = { 
+				_id = 'femto_pet_shiny',
+				idle = { id = 'rbxassetid://13951402859' },
+				walk = { id = 'rbxassetid://13951474807' },
+				run = { id = 'rbxassetid://13951493401' },
+			}, 
+		},
+		_base_damage_type = 'magic', _secondary_damage_types = { dark_damage = true },
+
+		cost = 1000,
+		damage = 510, attack_cooldown = 7.5, range = 20,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	femto = {
+		id = 'femto', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Griffin (Darkness)",
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+		shared_setup_script = 'femto',
+        animation_set = {
+			_id = 'femto',
+			idle = { id = 'rbxassetid://13763998795' },
+			walk = { id = 'rbxassetid://13763998795' },
+			run = { id = 'rbxassetid://13763998795' }
+		},
+
+		_base_damage_type = 'magic', _secondary_damage_types = { dark_damage = true },
+		_hide_upgrade_on_spawn = true,
+
+		cost = 1000,
+		damage = 1, attack_cooldown = 8, range = 40,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	griffith_reincarnation = {
+		id = 'griffith_reincarnation', _rateup_banner_only = true, hide_from_banner = true, _show_as_buff_unit = true,
+
+		name = "Griffin (Reincarnation)",
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+		unsellable = true,
+        animation_set = {
+			_id = 'griffith_reincarnation',
+			idle = { id = 'rbxassetid://13874197840' },
+		},
+		pet_animation_set = {
+			_id = 'griffith_reincarnation_pet',
+			idle = { id = 'rbxassetid://13951402859' },
+		},
+
+		_base_damage_type = 'magic', _secondary_damage_types = { light_damage = true },
+		_hide_upgrade_on_spawn = true,
+
+		cost = 1000,
+		damage = 0, attack_cooldown = 0, range = 7,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	skull_knight = {
+		id = 'skull_knight', _rateup_banner_only = true, hide_from_banner = true, shared_setup_script = 'skull_knight',
+		name = "Skull Knight",
+		rarity = "Secret", limited = {},
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'skull_knight',
+			idle = { id = 'rbxassetid://13782028148' },
+			walk = { id = 'rbxassetid://13782316394' },
+			run = { id = 'rbxassetid://13782319759' }
+		},
+
+
+		_base_damage_type = 'physical', _secondary_damage_types = { dark_damage = true },
+
+		cost = 1600,
+		damage = 700, attack_cooldown = 8.0, range = 23.0,
+
+		evolve = {
+			normal = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 50 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					{ item_id = 'StarFruitBlue',    amount = 3 },
+					{ item_id = 'StarFruitRed',    amount = 5 },
+					-- { item_id = 'StarFruitPink',    amount = 4 },
+					{ item_id = 'StarFruitGreen',    amount = 4 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'skull_knight', amount = 1 } },
+				_takedown_requirement = 7500,
+			},
+			shiny = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 50 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					{ item_id = 'StarFruitBlue',    amount = 3 },
+					{ item_id = 'StarFruitRed',    amount = 5 },
+					-- { item_id = 'StarFruitPink',    amount = 4 },
+					{ item_id = 'StarFruitGreen',    amount = 4 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'skull_knight', amount = 1, shiny = true } },
+				_takedown_requirement = 7500,
+			},
+			evolve_unit = 'skull_knight_evolved',
+			evolve_text = '+40% Attack, +Sword of Actuation',
+		},
+		show_custom_unique_info = true,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	skull_knight_evolved = {
+		id = 'skull_knight_evolved', _rateup_banner_only = true, hide_from_banner = true, 
+		evolved = { from = 'skull_knight', use_own_model = true }, shared_setup_script = 'skull_knight_evolved',
+		name = "Skull Knight (King)",
+		rarity = "Secret", limited = {},
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'skull_knight',
+			idle = { id = 'rbxassetid://13782028148' },
+			walk = { id = 'rbxassetid://13782316394' },
+			run = { id = 'rbxassetid://13782319759' }
+		},
+
+		_base_damage_type = 'physical', _secondary_damage_types = { dark_damage = true },
+
+		cost = 1600,
+		damage = 700 * 1.4, attack_cooldown = 8.0, range = 23.0,
+
+		blessing = {
+			normal = 'skull_knight',
+			shiny = 'skull_knight_shiny'
+		},
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+    issei = {
+		id = 'issei', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Issai",
+		rarity = "Mythic",
+
+		special_note = "[Limited] - Obtained during Anniversary 2023 Event",
+		special_note_shiny = "[Limited] - Obtained during Anniversary 2023 Event",
+
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'issei',
+			idle = { id = 'rbxassetid://13904799180' },
+		},
+
+		_base_damage_type = 'physical', _secondary_damage_types = { air_damage = true },
+
+		cost = 1500,
+		damage = 500, attack_cooldown = 8.0, range = 20.0,
+
+		evolve = {
+			normal = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 40 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					-- { item_id = 'StarFruitBlue',    amount = 3 },
+					{ item_id = 'StarFruitRed',    amount = 5 },
+					{ item_id = 'StarFruitPink',    amount = 4 },
+					{ item_id = 'StarFruitGreen',    amount = 3 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'issei', amount = 1 } },
+				_takedown_requirement = 7500,
+			},
+			shiny = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 40 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					-- { item_id = 'StarFruitBlue',    amount = 3 },
+					{ item_id = 'StarFruitRed',    amount = 5 },
+					{ item_id = 'StarFruitPink',    amount = 4 },
+					{ item_id = 'StarFruitGreen',    amount = 3 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'issei', amount = 1, shiny = true } },
+				_takedown_requirement = 7500,
+			},
+			evolve_unit = 'issei_evolved',
+			evolve_text = '+40% Attack, +Boosted Gear',
+		},
+		show_custom_unique_info = true,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	issei_evolved = {
+		id = 'issei_evolved', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Issai (Boosted Gear)",
+		evolved = { from = 'issei', use_own_model = true },
+		rarity = "Mythic",
+
+		special_note = "[Limited] - Obtained during Anniversary 2023 Event",
+		special_note_shiny = "[Limited] - Obtained during Anniversary 2023 Event",
+
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'issei',
+			idle = { id = 'rbxassetid://13904799180' },
+		},
+
+		blessing = {
+			normal = 'issei',
+			shiny = 'issei_shiny'
+		},
+
+		passive_accessory_anim = 'issei_tail',
+		shiny_passive_accessory_anim = 'issei_shiny',
+
+		_base_damage_type = 'physical', _secondary_damage_types = { air_damage = true },
+
+		cost = 1500,
+		damage = 500 * 1.4, attack_cooldown = 8.0, range = 20.0,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+
+	sengoku_unit = {
+		id = 'sengoku_unit', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Senbodu",
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'sengoku_unit',
+			idle = { id = 'rbxassetid://13896887958' },
+		},
+
+		_base_damage_type = 'magic', _secondary_damage_types = { light_damage = true },
+
+		cost = 1500,
+		damage = 770, attack_cooldown = 11.0, range = 25.0,
+
+		evolve = {
+			normal = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 40 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					{ item_id = 'StarFruitBlue',    amount = 5 },
+					-- { item_id = 'StarFruitRed',    amount = 5 },
+					{ item_id = 'StarFruitPink',    amount = 3 },
+					{ item_id = 'StarFruitGreen',    amount = 4 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'sengoku_unit', amount = 1 } },
+				_takedown_requirement = 7500,
+			},
+			shiny = {
+				item_requirement = { 
+					{ item_id = 'behelit_evolve', amount = 40 },
+					{ item_id = 'StarFruit',    amount = 12 },
+					{ item_id = 'StarFruitBlue',    amount = 5 },
+					-- { item_id = 'StarFruitRed',    amount = 5 },
+					{ item_id = 'StarFruitPink',    amount = 3 },
+					{ item_id = 'StarFruitGreen',    amount = 4 },
+					{ item_id = 'StarFruitEpic',    amount = 1 },
+				},
+				unit_requirement = { { unit_id = 'sengoku_unit', amount = 1, shiny = true } },
+				_takedown_requirement = 7500,
+			},
+			evolve_unit = 'sengoku_unit_evolved',
+			evolve_text = '+30% Attack, +Shockwave',
+		},
+		show_custom_unique_info = true,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+	sengoku_unit_evolved = {
+		id = 'sengoku_unit_evolved', _rateup_banner_only = true, hide_from_banner = true,
+		name = "Senbodu (Buddha)",
+		evolved = { from = 'sengoku_unit' },
+		shared_setup_script = 'sengoku_unit_evolved',
+		rarity = "Mythic",
+		health = 2000, speed = 15, shiny = true,
+        animation_set = {
+			_id = 'sengoku_unit',
+			idle = { id = 'rbxassetid://13896887958' },
+		},
+
+		_base_damage_type = 'magic', _secondary_damage_types = { light_damage = true },
+
+		cost = 1500,
+		damage = 770 * 1.3, attack_cooldown = 11.0, range = 25.0,
+
+		cooldown = 10,
+		knockback_points = { 0.5 },
+	},
+}

@@ -1,0 +1,351 @@
+{{Anchor2|id=back}}
+<div class="anchor" id="InfinityTierLists"></div>
+<div class="mobileonly">
+<div class="mw-customtoggle-InfinityTierLists-M-Fast_travel">
+<div class="mw-collapsible" id="mw-customcollapsible-InfinityTierLists-M-Fast_travel">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-InfinityTierLists-M-Fast_travel">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+
+<div class="mw-collapsible mw-collapsed">
+<center>
+<div>{{Anchor1|Magic Wave 50}}</div>
+<div>{{Anchor1|Physical Wave 50}}</div>
+</center>
+</div><br><br>
+</div>
+
+<center>'''A list of all the hybrid units in the game. Hybrid units often only become hybrid from upgrading, but a select few units are capable of being hybrid ON PLACEMENT such as [[Toshin (Dragon Lotus)]] and [[Ulquiro (Resurrección)]]. Hybrid units are units capable of hitting both airs AND grounds at certain upgrades OR they can be hybrid upon placement.'''</center>
+<br />
+{{Container Characterbox|
+{{Characterbox|JIO (Over Heaven)}}
+{{Characterbox|Pride (The One)}}
+{{Characterbox|Aizo (Final)}}
+{{Characterbox|Lord Boron}}
+{{Characterbox|Angel (Devil)}}
+{{Characterbox|Tatsumiki (Tornado)}}
+{{Characterbox|Navi (Thief)}}
+{{Characterbox|Sosuke (Storm)}}
+{{Characterbox|Gowthy (Invasion)}}
+{{Characterbox|Ichi (Final Dusk)}}
+{{Characterbox|Heavy Weather}}
+{{Characterbox|Toshin (Dragon Lotus)}}
+{{Characterbox|Tatsumo}}
+{{Characterbox|Ulquiro (Resurrección)}}
+{{Characterbox|Getu (Maximum)}}
+{{Characterbox|Jelly (Heaven)}}
+{{Characterbox|Gone (???)}}
+{{Characterbox|King Meruam}}
+{{Characterbox|Legendary Brulo}}
+{{Characterbox|Armein}}
+{{Characterbox|Vegita (Super II)}}
+{{Characterbox|Bakugo (Howitzer)}}
+{{Characterbox|Akena (Fallen Angel)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+<br />
+'''Hybrid Units currently prevail in Anime Adventures, as they are capable of assisting in both ground AND air enemies. Lately, hybrid units have had insane amounts of DPS, DPM, etc. allowing them to be the STRONGEST types of units in Anime Adventures.'''
+
+<tabber>
+|-|Hybrid=
+<h2 style="text-align: center; border: 0;"">Hybrid [[File:Damage type Magic.png|24px]] [[File:Damage type Physical.png|24px]]</h2>
+{{TierList/Container|id=Magic Wave 50<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=Magic Wave 50-META Hill/Hybrid|text=META}}</div>
+<div>{{Anchor1|id=Magic Wave 50-META Ground|text=SUPPORT}}</div>
+<div>{{Anchor1|id=Magic Wave 50-META Support|text=META Support}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Good|text=Good}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Decent|text=Decent}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Bad|text=Bad}}</div><!-- names must match Item Container names -->}}
+{{TierList/Item Container|color=#ff7f7f|id=Magic Wave 50<!-- id TierList -->|name=META
+|
+{{TierList/Item|Pride (The One)
+|Description=Full AOE with Huge Range, Low SPA, Insane DPS (No Sunshine)-Ultimate (Full Sunshine), Hybrid at Upgrade 8. Buffs himself permanently starting from Placement for 15 waves till he has more than 2x of his base damage. Best Trait for him is Unique.
+<br />
+DPS (Damage Per Second): 8,850
+<br />
+DPM (Damage Per Minute): 531,003
+<br />
+Total DPS (Group DPS): 26,550
+<br />
+Total DPM (Group DPM): 1,593,010
+----
+(Sunshine)
+<br />
+'''DPS (Damage Per Second): 19,912
+<br />
+DPM (Damage Per Minute): 1,194,758
+<br />
+Total DPS (Group DPS): 59,737
+<br />
+Total DPM (Group DPM): 3,584,274'''}}
+{{TierList/Item|Aizo (Final)
+|Description=Full AoE with Huge Range, High SPA, Ultimate DPS, Hybrid at level 9. Manual Ability that makes tower health invulnerable for 20 seconds. Very time-consuming to obtain, and super expensive to max, but is a strong unit for cost-efficiency before Upgrade 6.<br /><br />He is recommended to have SPA-oriented curses, traits like Superior III, Godspeed, or even better.
+<br />
+DPS (Damage Per Second): 14,726
+<br />
+DPM (Damage Per Minute): 883,590
+<br />
+Total DPS (Group DPS): 44,179
+<br />
+Total DPM (Group DPM): 2,650,770}}
+{{TierList/Item|Lord Boron
+|Description=Godly DPS, good Circle AoE. Slightly expensive to max. though he still can dish out Insane DPS without hitting Flying by avoiding Upgrade 8.
+<br />
+DPS (Damage Per Second): 21,936 [#5 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,316,181
+<br />
+Total DPS (Group DPS): 65,809
+<br />
+Total DPM (Group DPM): 3,948,543}}
+{{TierList/Item|Bakugo (Howitzer)
+|Description=Ultimate DPS, Good AoE Circle and great range! Through the power of Bakugo and his quirk, he is indeed capable of dealing some of the most EXPLOSIVE amounts of damage in the game for a hybrid unit, his abilities to hit airs, while also having good damage and DPS make him a viable unit in infinite mode, story mode, etc. He is abnormally strong for a physical hybrid because of the lack of viable physical hybrid units, especially having 4 placements, which increases his total group DPS. Bakugo may be often slept on because of other units out-performing him, however, Bakugo is still an extremely solid unit and can be a great asset for your team. When equipped with the [[Relics|Lostvain]] or the [[Relics|Nail]], he can do even more damage and can be one of the best secondary damaging units in the game!
+<br>
+DPS (Damage Per Second): 14,956
+<br>
+DPM (Damage Per Minute): 897,396
+<br>
+Total DPS (Group DPS): 59,826
+<br>
+Total DPM (Group DPM): 3,589,586
+<br>
+<br>
+Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]}}
+{{TierList/Item|Vegita (Super II)
+|Description=Ultimate DPS, Low SPA, Great Range. Upon reaching Upgrade 8, Vegita becomes apart of the affinity of [[Hybrid Units]]. Vegita's damage capabilities are truly insane which are allowed by his high damage, fairly low SPA, range and his placement cap of 3! Upon release, this unit was being compared to [[Geno (Incinerate)]] because of there extremely similar stat bases, but Vegita comes out on top, being an INSANE hybrid unit and EXTREMELY great physical unit. Vegita barely beats Metal Knight because of their DPS's being so close, however, with a placement cap of 3, allowing him to do more DPS and DPM. Vegita is often slept on for his damage, but he can truly be one heck of a DPS unit in both infinite mode, story, and legend stages! Vegita's pride and determination hold him to be one of the strongest units in the game. (Costs {{Yen|74.7K}} to reach his maximum upgrade.)
+<br />
+DPS (Damage Per Second): 17,257
+<br />
+DPM (Damage Per Minute): 1,035,420
+<br />
+Total DPS (Group DPS): 51,771
+<br />
+Total DPM (Group DPM): 3,106,260}}
+{{TierList/Item|Akena (Fallen Angel)
+|Description=Ultimate DPS, Good AoE Circle, Good Range. Through the power of her Elemental Demonic Power, Akena is not very far from being on the rankings for one of the best hybrid units in the game, even though her release was on April Fools, her performance capabilities surely aren't a joke! Unfortunately, being a magic unit, there are options better than her, however, she is still a good candidate for dishing out damage in infinite mode! Unique to Akena gains hybrid on UPGRADE 3, making her one of the BEST Hybrid/Hill Units for Story Mode! A cherry on top for Akena is that she is fairly easy to obtain, which makes her a good unit for returning players! Don't sleep on Akena, because she is capable of doing insane amounts of damage and be viable in multiple modes!
+<br>
+DPS (Damage Per Second): 14,956
+<br>
+DPM (Damage Per Minute): 897,396
+<br>
+Total DPS (Group DPS): 44,869
+<br>
+Total DPM (Group DPM): 2,692,189
+<br>
+<br>
+Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]}}
+{{TierList/Item|Sosuke (Storm)
+|Description=Ultimate DPS, good Circle AoE. Slightly expensive to max. Able to Attack Air units after Kirin Upgrade and also Stuns enemies.
+<br />
+DPS (Damage Per Second): 11,965
+<br />
+DPM (Damage Per Minute): 717,916
+<br />
+Total DPS (Group DPS): 47,861
+<br />
+Total DPM (Group DPM): 2,871,667}}
+{{TierList/Item|Tatsumiki (Tornado)
+|Description=Ultimate DPS, Good Circle AoE, Attacks & Knockbacks both Ground and Air, starting Upgrade 6; a few upgrades earlier than All Force.
+<br />
+DPS (Damage Per Second): 10,124
+<br />
+DPM (Damage Per Minute): 607,468
+<br />
+Total DPS (Group DPS): 30,373
+<br />
+Total DPM (Group DPM): 1,822,404}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=Magic Wave 50<!-- id TierList -->|name=GOOD
+|
+{{TierList/Item|Ichi (Final Dusk)
+|Description=Amazing-Massive DPS, Requires upgrade 6 to be able to target and hit airs, also has a "Last Resort" ability to remove himself off the field to deal Colossal amounts of damage, as he cannot be sold normally.<br /><br />His power spikes heavily when he's equipped with Asta's relic.
+<br />
+DPS (Damage Per Second): 6,938
+<br />
+DPM (Damage Per Minute): 416,307
+<br />
+Total DPS (Group DPS): 27,753
+<br />
+Total DPM (Group DPM): 1,665,228}}
+{{TierList/Item|Angel (Devil)
+|Description=Godly DPS, Hybrid, Strong Circle AoE, but takes away HP from Base every attack, does not attack when base is low enough.<br /><br />Due to his passive, it is not recommended to have SPA-oriented curses as it drains quicker, but this is easily circumvented by a [[Sakuro]], a rare unit who heals your base.
+<br />
+DPS (Damage Per Second): 27,349 [#2 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,640,953
+<br />
+Total DPS (Group DPS): 82,047
+<br />
+Total DPM (Group DPM): 4,922,859}}
+{{TierList/Item|Toshin (Dragon Lotus)
+|Description=Massive DPS with 50% Crit, Amazing Range with Small Circle-AoE and Burst Type Unit. Comparable to [[Soi Fan (Hornet)|Soi Fan]] Even Without CRIT.
+<br />
+'''DPS (Damage Per Second): 5,752
+<br />
+DPM (Damage Per Minute): 345,120
+<br />
+Total DPS (Group DPS): 23,008
+<br />
+Total DPM (Group DPM): 1,380,480}}
+{{TierList/Item|Tatsumo
+|Description=Insane DPS that can start hitting flying units after Upgrade 5.
+<br />
+'''DPS (Damage Per Second): 8,053
+<br />
+DPM (Damage Per Minute): 483,180
+<br />
+Total DPS (Group DPS): 32,212
+<br />
+Total DPM (Group DPM): 1,932,720}}
+{{TierList/Item|Heavy Weather
+|Description=Massive DPS, Great starting Range, Strong AoE, even at mid-level upgrades. Not a Multi-Hit but he has a Low SPA.
+<br />
+'''DPS (Damage Per Second): 7,787
+<br />
+DPM (Damage Per Minute): 467,220
+<br />
+Total DPS (Group DPS): 23,361
+<br />
+Total DPM (Group DPM): 1,401,660}}
+{{TierList/Item|Ulquiro (Resurrección)
+|Description=Great DPS, great AoE with strong range. Despite being Ground placement, he can hit flying enemies, even if not evolved.
+<br />
+'''DPS (Damage Per Second): 5,743
+<br />
+DPM (Damage Per Minute): 344,580
+<br />
+Total DPS (Group DPS): 22,972
+<br />
+Total DPM (Group DPM): 1,378,320}}
+{{TierList/Item|Getu (Maximum)|Description=Amazing DPS, Large Circle-AoE, with slow SPA and a short Range. Requires upgrade 7 to target flying enemies. Best in infinite or challenges where it prefers magic damage.
+<br />
+'''DPS (Damage Per Second): 6,528
+<br />
+DPM (Damage Per Minute): 391,680
+<br />
+Total DPS (Group DPS): 26,112
+<br />
+Total DPM (Group DPM): 1,566,720}}
+{{TierList/Item|Jelly (Heaven)
+|Description=Great DPS and AoE with low range and High SPA.
+<br />
+'''DPS (Damage Per Second): 5,650
+<br />
+DPM (Damage Per Minute): 339,000
+<br />
+Total DPS (Group DPS): 22,600
+<br />
+Total DPM (Group DPM): 1,356,000}}
+}}
+
+{{TierList/Item Container|color=#febf85|id=Magic Wave 50<!-- id TierList -->|name=SUPPORT
+|
+{{TierList/Item|JIO (Over Heaven)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+Alongside being a META Hybrid/Hill unit, he also has an INSANE ability which he uses "The World: Over Heaven" to Time Stop the entire Map for 20 seconds! However, the huge draw-back of this ability is that the cooldown comes at a sluggish 6 minutes. Units like [[Goju (Six Eyes)]] may prove to be better in terms of dependence on time stop.
+<br />
+'''DPS (Damage Per Second): 32,568 [#1 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,954,093
+<br />
+Total DPS (Group DPS): 32,568
+<br />
+Total DPM (Group DPM): 1,954,093}}
+{{TierList/Item|Tatsumiki (Tornado)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+While also being a good damaging unit for damaging air units, Tatsumiki can also be a META support unit due to her passive ability known as "Psychic Knock-back" which sends enemies BACKWARDS. 
+<br />
+<br />
+'''DPS (Damage Per Second): 10,124
+<br />
+DPM (Damage Per Minute): 607,468
+<br />
+Total DPS (Group DPS): 30,373
+<br />
+Total DPM (Group DPM): 1,822,404 '''}}
+{{TierList/Item|Gowthy (Invasion)
+|Description=While also being able to do good amounts of damage to airs AND grounds, Gowthy also has a 10% chance of confusing an enemy in his AoE circle, per attack. This passive is called "Mind Control" and can be used against enemies, and even better, BOSSES!
+<br />
+'''DPS (Damage Per Second): 10,098
+<br />
+DPM (Damage Per Minute): 605,880
+<br />
+Total DPS (Group DPS): 30,294
+<br />
+Total DPM (Group DPM): 1,817,640}}
+{{TierList/Item|Sosuke (Storm)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+While also being a good damaging unit for damaging airs, Sosuke can also be a META support due to his stunning abilities where he uses his "Kirin" to stun enemies in their place for roughly 1 second.
+<br />
+DPS (Damage Per Second): 11,965
+<br />
+DPM (Damage Per Minute): 717,916
+<br />
+Total DPS (Group DPS): 47,861
+<br />
+Total DPM (Group DPM): 2,871,667}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=Magic Wave 50<!-- id TierList -->|name=MID
+|
+{{TierList/Item|Gone (???)
+|Description=Moderate DPS with full AoE and massive range, resulting in high overall damage in larger maps. Easier to obtain traits due to Legendary form. Can damage flying enemies on Upgrade 8.
+<br />
+'''DPS (Damage Per Second): 2,489
+<br />
+DPM (Damage Per Minute): 149,100
+<br />
+Total DPS (Group DPS): 7,455
+<br />
+Total DPM (Group DPM): 447,300}}
+{{TierList/Item|King Meruam
+|Description=High DPS, Good AoE circle, Good Range. 
+<br />
+'''DPS (Damage Per Second): 4,304
+<br />
+DPM (Damage Per Minute): 258,240
+<br />
+Total DPS (Group DPS): 17,216
+<br />
+Total DPM (Group DPM): 1,032,960}}
+{{TierList/Item|Armein
+|Description=Good DPS, Full AoE, Great Range. Has an ability that allows him to transform into the Colossal Titan, causing a ginormous explosion that does FULL AOE damage, has one of the highest damage potentials in game, however, with a cooldown of 60 seconds (45 seconds when maxed), there are MUCH better units than Armein.}}
+}}
+
+{{TierList/Item Container|color=#ffff8b|id=Magic Wave 50<!-- id TierList -->|name=BAD
+|
+{{TierList/Item|Legendary Brulo
+|Description=Moderate DPS, Full AoE, Great Range. 
+<br />
+'''DPS (Damage Per Second): 2,756
+<br />
+DPM (Damage Per Minute): 165,360
+<br />
+Total DPS (Group DPS): 11,024
+<br />
+Total DPM (Group DPM): 661,440}}
+
+}}
+</tabber>
+'''Per-Unit (single) DPS is usually what most people in the community talk about as calculations are easier without taking into account number of placement. Please keep in mind that while certain characters' singular DPS may be higher than others, placement limits affect Total DPS significantly. The approximate range for DPS (PER SINGLE UNIT) descriptions are:'''
+
+*Bad DPS 1,000-2000
+*Moderate DPS 2,001-3,000
+*Good DPS 3,001-4000
+*High DPS 4,001-5,000
+*Great DPS 5,001-6,000
+*Amazing DPS 6,001-7,000
+*Massive DPS 7,001-8,000
+*Insane DPS 8,001-9,000
+*Colossal DPS 9,001-10,000
+*Ultimate DPS 10,001-25,000
+*Godly DPS 25,001-30,000+
+
+'''DPS accounts for the DMG (Damage) of a unit divided by its SPA (Attack Speed). The Total damage of a unit can be higher or lower as some units can only be placed 3, 4, 5, etc. amount times.'''<br><center class="mobileonly">{{Anchor1|text=⮝ back start|id=back}}</center>
+__NOTOC____NOEDITSECTION__

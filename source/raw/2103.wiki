@@ -1,0 +1,14 @@
+{{Disenchant Unit}}{{Unobtainable Unit|Update 9 - Chainsaw Man Update}}
+==Overview==
+{{PAGENAME}} is a {{Rarity|Legendary}} {{LU}}. He can only be obtained by unboxing the [[Shiny Christmas Gift]] during the [[Events|Christmas Event]]. Getan is only good for newer players and not endgame players.
+==Stats Overview==
+{{Tower_Infobox
+|caption1="In the future that our liberation army foresees... one's rank in society will be directly tied to the strength of one's Meta Ability. Elevating one's ability will be the only way to really live! Beyond that sheer strength... life has no value!"
+|caption2="In the future that our liberation army foresees... one's rank in society will be directly tied to the strength of one's Meta Ability. Elevating one's ability will be the only way to really live! Beyond that sheer strength... life has no value!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Event Units]]

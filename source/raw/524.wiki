@@ -1,0 +1,24 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} unit. He is the only secret unit obtainable from [[Summon|summons]], with a 1/400,000 chance from either Special banner or Legacy banner.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=The only ones who should kill, are those who are prepared to be killed.
+|caption2=Ever since that day, I have lived a lie, the lie of living.
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:}}

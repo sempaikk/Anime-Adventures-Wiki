@@ -1,0 +1,8 @@
+{{#switch: {{{1|}}}
+| Secret = <span class="game-font-face" style="color: #e01419;">{{{2|}}}</span>
+| Exclusive = <span class="game-font-face" style="position: relative; background: linear-gradient(0, #47ceff 0%, #ff47f6 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">{{{2|}}}</span>
+| Mythic | Mythical = <span class="game-font-face" style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">{{{2|}}}</span>
+| Legendary = <span class="Tsh(Game) game-font-face" style="color: #ffc71e;">{{{2|}}}</span>
+| Epic = <span class="game-font-face" style="color: #7c04f5;">{{{2|}}}</span>
+| Rare = <span class="game-font-face" style="color: #0d8cff;">{{{2|}}}</span>
+}}

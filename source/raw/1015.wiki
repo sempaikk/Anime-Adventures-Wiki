@@ -1,0 +1,15 @@
+<includeonly><div class="mw-customtoggle-ShowImage-{{{num|1}}}-{{#replace:{{{1|}}}|<nowiki> </nowiki>|_}} D(n) tierList_item" id="mw-customcollapsible-ShowImage-{{{num|1}}}-{{#replace:{{{1|}}}|<nowiki> </nowiki>|_}}">{{#ifexist:File:{{trim|{{{1|}}}}}_(Pose).png|[[File:{{trim|{{{1|}}}}}_(Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]|{{#ifexist:File:{{trim|{{{1|}}}}}.png|[[File:{{trim|{{{1|}}}}}.png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]|[[File:unknown.png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]}}}}
+<div class="game-font-face mw-collapsible mw-collapsed tierList_item_boxShadow" id="mw-customcollapsible-ShowImage-{{{num|1}}}-{{#replace:{{{1|}}}|<nowiki> </nowiki>|_}}">{{#ifexist:File:{{trim|{{{1|}}}}}_(Pose).png|[[File:{{trim|{{{1|}}}}}_(Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]|{{#ifexist:File:{{trim|{{{1|}}}}}.png|[[File:{{trim|{{{1|}}}}}.png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]|[[File:unknown.png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]}}}}</div></div>
+<div class="advanced-tooltip mw-collapsible mw-collapsed D(b)! W(100%)_m" id="mw-customcollapsible-ShowImage-{{{num|1}}}-{{#replace:{{{1|}}}|<nowiki> </nowiki>|_}}">
+
+<div class="game-font-face D(n)_m">{{#ifexist:File:{{trim|{{{1|}}}}}_(Pose).png|[[File:{{trim|{{{1|}}}}}_(Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]|{{#ifexist:File:{{trim|{{{1|}}}}}.png|[[File:{{trim|{{{1|}}}}}.png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]|[[File:unknown.png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|}}}]]}}}}</div>
+
+<div class="tooltip-contents mw-collapsible mw-collapsed" id="mw-customcollapsible-ShowImage-{{{num|1}}}-{{#replace:{{{1|}}}|<nowiki> </nowiki>|_}}" style="display: none;">
+<div class="game-tooltip__container"><span style="margin-bottom: 6px; line-height: 1.28;"><span class="game-font-face tierList_item__text_name" style="font-size: 17.5px;">[[{{trim|{{{1|}}}}}]]</span>
+<br>{{Rarity|{{#iferror:{{#invoke:UnitData|get|name={{{1|}}}
+|rarity}}|Unknown}}}}</span><div style="display: flex; align-items: center; gap: 6px;">{{#invoke:UnitData|get|name={{{1|}}}
+|base_damage_type}}{{#invoke:UnitData|get|name={{{1|}}}
+|secondary_damage_types}}</div><hr>{{{Description|Description}}}
+</div>
+</div>
+</div></includeonly><noinclude>{{Doc}}</noinclude>

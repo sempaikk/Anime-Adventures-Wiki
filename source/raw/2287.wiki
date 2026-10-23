@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Alien King]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=  "You lied. You had strength to spare. I never stood a chance. It wasn't even a battle. So much for prophecies. You were too strong..."
+|caption2="I lead the band of thieves known as Dark Matter. I am Boron, Dominator of the Universe."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*His shiny version is based on his caramel popcorn armor appearance.
+*Attacks starting from Upgrade 8 are able to hit air type enemies.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

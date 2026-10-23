@@ -1,0 +1,29 @@
+{{Unobtainable Unit|Update 15 - Anniversary + Eclipse}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She is only obtainable by evolving [[Cotton]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="We dont eat to live, we live to eat"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* She has the effect, [https://animeadventures.fandom.com/wiki/Effects#Slow Slow]. Not to be confused with [https://animeadventures.fandom.com/wiki/Effects#Freeze Freeze].
+* [https://animeadventures.fandom.com/wiki/Effects#Slow Slow] and [https://animeadventures.fandom.com/wiki/Effects#Freeze Freeze] can stack as they are very similar but different mechanics. But [[Effects|Stun]] and [[Effects|Timestop]] aren't different mechanics, so they don't stack.
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

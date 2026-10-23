@@ -1,0 +1,21 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}​. He can only be obtained via [[Summon|summons]]​ in the Limited-Time Event Banner.
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You've got the wrong idea. I'm not strong, and I'm not popular. In fact, my entire life has been cursed. I know full well how you feel, envying and hating everyone around you."
+|caption2="It's so dark here that once they put on masks, even friends can suddenly look like strangers. I wonder if everyone knows who I am..."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+__NOTOC____NOEDITSECTION__
+[[Category:Bleed Units]]

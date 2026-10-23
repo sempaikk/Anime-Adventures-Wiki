@@ -1,0 +1,1 @@
+<span style="display: inline-block;">{{#if:{{{2|}}}|x{{{2|}}}<nowiki> </nowiki>}}{{#iferror:{{#invoke:ItemData|getItem|item={{{1|item}}}|unit={{{unit|}}}}}|[[File:{{{1|item}}}.png|x24px]]{{{1| item}}}}}<br></span>

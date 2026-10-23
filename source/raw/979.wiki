@@ -1,0 +1,29 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Jackal]].
+He is also the boss of stage 6 of [[Story#Spirit World|Spirit World]] as The Wolf.
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I so envied the weak. The weak can always find others to be around. I want to be weak. And if that's impossible, I at least want to find companions who are as strong as I."
+|caption2="I so envied the weak. The weak can always find others to be around. I want to be weak. And if that's impossible, I at least want to find companions who are as strong as I."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Passive Ability: Los Lobos ==
+{{PAGENAME}} summons a Spirit Wolf with 1 HP that deals 1/3 (33.34%) of {{PAGENAME}}'s current damage upon death, which it hits anyone within the explosion radius. The explosion even hits flying enemies. 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Units]]
+[[Category:Evolved Units]]

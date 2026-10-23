@@ -1,0 +1,122 @@
+<infobox type="character">
+  <title source="title1">
+    <default>{{PAGENAME}}</default>
+  </title>
+    <panel name="img">
+        <section name="section1">
+            <label>{{{skin1|Original Skin}}}</label>
+			<image source="image1">
+				  <default>{{#ifexist:File:{{PAGENAME}} (Pose).png|{{PAGENAME}} (Pose).png|{{#invoke:FanmadeUnitData|get|Non_Evo_Name}} (Pose).png}}</default>
+				  <caption source="caption1"/>
+				</image>
+        </section>
+        <section name="section2">
+            <label>{{{skin2|Shiny Skin}}}</label>
+				<image source="image2">
+					<default>{{#ifexist:File:{{PAGENAME}} Shiny (Pose).png|{{PAGENAME}} Shiny (Pose).png|{{#invoke:FanmadeUnitData|get|Non_Evo_Name}} Shiny (Pose).png}}</default>
+					<caption source="caption2"/>
+				</image>
+        </section>
+        <section name="section3">
+            <label>{{{skin3}}}</label>
+				<image source="image3">
+					<caption source="caption3"/>
+				</image>
+        </section>
+   </panel>
+  <data source="deployment_cost">
+    <label>Deployment Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{{deployment_cost}}}}}¥</span></format>
+    <default>{{#iferror:<span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum: {{#invoke:FanmadeUnitData|get|cost}}}}¥</span>|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+  <data source="total_cost">
+    <label>Total Cost</label>
+    <format><span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{{total_cost}}}}}¥</span></format>
+    <default>{{#iferror:<span class="game-font-face" style="text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;color: #ffc608;">{{formatnum:{{#invoke:FanmadeUnitData|get|total_cost}}}}¥</span>|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+  <data source="upgrade_levels">
+    <label>Upgrade Levels</label>
+    <default>{{#iferror:{{#invoke:FanmadeUnitData|get|upgrade_levels}}|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+    <data source="spawn_cap">
+    <label>Spawn Cap</label>
+    <default>{{#iferror:{{#invoke:FanmadeUnitData|get|spawn_cap}}|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+  <data source="Tower_type">
+    <label>Tower Type</label>
+    <default>{{#iferror:{{#invoke:FanmadeUnitData|get|tower_type}}|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+  <data source="Damage_type">
+  	<label>Damage Type</label>
+  	<default>{{#iferror:{{#invoke:FanmadeUnitData|get|base_damage_type}}|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+  <data source="Secondary_Damage_type">
+  	<label>Secondary Damage Type</label>
+  	<default>{{#iferror:{{#invoke:FanmadeUnitData|get|secondary_damage_types}}|[[Category:FanmadeUnitData error]]}}</default>
+  </data>
+  <group>
+    <header>Attack Stats</header>
+    <data source="Crit_Chance">
+      <label>Crit Chance</label>
+    <default>{{#iferror:{{#invoke:FanmadeUnitData|get|crit_chance}}|[[Category:FanmadeUnitData error]]}}</default>
+    </data>
+    <data source="Attack_Type">
+      <label>Attack Type</label>
+    <default>{{#iferror:{{#invoke:FanmadeUnitData|get|attack_type}}|[[Category:FanmadeUnitData error]]}}</default>
+    </data>
+    <data source="damage">
+		<label>Damage</label>
+		<default>{{#iferror:{{formatnum: {{#invoke:FanmadeUnitData|get|damage}} }} {{#ifeq:{{#invoke:FanmadeUnitData|get|damage}}|{{#invoke:FanmadeUnitData|get|upgrade|damage|max}}||-> {{formatnum:{{#invoke:FanmadeUnitData|get|upgrade|damage|max}} }}}}|[[Category:FanmadeUnitData error]]}}</default>
+    </data>
+    <data source="seconds_per_attack">
+      <label>Attack Rate</label>
+      <default>{{#iferror:{{formatnum: {{#invoke:FanmadeUnitData|get|attack_cooldown}} }} {{#ifeq:{{#invoke:FanmadeUnitData|get|attack_cooldown}}|{{#invoke:FanmadeUnitData|get|upgrade|attack_cooldown|max}}||-> {{formatnum:{{#invoke:FanmadeUnitData|get|upgrade|attack_cooldown|max}} }}}}|[[Category:FanmadeUnitData error]]}}</default>
+    </data>
+    <data source="range">
+    	<label>Range</label>
+    	<default>{{#iferror:{{formatnum: {{#invoke:FanmadeUnitData|get|range}} }} {{#ifeq:{{#invoke:FanmadeUnitData|get|range}}|{{#invoke:FanmadeUnitData|get|upgrade|range|max}}||-> {{formatnum: {{#invoke:FanmadeUnitData|get|upgrade|range|max}} }}}}|[[Category:FanmadeUnitData error]]}}</default>
+	</data>
+  </group>
+  <group>
+    <header>About</header>
+    <data source="release">
+    	<label>Release</label>
+	</data>
+  </group>
+</infobox>
+
+<noinclude>
+Example usage:
+<pre>
+{{Tower Infobox
+
+  | title1=Example
+
+  | image1=Example
+
+  | caption1=Example
+
+  | damage_type=Example
+
+  | deployment_cost=Example
+  
+  | total_cost=Example
+
+  | upgrade_levels=Example
+
+  | tower_type=Example
+
+  | attack_type=Example
+
+  | damage=Example
+
+  | seconds_per_attack=Example
+
+  | range=Example
+
+}}
+</pre>
+<templatedata>
+{"params":{"title1":{"suggested":true},"image1":{"suggested":true},"caption1":{"suggested":true},"damage_type":{"suggested":true},"deployment_cost":{"suggested":true},"total_cost":{"suggested":true},"upgrade_levels":{"suggested":true},"tower_type":{"suggested":true},"attack_type":{"suggested":true},"damage":{"suggested":true},"seconds_per_attack":{"suggested":true},"range":{"suggested":true}},"sets":[],"maps":{}}
+</templatedata>
+</noinclude>

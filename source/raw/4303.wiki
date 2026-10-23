@@ -1,0 +1,51 @@
+[[File:Summer Star.png|thumb]]
+
+The '''Summer Star''' is a new obtainable item introduced in the [[Update_Log#|Summer]] update which can be bought for 150 Pearls from the Navi NPC next to spawn!
+
+==Information==
+* Inside the '''Summer Star''', you can discover 4 new exclusive units and 13 different Summer themed skins!
+* If you haven't received a {{Rarity|Mythic}} after 400 '''Summer Stars''', you will get one guaranteed!
+* Roger is not obtainable through {{Rarity|Mythic}} pity.
+* The 4 exclusive units are Harribu, Kizume, Avdo, and secret unit Roger
+
+==Star Chances==
+<div style="font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;">
+* <span style="color: #0d8cff;">Rare Skin: 81.5%</span>
+* <span style="color: #7c04f5;">Epic Skin: 16.0%</span>
+* ⭐<span style="color: #ffc71e;">Legendary Skin: 2.0%</span>
+* 🏖<span style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mythic Skin: 0.50%<span class="Tsh(Game) mobile-hidden" style="position: absolute; z-index: -1; left: 0;">Mythical</span></span>
+* 🌊<span style="color: #e01419;">Mythic Unit: 0.25%</span>
+* 🏴‍☠️<span style="color: #e01419;">Roger: 0.0025% (Not confirmed, it is speculated his chance is 1/40000)</span>
+</div>
+
+==Obtainable Units==
+{{Container Characterbox
+|
+{{Characterbox|Roger}}
+{{Characterbox|Kizume}}
+{{Characterbox|Avdo}}
+{{Characterbox|Harribu}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+==Obtainable Skins==
+===<center>Skins obtainable from the Summer Star capsule</center>===
+{| class="fandom-table" align="center"
+!Image
+!Unit
+{{Cosmetics/RarityItem|img=SakuroSummer.png.png|cosmetics=Sakuro (Summer)|rarity=Rare|unit=Sakuro}}
+{{Cosmetics/RarityItem|img=Juvy Skin.gif|cosmetics=Juvy (Summer)|rarity=Epic|unit=Juvy}}
+{{Cosmetics/RarityItem|img=RukiSummer Skin.gif|cosmetics=Ruki|rarity=Epic|unit=Ruki}}
+{{Cosmetics/RarityItem|img=Pride Skin.gif|cosmetics=Pride|rarity=Legendary|unit=Pride (The One)}}
+{{Cosmetics/RarityItem|img=Kiroto Skin.gif|cosmetics=Kiroto|rarity=Legendary|unit=Kiroto (Dual)}}
+{{Cosmetics/RarityItem|img=Oshy Skin.gif|cosmetics=Oshy|rarity=Legendary|unit=Oshy (Idol)}}
+{{Cosmetics/RarityItem|img=ArmeinSummer Skin.gif|cosmetics=Armein|rarity=Legendary|unit=Armein}}
+{{Cosmetics/RarityItem|img=Dany Skin.gif|cosmetics=Dany|rarity=Legendary|unit=Dany (Creation)}}
+{{Cosmetics/RarityItem|img=Summerhawksskin.gif|cosmetics=Hawk|rarity=Legendary|unit=Hawk (Fierce Wings)}}
+{{Cosmetics/RarityItem|img=Summerusoap.gif|cosmetics=Usoap|rarity=Legendary|unit=Usoap (God)}}
+{{Cosmetics/RarityItem|img=MKSummer Skin.gif|cosmetics=CocoKnight|rarity=Mythical|unit=Metal Knight (Arsenal)}}
+{{Cosmetics/RarityItem|img=GoldenFreezo Skin.gif|cosmetics=Golden Freezo<br>(Ice Cream)|rarity=Mythical|unit=Golden Freezo (Emperor)}}
+{{Cosmetics/RarityItem|img=TangoSummer Skin.gif|cosmetics=Tango(Score)
+Festival|rarity=Mythical|unit=Tango (God of Flashiness)}}
+|}
+__NOTOC__

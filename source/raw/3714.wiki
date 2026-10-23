@@ -1,0 +1,35 @@
+==Overview==
+
+'''{{PAGENAME}}''' is a ​{{Rarity|Mythical}}​ unit. She can only be obtained by evolving [[Gamer Girl]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+
+{{Tower_Infobox
+|caption1="Life isn’t just doing things for yourself. It’s possible to live in such a way that other people’s happiness, makes you happy too."
+|caption2="If we ever return to the real world, I'll definitely find [[Gamer|you]] and fall in love with [[Gamer|you]] all over again." 
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+
+
+==Gallery==
+
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

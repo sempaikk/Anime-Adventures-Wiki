@@ -1,0 +1,16 @@
+'''JIO''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Legendary}}</center>
+|{{Characterbox|JIO}}
+|'''[[JIO]]'''
+|-
+|<center>{{Rarity|Secret}}</center>
+|{{Characterbox|JIO (Over Heaven)}}
+|'''[[JIO (Over Heaven)]]'''
+|-
+|}

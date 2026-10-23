@@ -1,0 +1,71 @@
+<tabber>
+|-|Main Currencies=
+There are currently '''three''' main currencies, that being {{Gems}}, {{Gold}} and {{Trophies}}. They are used to purchase a variety of things in the game.
+
+{{#tag:tabber|
+Gems=
+<div style="background: linear-gradient(0deg, #304ef2 0%, #0000701f 2%, #00007017 100%, transparent );padding: 4px 7px 12px;border-radius:5px">
+=={{Gems}}==
+
+{{Gems}} are one of the most important currencies in Anime Adventures, as they are used to obtain powerful Units. They can be obtained by completing [[Quests]], Story Mode missions, Doing Raids, waves in Infinite Modes, redeeming [[Codes]], staying in the [[Time Machine]], logging in daily, [[events]], Completing [[Infinity Castle]] rooms and buying them with {{Robux}}.
+</div>
+
+{{!}}-{{!}}
+Gold=
+<div style="background: linear-gradient(0deg, #ffc72c 0%, #ffc72c2e 2%, #ffc72c12 100%, transparent );padding: 4px 7px 12px;border-radius:5px;">
+=={{Gold}}==
+{{Gold}} is the 2nd most important currency, as they allow the Player to purchase powerful items such as [[Items|XP Food]], [[Items|Star Fruits]], [[Items|Summon Tickets]], and [[Items|Raid Tickets]]. You can also use Gold to create [[Evolution|Evolution Items]] and [[Relics]]. Gold can be earned through selling your Units, through [[events]], and completing the Extra Gold Challenge. 
+
+In Update 10.7.5, you can now use gold to purchase more unit & skin slots at the Bartender NPC for increasing amounts of gold.
+
+{{Gold|50,000}} for the first upgrade. (150 Slots)
+
+{{Gold|75,000}} for the second upgrade. (200 Slots)
+
+{{Gold|100,000}} for the last upgrade. (250 Slots)
+
+</div>
+
+
+{{!}}-{{!}}
+Trophies=
+<div style="background: linear-gradient(0deg, #FB8E1D 0%, #FE82182f 2%, #FFCA2812 100%, transparent );padding: 4px 7px 12px;border-radius:5px;">
+=={{Trophies}} ==
+{{Trophies}} is the currency that allows the Player to purchase Emotes.
+</div>
+}}
+
+|-|Event Currencies=
+There are also various limited time currencies that can only be obtained during certain time frames or events. There is currently '''two''' of these, The Stars and the Assassin Tokens
+
+<div style="background: linear-gradient(0deg, #f5f080 0%, #646643 2%, #464528 100%, transparent); padding: 4px 7px 12px; border-radius: 5px;">
+==[[File:Assassin Token.png|30px]]  Assassin Tokens==
+{{Assassin Token}} is a currency introduced as part of update 19.5.0, The [[Update Log|Sakamoto Days Update]]. It was used to purchase [[Summon|summons]] at the Limited Time Assassin Event Banner and used for evolving limited units from this update.
+</div>
+
+<div style="background: linear-gradient(0deg, #8AA6FF 0%, #4D78FF1F 2%, #4D78FF17 100%, transparent); padding: 4px 7px 12px; border-radius: 5px;">
+==[[File:Stars.png|30px]]  Stars==
+{{Stars}} are commonly used for Christmas events, as they allow players to obtain skins or items that upgrade towers into different versions. Stars can be obtained by completing [[Quests]], waves in Infinite Modes, and redeeming [[Codes]] and [[events]].
+</div>
+
+<div style="background: linear-gradient(0deg, #ff6e2c 0%, #ff952c2e 2%, #ffcc2c12 100%, transparent );padding: 4px 7px 12px;border-radius:5px;">
+==[[File:Candies.png|30px]]  Candies==
+{{Candies}}   are an event currency introduced as part of update 5.0. They are currently used to purchase XP food, capsules for character skins, Dungeon keys, and Evolution Items. Jewels can be earned by completing missions from the Mission Board and by selling Infused Crystals to the Mysterious Mage by the Dungeon entrance.
+</div>
+
+<div style="background: linear-gradient(0deg, #8AA6FF 0%, #4D78FF1F 2%, #4D78FF17 100%, transparent); padding: 4px 7px 12px; border-radius: 5px;">
+==[[File:Pearls.png|30px]]  Pearls==
+{{Pearls}}   was commonly used for the Summer event, as they allowed players to buy the [[Portals|Summer Portals]] and buy Evolution Items for the Summer Units
+</div>
+
+<div style="background: linear-gradient(0deg, #9B59B6 0%, #8E44AD4D 2%, #D7B2E81A 100%, transparent); padding: 4px 7px 12px; border-radius: 5px;">
+==[[File:Grief_Seed.png|30px]]  Grief Seeds==
+{{Grief Seed}}   is a currency introduced as part of update 13.5, The [[Update Log|Madoka Magica Update]]. It was used to purchase [[Summon|summons]] at the Limited Time Madoka Magica Banner and used for buying Evolution Items.
+</div>
+
+<div style="background: linear-gradient(0deg, #F21E0F 0%, #f21e0f1f 2%, #f86c2e1f 100%, transparent );padding: 4px 7px 12px;border-radius:5px;">
+==[[File:Gun Devil Bullet.png|30px]]  Gun Devil Bullet==
+{{Gun Devil Bullets}} is a currency that allows you to make purchases in the Makimo's store, and also for it you can evolve some units.
+</div>
+</tabber>
+__NOEDITSECTION____NOTOC__

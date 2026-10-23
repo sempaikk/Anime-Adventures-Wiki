@@ -1,0 +1,3 @@
+# Original wiki snapshots preserve their exact source bytes, including whitespace.
+source/raw/** -whitespace
+source/rendered/** -whitespace

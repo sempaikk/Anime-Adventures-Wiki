@@ -1,0 +1,78 @@
+[[File:Challenges.png|center|thumb|670px|<font size="4">'''Challenges''' are default Story Act with added difficulty, but also extra rewards. You must have the Story Act complete for the world to enter the '''Challenge'''.</font>]]
+
+Challenges change every 30 minutes
+==Information==
+
+===These are the available Challenges===
+
+* <big>'''Tank Enemies'''</big> - Enemies have more Health and Armor
+* <big>'''High Cost'''</big> - Units cost 1.5x higher to upgrade and place
+* <big>'''Shield Enemies'''</big> - Enemies have 1 additional instance of shields.
+* <big>'''Regen Enemies'''</big> - Enemies Regenerate health over time (except Flying enemies)
+* <big>'''Short Range'''</big> - All Units have a 2/3 shorter range
+* <big>'''Fast Enemies'''</big> - Enemies move faster
+
+===These are the Challenges that are only available at Demon Academy Portal===
+* <big>'''Hyper-Regen Enemies'''</big> - Enemies Regenerate even more health over time (except Flying enemies)
+* <big>'''Flying Enemies'''</big> - All enemies are Flying (enemies that can regen still can regen)
+* <big>'''Steel-Plated Enemies'''</big> - Enemies have thrice the health, and have 20 additional instances of shields.
+* <big>'''Godspeed Enemies'''</big> - Enemies move even faster.
+* <big>'''Mini Range'''</big> - All Units have a 1/4 shorter range. Note that units' AoE aren't affected, making the likes of [[Hybrid Units]] or any unit with extreme AoE viable.
+* <big>'''Triple Cost'''</big> - Units cost 3x higher to upgrade and place.
+<tabber>
+|-|Regular challenges=
+==Regular challenges==
+Beating any of these Challenges can grant you the following rewards: 
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; display:block; width:400px; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto;"
+| colspan="2" |<center><font size="4">'''Reward'''</font></center>
+|-
+| style="width:220px;"|'''Star Fruit (Random)'''
+* Chance at up to 7 of any of the star fruits.
+| <center>'''[[File:Star Fruit (Rainbow).png|40px|link=Currencies|Star Fruit (Rainbow)]] [[File:Star Fruit (Red).png|40px|link=Currencies|Star Fruit (Red)]] [[File:Star Fruit (Green).png|40px|link=Currencies|Star Fruit (Green)]] [[File:Star Fruit (Pink).png|40px|link=Currencies|Star Fruit (Pink)]] [[File:Star Fruit (Blue).png|40px|link=Currencies|Star Fruit (Blue)]] [[File:Star Fruit.png|40px|link=Currencies|Star Fruit]]'''</center>
+|-
+|'''1 Rainbow Star Fruit '''
+|<center>[[File:Star Fruit (Rainbow).png|40px|link=Currencies|Star Fruit (Rainbow)]]</center>
+|-
+|'''Extra Gems'''
+|<center>{{Gems|100}}</center>
+|-
+|'''Extra Gold '''
+|<center>{{Gold|200}}</center>
+|-
+|'''Star Remnant '''
+|<center>'''1 or 2[[File:Star Remnant.png|40px|link=Items|Star Remnant]]'''</center>
+|}
+__NOEDITSECTION____NOTOC__
+|-|Daily Challenge=
+==Daily Challenge==
+
+===Beating Daily Challenge can grants you 10 to 50 '''[[File:Star Remnant.png|35px|link=Items|Star Remnant]]Star Remnants, 2 to 3 {{Item|Stat Cube}}s, and a chance for 1 {{Item|Perfect Stat Cube}}.===
+Enemies can have [[Damage Affinities / Elements|resistance or weakness]] for the following types:
+*The main type of damage will always appear in challenges, and the secondary with some chance
+<br>
+<center><font size="5">'''Damage Type'''</font></center>
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; vertical-align: middle; text-align: center; "
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #EC0105; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#FFABAB" size="5" style="text-shadow: 1px 0 1px #F00104, 0 1px 1px #F00104, -1px 0 1px #F00104, 0 -1px 1px #F00104;">[[File:Damage type Physical.png|30px]]  Physical</font>
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #0638C3; border-width: 2px; background: rgb(0,0,0, 0.5);" | <font color="#38FCFF" size="5" style="text-shadow: 1px 0 1px #104BFC, 0 1px 1px #104BFC, -1px 0 1px #104BFC, 0 -1px 1px #104BFC;">[[File:Damage type Magic.png|30px]]  Magic</font>
+|}
+<br>
+<center><font size="5">'''Secondary Damage Type'''</font></center>
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 10px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; vertical-align: middle; text-align: center;"
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#6D6DA3" size="5" style="text-shadow: 1px 0 1px #371A53, 0 1px 1px #371A53, -1px 0 1px #371A53, 0 -1px 1px #371A53;">[[File:Damage type Dark.png|30px]]  Dark</font>
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#00AAFF" size="5" style="text-shadow: 1px 0 1px #0055C1, 0 1px 1px #0055C1, -1px 0 1px #0055C1, 0 -1px 1px #0055C1;">[[File:Damage type Water.png|30px]]  Water</font>
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#CFF2FF" size="5" style="text-shadow: 1px 0 1px #0091FF, 0 1px 1px #0091FF, -1px 0 1px #0091FF, 0 -1px 1px #0091FF;">[[File:Damage type Lightning.png|30px]]  Lightning</font>
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#FFFBC9" size="5" style="text-shadow: 1px 0 1px #B0B000, 0 1px 1px #B0B000, -1px 0 1px #B0B000, 0 -1px 1px #B0B000;">[[File:Damage type Light.png|30px]]  Light</font>
+|}
+{| class="fandom-table" style="border-collapse: separate; border-spacing: 10px 0px; border: 10px; margin-left: auto; margin-right: auto; border-radius: 10px; vertical-align: middle; text-align: center; "
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#FFAB19" size="5" style="text-shadow: 1px 0 1px #FF4806, 0 1px 1px #FF4806, -1px 0 1px #FF4806, 0 -1px 1px #FF4806;">[[File:Damage type Fire.png|30px]]  Fire</font>
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#E7FFD7" size="5" style="text-shadow: 1px 0 1px #2DD177, 0 1px 1px #2DD177, -1px 0 1px #2DD177, 0 -1px 1px #2DD177;">[[File:Damage type Air.png|30px]]  Air</font>
+| style="border-radius: 5px;padding: 1px 10px; height: 45px; background: #0C0C0C; border-color: #131313; border-width: 2px; background: rgb(0,0,0, 0.5);" |<font color="#AAFFFF" size="5" style="text-shadow: 1px 0 1px #55AAFF, 0 1px 1px #55AAFF, -1px 0 1px #55AAFF, 0 -1px 1px #55AAFF;">[[File:Damage type Ice.png|30px]]  Ice</font>
+|}
+__NOEDITSECTION____NOTOC__
+</tabber>
+
+==Trivia==
+* Daily Challenges used to include the ones only available at Demon Academy portal, but was excluded.
+* Hyper-Regen Enemies used to include flying enemies to regen, but was removed.
+
+__NOEDITSECTION____NOTOC__[[Category:Game Modes]]

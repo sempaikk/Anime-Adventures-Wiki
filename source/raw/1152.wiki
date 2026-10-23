@@ -1,0 +1,32 @@
+<h2>Examples:</h2>
+{| class="article-table"  style="margin-top: 0;"
+| style="text-align: center" |code
+| style="text-align: center; border-left: 1px solid #59584a;" |view
+|-
+| style="font-family: monospace; user-select: all;"|<nowiki>{{Rarity|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Secret</nowiki></span><nowiki>}}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Rarity|Secret}}
+|-
+| style="font-family: monospace; user-select: all;"|<nowiki>{{Rarity|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Exclusive}</nowiki></span><nowiki>}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Rarity|Exclusive}}
+|-
+| style="font-family: monospace; user-select: all;"|<nowiki>{{Rarity|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Mythic}</nowiki></span><nowiki>}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Rarity|Mythic}}
+|-
+| style="font-family: monospace; user-select: all;"|<nowiki>{{Rarity|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Legendary}</nowiki></span><nowiki>}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Rarity|Legendary}}
+|-
+| style="font-family: monospace; user-select: all;"|<nowiki>{{Rarity|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Epic}</nowiki></span><nowiki>}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Rarity|Epic}}
+|-
+| style="font-family: monospace; user-select: all;"|<nowiki>{{Rarity|</nowiki><span class="basic-tooltip" title="Value 1" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Rare}</nowiki></span><nowiki>}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Rarity|Rare}}
+|-
+|}<br><h2>Values:</h2>
+{| class="article-table"  style="margin-top: 0;"
+|Value1
+*Secret
+*Mythic
+*Legendary
+*Epic
+*Rare
+|}<includeonly>[[Category:Templates|{{PAGENAME}}]][[de:Vorlage:Ability]]</includeonly>

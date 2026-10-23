@@ -1,0 +1,20 @@
+''If you were looking for a different Killer unit, see [[Killer (disambiguation)]]''
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is an {{Rarity|Epic}} unit. He is only obtainable from [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Move, and you die. Use Nen, or utter one word, and you die."
+|caption2="Move, and you die. Use Nen, or utter one word, and you die."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Killer's shiny skin is based on Killua's attire during the Underground Auction.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

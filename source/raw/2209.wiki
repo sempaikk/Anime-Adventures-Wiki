@@ -1,0 +1,32 @@
+'''Devil Stars''' are capsules from '''Update 9''' that grant the player a '''random mythic unit''' from Update 9 and can be obtained in 2 ways:
+
+*From '''Devil Contracts''', with the higher the difficulty the higher chance to receive a Devil Star.
+* Can be purchased from Makimo for 1000 Bullets
+
+== Obtainable Mythics ==
+{{Container Characterbox
+|
+{{Characterbox|Akin|check_img=true}}
+{{Characterbox|Kobeno|check_img=true}}
+{{Characterbox|Hime|check_img=true}}
+{{Characterbox|Angel|check_img=true}}
+{{Characterbox|Power|check_img=true}}
+{{Characterbox|Chainsaw|check_img=true}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+== Trivia ==
+<blockquote>Most of these characters introduced new mechanics to the game as:
+
+* [[Angel]] and [[Angel (Devil)]] using base hp to attack,
+
+* [[Akin]] and [[Akin (Contract)]] having two attack modes that could be switched,
+
+* [[Power (Fiend)]] having a bleed amplification debuff to make enemies take more bleed damage,
+
+* [[Hime (Ghost)]] both attacking itself, and being able to summon a creature with its ability. 
+</blockquote><blockquote>
+
+
+
+</blockquote>

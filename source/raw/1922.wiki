@@ -1,0 +1,19 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable through evolving [[Hermy]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="All right, this kick was for Gloria... looks like I broke your nose. But, just imagine that it was Gloria who just busted your face. And this is also for Gloria!!!"
+|caption2="All right, this kick was for Gloria... looks like I broke your nose. But, just imagine that it was Gloria who just busted your face. And this is also for Gloria!!!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Physical]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

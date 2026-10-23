@@ -1,0 +1,48 @@
+{{Meta Unit}}
+
+==Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Griffin]]. 
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+Additionally, he requires either 200 Eggs of Sacrifice or 24 {{Rarity|Mythical}} or 12 evolved {{Rarity|Mythical}}  units. 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Among thousands of comrades and ten thousand enemies, you're the only one who made me forget my dream. I... sacrifice."
+|caption2= "The castle I'm trying to reach is right in front of me..."
+}}{{Main Stats}}
+
+==Sacrifice==
+<tabber>
+|-|Griffin (Reincarnation)=
+*[[Griffin (Reincarnation)]]​ -​ Sacrificed BUFF Types 
+** Note that not all support units can be used for this variant. Unsellable units cannot be used for sacrifice. (e.g Idol and Idol (Idol) ).
+**The percentage will show up in <font color="yellow">Yellow</font> if the unit was a BUFF type.
+**The reincarnation variant's buff can be stacked with [[Blossom]], [[Idol (Star)]],  [[Commander]], [[Wenda]], and [[Elfy (Sylph)]]  buff.
+**The reincarnation variant's buff stacks additively with all other buffs.
+**The reincarnation variant needs a minimum of 100,000¥ to summon.
+
+|-|Griffin (Darkness)=
+* [[Griffin (Darkness)]]​ -​ Sacrifice non-BUFF Types
+** The percentage will show up in <font color="red">Red</font> if the unit was a DAMAGE type.
+** The darkness variant needs a minimum of 100,000¥ so 1 maxed out [[Hubris (The One)]] (without [[Idol (Star)]]) can summon instantly.
+** The darkness variant's damage can be increased above the 100% threshold, the increase in dmg per !% extra is unknown currently due to the fact that it increases then at some specific percentage begins to decrease.
+</tabber>
+
+==Selling==
+Units sell for 25% of their deployment cost, However [[Griffin (Reincarnation)]] cannot be sold.
+
+==Trivia==
+*Shiny Griffin appears as [[Griffin (Reincarnation)]] in the lobby, instead of [[Griffin (Darkness)]] like normal.
+*Before Update 17, the reincarnation variant costed a minimum of 30,000¥ to summon, and it used to stack multiplicatively with [[Commander]], [[Wind Dragon]], and [[Elfy (Sylph)]] buffs. This has since been increased to 100,000¥, and his buff now stacks additively to all other damage buffs.
+
+==Gallery==
+
+{{Unit Navigation}}
+
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Magic]]
+<references />

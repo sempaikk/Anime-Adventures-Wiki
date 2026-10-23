@@ -1,0 +1,34 @@
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Meta Support Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Calm Killer]].
+
+{{EvolutionTable}}
+
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Killer Queen's Daisan no Bakudan, Bites za Dusto! [[Mangaka (Artist)]], Killer Queen is already inside your eye! That is what you are seeing! The switch for Killer Queen's third bomb... has already been activated!"
+|caption2=I'm asking you individually. A fisherman is a man of the sea. And that dentist over there is a man of the land. So, which one are you?
+}}{{Main Stats}}
+==Active Ability: Meets the End==
+[[File:Calm Killer (Meets the End) Passive.png|left|thumb]]
+A global effect that causes enemies to gain an effect making enemies walk backwards for a duration of time.
+*Enemy Effect : Rewind
+* Duration: 6 Seconds
+*Global Cooldown: 60 Seconds
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,20 @@
+''If you were looking for a different Izo unit, see [[Izo (disambiguation)]]''.
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+He is also the boss of stage 5 of [[Raids#Storm Hideout|Storm Hideout]] in The Final Confrontation.
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Every human being relies on and is bounded by his knowledge and experience to live. This is what we call “reality”. However, knowledge and experience are ambiguous, thus reality can become illusion. Is it not possible to think that, all human beings are living in their assumptions?”
+|caption2="Time doesn’t heal anything, it just teaches us how to live with pain."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Burn Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

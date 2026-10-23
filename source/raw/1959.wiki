@@ -1,0 +1,22 @@
+{{Unobtainable Unit| Update 10.5 - Cloud Pass Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through evolving [[Skater]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I can freeze anything in the universe! That's what makes White Album so perfect! Even roaring train engines, even the raging seas will come to a grinding halt at my command! None can defy my whims!"
+|caption2="I can freeze anything in the universe! That's what makes White Album so perfect! Even roaring train engines, even the raging seas will come to a grinding halt at my command! None can defy my whims!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

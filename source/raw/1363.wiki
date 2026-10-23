@@ -1,0 +1,22 @@
+''If you were looking for a different Experiment X unit, see [[Experiment X (disambiguation)]].''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. 
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I would have the ultimate Power, My strength, speed and intellect would be without Equal! if i absorbed 18, I would become perfect in every imaginable respect! just as the computer designed me to Be!”
+|caption2="My Dear [https://animeadventures.fandom.com/wiki/Android_21 Android], When Will [https://animeadventures.fandom.com/wiki/Android_21 You] Understand That [https://animeadventures.fandom.com/wiki/Android_21 You] Belong To Me?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Air}} damage type, along with other units without a second damage type.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Air]]
+[[Category:Legendary Units]]
+[[Category:Evolved Units]]

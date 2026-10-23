@@ -1,0 +1,32 @@
+
+{{Meta Support Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. They can only be obtained by evolving [[Gambler]]
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+== Stats Overview ==
+{{Tower_Infobox
+|caption1="a life of gambling always comes with risk"
+|caption2="In other words in the 4 minutes and 11 seconds following a Jackpot, [[Gambler (Jackpot)|Gambler]] is effectively immortal."
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats
+}}
+
+==Luck Bar==
+{{PAGENAME}} is able to gain luck with every attack. From Upgrades 0-5, he will gain +5% luck per hit (with 1 hit). From Upgrades 6-8, he will gain +3.3% luck per hit (with 3 hits). Luck gained per hit has a chance to be tripled, scaling off his Crit Rate (50% chance to triple with 50% Crit Rate, 100% chance to triple with 100% Crit Rate). Upon reaching 100% luck, {{PAGENAME}}'s ability will activate Frenzy.
+
+== Frenzy ==
+Once activating {{PAGENAME}}'s ability with 100% luck, he will activate a frenzy for all units within his range (including himself). Frenzy will increase Crit Rate for Units in range by +50% (this does not work on True damage type units such as [[Umbra (Nuclear)]]) for 30 seconds with about a 32 seconds cooldown (No Global Cooldown).
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+*This is the first support unit to buff crit chance
+
+*This is currently the only known way for magic damage units to critically hit.
+
+*Although it is possible to maintain perfect uptime with Gambler at upgrade 0 and 3, it is very unreliable. Upgrade 6 is necessary for consistent uptime with Frenzy.
+__NOTOC____NOEDITSECTION__

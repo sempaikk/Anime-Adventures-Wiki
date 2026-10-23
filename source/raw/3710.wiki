@@ -1,0 +1,33 @@
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit.  He can only be obtained by evolving [[Gamer]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“In this world, strength is just an illusion. There are more important things.“
+|caption2=“My life is yours, [[Gamer Girl (Flash)]]. So I’ll live for your sake. Until the very end, let’s be together.”
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* Gamer's evolve requirements have been Changed to 4 Ice Crystallites, 4 Dark Crystallites, and 2 Blood Crystallites.
+* Gamer (Dual)'s Starry Night Sky attack has 6 hits, which is topped by Ipo and Yuto (Cursed Child) at 7 hits, and Ghost-kun (Bound) at 9 hits!
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+<references />

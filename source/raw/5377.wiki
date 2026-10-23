@@ -1,0 +1,37 @@
+{{Meta Unit}}
+{{Meta Burn Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+''if you were looking for different Shinobi unit, see [[Shinobi (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Shinobi (Awakened)]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+
+{{Tower_Infobox
+|caption1="My vision of the future doesn't involve you, move out of my way."
+|caption2="Over and over and over and OVER AGAIN! Just give up and let me cut you down!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Since update 18.0 you can equip the [[Relics|Mangekyō Eye]] to any character including to this unit.
+*His shiny skin is based from his Anniversary skin in ''Naruto to Boruto: Shinobi Striker''.
+*His shiny's mask is not affected by the Golden trait.
+*Takedowns refer to kills or assists.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

@@ -1,0 +1,28 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The most effective way to be loved by someone is to look past that person's wounds, and gently nestle close to them."
+|caption2="The most effective way to be loved by someone is to look past that person's wounds, and gently nestle close to them."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* Unlike other units, whenever Eta is stunned, she is immediately deleted from the map.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Dark]]

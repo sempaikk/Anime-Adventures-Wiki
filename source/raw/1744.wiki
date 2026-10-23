@@ -1,0 +1,7 @@
+<includeonly>
+{{#ifeq:{{{1}}}|Magic|<span class="game-font-face" style="color: #38fcff; text-shadow: 0 0 2px #0f3efa, 0 0 2px #0f3efa, 0 0 2px #0f3efa;">Magic</span>[[File:Damage type Magic.png|24px]] |<span class="game-font-face" style="color: #ffabab; text-shadow: 0 0 2px #fc0b0b, 0 0 2px #fc0b0b, 0 0 2px #fc0b0b;">Physical</span>[[File:Damage type Physical.png|24px]]}}
+</includeonly>
+
+<noinclude>
+{{Doc}}
+<noinclude/>

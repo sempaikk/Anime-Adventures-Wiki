@@ -1,0 +1,28 @@
+{{Meta Support Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She can only be obtained by evolving [[Tamiki]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="...I can't go on thinking that anyone will come and save me. If you've grown to be a great hero, then all the more... I have to be a good example."
+|caption2="...I can't go on thinking that anyone will come and save me. If you've grown to be a great hero, then all the more... I have to be a good example."
+}}{{Main Stats}}
+
+
+==Passive Ability: Psychic Knockback==
+After upgrading to upgrade 6 Tamiki can push back all enemies but bosses every time she attacks.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Attacks starting from Upgrade 6 are able to hit air type enemies.
+*She got a buff of 50% more damage, probably in re release 
+
+{{Unit Navigation}}
+
+{{DISPLAYTITLE:{{PAGENAME}}}} __NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,1025 @@
+{{Anchor2|id=back}}
+<div class="anchor" id="InfinityTierLists"></div>
+<div class="mobileonly">
+<div class="mw-customtoggle-InfinityTierLists-M-Fast_travel">
+<div class="mw-collapsible" id="mw-customcollapsible-InfinityTierLists-M-Fast_travel">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-InfinityTierLists-M-Fast_travel">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+
+<div class="mw-collapsible mw-collapsed">
+<center>
+<div>{{Anchor1|Magic Wave 50}}</div>
+<div>{{Anchor1|Physical Wave 50}}</div>
+</center>
+</div><br><br>
+</div>
+
+<center>'''A list of all the ground units in the game. Ground Units are units that aren't capable of attacking Air Enemies, contrasting from [[Hybrid Units]] and [[Air/Hill Units]]. Ground Units usually have devastating amounts of damage and DPS, but aren't able to attack Air Units which is there one big drawback. Ground Units are currently the 2nd best tower type in the game in terms of damage, ground units are usually more capable of dishing out insane amounts of damage rather than [[Air/Hill Units]].'''</center>
+<br />
+{{Container Characterbox|
+{{Characterbox|Kuneko (Hell-Cat)}}
+{{Characterbox|Dezu (Vigilante)}}
+{{Characterbox|Shigaruko (Symbol of Fear)}}
+{{Characterbox|Endeavor (Hellflame)}}
+{{Characterbox|Melio (Assault)}}
+{{Characterbox|Ice Queen (Empire's Strongest)}}
+{{Characterbox|Yuto (Cursed Child)}}
+{{Characterbox|Shisu (Flicker)}}
+{{Characterbox|Dany (Creation)}}
+{{Characterbox|Akin (Contract)}}
+{{Characterbox|Jokujo (The World)}}
+{{Characterbox|Sonic (Speed)}}
+{{Characterbox|Kent (Overtime)}}
+{{Characterbox|Dark Asto}}
+{{Characterbox|Kobeno (Scared)}}
+{{Characterbox|Thor (Awakened)}}
+{{Characterbox|Bang (Silver Fang)}}
+{{Characterbox|Yamo (Captain)}}
+{{Characterbox|Puchi (Heaven)}}
+{{Characterbox|Kisoko (Bankai)}}
+{{Characterbox|Goju (Six Eyes)}}
+{{Characterbox|Broke (Soul King)}}
+{{Characterbox|Julio (Wizard King)}}
+{{Characterbox|Emili}}
+{{Characterbox|Mochi Charlot}}
+{{Characterbox|Todorro (Released)}}
+{{Characterbox|Lulu (Geass)}}
+{{Characterbox|Snake Princess}}
+{{Characterbox|Merlyn (Infinity)}}
+{{Characterbox|Megomu (Chimera Shadow)}}
+{{Characterbox|Power (Fiend)}}
+{{Characterbox|Sukuno}}
+{{Characterbox|Diavoro}}
+{{Characterbox|Hime (Ghost)}}
+{{Characterbox|Greed (Hunt)}}
+{{Characterbox|Denjy}}
+{{Characterbox|Chainsaw (Hybrid)}}
+{{Characterbox|Itochi (Susanoo)}}
+{{Characterbox|Yamomoto (Hellfire)}}
+{{Characterbox|Geno (Incinerate)}}
+{{Characterbox|Thor (Awakened)}}
+{{Characterbox|Bang (Silver Fang)}}
+{{Characterbox|Yamo (Captain)}}
+{{Characterbox|Lucky (Thunder Fiend)}}
+{{Characterbox|Super Chunks}}
+{{Characterbox|Ermo (Duplicate)}}
+{{Characterbox|Ezra (Valkyrie)}}
+{{Characterbox|Akoku (Destruction)}}
+{{Characterbox|Ging (Sacred Spear)}}
+{{Characterbox|Ghacco (Album)}}
+{{Characterbox|Haka (Reflection)}}
+{{Characterbox|Inuyashu}}
+{{Characterbox|Marada (Founder)}}
+{{Characterbox|Crush (Ace)}}
+{{Characterbox|Kizzua (Godspeed)}}
+{{Characterbox|All Force (Symbol of Peace)}}
+{{Characterbox|Kenpaki (Maniac)}}
+{{Characterbox|Aokijo (Blue Pheasant)}}
+{{Characterbox|Jolyna (Determination)}}
+{{Characterbox|Red Scar (Conqueror)}}
+{{Characterbox|Emperor Whitehair}}
+{{Characterbox|Ezra (True Heart)}}
+{{Characterbox|Noel (Valkyrie Armor)}}
+{{Characterbox|Moriu (Shadow Lord)}}
+{{Characterbox|Mist Ninja}}
+{{Characterbox|Pito (Terpsichora)}}
+{{Characterbox|Natzo (Lightning Dragon Mode)}}
+{{Characterbox|Ariva (Reaper)}}
+{{Characterbox|Chairman Neteru}}
+{{Characterbox|Noruto (Beast Cloak)}}
+{{Characterbox|Eta (One-Eye)}}
+{{Characterbox|Juozu (Joker)}}
+{{Characterbox|Kit (Frenzy)}}
+{{Characterbox|Kit (Lethal)}}
+{{Characterbox|Kit (Precision)}}
+{{Characterbox|Tarata (Ignite)}}
+{{Characterbox|Piccoru (Nameless)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+<br />
+
+<tabber>
+|-|Ground=
+<h2 style="text-align: center; border: 0;"">Ground [[File:Damage type Magic.png|24px]] [[File:Damage type Physical.png|24px]]</h2>
+{{TierList/Container|id=Magic Wave 50<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=Magic Wave 50-META Hill/Hybrid|text=META}}</div>
+<div>{{Anchor1|id=Magic Wave 50-META Ground|text=SUPPORT}}</div>
+<div>{{Anchor1|id=Magic Wave 50-META Support|text=META Support}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Good|text=Good}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Decent|text=Decent}}</div>
+<div>{{Anchor1|id=Magic Wave 50-Bad|text=Bad}}</div><!-- names must match Item Container names -->}}
+{{TierList/Item Container|color=#ff7f7f|id=Magic Wave 50<!-- id TierList -->|name=META
+|
+{{TierList/Item|Itochi (Susanoo)
+|Description= [META BURN UNIT]
+<br />
+Insane DPS with the highest Burn amount in Game (which it correlate to Ultimate DPS and potentially Godly DPS). Cone AoE with 3 Placements allowing him to attack many enemies at once, especially with his strong range. However, he is slightly expensive to max.<br /><br />He is recommended to have Godspeed, Superior III or better traits, and he's best with the Mangekyo relic.
+<br />
+DPS (Damage Per Second): 9,812
+<br />
+[Black Flames DPS: 6,378]
+<br />
+DPM (Damage Per Minute): 588,777
+<br />
+[Black Flames DPM: 382,704]
+<br />
+Total DPS (Group DPS): 29,438
+<br />
+[Total Bleed DPS: 19,135]
+<br />
+Total DPM (Group DPM): 1,766,331
+<br />
+[Total Bleed DPM: 1,148,112]
+----
+(With Mangeyko Eye Relic)
+<br />
+[Black Flames DPS: 12,756]
+<br />
+[Black Flames DPM: 765,360]
+<br />
+[Total Black Flames DPS: 38,268]
+<br />
+[Total Black Flames DPM: 2,296,080]}}
+{{TierList/Item|Greed (Hunt)
+|Description= [META BLEED UNIT]
+<br />
+Insane DPS, With a Passsive Ability: Any Enemy in his Circle-AoE gets "Drained" and he gets a 3% Damage Boost per enemy.
+<br />
+DPS (Damage Per Second): 9,467
+<br />
+[Bleed DPS: 4,970]
+<br />
+DPM (Damage Per Minute): 568,088
+<br />
+[Bleed DPM: 298,211]
+<br />
+Total DPS (Group DPS): 37,868
+<br />
+[Total Bleed DPS: 11,360]
+<br />
+Total DPM (Group DPM): 2,272,089
+<br />
+[Total Bleed DPM: 681,626.845714 ]
+----
+(Snatched [Max])
+<br />
+'''DPS (Damage Per Second): 18,839
+<br />
+[Bleed DPS: 9,890]
+<br />
+DPM (Damage Per Minute): 1,130,364
+<br />
+[Bleed DPM: 593,441]
+<br />
+Total DPS (Group DPS): 75,357
+<br />
+[Total Bleed DPS: 39,560]
+<br />
+Total DPM (Group DPM): 4,521,360
+<br />
+[Total Bleed DPM: 2,373,600]
+<br />
+When paired with [[Power (Fiend)]], his bleed becomes even more insane!
+}}
+{{TierList/Item|Melio (Assault)
+|Description=Godly DPS even without a crit on. The thing is, his range is slightly lower than average, his AoE is mediocre, and is slightly expensive to max.<br /><br />
+His power spikes with either Nail relic or the Black Clover relic. He is recommended to have either Superior III, Sniper or better trait.
+<br /><br />
+'''DPS (Damage Per Second): 22,907 [#3 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,374,474
+<br />
+Total DPS (Group DPS): 68,723
+<br />
+Total DPM (Group DPM): 4,123,422 '''}}
+{{TierList/Item|Ice Queen (Empire's Strongest)
+|Description=Colossal-Ultimate DPS, Full AoE, Long SPA, Freezes/Timestops enemies. but her freeze conflicts other Freeze/Timestop-ability users however. She can focus on Insane DPS while being cost-efficient as well by avoiding Upgrade 8.<br /><br />She recommends having SPA-related curses, or Godspeed or better traits due to her SPA on higher upgrades being over the freeze cooldown, but also take note that her freezes had a shorter duration than other freeze-oriented units.
+<br />
+'''DPS (Damage Per Second): 10,020
+<br />
+DPM (Damage Per Minute): 601,255
+<br />
+Total DPS (Group DPS): 30,062
+<br />
+Total DPM (Group DPM): 1,803,767 '''}}
+{{TierList/Item|Yuto (Cursed Child)
+|Description=Ultimate DPS with a extensive Line-AOE countered by an extremely long SPA (similar to Mythical-Gon). Incredibly expensive to max and obtain. Good for all modes due to his cost-efficient Cone-AoE Cursed Speech attack and massive Line-AoE with Cursed Energy Blast, Buffed heavily with the [[Relics|Miracle Timepiece]]. <br /> <br /> When it comes to raw damage output, [[Yuto (Cursed Child)]] wins over [[Ice Queen (Empire's Strongest)]].
+<br />
+'''DPS (Damage Per Second): 13,182
+<br />
+DPM (Damage Per Minute): 709,974
+<br />
+Total DPS (Group DPS): 39,548
+<br />
+Total DPM (Group DPM): 2,372,922 '''}}
+{{TierList/Item|Puchi (Heaven)
+|Description=Ultimate DPS, Decent Range with Incredibly fast SPA. Fantastic Support Ability that reduces all units SPA by 50% percent for 30 seconds and amazing with Unique or Godspeed.<br /><br />Despite being a META Ground as well, note that his SPA boost doesn't stack with Kisuke's, and also note that this boost doesn't work on units that has their SPA lower than their actual attack animation after being boosted.
+<br />
+'''DPS (Damage Per Second): 13,148
+<br />
+DPM (Damage Per Minute): 788,919
+<br />
+Total DPS (Group DPS): 39,455.98
+<br />
+Total DPM (Group DPM): 2,366,758
+----
+(Time Acceleration)
+<br />
+DPS (Damage Per Second): 26,297 [#1 Substitutional DPS]
+<br />
+DPM (Damage Per Minute): 1,577,839
+<br />
+Total DPS (Group DPS): 78,892
+<br />
+Total DPM (Group DPM): 4,733,519}}
+{{TierList/Item|Shisu (Flicker)
+|Description=Ultimate DPS with strong range. Good Placement Damage but slightly expensive to max. His Cone AOE makes him attack many units in a Line and teamed with his Godly DPS, he is one hell of a DPS unit.<br /><br />He is recommended to have Godspeed, Superior III or better trait.
+<br />
+'''DPS (Damage Per Second): 16,107 [#7 Raw DPS]
+<br />
+DPM (Damage Per Minute): 966,426
+<br />
+Total DPS (Group DPS): 48,321
+<br />
+Total DPM (Group DPM): 2,899,279'''}}
+{{TierList/Item|Yamomoto (Hellfire)
+|Description= [META BURN UNIT]
+Massive DPS, High SPA, Big Range, Full AoE and a Really Good Ability . Super Expensive to Max. Yamamoto gains one soul for each kill (souls received before upgrade 8 don't count). When you activate his ability, he starts a hybrid attack that hits several times and multiplies his base damage depending on the amount of souls received. The attack deals Yamamoto's base damage, plus 2% damage for every soul consumed in the attack. If he consumes 50 souls, that means he would do 200% damage (100% damage + (50 x 2%) = 200%). If he consumes 500 souls (max amount), that means he would do 1100% damage or 1,063,069.48 damage}}
+{{TierList/Item|Dany (Creation)
+|Description=Ultimate DPS, Huge SPA, Decent Range with a Great Circle-AoE.
+<br />
+'''DPS (Damage Per Second): 13,662
+<br />
+DPM (Damage Per Minute): 819,736
+<br />
+Total DPS (Group DPS): 40,986
+<br />
+Total DPM (Group DPM): 2,459,210'''}}
+{{TierList/Item|Geno (Incinerate)
+|Description= [META BURN UNIT]
+<br />
+EXTREMELY underrated unit that is capable of doing INSANE amounts of damage, while having a low SPA AND burn. This unit is actually up to par in terms of modern day ground units and can be EXCELLENT for clearing story mode because of his decently cheap upgrades and GREAT damage-cash ratio. Can be good for both early game and mid game players!}}
+{{TierList/Item|Akin (Contract)
+|Description= [META BOSS KILLER]
+Ultimate DPS, but SPA and AoE varies upon his ability usage. His power spikes heavily with his own relic. He is recommend to have Superior III, Godspeed or better traits.<br /><br />Upon using his form upon reaching certain upgrade, Kon, his damage and SPA increases by 1.5x, and his AoE increases drastically. These bonuses can revert back when he uses the Curse Devil form. Timing abilities right can increase his DMG output, which it can be useful for bosses.}}
+{{TierList/Item|Jokujo (The World)
+|Description=Ultimate DPS, Decent AoE Circle with Timestop every attack, Countered by his Low Range and High SPA. Placement is 3 so you can spread him around the Map.
+<br />
+'''DPS (Damage Per Second): 12,885
+<br />
+DPM (Damage Per Minute): 773,141
+<br />
+Total DPS (Group DPS): 38,657
+<br />
+Total DPM (Group DPM): 2,319,424 '''}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=Magic Wave 50<!-- id TierList -->|name=GOOD
+|
+{{TierList/Item|Geno (Incinerate)
+|Description=EXTREMELY underrated unit that is capable of doing INSANE amounts of damage, while having a low SPA AND burn. This unit is actually up to par in terms of modern day ground units and can be EXCELLENT for clearing story mode because of his decently cheap upgrades and GREAT damage-cash ratio. Can be good for both early game and mid game players!}}
+{{TierList/Item|Kobeno (Scared)
+|Description=Insane DPS with crit. Exclusive to a very few amount of units, she has a passive which every other hit, she hits 2x her damage + her 50% crit damage, would result in 250% more damage every other hit if crit and passive are in sync. The passive is known as "Frenzy" and can make her very useful in infinite mode because of her cheap cost to max and her ability of having 5 of her placed.
+<br />
+'''DPS (Damage Per Second): 5,716
+<br />
+DPM (Damage Per Minute): 342,960
+<br />
+Total DPS (Group DPS): 28,580
+<br />
+Total DPM (Group DPM): 1,714,800
+----
+(Frenzy [Situational DPS])
+<br />
+'''DPS (Damage Per Second): 11,432
+<br />
+DPM (Damage Per Minute): 685,920
+<br />
+Total DPS (Group DPS): 57,160
+<br />
+Total DPM (Group DPM): 3,429,600}}
+{{TierList/Item|Sonic (Speed)
+|Description=Insane DPS with Average Range and Good AoE, 50% Crit Chance on top of his High DPS. He is cheap to max, and his max placement is 5.
+<br />
+'''DPS (Damage Per Second): 7,889.2
+<br />
+DPM (Damage Per Minute): 473,352
+<br />
+Total DPS (Group DPS): 39,446
+<br />
+Total DPM (Group DPM): 2,366,760 '''}}
+{{TierList/Item|Denjy
+|Description= [META BLEED UNIT]
+<br />
+Ultimate DPS with AoE Cone, Highest Bleed DMG in the Game.
+<br />
+DPS (Damage Per Second): 7,601
+<br />
+[Bleed DPS: 5,384]
+<br />
+DPM (Damage Per Minute): 456,088
+<br />
+[Bleed DPM: 323,062]
+<br />
+Total DPS (Group DPS): 30,405
+<br />
+[Total Bleed DPS: 16,153]
+<br />
+Total DPM (Group DPM): 1,824,352
+<br />
+[Total Bleed DPM: 969,187]
+----
+(With [[Power (Fiend)]]'s Bleed Amplification)
+<br />
+[Bleed DPS: 26,920]
+<br />
+[Bleed DPM: 1,615,200]
+<br />
+[Total Bleed DPS: 107,680]
+<br />
+[Total Bleed DPM: 6,460,800]}}
+{{TierList/Item|Chainsaw (Hybrid)
+|Description= [META BLEED UNIT]
+<br />
+Ultimate DPS with AoE Cone, Highest Bleed DMG in the Game.
+<br />
+DPS (Damage Per Second): 7,601
+<br />
+[Bleed DPS: 5,384]
+<br />
+DPM (Damage Per Minute): 456,088
+<br />
+[Bleed DPM: 323,062]
+<br />
+Total DPS (Group DPS): 30,405
+<br />
+[Total Bleed DPS: 16,153]
+<br />
+Total DPM (Group DPM): 1,824,352
+<br />
+[Total Bleed DPM: 969,187]
+----
+(With [[Power (Fiend)]]'s Bleed Amplification)
+<br />
+[Bleed DPS: 26,920]
+<br />
+[Bleed DPM: 1,615,200]
+<br />
+[Total Bleed DPS: 107,680]
+<br />
+[Total Bleed DPM: 6,460,800]}}
+{{TierList/Item|Kent (Overtime)
+|Description=High-Amazing DPS from CRIT and sizable Cone-AoE, increasing in damage by 1% per wave, (max buff 100%) allowing for potentially COLOSSAL amounts of damage. One of the best for infinite modes where he can stack significant Overtime. <br /> <br /> The AoE of this unit allows him to deal insane amounts of damage on top of his passive, hence the reason he is once again meta.
+<br />
+'''DPS (Damage Per Second): 4,602
+<br />
+DPM (Damage Per Minute): 276,120
+<br />
+Total DPS (Group DPS): 18,408
+<br />
+Total DPM (Group DPM): 1,104,480
+----
+(Overtime [Maximum])
+<br />
+'''DPS (Damage Per Second): 12,442
+<br />
+DPM (Damage Per Minute): 746,520
+<br />
+Total DPS (Group DPS): 49,768
+<br />
+Total DPM (Group DPM): 2,986,080}}
+{{TierList/Item|Thor (Awakened)
+|Description=Ultimate DPS with 4 Placements and Average AoE. Excellent Unit for starters and Good DPS for how easy he is to get.
+<br />
+'''DPS (Damage Per Second): 10,124
+<br />
+DPM (Damage Per Minute): 607,440
+<br />
+Total DPS (Group DPS): 40,496
+<br />
+Total DPM (Group DPM): 2,429,760}}
+{{TierList/Item|Yamo (Captain)
+|Description=Great DPS with long but very thin AoE. Needs long, straight enemy lanes for full potential, and can bypass/ignore shields at Upgrade 7 because of the true damage effect.
+<br />
+'''DPS (Damage Per Second): 9,277
+<br />
+DPM (Damage Per Minute): 556,620
+<br />
+Total DPS (Group DPS): 37,108
+<br />
+Total DPM (Group DPM): 2,226,480}}
+{{TierList/Item|Piccoru (Nameless)
+|Description=[Information coming soon]}}
+{{TierList/Item|Merlyn (Infinity)
+|Description=Ultimate DPS with Good Circle AoE. Has a 25% chance to Hex Similar to Dismember (25% Permanent Physical Damage Effect) It amplifies a permanent damage effect by 30% for Magic Units letting enemies take more magic damage (30%) She is a great choice of a support unit or all gamemodes.
+<br />
+'''DPS (Damage Per Second): 10,354
+<br />
+DPM (Damage Per Minute): 621,274
+<br />
+Total DPS (Group DPS): 31,063
+<br />
+Total DPM (Group DPM): 1,863,822
+----
+(Hexed)
+<br />
+DPS (Damage Per Second): 12,943
+<br />
+DPM (Damage Per Minute): 776,592
+<br />
+Total DPS (Group DPS): 38,829
+<br />
+Total DPM (Group DPM): 2,329,778}}
+{{TierList/Item|Dark Asto
+|Description=Insane DPS with Short Range. Great Placement Damage and cost efficient with Black Meteorite. He is recommended to have Sniper, Superior 3, or a better trait.
+<br />
+'''DPS (Damage Per Second): 8,973
+<br />
+DPM (Damage Per Minute): 538,380
+<br />
+Total DPS (Group DPS): 35,892
+<br />
+Total DPM (Group DPM): 2,153,520}}
+{{TierList/Item|Bang (Silver Fang)
+|Description="Massive" DPS (in actuality, Insane DPS due to his passive ability that only lingers during Piercing Fang upgrade) with 4 Placements and Average AoE. He is usually cheap to max, but not needed due to his overall DPS on Upgrade 7, which it will cost him even less ({{Yen|27,850}}) However, he is not recommended for Infinite Mode as there are indeed better units than him on later stages on Infinite.
+<br />
+'''DPS (Damage Per Second): 7,593
+<br />
+DPM (Damage Per Minute): 455,580
+<br />
+Total DPS (Group DPS): 30,372
+<br />
+Total DPM (Group DPM): 1,822,320'''
+----
+Upgrade 7 (Piercing Fang - 1.5x DMG)
+<br />
+'''DPS (Damage Per Second): 9,558.08
+<br />
+DPM (Damage Per Minute): 573,484
+<br />
+Total DPS (Group DPS): 38,232.3
+<br />
+Total DPM (Group DPM): 2,293,938}}
+{{TierList/Item|Jolyna (Determination)
+|Description=Colossal DPS, Decent Range and High SPA. Can Stun enemies for one second.
+<br />
+'''DPS (Damage Per Second): 9,526
+<br />
+DPM (Damage Per Minute): 571,560
+<br />
+Total DPS (Group DPS): 38,104
+<br />
+Total DPM (Group DPM): 2,286,240}}
+{{TierList/Item|Kenpaki (Maniac)
+|Description=Massive DPS, Full AoE, cheap, does stun and have colossal DMG, but slow SPA and low range, very overpowered after Upgrade 7.
+<br />
+'''DPS (Damage Per Second): 7,028
+<br />
+DPM (Damage Per Minute): 421,680
+<br />
+Total DPS (Group DPS): 28,112
+<br />
+Total DPM (Group DPM): 1,686,720}}
+{{TierList/Item|Super Chunks
+|Description=Colossal DPS, Full AoE, Moderate Range. Although extremely outdated, this unit does have a capability which was confirmed to not be a bug of doing 2x his damage EVERY attack. This passive allows him to do MUCH more damage and increases his DPS by a lot. However, still power-creepered by the modern day units of Anime Adventures. 
+<br />
+'''DPS (Damage Per Second): 10,254
+<br />
+DPM (Damage Per Minute): 615,240
+<br />
+Total DPS (Group DPS): 41,016
+<br />
+Total DPM (Group DPM): 2,460,960}}
+{{TierList/Item|Ermo (Duplicate)
+|Description=Amazing DPS even without her 50% Crit.
+<br />
+'''DPS (Damage Per Second): 6,327 
+<br />
+DPM (Damage Per Minute): 379,620
+<br />
+Total DPS (Group DPS): 31,635
+<br />
+Total DPM (Group DPM): 1,898,100
+----
+(Crit)
+<br />
+'''DPS (Damage Per Second): 9,490 
+<br />
+DPM (Damage Per Minute): 569,430
+<br />
+Total DPS (Group DPS): 37,962
+<br />
+Total DPM (Group DPM): 2,277,720}}
+{{TierList/Item|Ezra (Valkyrie)
+|Description=Great DPS, Huge AoE Circle, Moderate Range. Currently one of the best crit units in the game, even beating some of the more recently released crit units than her. Has a HUGE AoE circle that does over 4 hits where she is GREAT for shield breaking.
+<br />
+'''DPS (Damage Per Second): 5,650
+<br />
+DPM (Damage Per Minute): 339,000
+<br />
+Total DPS (Group DPS): 22,600
+<br />
+Total DPM (Group DPM): 1,356,000
+----
+(Crit)
+<br />
+'''DPS (Damage Per Second): 8,475
+<br />
+DPM (Damage Per Minute): 508,500
+<br />
+Total DPS (Group DPS): 33,900
+<br />
+Total DPM (Group DPM): 2,034,000}}
+{{TierList/Item|Goju (Six Eyes)
+|Description=Insane DPS with long line AoE and a powerful support skill at no upgrades. Has limitless potential but is extremely expensive and time-consuming to obtain. Excellent for all modes due to his self-buff (2x current damage for 8s, stacks with buffs), high placement damage, and Amazing Line-AoE.<br /><br />His Domain Expansion ability conflicts with other Freeze/Timestop-ability users, but he's recommended all around.
+<br />
+'''DPS (Damage Per Second): 8,053
+<br />
+DPM (Damage Per Minute): 483,213
+<br />
+Total DPS (Group DPS): 24,160
+<br />
+Total DPM (Group DPM): 1,449,640
+----
+(Time Stop)
+<br />
+'''DPS (Damage Per Second): 16,107
+<br />
+DPM (Damage Per Minute): 966,427
+<br />
+Total DPS (Group DPS): 24,160
+<br />
+Total DPM (Group DPM): 1,449,640
+<br/>
+(When [[Goju (Six Eyes)]] time stops, he only buffs himself as in the Goju that you used to activate the time stop, not the whole group meaning only his individual DPS and DPM is increased, not as a group!) '''}}
+{{TierList/Item|Julio (Wizard King)
+|Description=Godly DPS and Big AoE, but Medium SPA, Mid Range, with Placement Cap 1 and too expensive to place and max, but he can be good if used right with good placement. Julio (Wizard King) has an active ability called Chrono Reversal, It makes enemies in his range walk back for 4 seconds.
+<br />
+DPS (Damage Per Second): 22,089 [#4 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,325,385
+<br />
+Total DPS (Group DPS): 22,089
+<br />
+Total DPM (Group DPM): 1,325,385}}
+{{TierList/Item|Lucky (Thunder Fiend)
+|Description=Amazing-Massive DPS with long but thin AoE. Can reach Insane DPS due to self-buffing capabilities but needs to be constantly attacking (5%+ each attack up to 25%). Excels with long, straight enemy lanes. <br /> <br /> The AoE of this unit allows him to deal insane amounts of damage on top of his passive, hence the reason he is once again meta.
+<br />
+'''DPS (Damage Per Second): 6,979.8
+<br />
+DPM (Damage Per Minute): 418,785
+<br />
+Total DPS (Group DPS): 27,919
+<br />
+Total DPM (Group DPM): 1,675,140 '''}}
+}}
+
+{{TierList/Item Container|color=#febf85|id=Magic Wave 50<!-- id TierList -->|name=SUPPORT
+|
+{{TierList/Item|Puchi (Heaven)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+Ultimate DPS, Decent Range with Incredibly fast SPA. Fantastic Support Ability that reduces all units SPA by 50% percent for 30 seconds and amazing with Unique or Godspeed.<br /><br />Despite being a META Ground as well, note that his SPA boost doesn't stack with Kisuke's, and also note that this boost doesn't work on units that has their SPA lower than their actual attack animation after being boosted.
+<br />
+'''DPS (Damage Per Second): 13,148
+<br />
+DPM (Damage Per Minute): 788,919
+<br />
+Total DPS (Group DPS): 39,455.98
+<br />
+Total DPM (Group DPM): 2,366,758
+----
+(Time Acceleration)
+<br />
+'''DPS (Damage Per Second): 26,297 [#1 Substitutional DPS]
+<br />
+DPM (Damage Per Minute): 1,577,839
+<br />
+Total DPS (Group DPS): 78,892
+<br />
+Total DPM (Group DPM): 4,733,519 '''}}
+{{TierList/Item|Kisoko (Bankai)
+|Description=Not a great unit in terms of damage as this unit is fairly out-dated, however, his ability does remain to be one of the best in the game! His ability known as "Kannonbiraki Benihime Aratame" allows him to buff all unit's in range SPA AND Range. This ability along with [[Puchi (Heaven)]]'s ability can make a devastating combo in infinite mode and leaderboard runs.
+<br />
+'''DPS (Damage Per Second): 3,865
+<br />
+DPM (Damage Per Minute): 231,942
+<br />
+Total DPS (Group DPS): 11,597
+<br />
+Total DPM (Group DPM): 695,827
+----
+(Kannonbiraki Benihime Aratame)
+<br />
+'''DPS (Damage Per Second): 4,295.23
+<br />
+DPM (Damage Per Minute): 257,713
+<br />
+Total DPS (Group DPS): 12,885
+<br />
+Total DPM (Group DPM): 773,141}}
+{{TierList/Item|Diavoro
+|Description=[MOSTLY META FOR LEADERBOARD, HE IS NOT RECOMMENDED TO BE USED IN ANY OTHER WAY!] Underrated unit in terms of his use in leaderboards because of the ability he gains. Upon max upgrade, he gains an ability: a global timestop with damage amplification, units do 50% more damage (Physical or Magic) during Timestop.<br /><br />Cooldown by this ability is global but like [[Goju (Six Eyes)|Goju]]'s, his cooldown is not too long, making him useful for manual ability-based global DPS amplification. Note that his Timestop is a heavy slow inflicted on anyone, and also note that he is considered a sidegrade for [[Puchi (Heaven)|Puchi]].
+<br />
+'''DPS (Damage Per Second): 2,301
+<br />
+DPM (Damage Per Minute): 138,061
+<br />
+Total DPS (Group DPS): 11,505
+<br />
+Total DPM (Group DPM): 690,306}}
+{{TierList/Item|Goju (Six Eyes)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+Insane DPS with long line AoE and a powerful support skill at no upgrades. Has limitless potential but is extremely expensive and time-consuming to obtain. Excellent for all modes due to his self-buff (2x current damage for 8s, stacks with buffs), high placement damage, and Amazing Line-AoE.<br /><br />His Domain Expansion ability conflicts with other Freeze/Timestop-ability users, but he's recommended all around.
+<br />
+'''DPS (Damage Per Second): 8,053
+<br />
+DPM (Damage Per Minute): 483,213
+<br />
+Total DPS (Group DPS): 24,160
+<br />
+Total DPM (Group DPM): 1,449,640
+----
+(Time Stop)
+<br />
+'''DPS (Damage Per Second): 16,107
+<br />
+DPM (Damage Per Minute): 966,427
+<br />
+Total DPS (Group DPS): 24,160
+<br />
+Total DPM (Group DPM): 1,449,640
+<br/>
+(When [[Goju (Six Eyes)]] time stops, he only buffs himself as in the Goju that you used to activate the time stop, not the whole group meaning only his individual DPS and DPM is increased, not as a group!) '''}}
+{{TierList/Item|Broke (Soul King)
+|Description=Amazing DPS with High placement damage, Tiny range, Full-AoE, and Insanely Slow SPA. <br /><br />On 7th upgrade, each attack randomly buffs everyone in range for damage by 15%, or for range by 10% for 10 seconds, same buffs don't stack. For reference, he buffs for 10 seconds while his SPA is 13. Can also ignore Upgrade 7, to retain the same DPS (as his max upgrade) to focus on cost efficiency at the expense of range and AoE.
+<br />
+'''DPS (Damage Per Second): 6,903
+<br />
+DPM (Damage Per Minute): 414,183
+<br />
+Total DPS (Group DPS): 20,709
+<br />
+Total DPM (Group DPM): 1,242,549}}
+{{TierList/Item|Julio (Wizard King)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+Godly DPS and Big AoE, but Medium SPA, Mid Range, with Placement Cap 1 and too expensive to place and max, but he can be good if used right with good placement. Julio (Wizard King) has an active ability called Chrono Reversal, It makes enemies in his range walk back for 4 seconds.
+<br />
+DPS (Damage Per Second): 22,089 [#4 Raw DPS]
+<br />
+DPM (Damage Per Minute): 1,325,385
+<br />
+Total DPS (Group DPS): 22,089
+<br />
+Total DPM (Group DPM): 1,325,385}}
+{{TierList/Item|Emili
+|Description=Good DPS, Big Circle AoE, Slows Enemies and has a Good SPA.
+<br />
+DPS (Damage Per Second): 3,988
+<br />
+DPM (Damage Per Minute): 239,305
+<br />
+Total DPS (Group DPS): 19,942
+<br />
+Total DPM (Group DPM): 1,196,529}}
+{{TierList/Item|Mochi Charlot
+|Description=High DPS, Strong Slow Unit (can slow for 4 seconds) and Strong Burn.
+<br />
+DPS (Damage Per Second): 4,248
+<br />
+DPM (Damage Per Minute): 254,881
+<br />
+Total DPS (Group DPS): 16,992
+<br />
+Total DPM (Group DPM): 1,019,527}}
+{{TierList/Item|Todorro (Released)
+|Description=Great Damage with Low SPA and Decent Range. Slows and Burns opponents, Fair-cost upgrades. He recommends range-oriented traits if Support, DMG-oriented traits if DPS, or SPA if aiming for both.<br /><br />He also can be META Burn as he deals fire damage on Upgrade 4 or higher on his second instance of his attacks. He is good for Stages that recommend Ice or Fire units, especially on stages that had enemies with Magic weakness.
+<br />
+DPS (Damage Per Second): 6,190
+<br />
+DPM (Damage Per Minute): 369,658
+<br />
+Total DPS (Group DPS): 18,482
+<br />
+Total DPM (Group DPM): 1,108,974}}
+{{TierList/Item|Snake Princess
+|Description=Amazing DPS, Good Circle AoE, and one of the BEST stunning units in the game.
+<br />
+'''DPS (Damage Per Second): 4,602
+<br />
+DPM (Damage Per Minute): 276,120
+<br />
+Total DPS (Group DPS): 23,010
+<br />
+Total DPM (Group DPM): 1,380,600}}
+{{TierList/Item|Merlyn (Infinity)
+|Description=[Double Tiered] (Meaning this unit is good for multiple purposes!)
+<br />
+Ultimate DPS with Good Circle AoE. Has a 25% chance to Hex Similar to Dismember (25% Permanent Physical Damage Effect) It amplifies a permanent damage effect by 30% for Magic Units letting enemies take more magic damage (30%) She is a great choice of a support unit or all gamemodes.
+<br />
+'''DPS (Damage Per Second): 10,354
+<br />
+DPM (Damage Per Minute): 621,274
+<br />
+Total DPS (Group DPS): 31,063
+<br />
+Total DPM (Group DPM): 1,863,822
+----
+(Hexed)
+<br />
+DPS (Damage Per Second): 12,943
+<br />
+DPM (Damage Per Minute): 776,592
+<br />
+Total DPS (Group DPS): 38,829
+<br />
+Total DPM (Group DPM): 2,329,778}}
+{{TierList/Item|Megomu (Chimera Shadow)
+|Description=High DPS, Medium SPA, Great Range, and HUGE Circle-AoE with the Cursing Ability. Very effective in non-infinite modes for cost-efficient damage amplification from CURSE status effects (only for those who deal magic damage), but is also great for infinite.
+<br />
+DPS (Damage Per Second): 4,832
+<br />
+DPM (Damage Per Minute): 289,927
+<br />
+Total DPS (Group DPS): 14,496
+<br />
+Total DPM (Group DPM): 869,783
+----
+(Cursed)
+<br />
+DPS (Damage Per Second): 6,281
+<br />
+DPM (Damage Per Minute): 376,906
+<br />
+Total DPS (Group DPS): 18,845
+<br />
+Total DPM (Group DPM): 1,130,718}}
+{{TierList/Item|Power (Fiend)
+|Description=Insane DPS and Amazing ability that lets Bleed Units do 5x more BLEED damage.
+<br />
+DPS (Damage Per Second): 8,232
+<br />
+DPM (Damage Per Minute): 493,951
+<br />
+Total DPS (Group DPS): 24,697
+<br />
+Total DPM (Group DPM): 1,481,853}}
+{{TierList/Item|Sukuno
+|Description=Massive DPS with Insane Circle-AoE. Has a 20% chance to apply Dismember, a permanent physical damage amplification effect of 25% to enemies. Top choice for Infinite modes due to good DPS, AoE, and damage amplification.
+<br />
+'''DPS (Damage Per Second): 5,982
+<br />
+DPM (Damage Per Minute): 358,958
+<br />
+Total DPS (Group DPS): 17,947
+<br />
+Total DPM (Group DPM): 1,076,875
+----
+(Dismemberment)
+<br />
+'''DPS (Damage Per Second): 7,473
+<br />
+DPM (Damage Per Minute): 448,698
+<br />
+Total DPS (Group DPS): 22,434.9
+<br />
+Total DPM (Group DPM): 1,346,094 '''}}
+{{TierList/Item|Erein (Founder)
+|Description= [MOSTLY META FOR LEADERBOARD, HE IS NOT RECOMMENDED TO BE USED IN ANY OTHER WAY!]
+Godly DPS in short periods of time. Good for extending LB runs. Expensive to max. Easier to roll traits on due to Legendary form.}}
+{{TierList/Item|Hime (Ghost)
+|Description= Ultimate DPS over short periods of time. Much like [[Erein (Founder)]], has an ability called "Final Sacrifice". Upon activation, Hime (Ghost) sacrifices her body to the Ghost Devil and the Ghost Devil is summoned. This unit can be proven to be a "walmart" Erein, however she is capable of attacking without her summons until she is sacrificed, which is a feature Erein doesn't own. Much cheaper than [[Erein (Founder)]] and can be spammed if necessary.}}
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=Magic Wave 50<!-- id TierList -->|name=MID
+|
+{{TierList/Item|Ghacco (Album)
+|Description=Massive DPS, Great AoE Circle, Decent Range but cannot freeze enemies 
+<br />
+'''DPS (Damage Per Second): 7,731
+<br />
+DPM (Damage Per Minute): 463,860
+<br />
+Total DPS (Group DPS): 30,924
+<br />
+Total DPM (Group DPM): 1,855,440}}
+{{TierList/Item|Haka (Reflection)
+|Description=Massive DPS, Big Circle AOE, Decent Range.
+<br />
+'''DPS (Damage Per Second): 7,721
+<br />
+DPM (Damage Per Minute): 463,260
+<br />
+Total DPS (Group DPS): 30,884
+<br />
+Total DPM (Group DPM): 1,853,040}}
+{{TierList/Item|Ezra (True Heart)
+|Description=Great DPS, AoE Circle, Good Range. Good bleed damage which allows her to be a viable unit when it comes to bleed, if paired with [[Power (Fiend)]]'s Bleed Amplification, Ezra's bleed damage will spike heavily.
+<br />
+'''DPS (Damage Per Second): 5,752
+<br />
+[Bleed DPS: 2,876]
+<br />
+DPM (Damage Per Minute): 345,120
+<br />
+[Bleed DPM: 172,560]
+<br />
+Total DPS (Group DPS): 23,008
+<br />
+[Total Bleed DPS: 11,504]
+<br />
+Total DPM (Group DPM): 1,380,480
+<br />
+[Total Bleed DPM: 690,240]
+----
+(With [[Power (Fiend)]]'s Bleed Amplification)
+<br />
+'''Bleed DPS (Damage Per Second): 14,380
+<br />
+Bleed DPM (Damage Per Minute): 862,800
+<br />
+Total Bleed DPS (Group DPS): 57,520
+<br />
+Total Bleed DPM (Group DPM): 3,451,200}}
+{{TierList/Item|Inuyashu
+|Description=}}
+{{TierList/Item|Marada (Founder)
+|Description=High DPS and Amazing Burn with massive AoE, possessing the widest cone in the entire game, though has a long SPA, and is great for Ice enemies.
+<br />
+'''DPS (Damage Per Second): 4,233
+<br />
+DPM (Damage Per Minute): 253,980
+<br />
+Total DPS (Group DPS): 16,932
+<br />
+Total DPM (Group DPM): 1,015,920}}
+{{TierList/Item|Crush (Ace)
+|Description=High DPS and full AoE with instant shieldbreak capabilities. Great for infinite and maps with many shielded enemies.
+<br />
+'''DPS (Damage Per Second): 4,970
+<br />
+DPM (Damage Per Minute): 298,200
+<br />
+Total DPS (Group DPS): 19,880
+<br />
+Total DPM (Group DPM): 1,192,800}}
+{{TierList/Item|Noel (Valkyrie Armor)
+|Description=Amazing DPS, AoE Circle, Good Range. Underrated unit with DPS that is actually not bad and can be useful for modes like legend stages, raids, etc. or modes with magic resistance. Why? Well, with the Mermaid Crown Relic, every hit she does, she chips away at enemy's resistance to magic damage, making her one of the META units with this ability. However, her raw damage output is outshined by modern day Anime Adventures units.
+<br />
+'''DPS (Damage Per Second): 5,234
+<br />
+DPM (Damage Per Minute): 314,040
+<br />
+Total DPS (Group DPS): 26,170
+<br />
+Total DPM (Group DPM): 1,570,200}}
+{{TierList/Item|Moriu (Shadow Lord)
+|Description=Amazing DPS, AoE Circle, Good Range. No longer obtainable as it was only obtainable from the Halloween Event (2022).
+<br />
+'''DPS (Damage Per Second): 6,442
+<br />
+DPM (Damage Per Minute): 386,520
+<br />
+Total DPS (Group DPS): 25,768
+<br />
+Total DPM (Group DPM): 1,546,080}}
+{{TierList/Item|Mist Ninja
+|Description=Amazing DPS, AoE Circle, Good Range. No longer obtainable as he was only obtainable from Leaderboards. For a leaderboard unit, he has surprisingly decent DPS and can be viable at times.
+<br />
+'''DPS (Damage Per Second): 5,522
+<br />
+DPM (Damage Per Minute): 331,320
+<br />
+Total DPS (Group DPS): 27,610
+<br />
+Total DPM (Group DPM): 1,656,600}}
+{{TierList/Item|Pito (Terpsichora)
+|Description=Good DPS, AoE Circle, Good Range. Decent bleed damage which allows Pito to be a viable unit when it comes to bleed, if paired with [[Power (Fiend)]]'s Bleed Amplification, Pito's bleed damage will spike heavily.
+<br />
+'''DPS (Damage Per Second): 5,169
+<br />
+DPM (Damage Per Minute): 310,140
+<br />
+Total DPS (Group DPS): 20,676
+<br />
+Total DPM (Group DPM): 1,240,560}}
+{{TierList/Item|Natzo (Lightning Dragon Mode)
+|Description=Great DPS, AoE Circle, Good Range. Goood burn, DPS is good enough to be viable for good players, however, there are much better burn units such as [[Itochi (Susanoo)]].
+<br />
+'''DPS (Damage Per Second): 4,245
+<br />
+[Burn DPS: 2,037]
+<br />
+DPM (Damage Per Minute): 254,700
+<br />
+[Burn DPM: 122,256]
+<br />
+Total DPS (Group DPS): 16,980
+<br />
+[Total Burn DPS: 8,150]
+<br />
+Total DPM (Group DPM): 1,018,800
+<br />
+[Total Burn DPM: 489,024]}}
+{{TierList/Item|Ariva (Reaper)
+|Description=Amazing DPS, Wide AoE Cone, Great Range.
+<br />
+'''DPS (Damage Per Second): 4,928
+<br />
+DPM (Damage Per Minute): 295,680
+<br />
+Total DPS (Group DPS): 19,712
+<br />
+Total DPM (Group DPM): 1,182,720}}
+{{TierList/Item|Chairman Neteru
+|Description=Amazing DPS, Huge AoE Circle, Good Range. Has good shield-breaking capabilities as he does a lot of hits on his final animation!
+<br />
+'''DPS (Damage Per Second): 4,721
+<br />
+DPM (Damage Per Minute): 283,260
+<br />
+Total DPS (Group DPS): 14,163
+<br />
+Total DPM (Group DPM): 849,780}}
+{{TierList/Item|Noruto (Beast Cloak)
+|Description=Good DPS after receiving a buff on Update 10.7.5. Only obtainable from [[Raids]].
+<br />
+'''DPS (Damage Per Second): 4,970
+<br />
+DPM (Damage Per Minute): 298,200
+<br />
+Total DPS (Group DPS): 24,850
+<br />
+Total DPM (Group DPM): 1,491,000}}
+}}
+
+{{TierList/Item Container|color=#ffff8b|id=Magic Wave 50<!-- id TierList -->|name=BAD
+|
+{{TierList/Item|Eta (One-Eye)
+|Description=Good DPS-Godly DPS. This unit is currently the only unit in the game who grows their damage after every kill. Alongside also having INSANE range, she is gaining 3 damage per kill, which can still be a viable unit for some beginner players. In theory, it takes 73k+ kills for her to reach Godly DPS. However, for beginner players, although being power-creeped by modern day Anime Adventures Units, can still be proven "Viable" for some players that have just started if they happen to get her. However, it is not recommended to go for this unit as there are MANY and MUCH better options.
+<br />
+'''DPS (Damage Per Second): 3,027
+<br />
+DPM (Damage Per Minute): 181,620
+<br />
+Total DPS (Group DPS): 9,081
+<br />
+Total DPM (Group DPM): 544,860}}
+{{TierList/Item|Kit (Frenzy)
+|Description=Frenzy= High DPS<br/>Focus= Good DPS<br/>Lethal= Good DPS<br/>Precision= Good DPS with 40% Crit}}
+{{TierList/Item|Red Scar (Conqueror)
+|Description=Moderate DPS with full AoE and stun.
+<br />
+'''DPS (Damage Per Second): 2,761
+<br />
+DPM (Damage Per Minute): 165,660
+<br />
+Total DPS (Group DPS): 8,283
+<br />
+Total DPM (Group DPM): 496,980}}
+{{TierList/Item|Emperor Whitehair
+|Description=Good DPS with full AoE and knockback.
+<br />
+'''DPS (Damage Per Second): 3,051
+<br />
+DPM (Damage Per Minute): 183,060
+<br />
+Total DPS (Group DPS): 9,153
+<br />
+Total DPM (Group DPM): 549,180}}
+{{TierList/Item|Juozu (Joker)
+|Description=Moderate DPS. Good DPS if you count his Bleed damage.
+<br />
+'''DPS (Damage Per Second): 2,692
+<br />
+DPM (Damage Per Minute): 161,520
+<br />
+Total DPS (Group DPS): 10,768
+<br />
+Total DPM (Group DPM): 646,080}}
+{{TierList/Item|Tarata (Ignite)
+|Description=Bad DPS. Not recommended AT ALL to summon for.}}
+
+}}
+</tabber>
+'''Per-Unit (single) DPS is usually what most people in the community talk about as calculations are easier without taking into account number of placement. Please keep in mind that while certain characters' singular DPS may be higher than others, placement limits affect Total DPS significantly. The approximate range for DPS (PER SINGLE UNIT) descriptions are:'''
+
+*Bad DPS 1,000-2000
+*Moderate DPS 2,001-3,000
+*Good DPS 3,001-4000
+*High DPS 4,001-5,000
+*Great DPS 5,001-6,000
+*Amazing DPS 6,001-7,000
+*Massive DPS 7,001-8,000
+*Insane DPS 8,001-9,000
+*Colossal DPS 9,001-10,000
+*Ultimate DPS 10,001-25,000
+*Godly DPS 25,001-30,000+
+
+'''DPS accounts for the DMG (Damage) of a unit divided by its SPA (Attack Speed). The Total damage of a unit can be higher or lower as some units can only be placed 3, 4, 5, etc. amount times.'''<br><center class="mobileonly">{{Anchor1|text=⮝ back start|id=back}}</center>
+__NOTOC____NOEDITSECTION__

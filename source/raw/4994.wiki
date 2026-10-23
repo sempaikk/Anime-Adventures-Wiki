@@ -1,0 +1,22 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}.  He is only obtainable once you get to rank 25 in Flame Hunt [[Battlepass]] and buying Premium Pass for his shiny version.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“IF I don’t stand up here.. IF I don’t reach higher here.. When am I ever going to do it?!"
+|caption2="It hurts.. My body is trembling from the pain.. But.. As long as i can feel the pain, I can move! Just so you wait.. Because I will protect her!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery ==
+
+
+==Trivia==
+__NOTOC____NOEDITSECTION__

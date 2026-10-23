@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained via completing [[Secret Portal|Alien King's Portal]] (guaranteed if you are the host).
+
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="This set of armor used to seal in my immeasurable, irresistible power has been broken."
+|caption2="I lead the band of thieves known as Dark Matter. I am Alien King, Dominator of the Universe."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

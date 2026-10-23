@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 9 - Chainsaw Man Update}}
+
+==Overview==
+{{PAGENAME}} is a {{Rarity|Secret}} {{LU}} unit. He can only be obtained by evolving [[Fiery Commander]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Do you know why i was waiting? Your flesh, blood, sword and soul... I intend to crush you until there's nothing left!"
+|caption2="No turning back now! We must charge!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Active Ability: Zanka No Tachi==
+Yamamoto gains one soul for each kill (including kills prior to upgrade 8). When you activate his ability, he starts a hybrid attack that hits several times and multiplies his base damage depending on the amount of souls received. The attack deals Yamamoto's base damage, plus 2% damage for every soul consumed in the attack. If he consumes 50 souls, he would be doing 200% damage (100% damage + (50 x 2%) = 200%). At 500 souls, he does ''1100% damage or ''1,063,069.48'' damage with his manual ability.''
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades. 
+
+==Trivia==
+*It is recommended to use his ability if you are struggling to finish off strong flying enemies in his range, or to save the souls for when a strong boss without shields appears.
+*Zanka no Tachi caps out at 500 souls (+1000% damage), and any kills past the 500 mark will not be counted for his next ability usage.
+*He was obtainable as a 5% secret drop in Karakora Town [[Dungeons|The Fire]] dungeon. This was changed on 1/14/23.
+*His shiny skin is based on the younger Yamamoto's appearance in the original series.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

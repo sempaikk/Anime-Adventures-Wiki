@@ -1,0 +1,13 @@
+The '''Love Star''', added in [[Update_Log#Update_7_-_Black_Clover_Update_Part_1|Update 10]], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (4th Season). 
+==Information==
+*<span style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span style="color:#921296;">''"Strength is beauty"''</span>
+*<span style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span> (Prior to Update 11) 
+==Rewards ==
+
+{{Container Characterbox
+
+
+|
+{{Characterbox|Snake Princess}}
+}}

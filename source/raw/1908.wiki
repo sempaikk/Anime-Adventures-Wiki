@@ -1,0 +1,29 @@
+==Overview==
+[[Priest]] is  {{Rarity|Mythic}}.'' He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The difference between man and animal... it's the desire to "go to Heaven". Humans think about it...However, dogs and parrots can't grasp this concept. The idea of "Heaven". Humans should spend their lives trying to attain "Heaven". That is the beauty of humans."
+|caption2="Prime numbers are solitary numbers that can only be divided by 1 and itself. They give me strength."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+[[Evolution|Green Baby]] can be obtained from [[Evolution|Jio's Bone]] after Killing 12 Sinner's Souls (Bosses from Space Center Map).
+
+* To get [[Evolution|Jio's Bone]], do Infinite Mode on the Space Center Map and you will obtain it.
+
+* Best way to grind Sinner's Souls faster is to do Space Center's infinite mode until wave 50, repeat it 2-3 times and you will have 12 Sinner's Souls.
+* All of his upgrade costs are prime numbers, befitting the character's personality.
+* Number of Sinners Souls decreased from 36 to 12.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

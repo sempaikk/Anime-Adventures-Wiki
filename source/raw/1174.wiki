@@ -1,0 +1,24 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+{{PAGENAME}} is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Sadness is just another wall that blocks you from moving on. I know it's hard to get past it, but you got to break through."
+|caption2="Sadness is just another wall that blocks you from moving on. I know it's hard to get past it, but you got to break through."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+
+==Trivia==
+* Gray is able to damage and freeze air units.
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

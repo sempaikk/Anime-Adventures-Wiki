@@ -1,0 +1,19 @@
+==Overview==
+'''Demon Girl''' is a {{Rarity|Rare}} unit. She is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Humans are to be protected and saved... I will never hurt them..."
+|caption2="Why do kind people who struggle everyday get trampled over and over?"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]
+[[Category:Bleed Units]]

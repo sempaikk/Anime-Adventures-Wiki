@@ -1,0 +1,36 @@
+{{Limited Unit}}
+{{Meta Unit}}
+{{Infinity Castle Meta Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Vengeful Swordsman]]
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Every morning... when I wash my face and look in the mirror... I see this scar. And I remember that day. So every day... I start the morning with fresh hatred."
+|caption2= “I'm a sinner too. The first time I killed a person... I accepted that I'm a monster. The least I can do is refrain from causing pain to others and take you bastards to hell with me.”
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+== Passive Ability: Spellforged Blades ==
+Attacks from '''{{PAGENAME}}''' also deal his damage as additional {{Damage Type|Magic}} damage. Buffs to {{Damage Type|Physical}} damage apply to his {{Damage Type|Magic}} damage as well. 
+
+This means he does '''x2 his displayed damage''' 
+== Passive Ability: White Flash Draw Technique ==
+The first hit against an enemy will have '''+ 100% Critical Chance''' and penetrate '''60%''' of enemy {{Damage Type|Physical}} and {{Damage Type|Magic}} '''Resistances''' (If they have ones)
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* Despite stating to penetrate '''60%''' of  {{Damage Type|Physical}} and {{Damage Type|Magic}} '''Resistances''' it has been proven he only penetrates '''40%''' 
+* Its possible get a '''Double Crit''' in his first hit ('''x2.5''' instead of '''x1.5''') if you have a base crit chance.
+* [[Gambler (Jackpot)]] gives both types of '''Crit Chance''' (magic and physical) to {{PAGENAME}}
+** For some reason is impossible to get a '''Double Magic Crit''' despite {{PAGENAME}} having a base magic Crit Chance
+* {{PAGENAME}} can be buffed by [[Elfy (Sylph)]] or [[Wind Dragon]] and [[Commander]] '''at the same time''', however, elfy or wind dragon will only buff his {{Damage Type|Magic}} damage.
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

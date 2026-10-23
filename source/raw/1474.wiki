@@ -1,0 +1,1 @@
+<span class="advanced-tooltip" style="border-bottom: 2px dotted; cursor: help;">{{#tag:{{{tag|nowiki}}}|{{{1|}}}}}<div class="tooltip-contents" style="display: none"><{{{tag2|div}}} class="game-tooltip__container game-font-face">{{{2|}}}</{{{tag2|div}}}></div></span>

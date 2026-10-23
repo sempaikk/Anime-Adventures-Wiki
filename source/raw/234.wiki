@@ -1,0 +1,22 @@
+''If you were looking for a different Fox Ninja unit, see [[Fox Ninja (disambiguation)]].''
+=='''Overview'''==
+'''Fox Ninja''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Somebody told me I'm a failure, I'll prove them wrong."
+|caption2="Let me show you my training result from Mount Myoboku!
+|image1={{PAGENAME}}.png |image2={{PAGENAME}}} Shiny.png}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

@@ -1,0 +1,7 @@
+<tr>
+<td>[[File:{{{img|}}}|300px|center]]<center>{{{note|}}}</center></td>
+<td>{{Container Characterbox
+|{{Characterbox|{{{unit|}}}|Skin={{{Skin|}}}}}}}
+<center><div style="font-size: 140%; line-height: 1.4;">{{{cosmetics|}}}</span><br><div style="font-size: 110%; line-height: 1.4;>{{Rarity|{{{rarity|}}}}}</div></center></td>
+{{#if: {{{buff|}}} |<td style="text-align: center;">{{{buff}}}</td>| }}
+</tr>

@@ -1,0 +1,1 @@
+[[File:Robux.png|24px]] <span class="game-font-face" style="position: relative; background: linear-gradient(#F7F7FE, #939397); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">{{{1|}}} Robux</span>

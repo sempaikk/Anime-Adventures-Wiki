@@ -1,0 +1,25 @@
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Itukoda]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Ah! I knew it! Megumi is best appreciated in the flesh! That brat’s flesh is no fun! Where is the cursed energy?! The shikigami?! What a wonderful day it has become! Sorcerers and fish … spawning everywhere like maggots! How Marvelous! With this treasure I summon!!"
+|caption2="Mahoraga, Help, Help, Help Me!!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+== Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Bleed Units]]
+[[Category:Burn Units]]

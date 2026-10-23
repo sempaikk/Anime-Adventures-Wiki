@@ -1,0 +1,32 @@
+{{Unobtainable Unit|Update 16.5 - JoJo Part 4 Update}}
+==Overview==
+
+'''{{PAGENAME}}''' is a ​{{Rarity|Mythical}}​ {{LU}}. He can only be obtained by evolving [[Virtual Samurai]]​.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+
+{{Tower_Infobox
+|caption1="Stay alive you hear my G? I don't care how you do it. Just stay alive until the end."
+|caption2="No, you were so close, you were almost a person! You were so close!"
+}}{{Main Stats}}
+
+==Selling==
+
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

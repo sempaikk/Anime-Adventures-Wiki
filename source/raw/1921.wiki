@@ -1,0 +1,36 @@
+{{Meta Unit}}{{Meta Support Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit that can be obtainable through evolving by using [[Evolution|Heavenly Clock]] on [[Priest (New Moon)]]. 
+
+{{EvolutionTable}}
+{{Takedowns|10,000 (only on [[Story|Cape Canaveral]] content, including New Moon portals)}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="[[Delinquent_(The_World)|You]] were two steps behind me. The blood of the powerful John Family, for their strength courage and their bravery, fate is on their side. However, weakness is also written in their blood. [[Delinquent (The World)|You Delinquent]]... Your weakness is your [[Jolyna (Determination)|Daughter]]!"
+|caption2="The 'Time for Heaven'. It has finally arrived!"
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Active Ability: Time Acceleration==
+[[File:TimeAccelerationIcon.png|thumb|left]]
+'''{{PAGENAME}}''' decreases the SPA of all units in the map for the duration when used.
+* SPA Decrease: 50%
+* Duration: 30 Seconds
+* Global Cooldown: 300 Seconds
+
+
+Note that this does not stack with [[Trickster (Release)|Trickster]]'s ability (only the SPA part). However, this boost doesn't work on units whose SPA is lower than their actual attack animation.
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* Priest (Heaven)'s shiny skin could possibly be based on the video "[https://www.youtube.com/watch?v=5t59Sr9hw7A&ab_channel=Vehgeto Made In Heaven Test Animation]" by Vehgeto as they both similarly share the same Black & White artstyle.
+* All of his upgrade costs are prime numbers, befitting the character's personality.
+** As a result, his cost in high cost contracts and challenges contains a decimal.
+*From update 19.0, he has received a 100% damage buff, increasing his overall damage.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Mythic Units]]

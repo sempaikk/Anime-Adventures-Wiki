@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 7 - Black Clover Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Whether I'm awake or asleep, all I think about is money."
+|caption2=""
+|image1=Ratio (Overtime).png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}} (Kento)}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

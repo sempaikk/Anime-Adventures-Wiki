@@ -1,0 +1,27 @@
+
+''If you were looking for a different Spirit Reaper unit, see [[Spirit Reaper (disambiguation)]]''
+
+=='''Overview'''==
+'''Spirit Reaper (Dusk)''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Let's end this, Illusionist! I'll show you... The Final Getsuga Tensho! This technique allows me to become Getsuga itself. But using it, will cost all my powers as a Shinigami. That's what it means... to be final!"
+|caption2="This is no miracle, I'm going to destroy you completely this time!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

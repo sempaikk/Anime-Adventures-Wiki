@@ -1,0 +1,27 @@
+{{Unobtainable Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He was only obtainable by clearing stage 4 or 5 of the [[Raids#Bizare Town|Bizarre Town]] raid with a 1% and 3% chance respectively.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Daga Kotowaru."
+|caption2="Did you think the great Kishibe Rohan draws manga because he wants money?! I draw manga because I "WANT TO BE READ"! That's the one and only reason. I couldn't care less about anything else!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]

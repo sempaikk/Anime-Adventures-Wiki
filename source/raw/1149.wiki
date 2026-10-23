@@ -1,0 +1,17 @@
+<includeonly><table style="clear:both; width:100%; border:0; font-size:85%; position:relative; max-width:806px; margin-left:auto; margin-right:auto; {{{style|}}}" class="article-table plainlinks">
+<tr>
+<td style="width:1em; background-color:{{#switch:{{{border|}}}
+  | red      = darkred
+  | orange   = orange
+  | purple   = purple
+  | green    = darkgreen
+  | grey | gray = lightgrey
+  | #default = darkgreen}}"></th>
+{{#ifeq:{{{image|false}}}|false|<!--donothing-->|<th style="width:100px; padding:1em; text-align:center;">{{{image|[[File:Missing role.png|65px]]}}}</th>}}
+{{#ifeq:{{{collapse|false}}}|false|<td style="padding-left: 24px; padding-right: 24px;">{{#if:{{{flavor|}}}|<center><i style="line-height:2em;">{{{flavor}}}</i></center>}}
+{{{info}}}</td>|<td style="padding-left: 24px; padding-right: 24px;" class="mw-collapsible mw-collapsed" data-expandtext="Show" data-collapsetext="Hide"><span style="white-space:nowrap;">''{{{flavor}}}''</span><div class="mw-collapsible-content">
+{{{info}}}</div></td>}}
+</tr>
+</table>{{#switch:{{{category|false}}}|false=<!--donothing-->|#default={{#if:{{#explode:{{{category}}}|,|0}}|[[Category:{{#explode:{{{category}}}|,|0}}]]}}{{#if:{{#explode:{{{category}}}|,|1}}|[[Category:{{#explode:{{{category}}}|,|1}}]]}}}}</includeonly><noinclude>{{Doc}}
+*created by User:[https://leagueoflegends.fandom.com/wiki/User:BryghtShadow BryghtShadow] - for wiki -  [https://leagueoflegends.fandom.com/wiki/League_of_Legends_Wiki leagueoflegends.fandom.com]
+*taken from https://leagueoflegends.fandom.com/wiki/Template:Documentation/start_box2</noinclude>

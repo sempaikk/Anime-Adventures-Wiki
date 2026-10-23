@@ -1,0 +1,28 @@
+{{Disenchant Unit}}
+{{Unobtainable Unit|Update 13 - Dressrosa Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She is only obtainable by achieving Top 50 Infinite Run leaderboard (Top 10 if shiny) in Update 12.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Whenever I'd get curious and try to learn about others, I'd wind up driving them away. But then... you asked me that. I got... to learn so much about you two here. And now... I'm all the stronger for it."
+|caption2="It was a couple of first years! First years from Class 1-A who were fighting!"
+|image1= {{PAGENAME}}.png
+}}{{Main Stats}} 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

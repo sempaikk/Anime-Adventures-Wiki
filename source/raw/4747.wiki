@@ -1,0 +1,29 @@
+{{Meta Unit}}{{Infinity Castle Meta Unit}}{{Meta Support Unit}} 
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Reliable Student]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Yeah, you're about to kill me. But even so, I was able to figure out your name. You're nothing special. You might get away for now, but how do you feel? A little brat like me managed to find out what your name was, [[Calm Killer]]"
+|caption2="Didn't I tell [[Gold Boy]]]]? Don't underestimate me."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Attacks starting from Upgrade 5 are able to hit air type enemies.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

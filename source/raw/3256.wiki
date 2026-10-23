@@ -1,0 +1,35 @@
+{{Meta Unit}}
+{{Meta Support Unit}}{{Custom Disclaimer|Semi-Limited Unit|She is noted to have a [[Cake Hunt|Gamepass]] version that is Limited.}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Idol]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1=Ruby, Aqua, I love you. Those words aren’t lies.|caption2=Ruby, Aqua, I love you. Those words aren’t lies.|image1=}}{{Main Stats}}
+
+
+==Selling==
+This unit cannot be sold.
+
+==Trivia==
+Idol (Star) has the ability to lower the cost of upgrading your units and also give a Damage Boost to any of your units you place '''no matter where she is''' placed on the map.
+* This cannot stack with [[Blossom]] buffs.
+* This buff stacks additionally with [[Commander]], [[Wind Dragon]] and [[Griffin (Reincarnation)]]'s buffs
+* Note that her normal version isn't even limited. She's the first unit to do so.
+* She is the first unit to have her banner version after debuting as a battlepass unit.
+* During Update 12.5.0, she had issues with [[Trickster (Release)]].
+* As of Update 15, she, [[Blossom]], [[Skeleton (Soul King)]] and [[Griffin (Reincarnation)]] are the only ones capable of buffing both Physical and Magical damage.
+** She's the only one who can only affect the user's own units.
+*From update 19.5, she can negate High Cost debuffs, which is not affected by High Cost stages and reduced the placement cost of other units to normal state.
+* This is the first unit to be able to reduce upgrade costs, making her very useful for High Cost stages.
+* Golden trait has cost reduction of 6% at deployment, 12% at upgrade 1, 18% at upgrade 2, 24% at upgrade 3.
+
+* This is the first unit to have 2 shiny variants, one from the cake hunt battlepass and one from the banner
+
+
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,22 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained via Summon.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The sufferings of my past were lessons on what to do to others as revenge! If I don't cause misery equal to my own unhappiness, I'll never balance the scales! That's how it was when you're a demon! And we kill anyone who tries to tell us otherwise."
+|caption2="Come on, there's no use crying"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

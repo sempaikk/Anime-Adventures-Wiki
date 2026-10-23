@@ -1,0 +1,14 @@
+The '''Silver Star''', added in [[Update Log|Update 12]], was a reward obtained from reaching Room 100 in the [[Infinity Castle]] (6th Season).
+
+== Information ==
+*<span data-darkreader-inline-color="" style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span data-darkreader-inline-color="" style="color:#921296;">''"As Everything happens for a reason, our destiny slowly takes form"''</span>
+*<span data-darkreader-inline-color="" style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span>
+
+== Rewards ==
+{{Container Characterbox
+
+
+|
+{{Characterbox|Raylay}}
+}}

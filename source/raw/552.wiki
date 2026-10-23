@@ -1,0 +1,15 @@
+
+
+=='''Overview'''==
+'''Norro''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'll see you on the other side, Eto"
+|caption2="I'll see you on the other side, Eto"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

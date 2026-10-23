@@ -1,0 +1,42 @@
+{| class="fandom-table"
+|+
+!
+!{{Damage Type|{{Damage Type|Physical}}
+!{{Damage Type|Magic}}
+!{{Damage Type|True}}
+|-
+|{{Damage Type|Fire}}
+|{{Characterbox|Spider (Immolation)}}  | OR |  {{Characterbox|Berserker (Rage)}}
+|{{Characterbox|Gravity Mage (Void)}}
+|N/A
+|-
+|{{Damage Type|Aqua}}
+|{{Characterbox|Cream (Void)}}
+|
+|N/A
+|-
+|{{Damage Type|Storm}}
+|{{Characterbox|Carrot (Ultra)}}
+|DPS {{Characterbox|Shinobi (Eternal)}} Hybrid Meta {{Characterbox|Dark Mage (Fallen Star)}}
+|N/A
+|-
+|{{Damage Type|Air}}
+|{{Characterbox|Legendary Assassin (Prime)}}
+|
+|{{Characterbox|Captain (God)}}
+|-
+|{{Damage Type|Rose}}
+|{{Characterbox|Somber (Buzzsaw)}}
+|
+|N/A
+|-
+|{{Damage Type|Dark}}
+|{{Characterbox|Switchblade (Deception)}}
+|{{Characterbox|Griffin (Darkness)}}
+|{{Characterbox|Umbra (Nuclear)}}
+|-
+|{{Damage Type|Light}}
+|{{Characterbox|Fused Hero}}
+| Damage {{Characterbox|Golden King (Lord of Heroes)}} Support {{Characterbox|Griffin (Reincarnation)}}
+|N/A
+|}

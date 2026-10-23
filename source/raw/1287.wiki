@@ -1,0 +1,1647 @@
+return {
+	['Special_Effect_List'] = {
+		["Slow"] = {
+			note = 'Slow:<br>The enemy&#39;s speed is reduced for duration of effect.', link = "Effects#Slow"},
+		["Stun"] = {
+			note = 'Stun:<br>Freezes enemy for duration of effect.', link = "Effects#Stun"},
+		["Cursed"] = {
+			note = 'Cursed:<br>Makes Enemy&#39;s unit take 15% more damage.', link = "Effects#Cursed"},
+		["Confused"] = {
+			note = 'Confused:<br>Makes all enemies in range walk backwards for 5 seconds.', link = "Effects#Confused"},
+		["Knockback"] = {
+			note = 'Knockback:<br>Pushes enemy towards their spawn.', link = "Effects#Knockback"},
+		["Freeze"] = {
+			note = 'Freeze:<br>Freezes enemy for duration of effect. (Has a cooldown of 10-12 seconds)', link = "Effects#Freeze"},
+		["Timestop"] = {
+			note = 'Timestop:<br>Freezes enemy for duration of effect. (Has a cooldown of 10-12 seconds)', link = "Effects#Timestop"},
+		["Dismembered"] = {
+			note = 'Dismembered:<br>Causes the enemy to lose a body part and gives permanent 20% more dmg done to that unit', link = "Effects#Dismembered"},
+	},
+ --[[
+		['Effect'] = {
+			['Name'] = 'Burn Bleed',
+			['Ticks'] = 10,
+			['Multiplier'] = 0.025
+		}
+,
+		['Special_Effect'] = {
+			['Name'] = 'Stun',
+		}
+	--]]
+
+
+
+    ['yuta:beam'] = {
+        ['AOE_TYPE'] = 'AoE (Line)',
+        ['width'] = 15
+    },
+    ['yuta:micro'] = {
+        ['AOE_TYPE'] = 'AoE (Cone)',
+        ['angle'] = 45
+    },
+    ['yuta:flash'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 8
+    },
+    ['yuta:slash'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 6
+    },
+    ['geto:spiral'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 12
+    },
+    ['geto:baby'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 6
+    },
+    ['geto:centipede'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 8
+    },
+    ['sukuna:dismantle'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 14
+    },
+    ['sukuna:cleave'] = {
+        ['AOE_TYPE'] = 'AoE (Cone)',
+        ['angle'] = 45,
+		['Special_Effect'] = {
+			['Name'] = 'Dismembered',
+		},
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.0833
+		}
+    },
+    ['sukuna:fire_arrow'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 8
+    },
+    ['megumi:wolf'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 7,
+		['Special_Effect'] = {
+			['Name'] = 'Cursed',
+		},
+    },
+    ['megumi:shadow_garden'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 11
+    },
+    ['megumi_evolved:owl'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 9
+    },
+    ['megumi:owl'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 9
+    },
+    ['megumi_evolved:wolf'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 7
+    },
+    ['kento:precision_slash'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 8
+    },
+    ['kento:collapse'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 9
+    },
+    ['kento:multiple_slashes'] = {
+        ['AOE_TYPE'] = 'AoE (Cone)',
+        ['angle'] = 60
+    },
+    ['kento:punch'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 7
+    },
+    ['nobara:nail'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 6,
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.083333
+		}
+		
+    },
+    ['nobara:strong_nail'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 8
+    },
+    ['nobara:multi_slashes'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 11,
+        ['Hits'] = 4,
+    },
+    ['toge:shout_explode'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 6
+    },
+    ['toge:shout_3'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 13.5
+    },
+    ['toge:shout_2'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 9,
+		['Special_Effect'] = {
+			['Name'] = 'Stun',
+		},
+    },
+    
+    
+    ['itadori:slam'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 11
+    },
+    ['itadori:black_flash'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 11
+    },
+    ['itadori:punches'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 7
+    },
+    ['gojo:blue'] = {
+        ['AOE_TYPE'] = 'AoE (Circle)',
+        ['radius'] = 6
+    },
+    ['gojo:domain'] = {
+        ['AOE_TYPE'] = 'Single'
+    },
+    ['gojo:purple'] = {
+        ['AOE_TYPE'] = 'AoE (Line)',
+        ['width'] = 10
+    },
+    ['gojo:red'] = {
+        ['AOE_TYPE'] = 'AoE (Full)'
+    },
+    
+	['trunks:god_breaker'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['trunks:burning_slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9
+	},
+	['trunks:dome'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['trunks:burning_attack'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['cell:storm'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 11
+	},
+	['cell:beam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 14
+	},
+	['cell:flare'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['cell:purple_blasts'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['erza:sword_strike'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 7
+	},
+	['stand_barrage'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['overhaul:spikes'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['uryu:beam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['gaara:coffin'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['akaza_unit:air_type'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 3
+	},
+	['byakuya:projectiles'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['gaara:spikes'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 45
+	},
+	['katakuri:mochi_barrage'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['tatara:flamethrower'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 45,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.06666
+		}
+	},
+	['rin:skill_two'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9.5
+	},
+	['inosuke:cross'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['krillin:destructo_disc'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['netero:99th_hand'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 13.5
+	},
+	['lucy:taurus_attack'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['juvia:slashes'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 30
+	},
+	['kite:scythe'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 70
+	},
+	['colossal_titan:steam'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['frieza:ball'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['all_might:spin_punch'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 13
+	},
+	['tatara:kagune'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 45
+	},
+	['apshot'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 2.5
+	},
+	['zetsu:spawn'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['piccolo:special_beam_cannon'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 4
+	},
+	['goku_ssb:kamehameha_kaio'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8
+	},
+	['naruto_pts:slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['recoome:beam'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6
+	},
+	['stand_barrage_heavy_end'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['juvia:geyser'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['natsu:breath'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['katakuri:fire_mochi_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.02
+		}
+	},
+	['frieza_boss:spawn_units'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['gildarts_evolved:aura'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['arima:both_attacks'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['luffy_marineford:barrage'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 70
+	},
+	['gray:spears'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7,
+		['Special_Effect'] = {
+			['Name'] = 'Freeze',
+		}
+	},
+	['colossal_titan:spawn'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['king_crimson:back_attack'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['inosuke:slashes'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['gray:hammer'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9
+	},
+	['natsu_evolved:slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.08
+		}
+	},
+	['star_platinum_ts'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['eto:jump'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['king_crimson:slice'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['mihawk:slash'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 5
+	},
+	['amon:smash_1'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['kizaru:teleport'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['rin:skill_one'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = '3',
+			['Multiplier'] = 0.075
+		}
+	},
+	['akaza_unit:annihilation'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['all_might:punch'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['erza_valkyrie:dash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['naruto_pts_evolved:slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['jellal:pleiades'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8.5
+	},
+	['saiki:rock'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['frieza:death_beam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['kaneki:jump'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['ulquiorra_evolved:dash'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['rukia:juhaku'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['aizen:lightning'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['ulquiorra_evolved:cero'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['gray:cannon'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 11
+	},
+	['rengoku:dragon'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['ace:fireflies'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.05
+		}
+	},
+	['lucy_leo:projectiles'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['killua_godspeed_evolved:dash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+		['Special_Effect'] = {
+			['Name'] = 'Stun',
+		}
+	},
+	['future_gohan:beam_1'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['deidara:c0'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['lucy_taurus:smash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['daki:beam_aoe'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['saiki:volleyball'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 3
+	},
+	['juuzou:line'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['goku_ssb:kamehameha'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6
+	},
+	['ulquiorra_evolved:spear'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 13.5
+	},
+	['natsu_evolved:breath'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['all_might:land'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['krillin:double_beams'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 3
+	},
+	['gildarts_evolved:punch'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['gon_adult:final_rock'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['beast_titan_boss:rock'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['aizen:illusion'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['zarbon_evolved:fly_attack'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['zarbon:blast'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['hisoka:5_kind'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['eto:laser'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['gildarts:slam'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['kokushibo:slash'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['gajeel:sword'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['renji:strike'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['akaza_raid:compass'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['akaza:compass'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['all_might:cross'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['shanks:lightning'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['saiki:bomb'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9
+	},
+	['ulquiorra:spin'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7.25
+	},
+	['broly:smash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['rengoku_evolved:undulation'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.1
+		}
+	},
+	['renji:orb'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['aokiji:freeze'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['kaneki_centipede:swipe'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60,
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.083333
+		}
+	},
+	['zenitsu:lightning'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['crocodile:spikes'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 5
+	},
+	['sasuke:dragon_fire'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['akaza_unit:disorder'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['zoro:slashes'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 4
+	},
+	['arima:ixa_attack'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['kisuke:shield_blasts'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['levi:spins'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 2
+	},
+	['goku:beam'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['future_gohan:ki_blasts'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['rengoku_evolved:universe'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['naruto:rasengan_base'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['dabi:fire_punch'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.02
+		}
+	},
+	['future_gohan:beam_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['arima:narukami_attack'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 11
+	},
+	['jellal:meteor'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['crocodile:tornado'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['ichigo:slash'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['rengoku:tiger'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.02
+		}
+	},
+	['starrk_wolf_unit:explode'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['tatara:flamethrower_2'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 45
+	},
+	['ace:enkai'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['hisoka:slash'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 7
+	},
+	['madara:susanoo_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 110
+	},
+	['tanjiro:whirlpool'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['lucy:aquarius_attack'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['dio:road_roller'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9
+	},
+	['flag_bearer:buff_moving'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['amaterasu_2'] = {
+		['AOE_TYPE'] = 'Single',
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 10,
+			['Multiplier'] = 0.025
+		}
+	},
+	['madara:susanoo'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 110
+	},
+	['naruto_pts:rasengan'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['yahaba:arrow_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['ace:pillar'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['law:gamma'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['all_might:smash_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15,
+		['Special_Effect'] = {
+			['Name'] = 'Knockback',
+		}
+	},
+	['naruto_pts:chuck'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['luffy_marineford:stomp'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['lucy:leo_attack'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['starrk:shoot'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 5
+	},
+	['hierophant_green:splash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 3.5
+	},
+	['titan:stomp'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['rukia:tsuki'] = {
+		['AOE_TYPE'] = 'Single',
+		['Special_Effect'] = {
+			['Name'] = 'Freeze',
+		}
+	},
+	['gildarts_evolved:slam'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['jonathan:punches'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['whitebeard:waves'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['attack_titan:spawn_self'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['erwin:spawn_unit'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['jose:spawn_shades'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['broly:beam'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6
+	},
+	['amaterasu'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['uraraka:rock_throw_single'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['noro:attack_1'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['naruto_pts_evolved:beam'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 40
+	},
+	['whitebeard:earthquake'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['naruto_pts_evolved:bomb_throw'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['sanji:table_kick'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['sasori:puppet_spawn'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['akainu:erupt'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['erza_lightning:strikes'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['muzan:heal'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['female_titan:invincibility_activate'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['katakuri:donut'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6
+	},
+	['katakuri:mochi_barrage_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['erza_valkyrie:wheel'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 11
+	},
+	['guldo:paralysis'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['flag_bearer:hold_down'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['pitou:jump_slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['sasuke:fireball'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['luffy:punches'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['jason:shield'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['rin:skill_three'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['jiren:counter'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['jellal:swords'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['kizaru:kick'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['usopp:bamboo'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['britannia_soldier:rifle'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['erza_samurai:skill_1'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5,
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.0833333
+		}
+	},
+	['pitou:dash_slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.0833333
+		}
+	},
+	['ichigo_mask:cross'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 7
+	},
+	['erza_valkyrie:final'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15
+	},
+	['arima:owl_slash'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['eto:shards'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8
+	},
+	['ichigo_hollow:cero'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8
+	},
+	['kaneki_centipede:jump'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['jellal:chariot'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['warhammer_titan:slam'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['gildarts:punch'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['ginyu:spawn_unit'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['nezuko:slashes'] = {
+		['AOE_TYPE'] = 'Single',
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.033333
+		}
+	},
+	['usopp:slingshot_basic'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['bakugou:explosions_new'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['guldo:spike'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['noro:attack_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['vegeta:gun'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['kc:time_erase'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['vegeta:galick_gun'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['pain:almighty_push'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15,
+		['Special_Effect'] = {
+			['Name'] = 'Knockback',
+		}
+	},
+	['pitou_boss:heal'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['byakuya:bankai'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['crazy_diamond_barrage'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['lelouch:summon'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['erza:horizontal_slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6.5
+	},
+	['delaware_smash'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6.5
+	},
+	['starrk:metra'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 20
+	},
+	['gray_evolved:bow'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['lelouch:geass'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['erwin:buff_units'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['ichigo:slash_2'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['rui:webs'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['shuriken_throw'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['zenitsu:lightning_2'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8
+	},
+	['eren_final:rumbling'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['shinkiro:lazer'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['killua_godspeed_evolved:rush'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['netero:zero_hand'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 16
+	},
+	['piccolo:mouth_beam'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 4
+	},
+	['hierophant_green:splash_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['shinkiro:spawn'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['sanji:kick_combo'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['gold_experience:frog_throw_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['meruem:tail_swipes'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['broly:aoe_attacks_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['lucy_aquarius:splash'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 30
+	},
+	['big_puppet:shield'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['shanks:slashes'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 90
+	},
+	['goku_black:slicer'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['juuzou:spin'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10,
+		['Effect'] = {
+			['Name'] = 'Bleed',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.0833333
+		}
+	},
+	['tatara_evolved:slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15
+	},
+	['jonathan:ripple'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['todoroki:ice_fire'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.033333
+		}
+	},
+	['erza_lightning:cloud'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['kisuke:buff'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['ichigo_hollow:slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 3
+	},
+	['tatara_evolved:flamethrower_2'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 45
+	},
+	['tatara:slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15
+	},
+	['killua:thunderbolt'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['gildarts:final'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['dabi:cremation'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 10,
+			['Multiplier'] = 0.004
+		}
+	},
+	['deidara_explosion'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['gon:rock'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['gold_experience:tree'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['katakuri:donut_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6,
+		['Special_Effect'] = {
+			['Name'] = 'Slow',
+		}
+	},
+	['crocodile:throw_explosion'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['attack_titan:spawn_titan'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['gon_adult:single_smash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['kaneki:stab'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['itachi_boss:start_teleport'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['titan_shifter_spawn'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['dio:road_roller_new'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10,
+		['Special_Effect'] = {
+			['Name'] = 'Freeze',
+		}
+	},
+	['gon:scissors'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['gajeel:roar'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['akainu:shower'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 20
+	},
+	['erza:downward_slash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['killua_godspeed_evolved:narukami'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9
+	},
+	['armin:titan_shift'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['rengoku_evolved:dragon'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 18
+	},
+	['broly:aoe_attacks'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['kisuke:net'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['akainu:magma'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['shanks:haki'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['luffy2:gun'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['amon:smash_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['akaza_unit:compass'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['gajeel:lance'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['kisuke:portal'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['ulquiorra:balls_throw'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['killua_godspeed:narukami'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 9
+	},
+	['touka:jump_attack'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['ichigo_mask:slash'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['starrk:summon'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['tanjiro:wheel'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['sanji:diabe_jamble'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['akaza_unit:leaves'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['blackbeard:liberation'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8,
+		['Special_Effect'] = {
+			['Name'] = 'Cursed',
+		}
+	},
+	['jiren:power_impact'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 20
+	},
+	['all_might:jump'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['sasuke:chidori'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['spawn_wolf'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['natsu:slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.08
+		}
+	},
+	['aizen:dragon'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['akainu:punch'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 3,
+			['Multiplier'] = 0.1
+		}
+	},
+	['nezuko:demon_slashes'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['meruem_evolved:rush'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['aizen:coffin'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['katakuri:fire_mochi'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.02
+		}
+	},
+	['kakashi:lightning'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 6
+	},
+	['grimmjow:grand_cero'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 10
+	},
+	['todoroki:ice'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60,
+		['Special_Effect'] = {
+			['Name'] = 'Slow',
+		}
+	},
+	['heal_mage:heal'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['grimmjow:cero_left'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 8
+	},
+	['lelouch:summon_2'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['madara:fan'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 70
+	},
+	['overhaul:deconstruct'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['deidara_clone:self_destruct'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['all_might:smash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15
+	},
+	['zeke:rock_throw_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['muzan:spawn_units'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['gon_adult:barrage'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 14
+	},
+	['deidara:create_unit'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['mihawk:rush'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 3
+	},
+	['kizaru_unit:barrage'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['blackbeard:black_hole'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['levi:slashes_1'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['kite:gun'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['goku_black:scythe'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['madara:susanoo_small'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 90
+	},
+	['madara:susanoo_small_evolved'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 90,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.04
+		}
+	},
+	['ginyu_force:spawn'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['erza_samurai:skill_3'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['kite:mace'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 15
+	},
+	['hisoka:spin_projectiles'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8,		
+		['Special_Effect'] = {
+			['Name'] = 'Slow',
+		}
+	},
+	['killua_godspeed:dash'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['zeke:rock_throw'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['killua_godspeed:rush'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['enmu:hand'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['erza_lightning:vault_jump'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 5
+	},
+	['natsu_evolved:spin_slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['gon:paper'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 5
+	},
+	['ulquiorra:cero'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 7
+	},
+	['pitou:terpischora_rush'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 8
+	},
+	['gildarts:aura'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 50
+	},
+	['juvia:ball'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 6
+	},
+	['whitebeard:slash'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 90
+	},
+	['rengoku_evolved:unknowing'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 60
+	},
+	['netero:third_hand'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 80
+	},
+	['uraraka:rock_throw'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['meruem_evolved:beam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['gildarts_evolved:final'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['rukia:hakuren'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['touka:attack_1'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 4
+	},
+	['juvia_boss:shield'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['natsu:spin_slam'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 12
+	},
+	['levi:slashes_2'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['meruem:summersault'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	},
+	['genos:lazer'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['crazy_diamond:stun_punch'] = {
+		['AOE_TYPE'] = 'Single',
+		['Special_Effect'] = {
+			['Name'] = 'Stun',
+		}
+	},
+	['stand_kick_barrage'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 2
+	},
+	['zoro:spin'] = {
+		['AOE_TYPE'] = 'AoE (Full)'
+	},
+	['spin_single_kick'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['ant_queen:egg'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['deku:punch_1'] = {
+		['AOE_TYPE'] = 'AoE (Line)',
+		['width'] = 4
+	},
+	['pain:meteor'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['genos:missile'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 2.5
+	},
+	['uryu:shot'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 4
+	},
+	['tatara_evolved:flamethrower'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 45,
+		['Effect'] = {
+			['Name'] = 'Burn',
+			['Ticks'] = 5,
+			['Multiplier'] = 0.1333
+		}
+	},
+	['killua:godspeed'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 10
+	},
+	['jellal_raid:buff'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['lucy:multi_summon'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['law:shot'] = {
+		['AOE_TYPE'] = 'Single'
+	},
+	['erza_samurai:skill_2'] = {
+		['AOE_TYPE'] = 'AoE (Cone)',
+		['angle'] = 40
+	},
+	['uryu:volley'] = {
+		['AOE_TYPE'] = 'AoE (Circle)',
+		['radius'] = 7
+	}
+}

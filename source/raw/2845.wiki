@@ -1,0 +1,25 @@
+{{Disenchant Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Explosion Hero (Impact)]]. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="COME BACK HERE!!!!!"
+|caption2="I'm Sorry [[Verdant Hero(Sting)]]..."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+<gallery>
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved_Units]]

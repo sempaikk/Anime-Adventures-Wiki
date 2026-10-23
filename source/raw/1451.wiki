@@ -1,0 +1,26 @@
+{{Unobtainable Unit}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Mimic Sorcerer]].
+[[File:Screenshot 2025-11-11 234850.png|thumb]]
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I want to have a connection with someone. I want to be needed by someone. I want the confidence to feel like it's okay to live."
+|caption2="Rika. Thank you for always protecting me. Thank you for falling in love with me. Can you lend me your power one last time? I want to stop him. I don't need anything else after that. I'll give you my future, my heart, my body, everything. For now on, we'll truly be together forever. I love you, Rika."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*This unit has the same range as [[Dragon Knight (Gauntlet)]] making both of them units with the 2nd biggest range in the game; [[Green Alien (Nameless)]] and [[Somber (Buzzsaw)]] being 1st. Only [[Lulu]] (no range limit) has bigger range.
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

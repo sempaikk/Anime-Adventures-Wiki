@@ -1,0 +1,18 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Peace under an illusion is not true peace. It's only meaningful if the real world manages to accomplish it."
+|caption2="So is this the power, of a god?"
+}}{{Main Stats}}
+
+== Passive Ability: Sand Coffin ==
+Gaara covers the enemy in sand stunning them for a few seconds.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

@@ -1,0 +1,19 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Hearts, you say? You Humans are always so quick to speak of such things. As though you carry your hearts in the very palms of your hands. But this eye of mine perceives all. There is nothing that it overlooks. If this eye cannot see a thing, then it does not exist. That is the assumption under which I have always fought. What is this "Heart"? If I tear open that chest of yours, will I see it there? If I smash open that skull of yours, will I see it there?"
+|caption2="Do not allow yourself to be shaken. Do not weaken your stance. Open your senses. And do not let your guard down for an instant."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

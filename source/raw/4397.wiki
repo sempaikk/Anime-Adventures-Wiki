@@ -1,0 +1,24 @@
+'''Experiment X''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Epic}}</center>
+|{{Characterbox|Experiment X (Imperfect)}}
+|'''[[Experiment X (Imperfect)]]'''
+|-
+|<center>{{Rarity|Legendary}}</center>
+|{{Characterbox|Experiment X (Semi-Perfect)}}
+|'''[[Experiment X (Semi-Perfect)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Experiment X (Perfect)}}
+|'''[[Experiment X (Perfect)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Experiment X (SUPER PERFECT)}}
+|'''[[Experiment X (SUPER PERFECT)]]'''
+|-
+|}

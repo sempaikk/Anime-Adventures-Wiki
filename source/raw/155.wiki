@@ -1,0 +1,404 @@
+=== Page will be continue after the wiki revamp ===
+[[File:Quests (Updated).png|thumb|254x254px]]
+'''Quests''' is an openable Interface that can be used to review the Player's unfinished Quests.
+
+Every day, you can earn up to {{Gems|3,000}} from daily quests! This is one of the easiest and fastest ways to get gems so far. Key word being easiest there are other ways to get gems that are hard, but this method is the easiest if you do not own a macro software.
+
+==Information==
+Quests are separated into 4 different Categories. '''Event''', '''Daily''', '''Infinite''', and '''Story''' quests.
+
+*'''Daily''' quests are quests that are granted every 24 hours. These quests are randomized for everyone and give '''Gems''' as a reward for completing them. Completing all daily quests will earn you Battle pass XP and Event Tokens. Daily quests reset after 24 hours. After [[Update Log#Update%2016%20-%20Overlord%20Update|Update 16 - Overlord Update]], it gives 900 pearls as Event Tokens.
+*'''Event''' quests are quests that are granted during an Event.
+*'''Story''' quests are the Player's '''World''' quests. These can be completed from time to time as you progress further through the Story. Each Act will earn you {{Gems|80}} + 50 Level XP if it's a first time clear, otherwise you'll earn {{Gems|20}} and 50 Level XP for clear. 
+*'''Infinite''' quests are the players random daily '''Infinite''' quests. they are a re-vamp of the daily infinite mode rewards and were added in update 7.00. These quests are randomized for 3 maps and give '''Gems''' as a reward for completing them. They reset after 24 hours.
+==Main Quests==
+<tabber>
+
+|-|Planet Namak=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+|'''Evil Elegance'''
+|<font size="4"> Defeat Zarbo </font><br />
+|{{Gems|80}} (First Time Clear)
+{{Gems|20}} (On Completion)
+|All Acts for this Chapter gives {{Gems|150}} (In "Story" Tab when accessing the Quests Menu)
+|-
+|'''Technician of Time'''
+|<font size="4"> Defeat Goldeo </font><br />
+|{{Gems|20}}
+|-
+|'''Dazzling Destruction'''
+|<font size="4"> Defeat Zezoom </font><br />
+|{{Gems|20}}
+|-
+|'''The Blue Hurricane'''
+|<font size="4"> Defeat Vurtor </font><br />
+|{{Gems|20}}
+|-
+|'''The Ultimate Fighting Squadron'''
+|<font size="4"> Defeat Gunyu </font><br />
+|{{Gems|20}}
+|-
+|'''The Purple Tyrant'''
+|<font size="4"> Defeat Frieza </font><br />
+|{{Gems|20}}
+| Total: {{Gems|120}} Clear (No Quests)
+Total: {{Gems|1380}} First Time (With Quests)
+
+|-|Shiganshinu District=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+|'''The Jaw Titan'''
+|<font size="4"> Defeat Jaw Titan </font><br />
+|{{Gems|80}} (First Time Clear)
+{{Gems|20}} (On Completion)
+|All Acts for this Chapter gives {{Gems|150}} (In "Story" Tab when accessing the Quests Menu)
+|-
+|'''The Female Titan'''
+|<font size="4"> Defeat Female Titan </font><br />
+|{{Gems|20}}
+|-
+|'''The Beast Titan'''
+|<font size="4"> Defeat Beast Titan </font><br />
+|{{Gems|20}}
+|-
+|'''The Armored Titan'''
+|<font size="4"> Defeat Armored Titan </font><br />
+|{{Gems|20}}
+|-
+|'''The Warhammer Titan'''
+|<font size="4"> Defeat Warhammer Titan </font><br />
+|{{Gems|20}}
+|-
+|'''The Colossal Titan'''
+|Defeat the The Colossal Titan
+|{{Gems|20}}
+|Total: {{Gems|120}} Clear (No Quests)
+Total: {{Gems|1380}} First Time (With Quests)
+
+|-|Snowy Town=
+
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+|'''The Arrow Demon'''
+|<font size="4"> Defeat Yahobu </font><br />
+|{{Gems|80}} (First Time Clear)
+{{Gems|20}} (On Completion)
+|All Acts for this Chapter gives {{Gems|150}} (In "Story" Tab when accessing the Quests Menu)
+|-
+|'''The Spider Demon'''
+|<font size="4"> Defeat Zui </font><br />
+|{{Gems|20}}
+|-
+|'''Upper Moon'''
+|<font size="4"> Defeat Daka </font><br />
+|{{Gems|20}}
+|-
+|'''The Ice Demon'''
+|<font size="4"> Defeat Akoku </font><br />
+|{{Gems|20}}
+|-
+|'''The Moon Demon'''
+|<font size="4"> Defeat Kokoshibon </font><br />
+|{{Gems|20}}
+|-
+|'''The Demon King'''
+|<font size="4"> Defeat Muzo </font><br />
+|{{Gems|20}}
+|Total: {{Gems|120}} Clear (No Quests)
+Total: {{Gems|1380}} First Time (With Quests)
+
+|-|Hidden Sand Village=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+|'''The Immortal Ninja'''
+|<font size="4"> Defeat Hildo </font><br />
+|{{Gems|80}} (First Time Clear)
+{{Gems|20}} (On Completion)
+|All Acts for this Chapter gives {{Gems|150}} (In "Story" Tab when accessing the Quests Menu)
+|-
+|'''The Monster of the Hidden Sand'''
+|<font size="4"> Defeat Kisume </font><br />
+|{{Gems|20}}
+|-
+|'''The White Land'''
+|<font size="4"> Defeat Zezsuo </font><br />
+|{{Gems|20}}
+|-
+|'''The Crow'''
+|<font size="4"> Defeat Reanimated Puppet </font><br />
+|{{Gems|20}}
+|-
+|'''The Revived Puppet'''
+|<font size="4"> Defeat Reanimated Puppet </font><br />
+|{{Gems|20}}
+|-
+|'''The Scorpion of the Red Land'''
+|<font size="4"> Defeat Sashora </font><br />
+|{{Gems|20}}
+|Total: {{Gems|120}} Clear (No Quests)
+Total: {{Gems|1380}} First Time (With Quests)
+
+|-|Marine's Ford=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+|'''The Battleship'''
+|<font size="4"> Defeat Marine Battleship </font><br />
+|{{Gems|80}} (First Time Clear)
+{{Gems|20}} (On Completion)
+|Acts for this Chapter gives {{Gems|50}} (In "Story" Tab when accessing the Quests Menu)
+|-
+|'''The White Hunter'''
+|<font size="4"> Defeat Smoka </font><br />
+|{{Gems|20}}
+|-
+|'''The Tyrant'''
+|<font size="4"> Defeat Kumo </font><br />
+|{{Gems|20}}
+|-
+|'''The Yellow Monkey'''
+|<font size="4"> Defeat Kizora </font><br />
+|{{Gems|20}}
+|-
+|'''The Blue Pheasent'''
+|<font size="4"> Defeat Aojimi </font><br />
+|{{Gems|20}}
+|-
+|'''The Buddha'''
+|<font size="4"> Defeat Senbodu </font><br />
+|{{Gems|20}}
+|{{Gems|100}} Act 6 Boss Gem Reward
+
+
+|-|Ghoul City=
+=== '''''Ghoul City''''' ===
+===<u>The Tall Hunter</u>===
+Reward: +25 Gems
+
+===<u>The Gourmet</u>===
+Reward: +25 Gems
+
+===<u>Corspe Armor</u>===
+Reward: +25 Gems
+
+===<u>The Thirteenth</u>===
+Reward: +25 Gems
+
+===<u>The Black Rabbit</u>===
+Reward: +25 Gems
+
+===<u>The Non-Killing Ghoul</u>===
+Reward: +25 Gems
+
+|-|Hollow World=
+=== '''''Hollow World''''' ===
+===<u>The Gillian</u>===
+Reward: +25 Gems
+
+===<u>The Adjuka</u>===
+Reward: +25 Gems
+
+===<u>The Devouring Hollow</u>===
+Reward: +25 Gems
+
+===<u>The Hollow King</u>===
+Reward: +25 Gems
+
+===<u>The Enraged Beast</u>===
+Reward: +25 Gems
+
+===<u>The Wolf</u>===
+Reward: +25 Gems
+
+|-|Ant Kingdom=
+=== '''''Ant Kingdom''''' ===
+===<u>The Officer Ant</u>===
+Reward: +25 Gems
+
+===<u>The Condor Ant</u>===
+Reward: +25 Gems
+
+===<u>The Cheetah Ant</u>===
+Reward: +25 Gems
+
+===<u>The Rage Ant</u>===
+Reward: +25 Gems
+
+===<u>The Butterfly Ant</u>===
+Reward: +25 Gems
+
+===<u>The Queen Ant</u>===
+Reward: +25 Gems
+
+|-|Magic Town=
+=== '''''Magic Town''''' ===
+
+|-|Cursed Academy=
+=== '''''Cursed Academy''''' ===
+
+|-|Clover Kingdom=
+=== '''''Clover Kingdom''''' ===
+
+|-|Cape Canaveral=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Alien Spaceship=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Fabled Kingdom=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Hero City=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Puppet Island=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Virtual Dungeon=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Windhym=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+
+|-|Undead Tomb=
+{| class="article-table"
+|+
+!Quest
+!Objective
+!Reward
+!Quest Reward
+|-
+</tabber><math>\mapsto</math>
+
+==Other Quests==
+''<small>This section is under construction, you can help us expand this section!</small>''
+<tabber>
+|-|Daily Quests=
+{| class="article-table"
+|+
+!Quest
+!Reward
+|-
+|<font size="4"><p><b>Daily Quests Complete!</b></p><font size="3"> Complete all Daily Quests </font><br/>
+|{{Gems|500}}, +500 Battlepass XP
+|-
+|<font size="4"><p><b>Free</b></p><font size="3"> Just Login in </font><br/>
+|{{Gems|5}}
+|-
+|<font size="4"><p><b>Summoning I</b></p><font size="3">Summon at least 1 Fighter from the Shop</font><br/>
+|{{Gems|40}}
+|-
+|<font size="4"><p><b>Summoning II</b></p><font size="3">Summon at least 5 Fighters from the Shop</font><br/>
+|{{Gems|60}}
+|-
+|<font size="4"><p><b>Challenge I</b></p><font size="3">Clear two challenges</font><br/>
+|{{Gems|80}}
+|-
+|<font size="4"><p><b>Multiplayer I</b></p><font size="3">Clear 10 waves with at least one other player</font><br/>
+|{{Gems|40}}
+|-
+|<font size="4"><p><b>Multiplayer II</b></p><font size="3">Clear 25 Waves with at least one other player</font><br/>
+|{{Gems|120}}
+|-
+|<font size="4"><p><b>Multiplayer III</b></p><font size="3">Clear 40 Waves with at least one other player</font><br/>
+|{{Gems|200}}
+|-
+|<font size="4"><p><b>Kills I</b></p><font size="3">Kill 250 enemies in any mode</font><br/>
+|{{Gems|10}}
+|-
+|<font size="4"><p><b>Kills II</b></p><font size="3">Kill 500 enemies in any mode</font><br/>
+|{{Gems|60}}
+|-
+|<font size="4"><p><b>Kills III</b></p><font size="3">Kill 750 enemies in any mode</font><br/>
+|{{Gems|100}}
+|-
+|<font size="4"><p><b>Kills IV</b></p><font size="3">Kill 1000 enemies in any mode</font><br/>
+|{{Gems|160}}
+|-
+|<font size="4"><p><b>Kills V</b></p><font size="3">Kill 2000 enemies in any mode</font><br/>
+|{{Gems|200}}
+|}
+
+|-|Infinite Quests=
+
+===== <u>Wave 10</u> =====
+
+* You are tasked with completing a randomly selected infinite map to wave 10
+Reward: {{Gems|90}}
+===== <u>Wave 25</u> =====
+
+* You are tasked with completing a randomly selected infinite map to wave 25<br />
+Reward: {{Gems|180}}
+===== <u>Wave 50</u> =====
+
+* You are tasked with completing a randomly selected infinite map to wave 50<br />
+Reward: {{Gems|330}}
+</tabber>
+__NOTOC__

@@ -1,0 +1,35 @@
+{{Meta Unit}}{{Meta Support Unit}}
+
+=='''Overview'''==
+'''Shadow Sorcerer (Ritual)''' is a {{Rarity|Mythical}} unit. He is obtained by evolving [[Shadow Sorcerer (Incident)]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="With this treasure, I summon..."
+|caption2="I'm not a hero. I'm a jujutsu sorcerer.
+|image1=Shadow Sorcerer (Ritual).png
+|image2=Shadow Sorcerer (Ritual) Shiny.png
+}}{{Main Stats}}
+
+==Active Ability: Ritual==
+Upon being maxed {{PAGENAME}} will gain the ability to delete itself in return for summoning [[Divine General]].
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* {{PAGENAME}} is a '''meta support''' due to his ability to '''summon''' [[Divine General]] rather than his curse effect
+* {{PAGENAME}} has a 100% chance to apply [[Effects|Curse]].
+* Only one [https://animeadventures.fandom.com/wiki/Divine_General Divine General] can be summoned from each player, meaning that Ritual won't function if you try to use it if one has already been summoned.
+* It is recommended to get unique on Shadow Sorcerer (Ritual) as it allows you to place another down after you have summoned [https://animeadventures.fandom.com/wiki/Divine_General Divine General] on a fully maxed out Shadow Sorcerer (Ritual), also allowing them both to increase dps significantly.
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

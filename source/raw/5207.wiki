@@ -1,0 +1,32 @@
+{{Meta Unit}}{{Story Meta Unit}}{{Infinity Castle Meta Unit}}
+{{Meta Hybrid Unit}}{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She is only obtainable by evolving [[Fiend Girl]].
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Tomorrow is another day on this rocky path we walk, never knowing stability. But I believe. I believe that the sun shines after a downpour."
+|caption2=
+|image1=|image2=Fiend Girl(Butterfly) Shiny.png
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+Her overall damage is increased by 100% during Halloween 2023 event, as well as other units of the same event.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Event Units]]
+
+<references />

@@ -1,0 +1,9 @@
+| style="display: inline-block;border: 0;padding: 0;width: min-content;height: min-content;line-height: 0;"| {{Characterbox|animation=none|{{{1}}}}}
+| class="D(n)" data-sort-value="{{#iferror:{{formatnum: {{#expr: {{{Damage|}}} * 2.142 round 2}} |2|,|.}}|}}"|
+| class="D(n)" data-sort-value="{{{SPA}}}"|
+| class="D(n)" data-sort-value="{{{Range}}}"|
+| class="D(n)" data-sort-value="{{#iferror:{{formatnum: {{#expr: {{#expr: {{{Damage|}}} * 2.142}} div {{{SPA|}}} round 2}} |2|,|.}}|}}"|
+| class="D(n)" data-sort-value="{{{total_cost|}}}"|
+| class="D(n)" data-sort-value="{{{tower_type}}}"|
+| class="D(n)" data-sort-value="{{{attack_type}}}"|
+|-

@@ -1,0 +1,661 @@
+local p = {}
+
+local uData    = mw.loadData('Module:FanmadeUnitData/Data')
+local uData_N  = mw.loadData('Module:FanmadeUnitData/Data/Names')
+local uData_AT = mw.loadData('Module:FanmadeUnitData/Data/AoE_Type')
+
+
+function toNil(thing)
+	if thing==nil or thing=='' then return nil else return thing end
+end
+
+function getUnitID(name)
+	if toNil(uData_N[name]) then return uData_N[name]["name"] end
+end
+function getUnitName(iD)
+	if toNil(uData[iD]) then return uData[iD]["name"] end
+end
+
+
+function p.EvolutionTable(f)
+	local name = toNil(f.args["name"]) or mw.title.getCurrentTitle().text
+	if not toNil(name) then return '<span style="color:red; font-weight:bold;">error</span>' end
+	
+	local dataname = getUnitID(name)
+	local unit = uData[dataname]
+	
+
+function evo(iName)
+	if iName then unit = uData[iName] end
+	if toNil(unit["evolve"]) then 
+		evolve = unit["evolve"]["normal"]
+		sizeitem = 0
+		sizeUnit = 0
+		evolveItem = ""
+		evolveAmountItem = ""
+		evolveUnit = ""
+		evolveAmountUnit = ""
+		TempStorage = '{{EvolutionTable/container'
+		tempItem = '|Items='
+		tempUnit = '|Units='
+		tempText = '|Text='
+		tempTextResult = '|Result='
+		
+		
+		for _ in pairs(evolve["item_requirement"]) do sizeitem = sizeitem + 1
+			evolveItem = evolve["item_requirement"][sizeitem]["item_id"]
+			evolveAmountItem = evolve["item_requirement"][sizeitem]["amount"]
+			tempItem = tempItem ..'{{Item|'.. evolveItem ..'|'.. evolveAmountItem ..'}}'
+		end
+		for _ in pairs(evolve["unit_requirement"]) do sizeUnit = sizeUnit + 1
+			evolveUnit = evolve["unit_requirement"][sizeUnit]["unit_id"]
+			Wikiname = getUnitName(evolveUnit)
+			evolveAmountUnit = evolve["unit_requirement"][sizeUnit]["amount"]
+			tempUnit = tempUnit ..'{{Item/unit|'.. Wikiname ..'|'.. evolveAmountUnit ..'}}'
+		end
+		evolve_unit = unit["evolve"]["evolve_unit"]
+		evolve_text = unit["evolve"]["evolve_text"]
+		unitName = unit["name"]
+		evolveUnitName = getUnitName(evolve_unit)
+		if iName then
+			tempText = tempText .. ("[[%s]] can be evolved from [[%s]] with the following materials:"):format(evolveUnitName, unitName)
+		else
+			tempText = tempText .. ("[[%s]] can evolve into [[%s]] with the following materials:"):format(unitName, evolveUnitName)
+		end
+		
+		tempTextResult = tempTextResult .."{{Characterbox|".. evolveUnitName .."|check_img=true}}"
+
+		TempStorage = TempStorage .. tempItem .. tempUnit .. tempText .. tempTextResult ..'}}'
+		
+
+	end
+end
+
+if toNil(unit["evolve"]) then evo() end
+if toNil(unit["evolved"]) then 
+	evolved = unit["evolved"]["from"]
+	evo(evolved)
+end
+	
+	return f:preprocess(TempStorage)
+end
+
+
+
+
+
+
+function p.ChBox_Text(f)
+	local name = toNil(f.args["name"]) or mw.title.getCurrentTitle().text
+	if not toNil(name) then return '<span style="color:red; font-weight:bold;">error</span>' end
+	local text = toNil(uData_N[name]["ChBox_Text"]) or name
+	return text or name or 'name'
+end
+
+function p.ChBox_Text_Style(f)
+	local name = toNil(f.args["name"]) or mw.title.getCurrentTitle().text
+	if not toNil(name) then return '<span style="color:red; font-weight:bold;">error</span>' end
+	local text = toNil(uData_N[name]["ChBox_Text_Style"]) or nil
+	return text or ""
+end
+
+
+
+function p.name(f)
+	local name = toNil(f.args["name"]) or mw.title.getCurrentTitle().text
+	if not toNil(name) then return '<span style="color:red; font-weight:bold;">error</span>' end
+	local dataname = getUnitID(name)
+	local unit = uData[dataname]
+	local TempStorage = ""
+	local TempStorage2 = {}
+	local Effect = nil
+	
+	size1 = 0
+	for _ in pairs(unit["upgrade"]) do size1 = size1 + 1 end
+	
+	function mysplit1 (inputstr, sep, id)
+		local t={}
+		if toNil(inputstr) then
+			for str in string.gmatch(inputstr, "([^"..sep.."]+)") do
+				table.insert(t, str)
+			end
+		else return nil
+		end
+		return t[id]
+	end
+	function mysplit2 (inputstr, sep)
+		local t={}
+		for str in string.gmatch(inputstr, "([^"..sep.."]+)") do
+			table.insert(t, str)
+		end
+		return t
+	end
+	
+	if toNil(f.args["castomStats"]) then Mstr = tostring(string.gsub(f.args["castomStats"], ",", "|"))
+		function printBox (inputstr, sep, id)
+			TempStorage2 = {}
+		
+			size2 = 0
+			for _ in pairs(mysplit2(Mstr, ";")) do size2 = size2 + 1
+			
+			temp = mysplit1(Mstr, ";",size2)
+			TE = tonumber(mysplit1(temp, "|", 1))
+			if not toNil(TE) then return nil end
+			table.insert(TempStorage2, TE, temp)
+			end
+		end
+		printBox()
+	end
+	
+	
+	
+	TT = "Ground"
+	if toNil(unit.hill_unit) then TT = "HILL"
+	elseif toNil(unit.hybrid_placement) then TT = "Hybrid" end
+		
+	if toNil(unit.spawn_unit) then TT = TT .. " SUMN" end
+	if toNil(unit.aura_buff) then TT = TT .. " BUFF" end
+	
+	AT = {}
+	if toNil(unit.primary_attack_no_upgrades) then
+		tempPrA = unit.primary_attack_no_upgrades
+		if toNil(uData_AT[tempPrA]) then AT = uData_AT[tempPrA] end
+	else AT.AOE_TYPE = tempPrA
+	end
+
+
+
+	cost   = toNil(unit["cost"]) or ''
+	dmg    = toNil(unit["damage"]) or ''
+	range  = toNil(unit["range"]) or ''
+	spa    = toNil(unit["attack_cooldown"]) or ''
+	crit_chance   = toNil(unit["crit_chance"]) or ''
+	AAtt   = toNil(unit["active_attack"]) or ''
+	AAttSt = toNil(unit["active_attack_stats"]) or ''
+	farm   = toNil(unit["farm_amount"]) or ''
+	note   = toNil(unit["note"]) or ''
+	note2  = toNil(unit["note2"]) or ''
+	if toNil(unit["spawn_unit"]) then
+		if unit["spawn_unit"] == true then runnersHealth = toNil(unit["health"]) or '' end
+	end
+	
+	temp = ''
+	if (cost  ~= '') and (cost   ~= 0) then temp = temp ..'|Upgrade_Cost='..  cost end
+	if (dmg   ~= '') and (dmg    ~= 0) then temp = temp ..'|Damage='..         dmg end
+	if (range ~= '') and (range  ~= 0) then temp = temp ..'|Range='..        range end
+	if (spa   ~= '') and (spa    ~= 0) then temp = temp ..'|SPA='..            spa end
+	if (crit_chance   ~= '') and (crit_chance    ~= 0) then temp = temp ..'|Crit_chance='.. crit_chance * 100 end
+	if (TT    ~= '') and (TT     ~= 0) then temp = temp ..'|Tower_Type='..      TT end
+	if (note)		 and (note  ~= 0) then temp = temp ..'|Text_Line_1='..    note end
+	if (note2)		 and (note2 ~= 0) then temp = temp ..'|Text_Line_2='..   note2 end
+
+	if toNil(AT["AOE_TYPE"]) then
+		ATstring = AT["AOE_TYPE"]
+
+		for k, v in pairs(AT) do
+			if k ~= "Effect" and  k ~= "AOE_TYPE" and  k ~= "Special_Effect" and  k ~= "Hits" then
+				ATstring = ATstring .. ' <span style="font-variant-caps: all-small-caps;">- '.. k ..':</span> '.. v
+			end
+		end
+		temp = temp ..'|Attack_Type='.. ATstring
+	end
+	if toNil(AT["Hits"]) then Hits = AT["Hits"] end
+	if toNil(Hits) then
+		temp = temp ..'|Hits=<span class="advanced-tooltip Stats-Box-dotted_Effect"><span class="C(wiki-theme-page)" style="pointer-events: none;">Hits: '.. Hits ..'</span><div class="tooltip-contents mobile-hidden" style="display: none;"><div class="game-tooltip__container game-font-face">Attacks '.. Hits ..' times in a single attack. Damage stated by the unit itself will be divided by the number of hits. This can take out that number of shields from enemy units, and can potentially 1-shot 2-barred enemies.</div></div></span>'
+	end
+	if toNil(AT["Special_Effect"]) then SpecialEffect = AT["Special_Effect"] end
+	if toNil(SpecialEffect) then
+		SE_Name = SpecialEffect["Name"]
+		if toNil(uData_AT["Special_Effect_List"][SE_Name]) then 
+			note = toNil(uData_AT["Special_Effect_List"][SE_Name]["note"])
+			link = toNil(uData_AT["Special_Effect_List"][SE_Name]["link"])
+			temp = temp ..'|Special_Effect=<span class="advanced-tooltip Stats-Box-dotted_Effect">[['.. link ..'|<span class="C(wiki-theme-page)" style="pointer-events: none;">'.. SE_Name ..'</span>]]<div class="tooltip-contents mobile-hidden" style="display: none;"><div class="game-tooltip__container game-font-face">Effect '.. note ..'</div></div></span>'
+		end
+	end
+	if toNil(AT["Effect"]) then Effect = AT.Effect end
+	if toNil(Effect) then
+		temp = temp ..'|Effect_Name='.. Effect.Name
+		temp = temp ..'|Effect_Ticks='.. Effect.Ticks
+		temp = temp ..'|Effect_Ticks DMG Multiplier='.. Effect.Multiplier
+	end
+	if (AAtt  ~= '') and (AAtt   ~= 0) then temp = temp ..'|active_attack='.. AAtt end
+	if (farm  ~= '') and (farm   ~= 0) then temp = temp ..'|farm_amount='..   farm end
+	if (runnersHealth  ~= '') and (runnersHealth   ~= 0) and (runnersHealth   ~= nil) then temp = temp ..'|Spawn='.. runnersHealth end
+	if AAttSt ~= nil then 
+		if toNil(AAttSt["damage"]) and (toNil(AAttSt["damage"]) ~= 0) then
+			temp = temp ..'|active_attack_damage='.. toNil(AAttSt["damage"])
+		end
+		if toNil(AAttSt["attack_cooldown"]) and (toNil(AAttSt["attack_cooldown"]) ~= 0) then
+			temp = temp ..'|active_attack_attack_cooldown='.. toNil(AAttSt["attack_cooldown"])
+		end
+		if toNil(AAttSt["attack_duration"]) and (toNil(AAttSt["attack_duration"]) ~= 0) then
+		temp = temp ..'|active_attack_attack_duration='.. toNil(AAttSt["attack_duration"])
+		end
+	end
+	
+	
+	TempStorage =  '{{Stats Box'.. temp ..'|Upgrade_No='.. (toNil(TempStorage2[0]) or 0) ..'}}'
+
+	for i = 1, size1 do
+
+
+		AT = {}
+		if toNil(unit.upgrade[i].primary_attack) then
+			tempPrA = unit.upgrade[i].primary_attack
+			if toNil(uData_AT[tempPrA]) then
+				AT = uData_AT[tempPrA]
+			else AT["AOE_TYPE"] = tempPrA
+			end
+		end
+
+		if toNil(unit["end_of_wave"]) then end_of_wave = toNil(unit["end_of_wave"][1]["type"]) end
+		cost   = toNil(unit["upgrade"][i]["cost"])
+		dmg    = toNil(unit["upgrade"][i]["damage"])
+		range  = toNil(unit["upgrade"][i]["range"])
+		spa    = toNil(unit["upgrade"][i]["attack_cooldown"])
+		note   = toNil(unit["upgrade"][i]["note"])
+		note2  = toNil(unit["upgrade"][i]["note2"])
+		AAtt   = toNil(unit["upgrade"][i]["active_attack"])
+		AAttSt = toNil(unit["upgrade"][i]["active_attack_stats"])
+		farm   = toNil(unit["upgrade"][i]["farm_amount"])
+ runnersHealth = toNil(unit["upgrade"][i]["health"])
+
+
+
+		temp = ''
+
+		if (cost  ~= nil) and (cost  ~= 0) then temp = temp ..'|Upgrade_Cost='..  cost end
+		if (dmg   ~= nil) and (dmg   ~= 0) then temp = temp ..'|Damage='..         dmg end
+		if (range ~= nil) and (range ~= 0) then temp = temp ..'|Range='..        range end
+		if (spa   ~= nil) and (spa   ~= 0) then temp = temp ..'|SPA='..            spa end
+		if (note  ~= nil) and (note  ~= 0) then temp = temp ..'|Text_Line_1='..   note end
+		if (note2 ~= nil) and (note2 ~= 0) then temp = temp ..'|Text_Line_2='..  note2 end
+		if toNil(AT["AOE_TYPE"]) then
+			ATstring = 'Attack type change to '.. AT.AOE_TYPE
+			for k, v in pairs(AT) do
+				if k ~= "Effect" and  k ~= "AOE_TYPE" and  k ~= "Special_Effect" and  k ~= "Hits" then
+					ATstring = ATstring .. ' <span style="font-variant-caps: all-small-caps;">- '.. k ..':</span> '.. v
+				end
+			end
+			temp = temp ..'|Text_Line_3='.. ATstring
+		end
+		if toNil(AT["Hits"]) then Hits = AT["Hits"] end
+		if toNil(Hits) then
+			temp = temp ..'|Hits=<span class="advanced-tooltip Stats-Box-dotted_Effect"><span class="C(wiki-theme-page)" style="pointer-events: none;">Hits: '.. Hits ..'</span><div class="tooltip-contents mobile-hidden" style="display: none;"><div class="game-tooltip__container game-font-face">Attacks '.. Hits ..' times in a single attack. Damage stated by the unit itself will be divided by the number of hits. This can take out that number of shields from enemy units, and can potentially 1-shot 2-barred enemies.</div></div></span>'
+		end
+		if toNil(AT["Special_Effect"]) then SpecialEffect = AT["Special_Effect"] end
+		if toNil(SpecialEffect) then
+			SE_Name = SpecialEffect["Name"]
+			if toNil(uData_AT["Special_Effect_List"][SE_Name]) then 
+				note = toNil(uData_AT["Special_Effect_List"][SE_Name]["note"])
+				link = toNil(uData_AT["Special_Effect_List"][SE_Name]["link"])
+				temp = temp ..'|Special_Effect=<span class="advanced-tooltip Stats-Box-dotted_Effect">[['.. link ..'|<span class="C(wiki-theme-page)" style="pointer-events: none;">'.. SE_Name ..'</span>]]<div class="tooltip-contents mobile-hidden" style="display: none;"><div class="game-tooltip__container game-font-face">Effect '.. note ..'</div></div></span>'
+			end
+		end
+		if toNil(AT["Effect"]) then Effect = AT.Effect end
+		if toNil(Effect) then
+					temp = temp ..'|Effect_Name='.. Effect.Name
+					temp = temp ..'|Effect_Ticks='.. Effect.Ticks
+					temp = temp ..'|Effect_Ticks DMG Multiplier='.. Effect.Multiplier
+		end
+
+
+		if (AAtt  ~= nil) and (AAtt  ~= 0) then temp = temp ..'|active_attack='.. AAtt end
+		if (farm  ~= nil) and (farm  ~= 0) then temp = temp ..'|farm_amount='..   farm end
+		if (runnersHealth ~= nil) and (farm  ~= 0) then temp = temp ..'|Spawn='.. runnersHealth end
+
+		if AAttSt ~= nil then 
+			if toNil(AAttSt["damage"]) and (toNil(AAttSt["damage"]) ~= 0) then
+				temp = temp ..'|active_attack_damage='.. toNil(AAttSt["damage"])
+			end
+			if toNil(AAttSt["attack_cooldown"]) then
+				temp = temp ..'|active_attack_attack_cooldown='.. toNil(AAttSt["attack_cooldown"])
+			end
+			if toNil(AAttSt["attack_duration"]) then
+			temp = temp ..'|active_attack_attack_duration='.. toNil(AAttSt["attack_duration"])
+			end
+		end
+
+
+		TempStorage = TempStorage .. '{{Stats Box'.. temp ..'|Upgrade_No='.. (toNil(TempStorage2[i]) or i) ..'}}'
+
+	end
+
+
+return f:preprocess(TempStorage)
+
+
+
+
+
+
+
+
+end
+
+
+
+
+
+
+
+
+function p.Get_NonEvoName()
+
+	local name = mw.title.getCurrentTitle().text
+	if not toNil(name) then return 'Unknown' end
+	
+	local dataname = getUnitID(name)
+	local unit = uData[dataname]
+	
+	
+	if toNil(unit["evolve"]) then return name end
+	if toNil(unit["evolved"]) then 
+		    from = unit["evolved"]["from"]
+		unitFrom = getUnitName(from)
+		return unitFrom
+	end
+
+end
+
+
+
+
+
+
+function p.get(f)
+	
+	local unit
+	local get = toNil(f.args[1])
+	if toNil(f.args["unit"])   then unit = f.args["unit"]
+		else 
+			local name = toNil(f.args["name"]) or mw.title.getCurrentTitle().text
+			if not toNil(name) then return '<span style="color:red; font-weight:bold;">error</span>' end
+			if toNil(unitID) then unitID = getUnitID(name) end
+			unit   = toNil(uData[unitID])
+			end
+	local TempStorage = ""
+	local MaxCost = 0
+	size1 = 0
+	for _ in pairs(unit["upgrade"]) do size1 = size1 + 1 end
+	
+	
+	if get == "Non_Evo_Name" then
+		if not toNil(name) then return 'Unknown' end
+		
+		if toNil(unit["evolve"]) then return name end
+		if toNil(unit["evolved"]) then 
+			from = unit["evolved"]["from"]
+			unitFrom = uData[from]["name"]
+			return unitFrom
+		end
+	end
+	
+	
+	if get == "base_damage_type" then
+		if toNil(unit._base_damage_type) then temp = '{{Tower Infobox/Damage type|'.. unit._base_damage_type ..'}}'
+			return f:preprocess(temp) end
+	end
+	if get == "secondary_damage_types" then 
+		temp = ""
+		if toNil(unit._secondary_damage_types) then
+			for k, v in pairs(unit._secondary_damage_types) do
+				if v == true then temp = '{{Tower Infobox/Damage type|'.. k ..'}}' end
+			end
+		end
+		if toNil(unit._show_secondary_damage_types) then 
+			for k, v in pairs(unit._show_secondary_damage_types) do
+				if v == true and temp ~= "" then temp = temp ..'<br>{{Tower Infobox/Damage type|'.. k ..'}}'
+				elseif v == true and temp == "" then temp = '{{Tower Infobox/Damage type|'.. k ..'}}' end
+			end
+		end
+		
+		if temp ~= '' then return f:preprocess(temp) end
+	end
+
+	
+	if get == "total_cost" then
+		for i = 1, size1 do
+			MaxCost = MaxCost + toNil(unit["upgrade"][i]["cost"]) end
+		return MaxCost + toNil(unit["cost"])
+	end
+
+	
+
+	if (get == "attack_type") and toNil(unit.primary_attack_no_upgrades) then
+		TempStorage = ''
+		AT = {}
+		AT2 = {}
+		tempPrA2 = unit.primary_attack_no_upgrades
+		if toNil(uData_AT[tempPrA2]) then
+			if toNil(uData_AT[tempPrA2]["AOE_TYPE"]) then
+				TempStorage = TempStorage .. uData_AT[tempPrA2]["AOE_TYPE"]
+				for k, v in pairs(uData_AT[tempPrA2]) do
+					if k ~= "Effect" and  k ~= "AOE_TYPE" and  k ~= "Special_Effect" and  k ~= "Hits" then
+						TempStorage = TempStorage ..' <span style="font-variant-caps: all-small-caps;">- '.. k ..':</span> '.. v
+					end
+				end
+			end
+		else TempStorage = tempPrA2
+		end
+		
+		for i = 1, size1 do
+			if toNil(unit.upgrade[i].primary_attack) then 
+				tempPrA = unit.upgrade[i].primary_attack
+				if toNil(uData_AT[tempPrA]) then
+					if toNil(uData_AT[tempPrA]["AOE_TYPE"]) then
+						TempStorage = TempStorage.." -><br>".. uData_AT[tempPrA]["AOE_TYPE"]
+						for kk, vv in pairs(uData_AT[tempPrA]) do
+							if kk ~= "Effect" and  kk ~= "AOE_TYPE" and  kk ~= "Special_Effect" then
+								TempStorage = TempStorage.. ' <span style="font-variant-caps: all-small-caps;">- '.. kk ..':</span> '.. vv
+							end
+						end
+					end
+				else TempStorage = TempStorage.." -><br>".. tempPrA
+				end
+			end
+		end
+		return TempStorage
+	end
+	
+	if get == "rarity" then
+		if toNil(unit.rarity) then rarity = unit.rarity
+			return rarity
+		end
+	end
+	
+	if get == "tower_type" then
+		TT = "Ground"
+		if toNil(unit.hill_unit) then TT = "HILL"
+		elseif toNil(unit.hybrid_placement) then TT = "Hybrid" end
+			
+			
+		if toNil(unit.farm_amount) then TT = TT .. " FARM" end
+		if toNil(unit.spawn_unit) then TT = TT .. " SUMN" end
+		if toNil(unit.aura_buff) then TT = TT .. " BUFF" end
+		
+		return TT
+	end
+	
+	if get == "crit_chance" then
+		if toNil(unit.crit_chance) then CC = (unit.crit_chance * 100) .. '%'
+		else return end
+		return CC
+	end
+	
+	if get == "upgrade_levels" then return size1 end
+	
+	if get == "upgrade" then
+		local arg3 = toNil(f.args[2])
+		local arg4 = toNil(f.args[3]) or 1
+		if arg4 == "max" then
+			return toNil(unit["upgrade"][size1][arg3])
+		end
+		return toNil(unit["upgrade"][tonumber(arg4)][arg3])
+	end
+	return unit[get]
+end
+
+function evolve_info()
+	local idata = mw.loadData('Module:ItemData/Data')
+	
+	local name = f.args['item']
+	local unitname = f.args['unit']
+	local dataunitname = uData_N[name]["name"]
+	local unit = uData[dataunitname]
+	unitEvolve_text = unit["evolve"]["evolve_text"]
+	
+	if not toNil(name) then return 'name' end
+	tempName = iuData_N[name]
+	item = iuData[tempName]
+	itemdescription= item.description
+	itemflavor = item.flavor
+	itemRarity = item.rarity
+	 mw.html.create('div')
+	 :css( 'width', '100%' )
+		:wikitext(' ')
+			:tag('span'):attr('class','dottedText')
+			:wikitext('Used on'.. unitname ..'<br>')
+			:wikitext(itemRarity..'<br>')
+			:wikitext(itemflavor):done()
+
+end
+
+
+
+function p.TierListItem(f)
+	
+	local name = toNil(f.args["name"])
+	local unitID = getUnitID(name)
+	local unit = toNil(uData[unitID])
+	if not toNil(unit) then return end
+	size1 = 0
+	for _ in pairs(unit["upgrade"]) do size1 = size1 + 1 end
+
+			
+	baseDamageType = ""
+	if toNil(unit._base_damage_type) then baseDamageType =  '{{Tower Infobox/Damage type|'.. unit._base_damage_type ..'}}' end
+		
+	secondaryDamageTypes = ""
+	if toNil(unit._secondary_damage_types) then
+		for k, v in pairs(unit._secondary_damage_types) do
+			if toNil(v) then secondaryDamageTypes = '{{Tower Infobox/Damage type|'.. k ..'}}' end
+		end
+	end
+	if toNil(unit._show_secondary_damage_types) then 
+		for k, v in pairs(unit._show_secondary_damage_types) do
+			if toNil(v) then secondaryDamageTypes =  '{{Tower Infobox/Damage type|'.. k ..'}}'  end
+		end
+	end
+	h = {args = {unit = unit, 'rarity'}}
+	local rarity = p.get(h)
+
+	if toNil(rarity)       then temp = '|Rarity='.. rarity end
+
+	if toNil(baseDamageType)       then temp = temp ..'|base_damage_type='.. baseDamageType end
+	if toNil(secondaryDamageTypes) then	temp = temp ..'|secondary_damage_types='.. secondaryDamageTypes end
+	local best_velue = {
+          damage = p.test({args = {attribute = 'damage', mode = 'max'}}),
+          range = p.test({args = {attribute = 'range', mode = 'max'}}),
+          attack_cooldown = p.test({args = {attribute = 'attack_cooldown', mode = 'min'}}),
+        }
+	local velue = {
+          damage          = unit["upgrade"][size1]["damage"] / best_velue.damage,
+          range			  = unit["upgrade"][size1]["range"] / best_velue.range,
+          attack_cooldown = best_velue.attack_cooldown / unit["upgrade"][size1]["attack_cooldown"],
+        }
+
+	
+	temp = temp ..'|dot_1='.. velue.damage ..'|dot_2='.. velue.attack_cooldown ..'|dot_3='.. velue.range
+	
+		return temp
+
+end
+
+	function p.test2(f)
+		local attribute = toNil(f.args["attribute"])
+		local mode = toNil(f.args["mode"])
+		local max_value = -math.huge
+		local min_value = math.huge
+		local max_unit = ""
+		local min_unit = ""
+	
+		for unit_name, unit_data in pairs(uData) do
+			if unit_data["upgrade"] then
+				local upgrades = unit_data["upgrade"]
+				local num_upgrades = 0
+				if  toNil(uData[unit_name]) and toNil(uData[unit_name]["upgrade"]) then 
+					for _ in pairs(uData[unit_name]["upgrade"]) do num_upgrades = num_upgrades + 1 end
+				end
+				if num_upgrades > 0 then
+					local last_upgrade = upgrades[num_upgrades]
+					local value = last_upgrade[attribute] or 0
+	
+					if value > max_value then
+						max_value = value
+						max_unit = unit_name
+					end
+	
+					if value < min_value and (value > 0 or not mode or mode ~= "min") then
+						min_value = value
+						min_unit = unit_name
+					end
+				end
+			end
+		end
+	
+		if mode and mode == "min" then
+			return min_value
+		else
+			return max_value
+		end
+	end
+
+
+	function p.test(f)
+		local attribute = toNil(f.args["attribute"])
+		local mode = toNil(f.args["mode"])
+		local max_value = -math.huge
+		local min_value = math.huge
+		local max_unit = ""
+		local min_unit = ""
+	
+		for unit_name, unit_data in pairs(uData) do
+			if unit_data["upgrade"] then
+				local upgrades = unit_data["upgrade"]
+				local num_upgrades = 0
+				if  toNil(uData[unit_name]) and toNil(uData[unit_name]["upgrade"]) then 
+					for _ in pairs(uData[unit_name]["upgrade"]) do num_upgrades = num_upgrades + 1 end
+				end
+				if num_upgrades > 0 then
+					local last_upgrade = upgrades[num_upgrades]
+					local value = last_upgrade[attribute] or 0
+	
+					if value > max_value then
+						max_value = value
+						max_unit = unit_name
+					end
+	
+					if value < min_value and (value > 0 or not mode or mode ~= "min") then
+						min_value = value
+						min_unit = unit_name
+					end
+				end
+			end
+		end
+	
+		if mode and mode == "min" then
+			return min_value
+		else
+			return max_value
+		end
+	end
+
+function p.preprocess(f)
+	return f:preprocess('{{'.. f.args[1]..'}}')
+end
+function p.preprocess2(f)
+	return f:preprocess(f.args[1])
+end
+
+return p

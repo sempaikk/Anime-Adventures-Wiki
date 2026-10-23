@@ -1,0 +1,32 @@
+{{Unobtainable Unit|Update 19 - Winter Update}}
+{{Raid Meta Unit}}
+
+==Overview==
+
+{{PAGENAME}}​ is a {{Rarity|Mythical}}​ unit. He is only obtainable by evolving [[Golden Navy]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Justice lies in values wich cannot transcend the generations." 
+|caption2="Don't try to find a reason... for somebody's love!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+*As of Update 19.0.0, Golden Navy (Buddha) is now unobtainable as his raid has been removed.
+
+==Gallery==
+
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]

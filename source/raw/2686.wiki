@@ -1,0 +1,18 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}.'' He is only obtainable as a [[Tournament|Tournament unit]], preceding [[Tattermo]], and succeeding [[Wukong]]. He is only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="Should something terrible be caused again by the Shikon Jewel, whatever it may be, I shall cut it down with my own hands."
+|caption2="Should something terrible be caused again by the Shikon Jewel, whatever it may be, I shall cut it down with my own hands."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic_Units]]
+[[Category:Tournament Units]]

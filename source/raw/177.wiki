@@ -1,0 +1,28 @@
+"Infinite Mode" is a mode where the Player defends against endless waves of enemies, with each wave progressively getting harder. "Infinite Mode" is only available on "Hard Mode". There is a leaderboard for top "Infinite Mode" players in the "Leaderboard" area. Players who are able to maintain their leaderboard position until the end of the month will receive an exclusive unit.
+
+The amount of gems you get per wave varies:
+* Wave 1-5: none
+* Wave 6 : {{Gems|18}} 
+* Wave 7-15 : {{Gems|3}} 
+* Wave 15-100: {{Gems|5}}
+Do note that from wave 105 onwards gems are no longer rewarded for completing them, maxing at {{Gems|497}} . (confirmed until wave 146)
+
+Daily rewards :
+
+*Wave 10: {{Gems|90}}<br />
+*Wave 25: {{Gems|180}}<br />
+*Wave 50: {{Gems|330}}
+
+==Other Rewards ==
+*Wave 10+ (On Loss): XP [[Items]] and XP for units.
+*Some Infinite Modes, such as Snowy Kingdom, may also reward players with other items, such as [[Portals]] or [[Dungeons|Dungeon Keys]] upon completing.
+
+==Bosses==
+Bosses from the previous acts of the story mode spawn every 10 waves
+
+==Trivia==
+* Leaving in the middle of the infinite will reward you gems, but you will lose out on XP and XP [[Items]].
+*The Daily Rewards used to be {{Gems|10}}, {{Gems|25}} and {{Gems|50}} respectively, but it was buffed at Update X.
+*Walled City is the best infinite to get takedowns for worthiness, as the Massive Colossus enemy spawns in more enemies upon death, along with the enemies having little health compared to most other infinites.
+__NOEDITSECTION____NOTOC__
+[[Category:Game Modes]]

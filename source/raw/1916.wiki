@@ -1,0 +1,24 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. He is only obtainable by achieving a Top 25 Infinite Run in the leaderboard during update 8.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="So tell me: what's it like living in a constant haze of stupidity?"
+|caption2="So tell me: what's it like living in a constant haze of stupidity?"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*{{PAGENAME}} = '''[Limited]''' - Obtained by achieving a top 25 infinite run by Update 8.
+*{{PAGENAME}} Shiny = '''[Limited]''' - Obtained by achieving a top 10 infinite run by Update 8.
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Unobtainable Units]]
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

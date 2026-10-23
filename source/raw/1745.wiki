@@ -1,0 +1,4 @@
+<h3>Input</h3>
+<nowiki>{{DamageType|Magic}}{{DamageType|Physical}}</nowiki>
+<h3>Output</h3>
+{{DamageType|Magic}}{{DamageType|Physical}}

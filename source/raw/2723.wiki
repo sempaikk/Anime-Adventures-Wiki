@@ -1,0 +1,1 @@
+<includeonly>[[File:Gun_devil_bullet.png|24px|link=Currencies]] [[Currencies|<span class="Tsh(Game) game-font-face" style="background: linear-gradient(0deg, #A6372B, #FF5C4D 50%, transparent); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">{{{1|}}} Gun Devil Bullets</span>]]</includeonly><noinclude>{{Doc}}</noinclude>

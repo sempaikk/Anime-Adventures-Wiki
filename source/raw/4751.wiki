@@ -1,0 +1,31 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Mangaka]]. 
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Heaven's Dorr!!"
+|caption2=""
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Rohon (Artist) has multiple abilities such as Freeze/Slow/Knockback/Bleed/Burn, which makes him a strong support unit, but his aoe is below average, is unviable and his freeze ability could ruin timestops.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Meta Units]]
+
+<references />

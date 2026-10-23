@@ -1,0 +1,25 @@
+{{Unobtainable Unit}}
+
+==Overview ==
+
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}​. He can only be obtained via completing [[Secret Portal|King's Portal]] (guaranteed if you are the host).
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox|caption1="We stopped looking for monsters under our bed when we realized they were inside us."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Secret Units]]
+[[Category:Damage Type Physical]]

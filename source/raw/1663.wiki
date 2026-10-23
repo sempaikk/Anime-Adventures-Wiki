@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas Update Part 1}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by evolving [[Karma]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Want to tell me exactly how you two could ever win against me?"
+|caption2="Who...can't beat whom, human?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*applies battle lust to itself: Each attack that hits an enemy gives 5% more damage buff for the unit with a max stack of 25%. The effect will reset if the unit doesn't hit anything for too long.
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Physical]]
+[[Category:Damage Type Lightning]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

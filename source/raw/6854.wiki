@@ -1,0 +1,718 @@
+local p = {}
+local characterMap = mw.loadData('Module:InfoChar/Data')
+local unitData = mw.loadData('Module:UnitData/Data')
+local aoeData = mw.loadData('Module:UnitData/Data/AoE_Type') -- Load AoE data
+local subData = require('Module:InfoChar/SubData')
+local secondSubData = require('Module:InfoChar/2ndSubData') -- Load the new module
+
+local function formatNumber(number)
+    local isNegative = number < 0
+    number = math.abs(number)
+
+    -- Round to two decimal places
+    number = math.floor(number * 100 + 0.5) / 100
+
+    local formatted = tostring(number)
+    local integer, decimal = formatted:match("([^.]+)%.?(.*)$")
+
+    local result = ""
+    local count = 0
+    for i = #integer, 1, -1 do
+        count = count + 1
+        result = integer:sub(i,i) .. result
+        if count % 3 == 0 and i > 1 then
+            result = "," .. result
+        end
+    end
+
+    if decimal ~= "" then
+        result = result .. "." .. decimal
+    end
+
+    if isNegative then
+        result = "-" .. result
+    end
+
+    return result
+end
+
+local function calculateDPS(unitData, characterMap, displayName)
+    -- Find the data from character map
+    local info = characterMap[displayName]
+    if not info then
+        mw.log("calculateDPS: Character not found in characterMap with display name: " .. displayName)
+        return nil, false, "Character not found in characterMap."  --Also return false
+    end
+
+    local unitId = info.name
+    local data = unitData[unitId]
+
+    if not data then
+        mw.log("calculateDPS: Unit data not found in unitData with ID: " .. unitId)
+        return nil, false, "Unit data not found."  --Also return false
+    end
+
+	-- DPS Blacklist
+    local dpsBlacklist = {
+        ["erwin"] = true,  -- Commander
+        ["wendy"] = true,
+        ["leafa_evolved"] = true,
+		-- Add other unit IDs to the blacklist here
+    }
+
+    -- Check if character is blacklisted from DPS calculation
+    if dpsBlacklist[unitId] then
+        mw.log("calculateDPS: Character " .. unitId .. " is blacklisted from DPS calculation.")
+        return nil, false, "DPS calculation is disabled for this character."  --Also return false
+    end
+
+
+    local finalDamage
+    local attackCooldown
+
+    -- Get final damage and cooldown from upgrades if available
+    if data.upgrade then
+        local maxLevel = 0
+        for level, upgradeData in pairs(data.upgrade) do
+            if type(level) == "number" and level > maxLevel then
+                maxLevel = level
+            end
+        end
+        if maxLevel > 0 then
+            finalDamage = data.upgrade[maxLevel].damage
+            attackCooldown = data.upgrade[maxLevel].attack_cooldown or data.attack_cooldown
+        else
+            finalDamage = data.damage
+            attackCooldown = data.attack_cooldown
+        end
+    else
+        finalDamage = data.damage
+        attackCooldown = data.attack_cooldown
+    end
+
+    if not finalDamage then
+        mw.log("calculateDPS: Final damage not found for unit: " .. unitId)
+        return nil, false, "Final damage not found." --Also return false
+    end
+
+    if not attackCooldown then
+        mw.log("calculateDPS: Attack cooldown not found for unit: " .. unitId)
+        return nil, false, "Attack cooldown not found." --Also return false
+    end
+     -- Get the attack name from unit data
+    local attackName
+    if data.upgrade and data.upgrade[#data.upgrade] and data.upgrade[#data.upgrade].primary_attack then
+        attackName = data.upgrade[#data.upgrade].primary_attack
+    elseif data.primary_attack_no_upgrades then
+        attackName = data.primary_attack_no_upgrades
+    end
+      --check DoT effect value
+       local hasDot = false
+        if attackName then
+        local attackData = aoeData[attackName]
+        if attackData and attackData.Effect then
+            local effect = attackData.Effect
+            if effect.Name == "Bleed" or effect.Name == "Burn" or 
+               effect.Name == "Poison" or effect.Name == "Decay" then
+                  hasDot = true
+            end
+        end
+    end
+        
+    
+
+    -- Calculate DoT damage if available
+    local totalDamage = finalDamage
+    local dotDamageText = ""  -- Initialize DoT damage string
+    
+    if attackName then
+        local attackData = aoeData[attackName]
+        if attackData and attackData.Effect then
+            local effect = attackData.Effect
+            if effect.Name == "Bleed" or effect.Name == "Burn" or 
+               effect.Name == "Poison" or effect.Name == "Decay" then
+                local tickDamage = finalDamage * effect.Multiplier
+                local totalDotDamage = tickDamage * effect.Ticks
+                totalDamage = finalDamage + totalDotDamage
+                dotDamageText = string.format(" (including DoT: %s)", formatNumber(totalDotDamage))  -- Update DoT damage string
+            end
+        end
+    end
+    -- Calculate DPS (Damage Per Second)
+    if attackCooldown and attackCooldown > 0 then
+        local dps = totalDamage / attackCooldown
+        -- Multiply by the specific number
+        local multipliedDPS = dps * 9.20406514
+        mw.log("calculateDPS: Calculated DPS = " .. tostring(multipliedDPS))
+        return multipliedDPS, hasDot, dotDamageText
+    else
+        mw.log("calculateDPS: Invalid attackCooldown value.")
+        return nil, false, "Invalid attackCooldown value."
+    end
+end
+
+
+-- Standalone getCalculatedDPS function
+function p.getCalculatedDPS(frame)
+    local displayName = frame.args[1]
+    if not displayName then
+        return "Error: No character name provided."
+    end
+
+    local calculatedDPS, hasDot, dotDamageText = calculateDPS(unitData, characterMap, displayName)
+
+    if calculatedDPS == nil and dotDamageText then
+         return "Error: " .. dotDamageText
+    end
+
+    if calculatedDPS then
+        return formatNumber(calculatedDPS) .. dotDamageText
+    else
+        return "Calculated DPS not available."
+    end
+end
+
+function p.getName(id)
+    local input = id.args[1] or ''
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        if displayName == input then
+            -- Return both name and description if available
+            local result = displayName
+            return result
+        end
+    end
+
+    -- If not found by display name, try finding by ID
+    for displayName, info in pairs(characterMap) do
+        if info.name == input then
+            -- Return both name and description if available
+            local result = displayName
+        end
+    end
+
+    return "Character not found"
+end
+
+function p.getDesc(id)
+    local input = id.args[1] or ''
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        if displayName == input then
+            local description = subData.getDescription(id, displayName)  -- Pass frame (id) and displayName
+            if description then
+                return description
+         
+            else
+                return "Description not found"  -- Handle missing description
+            end
+        end
+    end
+
+    -- If not found by display name, try finding by ID
+    for displayName, info in pairs(characterMap) do
+        if info.name == input then
+            local description = subData.getDescription(id, displayName)  -- Pass frame (id) and displayName
+            if description then
+                return description
+                
+            else
+                return "Description not found"  -- Handle missing description
+            end
+        end
+    end
+
+    return "Character not found"
+end
+
+function p.getStoryDesc(frame)
+    local input = frame.args[1] or ''
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        if displayName == input then
+            local storyDescription = subData.getStoryDesc(frame, displayName)  -- Pass frame (id) and displayName
+            if storyDescription then
+                return storyDescription
+            else
+                return ""  -- Handle missing description
+            end
+        end
+    end
+
+    -- If not found by display name, try finding by ID
+    for displayName, info in pairs(characterMap) do
+        if info.name == input then
+            local storyDescription = subData.getStoryDesc(frame, displayName)  -- Pass frame (id) and displayName
+            if storyDescription then
+                return storyDescription
+            else
+                return ""  -- Handle missing description
+            end
+        end
+    end
+
+    return "Character not found"
+end
+
+function p.getMansionDesc(frame)
+    local input = frame.args[1] or ''
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        if displayName == input then
+            local mdesc = subData.getMansionDesc(frame, displayName)  -- Pass frame (id) and displayName
+            if mdesc then
+                return mdesc
+            else
+                return ""  -- Handle missing description
+            end
+        end
+    end
+
+    -- If not found by display name, try finding by ID
+    for displayName, info in pairs(characterMap) do
+        if info.name == input then
+            local mdesc = subData.getMansionDesc(frame, displayName)  -- Pass frame (id) and displayName
+            if mdesc then
+                return mdesc
+            else
+                return ""  -- Handle missing description
+            end
+        end
+    end
+
+    return "Character not found"
+end
+
+function p.getDPS(frame)
+    local input = frame.args[1] or ''
+    local dot_note = ''
+
+local function getCharacterDPS(displayName, info, frame)
+    local customDPSData = subData.getCustomDPS(info.name)  -- Try to get custom data
+    local calculatedDPS,hasDot, errorMessage = calculateDPS(unitData, characterMap, displayName)
+       local manualPlacementCap = frame.args[4] -- Get the fourth argument, if given from the editor.
+    local charData = secondSubData.getData(displayName)
+          local manualDot = frame.args[5]
+
+    mw.log("getCharacterDPS: calculatedDPS = " .. tostring(calculatedDPS) .. ", errorMessage = " .. tostring(errorMessage))
+
+    -- Use custom data if available; otherwise, calculate it.
+    local result = "" -- Initialize result to an empty string
+    local extraText = ""
+
+    if info.name == "alucard_evolved" then
+        extraText = "<p>Summon HP: 12,234,940</p>"
+    end
+    local unitId = info.name
+    local data = unitData[unitId]
+    
+    if customDPSData then
+       -- Check if result is table or string, if table then concat it with <br>
+            if customDPSData.formattedText and customDPSData.formattedText ~= "" then
+                  result = frame:preprocess(customDPSData.formattedText) -- Applying preprocess here
+                    if type(customDPSData.formattedText) == 'table' then
+                    	local formattedText = table.concat(customDPSData.formattedText, "<br>")
+                result = frame:preprocess(formattedText)
+                else
+                result = frame:preprocess(customDPSData.formattedText)
+                end
+             end
+    elseif unitId == "judar_evo" or unitId == "vanilla_ice_evo" or unitId == "feitan_evo" then
+       if info.dps then
+           local dps = tonumber(info.dps)
+           local dpm = dps * 60
+           local total_dps, total_dpm
+
+           local spawnCap = unitData[info.name] and unitData[info.name].spawn_cap  
+           if not spawnCap then
+              spawnCap = 1
+           end
+           local placement = tonumber(manualPlacementCap) or tonumber(info.placement_cap) or spawnCap
+
+           if placement and placement > 1 then
+               total_dps = dps * placement
+               total_dpm = dpm * placement
+           end
+
+           result = string.format(
+               "DPS: %s<br>DPM: %s",
+               formatNumber(dps),
+               formatNumber(dpm)
+           )
+
+           if total_dps then
+               result = result .. string.format(
+                   "<br>Total DPS: %s<br>Total DPM: %s",
+                   formatNumber(total_dps),
+                   formatNumber(total_dpm)
+               )
+           end
+        end
+     else
+            local dpsValue = calculatedDPS or (info.dps ~= "n/a" and info.dps) or nil
+
+            mw.log("getCharacterDPS: dpsValue (after fallback)=" .. tostring(dpsValue) .. " for " .. displayName)
+
+            if not (dpsValue and dpsValue ~= "n/a") then
+                mw.log("getCharacterDPS: No DPS data available for " .. displayName)
+                return ""  -- No DPS data available
+            end
+             if dpsValue then
+            local dps = tonumber(dpsValue)
+            local dpm = dps * 60
+            local total_dps, total_dpm
+            --Check the spanw cap and get the value from it.
+              local spawnCap = unitData[info.name] and unitData[info.name].spawn_cap  --Get spawn cap from the function.
+             if not spawnCap then
+                spawnCap = 1
+            end
+              local placement = tonumber(manualPlacementCap) or tonumber(info.placement_cap) or spawnCap --GET THE PLACEMENT
+
+            if placement and placement > 1 then
+                total_dps = dps * placement
+                total_dpm = dpm * placement
+            end
+
+            local formatted_result = string.format(
+                "DPS: %s<br>DPM: %s",
+                formatNumber(dps),
+                formatNumber(dpm)
+            )
+
+            if total_dps then
+                formatted_result = formatted_result .. string.format(
+                    "<br>Total DPS: %s<br>Total DPM: %s",
+                    formatNumber(total_dps),
+                    formatNumber(total_dpm)
+                )
+            end
+
+            result = formatted_result
+              else
+                return ""
+            end
+        end
+
+  --Prepare dot_note BEFORE the DPS information
+   local useDot = (manualDot ~= nil and manualDot ~= "n/a") or (charData and charData.dot_dmg == 'true') or hasDot
+     if useDot then
+        local proc_desc = frame:preprocess(string.format("<p>'''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''</p>"))
+        dot_note = proc_desc
+    end
+
+    --Special case for buddha_evo to always show dot_note
+        if info.name == "buddha_evo" or info.name == "osaragi_evo" or info.name == "feitan_evo" or info.name == "hanako-kun_evo" then
+            local proc_desc = frame:preprocess(string.format("<p>'''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''</p>"))
+            dot_note = proc_desc
+        end
+         if info.name == "nagumo_evo" then
+            local proc_desc = frame:preprocess(string.format("<p>'''[NOTE: Unit's DPS INCLUDES the additional average DPS with CRIT.]'''</p>"))
+            dot_note = proc_desc
+        end
+
+    return extraText .. result .. dot_note
+end
+
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        mw.log("p.getDPS: Found by Display Name: " .. displayName)
+        if displayName == input then
+            return getCharacterDPS(displayName, info, frame)
+        end
+    end
+
+    -- Try finding by ID
+    for displayName, info in pairs(characterMap) do
+         mw.log("p.getDPS: Found by IdName: " .. info.name)
+        if info.name == input then
+            return getCharacterDPS(displayName, info, frame)
+        end
+    end
+
+    mw.log("p.getDPS: Character not found: " .. input)
+    return "Character not found"
+end
+--Spawn Cap Code
+local function gSC(unitData, characterMap, displayName)
+    -- Find the data from unitData
+    local info = characterMap[displayName]
+
+    if not info then
+        mw.log("gSC: Character not found in characterMap with display name: " .. displayName)
+        return ""
+    end
+
+    local unitId = info.name  -- Get unit ID from characterMap
+
+    -- NEW: Prioritize manual placement_cap for feitan_evo
+    if unitId == "feitan_evo" and info.placement_cap then
+        return string.format("Placement Cap: %s", tostring(info.placement_cap))
+    end
+    
+    local data = unitData[unitId]
+
+    if not data then
+        mw.log("gSC: Unit data not found in unitData with characterId: " .. unitId)
+        local spawnCap = info.placement_cap
+        if not spawnCap then
+            mw.log("gSC: spawnCap data not found with characterId: " .. unitId)
+            return ""
+        else
+            return string.format("Placement Cap: %s", tostring(spawnCap or "N/A"))
+        end
+    end
+
+    local spawnCap = data.spawn_cap
+    if not spawnCap then
+        mw.log("gSC: spawnCap data not found with characterId: " .. unitId)
+        return ""
+    else
+        return string.format("Placement Cap: %s", tostring(spawnCap or "N/A"))
+    end
+end
+
+function p.gSC(frame)
+    local characterName = frame.args[1]
+
+    if not characterName then
+        return "Character name must be specified."
+    end
+
+    return gSC(unitData, characterMap, characterName)
+end
+
+function p.getExtra(frame)
+    local input = frame.args[1] or ''
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        if displayName == input then
+            local sections = {}
+             local charData = secondSubData.getData(displayName) -- Get character data from 2ndSubData
+              local unitInfo = characterMap[displayName]
+             local unitId = unitInfo.name
+              local data = unitData[unitId]
+
+            -- Check if character data exists
+            if charData then
+                -- Format curse images only if curse1 exists and isn't n/a
+                if charData.curse1 and charData.curse1 ~= "n/a" then
+                    local curse_str = string.format("[[Image:%s icon.png|18px]]", charData.curse1)
+                    if charData.curse2 and charData.curse2 ~= "n/a" then
+                        curse_str = curse_str .. " [[Image:" .. charData.curse2 .. " icon.png|18px]]"
+                    end
+                    sections[#sections + 1] = string.format("Curse: %s", curse_str)
+                end
+
+                -- Format relics, excluding "n/a"
+                local relics_str = ""
+                if charData.relic1 and charData.relic1 ~= "n/a" then
+                    relics_str = frame:preprocess(string.format("{{Item|%s}}", charData.relic1))
+                end
+                if charData.relic2 and charData.relic2 ~= "n/a" then
+                    if relics_str ~= "" then relics_str = relics_str .. " " end
+                    relics_str = relics_str .. frame:preprocess(string.format("{{Item|%s}}", charData.relic2))
+                end
+                if charData.relic3 and charData.relic3 ~= "n/a" then
+                    if relics_str ~= "" then relics_str = relics_str .. " " end
+                    relics_str = relics_str .. frame:preprocess(string.format("{{Item|%s}}", charData.relic3))
+                end
+                if relics_str ~= "" then
+                    sections[#sections + 1] = string.format("Relics: %s", relics_str)
+                end
+
+                -- Format traits if trait1 exists and isn't n/a
+                if charData.trait1 and charData.trait1 ~= "n/a" then
+                    local traits_str = string.format("[[Image:Trait %s.png|18px]]", charData.trait1)
+                    if charData.trait2 and charData.trait2 ~= "n/a" then
+                        traits_str = traits_str .. " [[Image:Trait " .. charData.trait2 .. ".png|18px]]"
+                    end
+                    if charData.trait3 and charData.trait3 ~= "n/a" then
+                        traits_str = traits_str .. " [[Image:Trait " .. charData.trait3 .. ".png|18px]]"
+                    end
+                     if charData.trait4 and charData.trait4 ~= "n/a" then
+                        traits_str = traits_str .. " [[Image:Trait " .. charData.trait4 .. ".png|18px]]"
+                    end
+                    sections[#sections + 1] = string.format("Traits: %s", traits_str)
+                end
+                 
+            end
+            
+
+            -- Only return Recommended section if there are sections to show
+            if #sections > 0 then
+                return "'''Recommended'''<br>" .. table.concat(sections, "<br>")
+            end
+            return "" -- Return empty string if no sections to show
+        end
+    end
+
+    -- If not found by display name, try finding by ID
+    for displayName, info in pairs(characterMap) do
+        if info.name == input then
+          local sections = {}
+             local charData = secondSubData.getData(displayName) -- Get character data from 2ndSubData
+               local unitInfo = characterMap[displayName]
+             local unitId = unitInfo.name
+              local data = unitData[unitId]
+
+            -- Check if character data exists
+            if charData then
+                -- Format curse images only if curse1 exists and isn't n/a
+                if charData.curse1 and charData.curse1 ~= "n/a" then
+                    local curse_str = string.format("[[Image:%s icon.png|18px]]", charData.curse1)
+                    if charData.curse2 and charData.curse2 ~= "n/a" then
+                        curse_str = curse_str .. " [[Image:" .. charData.curse2 .. " icon.png|18px]]"
+                    end
+                    sections[#sections + 1] = string.format("Curse: %s", curse_str)
+                end
+
+                -- Format relics, excluding "n/a"
+                local relics_str = ""
+                if charData.relic1 and charData.relic1 ~= "n/a" then
+                    relics_str = frame:preprocess(string.format("{{Item|%s}}", charData.relic1))
+                end
+                if charData.relic2 and charData.relic2 ~= "n/a" then
+                    if relics_str ~= "" then relics_str = relics_str .. " " end
+                    relics_str = relics_str .. frame:preprocess(string.format("{{Item|%s}}", charData.relic2))
+                end
+                if charData.relic3 and charData.relic3 ~= "n/a" then
+                    if relics_str ~= "" then relics_str = relics_str .. " " end
+                    relics_str = relics_str .. frame:preprocess(string.format("{{Item|%s}}", charData.relic3))
+                end
+                if relics_str ~= "" then
+                    sections[#sections + 1] = string.format("Relics: %s", relics_str)
+                end
+
+                -- Format traits if trait1 exists and isn't n/a
+                if charData.trait1 and charData.trait1 ~= "n/a" then
+                    local traits_str = string.format("[[Image:Trait %s.png|18px]]", charData.trait1)
+                    if charData.trait2 and charData.trait2 ~= "n/a" then
+                        traits_str = traits_str .. " [[Image:Trait " .. charData.trait2 .. ".png|18px]]"
+                    end
+                    if charData.trait3 and charData.trait3 ~= "n/a" then
+                        traits_str = traits_str .. " [[Image:Trait " .. charData.trait3 .. ".png|18px]]"
+                    end
+                     if charData.trait4 and charData.trait4 ~= "n/a" then
+                        traits_str = traits_str .. " [[Image:Trait " .. charData.trait4 .. ".png|18px]]"
+                    end
+                    sections[#sections + 1] = string.format("Traits: %s", traits_str)
+                end
+                
+            end
+            
+
+            -- Only return Recommended section if there are sections to show
+            if #sections > 0 then
+                return "'''Recommended'''<br>" .. table.concat(sections, "<br>")
+            end
+            return "" -- Return empty string if no sections to show
+        end
+    end
+
+    return "Character not found"
+end
+
+function p.getCost(frame)
+	local function fn(number)
+    if number >= 1000 then
+        return string.format("%.2fK", number/1000)
+    else
+        return string.format("%.0f", number)
+    end
+end
+    local input = frame.args[1] or ''
+    local unitInfo
+
+   --Blacklist table
+    local blacklist = {
+        ["frieren_evo"] = true,
+        ["buddha_evo"] = true,
+        ["nagumo_evo"] = true,
+        ["feitan_evo"] = true,
+        ["osaragi_evo"] = true,
+        ["gaku_evo"] = true,
+        ["sakamoto_evo"] = true,
+        ["aizen_transcended"] = true,
+        ["honey_evo"] = true,
+        ["grimmjow_2_evo"] = true,
+        ["gremmy_evo"] = true,
+        ["vanilla_ice_evo"] = true,
+        ["judar_evo"] = true,
+    }
+
+
+    -- Try finding by display name first
+    for displayName, info in pairs(characterMap) do
+        if displayName == input then
+            unitInfo = info
+            break
+        end
+    end
+
+    -- If not found by display name, try finding by ID
+    if not unitInfo then
+        for displayName, info in pairs(characterMap) do
+            if info.name == input then
+                unitInfo = info
+                break
+            end
+        end
+    end
+
+    if not unitInfo then
+        return ""
+    end
+
+	-- Check if the character is in the blacklist
+    if blacklist[unitInfo.name] then
+        return "" -- Return empty string if character is blacklisted
+    end
+
+
+    local unitId = unitInfo.name
+    local data = unitData[unitId]
+
+    if not data then
+        return ""
+    end
+
+    local placementCost = data.cost
+    local totalUpgradeCost = placementCost or 0
+
+    if data.upgrade then
+        for _, upgradeData in pairs(data.upgrade) do
+            if upgradeData.cost then
+                totalUpgradeCost = totalUpgradeCost + upgradeData.cost
+            end
+        end
+    end
+
+    local output = {}
+
+    if placementCost then
+        output[#output + 1] = string.format("Placement Cost: {{Yen|%s}}", fn(placementCost))
+    end
+
+    if totalUpgradeCost and totalUpgradeCost > 0 then
+    	if unitId == "femto" then
+    		 output[#output + 1] = string.format("Total Up. Cost: {{Yen|100K (∞)}}")
+    		else
+        output[#output + 1] = string.format("Total Up. Cost: {{Yen|%s}}", fn(totalUpgradeCost))
+    	end
+end
+
+    if #output > 0 then
+        return table.concat(output, "<br>")
+    else
+        return "Cost data not available"
+    end
+end
+
+
+return p

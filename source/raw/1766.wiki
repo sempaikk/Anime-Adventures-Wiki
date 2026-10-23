@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas 2022 Update Part 1}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} {{LU}}. He was only obtainable through completing a [[Quests]] which isnt available anymore.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Up and down, left and right, front and back... The direction from which you're taking damage. Can you really fight while reversing all of that inside your head?"
+|caption2="Up and down, left and right, front and back... The direction from which you're taking damage. Can you really fight while reversing all of that inside your head?"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Light}} damage type, along with other units without a second damage type.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Light]]
+[[Category:Legendary Units]]
+[[Category:Event Units]]

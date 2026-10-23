@@ -1,0 +1,21 @@
+{{Disenchant Unit}}
+{{Meta Unit}}{{Unobtainable Unit|Update 11 - Seven Deadly Sins Update Part 1}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}} He can only be obtained by evolving [[Blaze Frost]]
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Don't blame me for what happens next."
+|caption2="If You're Going To Rely On Words Alone, Then They Better Be Incredibly Powerful."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

@@ -1,0 +1,19 @@
+{{Disenchant Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He was only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+== Stats Overview ==
+{{Tower_Infobox|caption1="You who are obsessed with strength. You... are me... from the past or... from another future... Burn up and be put to rest."|caption2="I did everything I could to get ahead of you, but the harder I worked, the more obvious it became just how much of a widening gap seperated the two of us. The stronger you got, the angrier I became... STAND UP AND SHOW THEM WHY YOU'RE BETTER!"}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+
+== Gallery ==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

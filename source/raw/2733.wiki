@@ -1,0 +1,2 @@
+Before evolving this unit, the unit must have {{{1}}} Takedowns.
+<ref>Takedowns refer to kills or assists</ref>

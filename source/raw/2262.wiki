@@ -1,0 +1,31 @@
+#REDIRECT [[Green Alien (Nameless)]]
+{{DISPLAYTITLE:Piccolo}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Epic}} unit. He is only obtainable by evolving [[Green Alien (Nameless)]]]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="MY NAME IS PICCOLO."
+|caption2="MY NAME IS SHINY PICCOLO."
+|Damage_type=true|Secondary_Damage_type=true|deployment_cost=true|total_cost=true|upgrade_levels=true|spawn_cap=true|Tower_type=true|Crit_Chance=true|Attack_Type=true|Damage=true|seconds_per_attack=true|range=true}}{{Main Stats}}
+
+== Passive Ability: Piercing Fangs==
+After upgrade 4, {{PAGENAME}} gains an additional Jake which does nothing due to his 3 attacks each dealing 50% of his base damage. This is removed upon reaching Upgrade 8. 
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*As of Update 11, his Upgrade 8 not dealing 50% bonus damage is yet to be confirmed if it is a bug or not.
+
+__NOTOC____NOEDITSECTION__{{DEFAULTSORT:Green Alien (Nameless)}}
+[[Category:Epic Units]]
+{{Unit Navigation}}
+
+__STATICREDIRECT__
+__INDEX__
+__NEWSECTIONLINK__

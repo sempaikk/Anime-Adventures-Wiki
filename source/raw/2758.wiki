@@ -1,0 +1,27 @@
+
+''If you were looking for a different Tyrant unit, see [[Tyrant (disambiguation)]]''.
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Golden Tyrant]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="[[Super Bro|You]] dare make me exert myself, make me put effort into a fight? Then I will teach you a lesson... Behold! This is Golden Tyrant! The last thing you will ever see!"
+|caption2="You insignificant monkey!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic_Units]]
+[[Category:Hill Unit]]

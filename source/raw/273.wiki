@@ -1,0 +1,77 @@
+__NOTOC__
+
+=== Q: Is the game available on Mobile? ===
+Yes
+
+<hr>
+===Q: Is the game available on Xbox?===
+Not yet.
+
+<hr>
+=== Q: What is the difference in damage between a Level 1 Unit and a Level 100 Unit?===
+A Level 100 Unit does around 9.204x more damage than a Level 1 Unit.
+
+<hr>
+===Q: What does Critical Chance do?===
+Some {{Rarity|Mythic}} and {{Rarity|Secret}} units with critical chance can deal a critical attack, which makes it do 50% more damage. The exception is [[Levy Ackman]], who does 100% more damage when he attacks with his critical hit. Refer to the '''Critical''' section on the [[Effects]] page.
+
+<hr>
+===Q: How do I get more Gems? ===
+Refer to the '''Gems''' section on the '''[[Currencies]]''' page.
+
+<hr>
+===Q: Why do I get items from the banner? Does this mean I didn't get a unit?===
+No, items are rare drops from the banner ''in addition'' to specific units. You always get at least one unit for each summon.
+
+<hr>
+===Q: The game is too laggy, what can I do to reduce lag? ===
+You can reduce the lag by turning off some options in Settings.
+
+<hr>
+===Q: What codes are there?===
+Refer to the '''[[Codes]]''' page.
+
+<hr>
+===Q: What are Shiny Units? ===
+Shiny units are very rare skins for units and are purely cosmetic. You have a small chance to get a shiny from each summon. Also, you can remove shiny on units with rarity '''Legendary''' or '''Mythical''' for star remnants.
+
+<hr>
+===Q: What are traits?===
+Traits are special unit powerups that can significantly boost its '''Damage''', '''SPA''' & '''Range'''. For more details, refer to the to the '''[[Traits]]''' page.
+
+<hr>
+===Q: Why are my unit stats different than my friend's if they are the same character?===
+Units have randomized stats that boost its '''Damage''', '''SPA''' & '''Range'''. For more details, refer to the '''[[Powerups]]''' page.
+
+<hr>
+=== Q: How do I play Infinite Mode?===
+Finish all Levels of a World to unlock its Infinite Mode. Each world's Infinite Mode has its leaderboard, and you can gain gems by reaching certain waves per day for each world's Infinite Mode.
+
+<hr>
+===Q: Do gems save when you get kicked/disconnected from the Time Machine?===
+Refer to the [[Time Machine|'''Time Machine''']] page.
+
+<hr>
+===Q: What do some abbreviations mean on some pages?===
+Refer to the '''[[Terminology]]''' page.
+
+<hr>
+===Q: What is the difference between Kills and Takedowns? ===
+Kills are only registered if the unit itself kills the enemy. For example, if Uru and Aizen are on the map, if Uru does the "final hit" it only registered for Uru. Takedowns are some-what like "mob-sharing", meaning as long as the unit hits the enemy, whether it does the final hit or not, a takedown is registered.
+
+<hr>
+===Q: How does one level up their units quickly?===
+To quickly level up a unit to level 50 - 60, you can just play with a unit in a latest story mode. To quickly level up a unit to level 100, fuse the unit with legendary units summoned from banner or feed them with EXP items which can be obtain from playing any story mode (Prefer '''Magic Town''' map above) or buy from '''Hurbis store'''.
+
+=== Q: How to use limit break? ===
+To limit break, a unit must be in rarity either '''Mythic''' or '''Secret''' and they must be at least level 100 (max). Go to the limit break section, and sacrifice at least 12 '''mythic''' units (6 if evolved) and a wish star in order to limit break its level, extend 10 more levels. For more information, refer to [[Powerups]] page.<hr>
+
+=== Q: How to get [[Supreme Being]]? ===
+To get '''Supreme Being''', you need to summon a unit from '''Dungeon Throne''' units from the banner to get the Staff, the units are: [[Bloodcry]], [[Thunder Maid|Thunder maid]], [[Lucifer]], [[Cherub]]. Sacrifice 3 of those unit after they evolved to obtain him (Can sacrifice 2 of same evolved units).<hr>
+[[Category:Community]]
+
+=== Q: How do farm takedown fast? ===
+To farm takedown on a unit, you need to use them on killing enemies in '''Wall City''' infinite mode, which is the most efficiency way to farm takedown due to its 2nd easiest world and the Massive Colossus enemy can spawn more enemies to get more takedown.<hr>
+
+=== Q: What does takedown do? ===
+Takedown are usually required for most world/raid units to evolve. It also required for getting worthiness in order to improve the units stats from '''Cosmic Cat''' when rerolling a unit stats.

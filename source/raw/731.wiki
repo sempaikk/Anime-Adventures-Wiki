@@ -1,0 +1,26 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable through [[Summon|summons]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Yup! I'm purrty strong! ♡"
+|caption2="Yup! I'm purrty strong! ♡"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* {{PAGENAME}} was featured as a Secret Boss in Ant Kingdom on [[Infinite Mode]] during Update 4.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Bleed Units]]

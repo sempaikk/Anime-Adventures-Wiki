@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas Update Part 1}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by achieving a Top  25 Infinite Run in the leaderboard during Update 7.
+He is also the boss of stage 3 of [[Story#Navy Bay|Navy Bay]] as The Tyrant.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If you were to take a trip, where would you want to go?"
+|caption2=""
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*{{PAGENAME}} = '''[Limited]''' - Obtained by achieving a top 25 infinite run by Update 7.
+*{{PAGENAME}} Shiny = '''[Limited]''' - Obtained by achieving a top 10 infinite run by Update 7.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Physical]]
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]

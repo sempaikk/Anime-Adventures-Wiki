@@ -1,0 +1,15 @@
+The '''Blood Star''', added in [https://animeadventures.fandom.com/wiki/Update_Log#Update_11_-_Seven_Deadly_Sins_Update_Part_1 Update 11], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (5th Season).
+
+==Information==
+*<span data-darkreader-inline-color="" style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span data-darkreader-inline-color="" style="color:#921296;">''"Everytime I hear your voice, the single scar on me begins to ache"''</span>
+*<span data-darkreader-inline-color="" style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span> (Prior to Update 12)
+
+==Rewards==
+
+{{Container Characterbox
+
+
+|
+{{Characterbox|Unohona}}
+}}

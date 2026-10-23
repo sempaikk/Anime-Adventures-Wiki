@@ -1,0 +1,25 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Black Blade]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="This was the first time I've seen royalty labeled as a failure... If you feel like fighting against it all, come with me."
+|caption2="Surpass your limits. Right here. Right now."
+}}{{Main Stats}}
+
+==Passive Ability:True Damage==
+{{PAGENAME}} has the ability to deal 10% True Damage on every attack and attack through shields on enemies. {{PAGENAME}} deals full damage through shields and also damages shields after Upgrade 7.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

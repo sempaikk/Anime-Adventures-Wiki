@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 11.75 - Freezo's Invasion Raid}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She is only obtainable once you get rank 25 in Cloud Hunt and with Premium Pass for her shiny version.
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+}}{{Main Stats}}
+
+==Selling==
+This unit cannot be sold.
+
+==Trivia==
+*With {{Yen|1,000}}, she is one of the five cheapest {{Rarity|Mythical}} upon deployment alongside [[Idol (Star)]], [[Hubris (Night)]], [[Captain (God)]] and [[Boxer]].
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

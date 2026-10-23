@@ -1,0 +1,20 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You think you're the fastest.... wait until you meet me, SUPERSOUND! I'll demolish you like I demolish chili dogs. Quick and effortlessly."
+|caption2="You bunch with your little game of 'Let's pretend to fight for justice' can't win against a truly strong opponent, nor can you protect anything."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

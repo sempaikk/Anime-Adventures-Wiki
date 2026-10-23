@@ -1,0 +1,25 @@
+{{Limited Unit}}
+==Overview==
+'''Gravity Mage''' is a {{Rarity|Mythical}} {{LU}}​. He can only be obtained via [[Summon|summons]]​ in the Limited-Time Event Banner.
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Do you know when it's alright to chicken out and go home? There is no such time."
+|caption2="According to one legend, he would apparently eat the raw flesh of his victims he'd kidnap from the capital... I can relate to his drinking habits, but cannibalism just isn't my thing..."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Mythic Units]]

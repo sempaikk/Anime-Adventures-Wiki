@@ -1,0 +1,25 @@
+=='''Overview'''==
+'''Johna''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Guess who survived his time in hell, [[JIO|Jio]]."
+|caption2="Guess who survived his time in hell, [[JIO|Jio]]."
+|image1=
+|image2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+His shiny version resembles his outfit during his final game of rugby in his school years.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

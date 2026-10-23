@@ -1,0 +1,19 @@
+''If you were looking for a different Izo unit, see [[Izo (disambiguation)]]''.
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+He is also the boss of stage 4 of [[Story#Hidden Sand Village|Hidden Sand Village]] as The Crow.
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Even the strongest of opponents always have a weakness."
+|caption2="Those who cannot acknowledge themselves, will eventually fail."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Before Update 10.7.5, he did not have {{Damage Type|Dark}} as a secondary damage type.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Burn Units]]

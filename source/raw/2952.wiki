@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 13 - Dressrosa Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. He is a [[Tournament|Tournament-exclusive]] unit (preceding [[Dog Demon]] and succeeding [[Boxer]]), only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=A dream means nothing if you don't grab it with your own hands!
+|caption2=Watch me closely. I'm going to crush him with the power you all gave me.
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Exclusive Units]]
+[[Category:Tournament Units]]

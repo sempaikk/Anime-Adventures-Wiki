@@ -1,0 +1,1 @@
+<span>{{#if:{{{2|}}}|x{{{2|}}}<nowiki> </nowiki>}}{{#iferror:[[{{#invoke:UnitData|get|name={{{1|}}}|name}}]]|[[{{{1|unit}}}|{{{1|unit}}}]]}}<br></span>

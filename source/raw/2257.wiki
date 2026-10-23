@@ -1,0 +1,24 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons.]]
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You are too young to worry about failure. In a pinch, just muddle through."
+|caption2="If you're going, you'll have to kill me first...!!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Passive Ability: Piercing Fangs ==
+After upgrade 4, '''{{PAGENAME}}''' gains a significant boost in DPS. This enhancement results from his three hits, each now dealing 50% of his base damage, contributing to an overall 50% DPS increase. 
+
+==Selling==
+Unit sells for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,15 @@
+=='''Overview'''==
+{{PAGENAME}} is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]]. 
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="So be it, I'll just have to do it! Golden Experience!"
+|caption2="This is, requiem"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

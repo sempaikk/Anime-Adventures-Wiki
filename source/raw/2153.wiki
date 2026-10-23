@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. She can only be obtainable by evolving [[Ghosty]].
+
+==Stats Overview==
+
+{{EvolutionTable}}
+
+{{Tower_Infobox
+|caption1="It must be nice having someone care enough to cry over you."
+|caption2="D-Don't you die, Aki. I want you to cry for me... When I... die..."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Active Ability: Final Sacrifice==
+This ability is obtained on Himeno's 8th upgrade which upon being used, removes Himeno from the map and summons the Ghost Devil. It has aproximately 335k-350k HP at Level 100, and will attack any nearby enemy, hitting twice, with each dealing half of Himeno's damage when sacrificed.
+
+[[File:Hime_death_B.gif|330x330px]]
+[[File:Hime_spawn_B.gif|330x330px]]
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

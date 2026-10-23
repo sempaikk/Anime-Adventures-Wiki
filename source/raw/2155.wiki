@@ -1,0 +1,37 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by evolving [[Curse]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Enemies are enemies… we’re only using them. I have no intention of getting friendly with one.”
+|caption2="The one who killed my family and the one who killed my buddy are still alive. So, what would I be quitting for?"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Contract: Kon==
+[[File:ContractKonIcon.png|thumb|left]]
+Curse (Contract) gains 50% more damage from his Curse Devil Form but he gains 50% more SPA. He now has a bigger AOE from his previous form which lets him attack more enemies, but costing his ability to do multi-hit.
+
+His Kon form is Recommended for crowd-control or killing a huge wave of enemies.
+
+==Contract: Curse Devil==
+[[File:ContractCDIcon.png|thumb|left]]
+Curse (Contract) applies a curse stack every time he lands a critical hit on an enemy. If he lands 4 Curse Stacks, he would deal an extra 200% more damage to enemies (true damage) . He is a multihit unit so he can attack multiple times in 1 attack (no dmg multipliers) significantly increasing his Curse Stack every attack. The  [[Relics|{{RarityColor|Mythic|Nail}} Relic]] can heavily boost his critical chance easily increasing his curse stack and activating his 200% true damage boost (true damage) but his AoE is smaller compared to his Contract: Kon, Form.
+
+His Curse Devil form is recommended for slaying bosses, break down heavily shielded enemies or high HP enemy units.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

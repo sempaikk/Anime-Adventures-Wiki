@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 14 - Sword Art Online}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}, h''e can only be obtained by evolving the unit  [[Green Alien (Fusion)]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“My greatest opponent is myself. If I can discover what my weaknesses are, then I will be an even stronger fighter than I already am.”
+|caption2=”Sometimes, we have to look beyond what we want and do what's best.”
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units can sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+
+
+==Trivia==
+* Dethroning [[Yuto (Cursed Child)]], '''Green Alien (Nameless)''' and [[Somber (Buzzsaw)]] are currently tied for having the biggest range in Anime Adventures.
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Secret_Units]]

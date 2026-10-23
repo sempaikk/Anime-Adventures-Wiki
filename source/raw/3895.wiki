@@ -1,0 +1,39 @@
+{{Meta Unit}}
+==Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} This unit is a part of [[Griffin (Ascension)]], and it is activatеd by sacrificing non-buff units.  
+==Stats Overview==
+{{Tower_Infobox|caption1="I... sacrifice."
+}}{{Main Stats}}
+
+Attacks starting from Deployment are able to hit air type enemies.
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+
+==Disclaimer==
+Upgrading Griffin (Darkness) can get very, very '''expensive''' depending on how many towers you sacrifice. It is '''heavily''' '''not recommended''' to sell him, as you will not be refunded yen from towers that you have sacrificed. '''Place. Him. Carefully.'''
+
+==Sacrifice Condition==
+Griffin (Darkness) is awakened from Griffin (Ascension) using non-buffing units using his ability. His ability deletes all units within his range and depending on the value of the units the percent he gains is higher. You gain 1% for each 1000¥ spent on sacrificed units.
+
+Griffin's damage multiplier can be exactly calculated with the equation: dmg multi =(cost^0.47)/6.0714. A high percentage you can get is 2551% you can get this by using [[Berserker (Rage)]], [[Illusionist (Final)]], [[Stringy (Awakened)]], [[Golden Tyrant (Emperor)]], and [[Usurper (Founder)]]. With 2551% your Griffin (Darkness) can do 302,110 DPS (varies depending on stats and potential). With 2551%, Wenda, Griffin Reincarnation, and Pucci Heaven your Griffin Darkness will do 1,510,550 DPS. however this is not his max because [[Paradox (Divine Sight)]] can be given an infinite amount of upgrades because of limitless, just him to ''Limitless 10'' will give a total of 900k cost.
+
+==Trivia==
+* [[Idol (Star)]]'s ''cost reduction'' '''DOES''' affect how many percents you will get from sacrificing units. For example, sacrificing a fully-upgraded [[Millie (Holy)]] will give 96% to [[Griffin (Ascension)]] without [[Idol (Star)]]'s buff, while doing the same with ''20% cost reduction'' (fully-upgraded [[Idol (Star)]]) will only give 77%.
+* The current percentage cap for this unit is ''unknown''. The more expensive the unit sacrificed, the more damage Griffin (Darkness) will gain. Therefore, theoretically, the unit's damage is infinite, as long as you have the money, time, and the appropriate unit(s) to sacrifice. Who knows when we will need a new [[:Category:Money Units|Money Unit]] to utilize this monster?
+'''<u>How to get the most damage out of [[Griffin (Darkness)]]?</u>'''
+
+# Get [[Griffin (Ascension)]]'s sacrifice meter to 95%+; you can, boost the meter up to 99% or even 100% (rounded of 99.5%-99.9%) but remember to calculate carefully since the unit will transform once it hits 100% and you will lose the opportunity to boost Griffin's damage further. (This unit is sellable but you will '''NOT''' be refunded) '''''(<u>Note</u>: 1k¥ spent on unit(s) = 1% sacrifice meter.)'''''
+# Place and fully-upgrade '''ALL''' of your main damage dealing units within Griffin (Ascension)'s range.
+# Hit the '''Sacrifice''' ability.
+
+* In case you have brought [[Idol (Star)]] into the game and you still want to get Griffin (Darkness)'s damage as high as possible, you can copy the steps mentioned above; however, instead of placing [[Idol (Star)]] at the beginning of the game, you may want to place her when you have finished all the sacrificing. By doing this, not only will you still get the maximum damage possible (without the ''20% money discount''), you will also get the ''15% damage bonus'' from [[Idol (Star)]]'s passive ability!
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]

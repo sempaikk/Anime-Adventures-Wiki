@@ -1,0 +1,23 @@
+{{Disenchant Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]]. He is also the boss of the legend stage 5 of Hero City (Midnight) as the Cremation Villain.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="
+If you're trash, at least burn and be kindling for my flames.
+"
+|caption2="First thing we have to do, is take away their sense of peace."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}
+
+== Passive Ability: Burn ==
+Dabo applies burn damage to all enemies he attacks, dealing damage over time.
+
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Burn Units]]

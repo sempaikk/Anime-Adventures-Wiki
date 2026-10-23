@@ -1,0 +1,25 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained from tier 50 of the [[Battlepass|Silver Hunt Battlepass]].
+
+{{EvolutionTable
+}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Then give that to me! Now! The time is now! Right now... I need power!"
+|caption2="Are you afraid of me? Despite causing so much death... You are afraid... ...of your own death?!"
+}}{{Main Stats}}
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Mythic Units]]

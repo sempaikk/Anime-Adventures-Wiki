@@ -1,0 +1,26 @@
+{{Story Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She can only be obtained by evolving [[Origami]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "[[Agony (Divine)|Agony]] believed in [[Fox Ninja (Sage)|you]] , so I believe in [[Fox Ninja (Six Tails)|you]], too."
+|caption2= "[[Agony (Divine)|Agony]] believed in [[Fox Ninja (Sage)|you]] , so I believe in [[Fox Ninja (Six Tails)|you]], too."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

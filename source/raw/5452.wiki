@@ -1,0 +1,17 @@
+{{Limited Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by getting tier 50 on the Trion Hunt [[Battlepass]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="I told you that I'd send you flying. You guys... Shouldn't lie."
+|caption2="Even though my chances of winning are slim, I still can't run away."
+}}{{Main Stats}}
+
+==Trivia==
+
+==Gallery==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__

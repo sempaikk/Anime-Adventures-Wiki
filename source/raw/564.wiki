@@ -1,0 +1,31 @@
+{{Custom Disclaimer|1=Out of Summon|2=This unit is currently out of rotation in [[Summon]].}}
+=='''Overview'''==
+'''Juozu''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You shouldn't turn your back on the enemy."
+|caption2="It could've been a gay ghoul."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Passive Ability: Bleed ==
+Every time Juozu attacks, he causes Bleed to all enemies in the AoE, which do a tick DMG and reduces greatly HP regen for the duration of the bleed.
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Bleed Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

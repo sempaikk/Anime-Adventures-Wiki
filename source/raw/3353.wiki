@@ -1,0 +1,30 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. Hе can be obtained by evolving [[Stringy]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Pirates are evil? The Marines are righteous? These terms have always changed throughout the course of history! Kids who have never seen peace and kids who have never seen war have different values! Those who stand at the top determine what's wrong and what's right! This very place is neutral ground! Justice will prevail, you say? But of course it will! Whoever wins this war becomes justice!”
+|caption2="There are no safe spaces on the battlefield!" "With regard to both strength and ability, you have no hope of winning." "With my power, even an Emperor is no match for me! Heh heh heh heh!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery ==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Evolved Units]]
+[[Category:Secret Units]]
+
+<references />

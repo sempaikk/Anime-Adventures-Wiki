@@ -1,0 +1,76 @@
+{{Meta Unit}}{{Meta Support Unit}}
+
+=='''Overview'''==
+'''Bulby''' is a {{Rarity|Legendary}} unit. She is only obtainable through [[Summon|summons]].
+
+She is recommended for [[Infinite|Infinite Mode]], [[Raids]], and [[Legend Stages]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Somebody help me! I'm too young and pretty to die!"
+|caption2="Flying through space and protecting the galaxy does sound like a good time. But when you're married to [[Vego]] and mom to a boy like [[Chunks]], you don't look back. I'm perfectly content with how my life is unfolded."
+|image1={{PAGENAME}}.png}}{{Main Stats|}}
+
+==Return on Investment (ROI)==
+{| class="fandom-table"
+|+This table shows how many waves are needed before you begin to earn a profit.
+!Upgrade
+!Total upgrade cost
+! Income per wave
+!ROI (waves)
+!ROI with Golden (waves)
+|-
+|0
+|800
+|250
+|3.20
+|2.66
+|-
+|1
+|2,300
+|750
+|3
+|2.5
+|-
+|2
+|5,300
+|1,500
+|4
+|3.33
+|-
+|3
+|9,800
+|3,000
+|3
+|2.5
+|-
+|4
+|17,300
+|5,000
+|3.75
+|3.125
+|-
+|5
+|27,300
+|8,000
+|3.33
+|2.77
+|-
+|6
+|39,800
+|10,000
+|6.25
+|5.2
+|}
+
+==Selling==
+This unit can NOT be sold once placed down.
+
+==Trivia==
+*Before Update 1, Bulby did not have Upgrade 6.
+*The only trait that benefits this unit is Golden, which gives 20% more Yen each wave.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Money Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

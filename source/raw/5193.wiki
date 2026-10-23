@@ -1,0 +1,30 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable through opening Halloween Stars.
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="My experiments are never failures, not even what happened four years ago. None of the useless idiots in the World Government know what they're talking about. A failed experiment? I developed a weapon that killed an entire island. How is that anything but a success?! I proved myself the most efficient killer in the world, didn't I?! I meticulously document each of my victims until they draw their final breath. Just you wait. Soon it will be my day and they'll know I'm the greatest scientist who ever lived!"
+|caption2="Your death is going to be the climax of this experiment show!"
+}}{{Main Stats}}
+
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Event Units]]

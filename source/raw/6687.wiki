@@ -1,0 +1,31 @@
+{{Limited Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can bе obtainеd via complеting [[Secret Portal|Deception Portal]] (guarantеed if you arе the host). 
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+== Stats Overview==
+{{Tower_Infobox
+|caption1="Relax, I’ve got this… probably."
+|caption2="I hate working hard. It’s such a pain."
+|image1=
+|image2=Switchblade (Deception) Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+*His shiny form is based off of his sleepwear
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+
+<references />

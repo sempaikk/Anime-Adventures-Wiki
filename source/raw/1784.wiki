@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 9 - Chainsaw Man Update}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by evolving [[White Snake]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="No point doin' anything now. Me an' Aizen go way back, but even I've never seen him like this. Well, I guess that's only natural, seein' as he's gone an' absorbed the Hōgyoku. You get it, right? There's no point fightin' any more. They're all gonna get killed, an' so are you. The end."
+|caption2="Hey, here i come. Don't bother trying to escape. My fire is tenacious."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

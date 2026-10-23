@@ -1,0 +1,28 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can only be obtained through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="In this world, strength is just an illusion. There are more important things.”
+|caption2=“My life is yours, [https://animeadventures.fandom.com/wiki/Asuno Asuna]. So I’ll live for your sake. Until the very end, let’s be together.”
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* Kiroto's shiny skin is based on his avatar in ALfheim Online, introduced in the first season of Sword Art Online.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

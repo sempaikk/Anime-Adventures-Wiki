@@ -1,0 +1,13 @@
+==Evolving==
+{| class="article-table" style="margin: 0 auto"
+! style="text-align: center" | Required Unit
+! style="text-align: center" | Awakening %
+! style="text-align: center" | Kills
+|-
+{{#switch: {{{1}}}
+| Chrysalis = | style="padding: 10px" | {{Characterbox|Aizo (Betrayal)}} | class="game-font-face" style="text-align: center" | 12.5% | class="game-font-face" style="text-align: center; width: 100px" | 2000
+| Fusion = | style="padding: 10px" | {{Characterbox|Aizo (Chrysalis)}} | class="game-font-face" style="text-align: center" | 62.5% | class="game-font-face" style="text-align: center; width: 100px" | 5000
+| Final = | style="padding: 10px" | {{Characterbox|Aizo (Fusion)}} | class="game-font-face" style="text-align: center" | 100% | class="game-font-face" style="text-align: center; width: 100px" | 15000
+|
+}}
+|}

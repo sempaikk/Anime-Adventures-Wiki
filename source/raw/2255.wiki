@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 10 - One Punch Man Update}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He can be obtained from clearing Room 100 in [[Infinity Mansion]] and opening the [[Dimensional Star]]. Players who achieved a rank of Master or higher by the end of the 3rd season were automatically given his shiny version.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'm no one… I don't want to be anyone. All I care about is completing the Eye of the Moon Plan. This world is completely worthless… there is nothing left in it but misery."
+|caption2="In the Ninja World, those who break the rules are scum, that's true... but those who abandon their friends are worse than scum!"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*{{PAGENAME}} = '''[Limited]''' - Obtained by reaching Room 100 in Update 9.
+*{{PAGENAME}} Shiny = '''[Limited]''' - Obtained by reaching a rank of Master or higher in Update 9. ( believed  to be the rarest infinity castle unit in the whole game and 2nd rarest unit in the whole game )
+*His shiny form resembles his younger self.
+{{Unit Navigation}}
+
+ __NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]
+[[Category:Infinity Mansion Units]]

@@ -1,0 +1,27 @@
+{{Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Iceclaw (Rebirth)]].
+
+{{EvolutionTable
+}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Whether you're a Human, or a Shinigami or an Arrancar, anyone who looks at me like they're underestimating my power, I'll smash every one of 'em into oblivion!"
+|caption2="I don't need a reason to fight. I just follow my instincts."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*At max upgrade, he will deal an average damage per second ( Average DPS ) of '''47,937.84''', factoring in both his base damage and the additional damage from critical hits. His total damage per second ( TDPS ) will be '''143,813.52'''.
+
+__NOTOC____NOEDITSECTION__
+{{Unit Navigation}}
+[[Category:Mythic Units]]
+[[Category:Damage Type Storm Units]]
+[[Category:Damage Type Physical Units]]

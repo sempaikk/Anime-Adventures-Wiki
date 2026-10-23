@@ -1,0 +1,16 @@
+<div style="display:inline-block; transition: 0.4s all;" class="advanced-tooltip mobile-hidden Scale(1.061):h">
+<div style="display: flex; justify-content: center; flex-direction: column; align-content: center;width: 86px; font-size: 14px;font-family: 'Fredoka One'; line-height: 1; align-items: center; text-align: center;">
+<div style="">[[File:{{{item|}}}.png|center|70x70px|link={{#iferror:{{{unit|}}}}}]]</div>
+<div style="transform: translate(0, -10px);text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;">[[{{{item|}}}|<span style="color: #e6e6e6; text-decoration: none;">{{{item|}}}</span>]]</div>
+</div>
+<div class="tooltip-contents">
+<div style="padding: 6px 12px;background: #000000a6;border-radius: 10px;font-size: 13px;font-family: 'Fredoka One';color: #e6e6e6;display: block;max-width: 500px;width: fit-content; height: fit-content;line-height: 1.2;">Used on {{{unit|}}}<br>
+{{#iferror:{{#invoke:UnitData2|get|{{{unit|}}}|evolve_info}}|unit}}
+<span style="display: flex; align-items: center;">{{gems|{{{gems|}}}}}</span></div></div></div>
+{| class="article-table mobileonly"
+|img
+|{{#iferror:{{#invoke:UnitData2|get|{{{unit|}}}|evolve_info}}|unit}}
+|-
+|{{{item|}}}
+|{{gems|{{{gems|}}}}}
+|}

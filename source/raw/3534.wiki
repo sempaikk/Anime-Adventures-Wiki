@@ -1,0 +1,24 @@
+{{Unobtainable Unit|Update 15 - Anniversary + Eclipse}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She can be obtained via Tier 25 of Magic Pass.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="We dont eat to live, we live to eat"
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

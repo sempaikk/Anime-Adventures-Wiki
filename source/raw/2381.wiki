@@ -1,0 +1,21 @@
+{{Unobtainable Unit|Update 11.5 - Seven Deadly Sins Update Part 2}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable by clearing the tournament on the 99.00% ~ 99.89% ranking reward, with his shiny being the 99.90% ~ 100% ranking reward.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=The reason doesn’t matter. As long as a tiny bit of hope exists, that’s all that matters.
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+
+
+==Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*Attacks starting from Upgrade 5 are able to hit Air-Type Enemies
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Tournament Units]]

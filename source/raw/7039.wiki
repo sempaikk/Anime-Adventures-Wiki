@@ -1,0 +1,22 @@
+{{Limited Unit}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}} unit. They can only be obtained by evolving [[Sorcerer Killer]]
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="But you guys, with all your blessed talents, lost to a monkey like me who can’t even use Jujutsu."
+|caption2="'I don’t work for free.' That’s what I would always say before making a run for it. But now the awakened power of the Limitless stands before me. He’s probably [[Paradox (Divine Sight)|the greatest sorcerer alive.]] I wanted to discredit it. To crush it."
+}}{{Main Stats}}
+
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+• Sorcerer Killer is the first unit that is full '''true damage''' and has no secondary elements.
+
+__NOEDITSECTION____NOTOC__
+[[Category:Secret Units]]

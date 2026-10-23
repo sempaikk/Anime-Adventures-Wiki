@@ -1,0 +1,26 @@
+{{Meta Unit}}
+{{Meta Support Unit}}
+{{Story Meta Unit}}{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas 2022 Update Part 1}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She could only be obtained from clearing Room 100 in [[Infinity Mansion]] and opening the [[Ice Flower Star]].
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="I can't imagine this will make things any easier, but this is all I can do!"
+|caption2="I can't imagine this will make things any easier, but this is all I can do!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Ice Lily = '''[Limited]''' - Obtained by reaching Room 100 in Update 7.
+* Ice Lily Shiny = '''[Limited]''' - Obtained by reaching a rank of Master or higher in Update 7.
+* Players who achieved a rank of Master or higher by the end of the 2nd season were automatically given her shiny version.
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]
+[[Category:Damage Type Storm]]

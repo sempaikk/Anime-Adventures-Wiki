@@ -1,0 +1,8 @@
+<span class="game-font-face"; style="text-align: center;">
+{{#switch: {{{1|}}}
+| Damage = [[File:Damage icon.png|24px]]
+| Range = [[File:Range icon.png|24px]]
+| SPA = [[File:SPA icon.png|24px]]
+}}
+{{{2|}}}
+</span>

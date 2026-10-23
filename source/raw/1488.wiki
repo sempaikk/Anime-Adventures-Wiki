@@ -1,0 +1,407 @@
+This page will be the location where information on all events will be displayed, the following information can be viewed below.
+==Events==
+<tabber>
+|-|April Fools 2025=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffffff16,#ffffff2e); box-shadow: 0 0 11px -2px yellow, inset 0 0 20px 0px #cccccc33; margin: 3px 13px; padding: 17px 20px 17px; border-radius: 8px;">
+==April Fools 2025==
+AprilCoins are an event currency. They are currently used to purchase the evolution items for the Mythic units from the April Fools banner and Secret units.
+
+==April Fools Portal==
+The April Fools Portal teleports you to a randomly generated map with 3 paths. There are 30 waves which takes roughly 25 minutes to complete. Along the way you can choose blessings and curses from one of 3 cards. The curse cards can increase the amount of stars you get per wave. 
+
+instead of getting to use your own loadout, the game will randomly give you a tower every few seconds that you can place 1 of (you can get multiple of the same tower), there is a chance that instead of getting a tower the player gets a power, there are multiple powers with them being:
+{{#tag:tabber|
+Refund =
+sell a selected tower for 100% refund, this only works on ur towers (for some reason u can sell both ur Divine General and other peoples Divine General lol)
+
+{{!}}-{{!}}
+Random Buff=
+apply a random buff (+100% dmg or +100% range) to a selected tower (can be applied to Divine General)
+
+{{!}}-{{!}}
+Ritual=
+sacrifice a selected tower to spawn a Divine General (max of 1 per player, including if u use this then try to use Shadow sorcerer ability)
+
+{{!}}-{{!}}
+Merge=
+Select a unit, will sacerfice all other copys of that unit that you own in the selected towers range in return for a damage buff, (this does not work on farms)
+
+{{!}}-{{!}}
+Clone=
+Select a unit, Create a copy of that unit with the same upgrade but base stats (unbuffed)
+
+{{!}}-{{!}}
+Astral Gate=
+Triples the chance of getting Astral summon power
+
+{{!}}-{{!}}
+Astral Summon=
+replace the slot that astral summon is in with a unit from your original loadout
+
+}}
+
+==Units/skins boosts==
+Some units boost the amount of items you receive, the damage the unit does and the chance for secret portals (only within the event).
+
+==Event Shop==
+The event shop can be found by talking to the Weather Girl NPC and choosing the Event Shop option, the following items are sold below:
+{| class="article-table"
+!Item
+!Cost
+|-
+|{{Item|item}}
+|{{Stars|5000}}
+|-
+|{{Item|item}}
+|{{Stars|5000}}
+|-
+|{{Item|item}}
+|{{Stars|5000}}
+|-
+|{{Item|item}}
+|{{Stars|5000}}
+|-
+|{{Item|item}}
+|{{Stars|10000}}
+|}
+
+==Icy Star Characters==
+{{Container Characterbox
+|
+{{Characterbox}}
+{{Characterbox}}
+{{Characterbox}}
+{{Characterbox}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+==Skins==
+
+[[Cosmetics#Skins|Skins Page]]
+
+
+|-|Spring 2025=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffffff16,#ffffff2e); box-shadow: 0 0 11px -2px yellow, inset 0 0 20px 0px #cccccc33; margin: 3px 13px; padding: 17px 20px 17px; border-radius: 8px;">
+==Assassin event==
+
+==Contracts==
+You can choose contracts with varying difficulty, the higher the more rewards. 
+
+==Unit boosts==
+The event units boost the amount of rewards you receive, the damage the unit does and the chance for secret portals (only within the event). An event unit gives +20%, and +40% when evolved to a maximum of +100%.
+*[[Killstreak]]
+*[[Somber]]
+*[[Legendary Assassin]]
+*[[Switchblade]]
+
+==Assassin event Characters==
+{{Container Characterbox
+|
+{{Characterbox|Legendary Assassin}}
+{{Characterbox|Killstreak}}
+{{Characterbox|Somber}}
+{{Characterbox|Switchblade}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+==Assassin event Skins==
+
+[[Cosmetics#Skins|Skins Page]]
+
+</div>
+
+|-|Winter 2024=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffffff16,#ffffff2e); box-shadow: 0 0 11px -2px yellow, inset 0 0 20px 0px #cccccc33; margin: 3px 13px; padding: 17px 20px 17px; border-radius: 8px;">
+==Winter 2024==
+Stars are an event currency. They are currently used to purchase the Icy Star, evolution items for the Mythic units from the Icy Star and Secret units from the portals.
+
+==Winter Portal==
+The Winter portal teleports you to a randomly generated map with 3 paths. There are 50 waves which takes roughly 40 minutes to complete. Along the way you can choose blessings and curses from one of 3 cards. The curse cards can increase the amount of stars you get per wave and also increase the drop chance for [[Portals|Enlightenment Portal]] and [[Portals|Dark Mage Portal]] upon victory. 
+
+==Units/skins boosts==
+Some units and skins boost the amount of stars you receive, the damage the unit does and the chance for secret portals (only within the event).
+*[[Siren]]: +20% drop rate
+*[[Elf Mage]]: +20% drop rate
+*[[Cream]]: +20% drop rate
+*[[Illusionist (Transcended)]]: +40% drop rate
+*[[Iceclaw (Rebirth)]]: +40% drop rate
+*[[Joykid]] {{Rarity|Rare}} skin: +2% drop rate, +5000% damage
+*[[Magician]] {{Rarity|Rare}} skin: +2% drop rate, +1000% damage
+*[[Idol]] {{Rarity|Epic}} skin: +5% drop rate
+*[[Spearer]] {{Rarity|Legendary}} skin: +25 drop rate, +70% damage
+*[[Gamer Girl]] {{Rarity|Legendary}} skin: +25% drop rate, +70% damage
+*[[Origami]] {{Rarity|Legendary}} skin: +25% drop rate, +100% damage
+*[[Cherub]] {{Rarity|Legendary}} skin: +25% drop rate, +75% damage
+*[[Reliable Student]] {{Rarity|Legendary}} skin: +25% drop rate, +70% damage
+*[[Shadowgirl]] {{Rarity|Legendary}} skin: +25% drop rate, +150% damage
+*[[Sword Queen]] {{Rarity|Legendary}} skin: +25% drop rate, +70% damage
+*[[Golden King]] {{Rarity|Legendary}} skin: +25% drop rate, +50% damage
+*[[Menace]] {{Rarity|Mythic}} skin: +40% drop rate, +100% damage
+*[[Bloodcry]] {{Rarity|Mythic}} skin: +40% drop rate, +150% damage
+
+==Event Shop==
+The event shop can be found by talking to the Weather Girl NPC and choosing the Event Shop option, the following items are sold below:
+{| class="article-table"
+!Item
+!Cost
+|-
+|{{Item|Icy Star}}
+|{{Stars|150}}
+|-
+|{{Item|Elf Staff}}
+|{{Stars|5000}}
+|-
+|{{Item|Dimensional Hood}}
+|{{Stars|5000}}
+|-
+|{{Item|Black Spear}}
+|{{Stars|5000}}
+|-
+|{{Item|Staff of Realms}}
+|{{Stars|5000}}
+|-
+|{{Item|Snow Wings}}
+|{{Stars|5000}}
+|}
+
+==Icy Star Characters==
+{{Container Characterbox
+|
+{{Characterbox|Siren}}
+{{Characterbox|Cream}}
+{{Characterbox|Elf Mage}}
+{{Characterbox|Illusionist (Transcended)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+==Winter Star Skins==
+
+[[Cosmetics#Skins|Skins Page]]
+
+</div>
+
+|-|Halloween 2024=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffffff16,#ffffff2e); box-shadow: 0 0 11px -2px yellow, inset 0 0 20px 0px #cccccc33; margin: 3px 13px; padding: 17px 20px 17px; border-radius: 8px;">
+==Halloween 2024==
+Candies are an event currency. They are currently used to purchase the Halloween Star, and evolution items for the mythic units in the Halloween Star. 
+
+==Halloween Portal==
+The Halloween portal teleports you to halloween themed maps of previous story worlds. There are 50 waves which takes roughly 40 minutes to complete. Along the way you can choose blessings and curses from one of 3 cards. The curse cards can increase the amount of candies you get per wave and also increase the drop chance of the secret unit [[Umbra]] upon victory.
+
+==Event Shop==
+The event shop can be found by talking to the Weather Girl NPC and choosing the Event Shop option, the following items are sold below:
+{| class="article-table"
+!Item
+!Cost
+|-
+|{{Item|Spooky Star}}
+|{{Candies|150}}
+|-
+|{{Item|Gas Crown}}
+|{{Candies|5000}}
+|-
+|{{Item|Triple-Bladed Scythe}}
+|{{Candies|5000}}
+|-
+|{{Item|Flower Growth}}
+|{{Candies|5000}}
+|-
+|{{Item|Unholy Pistols}}
+|{{Candies|5000}}
+|-
+|{{Item|Shadow Broadsword}}
+|{{Candies|5000}}
+|}
+
+==Spooky Star Characters==
+{{Container Characterbox
+|
+{{Characterbox|Gas}}
+{{Characterbox|Death Ninja}}
+{{Characterbox|}}
+{{Characterbox|Dracula}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+==Winter Star Skins==
+
+[[Cosmetics#Skins|Skins Page]]
+
+</div>
+
+|-|Summer 2023=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffffff16,#ffffff2e); box-shadow: 0 0 11px -2px yellow, inset 0 0 20px 0px #cccccc33; margin: 3px 13px; padding: 17px 20px 17px; border-radius: 8px;">
+==Summer 2023==
+Pearls are an event currency introduced as part of the summer update. They are currently used to purchase the Summer Star, and evolution items for the mythic units in the Summer Star.
+
+==Summer Portals==
+The Summer Portals are portals used to go into Summer variants of story mode maps (excluding Snowy Town, Hidden Sand Village, Marine's Ford, Ghoul City, Hollow World, Magic Town, Clover Kingdom, Cape Canaveral, Hero City, Virtual Dungeon, Windhym), each portals is assigned with a tier, ranging from tiers 1-12, each tier getting harder with more rewards and assigned with challenges, portals tier 3 and above have a chance to drop the Sea God's Portal, when completed, gives the owner of the portal [[Poseidon]].
+
+==Event Shop==
+The event shop can be found by talking to the Navi NPC and choosing the Event Shop option, the following items are sold below:
+{| class="article-table"
+!Item
+!Cost
+|-
+|{{Item|Summer Star}}
+|{{Stars|150}}
+|-
+|{{Item|Fiery Ankh}}
+|{{Stars|5000}}
+|-
+|{{Item|Sharktooth Blade}}
+|{{Stars|5000}}
+|-
+|{{Item|Pirate King's Hat}}
+|{{Stars|5000}}
+|-
+|{{Item|Sea God's Trident}}
+|{{Stars|5000}}
+|-
+|{{Item|Sharkskin Greatsword}}
+|{{Stars|5000}}
+|}
+
+==Summer Star Characters==
+{{Container Characterbox
+|
+{{Characterbox|Avdo}}
+{{Characterbox|Harribu}}
+{{Characterbox|Kizume}}
+{{Characterbox|Roger}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+==Summer Star Skins==
+{{Container Characterbox
+|
+{{Characterbox|Sakuro (Summer)|articlename=Sakuro|check_img=yes}}
+{{Characterbox|Juvy (Summer)|articlename=Juvy|check_img=yes}}
+{{Characterbox|Ruki (Summer)|articlename=Ruki|check_img=yes}}
+{{Characterbox|Tatsumiki (Pool)|articlename=Tatsumiki (Tornado)|check_img=yes}}
+{{Characterbox|Cocoknight|articlename=Metal Knight (Arsenal)|check_img=yes}}
+{{Characterbox|Tango (Festival)|articlename=Tango (God of Flashiness)|check_img=yes}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+[[Cosmetics#Skins|Skins Page]]
+
+</div>
+
+|-|Christmas 2022=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffffff16,#ffffff2e); box-shadow: 0 0 11px -2px #00FFFF, inset 0 0 20px 0px #cccccc33; margin: 3px 13px; padding: 17px 20px 17px; border-radius: 8px;">
+==Christmas 2022==
+Stars are an event currency introduced as part of the christmas update. They are currently used to purchase the Frozen Star, and evolution items for the mythic units in the Frozen Star.
+
+==Holiday Rewards==
+Holiday Rewards are a daily stamp that you can claim once you log into the game, the rewards ranging from {{Gems|250/500}}, [[Traits|Trait Rerolls]], and {{Stars|1000}}.
+
+==Frozen Portals==
+The Frozen Portals are portals used to go into frozen variants of story mode maps (excluding Marine's Ford), each portals is assigned with a tier, ranging from tiers 1-12, each tier getting harder with more rewards and assigned with challenges, portals tier 3 and above have a chance to drop the Secret Portal, when completed, gives the owner of the portal [[Ice Queen]].
+
+==Event Shop==
+The event shop can be found by talking to the Navi NPC and choosing the Event Shop option, the following items are sold below:
+{| class="article-table"
+!Item
+!Cost
+|-
+|{{Item|Frozen Star}}
+|{{Stars|150}}
+|-
+|{{Item|Ice-Fire Orb}}
+|{{Stars|5000}}
+|-
+|{{Item|Ice Lotus}}
+|{{Stars|5000}}
+|-
+|{{Item|Frozen Mirror}}
+|{{Stars|5000}}
+|-
+|{{Item|Demon Extract}}
+|{{Stars|5000}}
+|}
+
+==Frozen Star Rewards==
+{{Container Characterbox
+|
+{{Characterbox|Todorro (Half)}}
+{{Characterbox|Toshin}}
+{{Characterbox|Haka}}
+{{Characterbox|JIO (Over Heaven)}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+[[Cosmetics#Skins|Skins Page]]
+</div>
+|-|Halloween 2022=
+<div style="background: radial-gradient(ellipse 96% 146%, #ffcc2c16,#ff8e1e2e); box-shadow: 0 0 11px -2px #ff0e0070, inset 0 0 20px 0px #f43a3a33; margin: 3px 13px; padding: 1px 20px 17px; border-radius: 8px;">
+==Halloween 2022==
+Candies are an event currency introduced as part of update 5.0. They are currently used to purchase XP food, capsules for character skins, Dungeon keys, and Evolution Items. 
+
+== Spooky Fortune ==
+Candies can be used to buy lottery tickets once every 24 hours for {{Candies|150}}  to enter the draw for a shot a prize of large amounts of candy.
+
+=== Lottery Prizes ===
+{| class="article-table"
+!Number Matches
+!Prize
+|-
+|<font color="#0FFF50">0 Matching Numbers</font>
+|{{Candies|+50}}
+|-
+|<font color="#0FFF50">1 Matching Numbers</font>
+|{{Candies|+200}}
+|-
+|<font color="#0FFF50">2 Matching Numbers</font>
+|{{Candies|+500}}
+|-
+|<font color="#0FFF50">3 Matching Numbers</font>
+|{{Candies|+2,000}}
+|-
+|<font color="#0FFF50">4 Matching Numbers</font>
+|{{Candies|+40,000}}
+|-
+|<font color="#FFD700">All Matching Numbers</font>
+|{{Candies|+1,000,000}}
+|}
+
+== Event Shop ==
+The event shop can be found by talking to the Navi NPC and choosing the Event Shop option, the following items are sold below:
+{| class="article-table"
+!Item
+!Cost
+|-
+|{{Item|Haunted Star}}
+|{{Candies|150}}
+|-
+|{{Item|Shadow Fruit}}
+|{{Candies|5000}}
+|-
+|{{Item|Shark Guitar}}
+|{{Candies|5000}}
+|-
+|{{Item|Zombie Doll}}
+|{{Candies|5000}}
+|}
+
+== Halloween event quests ==
+{| class="article-table"
+|+
+!Quest
+!Reward
+|}
+==Candy Infinite Mode==
+
+==Haunted Star Rewards==
+{{Container Characterbox
+|
+{{Characterbox|Moriu}}
+{{Characterbox|Peruna}}
+{{Characterbox|Broke}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+
+[[Cosmetics#Skins|Skins Page]]
+</div>
+
+</tabber>
+==Trivia==
+In the summer event the summer star odds of gettting skins and units do not add up to 100% but actually 100.05% that isnt including roger therefore odds are false 
+
+81.3 + 16 + 2 + 0.50 + 0.25 = 100.05 ''<small>(This part will be deleted once the odds are fixed)</small>''

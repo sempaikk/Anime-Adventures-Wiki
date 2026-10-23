@@ -1,0 +1,177 @@
+__NOTOC__[[File:Traits.png|thumb|300x300px|right]]
+'''Traits''' are modifiers that boost unit’s stats ('''Damage''', '''SPA''' & '''Range'''). When you summon a unit or obtain it from a portal, it might come with a trait. Additionally, you can reroll traits through the use of[[File:StarRemnant.png|35x35px]]'''Star Remnants''' or [[File:Reroll Token.png|35px]]''' Reroll Tokens'''.
+==Rerolling Traits==
+[[File:Traits2.png|thumb|300x300px|right]]
+To reroll traits, interact with '''Ethereal Guide''', who is outside the '''Evolve''' area in the lobby (can be teleported to by using '''Traits and Evolve''' shortcut). Currently, there are two ways to reroll a trait: using[[File:StarRemnant.png|35x35px]]'''Star Remnants''' or [[File:Reroll Token.png|35px]]'''Reroll Tokens'''.  
+<hr>
+[[File:StarRemnant.png|35x35px]]'''Star Remnants''' can be obtained from the [[Travelling Merchant Shop]], by completing [[Challenges|Daily Challenges]], from removing '''Shinies''' (by interacting with '''Lucil''' in the lobby), by defeating a '''Star Golem''' in latest [[Infinite|Infinite Mode]], or a 0.25% chance from summons. If the player is using[[File:StarRemnant.png|35x35px]]'''Star Remnants''' to reroll a trait, the amount required depends on the unit the trait is being rerolled on:  
+*{{Rarity|Mythic}} and {{Rarity|Secret}} units require 5[[File:StarRemnant.png|35x35px]]'''Star Remnants''' per reroll,
+*{{Rarity|Rare}}, {{Rarity|Epic}} and {{Rarity|Legendary}} units require 1[[File:StarRemnant.png|35x35px]]'''Star Remnant''' per reroll.
+<hr>[[File:Reroll Token.png|35px]]'''Reroll Tokens''' can be obtained from [[Battlepass|Battlepasses]], Evolution Quests or other events. Any unit will require only 1[[File:Reroll Token.png|35px]]'''Reroll Token''' per roll.[[File:Reroll Token.png|35px]]'''Reroll Tokens''' can be also bought: 
+*1[[File:Reroll Token.png|35px]]'''Reroll Token''' for 129 R$ ($1.62 USD)
+*10[[File:Reroll Token.png|35px]]'''Reroll Tokens''' for 999 R$ ($12.49 USD)
+*50[[File:Reroll Token.png|35px]]'''Reroll Tokens''' for 4500 R$ ($56.25 USD)
+
+* List of Traits
+
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; display:block; box-shadow: 5px 5px 15px #a3f7e8; margin-left: auto; margin-right: auto; width: 650px;&gt;"
+|+
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;width: 120px; " |Trait
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Description
+|-
+|<center>[[Image:Trait Superior.png|65px]]<br> <font size="5" ;>
+Superior</font><br>29.97%</center>
+|Units with this trait do increased '''Damage''' to enemies.   
+*Superior I increases '''Damage''' by 10%
+*Superior II increases '''Damage''' by 12.5%
+*Superior III increases '''Damage''' by 15%.
+
+Superior I/II/III increases average '''DPS''' by 10/12.5/15% respectively. 
+|-
+|<center>[[Image:Trait Nimble.png|65px]]<br> <font size="5" ;>
+Nimble</font><br>24.98%</center>
+|Units with this trait have their '''SPA''' decreased, which allows them to attack more frequently.  
+*Nimble I decreases '''SPA''' by 5%
+*Nimble II decreases '''SPA''' by 7.5%,
+*Nimble III decreases '''SPA''' by 12%.
+
+Nimble I/II/III increases average '''DPS''' by 5.2/8.1/13.6% respectively.
+|-
+|<center>[[Image:Trait Range.png|65px]]<br> <font size="5" ;>
+Range</font><br>24.98%</center>
+|Units with this trait have increased '''Range''', which allows their attacks to reach more enemies.   
+*Range I increases '''Range''' by 10%
+* Range II increases '''Range''' by 12.5%,
+*Range III increases '''Range''' by 15%.
+
+Range I/II/III does not increase average '''DPS''' if the unit can always reach enemies.
+|-
+|<center>[[Image:Trait Adept.png|65px]]<br> <font size="5" ;>
+Adept</font><br>9.99%</center>
+|Units with this Trait level up at a faster rate, receiving 50% more XP. This trait is good for leveling up low-level units.
+<br>
+Adept does not increase '''DPS'''.
+|-
+|<center>[[Image:Trait Culling.png|65px]]<br> <font size="5" ;>
+Culling</font><br>5%</center> 
+|Units with this trait have a 20% '''Damage''' boost to enemies with 30% or lower health.
+<br>
+Culling increases average '''DPS''' for units by 20% to enemies with under 30% health or lower, averaging to 6% increase.
+|-
+|<center>[[Image:Trait Sniper.png|65px]]<br> <font size="5" ;>
+Sniper</font><br>2.5%</center>
+| Units with this trait receive a 25% '''Range''' boost.
+<br>
+This trait is ideal for units like [[Operator (ROOM)]], [[Shadowgirl (Time Traveller)]], [[Commander]], [[Wind Dragon]] or [[Elfy (Sylph)]], since their ability can affect more enemies, units, or have a stronger impact.
+
+Sniper does not increase average '''DPS''' if the unit can always reach enemies.
+|-
+|<center>[[Image:Trait Godspeed.png|65px]]<br> <font size="5" ;>
+Godspeed </font><br>1%</center>
+|Units with this trait receive a 20% SPA reduction, significantly increasing attack frequency.
+<br>
+Ideal for slow units such as [[Gene (???)]], [[Mimic Sorcerer (Cursed Child)]], [[Jackal (Alpha)]], [[Illusionist (Final)]], [[Hammer Giantess (Creation)]], [[Ice Queen (Empire's Strongest)]], [[Millie (Holy)]], [[Golden Tyrant (Emperor)]] ,[[Frost Navy (Blue Pigeon)]] and [[Reliable Student (Echoes)]].
+
+This trait gives your unit a blue lightning aura.
+
+Godspeed increases average DPS by 25%.
+|-
+| <center>[[Image:Trait Reaper.png|65px]]<br> <font size="5" ;>
+Reaper</font><br>0.8%</center>
+| Units with this trait do 15% more '''Damage''' and deal 25% more '''Damage''' to bosses.
+<br>
+Good trait for units that work well against bosses like [[Captain (God)]] and [[Curse (Contract)]].
+
+''This trait gives your unit a red and blackish aura.''
+
+Reaper increases average '''DPS''' by 15% normally, and by 43.75% when damaging a boss.
+|-
+|<center>[[Image:Trait Celestial.png|65px]]<br> <font size="5" ;>
+Celestial</font><br>0.36%</center>
+|Units with this trait have a 10% '''Damage''' boost, a 10% '''Range''' boost and a 20% '''Damage Buff''' as '''True Damage''' (With 100% buff from Leafy/Wenda/Orwin the bonus is reduced to 10% '''Damage Buff''' as '''True Damage''', but 200% buff with '''Griffin (Reincarnation)''' included, it is reduced to 13.3% '''Damage Buff''' as '''True Damage''', with just griff the true damage buff is still 20% since griff buffs all dmg types.<ref>[[:File:CelestialComparison.png|Celestial with buffer comparison]]</ref>
+Units that inflict DoT (Damage Over Time, e.g. Bleed)  with trait does 20% more DoT damage, due to its base DoT dmg already scaling from the combined sum of its total dmg (Dmg + True dmg), and also adding an extra 20% true damage from celestial
+
+<br>
+Good for [[Infinity Mansion]], [[Legend Stages]], [[Challenges|Daily Challenges]] or any mode that has enemies with resistances.
+
+''This trait gives your unit a purple galaxy aura.''
+
+Celestial increases average '''DPS''' by 32%
+|-
+|<center>[[Image:Trait Divine.png|65px]]<br> <font size="5" ;>
+Divine</font><br>0.2%</center>
+|Units with this trait have a 20% '''Damage''' boost, 10% '''SPA''' reduction, and a 20% '''Range''' boost.
+<br>
+Ideal trait for: 
+
+*Units with 4+ spawn cap, like [[Joykid (Mode IV)]], [[Gamer (Dual)]] or [[Hammerhead (Shark Empress)]];
+*Support units that benefit from multiple placements, like [[Shinobi (Eternal)]];
+*Units that need multiple placements for the best effect, like [[Griffin (Ascension)]].
+
+
+''This trait gives your unit angelic wings.''
+
+Divine increases average '''DPS''' by 33.3%.
+|-
+|<center>[[Image:Trait Golden.png|65px]]<br> <font size="5" ;>
+Golden</font><br>0.15%</center>
+|Units with this trait have a 30% '''Damage''' boost and receive 20% more '''Yen''' each time they make money.
+<br>
+Ideal trait for farm units [[Bulby]] and [[C.E.O.]]. Note that while [[Weather Girl (Thief)]] being a farm unit, Golden only gives her a 30% '''Damage''' boost, but not a '''Yen''' boost. 
+
+''This trait gives your unit a golden appearance.''
+
+Golden increases average '''DPS''' by 30%.
+|-
+|<center>[[Image:Trait Unique.png|65px]]<br> <font size="5" ;>
+Unique</font><br>0.1%</center>
+| Units with this Trait have a 4x (300%) '''Damage''' boost, 10% '''SPA''' reduction, and a 10% '''Range''' boost. Units with this trait are restricted to a maximum of '''ONE''' of this unit placed (only affects the owner of the unit).
+<br>
+Ideal trait for units with 3 placements, like [[Illusionist (Final)]], [[Priest (Heaven)]], [[Hubris (The One)]], [[Berserker (Rage)]], [[Tango (Flash God)]], [[Stringy (Awakened)]] or [[Sea God (Tyrant of the Seas)]].
+
+Perfect trait for units with high individual '''DPS''' but low (1 - 2) placement cap, like [[JIO (Over Heaven)]], [[Iron Knight (Arsenal)]], [[Usurper (Founder)]], [[Time Wizard (Chronos)]], [[Skeleton Knight (King)]], [[Illusionist (Transcended)]]  or [[Supreme Being (Sovereign)]]. These units can even outperform their 3 placements counterparts.
+
+Although units with 4+ placements have either a weak group '''DPS''' increase or even a '''DPS''' decrease, it can still be a useful trait for progressive gamemode due to being 4+ times cheaper to max.
+
+''This trait gives your unit an enchanting aura adorned with ancient runic symbols.''
+
+Unique increases average '''DPS''' by 344.4% for a single unit. Group average '''DPS''' increase depends on unit's placement cap.
+{| class="article-table" style="border: none;"
+!Spawn Cap 
+!Group '''DPS''' increase
+|-
+|1 
+|344.4%
+|-
+|2
+|122.2%
+|-
+|3
+|48.1%
+|-
+|4
+|11.1%
+
+|-
+|5
+| -11%
+|-
+|6
+| -25.9%
+|}
+|}
+
+== Trivia ==
+*When evolving a {{Rarity|Legendary}} unit to {{Rarity|Mythic}}, its trait will be transfered. Therefore, rolling a trait on its {{Rarity|Legendary}} form will be 5 times cheaper. 
+**Units that can benefit from this are [[Fox Ninja (Beast Cloak)]], [[Usurper]], [[Martial Demon]], [[Gene]], [[Experiment X (Semi-Perfect)]].
+*Although Superior, Nimble and Range are {{Rarity|Rare}} traits, their third variant (III) has an {{Rarity|Epic}} rarity, indicated by a purple trait symbol and label.
+*There is a '''0.2%''' chance that you can receive '''double trait''' on one unit while rerolling traits.
+**When this happens, total percentage boost of two traits will be added.  
+***Double Superior III would give a 30% '''Damage''' boost.
+***Double Unique would give a 600% '''Damage''' boost, 20% '''SPA''' reduction, and a 20% '''Range''' boost.
+*Newly obtained units have a '''1%''' chance to gain a trait. If successful, there is a '''further 1% chance''' to gain '''double traits'''. 
+*Unique can make some units as good or better than some '''Meta''' units.
+*Culling, despite being a {{Rarity|Legendary}} trait, has a very weak effect, barely outperforming Superior I (on average).
+*In most circumstances, Reaper is equivalent to Superior III.
+*While '''Range''' boosts do not affect unit's '''Damage''' or '''SPA''', with the right placement units with traits that boost '''Range''' might have more opportunity for attacking, thus increasing average '''DPS'''.
+*Golden is the only trait that effects farm units such as [[C.E.O.]] and [[Bulby]], giving 20% more gold each wave.

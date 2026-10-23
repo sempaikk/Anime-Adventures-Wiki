@@ -1,0 +1,31 @@
+{{Meta Unit}}{{Meta Support Unit}}
+
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} unit. She can only be obtained by evolving [[Bloodcry]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Ovеrview==
+{{Tower_Infobox
+|caption1="First, second, and third Floor Guardian, Bloodcry Fallen, at your command."
+|caption2="Ahhhh, Long live [[Supreme Being (Sovereign)|Supreme Being-sama]]. You are supreme, truly the strongest existence."
+|image1=
+}}{{Main Stats}}
+
+==Passive Ability: True Vampire==
+
+Attacks from {{PAGENAME}} place a debuff on enemies hit, making them take 5x bleed damage.
+
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* '''{{PAGENAME}}''' is the second ever unit to have Bleed amplification, the first being [[Blood (Unleashed)]]. 
+
+==Gallery==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Bleed Amp]]

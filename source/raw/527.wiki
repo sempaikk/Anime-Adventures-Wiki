@@ -1,0 +1,35 @@
+{{Unobtainable Unit| Update 19 - Winter update}}
+
+==Overview==
+
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable by evolving [[Usurper]].
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Tatakae. Tatakae."
+|caption2="I don't let anyone steal my freedom. I'm the one who steals the freedom of others."
+}}{{Main Stats}}
+
+==Active Ability: The Extinction==
+[[File:Usurper (Founder) Passive.png|left|103x103px]]
+{{PAGENAME}} can spawn 10 Wall Titans and 1 Usurper (Founder) upon using the ability. All titans spawned are capable of damaging Flying and Boss enemies. 
+
+
+* Duration: N/A (it varies on the HP of the enemies and the timing)
+* Cooldown: 480s
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*He is currently the most expensive unit in the game, racking up by {{Yen|100,000}} upon deployment, and with {{Yen|1,050,000}} when maxed.
+*As of Update 19.0.0, Usurper (Founder) is now unobtainable as his raid has been removed. 
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

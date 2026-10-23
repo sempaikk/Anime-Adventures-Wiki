@@ -1,0 +1,54 @@
+[[File:Spooky Star.png|thumb]]​
+
+The '''Spooky Star''' is a new obtainable item introduced in the [[Update_Log#|Halloween 2023]] update which can be bought for 150 Candy from the Navi NPC next to spawn!
+
+==Information==
+* Inside the '''Spooky Star''', you can discover 4 new exclusive units and 14 different Halloween themed skins!
+* If you haven't received a {{Rarity|Mythic}} after 400 '''Spooky Stars''', you will get one guaranteed!
+* Alucard is not obtainable through {{Rarity|Mythic}} pity.
+* The 4 exclusive units are Hido, Hinamy, Gas, and the secret unit Alucard.
+
+==Star Chances==
+<div style="font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;">
+* <span style="color: #0d8cff;">Rare Skin: 81.5%</span>
+* <span style="color: #7c04f5;">Epic Skin: 16.0%</span>
+* ⭐<span style="color: #ffc71e;">Legendary Skin: 2.0%</span>
+* 💀<span style="position: relative; background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Mythic Skin: 0.25%<span class="Tsh(Game) mobile-hidden" style="position: absolute; z-index: -1; left: 0;">Mythical</span></span>
+* 🎃<span style="color: #e01419;">Mythic Unit: 0.25%</span>
+
+==Obtainable Units==
+{{Container Characterbox
+|
+{{Characterbox|Dracula}}
+{{Characterbox|Gas}}
+{{Characterbox|Hinamy}}
+{{Characterbox|Hido}}
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+==Obtainable Skins==
+Mythical Skins and Units give a 40% each, Legendary Skins give 25%, Epic Skin give 5%, and Rare Skins give 2% of Event Boost and Secret Units Chance. However they also boost damage and event currency drop rate depends on skins. Please note that these stats boost only works on Event.
+===<center>Skins obtainable from the Spooky Star capsule</center>===
+{| class="fandom-table" align="center"
+!Image
+!Unit
+!Buff
+{{Cosmetics/RarityItem|img=Zoru_halloween_cosmetic.png|cosmetics=Zoru (Halloween)|rarity=Rare|unit=Zoru|buff=<span style="color: #48E34A;">+5000% DMG</span><br><span style="color: #E95CD5;">+2% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Grim_jaw_halloween_cosmetic.png|cosmetics=Grim Jaw (Chained)|rarity=Rare|unit=Grim Jaw|buff=<span style="color: #48E34A;">+1000% DMG</span><br><span style="color: #E95CD5;">+2% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Wendy Cosmetic.gif|cosmetics=Wenda (Halloween)|rarity=Epic|unit=Wenda|buff=<span style="color: #48E34A;">+100% DMG</span><br><span style="color: #E95CD5;">+5% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Oshysp.png|cosmetics=Oshy (Halloween)|rarity=Epic|unit=Oshy (Idol)|buff=<span style="color: #E95CD5;">+5% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Asuno Cosmetic.gif|cosmetics=Asuno (Harvest)|rarity=Legendary|unit=Asuno (Flash)|buff=<span style="color: #48E34A;">+100% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Leafy Halloween Cosmetic.gif|cosmetics=Leafy (Demon)|rarity=Legendary|unit=Leafy (Sylph)|buff=<span style="color: #48E34A;">+150% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Homuru Halloween Cosmetic.gif|cosmetics=Homuru (Devil)|rarity=Legendary|unit=Homuru (Time Traveller)|buff=<span style="color: #48E34A;">+100% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Narbera Halloween Cosmetic.gif|cosmetics=Narbera (Witch)|rarity=Legendary|unit=Narbera (Battle Maid)|buff=<span style="color: #48E34A;">+75% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Tatsumaki Witch Cosmetic.gif|cosmetics=Tatsumiki (Witch)|rarity=Legendary|unit=Tatsumiki (Tornado)|buff=<span style="color: #48E34A;">+200% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Gilgamesh Cosmetic.gif|cosmetics=Gilgamesh (Halloween)|rarity=Legendary|unit=Gilgamesh (King of Heroes)|buff=<span style="color: #48E34A;">+50% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Law Halloween Cosmetic.gif|cosmetics=Lao (Halloween)|rarity=Legendary|unit=Lao (ROOM)|buff=<span style="color: #48E34A;">+75% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Saber Cosmetic.gif|cosmetics=Saber (Halloween)|rarity=Legendary|unit=Saber (Promised Sword)|buff=<span style="color: #48E34A;">+75% DMG</span><br><span style="color: #E95CD5;">+25% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Meliodas cosmetic.gif|cosmetics=Melio (Count)|rarity=Mythical|unit=Melio (Assault)|buff=<span style="color: #48E34A;">+200% DMG</span><br><span style="color: #E95CD5;">+40% Drop Rate</span>}}
+{{Cosmetics/RarityItem|img=Guts Cosmetic.gif|cosmetics=Guts (Slayer)|rarity=Mythical|unit=Guts (Berserk)|buff=<span style="color: #48E34A;">+100% DMG</span><br><span style="color: #E95CD5;">+40% Drop Rate</span>}}
+|}
+
+__NOTOC__
+[[Category:Capsules]]
+[[Category:Event Capsules]]

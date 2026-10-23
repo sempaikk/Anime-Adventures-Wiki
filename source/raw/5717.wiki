@@ -1,0 +1,56 @@
+<tabber>
+
+|-|New=
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+
+
+|-|Normal=
+<div class="mobileonly">{{Anchor2|id=Legendary Units}}</div>
+<h3 class="mobileonly">'''Legendary Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Agony}}
+|css=background: #97780e0d; box-shadow: 0 0 11px -2px #fab72f70, inset 0 0 20px 0px #fab72f24; border-radius: 8px;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+|-|Golden=
+<div class="mobileonly">{{Anchor2|id=Legendary Units}}</div>
+<h3 class="mobileonly">'''Legendary Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Agony}}
+|css=background: #97780e0d; box-shadow: 0 0 11px -2px #fab72f70, inset 0 0 20px 0px #fab72f24; border-radius: 8px;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+|-|Rainbow=
+<div class="mobileonly">{{Anchor2|id=Epic Units}}</div>
+<h3 class="mobileonly">'''Epic Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Bakayua}}
+
+|css=background: hwb(271deg 4% 6% / 1%);box-shadow: 0 0 11px -2px #7a09f166, inset 0 0 20px 0px #800af045;border-radius: 8px;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+|-|Universal=
+<div class="mobileonly">{{Anchor2|id=Rare Units}}</div>
+<h3 class="mobileonly">'''Rare Units'''</h3>
+<div style="background: #00ffa912; border-radius: 8px;">
+{{Container Characterbox
+|
+{{Characterbox|Aman}}
+{{Characterbox|Bakugo}}
+{{Characterbox|Usoap}}
+{{Characterbox|Vegita}}
+{{Characterbox|Zoru}}
+|css=background: hwb(209deg 6% 2% / 3%); box-shadow: 0 0 11px -2px #5b09f157, inset 0 0 20px 0px #6d0af040; border-radius: 8px;
+}}</div><center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+</tabber>

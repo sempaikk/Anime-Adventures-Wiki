@@ -1,0 +1,20 @@
+'''Killer''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Epic}}</center>
+|{{Characterbox|Killer}}
+|'''[[Killer]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Killer (Whirlwind)}}
+|'''[[Killer (Whirlwind)|Killer (Whirlwind)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Killer (Godspeed)}}
+|'''[[Killer (Godspeed)|Killer (Godspeed)]]'''
+|-
+|}

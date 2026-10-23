@@ -1,0 +1,671 @@
+<center>
+<big>'''THE UNIT LIST WILL BE UPDATED ONCE THE WIKI REVAMP IS COMPLETE, AS WE ARE STILL AWAITING UNIT DATA FROM THE DEVELOPERS.'''</big><br>
+'''Units''' are the primary way to defend against oncoming enemies. These are very vital to the Player's gameplay as they help progress further into the game.
+
+Most '''Units''' are offensive ones, either placed on the ground, on the hill, or [[Hybrid Units|they can be both]], however, some can provide support in its own way, such as buffing other towers, debuffing enemies and spawning units. Each have their own special ability and can be extremely powerful when paired with other Units. Units can also go through '''[[Evolution]]''', which further strengthen the Unit's base stats and even give them new abilities.
+</center>
+
+{{Anchor2|id=back}}
+<div class="mobileonly">
+<div class="mw-customtoggle-OFF mw-customtoggle-ON">
+<div class="mw-collapsible" id="mw-customcollapsible-ON">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>
+<div>{{Anchor1|text=New Units|id=New Units}}</div>
+<div>{{Anchor1|text=Evolved Secret Units|id=Evolved Secret Units}}</div>
+<div>{{Anchor1|text=Secret Units|id=Secret Units}}</div>
+<div>{{Anchor1|text=Evolved Mythic Units|id=Evolved Mythic Units}}</div>
+<div>{{Anchor1|text=Mythic Units|id=Mythic Units}}</div>
+<div>{{Anchor1|text=Legendary Units|id=Legendary Units}}</div>
+<div>{{Anchor1|text=Epic Units|id=Epic Units}}</div>
+<div>{{Anchor1|text=Rare Units|id=Rare Units}}</div>
+</center>
+</div></div><!-- {{Characterbox||check_img=true}} --->
+
+
+<tabber>
+
+|-|New Units=
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Vengeful Swordsman (Sky Reaver)}}
+{{Characterbox|Vengeful Swordsman}}
+{{Characterbox|Chuuni (Delusion)}}
+{{Characterbox|Chuuni}}
+{{Characterbox|Violentine (Brutal Angel)}}
+{{Characterbox|Violentine}}
+{{Characterbox|Kansai (Daydream)}}
+{{Characterbox|Kansai}}
+
+|css=border-radius: 8px; background: #2e2e2e29; box-shadow: 0 0 11px -2px #94949480, inset 0 0 20px 0px #96969633;
+}}
+|-|Exclusive Units=
+<div class="mobileonly">{{Anchor2|id=Evolved Secret Units}}</div>
+<h3 class="mobileonly">'''Evolved Secret Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Joker}}
+{{Characterbox|Android AAA}}
+{{Characterbox|Blue Devil}}
+{{Characterbox|Bozo}}
+{{Characterbox|Boxer}}
+{{Characterbox|Deer-tan}}
+{{Characterbox|Demonshade}}
+{{Characterbox|Dispenser}}
+{{Characterbox|Dog Demon}}
+{{Characterbox|Fan Ninja}}
+{{Characterbox|Future Goh}}
+{{Characterbox|Julias}}
+{{Characterbox|Katana}}
+{{Characterbox|Kimoaro}}
+{{Characterbox|Komo}}
+{{Characterbox|Messi}}
+{{Characterbox|Mist Ninja}}
+{{Characterbox|Saickik}}
+{{Characterbox|Stitches}}
+{{Characterbox|Tattermo}}
+{{Characterbox|Windspire}}
+{{Characterbox|Wukong}}
+
+|css=border-radius: 8px; background: #44191929; box-shadow: 0 0 11px -2px #ff292980, inset 0 0 20px 0px #f43a3a33;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+|-|Secret Units=
+{{#tag:tabber
+|Evolved=
+<div class="mobileonly">{{Anchor2|id=Evolved Secret Units}}</div>
+<h3 class="mobileonly">'''Evolved Secret Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Snow Reaper (Final)}}
+{{Characterbox|Sorcerer Killer (Heavenly Body)}}
+{{Characterbox|Illusionist (Transcended)}}
+{{Characterbox|Dark Mage (Fallen Star)}}
+{{Characterbox|Enlightened (Nirvana)}}
+{{Characterbox|Dracula (Unholy King)}}
+{{Characterbox|Supreme Being (Sovereign)}}
+{{Characterbox|Bubblegum (Ultimate)}}
+{{Characterbox|Saka (Ribbon)}}
+{{Characterbox|InHuman (Nullifier)}}
+{{Characterbox|Blade Beast (Past)}}
+{{Characterbox|Stringy (Awakened)}}
+{{Characterbox|Gazu (Maximum)}}
+{{Characterbox|Golden King (Lord of Heroes)}}
+{{Characterbox|Shadowgirl (Time Traveller)}}
+{{Characterbox|Ice Queen (Empire's Strongest)}}
+{{Characterbox|Spirit Reaper (Full Hollow)}}
+{{Characterbox|Jelly (Heaven)}}
+{{Characterbox|Ratio (Overtime)}}
+{{Characterbox|Trickster (Release)}}
+{{Characterbox|Chance (Focus)}}
+{{Characterbox|Chance (Frenzy)}}
+{{Characterbox|Chance (Lethal)}}
+{{Characterbox|Chance (Precision)}}
+{{Characterbox|Lord Alien King}}
+{{Characterbox|Lyla (Celestial)}}
+{{Characterbox|Lulu (Emperor)}}
+{{Characterbox|Infinity Mage (Endless)}}
+{{Characterbox|Agony (Divine)}}
+{{Characterbox|Green Alien (Nameless)}}
+{{Characterbox|Sea God (Tyrant of the Seas)}}
+{{Characterbox|Pirate King (Final)}}
+{{Characterbox|Mangaka (Artist)}}
+{{Characterbox|Shizo (Flicker)}}
+{{Characterbox|Skeleton Knight (King)}}
+{{Characterbox|Fiery Commander (Hellfire)}}
+{{Characterbox|Umbra (Nuclear)}}
+{{Characterbox|Switchblade (Deception)}}
+|css=border-radius: 8px; background: #44191929; box-shadow: 0 0 11px -2px #ff292980, inset 0 0 20px 0px #f43a3a33;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+{{!}}-{{!}}Normal=
+<div class="mobileonly">{{Anchor2|id=Secret Units}}</div>
+<h3 class="mobileonly">'''Secret Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Sorcerer Killer}}
+{{Characterbox|Snow Reaper (War)}}
+{{Characterbox|Dark Mage}}
+{{Characterbox|Enlightened}}
+{{Characterbox|Dracula}}
+{{Characterbox|Supreme Being}}
+{{Characterbox|Alien King}}
+{{Characterbox|Bubblegum}}
+{{Characterbox|Saka}}
+{{Characterbox|InHuman}}
+{{Characterbox|Fire Fist}}
+{{Characterbox|Stringy}}
+{{Characterbox|Gazu}}
+{{Characterbox|Golden King}}
+{{Characterbox|Shadowgirl}}
+{{Characterbox|Ice Queen}}
+{{Characterbox|Jelly}}
+{{Characterbox|JIO (Over Heaven)}}
+{{Characterbox|Lulu}}
+{{Characterbox|Infinity Mage}}
+{{Characterbox|Agony (Path)}}
+{{Characterbox|Green Alien (Fusion)}}
+{{Characterbox|Sea God}}
+{{Characterbox|Renzi}}
+{{Characterbox|Mangaka}}
+{{Characterbox|Pirate King}}
+{{Characterbox|Shizo}}
+{{Characterbox|Skeleton Knight}}
+{{Characterbox|???}}
+{{Characterbox|Fiery Commander}}
+{{Characterbox|Umbra}}
+{{Characterbox|Switchblade}}
+|css=border-radius: 8px; background: #44191929; box-shadow: 0 0 11px -2px #ff292980, inset 0 0 20px 0px #f43a3a33;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+}}
+
+
+|-|Mythic Units=
+{{#tag:tabber
+|Evolved=
+<div class="mobileonly">{{Anchor2|id=Evolved Mythic Units}}</div>
+<h3 class="mobileonly">'''Evolved Mythic Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Divine General|check_img=true}}
+{{Characterbox|Black Assassin (Reaper)}}
+{{Characterbox|Demihuman (Gamer)}}
+{{Characterbox|Elyssia (Abyssal)}}
+{{Characterbox|Gambler (Jackpot)}}
+{{Characterbox|Robot Sorcerer}}
+{{Characterbox|Shadow Sorcerer (Incident)}}
+{{Characterbox|Shadow Sorcerer (Ritual)}}
+{{Characterbox|Zombie (Risen)}}
+{{Characterbox|Spider (Immolation)}}
+{{Characterbox|Legendary Assassin (Prime)}}
+{{Characterbox|Somber (Buzzsaw)}}
+{{Characterbox|Killstreak (Speedrun)}}
+{{Characterbox|Elf Mage (Aura)}}
+{{Characterbox|Cream (Void)}}
+{{Characterbox|Siren (Harpy)}}
+{{Characterbox|Honey (Hive)}}
+{{Characterbox|Ghost-kun (Bound)}}
+{{Characterbox|Iceclaw (Azure Fang)}}
+{{Characterbox|Dreamer (Visionary)}}
+{{Characterbox|Psychic Princess (Evo)}}
+{{Characterbox|Silver Slayer (Hunter)}}
+{{Characterbox|Illusionist (Betrayal)}}
+{{Characterbox|Illusionist (Chrysalis)}}
+{{Characterbox|Illusionist (Final)}}
+{{Characterbox|Illusionist (Fusion)}}
+{{Characterbox|Akemy (Fallen Angel)}}
+{{Characterbox|Curse (Contract)}}
+{{Characterbox|Black Dog (HellHound)}}
+{{Characterbox|Martial Demon (Destruction)}}
+{{Characterbox|Cherub (Overseer)}}
+{{Characterbox|Paragon (Devil)}}
+{{Characterbox|Frost Navy (Blue Pigeon)}}
+{{Characterbox|Faker (Hero's Soul)}}
+{{Characterbox|Ariva (Reaper)}}
+{{Characterbox|Gamer Girl (Flash)}}
+{{Characterbox|Tiger (Moonlight Beast)}}
+{{Characterbox|Prime Force (Peace)}}
+{{Characterbox|Flamefeather (Arcane Blaze)}}
+{{Characterbox|Explosion Hero (Impact)}}
+{{Characterbox|Waterfist (White Tooth)}}
+{{Characterbox|Player (Argus)}}
+{{Characterbox|Skeleton (Soul King)}}
+{{Characterbox|Bunny (Night)}}
+{{Characterbox|Experiment X (Perfect)}}
+{{Characterbox|Experiment X (SUPER PERFECT)}}
+{{Characterbox|Blade Beast (Hybrid)}}
+{{Characterbox|Chairman Prayer Master}}
+{{Characterbox|Cotton (Sheep)}}
+{{Characterbox|Spirit Sniper (Prodigy)}}
+{{Characterbox|Gravity Mage (Void)}}
+{{Characterbox|Connor (Wizard King)}}
+{{Characterbox|Jackal (Alpha)}}
+{{Characterbox|Crush (Ace)}}
+{{Characterbox|Hammer Giantess (Creation)}}
+{{Characterbox|Magic Disbeliever (Dark)}}
+{{Characterbox|Lucifer (Demon Emperor)}}
+{{Characterbox|Verdant Hero (Dark)}}
+{{Characterbox|Emperor Whitehair}}
+{{Characterbox|Flame Hero (Hellfire)}}
+{{Characterbox|Usurper (Founder)}}
+{{Characterbox|Hermy (Duplicate)}}
+{{Characterbox|Eta (One-Eye)}}
+{{Characterbox|Crystal Rose (Impact)}}
+{{Characterbox|Elize (Lightning)|check_img=true}}
+{{Characterbox|Elize (True Heart)}}
+{{Characterbox|Elize (Valkyrie)}}
+{{Characterbox|Fleet Admiral Magma}}
+{{Characterbox|Gravity Navy (Admiral)}}
+{{Characterbox|Flower Ninja (Austere Flame)}}
+{{Characterbox|Gas (Toxic)}}
+{{Characterbox|Cyborg (Incinerate)}}
+{{Characterbox|Skater (Album)}}
+{{Characterbox|White Snake (Sacred Spear)}}
+{{Characterbox|Carrot (Ultra)}}
+{{Characterbox|Paradox (Divine Sight)}}
+{{Characterbox|Golden Tyrant (Emperor)}}
+{{Characterbox|Gene (???)}}
+{{Characterbox|Doll (Spirit Archer)}}
+{{Characterbox|Cold Mage (Devil Slayer)}}
+{{Characterbox|Crimson Thief (Hunt)}}
+{{Characterbox|Griffin (Ascension)}}
+{{Characterbox|Griffin (Darkness)}}
+{{Characterbox|Griffin (Reincarnation)}}
+{{Characterbox|Berserker (Rage)}}
+{{Characterbox|Sepsis (Moon)}}
+{{Characterbox|Mirror Ninja (Reflection)}}
+{{Characterbox|Eccentric Researcher (Captain)}}
+{{Characterbox|Hammerhead (Shark Empress)}}
+{{Characterbox|Falcon (Feather Strike)}}
+{{Characterbox|Haze (Rage)}}
+{{Characterbox|Crusader (Admin)}}
+{{Characterbox|Heavy Weather}}
+{{Characterbox|Death Ninja (Immortal Butcher)}}
+{{Characterbox|Ghosty (Sacrifice)}}
+{{Characterbox|Fiend Girl (Buttterfly)|check_img=true}}
+{{Characterbox|Spirit Reaper (Final Dusk)}}
+{{Characterbox|Lilia (Homunculus)}}
+{{Characterbox|Dragon Knight (Gauntlet)}}
+{{Characterbox|Izo (Samurai)}}
+{{Characterbox|Scarlet Slayer (Cursed Frost)}}
+{{Characterbox|Toad Sensei (Toad Sage)}}
+{{Characterbox|Delinquent (The Universe)}}
+{{Characterbox|Dolphin (Determination)}}
+{{Characterbox|Time Wizard (Chronos)}}
+{{Characterbox|Juozu (Joker)}}
+{{Characterbox|Packy (Maniac)}}
+{{Characterbox|Fairy Ruler (Sloth)}}
+{{Characterbox|King Ant}}
+{{Characterbox|Calm Killer (Meets the End)}}
+{{Characterbox|Gamer (Dual)}}
+{{Characterbox|Sharkfin (Tailless Beast)}}
+{{Characterbox|Killer (Godspeed)}}
+{{Characterbox|Virtual Samurai (Bachelor)}}
+{{Characterbox|Cowardly (Scared)}}
+{{Characterbox|Reliable Student (Echoes)}}
+{{Characterbox|Origami (Paper Angel)}}
+{{Characterbox|Catgirl (Hell-Cat)}}
+{{Characterbox|Kyko (Crimson Spear)}}
+{{Characterbox|Spearer (Child of Light)}}
+{{Characterbox|Operator (ROOM)}}
+{{Characterbox|Elfy (Sylph)}}
+{{Characterbox|Lex Akoman}}
+{{Characterbox|Karma (Thunder Fiend)}}
+{{Characterbox|Joykid (Mode IV)}}
+{{Characterbox|Magic Girl (Salvation)}}
+{{Characterbox|Millie (Holy)}}
+{{Characterbox|Mazara (Founder)}}
+{{Characterbox|Bodybuilder (Muscles)}}
+{{Characterbox|Hex (Witch of Betrayal)}}
+{{Characterbox|Shadow Sorcerer (Hybrid Shadow)}}
+{{Characterbox|Wratho (Assault)}}
+{{Characterbox|Iron Knight (Arsenal)}}
+{{Characterbox|Lunar Hare (Tiger)}}
+{{Characterbox|Mochi (Rage)}}
+{{Characterbox|Morbid (Shadow Lord)}}
+{{Characterbox|Thunder Maid (Servant)}}
+{{Characterbox|Dragonslayer (Lightning Mode)}}
+{{Characterbox|Weather Girl (Thief)}}
+{{Characterbox|Aquatic Mage (Valkyrie Armor)}}
+{{Characterbox|Fox Ninja (Beast Cloak)}}
+{{Characterbox|Fox Ninja (Six Tails)}}
+{{Characterbox|Idol (Star)}}
+{{Characterbox|Ghost Lady (Princess)}}
+{{Characterbox|Cat Guard (Ballet)}}
+{{Characterbox|Blood (Unleashed)}}
+{{Characterbox|Hubris (Day)|check_img=true}}
+{{Characterbox|Hubris (The One)}}
+{{Characterbox|Priest (Heaven)}}
+{{Characterbox|Priest (New Moon)}}
+{{Characterbox|Red Scar (Conqueror)}}
+{{Characterbox|Donut (ABLAZE)}}
+{{Characterbox|Riony (Devil Princess)}}
+{{Characterbox|Sword Queen (Knight)}}
+{{Characterbox|Rebel (Flame Ruler)}}
+{{Characterbox|Saki (Cyanblade)}}
+{{Characterbox|Golden Navy (Buddha)}}
+{{Characterbox|Bloodcry (Fallen)}}
+{{Characterbox|Ashborn (Decay)}}
+{{Characterbox|Smoka (Hunter)}}
+{{Characterbox|Wasp (Hornet)}}
+{{Characterbox|Supersound (Speed)}}
+{{Characterbox|Shinobi (Eternal)}}
+{{Characterbox|Shinobi (Storm)}}
+{{Characterbox|Menace (Terror)}}
+{{Characterbox|Cursed King}}
+{{Characterbox|Super Bro}}
+{{Characterbox|Super Chunks|check_img=true}}
+{{Characterbox|Tango (Flash God)}}
+{{Characterbox|Tarata (Ignite)}}
+{{Characterbox|Tamiki (Tornado)}}
+{{Characterbox|Lightning God (Awakened)}}
+{{Characterbox|Blaze Frost (Released)}}
+{{Characterbox|Icy Dragon (Lotus)}}
+{{Characterbox|Takamu (Reborn)}}
+{{Characterbox|Void Spear (Revival)}}
+{{Characterbox|Spirit Archer (Reversal)}}
+{{Characterbox|Captain (God)}}
+{{Characterbox|Gunslinger (Cross)}}
+{{Characterbox|Fused Hero|check_img=true}}
+{{Characterbox|Vego (Mage II)}}
+{{Characterbox|Vego (Super II)}}
+{{Characterbox|Black Blade (Captain)}}
+{{Characterbox|Elf Spirit (Wind)}}
+{{Characterbox|Puppet Girl (Spirit)}}
+{{Characterbox|Shrimp (White Terror)}}
+{{Characterbox|Mimic Sorcerer (Cursed Child)}}
+{{Characterbox|Hex (Witch of Betrayal)}}
+{{Characterbox|Jose (Unbreakable)}}
+{{Characterbox|Fridge}}
+
+|css=border-radius: 6px; background: #19443d29;box-shadow: 0 0 11px -2px #29ff786e, inset 0 0 20px 0px #e7f43a1f;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+{{!}}-{{!}}Normal=
+<div class="mobileonly">{{Anchor2|id=Mythic Units}}</div>
+<h3 class="mobileonly">'''Mythic Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Black Assassin}}
+{{Characterbox|Demihuman}}
+{{Characterbox|Elyssia}}
+{{Characterbox|Gambler}}
+{{Characterbox|Robot Sorcerer}}
+{{Characterbox|Shadow Sorcerer (Incident)}}
+{{Characterbox|Zombie}}
+{{Characterbox|Spider}}
+{{Characterbox|Somber}}
+{{Characterbox|Killstreak}}
+{{Characterbox|Elf Mage}}
+{{Characterbox|Cream}}
+{{Characterbox|Legendary Assassin}}
+{{Characterbox|Siren}}
+{{Characterbox|Honey}}
+{{Characterbox|Ghost-kun}}
+{{Characterbox|Iceclaw (Rebirth)}}
+{{Characterbox|Dreamer}}
+{{Characterbox|Psychic Princess}}
+{{Characterbox|Silver Slayer}}
+{{Characterbox|Illusionist}}
+{{Characterbox|Magma}}
+{{Characterbox|Akemy}}
+{{Characterbox|Curse}}
+{{Characterbox|Cherub}}
+{{Characterbox|Paragon}}
+{{Characterbox|Frost Navy}}
+{{Characterbox|Faker}}
+{{Characterbox|Ariva}}
+{{Characterbox|Arlem}}
+{{Characterbox|Magic Disbeliever}}
+{{Characterbox|Prime Force}}
+{{Characterbox|Gamer Girl}}
+{{Characterbox|Tiger}}
+{{Characterbox|Flamefeather}}
+{{Characterbox|Explosion Hero (Bang)}}
+{{Characterbox|Waterfist}}
+{{Characterbox|Player}}
+{{Characterbox|Bombietta}}
+{{Characterbox|Skeleton}}
+{{Characterbox|Bro}}
+{{Characterbox|Bunny}}
+{{Characterbox|Blade Beast}}
+{{Characterbox|Cotton}}
+{{Characterbox|Spirit Sniper}}
+{{Characterbox|Gravity Mage}}
+{{Characterbox|Connor}}
+{{Characterbox|Jackal}}
+{{Characterbox|Crush}}
+{{Characterbox|Hammer Giantess}}
+{{Characterbox|Lucifer}}
+{{Characterbox|Verdant Hero (String)}}
+{{Characterbox|Devil Boss}}
+{{Characterbox|Ice Lily}}
+{{Characterbox|Flame Hero}}
+{{Characterbox|Hermy}}
+{{Characterbox|Eta}}
+{{Characterbox|Crystal Rose}}
+{{Characterbox|Elize}}
+{{Characterbox|Gravity Navy}}
+{{Characterbox|Flower Ninja}}
+{{Characterbox|Gas}}
+{{Characterbox|Cyborg (Overdrive)}}
+{{Characterbox|Skater}}
+{{Characterbox|White Snake}}
+{{Characterbox|Carrot (Super III)}}
+{{Characterbox|Paradox}}
+{{Characterbox|Golden Tyrant}}
+{{Characterbox|Gene (Adult)}}
+{{Characterbox|Doll}}
+{{Characterbox|Cold Mage}}
+{{Characterbox|Crimson Thief}}
+{{Characterbox|Griffin (Ascension)}}
+{{Characterbox|Griffin (Darkness)}}
+{{Characterbox|Griffin (Reincarnation)}}
+{{Characterbox|Griffin}}
+{{Characterbox|Berserker}}
+{{Characterbox|Sepsis}}
+{{Characterbox|Mirror Ninja}}
+{{Characterbox|Eccentric Researcher}}
+{{Characterbox|Hammerhead}}
+{{Characterbox|Falcon}}
+{{Characterbox|Haze}}
+{{Characterbox|Crusader}}
+{{Characterbox|Death Ninja}}
+{{Characterbox|Ghosty}}
+{{Characterbox|Fiend Girl}}
+{{Characterbox|Spirit Reaper (Dusk)}}
+{{Characterbox|Lilia}}
+{{Characterbox|Dragon Knight}}
+{{Characterbox|Itukoda}}
+{{Characterbox|Izo (Black Fire)}}
+{{Characterbox|Scarlet Slayer}}
+{{Characterbox|Toad Sensei}}
+{{Characterbox|Delinquent (Serious)}}
+{{Characterbox|Dolphin}}
+{{Characterbox|Time Wizard}}
+{{Characterbox|Juozu}}
+{{Characterbox|Packy}}
+{{Characterbox|Ratio}}
+{{Characterbox|Fairy Ruler}}
+{{Characterbox|Calm Killer}}
+{{Characterbox|Gamer}}
+{{Characterbox|Trickster}}
+{{Characterbox|Chance}}
+{{Characterbox|Sharkfin}}
+{{Characterbox|Killer (Whirlwind)}}
+{{Characterbox|Virtual Samurai}}
+{{Characterbox|Cowardly}}
+{{Characterbox|Reliable Student}}
+{{Characterbox|Origami}}
+{{Characterbox|Catgirl}}
+{{Characterbox|Kyko}}
+{{Characterbox|Spearer}}
+{{Characterbox|Operator (Heart)}}
+{{Characterbox|Elfy}}
+{{Characterbox|Lex}}
+{{Characterbox|Lyla}}
+{{Characterbox|Karma}}
+{{Characterbox|Joykid (Bounce)}}
+{{Characterbox|Magic Girl}}
+{{Characterbox|Millie}}
+{{Characterbox|Mazara}}
+{{Characterbox|Bodybuilder}}
+{{Characterbox|Hex}}
+{{Characterbox|Shadow Sorcerer}}
+{{Characterbox|Wratho}}
+{{Characterbox|Ant}}
+{{Characterbox|Iron Knight}}
+{{Characterbox|Flash Ninja}}
+{{Characterbox|Lunar Hare}}
+{{Characterbox|Mochi}}
+{{Characterbox|Morbid}}
+{{Characterbox|Thunder Maid}}
+{{Characterbox|Dragonslayer}}
+{{Characterbox|Weather Girl}}
+{{Characterbox|Prayer Master}}
+{{Characterbox|Aquatic Mage}}
+{{Characterbox|Fox Ninja (Sage)}}
+{{Characterbox|Idol}}
+{{Characterbox|Ghost Lady}}
+{{Characterbox|Cat Guard}}
+{{Characterbox|Blood}}
+{{Characterbox|Hubris (Night)}}
+{{Characterbox|Priest}}
+{{Characterbox|Silver King}}
+{{Characterbox|Red Scar}}
+{{Characterbox|Donut}}
+{{Characterbox|Riony}}
+{{Characterbox|Turtle Master}}
+{{Characterbox|Sword Queen}}
+{{Characterbox|Rebel}}
+{{Characterbox|Saki}}
+{{Characterbox|Golden Navy}}
+{{Characterbox|Bloodcry}}
+{{Characterbox|Ashborn}}
+{{Characterbox|Smoka}}
+{{Characterbox|Snake Princess}}
+{{Characterbox|Wasp}}
+{{Characterbox|Supersound}}
+{{Characterbox|Shinobi (Awakened)}}
+{{Characterbox|Shinobi (Hood)}}
+{{Characterbox|Menace}}
+{{Characterbox|Tango (Score)}}
+{{Characterbox|Tango}}
+{{Characterbox|Tarata}}
+{{Characterbox|Tamiki}}
+{{Characterbox|Lightning God}}
+{{Characterbox|Toby}}
+{{Characterbox|Blaze Frost}}
+{{Characterbox|Icy Dragon}}
+{{Characterbox|Takamu}}
+{{Characterbox|Void Spear}}
+{{Characterbox|Bleed Queen}}
+{{Characterbox|Spirit Archer}}
+{{Characterbox|Captain (Timeskip)}}
+{{Characterbox|Gunslinger}}
+{{Characterbox|Vego (Mage)}}
+{{Characterbox|Vego (Super)}}
+{{Characterbox|Weather}}
+{{Characterbox|Whitehair}}
+{{Characterbox|Black Blade}}
+{{Characterbox|Elf Spirit}}
+{{Characterbox|Puppet Girl}}
+{{Characterbox|Shrimp}}
+{{Characterbox|Mimic Sorcerer}}
+{{Characterbox|Jose (Shining Gem)}}
+|css=border-radius: 6px; background: #19443d29;box-shadow: 0 0 11px -2px #29ff786e, inset 0 0 20px 0px #e7f43a1f;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+}}
+
+|-|Legendary Units=
+<div class="mobileonly">{{Anchor2|id=Legendary Units}}</div>
+<h3 class="mobileonly">'''Legendary Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Agony}}
+{{Characterbox|Martial Demon}}
+{{Characterbox|Blackhair}}
+{{Characterbox|Bulby}}
+{{Characterbox|Experiment X (Semi-Perfect)}}
+{{Characterbox|Chunks}}
+{{Characterbox|Scorch}}
+{{Characterbox|Usurper}}
+{{Characterbox|Gajoze}}
+{{Characterbox|Ice Shaper}}
+{{Characterbox|Carrot (Super)}}
+{{Characterbox|Carrot Black}}
+{{Characterbox|Gene}}
+{{Characterbox|Iceclaw}}
+{{Characterbox|Magician}}
+{{Characterbox|Izo}}
+{{Characterbox|JIO}}
+{{Characterbox|Gold Boy}}
+{{Characterbox|Juvy}}
+{{Characterbox|Ghoul (Centipede)}}
+{{Characterbox|Light Admiral}}
+{{Characterbox|Flame Wizard}}
+{{Characterbox|Mecha Tyrant}}
+{{Characterbox|Zorrawk}}
+{{Characterbox|Nightmare Joykid}}
+{{Characterbox|Hammergirl}}
+{{Characterbox|Norro}}
+{{Characterbox|Fox Ninja (Demon Cloak)}}
+{{Characterbox|Commander}}
+{{Characterbox|Snow Reaper}}
+{{Characterbox|Swingo}}
+{{Characterbox|Silent}}
+{{Characterbox|Touci}}
+{{Characterbox|Wind Dragon}}
+{{Characterbox|Monkey}}
+|css=background: #97780e0d; box-shadow: 0 0 11px -2px #fab72f70, inset 0 0 20px 0px #fab72f24; border-radius: 8px;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+|-|Epic Units=
+<div class="mobileonly">{{Anchor2|id=Epic Units}}</div>
+<h3 class="mobileonly">'''Epic Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Lotus Samurai}}
+{{Characterbox|Experiment X (Imperfect)}}
+{{Characterbox|Sandy}}
+{{Characterbox|Tyrant (Final)}}
+{{Characterbox|Sand Ninja}}
+{{Characterbox|Cyborg}}
+{{Characterbox|Spirit Reaper (Masked)}}
+{{Characterbox|Beast}}
+{{Characterbox|Delinquent}}
+{{Characterbox|Karyn}}
+{{Characterbox|Kazashu}}
+{{Characterbox|Killer}}
+{{Characterbox|Operator}}
+{{Characterbox|Joykid (Navy Bay)}}
+{{Characterbox|Green Alien}}
+{{Characterbox|C.E.O}}
+{{Characterbox|Blaze Frost (Epic)}}
+{{Characterbox|Restructure}}
+{{Characterbox|Zapstu}}
+|css=background: hwb(271deg 4% 6% / 1%);box-shadow: 0 0 11px -2px #7a09f166, inset 0 0 20px 0px #800af045;border-radius: 8px;
+}}<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+|-|Rare Units=
+<div class="mobileonly">{{Anchor2|id=Rare Units}}</div>
+<h3 class="mobileonly">'''Rare Units'''</h3>
+<div style="background: #00ffa912; border-radius: 8px;">
+{{Container Characterbox
+|
+{{Characterbox|Aman}}
+{{Characterbox|Explosion Hero}}
+{{Characterbox|Verdant Hero}}
+{{Characterbox|Carrot}}
+{{Characterbox|Spirit Reaper}}
+{{Characterbox|Johna}}
+{{Characterbox|Jose}}
+{{Characterbox|Ghoul}}
+{{Characterbox|Kolo}}
+{{Characterbox|Joykid}}
+{{Characterbox|Demon Girl}}
+{{Characterbox|Fox Ninja}}
+{{Characterbox|Blossom}}
+{{Characterbox|Joan}}
+{{Characterbox|Shinobi}}
+{{Characterbox|Demonkiller}}
+{{Characterbox|Gravity Hero}}
+{{Characterbox|Captain}}
+{{Characterbox|Vego}}
+{{Characterbox|Zen}}
+|css=background: hwb(209deg 6% 2% / 3%); box-shadow: 0 0 11px -2px #5b09f157, inset 0 0 20px 0px #6d0af040; border-radius: 8px;
+}}</div><center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>
+
+
+</tabber>
+__NOEDITSECTION____NOTOC__

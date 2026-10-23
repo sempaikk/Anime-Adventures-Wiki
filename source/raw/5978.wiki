@@ -1,0 +1,10 @@
+<div style="display: flex; justify-content: space-between; font-family: 'Fredoka One'; gap: 5px; font-size: 90%;">
+<div>[[Module:FanmadeUnitData/Data|/Data]]<br>
+[[Module:FanmadeUnitData/Data/Names|/Data/Names]]<br>
+[[Module:FanmadeUnitData/Data/AoE Type|/Data/AoE Type]]<br>
+</div>
+<div style="margin-top: auto; font-size: 12px;">[https://animeadventures.fandom.com/wiki/Module:FanmadeUnitData/doc?action=edit <span style="color: #e6e6e6;">change doc</span>]</div>
+<div>
+[[Module:FanmadeUnitData-Test]]
+</div>
+</div>

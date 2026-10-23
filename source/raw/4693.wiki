@@ -1,0 +1,64 @@
+local getArgs = require('Module:Arguments').getArgs
+local Shared = require( 'Module:UnitData' )
+
+-- mw.logObject(p.Statis_list())
+
+local p = {}
+local uData    = mw.loadData('Module:UnitData/Data')
+local uData_N  = mw.loadData('Module:UnitData/Data/Names')
+local uData_AT = mw.loadData('Module:UnitData/Data/AoE_Type')
+
+
+
+function toNil(thing)         if thing == nil or thing == '' then return nil else  return thing end end
+function toEmptyString(thing) if thing == nil or thing == '' then  return "" else  return thing end end
+
+
+
+function p.Statis_list(f) 
+	local args = getArgs(f, {
+        wrapper = 'Template:Statistics_list'
+    })
+	return f:preprocess(Statis_list(args))
+end 
+
+
+
+function Statis_list()
+	local function compareNames(a, b)
+	    return a.name < b.name
+	end
+	local sortedData = {}
+	for _, value in pairs(uData) do
+	    table.insert(sortedData, value)
+	end
+	table.sort(sortedData, compareNames)
+	
+	local template = ""
+	
+	for id, unit in pairs(sortedData) do
+		id = unit.id
+		-- template = template ..'|Damage='.. Shared.get({args = {name = unit.name, "upgrade", 'damage', 'max'} })
+		-- template = template ..'|Range='.. Shared.get({args = {name = unit.name, "upgrade", 'range', 'max'} })
+		-- template = template ..'|SPA='.. Shared.get({args = {name = unit.name, "upgrade", 'attack_cooldown', 'max'} })
+		-- template = template ..'|tower_type='.. Shared.get({args = {name = unit.name, "tower_type"} })
+		-- template = template ..'|attack_type='.. Shared.get({args = {name = unit.name, "attack_type"} })
+		if toNil(uData[id]) then
+			if toNil(unit.upgrade) then
+				if toNil(unit.upgrade[1]) then
+					template = template ..'{{Statistics-TableBlock|'.. unit.name
+					template = template ..'|total_cost='.. (Shared.get({args = {name = tostring(id), "total_cost"} }) or ' ')
+					template = template ..'|attack_type='.. (Shared.get({args = {name = id, "attack_type"} }) or ' ')
+					template = template ..'|tower_type='.. (Shared.get({args = {name = id, "tower_type"} }) or ' ')
+					template = template ..'|Damage='.. (Shared.get({args = {name = tostring(id), "upgrade", 'damage', 'max'} }) or ' ')
+					template = template ..'|Range='.. (Shared.get({args = {name = tostring(id), "upgrade", 'range', 'max'} }) or ' ')
+					template = template ..'|SPA='.. (Shared.get({args = {name = tostring(id), "upgrade", 'attack_cooldown', 'max'} }) or ' ') .. "}}\n"
+				end
+			end
+		end
+		-- template = template ..'{{'.. template ..'}}'
+	end
+	return template
+end
+
+return p

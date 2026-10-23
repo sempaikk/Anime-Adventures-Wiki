@@ -1,0 +1,89 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable via evolving his day form, [[Hubris (Day)]].
+
+{{EvolutionTable}}
+He requires 1,000,000 Sunshine to evolve, something he can get upon taking down enemies (Enemies in farther story modes give more sunshine than the enemies in weaker story modes.), or either him taking down Sunshine Demons on Fabled Kingdom Infinite (or in Portals), or by clearing Fabled Kingdom portals and using the item on him. The most efficient way to evolve him is by doing Fabled Kingdom Infinite and placing him upfront while placing your main units at the back.
+
+==Stats Overview==
+{{Tower_Infobox|caption1="Apologize to me that you were born into my world."|caption2="My attacks cannot reach you? And who decided that? My Sun was swallowed by your Darkness? And who decided that? The only one who can make those decisions is ME!"}}{{Main Stats}}
+Attacks starting from Upgrade 8 are able to hit air type enemies.
+==Passive==
+[[Hubris (The One)]] has slightly similar passive to [[Kent (Overtime)]] that boosts his '''Damage '''and '''Range ''' overtime for 15 waves, capping at around 125.1% '''Damage '''increase and 67.5% '''Range '''increase.  
+*It is recommended to place him at wave 4 during wave 20 Portals/Raids to get his full buff.
+
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; box-shadow: 5px 5px 15px #e69c2e;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Wave
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Buff
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Total Buff
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Wave
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Buff
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Total Buff
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Spawn
+|{{Stat|Damage|0.0%}}<br>{{Stat|Range|0.0%}}
+|{{Stat|Damage|0.0%}}<br>{{Stat|Range|0.0%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |8
+|{{Stat|Damage|8.3%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|60.0%}}<br>{{Stat|Range|36.0%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |1
+|{{Stat|Damage|6.7%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|6.7%}}<br>{{Stat|Range|4.5%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |9
+|{{Stat|Damage|8.6%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|68.6%}}<br>{{Stat|Range|40.5%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |2
+|{{Stat|Damage|6.9%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|13.6%}}<br>{{Stat|Range|9.0%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |10
+|{{Stat|Damage|8.8%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|77.4%}}<br>{{Stat|Range|45.0%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |3
+|{{Stat|Damage|7.1%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|20.7%}}<br>{{Stat|Range|13.5%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |11
+|{{Stat|Damage|9.1%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|86.5%}}<br>{{Stat|Range|49.5%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |4
+|{{Stat|Damage|7.4%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|28.1%}}<br>{{Stat|Range|18.0%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |12
+|{{Stat|Damage|9.3%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|95.8%}}<br>{{Stat|Range|54.0%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |5
+|{{Stat|Damage|7.6%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|35.7%}}<br>{{Stat|Range|22.5%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |13
+|{{Stat|Damage|9.5%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|105.3%}}<br>{{Stat|Range|58.5%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |6
+|{{Stat|Damage|7.9%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|43.6%}}<br>{{Stat|Range|27.0%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |14
+|{{Stat|Damage|9.8%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|115.1%}}<br>{{Stat|Range|63.0%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |7
+|{{Stat|Damage|8.1%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|51.7%}}<br>{{Stat|Range|31.5%}}
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |15
+|{{Stat|Damage|10.0%}}<br>{{Stat|Range|4.5%}}
+|{{Stat|Damage|125.1%}}<br>{{Stat|Range|67.5%}}
+|}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==
+
+* Since update 17, [[Griffin (Ascension)]] buff now gives damage to his sunshine instead to his base damage.
+* Since update 19.0, he has got a 30% damage buff.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

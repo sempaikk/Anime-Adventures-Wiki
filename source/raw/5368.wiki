@@ -1,0 +1,27 @@
+''If you were looking for a different Shinobi unit, see [[Shinobi (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He is only obtainable through summons.
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I have long since closed my eyes... My only goal is in the darkness."
+|caption2="I hate a lot of things, and I don't particularly like anything."
+|image1=Shinobi_(Eternal)_(Pose).png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

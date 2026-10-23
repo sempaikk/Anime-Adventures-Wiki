@@ -1,0 +1,24 @@
+{{Disenchant Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable from [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I'll help you get back on your feet... You were dealt a bad hand, but you can atone for your deeds and start over. Because you're a good person."
+|caption2="If corrupting myself is enough to put everyone else at ease, then I will gladly take on this job."
+|image1= {{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Damage Type Physical]]
+
+<references />

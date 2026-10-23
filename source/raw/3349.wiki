@@ -1,0 +1,34 @@
+''If you were looking for a different Captain unit, see [[Captain (Disambiguation)|Captain (disambiguation)]]''
+
+{{Meta Unit}}
+{{Story Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can only be obtained by evolving [[Captain (Timeskip)]].
+{{EvolutionTable}}
+{{Takedowns|1000}} 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I've sunk countless warship! People fear me as Captain (God), Lord of Destruction! Hey... if you wanna run, now's the time!"
+|caption2="There comes a time when a man has to stand and fight! This is the time when his friend's dreams are laughed at. [[Joykid]] won't die... I know he'll be the pirate king one day... and I won't let you laugh at that!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* He and his [https://animeadventures.fandom.com/wiki/Captain_(God) unevolved form] were the first units to not deal Physical, Magic or Burn damage. Their case is ''purely'' true damage.
+* Captain (Timeskip) and Captain (God) do not have any DPS, despite the Stats Overview stating it does.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Units]]
+[[Category:Mythic Units]]

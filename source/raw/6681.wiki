@@ -1,0 +1,31 @@
+{{Limited Unit}}{{Story Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. Hе can bе obtained by еvolving [[Killstreak]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Weak people talk too much. Strong people just end things."
+|caption2="Isn’t it beautiful how fragile everything is?"
+|image1=Killstreak (Speedrun).png
+|image2=Killstreak (Speedrun) Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+*This unit is Hybrid on placement even though he is ground unit.
+*[[Killstreak]] can only be placed 3 times while [https://animeadventures.fandom.com/wiki/Killstreak_(Speedrun) Killstreak (Speedrun)] can be placed 4 times
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+
+<references />

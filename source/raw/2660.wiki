@@ -1,0 +1,185 @@
+<center><big>'''Powerups ''' refer to ways to further enhance your units and make them even stronger.</center></big>
+
+
+
+<tabber>
+|-|Stat Rerolling=
+[[File:PerfectStatCube.png|thumb]]
+
+'''Stat Rerolling''', added in ''[[Update Log#Update 11 - Seven Deadly Sins Part 1|Update 11]]'', is a way to increase the base stats of any unit by using Stat Cubes or Perfect Stat Cubes to Reroll Stat Rerolls. You may get a worse base stat or a better base stat.
+
+==Requirements==
+To reroll a unit's base stat, you need at least one {{Item|Stat Cube}} or {{Item|Perfect Stat Cube}} which can be obtained from [[Evolution|Evolving]] units, the [[Battlepass]], [https://animeadventures.fandom.com/wiki/Challenges Daily Challenges] and [[Infinity Mansion]] Rewards.
+
+==Rerolling and Worthiness==
+Talk to the '''Cosmic Cat''' NPC (found at the '''Traits and Evolve''' area) and select "Reroll Potential". A menu will appear which will allow you to select any of your units and displays their current stats and Worthiness.  (Do note that the selected unit will be automatically unequipped if previously equipped.)
+
+Worthiness is calculated based on takedowns on a unit, every 100 takedowns adds 1% Worthiness, so a unit must have 10,000 takedowns to get 100% Worthiness. 
+
+It's always recommended to bring a unit's Worthiness to atleast 100% before rerolling any or all stats for a unit because you will have a higher chance to receive a good stat/stats such as a {{Rarity|S}}.
+
+Worthiness can go up to 400% however each reroll uses a maximum of 100%
+
+{{Item|Stat Cube}}s will reroll ALL of a units stats, while as {{Item|Perfect Stat Cube}}s will only reroll the selected stat.
+
+==Evolution==
+When [[Evolution|Evolving]] a unit, the stats of the unit will ALWAYS* be better than what it had when unevolved. So it is recommended to always reroll the Stats of your unit with high (preferably 100%) worthiness before evolving them. Note that the higher the %, the  increase it will get may be less.
+* Unevolved units with a {{Rarity|SSS}}</font> stat on them will NOT benefit from this, the % will stay the same.
+
+==Stat Transfer==
+You can transfer the stats of one unit to another by talking to '''Wish Girl''' (found at the '''Play''' area, next to the Kizzua NPC), and stat transfer attempts costs {{Gold|5000}} each stat. The transfer has a 50% chance of succeeding regardless of what unit in question it is, however the unit that the transferred stat originated from will be deleted 100% OF THE TIME.
+
+==Rerolling Base Stats==
+Below are the possible stats you can get.
+
+<!-- what's wrong with stat displays :/ -->
+<!-- original: {{Stat|Damage|19.96%}} and {{Stat|Damage|20.02%}} will all be rounded to {{Stat|Damage|20.0%}} -->
+<!-- this breaks for some reason -->
+<center><big>Note: Due to displayed numbers being rounded, sometimes percents like '''19.96%''' and '''20.02%''' will all be rounded to '''20.0%''' and would appear to be the same, despite being in different rankings ({{Rarity|SS}} and {{Rarity|SSS}} respectively).</big> </center>
+
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; text-align:center; display:block; width:645px; box-shadow: 5px 5px 15px #c25ce973; margin-left: auto; margin-right: auto; background: #db3bd707;"
+! style="width: 45px;" |
+! style="font-family: rubik,helvetica,arial,sans-serif; text-align: center;width: 200px;" |Damage<br>{{Stat|Damage}}
+! style="font-family: rubik,helvetica,arial,sans-serif; text-align: center;width: 200px;" |Attack Cooldown<br>{{Stat|SPA}}
+! style="font-family: rubik,helvetica,arial,sans-serif; text-align: center;width: 200px;" |Range<br>{{Stat|Range}}
+|-
+|{|{{RarityColor|Mythical|<big>SSS</big>}}
+| {{Stat|Damage|≥20%}}
+| {{Stat|SPA|≥-10%}}
+| {{Stat|Range|≥10%}}
+|-
+|<font size="5px;">{{Rarity|SS}} </font>
+| {{Stat|Damage|19.2% to 19.9%}}
+| {{Stat|SPA|-9.6% to -9.9%}}
+| {{Stat|Range|9.6% to 9.9%}}
+|-
+|<font size="5px;"><font color="#00ffdd">'''S+'''</font>
+| {{Stat|Damage|18.5% to 19.1%}}
+| {{Stat|SPA|-9.3% to -9.5%}}
+| {{Stat|Range|9.3% to 9.5%}}
+|-
+|<font size="5px;">{{Rarity|S}} </font>
+| {{Stat|Damage|17.8% to 18.4%}}
+| {{Stat|SPA|-8.9% to -9.2%}}
+| {{Stat|Range|8.9% to 9.2%}}
+|-
+|<font size="5px;">{{Rarity|S-}} </font>
+| {{Stat|Damage|17.0% to 17.7%}}
+| {{Stat|SPA|-8.5% to -8.8%}}
+| {{Stat|Range|8.5% to 8.8%}}
+|-
+|<font size="5px;">{{Rarity|A+}} </font>
+| {{Stat|Damage|14.8% to 16.9%}}
+| {{Stat|SPA|-7.3% to -8.4%}}
+| {{Stat|Range|7.3% to 8.4%}}
+|-
+|<font size="5px;">{{Rarity|A}}  </font>
+| {{Stat|Damage|12.5% to 14.7%}}
+| {{Stat|SPA|-6.3% to -7.2%}}
+| {{Stat|Range|6.3% to 7.2%}}
+|-
+|<font size="5px;">{{Rarity|A-}} </font>
+| {{Stat|Damage|10% to 12.4%}}
+| {{Stat|SPA|-5.0% to -6.2%}}
+| {{Stat|Range|5.0% to 6.2%}}
+|-
+|<font size="5px;">{{Rarity|B+}} </font>
+| {{Stat|Damage|6.5% to 9.9%}}
+| {{Stat|SPA|-3.4% to -4.9%}}
+| {{Stat|Range|3.4% to 4.9%}}
+|-
+|<font size="5px;">{{Rarity|B}}  </font>
+| {{Stat|Damage|3.0% to 6.4%}}
+| {{Stat|SPA|-1.7% to -3.3%}}
+| {{Stat|Range|1.7% to 3.3%}}
+|-
+|<font size="5px;">{{Rarity|B-}} </font>
+| {{Stat|Damage|0.0% to 2.9%}}
+| {{Stat|SPA|0.0% to -1.6%}}
+| {{Stat|Range|0.0% to 1.6%}}
+|-
+|<font size="5px;">{{Rarity|C+}} </font>
+| {{Stat|Damage|-3.0% to -0.1%}}
+| {{Stat|SPA|+2.0% to +0.1%}}
+| {{Stat|Range|-2.0% to -0.1%}}
+|-
+|<font size="5px;">{{Rarity|C}}  </font>
+| {{Stat|Damage|-6.5% to -3.1%}}
+| {{Stat|SPA|+5.0% to +2.1%}}
+| {{Stat|Range|-5.0% to -2.1%}}
+|-
+|<font size="5px;">{{Rarity|C-}} </font>
+| {{Stat|Damage|-10.0% to -6.6%}}
+| {{Stat|SPA|+10.0% to +5.1%}}
+| {{Stat|Range|-10.0% to -5.1%}}
+|-
+
+__NOTOC__
+__NOEDITSECTION__
+|-|Curses=
+[[File:Cursed Finger.png|thumb|<span class="game-font-face" style="color: #6500b3;">''"You feel an ominous presence calling you... will you answer?''"</span>]]
+
+'''Curses''', added in ''[[Update Log#Update 6.5 - Jujutsu Kaisen Update Part 2|Update 6.5]]'', are a way to increase the stats of any unit at the cost of another stat. Are you willing to sacrifice something?
+
+==Requirement==
+To curse a unit, you need at least one cursed Token which can be obtained from the '''[[Dungeons#Cursed_Womb|Cursed Womb]]''' dungeon or '''[[Battlepass]]''' . To enter the '''[[Dungeons#Cursed_Womb|Cursed Womb]]''' dungeon, you need a Cursed Womb key which can be dropped from secret enemies that spawn in '''Cursed Academy Infinite'''.
+
+==Where to curse units==
+After you've received your first Cursed Finger, click/tap on it in your '''Items''' and you'll be brought to ''Sukuno's'' domain.
+
+Curses can NOT be removed, curse your units wisely.
+
+==Cursing units==
+{| class="article-table" style="border-collapse: separate; border-spacing: 10px 20px; border: 10px; text-align:center; margin-left: auto; margin-right: auto; background: #0c0c0c00;"
+| style="background: #0c081e52;border-radius: 10px;border-color: white; width: 170px; height: 45px;"|Gain (1 At Random)
+| style="border-color: #0c0c0c00;width: 75px; height: 45px;"|
+| colspan="3" style="background: #0c081e52;border-radius: 10px;border-color: white;"|Lose (1 At Random)
+|-
+| style="border-radius: 10px;padding: 5px 10px; background: #0c0c0c4a;border-color: #FE21215e; vertical-align: top; text-align: center;" |{{Stat|Damage|2.5% to 13%}}
+| style="border-radius: 10px;padding: 5px 10px;  border-color: #0c0c0c00; vertical-align: top; text-align: center;" |
+| style="border-radius: 10px;padding: 5px 10px; width: 150px; height: 45px; background: #0c0c0c4a;border-color: #54BBFD5e; vertical-align: top; text-align: center;" |{{Stat|SPA|2.5% to 13%}} 
+| style="width: 45px; height:` 45px; border-color: #0c0c0c00;" |'''OR'''
+| style="border-radius: 10px;padding: 5px 10px; width: 150px; height: 45px; background: #0c0c0c4a;border-color: #FDEA225e; vertical-align: top; text-align: center;" |{{Stat|Range|2.5% to 13%}}
+| style="width: 45px; height:` 45px; border-color: #0c0c0c00;" |
+|-
+| style="border-radius: 10px;padding: 5px 10px; background: #0c0c0c4a;border-color: #54BBFD5e; vertical-align: top; text-align: center;" |{{Stat|SPA|-2.5% to -13%}}
+| style="border-radius: 10px;padding: 5px 10px;  border-color: #0c0c0c00; vertical-align: top; text-align: center;" |
+| style="border-radius: 10px;padding: 5px 10px; width: 150px; height: 45px; background: #0c0c0c4a;border-color: #FDEA225e; vertical-align: top; text-align: center;" |{{Stat|Range|2.5% to 13%}}
+| style="width: 45px; height:` 45px; border-color: #0c0c0c00;" |'''OR'''
+| style="border-radius: 10px;padding: 5px 10px; width: 150px; height: 45px; background: #0c0c0c4a;border-color: #FE21215e; vertical-align: top; text-align: center;" |{{Stat|Damage|2.5% to 13%}}
+|-
+| style="border-radius: 10px;padding: 5px 10px; background: #0c0c0c4a;border-color: #FDEA225e; vertical-align: top; text-align: center;" | {{Stat|Range|2.5% to 13%}}
+| style="border-radius: 10px;padding: 5px 10px;  border-color: #0c0c0c00; vertical-align: top; text-align: center;" |
+| style="border-radius: 10px;padding: 5px 10px; width: 150px; height: 45px; background: #0c0c0c4a;border-color: #FE21215e; vertical-align: top; text-align: center;" |{{Stat|Damage|2.5% to 13%}}
+| style="width: 45px; height:` 45px; border-color: #0c0c0c00;" |'''OR'''
+| style="border-radius: 10px;padding: 5px 10px; width: 150px; height: 45px; background: #0c0c0c4a;border-color: #54BBFD5e; vertical-align: top; text-align: center;" |{{Stat|SPA|2.5% to 13%}}
+|}
+
+==Notes==
+* Curses can affect ability cooldowns, such as [[Commander]]'s and [[Wind Dragon]]'s.
+This is crucial to being able to perform the "infinite buff" with their abilities.
+* Although [[Arlem]]'s SPA cannot be effected through Stats or [[Traits]], it can be affected by curses.
+__NOTOC__
+__NOEDITSECTION__
+|-|Limit Breaking=
+
+<small>[[File:DivineWish.webp|thumb|<span class="game-font-face" style="color: #6500b3;">''"A spark of divinity, forged to awaken inner power.''"</span>]]</small>
+'''Limit Breaking''', added in ''[[Update_Log#Update_19_-_Winter_Event|Update 19]]'' is a mechanic that allows players to further increase the levels of their units, as well as providing a buff to their other equipped units.
+
+In order to Limit Break a unit, you must have a Divine Wish and 12 unevolved towers of mythic/secret rarity, evolved mythics/secrets will count for double, only needing 6 total. You can fuse them together at the limit breaker located just outside of [[Evolution]]. After selecting the unit you want to Limit Break, select the sacrificial units, and then click limit break. All the units that you use for this process must be unlocked first.
+
+Limit Breaking a unit increases its max level by 10, up to a current maximum of 110. This provides approximately a 19% increase to the towers damage. Increasing a towers levels do not change its other stats such as range or spa.
+
+For every Limit Broken unit equipped by a player, all towers on that players team gain a stacking 5% damage buff. This buff is indicated by a small Divine Wish icon to the right of your units on your UI. You can have up to 6 Limit Broken units equipped at once, providing up to a 30% increase in damage for all of your units. Limit Breaking does not provide a buff to units owned by other players.
+
+== '''Divine Wish''' ==
+The only current ways to obtain Divine Wishes is through [[Level Milestones]] at level 100 and through [[Challenges|Daily Challenges]]. [[Challenges|Daily Challenges]] have a guaranteed chance of giving one Divine Wish.
+
+The maximum amount of Divine Wishes you can have at one time is 3.
+
+</tabber>
+
+== Trivia ==
+
+* From update 19.0, curse finger has been change into curse token__NOTOC__
+__NOEDITSECTION__

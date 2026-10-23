@@ -1,0 +1,30 @@
+{{Meta Unit}}
+{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}{{Unobtainable Unit|Update 19.5 - assasin park event}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Dracula]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+== Stats Overview ==
+{{Tower Infobox
+|caption1="My name's Dracula. I'm an agent who takes out the trash for the secret service. A hit man, for the likes of you."
+|caption2="Five hundred years ago... One hundred years ago! Now you come back to challenge me and awaken me again, my beloved nemesis."|image1=}}{{Main Stats}}
+
+==Active Ability: Soul Restraint: Level 0==
+[[File:SoulRestraint0Icon.png|thumb|left]]When the moon turns red and the area is encased in a bloody fog, {{PAGENAME}} lets go of all restraints and summons a total of 20 units from the base, composed of 15 Ghouls and 5 Ghoul Riders, with the Ghoul Riders having 2 bars, letting them collide with enemies twice.
+
+Note that the Ghoul Riders would clip through enemies when they hit them with the first bar.
+
+* Global Cooldown: 120s
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Event Units]]

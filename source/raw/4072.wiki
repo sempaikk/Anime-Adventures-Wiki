@@ -1,0 +1,50 @@
+local p = {}
+
+
+function p.loli()
+	
+local PlaceId = 8304191830
+local ApiUrl = "https://api.roblox.com"
+
+local function getRequest(url)
+    local tempFileName = "tempfile.txt"
+    local cmd = "curl -s -o " .. tempFileName .. " " .. url
+    os.execute(cmd)
+
+    local file = io.open(tempFileName, "r")
+    local response = file:read("*a")
+    file:close()
+
+    os.remove(tempFileName)
+
+    return response
+end
+
+local function getPlaceInfo(placeId)
+    local apiUrl = ApiUrl .. "/games/" .. tostring(placeId)
+    local response = getRequest(apiUrl)
+
+    if response then
+        local json = require("json") -- You'll need to provide a JSON library if not available by default
+        local placeInfo = json.decode(response)
+        return placeInfo
+    end
+
+    return nil
+end
+
+-- Example usage:
+local placeId = 8304191830
+local placeInfo = getPlaceInfo(placeId)
+if placeInfo then
+    return "Place Name: " .. placeInfo.Name .. "\nCreator Name: " .. placeInfo.Creator.Name .. "\nVisits: " .. placeInfo.Visits
+else
+    return "Failed to fetch place information."
+end
+
+
+
+
+end
+
+return p

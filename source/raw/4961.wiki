@@ -1,0 +1,14 @@
+[[File:Cool star.png|thumb|cool star]]
+The '''Cool Star''', added in [[Update Log|Update 17]], is a reward obtained from reaching Room 100 in the [[Infinity Castle]] (10th Season).
+
+As of 18/11/23, the day of [[Update Log|Update 18]], and the end of Season 10, the Cool Star could be opened to receive [[Fridge]].
+== Information ==
+*<span data-darkreader-inline-color="" style="color:#FFC208;">+Required to obtain a special unit...</span>
+*<span data-darkreader-inline-color="" style="color:#921296;">''"Finished already? Where's all that bravado?"''</span>
+*<span data-darkreader-inline-color="" style="color:#fc4242;">This Star is sealed with a powerful magic and cannot be opened yet...</span>
+
+==Rewards==
+{{Container Characterbox
+|
+{{Characterbox|Fridge}}
+}}

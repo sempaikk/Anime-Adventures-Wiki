@@ -1,0 +1,27 @@
+{{Unobtainable Unit|Update 5 - Fairy Tale Update Part 1}}
+
+=='''Overview'''==
+{{PAGENAME}} is a {{Rarity|Secret}} {{LU}} unit. He is only obtainable by evolving [[Chance]] and his evolved form is only available from the Ant Kingdom event. The Precision Blessing gives Kit a 40% Critical Chance. 
+
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="If you want to become an exceptional Hunter, this is the ideal training ground. But from here on it's going to be hell, whether we win or lose."
+|caption2="You're wrong, I'm not Reina! My name is Kite!"
+|image1={{PAGENAME}}.png
+|Attack_Type=AoE (Cone)/AoE (Circle)/AoE (Very Large Circle)
+}}{{Main Stats
+|
+{{StatsBox|Upgrade_No=0|Attack_Type=AoE (Cone)/AoE (Circle)/AoE (Very Large Circle)}}
+}}
+
+==Selling==
+Units sell for 25% of their deployment cost
+
+Only unit to have a random weapon   1 scythe 2 gun    3 wand 
+
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]

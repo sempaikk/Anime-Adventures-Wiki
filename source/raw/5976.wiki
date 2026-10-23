@@ -1,0 +1,29 @@
+<div class="mobile-hidden game-font-face advanced-tooltip" style="position: relative; user-select: none;z-index: 5;color: #ffffff8f;font-size: 13px;"><div class="dottedText C(#3a3a3a)-Th-L" style="position: absolute; top: -43px; right: 0; cursor: help; border-bottom: 2px dotted;">Why do I have different stats?</div><div class="tooltip-contents" style="display: none"><div class="game-tooltip__container game-font-face">Units in this game use a randomized system, where stats like damage are randomly rolled with about a 10% variance (like Dungeon Quest items). When you evolve a unit they also reroll their stats, but it will always be strictly better than the pre-evolved version.</div></div></div><!--
+
+--><div class="article-table mobileonly">''[[Frequently Asked Questions|Why do I have different stats?]]''<br></div><!--
+
+-->{{#ifeq:{{{buff|}}}|{{{buff}}}||{{FanmadeBuffListButton}}}}<div class="mainStats mw-customtoggle-statsBox">
+<div class="mw-collapsible" id="mw-customcollapsible-statsBox">
+<div class="Level-1-ON">Level 1<span style="display: none;"> - Active</span></div>
+<div class="Level-80-OFF">Level 100</div>
+</div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBox" style="display: none;">
+<div class="Level-1-OFF">Level 1</div>
+<div class="Level-80-ON">Level 100<span style="display: none;"> - Active</span></div>
+</div>
+<div style="user-select: none;">
+{{#switch: {{{test}}}
+|{{{test|}}} = TEST<br>{{#invoke:FanmadeUnitData-Test|name|castomStats={{{1|}}}}}
+| #default   = {{#iferror:{{#invoke:FanmadeUnitData|name|castomStats={{{1|}}}}}}}
+}}
+</div>
+<div class="click-on-I-Box__Container">
+<div class="mw-collapsible" id="mw-customcollapsible-statsBox">
+<div class="click-on-I-Box" id="click-on-I-Box-OFF">⁣⁣⁣⁣click on any part of the information block</div>
+</div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-statsBox" style="display: none;">
+<div class="click-on-I-Box" id="click-on-I-Box-ON">⁣⁣⁣⁣click on any part of the information block</div>
+</div>
+</div>
+</div>
+<br>

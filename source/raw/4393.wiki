@@ -1,0 +1,28 @@
+'''Fox Ninja''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Rare}}</center>
+|{{Characterbox|Fox Ninja}}
+|'''[[Fox Ninja]]'''
+|-
+|<center>{{Rarity|Legendary}}</center>
+|{{Characterbox|Fox Ninja (Demon Cloak)}}
+|'''[[Fox Ninja (Demon Cloak)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Fox Ninja (Beast Cloak)}}
+|'''[[Fox Ninja (Beast Cloak)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Fox Ninja (Sage)}}
+|'''[[Fox Ninja (Sage)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Fox Ninja (Six Tails)}}
+|'''[[Fox Ninja (Six Tails)]]'''
+|-
+|}

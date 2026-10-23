@@ -1,0 +1,29 @@
+{{Meta Support Unit}}
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Time Wizard]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="My grimoire is right up there."
+|caption2="I Was Born With Magic That Steals The Future, But As Wizard King, What I Aim To Do Is Create A Future Where There Is No Discrimination"
+|image1={{PAGENAME}}.png
+}}{{Main Stats|}}
+
+==Active Ability: Chrono Reversal==
+'''{{PAGENAME}}''' forces every enemy (including flyings) in his range to walk back towards their spawn during its duration (including not only the currently affected targets, but also those who enter his range while the ability is active) . It does not affect bosses.
+* Global Cooldown: 90s
+* Duration: 5s
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+One of the best units for purposes such as obtaining Stat Cubes/Perfect Stat Cubes, sacrificing for Griffin's ascension or for limit breaking units due to him being easy to evolve.
+
+==Gallery==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:{{PAGENAME}}}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,83 @@
+local p = {}
+local data    = mw.loadData('Module:UnitData-Test/Data2')
+local data2    = mw.loadData('Module:UnitData/Data')
+
+function toNil(thing)
+	if thing==nil or thing=='' then return nil else return thing end
+end
+
+
+local duplicateData = {} 
+
+-- Копирование данных из исходной переменной data в дубликат без поля upgrade
+for character, characterData in pairs(data) do
+    -- Проверка наличия поля upgrade в персонаже
+    if characterData.upgrade and not toNil(data2[character])then
+    	--  and toNil(data2[character])
+        -- Копирование данных персонажа в дубликат
+        duplicateData[character] = characterData
+    end
+end
+
+
+function p.loli(f) 
+
+function returnToText(data)
+    local function tableToString(tbl, indent)
+        indent = indent or 0
+        local str = ""
+        local indentStr = string.rep("  ", indent)
+        local keys = {}
+
+        for k, v in pairs(tbl) do
+            table.insert(keys, k)
+        end
+
+        table.sort(keys)
+
+        for i, k in ipairs(keys) do
+            local v = tbl[k]
+
+            local keyStr
+            if type(k) == "string" then
+                keyStr = k
+            else
+                keyStr = "[" .. tostring(k) .. "]"
+            end
+
+            str = str .. indentStr .. keyStr .. " = "
+            if type(v) == "table" then
+                str = str .. "{\n" .. tableToString(v, indent + 1) .. indentStr .. "},"
+            elseif type(v) == "string" then
+                str = str .. '"' .. tostring(v) .. '",'
+            else
+                str = str .. tostring(v) .. ","
+            end
+
+            str = str .. "\n"
+        end
+
+        return str
+    end
+
+    return "data = {\n" .. tableToString(data, 1) .. "}"
+end
+
+return f:preprocess('<syntaxhighlight lang="lua" line>'.. returnToText(duplicateData) ..'</syntaxhighlight>')
+	
+	
+end
+
+
+
+
+
+
+
+
+-- Возвращение отформатированной строки из вашей функции модуля
+
+
+
+
+return p

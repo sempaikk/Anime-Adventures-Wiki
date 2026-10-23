@@ -1,0 +1,20 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}}. He can only be obtained by evolving [[Wratho]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“I wanted to protect everything. But I failed, and that's the sin I bare. So this time, I can't fail to protect them!”
+|caption2=“I wanted to protect everything. But I failed, and that's the sin I bare. So this time, I can't fail to protect them!”}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* The best relic for him is his signature weapon, [[Relics|Mirrorblade]], as it not only benefits his critical rate capability but also every time Lostvain triggers, he deals even more damage due to the exeeding crit rate output. If you don't have it, his other choices are the [[Relics|Nail]] Relic because it boosts crit damage by 15-30% and other stats, or [[Relics|The 5-Leaf Clover]] because it not only boosts his Physical and Dark damage, but also if there's any mobs with Magic resistance on, he can take full advantage of the situation.
+* There was a bug when this unit came out causing multiple people to get unique on him with a single spin. shit crazy unfair 
+*
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

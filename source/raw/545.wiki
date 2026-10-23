@@ -1,0 +1,24 @@
+''If you were looking for a different Ghoul unit, see [[Ghoul (disambiguation)]]''
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I won't pull back, I will press forward, like a centipede"
+|caption2="Never trust anyone too much, remember the devil was once an angel."
+}}{{Main Stats}}
+
+==Passive Ability: Bleed==
+{{PAGENAME}} deals bleed damage to all enemies he attacks, dealing damage over time and greatly reducing HP regeneration for the duration of the bleed.
+
+This makes him effective against Regen enemies. He's also recommended as a budget bleeder along with [[Hammergirl]]. His case is his SPA with no upgrades on is extremely cost-efficient on Shielded enemies.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Bleed Units]]
+{{DISPLAYTITLE:{{PAGENAME}}

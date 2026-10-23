@@ -1,0 +1,16 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Packy]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="What’s that face for? Did you 'imagine' I wouldn’t be able to cut you? Just so you know, there ain't a damn thing your little brain can come up with that I won't be able to slice through. I'm the Packy."
+|caption2="What’s that face for? Did you 'imagine' I wouldn’t be able to cut you? Just so you know, there ain't a damn thing your little brain can come up with that I won't be able to slice through. I'm the Packy."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

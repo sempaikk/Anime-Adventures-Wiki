@@ -1,0 +1,26 @@
+{{Unobtainable Unit|Update 16 - Overlord Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by evolving [[Flower Ninja]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1=“My own life takes top priority and I'm not planning to die. My whole goal's to survive and make it home. Home to my wife. I'm not about to lay down my life. But I'll sacrifice whatever it takes otherwise. My ideals, reason, sense, even my humanity.”
+|caption2=“On nice days, when I’m sitting out in nature I can sense her amongst the sun and grass and flowers. she’s no illusion. I can feel it. That might not be the proof you want, but it’s all I have. The only way to be sure is to make it back home to her.”
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

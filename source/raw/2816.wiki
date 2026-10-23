@@ -1,0 +1,11 @@
+<div style="display:inline-block" class="advanced-tooltip"><div class="grid-item"  style="background:{{{bgcolor}}}; margin: 8px; padding: 8px; border-radius:7px;">
+<div class="Top-GunBox-InfRola  StandBoxs"><div style="border-radius: 5px; padding: 1px; position: relative; text-decoration: none "><div style="border-radius: 4px; overflow: hidden; width: 150px; height: 160px;">[[Image:{{{image}}}|120px|]]</div><span style="position: absolute; right: 0px; bottom: 0px;left: 0px; font-weight: bold; color: white; padding: 0px; text-align:center;">{{{trait}}}</span></div></div>
+
+<div class="tooltip-contents" style="display: none;">
+<div  style="color: #e6e6e6; background: #060112; box-shadow: 0 0 20px #ffffff47, inset 0 0 20px #ffc4001f; padding: 8px; min-width: 425px; max-width: 650px; height: auto; margin: 2px auto 5px auto; border-radius: 7px; position: relative; text-decoration: none; border: 2px solid yellow;">
+'''{{{trait}}}''' is an {{{rarity}}} trait which {{{effect}}}, {{{information}}}<hr class="mobile-hidden" style="border-color: #ffff005c;">
+<div style="display: flex; gap: 7px;">
+<div class="mobile-hidden" style="display: inline-block;">[[File:{{{image}}}|left|235x100px]]</div>
+<div style="display: inline-block;"><font size="5" style="color: {{{raritycolor}}};">'''{{{trait}}}'''</font><br><span style="font-weight: bold;"><font size="3" color=#FFFFFF>Obtainment Chance: </font> <font size="3" color=#A020F0> {{{Chance}}}<br/></font>
+</span></div></div></div></div></div></div>
+<noinclude>[[Category:Design templates]]</noinclude>

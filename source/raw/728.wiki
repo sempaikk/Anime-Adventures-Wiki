@@ -1,0 +1,3862 @@
+-- idk
+-- Boosts
+-- Stars
+-- XP Food
+-- Materials
+-- Relics
+-- Keys
+-- [""] = {name =""},
+		
+		
+
+ 
+
+return {
+	{   
+		["Mysterious Cat"] = {name ="mysterious_cat"},
+		["Angelic Bat"] = {name ="angelic_bat"},
+		["Sichel des Trugs"] = {name ="sichel_des_trugs"},
+		["Sky Reaver"] = {name ="sky_reaver"},
+		
+		["Curse Talisman II"] = {name ="jjk_talisman_2"},
+		["Sacred Treasure (Adapted)"] = {name ="sacred_treasure_adapted"},
+		["Sacred Treasure"] = {name ="sacred_treasure"},
+		["Electric Dagger"] = {name ="electric_dagger"},
+		["Assassin Token"] = {name ="assassin_token"},
+		
+		["Icy Star"] = {name ="capsule_christmas2"},
+		["Elf Staff"] = {name ="frieren_staff"},
+		["Dimensional Hood"] = {name ="vanilla_hood"},
+		["Snow Wings"] = {name ="monet_wings"},
+		["Black Spear"] = {name ="judar_spear"},
+		["Staff of Realms"] = {name ="buddha_staff"},
+		["Silver Greatsword"] = {name ="silver_greatsword"},
+		["Silver Slayer Sword"] = {name ="silver_slayer_sword"},
+		
+		["Mage Mark"] = {name ="majin_symbol"},
+		
+		["Lightning Trigger"] = {name ="chika_sniper"},
+		["Trion Seal"] = {name ="yuma_seal"},
+		["Chakra Rod"] = {name ="chakra_rod"},
+		["Ninja Scroll (Fire)"] = {name ="naruto_fire_scroll"},
+		["Ninja Scroll (Water)"] = {name ="naruto_water_scroll"},
+		["Ninja Scroll (Wood)"] = {name ="naruto_wood_scroll"},
+		["Puppet Star"] = {name ="capsule_puppet"},
+		["Path Portal"] = {name ="portal_item__pain"},
+		
+		
+		
+		["Spooky Star"] = {name ="capsule_halloween2"},
+		["Unholy Pistols"] = {name ="alucard_guns"},
+		["Gas Crown"] = {name ="caesarclown_crown"},
+		["Shadow Broadsword"] = {name ="cid_sword"},
+		["Triple-Bladed Scythe"] = {name ="hidan_scythe"},
+		["Flower Kagune"] = {name ="hinami_kagune"},
+		
+		["Egg of Sacrifice"] = {name ="behelit_evolve"},
+		
+		
+		["Killer Coin"] = {name ="jojop4_coin"},
+		["Heart Bomb"] = {name ="jojop4_hattack"},
+		["Restoration Diamond"] = {name ="jojop4_diamond"},
+		["Reality Pen"] = {name ="jojop4_pen"},
+		["Stray Cat"] = {name ="jojop4_cat"},
+		["Echo Egg"] = {name ="jojop4_egg"},
+		
+		
+		
+		
+		
+
+		["Overlord's Ring (Yellow)"] = {name ="overlord_ring_yellow"},
+		["Overlord's Ring (Red)"] = {name ="overlord_ring_red"},
+		["Overlord's Ring (Blue)"] = {name ="overlord_ring_blue"},
+
+		["Fiery Ankh"] = {name ="avdol_ankh"},
+		["Sharktooth Blade"] = {name ="harribel_blade"},
+		["Pirate King's Hat"] = {name ="roger_hat"},
+		["Sea God's Trident"] = {name ="poseidon_trident"},
+		["Sharkskin Greatsword"] = {name ="kisame_sword"},
+		
+		
+		
+		
+		["Hollow Flower"] = {name ="gabimaru_flower"},
+		["Rusted Coin"] = {name ="chad_coin"},
+
+
+
+		["Blood Crystallite"] = {name ="sao_crystal_red"},
+		["Ice Crystallite"] = {name ="sao_crystal_blue"},
+		["Dark Crystallite"] = {name ="sao_crystal_purple"},
+
+		["Soul Gem (Violet)"] = {name ="gem_homura"},
+		["Soul Gem (Scarlet)"] = {name ="gem_kyoko"},
+		["Soul Gem (Sapphire)"] = {name ="gem_sayaka"},
+		["Soul Gem (Rose)"] = {name ="gem_madoka"},
+		["Soul Gem (Gold)"] = {name ="gem_mami"},
+		
+		
+		
+		
+		
+		["Pirate Grapes"] = {name ="dressrosa_grapes"},
+		["SMILE Fruit"] = {name ="dressrosa_fruit"},
+		
+		
+		
+		
+		
+		
+		["Spotted Egg"] = {name ="easter_egg_1"},
+		["Flower Egg"] = {name ="easter_egg_2"},
+		["Striped Egg"] = {name ="easter_egg_3"},
+		["Starry Egg"] = {name ="easter_egg_4"},
+		["Strange Egg"] = {name ="easter_egg_5"},
+		["Golden Egg"] = {name ="easter_egg_6"},
+		["Mysterious Egg #1"] = {name ="easter_egg_reward_1"},
+		["Mysterious Egg #2"] = {name ="easter_egg_reward_2"},
+		["Mysterious Egg #3"] = {name ="easter_egg_reward_3"},
+		["Wisteria Bloom"] = {name ="entertainment_district_item"},
+		["Nichirin Blade"] = {name ="entertainment_nichirin"},
+		["Flesh Kama"] = {name ="gyutaro_sickles"},
+		["Demon Obi"] = {name ="daki_obi"},
+		["Nichirin Cleavers"] = {name ="tengen_blades"},
+		["Poison Bulb"] = {name ="fugo_bulb"},
+		
+		
+		
+		
+		
+		["Cross Gun"] = {name ="vas_cross"},
+		["Quirk Shard"] = {name ="quirk_shard"},
+		["Quirk Amplifier"] = {name ="mha_evolve_item_1"},
+		["Hero Guantlet"] = {name ="mha_evolve_item_2"},
+		["Quirk Capsule"] = {name ="mha_evolve_item_3"},
+		["Silver Star"] = {name ="capsule_silver"},
+		["Demon Academy Star"] = {name ="capsule_april"},
+		["Evil Queen's Piece"] = {name ="april_queen"},
+		["Demon Academy Symbol"] = {name ="april_symbol"},
+		["Fusion Jacket"] = {name ="veku_jacket"},
+		
+		
+		
+		
+		["Superior Senzu Bean"] = {name ="frieza_bean"},
+		["Alien Scouter"] = {name ="west_city_frieza_item"},
+		["Thunder Spears"] = {name ="hange_spears"},
+		["Supernova"] = {name ="frieza_evolve_item"},
+		["Demon Symbol"] = {name ="piccolo_evolve_item"},
+		["Super Capsule"] = {name ="vegeta_capsule"},
+		
+		
+		
+		["Demonic Spellbook"] = {name ="demon_book"},
+		["Sunshine Essence"] = {name ="escanor_sun"},
+		
+		
+		
+		["Stat Cube"] = {name ="reroll_stat_all"},
+		["Perfect Stat Cube"] = {name ="reroll_stat_specific"},
+		["Blood Star"] = {name ="capsule_blood"},
+		["Tavern Pie"] = {name ="ds7_pie"},
+		["Demonic Chalice"] = {name ="demon_chalice"},
+		["Demonic Horn"] = {name ="demon_horn2"},
+		["Fairy Petals"] = {name ="ds7_flower"},
+		["Demonic Spellbook"] = {name ="demon_book"},
+		["Sunshine Essence"] = {name ="escanor_sun"},
+		["Mirrorblade"] = {name ="lostvayne"},	
+		
+		
+		
+        ["Awakened Tomoe"] = {name ="uchiha_upgrade_1"},
+        ["Awakened Double Tomoe"] = {name ="uchiha_upgrade_2"},
+        ["Awakened Triple Tomoe"] = {name ="uchiha_upgrade_3"},
+        ["Tomoe"] = {name ="uchiha_item"},
+        ["Chakra Drill"] = {name ="shisui_evolve"},
+        ["Yata Mirror"] = {name ="itachi_shield"},
+        ["Lightning Blade"] = {name ="sasuke_sword"},
+        ["Mangeky\197\141 Eye"] = {name ="eternal_eye"},
+ 
+
+
+		["Alien Core"] = {name ="opm_core"},
+		["Full Power Core"] = {name ="opm_core_full"},
+		["Love Star"] = {name ="capsule_heart"},
+		
+		
+		
+		
+		["Gun Devil Bullet"] = {name ="gun_devil_bullet"},
+		["Devil Hunter Contract (Rank 0)"] = {name ="csm_contract_0"},
+		["Devil Hunter Contract (Rank 1)"] = {name ="csm_contract_1"},
+		["Devil Hunter Contract (Rank 2)"] = {name ="csm_contract_2"},
+		["Devil Hunter Contract (Rank 3)"] = {name ="csm_contract_3"},
+		["Devil Hunter Contract (Rank 4)"] = {name ="csm_contract_4"},
+		["Devil Hunter Contract (Rank 5)"] = {name ="csm_contract_5"},
+		["Devil Star"] = {name ="capsule_csm_pity"},
+		["Star Fruit Capsule"] = {name ="StarFruitCapsule"},
+		
+		["Christmas Gift"] = {name ="christmas_gift"},
+		["Shiny Christmas Gift"] = {name ="christmas_gift_shiny"},
+		["Ice-Fire Orb"] = {name ="todoroki_2_evolve"},
+		["Ice Lotus"] = {name ="toshiro_evolve_item"},
+		["Frozen Mirror"] = {name ="haku_mirror"},
+		["Ice Pheasant"] = {name ="aokiji_bird"},
+		["Demon Extract"] = {name ="esdeath_cup"},
+		["Frozen Star"] = {name ="capsule_christmas"},
+
+		["DISC (Blue)"] = {name ="disc_blue"},
+		["DISC (Green)"] = {name ="disc_green"},
+		["DISC (Orange)"] = {name ="disc_orange"},
+		["DISC (Pink)"] = {name ="disc_pink"},
+		["DISC (Purple)"] = {name ="disc_purple"},
+		["DISC (Black)"] = {name ="disc_black"},
+		["Final Disc Fragment"] = {name ="final_disc_fragment"},
+		["Final Disc"] = {name ="final_disc"},
+		["JIO's Bone"] = {name ="dio_bone"},
+		["Green Baby"] = {name ="green_baby"},
+		["Heavenly Clock"] = {name ="mih_clock"},
+		["Soul (Tiel)"] = {name ="soul_tier"},
+		["Soul (Toshe)"] = {name ="soul_tosen"},
+		["Soul (Wes)"] = {name ="soul_weiss"},
+		["Soul (Barrago)"] = {name ="soul_barragan"},
+		["Soul (Ging)"] = {name ="soul_gin"},
+		["Perfect Soul Orb"] = {name ="hogyoku_placeholder"},
+		["Ice Flower Star"] = {name ="capsule_ice"},
+		["Magic Stone"] = {name ="black_clover_stone"},
+		["Magic Scroll"] = {name ="scroll_material"},
+		["Demonic Horns"] = {name ="demon_horns"},
+		["Demonic Skull"] = {name ="demon_skull"},
+		["Demonic Tail"] = {name ="demon_tail"},
+		["Wind Splinter"] = {name ="yuno_blade"},
+		["Empty Tome"] = {name ="book_material"},
+		["Fairy Circlet"] = {name ="circlet_material"},
+		["Fairy Wings"] = {name ="fairy_wings_material"},
+		["Enchanted Magic Stone"] = {name ="black_clover_stone_gold"},
+		["Cursed Magic Stone"] = {name ="black_clover_stone_red"},
+        ["Endless Tome"] = {name ="julius_grimoire"},
+		["Lightning Fiend's Horns"] = {name ="luck_horns"},
+		["Dark Katana"] = {name ="yami_katana"},
+		["Spirit Crown"] = {name ="yuno_crown"},
+		["Mermaid Scale"] = {name ="noelle_scale"},
+		["Demonic Wing"] = {name ="asta_wing"},
+		["Ore (Steel)"] = {name ="ore_steel "},
+		["Ore (Steel)"] = {name ="ore_steel "},
+		["Holy Sprig"] = {name ="leaf_generic"},
+		["Ingots (Steel)"] = {name ="ingots_steel"},
+		["Vivid Gem"] = {name ="blue_gem_material"},
+		["Lost Chapter"] = {name ="torn_page"},
+		["Devil Heart"] = {name ="devil_heart_material"},
+
+		["Haunted Star"] = {name ="capsule_halloween"},
+		["Zombie Doll"] = {name ="perona_doll"},
+		["Shark Guitar"] = {name ="shark_guitar"},
+		["Shadow Fruit"] = {name ="moria_fruit"},
+		
+		
+		["Cursed Finger (Indestructible)"] = {name ="sukuna_finger_permanent"},
+		["Cursed Orb"] = {name ="curse_orb"},
+		["Cursed Orb (Maximum)"] = {name ="curse_orb_2"},
+		["Promise Ring"] = {name ="yuta_ring"},
+		["Cursed Finger"] = {name ="sukuna_finger"},
+		["Key (Cursed Parade)"] = {name ="key_jjk_map"},
+		["Shiny Key (Cursed Parade)"] = {name ="key_jjk_map_shiny"},
+		["Key (Cursed Womb)"] = {name ="key_jjk_finger"},
+
+		
+		
+		["Curse Star"] = {name ="capsule_jjk"},
+		["Sound Sealed Star"] = {name ="capsule_sound"},
+		["Rikugan Eye"] = {name ="six_eyes"},
+		["Six Eyes"] = {name ="six_eyes_final"},
+		["Precision Glasses"] = {name ="kento_glasses"},
+		["Cursed Wristwatch"] = {name ="kento_watch"},
+		["Wolf Shadow"] = {name ="megumi_wolf"},
+		["Cursed Shard"] = {name ="curse_shard"},
+		["Curse Talisman"] = {name ="jjk_talisman"},
+
+
+		["Raid Ticket (Android Attack)"] = {name ="raid_ticket__westcityraid"},
+		["Power Cell"] = {name ="westcity_cell"},
+		["Infinite Power Core (Pink)"] = {name ="cell_core_pink"},
+		["Infinite Power Core (Yellow)"] = {name ="cell_core_yellow"},
+		["Infinite Power Core"] = {name ="cell_core_blue"},
+		["Mini Time Machine"] = {name ="trunks_time_machine"},
+		
+		
+		["Dragon Fire"] = {name ="natsu_fire"},
+		["Devil Ice"] = {name ="gray_item"},
+		["Fractured Cubes"] = {name ="gildarts_cubes"},
+		["Magical Artifact"] = {name ="fairy_tail_exp"},
+		["Academy Star"] = {name ="capsule_fairytail"},
+		["Celestial Key (Final)"] = {name ="lucy_key"},
+		["Celestial Key (Aquarius)"] = {name ="lucy_key_aquarius"},
+		["Celestial Key (Taurus)"] = {name ="lucy_key_taurus"},
+		["Celestial Key (Leo)"] = {name ="lucy_key_leo"},
+		["Celestial Star"] = {name ="capsule_fairytail_infinite"},
+		["Celestial Shard"] = {name ="fairy_tail_shard"},
+		["Infused Crystal"] = {name ="jellal_raid_crystal"},
+		["Essense of the Knight"] = {name ="erza_items"},
+
+		
+		
+		["Hidden Seal"] = {name ="naruto_seal"},
+		["Senzu Bean"] = {name ="senzu_bean"},
+		["Fire Shard"] = {name ="ace_shard"},
+		["Crazy Dice"] = {name ="kite_dice"},
+		["Gungi Set"] = {name ="gungi_set"},
+		["Star Remnant"] = {name ="star_remnant"},
+		["Devil Fruit"] = {name ="xp_devil_fruit"},
+		["Demon Beads"] = {name ="akaza_beads"},
+		["Crystal Shards"] = {name ="eto_shards"},
+		["Raid Ticket (Midnight Attack)"] = {name ="raid_ticket__narutodesert"},
+		["Soul Star"] = {name ="capsule_bleach"},
+		["Mysterious Fluid"] = {name ="aot_fluid"},
+		["Blazing Creme Donut"] = {name ="rengoku_donut"},
+		["Final Contract"] = {name ="gon_contract"},
+		["Clown Mask"] = {name ="clown_mask"},
+		["King's Idol"] = {name ="black_king"},
+		["Negation Box"] = {name ="aizen_cube"},
+		["Chimera Shard"] = {name ="chimera_shard"},
+		["Soul Candy"] = {name ="soul_candy"},
+		["Star Fruit"] = {name ="StarFruit"},
+		["Map 1"] = {name ="map_1"},
+		["Desert Star"] = {name ="capsule_narutodesertraid"},
+		["Luck Potion"] = {name ="LuckPotion"},
+		["Ghoul Coffee"] = {name ="coffee"},
+		["Electric Yo-yo"] = {name ="killua_yoyo"},
+		["Forbidden Candy"] = {name ="forbidden_candy"},
+		["Raid Ticket (Infinity Train)"] = {name ="raid_ticket__demonslayerraid"},
+		["Ramen Bowl"] = {name ="ramen_xp"},
+		["Thread of the Exile"] = {name ="kisuke_stitches"},
+		["Wisteria Flower"] = {name ="wisteria_flower"},
+		["Clown Effigy"] = {name ="kite_clown"},
+		["Shining Extract"] = {name ="shining_extract"},
+		["Star Fruit (Rainbow)"] = {name ="StarFruitEpic"},
+		["Broken Puppet"] = {name ="pitou_puppet"},
+		["Soul Shard"] = {name ="soul_shard"},
+		["Tailed Beast Shard"] = {name ="naruto_pts_shard"},
+		["Cooked Fish"] = {name ="hxh_fish"},
+		["Summon Ticket"] = {name ="summon_ticket"},
+		["Restraining Necklace"] = {name ="broly_necklace"},
+		["Soul Orb"] = {name ="kisuke_orb"},
+		["Soul Partition"] = {name ="starrk_helmet"},
+		["Arsenal Briefcase"] = {name ="weapon_briefcase"},
+		["Spirit Spear"] = {name ="ulquiorra_spear"},
+		["Quincy Cross"] = {name ="uryu_star"},
+		["Path Shard"] = {name ="aot_shard"},
+		["Blazing Star"] = {name ="capsule_demonslayerraid"},
+		["Star Fruit (Pink)"] = {name ="StarFruitPink"},
+		["Path Branch"] = {name ="aot_tree"},
+		["Blazing Shard"] = {name ="rengoku_shard"},
+		["Golden Rose"] = {name ="netero_rose"},
+		["Star Fruit (Red)"] = {name ="StarFruitRed"},
+		["Magma Fruit"] = {name ="magu_fruit"},
+		["Cupcake"] = {name ="cupcake"},
+		["Ocean Star"] = {name ="capsule_marineford"},
+		["Hat of the Conqueror"] = {name ="straw_hat"},
+		["Rumbling Star"] = {name ="capsule_aotraid"},
+		["Quake Fruit"] = {name ="gura_fruit"},
+		["Divine Eye"] = {name ="rinnegan_eye"},
+		["Ultrasteel Blade"] = {name ="aot_blade"},
+		["Star Fruit (Blue)"] = {name ="StarFruitBlue"},
+		["Star Fruit (Green)"] = {name ="StarFruitGreen"},
+		["Scales of the Salamander"] = {name ="tatara_scales"},
+		["Chimera Star"] = {name ="capsule_hxhant"},
+		["Treasure Radar"] = {name ="treasure_radar"},
+		["Raid Ticket (Rumbling)"] = {name ="raid_ticket__aotraid"},
+	},
+{
+	
+    --Update 20.4.1
+	mysterious_cat = {
+		id = 'mysterious_cat',
+        name = 'Mysterious Cat',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchable for during April Fools 2025 Event',
+		item_group = 'Evolution'
+	},	
+        angelic_bat = {
+		id = 'angelic_bat',
+        name = 'Angelic Bat',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchable for during April Fools 2025 Event',
+		item_group = 'Evolution'
+	},
+        sichel_des_trugs = {
+		id = 'sichel_des_trugs',
+        name = 'Sichel des Trugs',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchable for during April Fools 2025 Event',
+		item_group = 'Evolution'
+	},
+        sky_reaver = {
+		id = 'sky_reaver',
+        name = 'Sky Reaver',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchable for during April Fools 2025 Event',
+		item_group = 'Evolution'
+	},
+	--Update 20.0.0
+	jjk_talisman_2 = {
+		id = 'jjk_talisman_2',
+        name = 'Curse Talisman II',
+		rarity = 'Common',
+		obtain_info = 'Obtained from all Shibuya District levels!',
+		usage = {
+			type = 'xp_feed',
+			xp_amount = 11500 * 0.3,
+		},
+		item_group = 'XP Food'
+	},
+	sacred_treasure_adapted = {
+		id = 'sacred_treasure_adapted',
+        name = 'Sacred Treasure (Adapted)',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from Shibuya District!',
+		item_group = 'Evolution'
+	},
+	sacred_treasure = {
+		id = 'sacred_treasure',
+        name = 'Sacred Treasure',
+		rarity = 'Legendary',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from Shibuya District!',
+		item_group = 'Evolution'
+	},
+    	electric_dagger = {
+		id = 'electric_dagger',
+        name = 'Electric Dagger',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from crafting',
+		item_group = 'Evolution'
+	},
+
+	--Update 19.5.0
+	assassin_token = {
+		id = 'assassin_token',
+        name = 'Assassin Token',
+		rarity = 'Legendary',
+		--description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from Assassination Contracts.',
+		item_group = 'Evolution'
+	},
+	--Christmas Update
+	frieren_staff = {
+		id = 'frieren_staff',
+        name = 'Elf Staff',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Stars during the Christmas 2023 Event.',
+		item_group = 'Evolution'
+	},
+	vanilla_hood = {
+		id = 'vanilla_hood',
+        name = 'Dimensional Hood',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Stars during the Christmas 2023 Event.',
+		item_group = 'Evolution'
+	},
+	monet_wings = {
+		id = 'monet_wings',
+        name = 'Snow Wings',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Stars during the Christmas 2023 Event.',
+		item_group = 'Evolution'
+	},
+	judar_spear = {
+		id = 'judar_spear',
+        name = 'Black Spear',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Stars during the Christmas 2023 Event.',
+		item_group = 'Evolution'
+	},
+	buddha_staff = {
+		id = 'buddha_staff',
+        name = 'Staff of Realms',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Stars during the Christmas 2023 Event.',
+		item_group = 'Evolution'
+	},
+	silver_greatsword = {
+		id = 'silver_greatsword',
+        name = 'Silver Greatsword',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from crafting',
+		item_group = 'Evolution'
+	},
+    silver_slayer_sword = {
+		id = 'silver_slayer_sword',
+        name = 'Silver Slayer Sword',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from crafting',
+		item_group = 'Evolution'
+	},
+	--Update 18.5.0
+	majin_symbol = {
+		id = 'majin_symbol',
+		name = 'Mage Mark',
+		rarity = 'Mythic',
+		--description = '+Required to evolve a special unit...',
+		item_group = 'Evolution',
+	},
+	--Update 18.0.0
+	chika_sniper = {
+		id = 'chika_sniper',
+		name = 'Lightning Trigger',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		item_group = 'Evolution',
+	},
+	yuma_seal = {
+		id = 'yuma_seal',
+		name = 'Trion Seal',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		item_group = 'Evolution',
+	},
+	chakra_rod = {
+		id = 'chakra_rod',
+        name = 'Chakra Rod',
+		rarity = 'Common',
+		obtain_info = 'Obtained from all Rain Village levels and Daily Missions!',
+		usage = {
+			type = 'xp_feed',
+			xp_amount = 11500 * 0.3,
+		},
+		item_group = 'XP Food'
+	},
+
+    naruto_fire_scroll = {
+		id = 'naruto_fire_scroll',
+        name = 'Ninja Scroll (Fire)',
+		rarity = 'Legendary',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from Rain Village Legend stages and Jirayo\'s Daily Mission!',
+		item_group = 'Evolution'
+	},
+    naruto_water_scroll = {
+		id = 'naruto_water_scroll',
+        name = 'Ninja Scroll (Water)',
+		rarity = 'Legendary',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from Rain Village Legend stages and Jirayo\'s Daily Mission!',
+		item_group = 'Evolution'
+	},
+    naruto_wood_scroll = {
+		id = 'naruto_wood_scroll',
+        name = 'Ninja Scroll (Wood)',
+		rarity = 'Legendary',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Obtained from Rain Village Legend stages and Jirayo\'s Daily Mission!',
+		item_group = 'Evolution'
+	},
+
+	capsule_puppet = {
+		id = 'capsule_puppet',
+        name = 'Puppet Star',
+		rarity = 'Mythic',
+		description = '+Required to obtain a special unit...',
+		item_group = 'Stars'
+	},
+	portal_item__pain = {
+		id = 'portal_item__pain',
+		name = 'Path Portal',
+		rarity = 'Secret',
+		flavor = '<font color="#921296"><b><i>"The world will know real pain."</i></b></font>',
+		description = '+Use to open a special portal...',
+		item_group = 'Portals'
+	},
+	
+	
+	--Halloween Update
+	capsule_halloween2 = {
+		id = 'capsule_halloween2',
+        name = 'Spooky Star',
+		rarity = 'Mythic',
+		item_group = 'Stars'
+	},
+	alucard_guns = {
+		id = 'alucard_guns',
+		name = 'Unholy Pistols',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Candies during the Halloween 2023 Event.',
+		item_group = 'Evolution',
+	},
+	caesarclown_crown = {
+		id = 'caesarclown_crown',
+		name = 'Gas Crown',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Candies during the Halloween 2023 Event.',
+		item_group = 'Evolution',
+	},
+	cid_sword = {
+		id = 'cid_sword',
+		name = 'Shadow Broadsword',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Candies during the Halloween 2023 Event.',
+		item_group = 'Evolution',
+	},
+	hidan_scythe = {
+		id = 'hidan_scythe',
+		name = 'Triple-Bladed Scythe',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Candies during the Halloween 2023 Event.',
+		item_group = 'Evolution',
+	},
+	hinami_kagune = {
+		id = 'hinami_kagune',
+		name = 'Flower Kagune',
+		rarity = 'Mythic',
+		description = '+Required to evolve a special unit...',
+		obtain_info = 'Purchasable for Candies during the Halloween 2023 Event.',
+		item_group = 'Evolution',
+	},
+	
+	
+	
+	
+	--Update 16.5.0
+	jojop4_coin = {
+        id = 'jojop4_coin',
+        name = 'Killer Coin',
+        rarity = 'Mythic',
+        -- description = '+Used to evolve a special unit...',
+        flavor = '<font color="#921296"><i>"I\'m a person who wishes to live a very quiet life."</i></font>',
+        obtain_info = 'Obtained from [Bizarre Town] raids.',
+
+        item_group = 'Materials',
+    },
+    jojop4_hattack = {
+        id = 'jojop4_hattack',
+        name = 'Heart Bomb',
+        rarity = 'Epic',
+        description = '+Increases all damage in [Bizarre Town] raids by 25% (Stacks)',
+        flavor = '<font color="#921296"><i>"Of course, if I were to fight someone, I would never lose."</i></font>',
+        obtain_info = 'Obtained from [Bizarre Town] raids.',
+    },
+
+    jojop4_diamond = {
+        id = 'jojop4_diamond',
+        name = 'Restoration Diamond',
+        rarity = 'Mythic',
+        description = '+Used to evolve a special unit...',
+        flavor = '<font color="#921296"><i>"Gurēto daze!"</i></font>',
+        obtain_info = 'Obtained from [Bizarre Town] raids.',
+
+        item_group = 'Evolution',
+    },
+    jojop4_pen = {
+        id = 'jojop4_pen',
+        name = 'Reality Pen',
+        rarity = 'Mythic',
+        description = '+Used to evolve a special unit...',
+        flavor = '<font color="#921296"><i>"I refuse."</i></font>',
+        obtain_info = 'Obtained from [Bizarre Town] raids.',
+
+        item_group = 'Evolution',
+    },
+    jojop4_cat = {
+        id = 'jojop4_cat',
+        name = 'Stray Cat',
+        rarity = 'Mythic',
+        description = '+Used to evolve a special unit...',
+        flavor = '<font color="#921296"><i>"Killer Queen\'s Third Bomb: Bites The Dust!"</i></font>',
+        obtain_info = 'Obtained from [Bizarre Town] raids.',
+
+        item_group = 'Evolution',
+    },
+    jojop4_egg = {
+        id = 'jojop4_egg',
+        name = 'Echo Egg',
+        rarity = 'Mythic',
+        description = '+Used to evolve a special unit...',
+        flavor = '<font color="#921296"><i>"The one who should be running away in fear... is you, murderer!"</i></font>',
+        obtain_info = 'Obtained from [Bizarre Town] raids.',
+
+        item_group = 'Evolution',
+    },
+	
+	
+	
+	
+	
+       --Update 16.0.0
+	overlord_ring_blue = {
+		id = "overlord_ring_blue", 
+		name = "Overlord's Ring (Blue)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Principality Observation in Undead Tomb Legend Stage.", 
+		item_group = "Evolution"
+	}, 
+	overlord_ring_red = {
+		id = "overlord_ring_red", 
+		name = "Overlord's Ring (Red)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Archangel Flame in Undead Tomb Legend Stage.", 
+		item_group = "Evolution"
+	}, 
+	overlord_ring_yellow = {
+		id = "overlord_ring_yellow", 
+		name = "Overlord's Ring (Yellow)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Dominion Authority in Undead Tomb Legend Stage.", 
+		item_group = "Evolution"
+        },
+
+	--Update 15.0.0
+	avdol_ankh = {
+        id = 'avdol_ankh',
+        name = 'Fiery Ankh',
+		rarity = 'Mythic',
+		description = '+Used to evolve a special unit...',
+		flavor = '<font color="#921296"><i>"Yes, I am!"</i></font>',
+		obtain_info = 'Obtained from [Summer 2023] Portals.',
+
+		item_group = 'Evolution',
+    },
+	harribel_blade = {
+        id = 'harribel_blade',
+        name = 'Sharktooth Blade',
+		rarity = 'Mythic',
+		description = '+Used to evolve a special unit...',
+		flavor = '<font color="#921296"><i>"No world is without sacrifices."</i></font>',
+		obtain_info = 'Obtained from [Summer 2023] Portals.',
+
+		item_group = 'Evolution',
+    },
+	roger_hat = {
+        id = 'roger_hat',
+        name = 'Pirate King\'s Hat',
+		rarity = 'Mythic',
+		description = '+Used to evolve a special unit...',
+		flavor = '<font color="#921296"><i>"My wealth and treasures? If you want it, you can have it! Search for it!"</i></font>',
+		obtain_info = 'Obtained from [Summer 2023] Portals.',
+
+		item_group = 'Evolution',
+    },
+	poseidon_trident = {
+        id = 'poseidon_trident',
+        name = 'Sea God\'s Trident',
+		rarity = 'Mythic',
+		description = '+Used to evolve a special unit...',
+		flavor = '<font color="#921296"><i>"We have no need for armies. No need for betrayal. No need for support. Such are the Gods."</i></font>',
+		obtain_info = 'Obtained from [Summer 2023] Portals.',
+
+		item_group = 'Evolution',
+    },
+	kisame_sword = {
+		id = 'kisame_sword',
+        name = 'Sharkskin Greatsword',
+		rarity = 'Mythic',
+		description = '+Used to evolve a special unit...',
+		flavor = '<font color="#921296"><i>"I\'ll enjoy shaving you to death."</i></font>',
+		obtain_info = 'Obtained from [Summer 2023] Portals.',
+
+		item_group = 'Evolution',
+	},
+
+
+
+
+
+
+	--Update 15.0.0
+    gabimaru_flower = {
+        id = 'gabimaru_flower',
+        name = 'Hollow Flower',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    chad_coin = {
+        id = 'chad_coin',
+        name = 'Rusted Coin',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    behelit_evolve = {
+        id = 'behelit_evolve',
+        name = 'Egg of Sacrifice',
+        rarity = 'Legendary',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "Obtained from Eclipse Portal",
+        item_group = 'Evolution'
+    },
+
+
+	--Update 14
+    sao_crystal_red = {
+        id = 'sao_crystal_red',
+        name = 'Blood Crystallite',
+        rarity = 'Legendary',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    sao_crystal_blue = {
+        id = 'sao_crystal_blue',
+        name = 'Ice Crystallite',
+        rarity = 'Legendary',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    sao_crystal_purple = {
+        id = 'sao_crystal_purple',
+        name = 'Dark Crystallite',
+        rarity = 'Legendary',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+
+	--Update 13.5.0	
+    gem_homura = {
+        id = 'gem_homura',
+        name = 'Soul Gem (Violet)',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    gem_kyoko = {
+        id = 'gem_kyoko',
+        name = 'Soul Gem (Scarlet)',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    gem_sayaka = {
+        id = 'gem_sayaka',
+        name = 'Soul Gem (Sapphire)',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    gem_madoka = {
+        id = 'gem_madoka',
+        name = 'Soul Gem (Rose)',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+    gem_mami = {
+        id = 'gem_mami',
+        name = 'Soul Gem (Gold)',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "",
+        item_group = 'Evolution'
+    },
+   
+	
+	
+	
+	
+	
+	--Update 13.0.0
+	dressrosa_grapes = {
+        id = 'dressrosa_grapes',
+        name = 'Pirate Grapes',
+        rarity = 'Common',
+        description = '+Required to evolve a special unit...',
+        usage = {
+            type = 'xp_feed',
+            xp_amount = 3450,
+        },
+        xp_world = 'dressrosa',
+        item_group = 'XP Food'
+    },
+    dressrosa_fruit = {
+        id = 'dressrosa_fruit',
+        name = 'SMILE Fruit',
+        rarity = 'Mythic',
+        description = '+Required to evolve a special unit...',
+        obtain_info = "Obtained from Puppet Portal Infinite, Portals, and Lao's Daily Mission!",
+        item_group = 'Evolution'
+    },
+	
+	
+	
+	
+	
+	
+	--Update 12.5.0
+	easter_egg_1 = {
+		id = "easter_egg_1", 
+		name = "Spotted Egg", 
+		description = "+Can be delivered to the Egg Meter for 10 points.", 
+		rarity = "Common", 
+		obtain_info = "Obtained from any gamemode during Easter 2023 Event."
+	}, 
+	easter_egg_2 = {
+		id = "easter_egg_2", 
+		name = "Flower Egg", 
+		description = "+Can be delivered to the Egg Meter for 15 points.", 
+		rarity = "Common", 
+		obtain_info = "Obtained from any gamemode during Easter 2023 Event."
+	}, 
+	easter_egg_3 = {
+		id = "easter_egg_3", 
+		name = "Striped Egg", 
+		description = "+Can be delivered to the Egg Meter for 20 points.", 
+		rarity = "Common", 
+		obtain_info = "Obtained from any gamemode during Easter 2023 Event."
+	}, 
+	easter_egg_4 = {
+		id = "easter_egg_4", 
+		name = "Starry Egg", 
+		description = "+Can be delivered to the Egg Meter for 50 points.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from any gamemode during Easter 2023 Event."
+	}, 
+	easter_egg_5 = {
+		id = "easter_egg_5", 
+		name = "Strange Egg", 
+		description = "+Can be delivered to the Egg Meter for 250 points.", 
+		rarity = "Epic", 
+		obtain_info = "Obtained from any gamemode during Easter 2023 Event."
+	}, 
+	easter_egg_6 = {
+		id = "easter_egg_6", 
+		name = "Golden Egg", 
+		description = "+Can be delivered to the Egg Meter for 500 points.", 
+		rarity = "Legendary", 
+		shiny = true, 
+		obtain_info = "Obtained from any gamemode during Easter 2023 Event."
+	}, 
+	easter_egg_reward_1 = {
+		id = "easter_egg_reward_1", 
+		name = "Mysterious Egg #1", 
+		description = "+Guaranteed to contain a special Limited Easter Mythic unit! (Tradable)", 
+		flavor = "<font color=\"#921296\"><i>\"There are so many different people in the world... It's a real wonderland!\"</i></font>", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from Easter 2023 Event.", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					unit = "carrot"
+				} }, 
+			possible_rewards = {}
+		}, 
+		item_group = "Stars"
+	}, 
+	easter_egg_reward_2 = {
+		id = "easter_egg_reward_2", 
+		name = "Mysterious Egg #2", 
+		description = "+Guaranteed to contain a special Limited Easter Mythic unit! (Tradable)", 
+		flavor = "<font color=\"#921296\"><i>\"If anyone is out there scheming right now, you best be prepared for me to send you flying!\"</i></font>", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from Easter 2023 Event.", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					unit = "mirko"
+				} }, 
+			possible_rewards = {}
+		}, 
+		item_group = "Stars"
+	}, 
+	easter_egg_reward_3 = {
+		id = "easter_egg_reward_3", 
+		name = "Mysterious Egg #3", 
+		description = "+Guaranteed to contain a special Limited Easter Mythic unit! (Tradable)", 
+		flavor = "<font color=\"#921296\"><i>\"I... hate, painful things. I also hate... scary things.\"</i></font>", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from Easter 2023 Event.", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					unit = "yoshino"
+				} }, 
+			possible_rewards = {}
+		}, 
+		item_group = "Stars"
+	},
+
+    
+    entertainment_district_item = {
+		id = "entertainment_district_item", 
+		name = "Wisteria Bloom", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from [Entertainment District] raids.", 
+		item_group = "Materials", 
+		_craft_type = "evolve_materials"
+	}, 
+	entertainment_nichirin = {
+		id = "entertainment_nichirin", 
+		name = "Nichirin Blade", 
+		rarity = "Epic", 
+		description = "+Increases all damage in [Entertainment District] raids by 25% (Stacks)", 
+		obtain_info = "Obtained from [Entertainment District] raids."
+	}, 
+	gyutaro_sickles = {
+		id = "gyutaro_sickles", 
+		name = "Flesh Kama", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"If I don't cause misery equal to my own unhappiness, I'll never balance the scales!\"</i></font>", 
+		obtain_info = "Obtained from [Entertainment District] raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	daki_obi = {
+		id = "daki_obi", 
+		name = "Demon Obi", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"We beautiful, powerful demons... can do anything we want!\"</i></font>", 
+		obtain_info = "Obtained from [Entertainment District] raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	tengen_blades = {
+		id = "tengen_blades", 
+		name = "Nichirin Cleavers", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I am a god! That's the first thing you need to pound into your heads!\"</i></font>", 
+		obtain_info = "Obtained from [Entertainment District] raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	fugo_bulb = {
+		id = "fugo_bulb", 
+		name = "Poison Bulb", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Nobody can survive in this world on ideals alone.\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 15, 
+			StarFruitGreen = 3, 
+			StarFruitRed = 3, 
+			StarFruitPink = 4, 
+			StarFruitBlue = 4, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7000, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	},
+	
+	
+	
+	
+	
+	
+	
+	--Update 12.0.0
+	quirk_shard = {
+		id = "quirk_shard", 
+		name = "Quirk Shard", 
+		rarity = "Common", 
+		flavor = "<font color=\"#921296\"><i>\"Heroes have many things to protect. That's why we can't lose!\"</i></font>", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 3450
+		}, 
+		xp_world = "mha", 
+		item_group = "XP Food"
+	}, 
+	mha_evolve_item_1 = {
+		id = "mha_evolve_item_1", 
+		name = "Quirk Amplifier", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Hero City (Midnight) Legend stages and Hawk's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	mha_evolve_item_2 = {
+		id = "mha_evolve_item_2", 
+		name = "Hero Guantlet", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Hero City (Midnight) Legend stages and Hawk's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	mha_evolve_item_3 = {
+		id = "mha_evolve_item_3", 
+		name = "Quirk Capsule", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Hero City (Midnight) Legend stages and Hawk's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	capsule_silver = {
+		id = "capsule_silver", 
+		name = "Silver Star", 
+		rarity = "Mythic", 
+		description = "+Required to obtain a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"As everything happens for a reason, our destiny slowly takes form.\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Star is sealed with a powerful magic and cannot be opened yet..."
+		}, 
+		item_group = "Stars"
+	},
+	
+	
+	capsule_april = {
+		id = "capsule_april", 
+		name = "Demon Academy Star", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color=\"rgb(255, 0, 127)\">+Guaranteed to contain one of 3 Limited Demon Academy Mythic units!</font>", 
+		flavor = "<font color=\"#921296\"><i>\"I'm fine with being a fool. If there's no way I can win with my abilities, then I'll stick with being a fool to the end!\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					unit = "rias", 
+					chance = 0.3333333333333333, 
+					_is_mythical_unit = true
+				}, {
+					unit = "koneko", 
+					chance = 0.3333333333333333, 
+					_is_mythical_unit = true
+				}, {
+					unit = "akeno", 
+					chance = 0.3333333333333333, 
+					_is_mythical_unit = true
+				} }
+		}, 
+		item_group = "Stars"
+	}, 
+	april_queen = {
+		id = "april_queen", 
+		name = "Evil Queen's Piece", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		obtain_info = "Obtained from Issai's shop during the Demon Academy Event 2023.", 
+		item_group = "Evolution"
+	}, 
+	april_symbol = {
+		id = "april_symbol", 
+		name = "Demon Academy Symbol", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from Demon Academy Portals.", 
+		item_group = "Materials"
+	}, 
+	veku_jacket = {
+		id = "veku_jacket", 
+		name = "Fusion Jacket", 
+		rarity = "Mythic", 
+		shiny = true, 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"We're warriors, not ballerinas!\"</i></font>", 
+		item_group = "Evolution"
+	},
+	
+	
+	--Update 11.7.5
+	frieza_bean = {
+		id = "frieza_bean", 
+		name = "Superior Senzu Bean", 
+		rarity = "Epic", 
+		description = "+Increases all damage in [West City: Freezo's Invasion] raids by 25% (Stacks)", 
+		obtain_info = "Obtained from [West City: Freezo's Invasion] raids."
+	}, 
+	west_city_frieza_item = {
+		id = "west_city_frieza_item", 
+		name = "Alien Scouter", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from [West City: Freezo's Invasion] raids.", 
+		item_group = "Materials", 
+		_craft_type = "evolve_materials"
+	}, 	
+	hange_spears = {
+		id = "hange_spears", 
+		name = "Thunder Spears", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Even in moments of the deepest despair... I guess we can still find hope, huh?\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 15, 
+			StarFruitGreen = 4, 
+			StarFruitRed = 4, 
+			StarFruitPink = 3, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7000, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	frieza_evolve_item = {
+		id = "frieza_evolve_item", 
+		name = "Supernova", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I was right to seek further evolution!\"</i></font>", 
+		obtain_info = "Obtained from [West City: Freezo's Invasion] raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	piccolo_evolve_item = {
+		id = "piccolo_evolve_item", 
+		name = "Demon Symbol", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"This won't be as simple as last time!\"</i></font>", 
+		obtain_info = "Obtained from [West City: Freezo's Invasion] raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	vegeta_capsule = {
+		id = "vegeta_capsule", 
+		name = "Super Capsule", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You should start training harder!\"</i></font>", 
+		obtain_info = "Obtained from [West City: Freezo's Invasion] raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	},
+	
+	
+	
+	--Update 11.5.0
+	demon_book = {
+		id = "demon_book", 
+		name = "Demonic Spellbook", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Fabled Kingdom Portals.", 
+		item_group = "Evolution"
+	}, 
+	escanor_sun = {
+		id = "escanor_sun", 
+		name = "Sunshine Essence", 
+		rarity = "Mythic", 
+		description = "+Give this to your <font color=\"#fac107\"><i>Pride (Day)</i></font>!", 
+		flavor = "<font color=\"#921296\"><i>\"Apologize to me... that you were born in my world.\"</i></font>", 
+		item_group = "Materials", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom_apply_unit", 
+			_unique_usage = {
+				apply_escanor_sunshine = true
+			}, 
+			_for_units = {
+				escanor = true
+			}
+		}
+	},
+	
+	
+	
+	
+	--Update 11.0.0
+	reroll_stat_all = {
+		id = "reroll_stat_all", 
+		name = "Stat Cube", 
+		description = "+Rerolls all Stat Potentials for a unit. Speak with Beeruh to use.", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from evolving units."
+	}, 
+	reroll_stat_specific = {
+		id = "reroll_stat_specific", 
+		name = "Perfect Stat Cube", 
+		description = "+Rerolls a specific Stat Potential for a unit. Speak with Beeruh to use.", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained from evolving units."
+	}, 
+	capsule_blood = {
+		id = "capsule_blood", 
+		name = "Blood Star", 
+		rarity = "Mythic", 
+		description = "+Required to obtain a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Everytime I hear your voice, the single scar on me begins to ache.\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Star is sealed with a powerful magic and cannot be opened yet..."
+		}, 
+		item_group = "Stars"
+	}, 
+	ds7_pie = {
+		id = "ds7_pie", 
+		name = "Tavern Pie", 
+		rarity = "Common", 
+		flavor = "<font color=\"#921296\"><i>\"I wanted to protect everything. But I failed, and that is my sin...\"</i></font>", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 3450
+		}, 
+		xp_world = "7ds", 
+		item_group = "XP Food"
+	}, 
+	demon_chalice = {
+		id = "demon_chalice", 
+		name = "Demonic Chalice", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Fabled Kingdom Legend stages and Eliz's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	demon_horn2 = {
+		id = "demon_horn2", 
+		name = "Demonic Horn", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Fabled Kingdom Legend stages and Eliz's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	ds7_flower = {
+		id = "ds7_flower", 
+		name = "Fairy Petals", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Fabled Kingdom Legend stages and Eliz's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	demon_book = {
+		id = "demon_book", 
+		name = "Demonic Spellbook", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Fabled Kingdom Legend stages and Eliz's Daily Mission!", 
+		item_group = "Evolution"
+	},
+	
+	
+	
+	
+	
+	--Update 10.7.5
+	uchiha_upgrade_1 = {
+		id = "uchiha_upgrade_1", 
+		name = "Awakened Tomoe", 
+		rarity = "Epic", 
+		description = "+Increases all damage in Storm Hideout raids by 25% (Stacks)", 
+		obtain_info = "Obtained from Storm Hideout raids."
+	}, 
+	uchiha_upgrade_2 = {
+		id = "uchiha_upgrade_2", 
+		name = "Awakened Double Tomoe", 
+		rarity = "Legendary", 
+		description = "+Increases all damage in Storm Hideout raids by 50% (Stacks)", 
+		obtain_info = "Obtained from Storm Hideout raids."
+	}, 
+	uchiha_upgrade_3 = {
+		id = "uchiha_upgrade_3", 
+		name = "Awakened Triple Tomoe", 
+		rarity = "Mythic", 
+		description = "+Increases all damage in Storm Hideout raids by 100% (Stacks)", 
+		obtain_info = "Obtained from Storm Hideout raids."
+	}, 
+	uchiha_item = {
+		id = "uchiha_item", 
+		name = "Tomoe", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Noruto, Let's show them our power.\"</i></font>", 
+		obtain_info = "Obtained from Storm Hideout raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	shisui_evolve = {
+		id = "shisui_evolve", 
+		name = "Chakra Drill", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Protect the village... and the clan name...\"</i></font>", 
+		obtain_info = "Obtained from Storm Hideout raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	itachi_shield = {
+		id = "itachi_shield", 
+		name = "Yata Mirror", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Sorry, Sosuke... this is it.\"</i></font>", 
+		obtain_info = "Obtained from Storm Hideout raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	sasuke_sword = {
+		id = "sasuke_sword", 
+		name = "Lightning Blade", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"This is the path I walk.\"</i></font>", 
+		obtain_info = "Obtained from Storm Hideout raids.", 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	},
+    eternal_eye = {
+		id = "eternal_eye", 
+		name = "Mangeky\197\141 Eye", 
+		rarity = "Mythic", 
+		flavor = "<font color=\"#921296\"><i>\"These eyes cry tears of blood...\"</i></font>", 
+		main_damage_type = "magic", 
+		unique_equip = true, 
+		usage_from_inventory = true, 
+		usage = {
+			type = "apply_relic"
+		}, 
+		layout_order = 1, 
+		crafting_recipe = {
+			relic_shard = 10
+		}, 
+		crafting_cost = 10000, 
+		_craft_type = "Relics", 
+		craft_item_group = "Special", 
+		relic_data = {
+			_core_damage_type_buffs_static = { {
+					damage_type = "fire_damage", 
+					mul = {
+						min = 0.02, 
+						max = 0.05
+					}
+				} }, 
+			_unique_relic_effects = { {
+					id = "eternal_eye", 
+					static_params = {
+						duration_buff = 2
+					}
+				} }, 
+			equip_requirements = {
+				damage_types_needed = { "fire_damage" }
+			}
+		}, 
+		item_group = "Relics", 
+		unique = true
+	},
+	
+	
+	
+	--Update 10
+	opm_core = {
+		id = "opm_core", 
+		name = "Alien Core", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 3450
+		}, 
+		xp_world = "opm", 
+		item_group = "XP Food"
+	}, 
+	opm_core_full = {
+		id = "opm_core_full", 
+		name = "Full Power Core", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Alien Portal stages and Bang's Daily Mission!", 
+		item_group = "Evolution"
+	}, 
+	capsule_heart = {
+		id = "capsule_heart", 
+		name = "Love Star", 
+		rarity = "Mythic", 
+		item_group = "Stars",
+		description = "+Required to obtain a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Strength is beauty!\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Star is sealed with a powerful magic and cannot be opened yet..."
+		},
+	},
+	
+	
+	
+	--Update 9
+	gun_devil_bullet = {
+		id = "gun_devil_bullet", 
+		name = "Gun Devil Bullet", 
+		rarity = "Mythic", 
+		obtain_info = "Obtained by defeating bosses from Makimo's Contracts.", 
+		item_group = "Materials"
+	}, 
+	csm_contract_0 = {
+		id = "csm_contract_0", 
+		_use_item_model = "csm_contract", 
+		name = "Devil Hunter Contract (Rank 0)", 
+		rarity = "Epic", 
+		hide_gradient = true, 
+		description = "<font color = \"#ffd000\">+Contains a Devil Hunt contract...</font>", 
+		usage_from_inventory = true, 
+		use_on_purchase = true, 
+		usage = {
+			type = "generate_portal", 
+			portal_item = "portal_csm", 
+			portal_depth = 0
+		}
+	}, 
+	csm_contract_1 = {
+		id = "csm_contract_1", 
+		_use_item_model = "csm_contract", 
+		name = "Devil Hunter Contract (Rank 1)", 
+		rarity = "Epic", 
+		hide_gradient = true, 
+		description = "<font color = \"#ffd000\">+Contains a Devil Hunt contract...</font>\n<font color=\"#ff0000\">Must be Rank 1 to purchase!</font>", 
+		usage_from_inventory = true, 
+		use_on_purchase = true, 
+		usage = {
+			type = "generate_portal", 
+			portal_item = "portal_csm", 
+			portal_depth = 1
+		}
+	}, 
+	csm_contract_2 = {
+		id = "csm_contract_2", 
+		_use_item_model = "csm_contract", 
+		name = "Devil Hunter Contract (Rank 2)", 
+		rarity = "Legendary", 
+		hide_gradient = true, 
+		description = "<font color = \"#ffd000\">+Contains a Devil Hunt contract...</font>\n<font color=\"#ff0000\">Must be Rank 2 to purchase!</font>", 
+		usage_from_inventory = true, 
+		use_on_purchase = true, 
+		usage = {
+			type = "generate_portal", 
+			portal_item = "portal_csm2", 
+			portal_depth = 2
+		}
+	}, 
+	csm_contract_3 = {
+		id = "csm_contract_3", 
+		_use_item_model = "csm_contract", 
+		name = "Devil Hunter Contract (Rank 3)", 
+		rarity = "Legendary", 
+		hide_gradient = true, 
+		description = "<font color = \"#ffd000\">+Contains a Devil Hunt contract...</font>\n<font color=\"#ff0000\">Must be Rank 3 to purchase!</font>", 
+		usage_from_inventory = true, 
+		use_on_purchase = true, 
+		usage = {
+			type = "generate_portal", 
+			portal_item = "portal_csm2", 
+			portal_depth = 3
+		}
+	}, 
+	csm_contract_4 = {
+		id = "csm_contract_4", 
+		_use_item_model = "csm_contract", 
+		name = "Devil Hunter Contract (Rank 4)", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color = \"#ffd000\">+Contains a Devil Hunt contract...</font>\n<font color=\"#ff0000\">Must be Rank 4 to purchase!</font>", 
+		usage_from_inventory = true, 
+		use_on_purchase = true, 
+		usage = {
+			type = "generate_portal", 
+			portal_item = "portal_csm3", 
+			portal_depth = 4
+		}
+	}, 
+	csm_contract_5 = {
+		id = "csm_contract_5", 
+		_use_item_model = "csm_contract", 
+		name = "Devil Hunter Contract (Rank 5)", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color = \"#ffd000\">+Contains a Devil Hunt contract...</font>\n<font color=\"#ff0000\">Must be Rank 5 to purchase!</font>", 
+		usage_from_inventory = true, 
+		use_on_purchase = true, 
+		usage = {
+			type = "generate_portal", 
+			portal_item = "portal_csm4", 
+			portal_depth = 5
+		}
+	}, 
+	capsule_csm_pity = {
+		id = "capsule_csm_pity", 
+		name = "Devil Star", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color=\"rgb(255, 64, 0)\">+Guaranteed to contain a Devil City Mythic unit!\n(Can also be obtained as a rare drop from Makimo's Contracts!)</font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					unit = "kobeni", 
+					chance = 0.16666666666666666, 
+					_is_mythical_unit = true
+				}, {
+					unit = "aki", 
+					chance = 0.16666666666666666, 
+					_is_mythical_unit = true
+				}, {
+					unit = "himeno", 
+					chance = 0.16666666666666666, 
+					_is_mythical_unit = true
+				}, {
+					unit = "power", 
+					chance = 0.16666666666666666, 
+					_is_mythical_unit = true
+				}, {
+					unit = "denji", 
+					chance = 0.16666666666666666, 
+					_is_mythical_unit = true
+				}, {
+					unit = "angel_devil", 
+					chance = 0.16666666666666666, 
+					_is_mythical_unit = true
+				} }
+		}, 
+		_mythic_unit_pity = 1, 
+		_n = 234, 
+		item_group = "Stars"
+	}, 
+	StarFruitCapsule = {
+		id = "StarFruitCapsule", 
+		name = "Star Fruit Capsule", 
+		rarity = "Legendary", 
+		description = "+Contains random Star Fruits!", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					item = "StarFruit", 
+					amount = 1, 
+					chance = 0.43
+				}, {
+					item = "StarFruitGreen", 
+					amount = 1, 
+					chance = 0.135
+				}, {
+					item = "StarFruitRed", 
+					amount = 1, 
+					chance = 0.135
+				}, {
+					item = "StarFruitPink", 
+					amount = 1, 
+					chance = 0.135
+				}, {
+					item = "StarFruitBlue", 
+					amount = 1, 
+					chance = 0.135
+				}, {
+					item = "StarFruitEpic", 
+					amount = 1, 
+					chance = 0.03
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	
+	
+	
+	
+	
+	
+-- idk
+	dio_bone = {
+		id = "dio_bone", 
+		name = "JIO's Bone", 
+		rarity = "Mythic",
+		flavor = "<font color=\"#921296\"><i>\"It moves around, seemingly with a mind of it's own...\"</i></font>", 
+		description = "+Use to obtain a special item...", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom"
+		}
+	},
+	final_disc = {
+		id = "final_disc", 
+		name = "Final Disc", 
+		rarity = "Mythic", 
+		shiny = true, 
+		obtain_info = "Obtained from Final Disc Fragment.", 
+		flavor = "<font color=\"#921296\"><i>\"Within my body and my spirit, gravity exists! And it must also exist, at the end of it all.\"</i></font>", 
+		description = "+Use to enter a special stage...", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom"
+		}
+	},
+	sukuna_finger_permanent = {
+		id = "sukuna_finger_permanent", 
+		name = "Cursed Finger (Indestructible)", 
+		rarity = "Mythic", 
+		shiny = true, 
+		flavor = "<font color=\"#921296\"><i>\"Know your place.\"</i></font>", 
+		description = "+Use to travel to Sukuno's Domain.", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom"
+		}
+	},
+	raid_ticket__westcityraid = {
+		id = "raid_ticket__westcityraid", 
+		name = "Raid Ticket (Android Attack)", 
+		rarity = "Legendary", 
+		description = "+Grants one-time access to the Android Attack raid.", 
+	}, 
+	raid_ticket__fairytailraid = {
+		id = "raid_ticket__fairytailraid", 
+		name = "Event Ticket (Heavenly Invasion)", 
+		rarity = "Legendary", 
+		description = "+Grants one-time access to Heavenly Invasion event.", 
+	},
+	star_remnant = {
+		id = "star_remnant", 
+		name = "Star Remnant", 
+		rarity = "Mythic", 
+		description = "+Rerolls or gives unit a trait.", 
+		flavor = "<font color=\"#921296\"><i>A fragment of the stars themselves.</i></font>", 
+		usage = {
+			type = "reroll_trait"
+		}
+	}, 
+	map_1 = {
+		id = "map_1", 
+		name = "Map 1", 
+		rarity = "Legendary", 
+		flavor = "<font color=\"#921296\"><b><i>Idk</i></b></font>", 
+		usage = {
+			type = "map", 
+			level_id = "aot_raid_1"
+		}
+	}, 
+	summon_ticket = {
+		id = "summon_ticket", 
+		name = "Summon Ticket", 
+		rarity = "Legendary", 
+		description = "+Used at the shop.", 
+	}, 
+	raid_ticket__narutodesert = {
+		id = "raid_ticket__narutodesert", 
+		name = "Raid Ticket (Midnight Attack)", 
+		rarity = "Legendary", 
+		description = "+Grants one-time access to Midnight Attack raid.", 
+	}, 
+	raid_ticket__aotraid = {
+		id = "raid_ticket__aotraid", 
+		name = "Raid Ticket (Rumbling)", 
+		rarity = "Legendary", 
+		description = "+Grants one-time access to the Rumbling raid.", 
+		
+	}, 
+	raid_ticket__demonslayerraid = {
+		id = "raid_ticket__demonslayerraid", 
+		name = "Raid Ticket (Infinity Train)", 
+		rarity = "Legendary", 
+		description = "+Grants one-time access to the Infinity Train raid.", 
+	}, 
+	treasure_radar = {
+		id = "treasure_radar", 
+		name = "Treasure Radar", 
+		rarity = "Mythic", 
+		description = "+Grants 2x drops for one raid completion. Automatically used when you receive rewards for completing any raid."
+	},
+	
+	
+	
+-- Boosts
+	LuckPotion = {
+		id = "LuckPotion", 
+		name = "Luck Potion", 
+		rarity = "Epic", 
+		description = "+Boosts luck for 30 minutes.", 
+		usage = {
+			type = "boost", 
+			boost_type = "Lucky", 
+			boost_duration = 1800
+		}, 
+		usage_from_inventory = true, 
+	}, 
+
+
+-- Stars
+capsule_christmas2 = {
+		id = "capsule_christmas2", 
+		name = "Icy Star", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color=\"#57DEFF\">+Chance to contain limited-time units and skins!</font>\n" .. "<font color=\"#F436E8\">(9 different skins, 3 exclusive units, and a limited Secret unit possible!)</font>" .. "\n" .. "<font color=\"#15adff\">\226\128\162 Rare Skin: 81.5%</font>\n" .. "<font color=\"#8e06ee\">\226\128\162 Epic Skin: 16.0%</font>\n" .. "<font color=\"#ffba19\">⭐ Legendary Skin: 2.0%</font>\n" .. "<font color=\"#f740dc\">❄ Mythic Skin: 0.25%</font>\n" .. "<font color=\"#f740dc\">❄ Mythic Unit: 0.25%</font>" .. "<font color=\"#ff0000\">🎁 Secret Unit: 1 in 80,000</font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					item = "luffy_christmas_skin", 
+					amount = 1, 
+					chance = 0.81545625
+					-- dont remember what is included + dont want to go through the trouble of calculating chance rn
+				} }
+		}, 
+		_mythic_unit_pity = 400, 
+		item_group = "Stars"
+	},
+	capsule_christmas = {
+		id = "capsule_christmas", 
+		name = "Frozen Star", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color=\"#57DEFF\">+Chance to contain limited-time units and skins!</font>\n" .. "<font color=\"#F436E8\">(9 different skins, 3 exclusive units, and a limited Secret unit possible!)</font>" .. "\n" .. "<font color=\"#15adff\">\226\128\162 Rare Skin: 81.5%</font>\n" .. "<font color=\"#8e06ee\">\226\128\162 Epic Skin: 16.0%</font>\n" .. "<font color=\"#ffba19\">⭐ Legendary Skin: 2.0%</font>\n" .. "<font color=\"#f740dc\">❄ Mythic Skin: 0.25%</font>\n" .. "<font color=\"#ff0000\">🎁 Mythic Unit: 0.25%</font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					item = "rukia_christmas_skin", 
+					amount = 1, 
+					chance = 0.81545625
+				}, {
+					item = "armin_christmas_skin", 
+					amount = 1, 
+					chance = 0.07980000000000001
+				}, {
+					item = "whitebeard_christmas_skin", 
+					amount = 1, 
+					chance = 0.07980000000000001
+				}, {
+					item = "erza_christmas_skin", 
+					amount = 1, 
+					chance = 0.0039900000000000005
+				}, {
+					item = "soifon_christmas_skin", 
+					amount = 1, 
+					chance = 0.0039900000000000005
+				}, {
+					item = "luck_evolved_christmas_skin", 
+					amount = 1, 
+					chance = 0.0039900000000000005
+				}, {
+					item = "bulma_christmas_skin", 
+					amount = 1, 
+					chance = 0.0039900000000000005
+				}, {
+					item = "sukuna_christmas_skin", 
+					amount = 1, 
+					chance = 0.0039900000000000005
+				}, {
+					item = "asta_evolved_christmas_skin", 
+					amount = 1, 
+					chance = 0.0024937500000000003
+				}, {
+					unit = "haku", 
+					chance = 0.0008333333333333333, 
+					_is_mythical_unit = true
+				}, {
+					unit = "todoroki_2", 
+					chance = 0.0008333333333333333, 
+					_is_mythical_unit = true
+				}, {
+					unit = "toshiro", 
+					chance = 0.0008333333333333333, 
+					_is_mythical_unit = true
+				} }
+		}, 
+		_mythic_unit_pity = 400, 
+		item_group = "Stars"
+	},
+	christmas_gift = {
+		id = "christmas_gift", 
+		name = "Christmas Gift", 
+		rarity = "Mythic", 
+		description = "<font color = \"#ffd000\">+Used to obtain an exlusive reward!</font>\n<font color=\"#00ff00\"><i>(Opens on Christmas!)</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Gift opens on Christmas Day!"
+		}, 
+		item_group = "Stars"
+	}, 
+	christmas_gift_shiny = {
+		id = "christmas_gift_shiny", 
+		name = "Shiny Christmas Gift", 
+		rarity = "Mythic", 
+		shiny = true, 
+		description = "<font color = \"#ffd000\">+Enjoy something extra for your generosity!</font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Gift opens soon!"
+		}, 
+		item_group = "Stars"
+	}, 
+	capsule_ice = {
+		id = "capsule_ice", 
+		name = "Ice Flower Star", 
+		rarity = "Mythic", 
+		description = "+Required to obtain a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I can't imagine this will make things any easier, but this is all I can do!\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Star is sealed with a powerful magic and cannot be opened yet..."
+		}, 
+		item_group = "Stars"
+	},
+	capsule_halloween = {
+		id = "capsule_halloween", 
+		name = "Haunted Star", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color=\"#ffc400\">+Chance to contain limited-time units and skins!</font>\n" .. "<font color=\"#ff5e0e\">(3 exclusive units and 13 different skins possible!)</font>" .. "\n" .. "<font color=\"#15adff\">\226\128\162 Rare Skin: 81.5%</font>\n" .. "<font color=\"#8e06ee\">\226\128\162 Epic Skin: 16.0%</font>\n" .. "<font color=\"#ffba19\">⭐ Legendary Skin: 2.0%</font>\n" .. "<font color=\"#f740dc\">🎃 Mythic Skin: 0.25%</font>\n" .. "<font color=\"#ff0000\">👻 Mythic Unit: 0.25%</font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					item = "luffy_halloween_skin", 
+					amount = 1, 
+					chance = 0.407728125
+				}, {
+					item = "deku_halloween_skin", 
+					amount = 1, 
+					chance = 0.407728125
+				}, {
+					item = "gon_adult_halloween_skin", 
+					amount = 1, 
+					chance = 0.07980000000000001
+				}, {
+					item = "madara_halloween_skin", 
+					amount = 1, 
+					chance = 0.07980000000000001
+				}, {
+					item = "gojo_halloween_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "cell_perfect_basketball_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "rukia_halloween_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "kento_halloween_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "katakuri_halloween_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "eto_halloween_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "juuzou_halloween_skin", 
+					amount = 1, 
+					chance = 0.00285
+				}, {
+					item = "erwin_halloween_skin", 
+					amount = 1, 
+					chance = 0.0012468750000000002
+				}, {
+					item = "pitou_halloween_skin", 
+					amount = 1, 
+					chance = 0.0012468750000000002
+				}, {
+					unit = "perona", 
+					chance = 0.0008333333333333333, 
+					_is_mythical_unit = true
+				}, {
+					unit = "moria", 
+					chance = 0.0008333333333333333, 
+					_is_mythical_unit = true
+				}, {
+					unit = "brook", 
+					chance = 0.0008333333333333333, 
+					_is_mythical_unit = true
+				} }
+		}, 
+		_mythic_unit_pity = 400, 
+		item_group = "Stars"
+	}, 
+	capsule_sound = {
+		id = "capsule_sound", 
+		name = "Sound Sealed Star", 
+		rarity = "Mythic", 
+		description = "+Required to obtain a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Things are going to get real flashy!\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			_locked = "This Star is sealed with a powerful magic and cannot be opened yet..."
+		}, 
+		item_group = "Stars"
+	}, 
+	capsule_jjk = {
+		id = "capsule_jjk", 
+		name = "Curse Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive rewards! (Not affected by luck boosts)", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "curse_shard", 
+					min_amount = 2, 
+					max_amount = 5
+				} }, 
+			possible_rewards = { {
+					item = "summon_ticket", 
+					amount = 1, 
+					chance = 0.21
+				}, {
+					item = "StarFruit", 
+					amount = 1, 
+					chance = 0.129
+				}, {
+					item = "StarFruitGreen", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitRed", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitPink", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitBlue", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitEpic", 
+					amount = 1, 
+					chance = 0.009
+				}, {
+					item = "star_remnant", 
+					amount = 1, 
+					chance = 0.15
+				}, {
+					item = "curse_shard", 
+					amount = 1, 
+					chance = 0.32
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	capsule_erza = {
+		id = "capsule_erza", 
+		name = "Magic Sealed Star", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You don't die for your friends, you live for them.\"</i></font>",
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "erza_items", 
+					min_amount = 1, 
+					max_amount = 1
+				}, {
+					item = "key_erza_map", 
+					min_amount = 1, 
+					max_amount = 1
+				} }, 
+			possible_rewards = {}
+		}, 
+		item_group = "Stars"
+	}, 
+	capsule_aotraid = {
+		id = "capsule_aotraid", 
+		name = "Rumbling Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive units! (Not affected by luck boosts)", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "aot_shard", 
+					min_amount = 6, 
+					max_amount = 10
+				} }, 
+			possible_rewards = { {
+					chance = 0.975
+				}, {
+					unit = "zeke", 
+					chance = 0.025
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	capsule_bleach = {
+		id = "capsule_bleach", 
+		name = "Soul Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive units! (Not affected by luck boosts)", 
+		flavor = "<font color=\"#921296\"><i>\"Those who do not fear the sword they wield have no right to wield a sword at all.\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "soul_shard", 
+					min_amount = 2, 
+					max_amount = 5
+				} }, 
+			possible_rewards = { {
+					item = "summon_ticket", 
+					amount = 1, 
+					chance = 0.21
+				}, {
+					item = "StarFruit", 
+					amount = 1, 
+					chance = 0.129
+				}, {
+					item = "StarFruitGreen", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitRed", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitPink", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitBlue", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitEpic", 
+					amount = 1, 
+					chance = 0.009
+				}, {
+					item = "star_remnant", 
+					amount = 1, 
+					chance = 0.15
+				}, {
+					item = "soul_shard", 
+					amount = 1, 
+					chance = 0.32
+				}, {
+					unit = "ichigo_hollow", 
+					chance = 0.02
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	capsule_demonslayerraid = {
+		id = "capsule_demonslayerraid", 
+		name = "Blazing Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive units! (Not affected by luck boosts)", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "rengoku_shard", 
+					min_amount = 6, 
+					max_amount = 10
+				} }, 
+			possible_rewards = { {
+					chance = 0.975
+				}, {
+					unit = "akaza_unit", 
+					chance = 0.025
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	capsule_hxhant = {
+		id = "capsule_hxhant", 
+		name = "Chimera Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive units! (Not affected by luck boosts)", 
+		flavor = "<font color=\"#921296\"><i>\"I need... bigger prey...\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "chimera_shard", 
+					min_amount = 2, 
+					max_amount = 5
+				} }, 
+			possible_rewards = { {
+					item = "summon_ticket", 
+					amount = 1, 
+					chance = 0.21
+				}, {
+					item = "StarFruit", 
+					amount = 1, 
+					chance = 0.129
+				}, {
+					item = "StarFruitGreen", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitRed", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitPink", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitBlue", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitEpic", 
+					amount = 1, 
+					chance = 0.009
+				}, {
+					item = "star_remnant", 
+					amount = 1, 
+					chance = 0.15
+				}, {
+					item = "chimera_shard", 
+					amount = 1, 
+					chance = 0.32
+				} }
+		}, 
+		item_group = "Stars"
+	}, 
+	capsule_marineford = {
+		id = "capsule_marineford", 
+		name = "Ocean Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive units! (Not affected by luck boosts)", 
+		flavor = "<font color=\"#921296\"><i>\"Everyone is a child of the sea.\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "ace_shard", 
+					min_amount = 2, 
+					max_amount = 5
+				} }, 
+			possible_rewards = { {
+					item = "summon_ticket", 
+					amount = 1, 
+					chance = 0.21
+				}, {
+					item = "StarFruit", 
+					amount = 1, 
+					chance = 0.129
+				}, {
+					item = "StarFruitGreen", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitRed", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitPink", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitBlue", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitEpic", 
+					amount = 1, 
+					chance = 0.009
+				}, {
+					item = "star_remnant", 
+					amount = 1, 
+					chance = 0.15
+				}, {
+					item = "ace_shard", 
+					amount = 1, 
+					chance = 0.32
+				}, {
+					unit = "ace", 
+					chance = 0.02
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	capsule_narutodesertraid = {
+		id = "capsule_narutodesertraid", 
+		name = "Desert Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive units! (Not affected by luck boosts)", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "naruto_pts_shard", 
+					min_amount = 6, 
+					max_amount = 10
+				} }, 
+			possible_rewards = { {
+					chance = 0.975
+				}, {
+					unit = "naruto_pts", 
+					chance = 0.025
+				} }
+		}, 
+		item_group = "Stars"
+	},
+	capsule_fairytail = {
+		id = "capsule_fairytail", 
+		name = "Academy Star", 
+		rarity = "Mythic", 
+		hide_gradient = true, 
+		description = "<font color=\"#ffc400\">+Chance to contain exclusive limited-time skins!</font> <font color=\"#ff5e0e\">(7 different unique skins possible!)</font>\n<font color=\"#15adff\">Rare Skin: 64%</font>\n<font color=\"#8e06ee\">Epic Skin: 25%</font>\n<font color=\"#ffba19\">Legendary Skin: 10%</font>\n<font color=\"#f740dc\">Mythic Skin: 1%</font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			possible_rewards = { {
+					item = "nezuko_school_skin", 
+					amount = 1, 
+					chance = 0.64
+				}, {
+					item = "uryu_school_skin", 
+					amount = 1, 
+					chance = 0.125
+				}, {
+					item = "levi_school_skin", 
+					amount = 1, 
+					chance = 0.125
+				}, {
+					item = "killua_godspeed_school_skin", 
+					amount = 1, 
+					chance = 0.05
+				}, {
+					item = "armin_school_skin", 
+					amount = 1, 
+					chance = 0.05
+				}, {
+					item = "erwin_school_skin", 
+					amount = 1, 
+					chance = 0.005
+				}, {
+					item = "bulma_school_skin", 
+					amount = 1, 
+					chance = 0.005
+				} }
+		}, 
+		item_group = "Stars"
+	}, 
+	capsule_fairytail_infinite = {
+		id = "capsule_fairytail_infinite", 
+		name = "Celestial Star", 
+		rarity = "Legendary", 
+		description = "+Chance to contain exclusive rewards! (Not affected by luck boosts)", 
+		flavor = "<font color=\"#921296\"><i>\"This place an eternal mystery... A never ending adventure!\"</i></font>", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "capsule", 
+			guaranteed_rewards = { {
+					item = "fairy_tail_shard", 
+					min_amount = 2, 
+					max_amount = 5
+				} }, 
+			possible_rewards = { {
+					item = "summon_ticket", 
+					amount = 1, 
+					chance = 0.21
+				}, {
+					item = "StarFruit", 
+					amount = 1, 
+					chance = 0.129
+				}, {
+					item = "StarFruitGreen", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitRed", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitPink", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitBlue", 
+					amount = 1, 
+					chance = 0.0405
+				}, {
+					item = "StarFruitEpic", 
+					amount = 1, 
+					chance = 0.009
+				}, {
+					item = "star_remnant", 
+					amount = 1, 
+					chance = 0.15
+				}, {
+					item = "fairy_tail_shard", 
+					amount = 1, 
+					chance = 0.32
+				} }
+		}, 
+		item_group = "Stars"
+	}, 
+
+
+-- XP Food
+	black_clover_stone = {
+		id = "black_clover_stone", 
+		name = "Magic Stone", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 3450
+		}, 
+		xp_world = "clover", 
+		item_group = "XP Food"
+	}, 
+	jjk_talisman = {
+		id = "jjk_talisman", 
+		name = "Curse Talisman", 
+		rarity = "Common", 
+		flavor = "<font color=\"#921296\"><i>\"Don't move! You're no longer human.\"</i></font>", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 3450
+		}, 
+		item_group = "XP Food"
+	}, 
+	fairy_tail_exp = {
+		id = "fairy_tail_exp", 
+		name = "Magical Artifact", 
+		rarity = "Common", 
+		flavor = "<font color=\"#921296\"><i>Whether fairies have tails or not, or whether they even exist, nobody knows for sure...</i></font>", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 3450
+		}, 
+		item_group = "XP Food"
+	},
+	soul_candy = {
+		id = "soul_candy", 
+		name = "Soul Candy", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 1000
+		}, 
+		item_group = "XP Food"
+	}, 
+	hxh_fish = {
+		id = "hxh_fish", 
+		name = "Cooked Fish", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 2160
+		}, 
+		item_group = "XP Food"
+	}, 
+	xp_devil_fruit = {
+		id = "xp_devil_fruit", 
+		name = "Devil Fruit", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 550
+		}, 
+		item_group = "XP Food"
+	}, 
+	senzu_bean = {
+		id = "senzu_bean", 
+		name = "Senzu Bean", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 25
+		}, 
+		item_group = "XP Food"
+	}, 
+	aot_fluid = {
+		id = "aot_fluid", 
+		name = "Mysterious Fluid", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 50
+		}, 
+		item_group = "XP Food"
+	}, 
+	wisteria_flower = {
+		id = "wisteria_flower", 
+		name = "Wisteria Flower", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 115
+		}, 
+		item_group = "XP Food"
+	}, 
+	ramen_xp = {
+		id = "ramen_xp", 
+		name = "Ramen Bowl", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 250
+		}, 
+		item_group = "XP Food"
+	}, 
+	coffee = {
+		id = "coffee", 
+		name = "Ghoul Coffee", 
+		rarity = "Common", 
+		usage = {
+			type = "xp_feed", 
+			xp_amount = 575
+		}, 
+		item_group = "XP Food"
+	},
+
+
+
+-- Materials
+	todoroki_2_evolve = {
+		id = "todoroki_2_evolve", 
+		name = "Ice-Fire Orb", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"It's not your fault, we're just playing on different levels.\"</i></font>", 
+		obtain_info = "Purchasable for Stars during the Christmas 2022 Event.", 
+		item_group = "Evolution"
+	}, 
+	toshiro_evolve_item = {
+		id = "toshiro_evolve_item", 
+		name = "Ice Lotus", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You're being too lenient with an opponent you've only hit once.\"</i></font>", 
+		obtain_info = "Purchasable for Stars during the Christmas 2022 Event.", 
+		item_group = "Evolution"
+	}, 
+	haku_mirror = {
+		id = "haku_mirror", 
+		name = "Frozen Mirror", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"It's only through the eyes of others that our lives have any meaning.\"</i></font>", 
+		obtain_info = "Purchasable for Stars during the Christmas 2022 Event.", 
+		item_group = "Evolution"
+	}, 
+	aokiji_bird = {
+		id = "aokiji_bird", 
+		name = "Ice Pheasant", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Absolutely justice. It's been know to sometimes drive a person into madness.\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitGreen = 6, 
+			StarFruitRed = 8, 
+			StarFruitBlue = 9, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7500, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	esdeath_cup = {
+		id = "esdeath_cup", 
+		name = "Demon Extract", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"The law of the world is survival of the fittest.\"</i></font>", 
+		obtain_info = "Purchasable for Stars during the Christmas 2022 Event.", 
+		item_group = "Evolution"
+	}, 
+	disc_blue = {
+		id = "disc_blue", 
+		name = "DISC (Blue)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Cape Canaversal Legend Stage.", 
+		item_group = "Evolution"
+	}, 
+	disc_green = {
+		id = "disc_green", 
+		name = "DISC (Green)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Cape Canaversal Legend Stage.", 
+		item_group = "Evolution"
+	}, 
+	disc_orange = {
+		id = "disc_orange", 
+		name = "DISC (Orange)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Ricki in Cape Canaversal Legend Stage.", 
+		item_group = "Evolution"
+	}, 
+	disc_pink = {
+		id = "disc_pink", 
+		name = "DISC (Pink)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Ricki in Cape Canaversal Legend Stage.", 
+		item_group = "Evolution"
+	}, 
+	disc_purple = {
+		id = "disc_purple", 
+		name = "DISC (Purple)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Patelo in Cape Canaversal Legend Stage 3 - Under World.", 
+		item_group = "Evolution"
+	}, 
+	disc_black = {
+		id = "disc_black", 
+		name = "DISC (Black)", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Do in Cape Canaversal Legend Stage 3 - Under World.", 
+		item_group = "Evolution"
+	}, 
+	final_disc_fragment = {
+		id = "final_disc_fragment", 
+		name = "Final Disk Fragment", 
+		rarity = "Legendary", 
+		description = "+Collect 6 to obtain a special item...", 
+		obtain_info = "Obtained from Cape Canaversal Legend Stage.", 
+		item_group = "Materials"
+	}, 
+	green_baby = {
+		id = "green_baby", 
+		name = "Green Baby", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Go there and wait for the New Moon..\"</i></font>",
+		obtain_info = "Obtained from Using JIO's Bone form inventory.", 
+		item_group = "Evolution"
+	}, 
+	mih_clock = {
+		id = "mih_clock", 
+		name = "Heavenly Clock", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Let us celebrate the dawning... of a new world!\"</i></font>", 
+		obtain_info = "Obtained from Cape Canaversal - The New Moon.", 
+		item_group = "Evolution"
+	}, 
+	soul_tier = {
+		id = "soul_tier", 
+		name = "Soul (Tiel)", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"No world is without sacrifices. But if we produce casualties, we would also sustain casualties of our own.\"</i></font>", 
+		obtain_info = "Obtained from Karakora Town - The Shark Aranca.", 
+		item_group = "Evolution"
+	}, 
+	soul_tosen = {
+		id = "soul_tosen", 
+		name = "Soul (Toshe)", 
+		rarity = "Mythic", 
+		description = "+Used to craft a special item...", 
+		flavor = "<font color=\"#921296\"><i>\"The very path that I tread upon is the one of justice.\"</i></font>", 
+		obtain_info = "Obtained from Karakora Town - The Bug Aranca.", 
+		item_group = "Materials"
+	}, 
+	soul_weiss = {
+		id = "soul_weiss", 
+		name = "Soul (Wes)", 
+		rarity = "Mythic", 
+		description = "+Used to craft a special item...", 
+		flavor = "<font color=\"#921296\"><i>\"I am glad you no longer look like a child, I can kill you without regret!\"</i></font>", 
+		obtain_info = "Obtained from Karakora Town - The Restructured Aranca.", 
+		item_group = "Materials"
+	}, 
+	soul_barragan = {
+		id = "soul_barragan", 
+		name = "Soul (Barrago)", 
+		rarity = "Mythic", 
+		description = "+Used to craft a special item...", 
+		flavor = "<font color=\"#921296\"><i>\"Everything that comes to life eventually ceases to exist.\"</i></font>", 
+		obtain_info = "Obtained from Karakora Town - The Decayed Aranca.", 
+		item_group = "Materials"
+	}, 
+	soul_gin = {
+		id = "soul_gin", 
+		name = "Soul (Ging)", 
+		rarity = "Mythic", 
+		description = "+Used to craft a special item...", 
+		flavor = "<font color=\"#921296\"><i>\"I'm a snake. Cold of flesh and devoid of heart.\"</i></font>", 
+		obtain_info = "Obtained from Karakora Town - The Traitor Reaper.", 
+		item_group = "Materials"
+	}, 
+	hogyoku_placeholder = {
+		id = "hogyoku_placeholder", 
+		name = "Perfect Soul Orb", 
+		obtain_info = "Coming soon...", 
+		rarity = "Mythic", 
+		item_group = "Materials"
+	},
+	scroll_material = {
+		id = "scroll_material", 
+		name = "Magic Scroll", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	demon_horns = {
+		id = "demon_horns", 
+		name = "Demonic Horns", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	demon_skull = {
+		id = "demon_skull", 
+		name = "Demonic Skull", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	demon_tail = {
+		id = "demon_tail", 
+		name = "Demonic Tail", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	yuno_blade = {
+		id = "yuno_blade", 
+		name = "Wind Splinter", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	book_material = {
+		id = "book_material", 
+		name = "Empty Tome", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	torn_page = {
+		id = "torn_page", 
+		name = "Lost Chapter", 
+		description = "Crafting material for relics and units.", 
+		rarity = "Legendary", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	devil_heart_material = {
+		id = "devil_heart_material", 
+		name = "Devil Heart", 
+		description = "Crafting material for relics and units.", 
+		rarity = "Legendary", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	circlet_material = {
+		id = "circlet_material", 
+		name = "Fairy Circlet", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	}, 
+	fairy_wings_material = {
+		id = "fairy_wings_material", 
+		name = "Fairy Wings", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials"
+	},
+	black_clover_stone_gold = {
+		id = "black_clover_stone_gold", 
+		name = "Enchanted Magic Stone", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Patelo in Clover Kingdom Legend Stage 1 - The Light Elf.", 
+		item_group = "Evolution"
+	}, 
+	black_clover_stone_red = {
+		id = "black_clover_stone_red", 
+		name = "Cursed Magic Stone", 
+		rarity = "Legendary", 
+		description = "+Required to evolve a special unit...", 
+		obtain_info = "Obtained from Zagrad (Sealed) in Clover Kingdom Legend Stage 2 - The Sealed Threat.", 
+		item_group = "Evolution"
+	}, 
+        	julius_grimoire = {
+		id = "julius_grimoire", 
+		name = "Endless Tome", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"The trust of others comes with merit.\"</i></font>", 
+		crafting_recipe = {
+			torn_page = 12
+		}, 
+		crafting_cost = 7500, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	luck_horns = {
+		id = "luck_horns", 
+		name = "Lightning Fiend's Horns", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Want to tell me exactly how you.. could win against me?\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 8, 
+			StarFruitRed = 3, 
+			StarFruitPink = 2, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 3450, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	yami_katana = {
+		id = "yami_katana", 
+		name = "Dark Katana", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Surpass your limits. Then your path will open up for you.\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 17, 
+			StarFruitGreen = 4, 
+			StarFruitRed = 3, 
+			StarFruitPink = 4, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7250, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	yuno_crown = {
+		id = "yuno_crown", 
+		name = "Spirit Crown", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I don't know anything about other people's dreams. The only dreams I see are my own.\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 13, 
+			StarFruitGreen = 7, 
+			StarFruitRed = 5, 
+			StarFruitBlue = 5, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7200, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	noelle_scale = {
+		id = "noelle_scale", 
+		name = "Mermaid Scale", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You'd better be grateful!\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 6, 
+			StarFruitGreen = 2, 
+			StarFruitRed = 2, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2350, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	}, 
+	asta_wing = {
+		id = "asta_wing", 
+		name = "Demonic Wing", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"My magic is never giving up!\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 8, 
+			StarFruitRed = 3, 
+			StarFruitPink = 2, 
+			StarFruitBlue = 2, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 3500, 
+		item_group = "Evolution", 
+		_craft_type = "evolve_materials"
+	},
+	perona_doll = {
+		id = "perona_doll", 
+		name = "Zombie Doll", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Horohorohoro... I'll give you a nightmare.\"</i></font>", 
+		obtain_info = "Purchasable for Candies during the Halloween 2022 Event.", 
+		item_group = "Evolution"
+	}, 
+	shark_guitar = {
+		id = "shark_guitar", 
+		name = "Shark Guitar", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"No matter how deep the night, it always turns to day, eventually.\"</i></font>", 
+		obtain_info = "Purchasable for Candies during the Halloween 2022 Event.", 
+		item_group = "Evolution"
+	}, 
+	moria_fruit = {
+		id = "moria_fruit", 
+		name = "Shadow Fruit", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"All your shadows will serve me!\"</i></font>", 
+		obtain_info = "Purchasable for Candies during the Halloween 2022 Event.", 
+		item_group = "Evolution"
+	},
+	curse_orb = {
+		id = "curse_orb", 
+		name = "Cursed Orb", 
+		rarity = "Legendary", 
+		flavor = "<font color=\"#921296\"><i>\"It's a paradox where the strong must submit to the weak.\"</i></font>", 
+		obtain_info = "Obtained from completing the Cursed Parade Dungeon.", 
+		description = "+Used to evolve special units, or sold to Maky for more keys.", 
+		item_group = "Evolution"
+	}, 
+	curse_orb_2 = {
+		id = "curse_orb_2", 
+		name = "Cursed Orb (Maximum)", 
+		rarity = "Mythic", 
+		flavor = "<font color=\"#921296\"><i>\"It's just that in this world... I couldn't truly be happy from the bottom of my heart.\"</i></font>", 
+		description = "+Required to evolve a special unit...", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitGreen = 6, 
+			StarFruitRed = 9, 
+			StarFruitPink = 9, 
+			StarFruitBlue = 7, 
+			StarFruitEpic = 4
+		}, 
+		crafting_cost = 7500
+	},
+	yuta_ring = {
+		id = "yuta_ring", 
+		name = "Promise Ring", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I'll give you my future, heart, and body... I'll give you everything. From now on, we'll truly be together forever.\"</i></font>", 
+		obtain_info = "Craftable by obtaining materials from the Cursed Parade Dungeon.", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			curse_orb = 200
+		}, 
+		crafting_cost = 7500
+	}, 
+	sukuna_finger = {
+		id = "sukuna_finger", 
+		name = "Cursed Finger", 
+		rarity = "Mythic", 
+		flavor = "<font color=\"#921296\"><i>\"He is without a doubt... the king of curses...\"</i></font>", 
+		description = "You feel an ominous presence calling you... will you answer?", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom"
+		}, 
+		item_group = "Materials"
+	}, 
+	six_eyes = {
+		id = "six_eyes", 
+		name = "Rikugan Eye", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Don't worry, I am the strongest.\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	six_eyes_final = {
+		id = "six_eyes_final", 
+		name = "Six Eyes", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"It\226\128\153ll be fine. I\226\128\153m the strongest there is, after all.\"</i></font>", 
+		item_group = "Evolution"
+	},
+	kento_glasses = {
+		id = "kento_glasses", 
+		name = "Precision Glasses", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I'll take the one I'm more suited to. That's the only reason I came back.\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	kento_watch = {
+		id = "kento_watch", 
+		name = "Cursed Wristwatch", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I hate overtime, so let's just finish this quickly.\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 16, 
+			StarFruitGreen = 6, 
+			StarFruitRed = 6, 
+			StarFruitPink = 5, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 3500, 
+		item_group = "Evolution"
+	}, 
+	megumi_wolf = {
+		id = "megumi_wolf", 
+		name = "Wolf Shadow", 
+		rarity = "Mythic", 
+		description = "+Required to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I will become stronger. I'll do anything it takes.\"</i></font>", 
+		crafting_recipe = {
+			StarFruit = 16, 
+			StarFruitGreen = 6, 
+			StarFruitPink = 5, 
+			StarFruitBlue = 6, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 3450, 
+		item_group = "Evolution"
+	}, 
+	curse_shard = {
+		id = "curse_shard", 
+		name = "Cursed Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 100 for an exclusive reward...", 
+		item_group = "Materials"
+	}, 
+	westcity_cell = {
+		id = "westcity_cell", 
+		name = "Power Cell", 
+		rarity = "Legendary", 
+		description = "+Collect 25 for a special unit...", 
+		item_group = "Materials"
+	}, 
+	cell_core_pink = {
+		id = "cell_core_pink", 
+		name = "Infinite Power Core (Pink)", 
+		rarity = "Mythic", 
+		description = "+Collect 50 for a special unit...", 
+		item_group = "Materials"
+	}, 
+	cell_core_yellow = {
+		id = "cell_core_yellow", 
+		name = "Infinite Power Core (Yellow)", 
+		rarity = "Mythic", 
+		description = "+Collect 50 for a special unit...", 
+		item_group = "Materials"
+	}, 
+	cell_core_blue = {
+		id = "cell_core_blue", 
+		name = "Infinite Power Core", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Allow me to achieve my final perfect form!\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	trunks_time_machine = {
+		id = "trunks_time_machine", 
+		name = "Mini Time Machine", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I've had my fill of bad futures!\"</i></font>", 
+		item_group = "Evolution"
+	},
+	jellal_raid_crystal = {
+		id = "jellal_raid_crystal", 
+		name = "Infused Crystal", 
+		rarity = "Mythic", 
+		description = "+Used to evolve special units, or sold to the Mysterious Mage for Jewels.", 
+		item_group = "Evolution"
+	},
+	erza_items = {
+		id = "erza_items", 
+		name = "Essense of the Knight", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"But what's important isn't the Magic, it's the heart of the wielder who uses it!\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	celestial_tear = {
+		id = "celestial_tear", 
+		name = "Celestial Tear", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"To put it in a rather different way, there is nothing quite so dull as life.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitGreen = 7, 
+			StarFruitRed = 8, 
+			StarFruitPink = 10, 
+			StarFruitBlue = 8, 
+			StarFruitEpic = 4
+		}, 
+		crafting_cost = 7500
+	}, 
+	ft_chest_key = {
+		id = "ft_chest_key", 
+		name = "Magic Key", 
+		rarity = "Mythic", 
+		description = "+Used to open one Magic Sealed Star.", 
+		item_group = "Materials"
+	}, 
+	fairy_tail_shard = {
+		id = "fairy_tail_shard", 
+		name = "Celestial Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 50 for an exclusive reward...", 
+		item_group = "Materials"
+	},
+	natsu_fire = {
+		id = "natsu_fire", 
+		name = "Dragon Fire", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Don't give up, the beginning is always the hardest, so let's keep on going till the very end.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 17, 
+			StarFruitGreen = 4, 
+			StarFruitRed = 8, 
+			StarFruitPink = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 3500
+	}, 
+	gildarts_cubes = {
+		id = "gildarts_cubes", 
+		name = "Fractured Cubes", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I hate going easy, whatever the task may be.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 11, 
+			StarFruitRed = 4, 
+			StarFruitPink = 4, 
+			StarFruitBlue = 4, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2500
+	}, 
+	gray_item = {
+		id = "gray_item", 
+		name = "Devil Ice", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I'll do what I want till the end. Cut me down if you want!\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 11, 
+			StarFruitPink = 5, 
+			StarFruitBlue = 5, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2300
+	}, 
+	lucy_key = {
+		id = "lucy_key", 
+		name = "Celestial Key (Final)", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You can forget what hurt you in the past, but never forget what it taught you!\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 6, 
+			StarFruitRed = 6, 
+			StarFruitPink = 6, 
+			StarFruitBlue = 6, 
+			StarFruitEpic = 4
+		}, 
+		crafting_cost = 7000
+	}, 
+	lucy_key_aquarius = {
+		id = "lucy_key_aquarius", 
+		name = "Celestial Key (Aquarius)", 
+		rarity = "Mythic", 
+		description = "+Give this key to your <font color=\"#fac107\"><i>Luci</i></font> for a new summon!", 
+		item_group = "Materials", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom_apply_unit", 
+			_unique_usage = {
+				apply_lucy_key_unlock = "aquarius"
+			}, 
+			_for_units = {
+				lucy = true
+			}
+		}
+	}, 
+	lucy_key_taurus = {
+		id = "lucy_key_taurus", 
+		name = "Celestial Key (Taurus)", 
+		rarity = "Mythic", 
+		description = "+Give this key to your <font color=\"#fac107\"><i>Luci</i></font> for a new summon!", 
+		item_group = "Materials", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom_apply_unit", 
+			_unique_usage = {
+				apply_lucy_key_unlock = "taurus"
+			}, 
+			_for_units = {
+				lucy = true
+			}
+		}
+	}, 
+	lucy_key_leo = {
+		id = "lucy_key_leo", 
+		name = "Celestial Key (Leo)", 
+		rarity = "Mythic", 
+		description = "+Give this key to your <font color=\"#fac107\"><i>Luci</i></font> for a new summon!", 
+		item_group = "Materials", 
+		usage_from_inventory = true, 
+		usage = {
+			type = "_custom_apply_unit", 
+			_unique_usage = {
+				apply_lucy_key_unlock = "leo"
+			}, 
+			_for_units = {
+				lucy = true
+			}
+		}
+	}, 
+	eto_shards = {
+		id = "eto_shards", 
+		name = "Crystal Shards", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>In this iridescent world, the colors are fading out...</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 12, 
+			StarFruitGreen = 3, 
+			StarFruitRed = 3, 
+			StarFruitPink = 3, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2500
+	}, 
+	forbidden_candy = {
+		id = "forbidden_candy", 
+		name = "Forbidden Candy", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>If you obey all the rules, you will miss all the fun!</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 8, 
+			StarFruitRed = 10, 
+			StarFruitPink = 10, 
+			StarFruitBlue = 5, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7500
+	}, 
+	tatara_scales = {
+		id = "tatara_scales", 
+		name = "Scales of the Salamander", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>The brightest flames cast the darkest shadows.</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 12, 
+			StarFruitRed = 6, 
+			StarFruitPink = 5, 
+			StarFruitBlue = 7, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 3750
+	}, 
+	weapon_briefcase = {
+		id = "weapon_briefcase", 
+		name = "Arsenal Briefcase", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>I'll need a new weapon.</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitGreen = 8, 
+			StarFruitRed = 10, 
+			StarFruitBlue = 8, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7500
+	}, 
+	clown_mask = {
+		id = "clown_mask", 
+		name = "Clown Mask", 
+		rarity = "Legendary", 
+		description = "+Collect 100 for an exclusive unit...", 
+		flavor = "<font color=\"#921296\"><i>Let's have some more fun!</i></font>", 
+		item_group = "Materials"
+	},
+	StarFruit = {
+		id = "StarFruit", 
+		name = "Star Fruit", 
+		rarity = "Epic", 
+		description = "+Used to evolve a unit.", 
+		item_group = "Materials"
+	}, 
+	StarFruitGreen = {
+		id = "StarFruitGreen", 
+		name = "Star Fruit (Green)", 
+		rarity = "Legendary", 
+		description = "+Used to evolve a unit.", 
+		item_group = "Materials"
+	}, 
+	StarFruitRed = {
+		id = "StarFruitRed", 
+		name = "Star Fruit (Red)", 
+		rarity = "Legendary", 
+		description = "+Used to evolve a unit.", 
+		item_group = "Materials"
+	}, 
+	StarFruitPink = {
+		id = "StarFruitPink", 
+		name = "Star Fruit (Pink)", 
+		rarity = "Legendary", 
+		description = "+Used to evolve a unit.", 
+		item_group = "Materials"
+	}, 
+	StarFruitBlue = {
+		id = "StarFruitBlue", 
+		name = "Star Fruit (Blue)", 
+		rarity = "Legendary", 
+		description = "+Used to evolve a unit.", 
+		item_group = "Materials"
+	}, 
+	StarFruitEpic = {
+		id = "StarFruitEpic", 
+		name = "Star Fruit (Rainbow)", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a unit.", 
+		item_group = "Materials"
+	}, 
+	aot_blade = {
+		id = "aot_blade", 
+		name = "Ultrasteel Blade", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>Sometimes, greatness can only come through pain.</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 20, 
+			StarFruitGreen = 3, 
+			StarFruitRed = 4, 
+			StarFruitPink = 3, 
+			StarFruitBlue = 4, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 3500
+	}, 
+	black_king = {
+		id = "black_king", 
+		name = "King's Idol", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>You can't change the world without getting your hands dirty.</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 10, 
+			StarFruitRed = 13, 
+			StarFruitBlue = 13, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7000
+	}, 
+	shining_extract = {
+		id = "shining_extract", 
+		name = "Shining Extract", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Have no fear, for I am here!\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 10, 
+			StarFruitGreen = 3, 
+			StarFruitRed = 3, 
+			StarFruitPink = 3, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2000
+	}, 
+	rinnegan_eye = {
+		id = "rinnegan_eye", 
+		name = "Divine Eye", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>When a man learns to love, he must also bear the risk of hatred...</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 15, 
+			StarFruitRed = 6, 
+			StarFruitPink = 4, 
+			StarFruitBlue = 6, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 4000
+	}, 
+	broly_necklace = {
+		id = "broly_necklace", 
+		name = "Restraining Necklace", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Give me the ultimate power!\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitGreen = 15, 
+			StarFruitRed = 10, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7000
+	}, 
+	naruto_seal = {
+		id = "naruto_seal", 
+		name = "Hidden Seal", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Noruto, Let's show them our power.\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	naruto_pts_shard = {
+		id = "naruto_pts_shard", 
+		name = "Tailed Beast Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 50 for a special unit...", 
+		item_group = "Materials"
+	}, 
+	gura_fruit = {
+		id = "gura_fruit", 
+		name = "Quake Fruit", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You may eradicate their bloodline, but their flame never dies... ONE PIECE! IS OUT THERE!!!!\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 10, 
+			StarFruitPink = 10, 
+			StarFruitBlue = 13, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7000
+	}, 
+	straw_hat = {
+		id = "straw_hat", 
+		name = "Hat of the Conqueror", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Someday, you'll return this when you become as great as me...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 10, 
+			StarFruitRed = 13, 
+			StarFruitPink = 10, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 7000
+	}, 
+	cupcake = {
+		id = "cupcake", 
+		name = "Cupcake", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>Sometimes, revenge is a dish best served sweet.</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 15, 
+			StarFruitGreen = 7, 
+			StarFruitPink = 10, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 4000
+	}, 
+	magu_fruit = {
+		id = "magu_fruit", 
+		name = "Magma Fruit", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>Nothing shatters sanity quite like blind faith.</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 12, 
+			StarFruitRed = 15, 
+			StarFruitPink = 10, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 4500
+	}, 
+	ace_shard = {
+		id = "ace_shard", 
+		name = "Fire Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 100 for an exclusive unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I don't wanna live a thousand years. If I just live through today, that'll be enough!\"</i></font>", 
+		item_group = "Materials"
+	}, 
+	killua_yoyo = {
+		id = "killua_yoyo", 
+		name = "Electric Yo-yo", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"If I ignore a friend I have the ability to help, wouldn't I be betraying him?\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 32, 
+			StarFruitGreen = 8, 
+			StarFruitPink = 10, 
+			StarFruitBlue = 12, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7000
+	}, 
+	gungi_set = {
+		id = "gungi_set", 
+		name = "Gungi Set", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"In the hands of an imcompetent, power brings nothing but ruins.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 16, 
+			StarFruitGreen = 8, 
+			StarFruitRed = 4, 
+			StarFruitBlue = 5, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 3750
+	}, 
+	gon_contract = {
+		id = "gon_contract", 
+		name = "Final Contract", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I don't care if this is the end... so I'll use everything...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitGreen = 8, 
+			StarFruitRed = 10, 
+			StarFruitPink = 8, 
+			StarFruitBlue = 8, 
+			StarFruitEpic = 4
+		}, 
+		crafting_cost = 8000
+	}, 
+	netero_rose = {
+		id = "netero_rose", 
+		name = "Golden Rose", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You understand nothing... of humanity's infinite potential for evolution...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 32, 
+			StarFruitGreen = 10, 
+			StarFruitRed = 10, 
+			StarFruitPink = 5, 
+			StarFruitBlue = 5, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7500
+	}, 
+	kite_dice = {
+		id = "kite_dice", 
+		name = "Crazy Dice", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Dang, bad roll.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 16, 
+			StarFruitGreen = 6, 
+			StarFruitRed = 3, 
+			StarFruitPink = 7, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 3500
+	}, 
+	kite_clown = {
+		id = "kite_clown", 
+		name = "Clown Effigy", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Give me something good...\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	pitou_puppet = {
+		id = "pitou_puppet", 
+		name = "Broken Puppet", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I'm sorry, but I have to kill you. For the King...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 10, 
+			StarFruitRed = 3, 
+			StarFruitPink = 5, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2500
+	}, 
+	chimera_shard = {
+		id = "chimera_shard", 
+		name = "Chimera Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 100 for an exclusive reward...", 
+		item_group = "Materials"
+	},
+	rengoku_shard = {
+		id = "rengoku_shard", 
+		name = "Blazing Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 50 for a special unit...", 
+		item_group = "Materials"
+	}, 
+	rengoku_donut = {
+		id = "rengoku_donut", 
+		name = "Blazing Creme Donut", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Set your heart ablaze!\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	akaza_beads = {
+		id = "akaza_beads", 
+		name = "Demon Beads", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Fight me forever and get stronger together with me.\"</i></font>", 
+		item_group = "Evolution"
+	},
+	aot_tree = {
+		id = "aot_tree", 
+		name = "Path Branch", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Hear me, subjects of Ymir...\"</i></font>", 
+		item_group = "Evolution"
+	}, 
+	aot_shard = {
+		id = "aot_shard", 
+		name = "Path Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 50 for a special unit...", 
+		item_group = "Materials"
+	}, 
+	uryu_star = {
+		id = "uryu_star", 
+		name = "Quincy Cross", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"The right to choose life or death lies with the victor. And the victor of this battle is me.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 12, 
+			StarFruitRed = 3, 
+			StarFruitPink = 4, 
+			StarFruitBlue = 3, 
+			StarFruitEpic = 1
+		}, 
+		crafting_cost = 2500
+	}, 
+	ulquiorra_spear = {
+		id = "ulquiorra_spear", 
+		name = "Spirit Spear", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"Those who know despair, once knew hope. And those who know loss, once knew love...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 15, 
+			StarFruitGreen = 6, 
+			StarFruitRed = 3, 
+			StarFruitBlue = 6, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 3500
+	}, 
+	starrk_helmet = {
+		id = "starrk_helmet", 
+		name = "Soul Partition", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"I'm not alone any more...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 35, 
+			StarFruitRed = 8, 
+			StarFruitPink = 10, 
+			StarFruitBlue = 10, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7250
+	}, 
+	aizen_cube = {
+		id = "aizen_cube", 
+		name = "Negation Box", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"What is truly frightening is the betrayal you cannot see.\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 30, 
+			StarFruitGreen = 8, 
+			StarFruitRed = 8, 
+			StarFruitPink = 8, 
+			StarFruitBlue = 8, 
+			StarFruitEpic = 3
+		}, 
+		crafting_cost = 7500
+	}, 
+	kisuke_orb = {
+		id = "kisuke_orb", 
+		name = "Soul Orb", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>We have no destiny.</i></font>", 
+		item_group = "Evolution"
+	}, 
+	kisuke_stitches = {
+		id = "kisuke_stitches", 
+		name = "Thread of the Exile", 
+		rarity = "Mythic", 
+		description = "+Used to evolve a special unit...", 
+		flavor = "<font color=\"#921296\"><i>\"You give me too much credit...\"</i></font>", 
+		item_group = "Evolution", 
+		crafting_recipe = {
+			StarFruit = 17, 
+			StarFruitGreen = 5, 
+			StarFruitRed = 5, 
+			StarFruitBlue = 4, 
+			StarFruitEpic = 2
+		}, 
+		crafting_cost = 3750
+	}, 
+	soul_shard = {
+		id = "soul_shard", 
+		name = "Soul Shard", 
+		rarity = "Legendary", 
+		description = "+Collect 100 for an exclusive reward...", 
+		item_group = "Materials"
+	}, 
+
+-- Relics
+	ore_steel = {
+		id = "ore_steel", 
+		name = "Ore (Steel)", 
+		description = "Crafting material for relics.", 
+		rarity = "Common", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials", 
+		_craft_type = "Relics"
+	}, 
+	leaf_generic = {
+		id = "leaf_generic", 
+		name = "Holy Sprig", 
+		description = "Crafting material for relics.", 
+		rarity = "Common", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials", 
+		_craft_type = "Relics"
+	}, 
+	ingots_steel = {
+		id = "ingots_steel", 
+		name = "Ingots (Steel)", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		crafting_recipe = {
+			ore_steel = 15
+		}, 
+		crafting_cost = 200, 
+		item_group = "Materials", 
+		_craft_type = "Relics"
+	}, 
+	blue_gem_material = {
+		id = "blue_gem_material", 
+		name = "Vivid Gem", 
+		description = "Crafting material for relics.", 
+		rarity = "Rare", 
+		obtain_info = "Obtained from Clover Kingdom Legend Stages.", 
+		item_group = "Materials", 
+		_craft_type = "Relics"
+	},
+
+-- Keys
+	key_jjk_map = {
+		id = "key_jjk_map", 
+		name = "Key (Cursed Parade)", 
+		rarity = "Mythic", 
+		description = "+Grants one-time access to the Cursed Parade Dungeon.", 
+		flavor = "<font color=\"#921296\"><i>\"Let's curse each other as much as we want!\"</i></font>", 
+		item_group = "Keys"
+	}, 
+	key_jjk_map_shiny = {
+		id = "key_jjk_map_shiny", 
+		name = "Shiny Key (Cursed Parade)", 
+		rarity = "Mythic", 
+		shiny = true, 
+		description = "+Grants one-time access to the Cursed Parade Dungeon.\n<font color=\"#1eff8f\">+Doubles chance of Secret unit drop!</font>", 
+		flavor = "<font color=\"#921296\"><i>\"Let's curse each other as much as we want!\"</i></font>", 
+		item_group = "Keys", 
+		additional_dungeon_drop_unit_chance = 1
+	}, 
+	key_jjk_finger = {
+		id = "key_jjk_finger", 
+		name = "Key (Cursed Womb)", 
+		rarity = "Mythic", 
+		description = "+Grants one-time access to the Cursed Womb Dungeon.", 
+		flavor = "<font color=\"#921296\"><i>\"Any hierarchy other than strength is boring.\"</i></font>", 
+		item_group = "Keys"
+	}, 
+	key_erza_map = {
+		id = "key_erza_map", 
+		name = "Key (Heavenly Invasion)", 
+		rarity = "Mythic", 
+		description = "+Grants one-time access to Heavenly Invasion Dungeon.", 
+		flavor = "<font color=\"#921296\"><i>\"In the past, we had no idea what we would become.\"</i></font>", 
+		item_group = "Keys"
+	}, 
+	key_erza_map_shiny = {
+		id = "key_erza_map_shiny", 
+		name = "Shiny Key (Heavenly Invasion)", 
+		rarity = "Mythic", 
+		shiny = true, 
+		description = "+Grants one-time access to Heavenly Invasion Dungeon.\n<font color=\"#1eff8f\">This key grants one extra drop on completion!</font>", 
+		flavor = "<font color=\"#921296\"><i>\"In the past, we had no idea what we would become.\"</i></font>", 
+		item_group = "Keys", 
+		additional_rewards = 1
+	}, 
+
+} -- end 
+} -- end return

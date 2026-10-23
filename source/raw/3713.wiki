@@ -1,0 +1,25 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by completing Raids.
+
+{{EvolutionTable}}
+{{Takedowns|7,500}} 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Someone must be dyed in blood..."
+|caption2="No matter what you want to accomplish, it is necessary to have conviction and desire."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+*His shiny form is based off of him when he was still a vigilante.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,29 @@
+{{Unobtainable Unit|Update 17 - Fate Update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}​. He can only be obtained by evolving [[Flamefeather]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Yes, I am!"
+|caption2="this position, don't you think it looks very risque. If people see it they might get the wrong idea."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+[[Category:Event Units]]

@@ -1,0 +1,19 @@
+'''Operator''' may refer to:
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Rarity
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Icon
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Name
+|-
+|<center>{{Rarity|Epic}}</center>
+|{{Characterbox|Operator}}
+|'''[[Operator]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Operator (Heart)}}
+|'''[[Operator (Heart)]]'''
+|-
+|<center>{{Rarity|Mythical}}</center>
+|{{Characterbox|Operator (ROOM)}}
+|'''[[Operator (ROOM)]]'''
+|}

@@ -1,0 +1,22 @@
+local p = {}
+
+
+
+function p.get(frame)
+	local args = (frame.args[1] and frame.args) or frame:getParent().args
+	
+    local keysString = ""
+    if args["Upgrade_No"] ~= nil then
+        keysString = keysString .."X4bUpgrade_NoX4r".. args["Upgrade_No"]
+    end
+
+    for key, _ in pairs(args) do
+        if key ~= "Upgrade_No" then
+            keysString = keysString .."X4b".. key .. "X4r".. _
+        end
+    end
+
+	return keysString
+end
+
+return p

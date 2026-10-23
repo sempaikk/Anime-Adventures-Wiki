@@ -1,0 +1,26 @@
+''If you were looking for a different Fox Ninja unit, see [[Fox Ninja (disambiguation)]]''.
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Fox Ninja (Demon Cloak)]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Why are you hesitating? You need my power, right? Well, who do you want to kill?"
+|caption2="Why are you hesitating? You need my power, right? Well, who do you want to kill?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* As of Update 17.5.0, his appearance changes to that of his Four-Tailed Version 2 form.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

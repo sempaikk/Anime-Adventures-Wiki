@@ -1,0 +1,27 @@
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} unit. She can only be obtained by completing a [[Dungeon]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="In a battle, the ones who get in the way are not the ones that lack power, but the ones that lack resolve."
+|caption2="Bankai... Hakka no Togame."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+
+<references />

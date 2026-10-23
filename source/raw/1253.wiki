@@ -1,0 +1,23 @@
+{{Unobtainable Unit|Update 6.5 - Jujutsu Kaisen Update Part 2}}
+=='''Overview'''==
+{{PAGENAME}} is a {{Rarity|Mythic}} {{LU}}. She was only obtainable through [[Summon|summoning]] during the Heavenly Invasion event.
+
+She can evolve into Elize (Random Equip- /[[Elize (Lightning)|Lightning]]/[[Elize (True Heart)|True Heart]]/[[Elize (Valkyrie)|Valkyrie]]) with the following materials:
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Take it, that courage you have locked in your heart. Awaken it, wipe your tears, be strong and use that courage.”
+|caption2=“Take it, that courage you have locked in your heart. Awaken it, wipe your tears, be strong and use that courage.”
+}}{{Main Stats}}
+
+==Selling==
+
+==Trivia==
+*Following [[Chance]], she was the second character to evolve into multiple variants of evolution. 
+*Elize was the first limited banner unit that evolves into an evolved mythic, rather than an evolved secret.
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

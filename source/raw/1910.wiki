@@ -1,0 +1,17 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You said everything has a name, right? Then I'll give my power a name too. Stone Free! I shall break free from this sea of stone!"
+|caption2="You said everything has a name, right? Then I'll give my power a name too. Stone Free! I shall break free from this sea of stone!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

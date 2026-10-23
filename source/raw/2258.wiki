@@ -1,0 +1,21 @@
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons.]]
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Come to stop the meteor?"
+|caption2="Sorry to disappoint you, but my life's not at stake here."
+}}{{Main Stats}}
+
+== Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+
+{{DISPLAYTITLE:{{PAGENAME}}}} __NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,22 @@
+{{Meta Unit}}{{Limited Unit}}
+==Overview==
+'''Bubblegum (Ultimate)''' is a {{Rarity|Secret}} unit. He is only obtainable by evolving [[Bubblegum]].  
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Gyahahaha!"
+|caption2="GYAHAHAHAHA"
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades
+
+==Trivia==
+*His {{RarityColor|Mythic|Shiny}} form is Shadow Demon Deity Bubblegum.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

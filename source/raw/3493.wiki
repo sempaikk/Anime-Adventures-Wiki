@@ -1,0 +1,28 @@
+{{Unobtainable Unit|Update 15.5 - Summer update}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. She can only be obtained by evolving [[Kyko]]​.
+
+{{EvolutionTable}}
+{{Takedowns|5,000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Hey God, if you're there, my life has really sucked. So please, for once, let me have a sweet dream."
+|caption2="Miracles aren't free. When you wish for hope, it creates an equivalent despair. That's how the balance of this world is preserved."
+}}{{Main Stats}}
+
+==Selling==
+
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

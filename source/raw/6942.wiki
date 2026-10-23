@@ -1,0 +1,26 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=""
+|caption2=""
+|attack_type=|damage_type=|tower_type=Ground|seconds_per_attack=|range=|upgrade_levels=6|deployment_cost=1200|total_cost=37100|damage=
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats
+}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+==Gallery==
+<gallery>
+
+</gallery>
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+
+<references />

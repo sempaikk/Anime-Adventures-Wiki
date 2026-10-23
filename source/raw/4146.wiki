@@ -1,0 +1,27 @@
+<div class="mw-customtoggle-ShowImage-{{#replace:{{{1|Roger}}}|<nowiki> </nowiki>|_}} D(n) tierList_item" id="mw-customcollapsible-ShowImage-{{#replace:{{{1|Roger}}}|<nowiki> </nowiki>|_}}">[[{{#switch: 69| 69 = File:{{{1|Roger}}}
+| {{#ifexist:File:{{{1|Roger}}}
+.png|File:{{#invoke:UnitData|get|Non_Evo_Name|name={{{1|Roger}}}
+|File:{{{1|Roger}}}
+}}}}}}_(Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|Roger}}}]]<div class="game-font-face mw-collapsible mw-collapsed tierList_item_boxShadow" id="mw-customcollapsible-ShowImage-{{#replace:{{{1|Roger}}}|<nowiki> </nowiki>|_}}">[[{{#switch: 69| 69 = File:{{{1|Roger}}}
+| {{#ifexist:File:{{{1|Roger}}}
+.png|File:{{#invoke:UnitData|get|Non_Evo_Name|name={{{1|Roger}}}
+|File:{{{1|Roger}}}
+}}}}}}_(Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|Roger}}}]]</div></div>
+<div class="advanced-tooltip mw-collapsible mw-collapsed D(b)! W(100%)_m" id="mw-customcollapsible-ShowImage-{{#replace:{{{1|Roger}}}|<nowiki> </nowiki>|_}}">
+
+<div class="game-font-face D(n)_m">[[{{#switch: 69| 69 = File:{{{1|Roger}}}
+| {{#ifexist:File:{{{1|Roger}}}
+.png|File:{{#invoke:UnitData|get|Non_Evo_Name|name={{{1|Roger}}}
+|File:{{{1|Roger}}}
+}}}}}}_(Pose).png|90px|class=Scale,Filterc(TierListItem):h Scale,Filterc(TierListItem)|link={{{1|Roger}}}
+]]</div>
+
+<div class="tooltip-contents mw-collapsible mw-collapsed" id="mw-customcollapsible-ShowImage-{{#replace:{{{1|Roger}}}|<nowiki> </nowiki>|_}}" style="display: none;" >
+<div class="game-tooltip__container"><span style="margin-bottom: 6px; line-height: 1.28;"><span class="game-font-face" style="font-size: 17.5px;">{{{1|Roger}}}
+</span><br>{{Rarity|{{#iferror:{{#invoke:UnitData|get|name={{{1|Roger}}}
+|rarity}}|Unknown}}}}</span><div style="display: flex; align-items: center; gap: 6px;">{{#invoke:UnitData|get|name={{{1|Roger}}}
+|base_damage_type}}{{#invoke:UnitData|get|name={{{1|Roger}}}
+|secondary_damage_types}}</div><hr>"Limitless" DPS, FULL AoE, HUGE Range
+</div>
+</div>
+</div>

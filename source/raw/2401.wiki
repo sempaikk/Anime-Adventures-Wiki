@@ -1,0 +1,1 @@
+<includeonly><span class="game-font-face Tsh(Game) C(Yen)">{{{1|}}}¥</span></includeonly><noinclude>{{Doc}}</noinclude>

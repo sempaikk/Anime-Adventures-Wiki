@@ -1,0 +1,25 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Martial Demon]].
+He is also the boss of stage 4 of [[Story#Snowy Town|Snowy Town]] as The Ice Demon.
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The only people I hate are weaklings. I only spit in the faces of the weak. Yes. I'm repulsed by weaklings."
+|caption2="I will cure you for sure. Help you. Protect. My life was worthless, filled with nothing but empty promises."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Passive Ability: Compass Needle==
+After 12 seconds (two attacks), Martial Demon boosts his damage by 50% for around 5 seconds.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Aqua}} damage type, along with other units without a second damage type.
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Aqua]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

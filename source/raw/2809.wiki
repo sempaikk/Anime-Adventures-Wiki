@@ -1,0 +1,22 @@
+{{Unobtainable Unit|Update 12.5 - Entertainment District Raid Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}.  He is only obtainable via Tier 50 on [[Past Battlepasses|Ammo Pass]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You're wrong. At this moment you are facing a simple Gun-man. And you shall kneel before that simple Gun-man. Nothing more."
+|caption2="Maybe I am a coward. But is it really that bad? Is fighting the most important thing? Even if people die for it?"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Trigun Units]]
+[[Category:Damage Type Physical]]
+[[Category:Battle Pass Units]]

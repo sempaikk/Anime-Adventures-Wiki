@@ -1,0 +1,101 @@
+== _ ==
+{{TierList/Container|id=Legendary
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=Legendary-META Support|text=META Support}}</div>
+<div>{{Anchor1|id=Legendary-META Hill|text=META Hill}}</div>
+<div>{{Anchor1|id=Legendary-META Ground|text=META Ground}}</div>
+<div>{{Anchor1|id=Legendary-Decent|text=Decent}}</div>
+<div>{{Anchor1|id=Legendary-Unviable|text=Unviable}}</div>
+<!-- list of all "TierList/Item Container" names inside this "TierList/Container" -->
+|
+{{TierList/Item Container|color=#82fe89|id=Legendary|name=GREAT Ground
+|
+{{TierList/Item|Nightmare Luffo
+|Description=The Highest DPS of all legendary units on Ground. Unobtainable since Update 7.}}
+{{TierList/Item|Akoku
+|Description=Godly DPS, mostly used for trait rerolls and can evolve into a Mythic.}}
+{{TierList/Item|Shingo
+|Description=Godly DPS, obtainable by completing a quest that requires you to complete Karakora Town Legend Stages.}}
+{{TierList/Item|Noruto (Demon Cloak)
+|Description=Colossal DPS, mostly used for trait rerolls and can evolve into a Mythic.}}
+{{TierList/Item|Magnu
+|Description=Massive DPS with burn DoT.}}
+{{TierList/Item|Gone 
+|Description=Insane-Colossal DPS, mostly used for trait rerolls can be evolved into an Mythic.}}
+{{TierList/Item|Chunks
+|Description=Ultimate DPS, mostly used for trait rerolls and can be evolved into an Mythic.}}
+{{TierList/Item|Juvy
+|Description=Ultimate-Godly DPS with placement of 5. <br /><br />Once equipped with [Mermaid Crown] relic, she can be useful on Infinity Castle, Floors 101 or higher due to magic armor shred.}}
+{{TierList/Item|Gajule
+|Description=Ultimate DPS with cone AoE.}}
+{{TierList/Item|Kazeki (Centipede)
+|Description=High DPS with Bleed DoT.<br /><br />Excellent budget-friendly choice for Regen challenges.}}
+}}
+
+{{TierList/Item Container|color=#febf85|id=Legendary|name=GREAT Hybrid/Hill
+|
+{{TierList/Item|Wenda
+|Description=Godly DPS, buffs 30% Magic Damage on nearby allies, even when Upgrade 0. Her buff works just like Orwin.<br /><br />As of Update 10.7.5, she now bests the highest DPS in the Legendary tier.}}
+{{TierList/Item|Cel (Semi-Perfect)
+|Description=Hill Unit with Godly DPS, mostly used for trait rerolls and can evolve into a Mythic.}}
+{{TierList/Item|Nobaba
+|Description=Amazing DPS for a legendary unit, inflicts bleed and has multi-hit attacks at the last upgrade.<br /><br />Excellent budget-friendly choice for Regen challenges, especially on areas where Flying units regen (despite they don't).}}
+{{TierList/Item|Itochi
+|Description=Great DPS Hill unit with Burn DOT.}}
+}}
+
+{{TierList/Item Container|color=#ff7f7f|id=Legendary|name=GREAT Support
+|
+{{TierList/Item|Bulmy
+|Description=Money unit, useful everywhere.}}
+{{TierList/Item|JIO
+|Description=Amazing early wave DPS with late game automatic TimeStop attacks, can target and freeze air but unable to deal damage to them.}}
+{{TierList/Item|Togu
+|Description=Amazing DPS with stun capabilities from Upgrade 3. Has a lot more Damage and Less SPA than [[JIO|Dio]] But does not Multi-Hit so Dio would be the better choice for shields.}}
+{{TierList/Item|Blackhair
+|Description=Low DPS with cursing attacks from placement (Cursed: When inflicted, enemy units take 15% more Magic Damage).}}
+{{TierList/Item|Orwin
+|Description=Summoner unit, grants Physical ally buffs starting on Upgrade 0 (increases damage from physical units in range by 25%. The buff lasts for 20 seconds and has a cooldown of 40 seconds).}}
+{{TierList/Item|Hisova
+|Description=Amazing DPS with slowing capabilities and multi hit from upgrade 3.}}
+{{TierList/Item|Ruki
+|Description=Very low DPS with single target AoE on placement, can freeze enemies on all upgrades and can even hit flying enemies on Upgrade 7.}}
+{{TierList/Item|Agony
+|Description=Low DPS with attacks that push back enemies.}}
+}}
+
+{{TierList/Item Container|color=#7f7ffa|id=Legendary|name=Decent
+|
+{{TierList/Item|Jiorno
+|Description=Great DPS with placement of 5.}}
+{{TierList/Item|Kazoru
+|Description=Hill unit with Good DPS, sizeable AoE on placement.}}
+{{TierList/Item|Grim Jaw
+|Description=High DPS with Line AOE.}}
+{{TierList/Item|Goko Black
+|Description=Hill unit with Good DPS.}}
+{{TierList/Item|Goko Blue
+|Description=Good DPS with Line AOE, May get some changes next Update.}}
+{{TierList/Item|Norro
+|Description=Good DPS and low cost.}}
+{{TierList/Item|Touci
+|Description=High DPS with multi-hit attacks.}}
+{{TierList/Item|Mecha Freezo
+|Description=Very low DPS Hill unit, costs only 10K Yen to max. Currently unobtainable.}}
+{{TierList/Item|Dabo
+|Description=Moderate DPS with burn.}}
+}}
+
+{{TierList/Item Container|color=#fe80fb|id=Legendary|name=Unviable
+|
+{{TierList/Item|Mivawk
+|Description=Low DPS with bad line AOE.}}
+{{TierList/Item|Erein
+|Description=Ground Summoner, mostly used for trait rerolls and can evolve into a Mythic.}}
+{{TierList/Item|Zeike
+|Description=Hill Unit with Low DPS, mostly used to evolve Erein.}}
+}}
+
+}}
+
+__NOTOC__

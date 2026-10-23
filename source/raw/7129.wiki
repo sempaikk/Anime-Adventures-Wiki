@@ -1,0 +1,37 @@
+{{Meta Unit}}
+{{Meta Support Unit}}
+{{Limited Unit}}
+
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. She can only be obtained by evolving [[Chuuni]]
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=
+|caption2=
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+== Passive Ability: Pact Of Frailty ==
+
+Targeted enemies by '''{{PAGENAME}}''' takes '''50% increased''' {{Damage Type|Magic}} '''damage'''. This effect can be stack up to 3 times.
+<br><br>
+Pact Of Frailty  '''can only affect one enemy''' per each {{PAGENAME}} at a time.
+
+== Passive Ability: Pact Of Revelation ==
+
+Targeted enemies by '''{{PAGENAME}}''' takes damage equal to '''7%''' of '''{{PAGENAME}}''' damage each 0.5 seconds.
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+* Unique Trait in '''{{PAGENAME}}''' makes the enemy affected by '''Pact Of Frailty''' take '''150% increased''' {{Damage Type|Magic}} '''damage''' instead of the 50% they would normally take with just 1 placement of '''{{PAGENAME}}'''.
+* Pact Of Frailty can only stack up to '''300% increased''' {{Damage Type|Magic}} '''damage'''
+* Pact Of Frailty depends on '''{{PAGENAME}}''' target system, so if she was set ''strongest'' while reached to full AOE upgrade, her passive only target highest HP enemy within her range.
+==Gallery==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

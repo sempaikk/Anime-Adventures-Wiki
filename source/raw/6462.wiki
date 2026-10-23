@@ -1,0 +1,9 @@
+<tabber>
+|-|Secrets=
+{{Characterbox|Umbra (Nuclear)}}
+{{Characterbox|JIO (Over Heaven)}}
+|-|Evo Mythics=
+{{Characterbox|Tango (Flash God)}}
+{{Characterbox|Hubris (The One)}}
+{{Characterbox|Spirit Reaper (Final Dusk)}}
+</tabber>

@@ -1,0 +1,12 @@
+<h2>Examples:</h2>
+{| class="article-table"  style="margin-top: 0;"
+| style="text-align: center" |code
+| style="text-align: center; border-left: 1px solid #59584a;" |view
+|-
+| style="color: #9500e0; font-family: monospace; user-select: all;"|<nowiki>{{Unobtainable Unit}}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Unobtainable Unit}}
+|-
+| style="color: #9500e0; font-family: monospace; user-select: all;"|<nowiki>{{</nowiki><span class="cm-mw-pagename"><nowiki>Unobtainable Unit</nowiki></span><nowiki>|</nowiki><span class="advanced-tooltip" style="border-bottom: 2px dotted; cursor: help;"><nowiki>Update 3 - Bleach Update</nowiki><div class="tooltip-contents" style="display: none"><div class="game-tooltip__container game-font-face">Value 1</div></div></span><nowiki>}}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Unobtainable Unit|Update 3 - Bleach Update}}
+|-
+|}<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly>

@@ -1,0 +1,30 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit that is an original character created by [[Anime Adventures Wiki|''Gomu'']]. She is obtainable through [[Summon|summons]] or through purchase of [[Store|Bundles]].
+
+{{EvolutionTable
+}}
+{{Takedowns|100}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Sorry, Crunchyroll. I'm not even angry over you right now. I bear no grudge against the DMCA. It's just that the world feels so, so wonderful right now. Throughout the flowers and the hive, I alone am the sovereign queen. I'll win."
+|caption2="The buzz is your warning, and my sting is the last thing you'll hear."
+}}{{Main Stats}}
+
+== Passive ==
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* {{PAGENAME}} is the first Original Character from this game.
+* {{PAGENAME}} is one of the first banner units to be added to Anime Adventures since the re-release of the game.
+* Honey is the first mythic character that does NOT have an AOE because her AOE comes from her passive
+* Honey (Hive) has the lowest takedown requirement of any unit to evolve, only requiring 100.
+* Honey is currently the fastest Mythical unit in the game.
+* Mirrorblade is the most recomended [[Relics|relic]] due to her attack speed
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Units]]
+[[Category:Mythic Units]]

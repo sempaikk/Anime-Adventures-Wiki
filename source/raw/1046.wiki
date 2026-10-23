@@ -1,0 +1,29 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Lex]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="There are those who would get in my way, but I’m fine playing the role of the lunatic who kills people like that."
+|caption2="I thought I had gave you enough time."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* He can now inflict bleed on his primary target, starting [[Update Log#Update_Halloween_-_Halloween_2022_Update|Halloween update]].
+*After the release of [[Blood (Unleashed)]] he can deal much higher DPS because [[Blood (Unleashed)]]] buffs all bleed damage by 5x. This buff combined with Levi’s 50% CRIT chance to deal 2x Damage makes him a pretty solid unit, although he can't do extra bleed damage to flying enemies due to [[Blood (Unleashed)]] not being able to hit flying enemies.
+*{{PAGENAME}} is the only crit unit in the game that deals 2x damage on crit unlike the usual 1.5x most units have.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+[[Category:Bleed Units]]

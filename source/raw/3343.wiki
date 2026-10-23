@@ -1,0 +1,28 @@
+{{Story Meta Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Gravity Navy]].
+
+{{EvolutionTable}}
+{{Takedowns|7,500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="You're one of the seven Warlords of the Sea's underlings. Let's leave it at that." "You won't last with that sort of power." "What I can see now is only my unshakable justice!"
+|caption2="Although you're a pirate, everyone seems to be happy that you're escaping. They all love you for what you did. I wonder what you look like. How big your smile is. I bet you look very kind. Oh what a pity, I wish I didn't blind myself. I wish these eyes could work one last time."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia== 
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]

@@ -1,0 +1,23 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through evolution from [[Illusionist (Betrayal)]] by getting 2,000 kills with him, and attaining 37.5% awakening (via Worthy Souls '''or''' sacrificing mythic units) to evolve.
+{{EvolutionTable}}
+(you will need 62.5% worthiness (125 worthy souls) as well as 5000 kills in order to get [[Illusionist (Fusion)]])
+* To get Worthy Souls (each Worthy Soul has 0.5% awakening), you need to either clear Karakora Town - Act 6 (Legend Stage), or by sacrificing {{Rarity|Mythical}} units for 12.5% each.
+
+== Stats Overview ==
+{{Tower_Infobox
+|caption1="If I hadn't been your opponent... No, If it hadn't been me who subjugated the Soul Orb, the battle would probably have been over. But unfortunately, The Soul Orb you created exceeds your ability to understand it."
+|caption2="Spirit Reaper, fight me."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* At Update 11.5, his ability duration got nerfed from 20 seconds to 10 seconds.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

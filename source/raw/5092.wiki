@@ -1,0 +1,22 @@
+{{Unobtainable Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He can only be obtained by evolving [[Takamu]]. 
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1="If I were to lose a friend...then I couldn't die in peace!"
+|caption2="My flames.....Were born in' the world you`ve taken over. These are everyone`s flames! The fact that you`ve hurt all those innocent people..... I`LL MAKE YOU REGRET IT!!!"
+}}{{Main Stats}}
+
+==Trivia==
+* His shiny form resembles [[w:c:reborn:Ring_of_the_Sky_Version_X#Cambio_Forma|his other form]] in the manga.
+
+==Gallery==
+<gallery>
+
+</gallery>{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Reborn! Units]]

@@ -1,0 +1,20 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable
+}}
+{{Takedowns|5000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=They're all cowards, every damn one of them. Whatever. I'll just consume them. As they become my flesh and blood, they will see beyond. I... I am the king!
+|caption2=""
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*Rerelease Unit/NPC
+__NOTOC____NOEDITSECTION__

@@ -1,0 +1,1577 @@
+==Information==
+<big>
+<span lang="sr" dir="ltr">This page classifies different units to different ranks depending on how good they are in most modes. DPS is the main factor in this list, although all aspects are considered such as SPA, AoE, Range, Placement, Etc. Keep in mind that the rankings are not completely indicative of a units' power - some may be better or worse in certain maps or gamemodes.</span></big> 
+
+<big>'''For the Infinity Castle Tier List, go [[Infinity Castle Tier List (Community)|here]].'''
+
+<big><span lang="sr" dir="ltr">'''<u>This tier list does not include units when paired with certain traits, relics, other units, etc.</u>'''</span></big>
+
+'''Disclaimer:''' Given it's a community-based Tier List, any vandalism will be not tolerated and will be given a harsher sentence accordingly.
+
+==The Tier List==
+<center class="mobileonly">
+<div>{{Anchor1|Infinite Mode}}</div>
+<div>{{Anchor1|Story Mode}}</div>
+<div>{{Anchor1|Infinity Castle}}</div><br>
+</center>
+
+<tabber>
+|-|Infinite Mode=
+<h3 class="mobileonly">>'''Infinite Mode'''</h3>
+{{TierList/Container|id=infiniti<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=infiniti-META Hill/Hybrid DPS|text=META Hill/Hybrid DPS}}</div>
+<div>{{Anchor1|id=infiniti-META Ground DPS|text=META Ground DPS}}</div>
+<div>{{Anchor1|id=infiniti-META Support|text=META Support}}</div>
+<div>{{Anchor1|id=infiniti-GREAT Hill/Hybrid|text=GREAT Hill/Hybrid}}</div>
+<div>{{Anchor1|id=infiniti-GREAT Ground|text=GREAT Ground}}</div>
+<!-- names must match Item Container names -->
+|1={{TierList/Item Container|color=#ff5757|id=infiniti<!-- id TierList -->|name=META Hill/Hybrid
+|
+
+{{TierList/Item|Illusionist (Transcended)}}
+{{TierList/Item|Fused Hero
+|Description=Peak DPS, Cone AoE, High Range, Average SPA. [[Carrot (Ultra)]] and [[Vego (Mage II)]] will fuse into Fused Hero after reaching upgrade 7 on [[Carrot (Ultra)]] or [[Vego (Mage II)]], taking the stats and damage type from the unit that '''Fusion''' was activated on, while taking the traits from both of them.
+* Placement Cost: {{Yen|112.15K}}
+* Max Up. Cost: {{Yen|293.65K}}
+----
+{{DPStats
+|107380
+|3
+|Damage|SPA|
+|Lostvain|Unique|Godspeed|Superior|
+}}
+}}
+
+{{TierList/Item|Divine General}}
+{{TierList/Item|Elyssia (Abyssal)
+|Description=Peak DPS, pure summoner all her damage comes from the jellyfishes and eel's (eel's do 1/4 her damage and have 2x her spa) which scale on her damage. [[Zombie (Risen)|Zombie (risen)]] is very good with her (girls kissing :3) as she doubles the damage of both her jelly's and eel's
+* Placement Cost: {{Yen|2000}}
+* Max Up. Cost: {{Yen|122,000}}
+----
+{{DPStats
+|96642.68
+|2
+|Damage|Spa|
+|Mermaid Crown|Unique|
+}}
+}}
+
+{{TierList/Item|Dark Mage (Fallen Star)}}
+
+{{TierList/Item|Griffin (Darkness)
+|Description=High (or Peak) DPS, Full AoE, High Range and Average SPA. His damage can be increased through sacrifice (Recommend expensive units like [[Berserker (Rage)]], [[Erein (Founder)]], etc). A good trick for Griffin that keep the sacrifice meter nearly 100% (90-99%) and then mass sacrifice expensive units to achieve MASSIVE damage.
+* Placement Cost: {{Yen|100K}}
+----
+Base Stats
+{{DPStats
+|22792.17
+|3
+}}
+Base Stats w/ [[Griffin (Reincarnation)]]
+{{DPStats
+|45584.34
+|2
+|Damage|SPA|
+|Miracle Timepiece|Divine|Godspeed|Superior|
+}}
+}}
+
+
+{{TierList/Item|Spider (Immolation)}}
+
+{{TierList/Item|Supreme Being (Sovereign)
+|Description=Peak DPS, Full AoE, High Range, High SPA and 1 placement. His passive ability make him summon '''Shade Birth''' (Shade Birth's HP = 5x of his raw DMG also can be buffed by  [[Zombie (Risen)]]) every 10 enemies takedown, and his active ability mark every enemies in range with a 12s timer, once the timer ended marked enemies in his range will take 5x of his DMG.
+* Placement Cost: {{Yen|10K}}
+* Max Up. Cost: {{Yen|305K}}
+----
+* Summon HP: 1,725,762.19
+{{DPStats
+|34515.24
+|1
+|SPA|Damage|
+|Miracle Timepiece||Unique|
+}}
+}}
+
+
+}}
+{{TierList/Item Container|color=#febf85|id=infiniti<!-- id TierList -->|name=META Ground
+|
+{{TierList/Item|Legendary Assassin (Prime)}}
+
+
+{{TierList/Item|Sorceror Killer (Heavenly Body)}}
+
+
+{{TierList/Item|Switchblade (Deception)}}
+
+{{TierList/Item|Dracula (Unholy King)
+|Description=Peak DPS, Moderate AoE Circle, Average Range, Average SPA and 3 Placements. Dracula's ability, '''"Soul Restraint: Level 0"''', lets him to summon a army with 12 million Total HP with 2 minutes cooldown. Unlocked at Upgrade 10. 
+* Placement Cost: {{Yen|25K}}
+* Max Up. Cost: {{Yen|118K}}
+----
+* Summon Total HP: 12,234,940
+{{DPStats
+|42952.3
+|3
+|Damage|SPA|
+|Miracle Timepiece||Unique|Godspeed|
+}}
+}}
+
+
+
+{{TierList/Item|Shinobi (Eternal)
+|Description={{Meta Burn Unit}}<br>
+Extreme DPS, Big AoE Circle, High Range, High SPA and 3 Placements. Best when paired with Mangekyo Eye. (Costs {{Yen|83.8K}} to max.)
+* Placement Cost: {{Yen|1.3K}}
+* Max Up. Cost: {{Yen|83.8K}}
+----
+* '''[NOTE: Unit's DPS INCLUDES the unit DoT damage.]'''
+----
+{{DPStats
+|34361.842
+|3
+|Damage|SPA|
+|Mangakeyo|Unique|Godspeed|Nimble|
+}}
+}}
+
+
+{{TierList/Item|Iceclaw (Azure Fang)
+|Description=Peak DPS, 50% Crit Chance, Cone AoE, Average Range, Average SPA and 3 Placements. 
+* Placement Cost: {{Yen|1.35K}}
+* Max Up. Cost: {{Yen|91.05K}}
+----
+* '''[NOTE: Unit's DPS INCLUDES the additional average DPS that his crit will add.]'''
+----
+{{DPStats
+|47937.84
+|3
+|Damage|SPA|
+|Lostvain||Unique|Divine|
+}}
+}}
+
+{{TierList/Item|Enlightened (Nirvana)}}
+
+{{TierList/Item|Somber (Buzzsaw)}}
+
+
+{{TierList/Item|Ghost-kun (Bound)
+|Description={{Meta Burn Unit}}<br>
+Peak DPS, Cone AoE, Average Range, Average SPA and 3 Placements. 9 Hits on final attack make him an amazing shield breaker.
+* Placement Cost: {{Yen|1.2K}}
+* Max Up. Cost: {{Yen|78.75K}}
+----
+* '''[NOTE: Unit's DPS INCLUDES the unit DoT damage.]'''
+----
+{{DPStats
+|45099.92
+|3
+|Damage|SPA|Miracle Timepiece|Mangakeyo|Unique|Divine||
+}}
+}}
+
+
+{{TierList/Item|Cream (Void)}}
+
+{{TierList/Item|Vego (Mage II)
+|Description=Extreme DPS, High SPA, Average Range, Full AoE.
+* Placement Cost: {{Yen|1.35K}}
+* Max Up. Cost: {{Yen|99.85K}}
+----
+{{DPStats
+|35142
+|3
+|Damage|SPA|
+|Lostvain|Unique|Godspeed|Superior|
+}}
+}}
+{{TierList/Item|Menace (Terror)
+|Description={{Meta Bleed Unit}}<br>
+High-Extreme DPS (With Bleed, Extreme with CRIT + Ability), Big AoE Circle, Average SPA, Average Range and 3 Placements. Stain's ability, 'Bloodcurdle' available at Upgrade 6, boosts his potential by increasing his current damage x3 to every BLEEDING enemy within his range (including Air) and can crit for x4.5 damage, also stunning enemies for 2 seconds with a 20-second cooldown and 10-second stun cooldown (Ability itself is not global cooldown). Recommended to pair with bleed amplify units.
+* Placement Cost: {{Yen|1.5K}}
+* Max Up. Cost: {{Yen|66.6K}}
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+{{DPStats
+|34692.875
+|3
+|Damage|SPA|
+|Lostvain||Unique|Divine|Sniper|
+}}
+}}
+
+{{TierList/Item|Pirate King (Final)
+|Description=Peak DPS, Big AoE Circle, Great range and Low SPA. Known as the 'Pirate King' Roger exhibits immense power. With Big AoE radius, he maximizes crowd potential and deals tremendous damage. His passive ability to stun enemies with each attack cements his overpowering presence, especially in stages where he excels as a support. Lastly, Roger's 3-hits ensures relentless DPS against shielded enemies. (Costs {{Yen|109K}} to max.)
+----
+{{DPStats
+|40999.93
+|3
+|Damage|SPA|
+|Lostvain|Unique|Celestial|Superior|
+}}
+}}
+{{TierList/Item|Death Ninja (Immortal Butcher)
+|Description={{Meta Bleed Unit}}<br>
+Average DPS, Wide AoE Cone and Low SPA. Upon reaching Upgrade 10, Hido unlocks his ability '''"Blood Curse"''' which does 3x of his damage to every bleed enemies in his range with 20 seconds (non-global) cooldown.
+* Placement Cost: {{Yen|1.75K}}
+* Max Up. Cost: {{Yen|83.25K}}
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+{{DPStats
+|19328.5
+|3
+}}
+* Blood Curse
+{{DPStats
+|33924
+|3
+|Range|Damage|
+|Lostvain|Unique|Sniper|Range|
+}}
+}}
+
+{{TierList/Item|Sword Queen (Knight)
+|Description=Extreme DPS, Big AoE Circle, GREAT Range and Medium SPA. Saber is an amazing unit in both progressive stages with her cost-effective price for Extreme DPS and good coverage potential. (Costs {{Yen|74.8K}} to max.)
+----
+{{DPStats
+|38288.91
+|3
+|SPA|Damage|
+|Lostvain|Unique|Godspeed|Nimble|
+}}
+}}
+}}
+
+}}
+
+{{TierList/Item Container|color=#ffdf87|id=infiniti<!-- id TierList -->|name=META Support
+|
+{{TierList/Item|Griffin (Reincarnation)
+|Description="No" DPS, "No" AoE, infinite buff range. Buffs all players units by 100%, (Stacks with [[Commander]], [[Elfy (Sylph)]] and [[Wind Dragon]]) making him very useful for story, portals and raids.
+}}
+
+{{TierList/Item|Elfy (Sylph)
+|Description=Low DPS, Medium SPA, Big AoE Circle and Medium Range. Leafy literally one of the best buffing support units in the game. Buffs all magic damage in range by 50% for 30 seconds, making her the best magic buff unit. She has medium range for a support. Her buff ability known as 'Verdant Enchantment' available upon placement.
+* Recommended Curse: [[Image:Range icon.png|18px]] (You want a +Range +SPA Curse)
+}}
+
+
+{{TierList/Item|Commander
+|Description=One of the best buffing support units in the game. Buffs all physical damage in range by 25% for 20 seconds, making him the best physical buff unit. Commander also IS a summoner, which means he can also deal damage too. His buff ability known as 'Dedicate your hearts!' available upon placement.
+* Recommended Curse: [[Image:Range icon.png|18px]] (You want a +Range +SPA Curse)
+}}
+
+{{TierList/Item|Wind Dragon
+|Description=One of the best buffing support units in the game. Buffs all magic damage in range by 30% for 20 seconds, making her the second best magic buff unit. She has decent range for a support, giving a little wiggle room for spreading units out a tad bit more than [[Sakuro]]. She is also a '''Hybrid''' unit, meaning magic hill units can be buffed as well. 6 of her can be placed allowing you to spread her out to all groups of units on the map. Her buff ability known as 'Sky Enchantment' available upon placement.
+* Recommended Curse: [[Image:Range icon.png|18px]] (You want a +Range +SPA Curse)
+}}
+
+
+{{TierList/Item|Shadowgirl (Time Traveller)
+|Description={{Meta Support Unit}}<br>
+{{Unobtainable Unit|Update 15.5 - Summer Event Update}}<br>
+Ability allows her to timestop and available on placement. Further upgrading her reduces the cooldown and increases the time stop length.
+}}
+
+{{TierList/Item|Snow Reaper (Final)}}
+
+{{TierList/Item|Reliable Student (Echoes)
+|Description=Average DPS, Big AoE Circle, and Good Range. With each attack, Koichy's ability to slow enemies increases from 25% (upgrades to 65% at Upgrade 2 and 80% at Upgrade 5). Koichy able to hit airs at Upgrade 5 make him the second unit in the game able to slow airs. First being [[Peruna (Ghost Princess)]] (Costs {{Yen|55.7K}} to max.)
+----
+* DPS (Damage Per Second): 14,792.25
+* DPM (Damage Per Minute): 887,535
+* Total DPS: 59,169
+* Total DPM: 3,550,140
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]]
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Operator (ROOM)
+|Description={{Meta Support Unit}}<br>
+Ability make him teleport enemies, the ability scaled with Lao's Range, meaning the more range he has, the further back the enemies are teleported. (75 Seconds Global Cooldown & 3 times per enemy).
+}}
+
+
+{{TierList/Item|Shadow Sorcerer (Ritual)
+|Description=Shadow Sorcerer (Ritual) has a 100% chance to apply curse causing enemies to take 30% more magic damage to ground and airs units.
+* Placement Cost: {{Yen|1.3K}}
+* Max Up. Cost: {{Yen|}}
+----
+}}
+
+{{TierList/Item|Zombie (Risen)
+|Description=Zombie (Risen) provides a buff to all summons on the map (no matter where they are placed), this buff buffs the dmg dealt by the summons by +25% per Zombie (Risen) on the map, this caps at +200% or 3x dmg, this buff stacks multiplicatively with other buffers like [[Commander]], [[Wind Dragon]], and [[Griffin (Reincarnation)]]}}
+
+{{TierList/Item|Siren (Harpy)
+|Description=
+* Placement Cost: {{Yen|1.3K}}
+* Max Up. Cost: {{Yen|83K}}
+----
+}}
+
+
+{{TierList/Item|Toad Sensei (Toad Sage)
+|Description=Average DPS, Wide AoE Cone, Good Range, 4 Placement Cap and Slows. (Costs {{Yen|71.7K}} to max.)
+----
+* DPS (Damage Per Second): 17,947.93
+* DPM (Damage Per Minute): 1,076,875.8
+* Total DPS: 71,791.72
+* Total DPM: 4,307,503.2
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]]
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+
+
+{{TierList/Item|Bloodcry (Bloodfallen)
+|Description=Average DPS, Big AoE Circle, Good Range and 4 Placement Cap. Bloodcry has the same passive as [[Blood (Unleashed)]], every hit she does will place a bleed amplification on enemies in AoE radius making them take x5 more bleed damage. (Costs {{Yen|60.8K}} to max.)
+----
+* DPS: 13,978.67
+* DPM: 838,720.2
+* Total DPS: 55,914.68
+* Total DPM: 3,354,880.8
+----
+* Recommended Curse: [[Image:Range icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Sniper.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Blood (Unleashed)
+|Description=Low DPS, Big AoE Circle and Good Range. Power have a passive when she can place a bleed amplification on enemies in AoE radius making them take x5 more bleed damage.
+}}
+
+{{TierList/Item|Gambler (Jackpot)}}
+
+{{TierList/Item|Calm Killer (Meets the End)
+|Description=Extreme DPS, Big AoE Circle and Great Range. While the difference between [[Stringy (Awakened)]] and him is not significant, Kiro's ability, 'Bites The Dust' allows him to rewind the whole map for a duration of 5 seconds (60 Seconds Global Cooldown) gives him a better potential than Flamingo. (Costs {{Yen|104K}} to max.)
+----
+{{DPStats
+|35757.79
+|3
+|Damage|SPA|
+|Miracle Timepiece|Unique|Godspeed|Superior|
+}}
+}}
+
+{{TierList/Item|Tamiki (Tornado)
+|Description=Average DPS, Huge Circle AoE and Amazing Range. Tatsumaki uses psychic powers to unleash a destructive meteor that relentlessly slams enemies. She deals substantial damage and has knockback ability, making her the top unit for knockback. She proves her worth in leaderboards and [[Infinite]] and has cost-efficient upgrades for efficient knockback at a reasonable price. (Costs {{Yen|85.45K}} to max.)
+----
+* DPS (Damage Per Second): 10,124
+* DPM (Damage Per Minute): 607,468
+* Total DPS: 30,373
+* Total DPM: 1,822,404
+----
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece''' [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Range.png|18px]]
+}}
+
+{{TierList/Item|InHuman (Nullifier)
+|Description=High DPS, Full AoE and Decent Range. Dazai has the ability '''No Longer Human''', which nullifies enemy attributes (e.g. Armored, Flying) for 20 seconds within his range for 90 seconds on a global cooldown. (Costs {{Yen|90.05K}} to max.)
+----
+* DPS (Damage Per Second): 22,591
+* DPM (Damage Per Minute): 1,355,460
+* Total DPS: 67,773
+* Total DPM: 4,066,380
+----
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Sniper.png|18px]]
+}}
+
+{{TierList/Item|Agony (Path)
+|Description=High DPS, Huge AoE Circle, Good Range and Knockback. (Costs {{Yen|89.6K}} to max.)
+----
+* DPS (Damage Per Second): 25,806.78
+* DPM (Damage Per Minute): 1,548,406.8
+* Total DPS: 77,420.34
+* Total DPM: 4,645,220.4
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail''' [[Image:Lostvain.png|18px]]
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Trickster (Release)
+|Description=Low DPS and Amazing Range with debatably the best Support Skills (Increase 20% Range and decrease 10% SPA all units in Kisoko's Range), However, lack of damage, and most importantly, the fact his cooldown isn't global, means it is best for Infinite.
+* Recommended Traits: [[Image:Trait Sniper.png|18px]] [[Image:Trait Range.png|18px]]
+}}
+
+{{TierList/Item|Idol (Star)
+|Description=No DPS. Reduces unit cost by 20% and increases damage by 15%. Great for wave 50 infinites.
+----
+* Recommended Traits: [[Image:Trait Golden.png|18px]]
+}}
+
+{{TierList/Item|Priest (Heaven)
+|Description=Average DPS, Decent Range with Incredibly fast SPA. Fantastic Support Ability that reduces all units SPA by 50% percent for 30 seconds and amazing with Unique or Godspeed.<br><br>Note that his SPA boost doesn't stack with Kisoko's, and also note that this boost doesn't work on units that has their SPA lower than their actual attack animation after being boosted. (Costs {{Yen|94.8K}} to max.)
+----
+* DPS (Damage Per Second): 13,148
+* DPM (Damage Per Minute): 788,919
+* Total DPS: 39,455.98
+* Total DPM: 2,366,758
+----
+(Time Acceleration)
+* DPS (Damage Per Second): 26,297
+* DPM (Damage Per Minute): 1,577,839
+* Total DPS: 78,892
+* Total DPM: 4,733,519
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+}}
+
+{{TierList/Item Container|color=#82fe89|id=infiniti<!-- id TierList -->|name=GREAT Hill/Hybrid
+|
+
+{{TierList/Item|Demihuman (Gamer)}}
+
+{{TierList/Item|Umbra (Nuclear)
+|Description=Extreme DPS, Full AoE, High Range, High SPA and 3 Placements. Can only buffed by [[Sakuro]], [[Idol (Star)]] and [[Griffin (Reincarnation)]].
+* Placement Cost: {{Yen|2.3K}}
+* Max Up. Cost: {{Yen|107K}}
+----
+{{DPStats
+|32214.23
+|3
+|SPA|Damage|
+|Kunai|Unique|Godspeed|
+}}
+}}
+
+{{TierList/Item|Berserker (Rage)
+|Description={{Meta Bleed Unit}}<br>
+High DPS, Full AoE, Average Range, Extreme SPA. Recommended to pair with Bleed Amplify units.
+* Placement Cost: {{Yen|1.45K}}
+* Max Up. Cost: {{Yen|125.95K}}
+----
+* '''[NOTE: Unit's DPS INCLUDES the unit DoT damage.]'''
+----
+{{DPStats
+|25222.6
+|3
+|SPA|Damage|
+|Lostvain|Unique|Divine|Godspeed|
+}}
+}}
+{{TierList/Item|Bubblegum (Ultimate)
+|Description=High DPS, Full AoE, Average Range, Average SPA and 3 Placements.
+* Placement Cost: {{Yen|1.4K}}
+* Max Up. Cost: {{Yen|110.8K}}
+----
+{{DPStats
+|26921
+|3
+|Damage|SPA|
+|Miracle Timepiece|Unique|Godspeed|Superior|
+}}
+}}
+
+{{TierList/Item|Ashborn (Decay)
+|Description=High DPS, Full AoE, Moderate Range. Shigaruko is a versatile unit with the passive ability "Decay" to halt regeneration. His AoE accumulation of decay causes immense damage to enemies in range. With his "True Damage" passive, he can bypass shields, continuing to accumulate damage. (Costs {{Yen|85.1K}} to max.)
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+{{DPStats
+|21868.58
+|3
+|Damage|SPA|
+|Miracle Timepiece|Celestial|Divine|Sniper|
+}}
+}}
+{{TierList/Item|Captain (God)
+|Description=Peak DPS, Single (or Mediocre AoE Circle), Mediocre Range. Viable in ALL content.
+* Placement Cost: {{Yen|1K}}
+* Max Up. Cost: {{Yen|68.5K}}
+----
+* Single Mushroom Plant HP: 414,182.93
+* Group Mushroom Plant HP: 4,141,829.3
+{{DPStats
+||1
+|Damage|SPA|
+|Kunai|Unique|Godspeed|Nimble|
+}}
+}}
+
+
+{{TierList/Item|Dreamer (Visionary)
+|Description=Extreme DPS, Big (or Extreme) AoE Circle, High Range, Average SPA and 4 Placements. 
+* Placement Cost: {{Yen|1.5K}}
+* Max Up. Cost: {{Yen|75K}}
+----
+{{DPStats
+|31533.33
+|4
+|SPA|Damage|
+|Miracle Timepiece||Divine|Godspeed|Nimble
+}}
+}}
+
+{{TierList/Item|Golden King (Lord of Heroes)
+|Description=Extreme DPS, Huge AoE Circle, High Range, High SPA and 3 Placements.
+* Placement Cost: {{Yen|2.5K}}
+* Max Up. Cost: {{Yen|118K}}
+----
+{{DPStats
+|37583.27
+|3
+|SPA|Damage|
+|Miracle Timepiece|Unique|Godspeed|Nimble|
+}}
+}}
+
+{{TierList/Item|Killstreak (Speedrun)}}
+
+{{TierList/Item|Elf Mage (Aura)}}
+
+{{TierList/Item|Faker (Hero's Spirit)
+|Description=High DPS, Big AoE Circle, Great Range, Medium SPA and 4 Placements. His stats similar compared to [[Luffo (Bounce)]] (SPA, Placements, Primary & Secondary DMG Type and Hybrid Up.)
+* Placement Cost: {{Yen|1.35K}}
+* Max Up. Cost: {{Yen|62.5K}}
+----
+* DPS: 26,626.05
+* DPM : 1,597,563
+* Total DPS: 106,504.2
+* Total DPM: 6,390,252
+----
+'''Recommended'''
+* Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Carrot (Ultra)
+|Description=High DPS, Large AoE Circle, High Range, Average SPA and 4 Placements.
+* Placement Cost: {{Yen|1.3K}}
+* Max Up. Cost: {{Yen|59.8K}}
+----
+* DPS: 24,850
+* DPM: 1,491,000
+* Total DPS: 99,400
+* Total DPM: 5,964,000
+----
+'''Recommended'''
+* Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''
+* Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Sea God (Tyrant of the Seas)
+|Description=High DPS, Full AoE, Average Range, Average SPA and 3 Placements.
+* Placement Cost: {{Yen|2K}}
+* Max Up. Cost: {{Yen|117K}}
+----
+* DPS: 24,850.98
+* DPM: 1,491,058.8
+* Total DPS: 74,552.94
+* Total DPM: 4,473,176.4
+----
+'''Recommended'''
+* Curse: [[Image:Range icon.png|18px]] [[Image:SPA icon.png|18px]] 
+* Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''
+* Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+{{TierList/Item|Fiend Girl (Butterfly)
+|Description=High DPS, Big AoE Circle, Great Range and Low SPA. Hinamy is hybrid on placement, allowing her to hit both airs and grounds. (Costs {{Yen|56.1K}} to max.)
+----
+* DPS (Damage Per Second): 23,667.6
+* DPM (Damage Per Minute): 1,420,056
+* Total DPS: 94,670.4
+* Total DPM: 5,680,224
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Joykid (Gear IV)
+|Description=High DPS, AoE Circle, Great Range. Despite not being fully AoE, this unit's AoE Circle prevents it from claiming the top spot. However, his intense damage and usefulness in all stages, particularly physical buff stages, cannot be overlooked. The placement cap of 4 boosts his GPDM significantly, making it excel greatly. Furthermore, evolving this unit is less time-consuming compared to recent updates, making it worth the grind. With impressive base stats, this unit can unleash devastating damage in Trait-less Tournaments. (Costs {{Yen|71.7K}} to max.)
+----
+* DPS (Damage Per Second): 23,075
+* DPM (Damage Per Minute): 1,384,554
+* Total DPS: 92,303
+* Total DPM: 5,538,218
+----
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Lucifer (Demon Emperor)
+|Description={{Meta Burn Unit}}<br>
+Average DPS (High with Mangekyo Eye), burns.
+----
+* DPS (Damage Per Second): 18,566
+* DPM (Damage Per Minute): 1,113,960
+* Total DPS: 74,264
+* Total DPM: 4,455,840
+----
+* Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyo Eye'''  
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+
+{{TierList/Item|Origami (Paper Angel)
+|Description=High DPS, Wide AoE Cone, High Range and Low SPA. (Costs {{Yen|41.1K}} to max.)
+----
+* DPS (Damage Per Second): 20,709
+* DPM (Damage Per Minute): 1,242,540
+* Total DPS: 82,836
+* Total DPM: 4,970,160
+----
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Gravity Mage (Void)
+|Description=High DPS, Big AoE Circle, High Range and Moderate SPA. (Costs {{Yen|50.0K}} to max.)
+----
+* DPS (Damage Per Second): 20,709
+* DPM (Damage Per Minute): 1,242,540
+* Total DPS: 82,836
+* Total DPM: 4,970,160
+----
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Hex (Witch of Betrayal)
+|Description=Average DPS, Big AoE Circle, GREAT Range and 5 Placement Cap. Medae is a useful asset to any team. Her potential to deal 3 hits allows her to maintain her high damage output even against shielded enemies, she also viable in progressive stages with her cheap price to max. (Costs {{Yen|44.2K}} to max.)
+----
+* DPS: 15,975.63
+* DPM: 958,537.8
+* Total DPS: 79,878.15
+* Total DPM: 4,792,689
+----
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Hubris (The One)
+|Description=Low DPS (Average DPS w/ Max Sunshine), '''FULL''' AoE, GREAT Range, Low SPA. Strong Full AoE hybrid unit, having one of the '''BEST''' full AoE crowd control potentials as he has '''INSANE''' range, which not many full AoE units have. (Costs {{Yen|100K}} to max.)
+----
+* DPS (Damage Per Second): 8,850
+* DPM (Damage Per Minute): 531,003
+* Total DPS: 26,550
+* Total DPM: 1,593,010
+----
+(Max Sunshine)
+* DPS (Damage Per Second): 19,912
+* DPM (Damage Per Minute): 1,194,758
+* Total DPS: 59,737
+* Total DPM: 3,584,274
+----
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Tango (Flash God)
+|Description=Average DPS, Moderate SPA, Decent Range, the "Flashiest Hashira" throws a flashy performance with exceptional damage, impressive AoE, high hit count! Surprisingly, he can land critical hits, boosting his attack power even further. One drawback is his limited range, reducing crowd control potential and versatility compared to other Full AoE units. (Costs {{Yen|92.7K}} to max.)
+----
+* DPS (Damage Per Second): 15,842.5
+* DPM (Damage Per Minute): 950,550
+* Total DPS: 47,527.5
+* Total DPM: 2,851,650
+----
+(Crit [Multiplied by 1.25x assuming it happens half of the time])
+* DPS (Damage Per Second): 19,803
+* DPM (Damage Per Minute): 1,188,187
+* Total DPS: 59,409
+* Total DPM: 3,564,562
+----
+* Recommended Curse: [[Image:Range icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Sniper.png|18px]]
+}}
+
+{{TierList/Item|Connor (Wizard King)
+|Description=High DPS, Huge AoE Circle, Great Range, and Medium SPA. As a Battle Pass unit, [[Connor (Wizard King)]] potential is amazing with initially deals 3 hits upon placement, but after Upgrade 6, he reduces to 1 hit (while also gaining the ability to hit airs). (Costs {{Yen|104K}} to max.)
+----
+* DPS (Damage Per Second): 23,194.24
+* DPM (Damage Per Minute): 1,391,654.4
+* Total DPS: 69,582.72
+* Total DPM: 4,174,963.2
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+
+{{TierList/Item|Hammerhead (Shark Empress)
+|Description=Average DPS, Medium AoE Circle, Great Range, Quick SPA and 4 Placement Cap. Harribu is an exceptional hill unit that excels at dealing with early air enemies and shield enemies. Additionally, Harribu's potential is great [[Infinite]], as she is cost-effective to upgrade. (Costs {{Yen|63.8K}} to max.)
+----
+* DPS (Damage Per Second): 17,093.26
+* DPM (Damage Per Minute): 1,025,595.6
+* Total DPS: 68,373.04
+* Total DPM: 4,102,382.4
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece''' [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Gravity Navy (Admiral)
+|Description=Average DPS, Huge AoE circle and Great Range. Fuji reflects the power of an Admiral in Anime Adventures. He excels at dealing massive damage over time and is especially effective against early airs. With a placement cap of 4, his group DPS reaches incredible levels, making him one of the highest GDPM units in the game. Paired with the Lostvayne relic, Fuji becomes a damage powerhouse, achieving millions of DPM. Furthermore, his impressive stats make him a formidable contender even in trait-less tournaments. (Costs {{Yen|66.5K}} to max.)
+----
+* DPS (Damage Per Second): 14,291
+* DPM (Damage Per Minute): 857,484
+* Total DPS: 57,165
+* Total DPM: 3,429,936
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail''' [[Image:5-Leaf Clover.png|18px]] '''5-Leaf Clover'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Golden Tyrant (Emperor)
+|Description=High DPS, Ginormous AoE Circle, and GREAT Range. His immense AoE circle hits many enemies at once, solidifying his position as a top unit. He is considered an "Emperor" due to his insane damage. Compared to [[Iron Knight (Arsenal)]], Freezo is superior with higher Group DPS and DPM. (Costs {{Yen|119.75K}} to max.)
+----
+* DPS (Damage Per Second): 21,366
+* DPM (Damage Per Minute): 1,281,960
+* Total DPS: 64,098
+* Total DPM: 3,845,880
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Thunder Maid (Servant)
+|Description=High DPS, Medium AoE Circle, Great range and Low SPA. Narbera is a solid all-around performer and a true follower of [[Supreme Being (Sovereign)]]. Her reasonable price-to-max ratio further enhances her potential. Compared to [[Iron Knight (Arsenal)]], She is stronger with higher Total DPS and DPM. (Costs {{Yen|72K}} to max.)
+----
+* DPS (Damage Per Second): 22,089.76
+* DPM (Damage Per Minute): 1,325,385.6
+* Total DPS: 66,269.28
+* Total DPM: 3,976,156.8
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Millie (Holy)
+|Description={{Unobtainable Unit|Update 15.5 - Summer Event Update}}<br>
+High DPS, Good SPA, Great Range and 3 Placement Cap. Upon reaching Upgrade 7, Mamy becomes apart of affinity of [[Hybrid Units]]. She also does 3 hits at Upgrade 7. Her Huge AoE Circle gives her the edge over [[Lord Boron]]. Mamy is also amazing candidate for [[Story]] because of her cost-efficient upgrades and the substantial amounts of damage that come with this fairly cheap upgrades same as [[Iron Knight (Arsenal)]]. (Costs {{Yen|96.2K}} to max.)
+----
+* DPS (Damage Per Second): 21,476.15
+* DPM (Damage Per Minute): 1,288,569
+* Total DPS: 64,428.45
+* Total DPM: 3,865,707
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+}}
+
+{{TierList/Item Container|color=#82fffe|id=infiniti<!-- id TierList -->|name=GREAT Ground
+|
+{{TierList/Item|Gas (Toxic)
+|Description=Extreme DPS, Big AoE Circle, Good Range and Moderate SPA. Gas's passive, '''Poison''', does 3x of his damage over a very long period of time (56 ticks), which greatly reduces his damage output in the short-term. (Costs {{Yen|50K}} to max.)
+----
+* DPS (Damage Per Second): 34,339.53
+* DPM (Damage Per Minute): 2,060,371.8
+* Total DPS: 137,358.12
+* Total DPM: 8,241,487.2
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]] [[Image:Range icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Spearer (Child of Light)
+|Description=High DPS, Medium AoE Circle, Good Range. Lancer is a useful and powerful unit in all progressive stages with his cheap price to max for High DPS plus with his 50% base CRIT make his potential is extremely high, he also great in [[Infinite]]. (Costs {{Yen|48.7K}} to max.)
+----
+* DPS: 32,717
+* DPM: 1,962,840
+* Total DPS: 130,868
+* Total DPM: 7,851,360
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]] 
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Scarlet Slayer (Cursed Frost)
+|Description=Extreme DPS, Medium AoE Circle, Good Range and 50% Base CRIT. (Costs {{Yen|83.3K}} to max.)
+----
+* DPS: 38,979
+* DPM: 2,338,740
+* Total DPS: 116,937
+* Total DPM: 7,016,220
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]] 
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''<br>
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Black Dog (HellHound)
+|Description=Extreme DPS, Medium AoE Circle, High Range and Moderate SPA. (Costs {{Yen|100.1K}} to max.)
+----
+* DPS: 36,079
+* DPM: 2,164,740
+* Total DPS: 108,237
+* Total DPM: 6,494,220
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]] 
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''<br>
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+
+{{TierList/Item|Lilia (Homunculus)
+|Description=Extreme DPS, Big AoE Circle and Medium Range. Lilia (Homunculus) is truly a monster when have a huge raw damage with no any passives and abilities. One downside is her limited range, reducing crowd control potential. (Costs {{Yen|98K}} to max.)
+----
+* DPS: 38,350.27
+* DPM: 2,301,016.2
+* Total DPS: 115,050.81
+* Total DPM: 6,903,048.6
+----
+* Recommended Curse: [[Image:Range icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Sniper.png|18px]] [[Image:Trait Range.png|18px]]
+}}
+
+
+{{TierList/Item|Stringy (Awakened)
+|Description={{Unobtainable Unit|Update 16 - Overlord Update}}<br>
+Extreme DPS, Huge AoE Circle, Great Range and Low SPA. On account of his furious pure DPS capability, Flamingo is certifiably annihilating in [[Infinite]]. Additionally, his multi-hit (3 Hits) ability signifies that his DPS will persist a lot in conflicts with shield enemies. (Costs {{Yen|120K}} to max.)
+----
+* DPS (Damage Per Second): 36,241
+* DPM (Damage Per Minute): 2,174,460
+* Total DPS: 108,723
+* Total DPM: 6,523,381
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+{{TierList/Item|Ashborn (Decay)
+|Description=High DPS, Full AoE, Moderate Range. Shigaruko is a versatile unit with the passive ability "Decay" to halt regeneration. His AoE accumulation of decay causes immense damage to enemies in range. With his "True Damage" passive, he can bypass shields, continuing to accumulate damage. (Costs {{Yen|85.1K}} to max.)
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+{{DPStats
+|21868.58
+|3
+|Damage|SPA|
+|Miracle Timepiece|Celestial|Divine|Sniper|
+}}
+}}
+{{TierList/Item|Gamer (Dual)
+|Description=High DPS, Big AoE Circle, Good Range, Medium SPA and 4 Placement Cap. This unit impresses with amazing stats, including good range, a Big AoE circle, and 6 hits. As a result, he dominates in [[Infinite]], dealing immense damage. His consistent DPS and AoE capabilities make him valuable against shielded and armored enemies. Affordable price to max solidifies his viability across progressive stages. (Costs {{Yen|72.2K}} to max.)
+----
+* DPS (Damage Per Second): 25,260.05
+* DPM (Damage Per Minute): 1,515,603
+* Total DPS: 101,040.2
+* Total DPM: 6,062,412
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Golden Navy (Buddha)
+|Description=High DPS, TREMENDOUS AoE Circle, GREAT range and Sluggish SPA. Senbodu is a remarkable unit with unparalleled potential, he exhibits extremely high damage and possesses a Huge AoE circle, making him an exceptional DPS unit. (Costs {{Yen|77.4K}} to max.)
+----
+* DPS (Damage Per Second): 24,568.72
+* DPM (Damage Per Minute): 1,474,123.2
+* Total DPS: 73,706.16
+* Total DPM: 4,422,369.6
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Crusader (Admin)
+|Description=Borderline Extreme DPS, Medium SPA, Big AoE Circle and Good Range. Heathcliff is capable of doing strong amounts of damage as he has some extremely high displayed damage upon being maxed, meaning with unique, it will soar even higher. Heathcliff's placement damage is really good for [[Raids]] and [[Story]], his upgrade stats are actually quite impressive and can be used as a very good candidate for DPS in [[Infinite]]. (Costs {{Yen|76.3K}} to max.)
+----
+* DPS (Damage Per Second): 29,452.55
+* DPM (Damage Per Minute): 1,767,153
+* Total DPS: 88,357.65
+* Total DPM: 5,301,459
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Flamefeather (Magician's Red)
+|Description=Average DPS, Big AoE Circle, Decent Range and Medium SPA. (Costs {{Yen|81.7K}} to max.)
+----
+* DPS (Damage Per Second): 23,754.6
+* DPM (Damage Per Minute): 1,425,276.5
+* Total DPS: 71,263.8
+* Total DPM: 4,275,829.7
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+
+{{TierList/Item|Skeleton Knight (King)
+|Description=Peak DPS, Good AoE Circle, Good Range, Low SPA. Skull Knight currently hold the #1 HIGHEST DPS in-game. His decently sized AoE circle and low SPA enhance his ability to do a lot of damage and spread it moderately. However, his AoE limits his effectiveness compared to units placed before him. Nevertheless, in [[Infinite]], Skull Knight is an undeniable force with massive damage potential. (Costs {{Yen|122.35K}} to max.)
+----
+* DPS (Damage Per Second): 43,613.11
+* DPM (Damage Per Minute): 2,616,786.6
+* Total DPS: 87,226.22
+* Total DPM: 5,233,573.2
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail''' [[Image:5-Leaf Clover.png|18px]] '''5-Leaf Clover'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Jose (Unbreakable)
+|Description=High DPS, Big AoE Circle, Good Range, and Medium SPA.Josuka is a great overall unit, able to stun on placement. When he reaches Upgrade 3, he gains the ability to perform 4 hits, which makes him exceptionally effective against shield enemies. Generally used as an alternative to [[Pirate King (Final)]]. (Costs {{Yen|76.4K}} to max.)
+----
+* DPS (Damage Per Second): 24,482.81
+* DPM (Damage Per Minute): 1,468,968.6
+* Total DPS: 73,448.43
+* Total DPM: 4,406,905.8
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Tiger (Moonlight Beast)
+|Description={{Meta Bleed Unit}}<br>Extreme DPS, Big AoE Circle and Decent Range. Tiger (Moonlight Beast) bleeds, allowing him to be paired with bleed amplification for even more DPS. (Costs {{Yen|56.1K}} to max.)
+----
+* DPS (Damage Per Second): 28,762
+* DPM (Damage Per Minute): 1,725,720
+* Total DPS: 115,048
+* Total DPM: 6,902,880
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+* Recommended Curse: [[Image:Range icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Flame Hero (Hellflame)
+|Description={{Meta Burn Unit}}<br>
+High DPS, Wide AoE Cone and Good Range. Endeavor and his quirks power do absolutely DIOBOLICAL damage. (Costs {{Yen|97K}} to max.)
+----
+* DPS (Damage Per Second): 22,780
+* DPM (Damage Per Minute): 1,366,800
+* Total DPS: 68,340
+* Total DPM: 4,100,400
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Izo (Samurai)
+|Description={{Meta Burn Unit}}<br>
+Average DPS, Wide AoE Cone, and Great Range. and currently holds the title of the HIGHEST Black Flames damage in Anime Adventures. His AoE Cone, Huge Range, and Great SPA allows him to spread his black flames damage very quickly! Although he can be slightly expensive to max, he is also viable in progressive stages. (Costs {{Yen|89.6K}} to max.)
+----
+* DPS (Damage Per Second): 19,625.89
+* DPM (Damage Per Minute): 1,177,553.90
+* Total DPS: 58,877.69
+* Total DPM: 3,532,661.72
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]] [[Image:Damage icon.png|18px]]
+* Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Mangaka (Artist)
+|Description={{Unobtainable Unit|Update 18 - Naruto Shippuden Update}}<br>Average DPS, a Mediocre AoE Circle, Good Range, Low SPA, and a 4 Placement Cap. Upon reaching Upgrade 6, Rohon unlocks a unique ability called "Wild Card" which makes each hit he deals apply random effects of Fire, Slow, Bleed, Freeze, and Knockback. This ability, however, can be a disadvantage as it can ruin the Timestop effect (which shares the same cooldown as Freeze), and his Mediocre AoE radius limits his potential. Despite these drawbacks, his cheap price to max which can be useful for progressive stages. (Costs {{Yen|48.7K}} to reach his max upgrade.)
+----
+* DPS: 16,298.87
+* DPM: 977,932.2
+* Total DPS: 65,195.48
+* Total DPM: 3,911,728.8
+---
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]]
+}}
+}}
+
+{{TierList/Item Container|color=#E39FF6|id=infiniti<!-- id TierList -->|name=GREAT Support
+|
+{{TierList/Item|JIO (Over Heaven)
+|Description=Extreme DPS, Hybrid (ON PLACEMENT), Huge AoE circle. Although having High DPS, only one can be placed, making units with multiple placements accumulate more group DPS than JIO. JIO also has the ability known as "The World: Over Heaven" which using his stand, The World: Over Heaven, time stops the entire map for 20 SECONDS, however, has an extremely long cooldown. (Costs {{Yen|125.5K}} to max.)
+----
+* DPS (Damage Per Second): 32,568
+* DPM (Damage Per Minute): 1,954,093
+* Total DPS: 32,568
+* Total DPM: 1,954,093
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]]
+}}
+
+{{TierList/Item|Ice Lily
+|Description={{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas 2022 Update Part 1}}<br>
+Low DPS, Big Circle AoE, 5 Placements, Slows Enemies and has a Good SPA. Slow for 3 seconds. 
+----
+* DPS (Damage Per Second): 3,988
+* DPM (Damage Per Minute): 239,305
+* Total DPS: 19,942
+* Total DPM: 1,196,529
+}}
+
+{{TierList/Item|Paradox (Divine Sight)
+|Description=Low-Average DPS (it can increase if you have upgrades), Semi-Thin Line AoE, Great Range. Paradox's ability 'Domain Expansion' available upon placement, allows him to global timestop for a 8 seconds duration (60 Second Global Cooldown) and buff himself x2 Damage. Paradox can be upgraded infinitely, but it is not recommended since it is not worth the time you spent on.
+----
+* DPS (Damage Per Second): 8,053
+* DPM (Damage Per Minute): 483,213
+* Total DPS: 24,160
+* Total DPM: 1,449,640
+----
+(Time Stop)
+* DPS (Damage Per Second): 16,107
+* DPM (Damage Per Minute): 966,427
+* Total DPS: 24,160
+* Total DPM: 1,449,640
+(When Paradox use ability, he only buffs himself as in the Paradox that you used to activate the ability.)<br>
+----
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Devil Boss
+|Description=Low DPS. Upon max upgrade, he gains an ability, "Time Erase", a global 'time stop' for 8 seconds which gives units 50% during it's duration (90 second global cooldown).<br><br> Note that his time stop is not a freeze, but rather a really effective slow.
+}}
+{{TierList/Item|Infinity Mage (Endless)
+|Description={{Unobtainable Unit|Update 14 - Sword Art Online Update}}<br>
+Average DPS with Good Circle AoE. Has a 25% chance to Hex Similar to Dismember (25% Permanent Physical Damage Effect) It amplifies a permanent damage effect by 30% for Magic Units letting enemies take more magic damage (30%) She is a great choice of a support unit or all gamemodes.
+----
+* DPS (Damage Per Second): 10,354
+* DPM (Damage Per Minute): 621,274
+* Total DPS: 31,063
+* Total DPM: 1,863,822
+----
+(Hexed)
+* DPS (Damage Per Second): 12,943
+* DPM (Damage Per Minute): 776,592
+* Total DPS: 38,829
+* Total DPM: 2,329,778
+----
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Sukuno
+|Description=Low-Average DPS with Insane Circle-AoE. Has a 20% chance to apply Dismember, a permanent physical damage amplification effect of 25% to enemies. Top choice for Infinite modes due to good DPS, AoE, and damage amplification.
+----
+* DPS (Damage Per Second): 8,973
+* DPM (Damage Per Minute): 538,380
+* Total DPS: 26,919
+* Total DPM: 1,615,140
+----
+(Dismemberment)
+* DPS (Damage Per Second): 11,216
+* DPM (Damage Per Minute): 672,975
+* Total DPS: 33,648
+* Total DPM: 2,018,925
+----
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Lulu (Emperor)
+|Description=Low DPS. Lulu's ability '''Mind Control''', if used properly, can be one of the best slowdown abilities in the game. Similar to [[Calm Killer (Meets The End)]], his ability forces enemies within his range to walk back for 5 seconds. However, he is incredibly micro-intensive and prone to having his rewind cancelled or worsened by time stops and slows, making him only recommended for leaderboard runs.
+----
+* Recommended Curse: [[Image:Range icon.png|18px]] (any +RANGE)
+* Recommended Traits: [[Image:Trait Sniper.png|18px]]
+}}
+
+{{TierList/Item|Delinquent (The World)
+|Description=Average DPS, Big AoE Circle, Bad SPA, Mediocre Range. Using the power of Star Platinum, Jokujo is able to time stop enemies for about 2 seconds (in his AoE circle) on every attack. Making him both a viable DPS unit and a support unit. Although being outclassed by current ground meta units, he still does good enough damage to be viable in infinite mode. (Costs {{Yen|63K}} to max.)
+----
+* DPS (Damage Per Second): 12,885
+* DPM (Damage Per Minute): 773,141
+* Total DPS: 38,657
+* Total DPM: 2,319,424
+----
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]] [[Image:Trait Sniper.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Red Scar (Conqueror)
+|Description=Low DPS. Red Scar's ability '''Conqueror's Haki''' is a decent stun, and can be used alongside [[Shadowgirl (Time Traveller)]]'s time stop effectively. Generally only utilized for leaderboard runs.
+----
+* Recommended Curse: [[Image:Range icon.png|18px]] (-damage)
+* Recommended Traits: [[Image:Trait Sniper.png|18px]]
+}}
+
+
+{{TierList/Item|Time Wizard (Chronos)
+|Description=High DPS. Does what [[Lulu (Geass)]] does, but has a much higher ability cooldown. 
+----
+* DPS (Damage Per Second): 22,089
+* DPM (Damage Per Minute): 1,325,340
+* Recommended Curse: [[Image:Range icon.png|18px]]
+* Recommended Traits: [[Image:Trait Unique.png|18px]]
+}}
+}}
+|-|Story Mode=
+<h3 class="mobileonly">'''Story Mode'''</h3>
+{{TierList/Container|id=Story_Mode<!-- id TierList -->
+|Fast travel for Mobile only=
+<div>{{Anchor1|id=Story_Mode-META Hill/Hybrid DPS|text=META Hill/Hybrid DPS}}</div>
+<div>{{Anchor1|id=Story_Mode-META Ground DPS|text=META Ground DPS}}</div>
+<div>{{Anchor1|id=Story_Mode-META Support|text=META Support}}</div>
+<div>{{Anchor1|id=Story_Mode-GREAT Hill/Hybrid|text=GREAT Hill/Hybrid}}</div>
+<div>{{Anchor1|id=Story_Mode-GREAT Ground|text=GREAT Ground}}</div>
+<div>{{Anchor1|id=Story_Mode-GREAT Support|text=GREAT Support}}</div>
+<!-- names must match Item Container names -->
+|1={{TierList/Item Container|color=#ff5757|id=infiniti<!-- id TierList -->|name=META Hill/Hybrid
+|
+{{TierList/Item|Elyssia (Abyssal)
+|Description= On spawn will summon an abyssal jelly (Hybrid aoe) on her spa maxing out at 3, if an abyssal jelly dies she will summon another one on 2x her spa, the jellies will have 1 hp but will deal the same dmg to the enemy as [[Elyssia (Abyssal)]] deals,after [[Elyssia (Abyssal)]]  takes down 5 enemies an eel will be spawned near her maxing out at 3, the eel (Ground) will have 1/4 [[Elyssia (Abyssal)]] 's dmg, 2x her spa, and 2.5x her range, despawning after a minute.Jelly and eel can be buffed by [[Zombie (Risen)]]}}
+
+{{TierList/Item|Honey (Hive)
+|Description=}}
+
+{{TierList/Item|Dark Mage (Fallen Star)}}
+
+{{TierList/Item|Captain (God)
+|Description=}}
+
+{{TierList/Item|Carrot (Ultra)
+|Description=}}
+
+{{TierList/Item|Siren (Harpy)
+|Description=Hybrid Slow on placement.}}
+
+{{TierList/Item|Snow Reaper (Final)
+|Description=By upgrading Snow Reaper (Final) once, she obtains the ability, Gale of the Moon(Hybrid full aoe). Activating the ability drains her bar by 2.5 every half second, press again to turn off the ability, automatically turning off when the bar reaches 0. While activated, enemies within her range are slowed, take 1/6th of her damage every half second and are inflicted with Chilled. Chilled enemies have an icon of a snowflake that freezes the enemy and deals an additional hit equal to her damage stat once it reaches 6.}}
+
+
+
+{{TierList/Item|Shadowgirl (Time Traveller)
+|Description={{Meta Support Unit}}}}
+
+{{TierList/Item|Killstreak (Speedrun)
+|Description=Cheap mythical easy to get Hybrid on placment}}
+
+{{TierList/Item|Elf Mage (Aura)
+|Description=High DPS, Moderate SPA, High Range. (Costs {{Yen|50.0K}} to max.)
+----
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Divine.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Reliable Student (Echoes)
+|Description=}}
+
+
+
+}}
+
+{{TierList/Item Container|color=#febf85|id=Story_Mode<!-- id TierList -->|name=META Ground DPS|
+
+{{TierList/Item|Shinobi (Eternal)
+|Description={{Meta Burn Unit}}<br>
+Extreme DPS, Huge AoE Circle, Great Range and Medium SPA. Best when paired with Mangekyo Eye. (Costs {{Yen|83.8K}} to max.)
+----
+* DPS: 34,361.842
+* DPM: 2,061,710.53
+* Total DPS: 103,085.526
+* Total DPM: 6,185,131.6
+----
+* '''[NOTE: Unit's DPS INCULUDES the unit DoT damage.]'''
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Menace (Terror)
+|Description=}}
+
+{{TierList/Item|Somber (Buzzsaw)
+|Description=}}
+
+{{TierList/Item|Tiger (Moonlight Beast)
+|Description={{Meta Bleed Unit}}<br>Extreme DPS, Full AoE and Decent Range. Tiger (Moonlight Beast) bleeds, allowing him to be paired with bleed amplification for even more DPS. (Costs {{Yen|56.1K}} to max.)
+----
+* DPS (Damage Per Second): 28,762
+* DPM (Damage Per Minute): 1,725,720
+* Total DPS: 115,048
+* Total DPM: 6,902,880
+----
+'''[NOTE: Tiger (Moonlight Beast)'s DPS INCLUDES his BLEED damage.]'''<br>
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''<br>
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Death Ninja (Immortal Butcher)
+|Description=}}
+
+{{TierList/Item|Spearer (Child of Light)
+|Description=}}
+
+{{TierList/Item|Vego (Mage II)
+|Description=}}
+
+{{TierList/Item|Dracula (Unholy King)
+|Description=
+}}
+
+{{TierList/Item|Sword Queen (Knight)
+|Description=}}
+
+{{TierList/Item|Fox Ninja (Six Tails)
+|Description=Peak DPS, Big AoE Circle, Good Range and Low SPA. (Costs {{Yen|100K}} to max.)
+----
+* DPS: 45,362.89
+* DPM: 2,721,773.4
+* Total DPS: 136,088.67
+* Total DPM: 8,165,320.2
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Scarlet Slayer (Cursed Frost)
+|Description=Extreme DPS, Medium AoE Circle, Good Range. Can Crit (50%) for 1.5x damage. (Costs {{Yen|83.3K}} to max.)
+----
+* DPS: 38,979
+* DPM: 2,338,740
+* Total DPS: 116,937
+* Total DPM: 7,016,220
+* Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain''' [[Image:Nail.png|18px]] '''Nail'''<br>
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Godspeed.png|18px]]
+}}
+
+{{TierList/Item|Izo (Samurai)
+|Description=}}
+
+{{TierList/Item|Calm Killer (Meets the End)
+|Description=Extreme DPS, Big AoE Circle and Great Range. While the difference between [[Stringy (Awakened)]] and him is not significant, Kiro's ability, 'Bites The Dust' allows him to rewind the whole map for a duration of 5 seconds (60 Seconds Global Cooldown) gives him a better potential than Flamingo. (Costs {{Yen|104K}} to max.)
+----
+* DPS (Damage Per Second): 35,757.79
+* DPM (Damage Per Minute): 2,145,467.4
+* Total DPS: 107,273.37
+* Total DPM: 6,436,402.2
+----
+* Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+* Recommended Relics: [[Image:Miracle Timepiece.png|18px]] '''Miracle Timepiece'''
+* Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]] [[Image:Trait Superior.png|18px]]
+}}
+
+{{TierList/Item|Lilia (Homunculus)
+|Description=}}
+
+{{TierList/Item|Ashborn (Decay)
+|Description=}}
+
+}}
+{{TierList/Item Container|color=#ffdf87|id=Story_Mode<!-- id TierList -->|name=META Support
+|
+{{TierList/Item|Idol (Star)
+|Description="No" DPS, "No" AoE, Infinite Range. Oshy is one of the most UNIQUE units in-game as she is the first EVER unit to be able to reduce the upgrade cost for units (20% reduction) and also buff the units (permanent + 15% damage increase), making Sakura now obsolete. Her ability is passive, meaning that it happens on it's own, it doesn't require you to click a button to activate this passive, making this unit very convenient for afk farming! This supporting ability is ver useful as it will help to cut the cost of some units who are really expensive while also buffing units! This supporting passive is not only useful in infinite, but also in progressive stages as it would help make units more affordable, especially in challenges like High Cost and Triple Cost! Oshy is currently tradeable but you can also now obtain her from banner! The only downside to this unit is that her support passive is not global, meaning that it only affects the person who placed Oshy's units, which makes her less viable in terms of leaderboard runs as everyone would waste a slot to use her, however, she is viable in every other mode in-game!
+<br>
+*  Recommended Traits: [[Image: Trait Golden.png|18px]]}}
+
+{{TierList/Item|Elfy (Sylph)
+|Description=Low DPS, Medium SPA, Big AoE Circle and Medium Range. Leafy literally one of the best buffing support units in the game. Buffs all magic damage in range by 50% for 20 seconds, making her the best magic buff unit. She has medium range for a support. Her buff ability known as 'Strength Buff' available upon placement. <br> <br>Currently, there is a bug that allows her to stack magic buffs, eventually being able to buff surrounding units by 100%. <br>
+*  Recommended Curse: [[Image:Range icon.png|18px]] (You want a +Range +SPA Curse)}}
+
+{{TierList/Item|Wind Dragon
+|Description=One of the best buffing support units in the game. Buffs all magic damage in range by 30% for 20 seconds, making her the second best magic buff unit. She has decent range for a support, giving a little wiggle room for spreading units out a tad bit more than [[Sakuro]]. She is also a '''Hybrid''' unit, meaning magic hill units can be buffed as well. 3 of her can be placed allowing you to spread her out to all groups of units on the map. Her buff ability known as 'Sky Enchantment' available upon placement. <br> <br>Currently, there is a bug that allows her to stack magic buffs, eventually being able to buff surrounding units by 100%.  <br>
+*  Recommended Curse: [[Image:Range icon.png|18px]] (You want a +Range +SPA Curse)}}
+
+{{TierList/Item|Commander
+|Description=One of the best buffing support units in the game. Buffs all physical damage in range by 25% for 20 seconds, making him the best physical buff unit (Literally only him have ability to buff physical right now lol). Commander also IS a summoner, which means he can also deal damage too. His buff ability known as 'Dedicate your hearts!' available upon placement.<br> <br>Currently, there is a bug that allows him to stack physical buffs, eventually being able to buff surrounding units by 100%.<br>
+*  Recommended Curse: [[Image:Range icon.png|18px]] (You want a +Range +SPA Curse)}}
+
+{{TierList/Item|Operator (ROOM)
+|Description=}}
+
+{{TierList/Item|Paradox (Divine Sight)
+|Description=Low-Average DPS (it can increase if you have upgrades), Semi-Thin Line AoE, Great Range. Cost effective alternative to [[Shadowgirl (Time Traveller)]]. 
+DPS (Damage Per Second): 8,053
+<br>DPM (Damage Per Minute): 483,213
+<br>Total DPS: 24,160
+<br>Total DPM: 1,449,640
+----
+(Time Stop)<br>
+DPS (Damage Per Second): 16,107
+<br>DPM (Damage Per Minute): 966,427
+<br>Total DPS: 24,160
+<br>Total DPM: 1,449,640
+<br>(When [[Goju (Six Eyes)]] time stops, he only buffs himself as in the Goju that you used to activate the time stop, not
+*  Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Godspeed.png|18px]]}}
+
+{{TierList/Item|Toad Sensei (Toad Sage)
+|Description=Average DPS, Wide AoE Cone, Good Range, 4 Placement Cap and Slows. (Costs {{Yen|71.7K}} to max.)
+----
+* DPS (Damage Per Second): 17,947.93
+* DPM (Damage Per Minute): 1,076,875.8
+* Total DPS: 71,791.72
+* Total DPM: 4,307,503.2
+----
+* Recommended Curse: [[Image:SPA icon.png|18px]]
+* Recommended Traits: [[Image:Trait Godspeed.png|18px]] [[Image:Trait Nimble.png|18px]]
+}}
+
+{{TierList/Item|Ice Lily
+|Description={{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas 2022 Update Part 1}}
+<br>Low DPS, Big Circle AoE, 5 Placements, Slows Enemies and has a Good SPA. Slow for 3 seconds.
+<br>
+DPS (Damage Per Second): 3,988
+<br>
+DPM (Damage Per Minute): 239,305
+<br>
+Total DPS: 19,942
+<br>
+Total DPM: 1,196,529}}
+
+{{TierList/Item|Bloodcry (Bloodfallen)
+|Description=}}
+
+{{TierList/Item|Blood (Unleashed)
+|Description={{Unobtainable Unit|Update 12 - My Hero Academia Update}}
+<br>Low DPS and Amazing ability/passive that lets Bleed Units do 5x more BLEED tic damage. (Costs {{Yen|61K}} to reach her max upgrade.)
+<br>
+DPS (Damage Per Second): 8,232
+<br>
+DPM (Damage Per Minute): 493,951
+<br>
+Total DPS: 24,697
+<br>
+Total DPM: 1,481,853
+<br>
+<br>
+*  Recommended Traits: [[Image:Trait Godspeed.png|18px]]}}
+
+}}
+
+{{TierList/Item Container|color=#82fe89|id=Story_Mode<!-- id TierList -->|name=GREAT Hill/Hybrid
+|
+
+{{TierList/Item|Golden King (Lord of Heroes)}}
+{{TierList/Item|Hammerhead (Shark Empress)
+|Description=Average DPS, 3 (Placement) -> 1 (Upgrade 3) -> 3 Hits (Upgrade 7), Small -> Medium AoE Circle, Great Range, Medium SPA, 4 Placement cap. Being a hill unit type already made Harribu viable in [[Story]]. (Costs {{Yen|63.8K}} to reach her max upgrade.)<br>
+}}
+
+{{TierList/Item|Thunder Maid (Servant)
+|Desceription=}}
+
+{{TierList/Item|Bubblegum (Ultimate)
+|Description=}}
+
+{{TierList/Item|Golden Tyrant (Emperor)
+|Description=}}
+
+{{TierList/Item|Iron Knight (Arsenal)
+|Description=}}
+
+{{TierList/Item|Millie (Holy)
+|Description=}}
+
+{{TierList/Item|Lucifer (Demon Emperor)
+|Description={{Meta Burn Unit}}}}
+
+{{TierList/Item|Berserker (Rage)
+|Description=}}
+
+{{TierList/Item|Hubris (The One)
+|Description=Full AoE with Huge Range, Low SPA, Low DPS (No Sunshine)-Average (Full Sunshine), Hybrid at Upgrade 8. Buffs himself permanently starting from Placement for 15 waves till he has more than 2x of his base damage. Best Trait for him is Unique. (Costs {{Yen|100K}} to reach his max upgrade.)
+<br>DPS (Damage Per Second): 8,850
+<br>DPM (Damage Per Minute): 531,003
+<br>Total DPS: 26,550
+<br>Total DPM: 1,593,010
+----
+You can only place Escanor at Wave 3+ during Story Mode = 12 Sunshine (MAX), making his Sunshine Passive weaker.<br>
+*  Recommended Curse: [[Image:Damage icon.png|18px]] [[Image:SPA icon.png|18px]]
+*  Recommended Relics: [[Image:Lostvain.png|18px]] '''Lostvain'''  [[Image:Nail.png|18px]] '''Nail'''
+*  Recommended Traits: [[Image:Trait Unique.png|18px]] [[Image:Trait Celestial.png|18px]] [[Image:Trait Superior.png|18px]]}}
+
+{{TierList/Item|Sea God (Tyrant of the Seas)
+|Description=}}
+
+{{TierList/Item|Umbra (Nuclear)
+|Description=}}
+
+}}
+}}
+
+{{TierList/Item Container|color=#82fffe|id=Story_Mode<!-- id TierList -->|name=GREAT Ground
+|
+
+{{TierList/Item|Black Dog (HellHound)
+|Description=Extreme DPS, Medium AoE Circle, High Range.
+}}
+
+{{TierList/Item|Saka (Ribbon)
+|Description={{Meta Bleed Unit}}
+}}
+
+{{TierList/Item|Rebel (Flame Ruler)
+|Description={{Meta Burn Unit}}
+}}
+
+{{TierList/Item|Crystal Rose (Impact)
+|Description=}}
+
+{{TierList/Item|Gamer Girl (Flash)
+|Description=}}
+
+{{TierList/Item|Crimson Thief (Hunt)
+|Description=}}
+
+{{TierList/Item|Dragon Knight (Gauntlet)
+|Description=}}
+
+{{TierList/Item|Golden Navy (Buddha)
+|Description=}}
+
+{{TierList/Item|Skeleton Knight (King)
+|Description=}}
+
+{{TierList/Item|Jose (Unbreakable)
+|Description={{Meta Support Unit}}}}
+
+{{TierList/Item|Sharkfin (Tailless Beast)
+|Description=}}
+
+{{TierList/Item|Flamefeather (Magician's Red)
+|Description={{Meta Burn Unit}}}}
+
+{{TierList/Item|Mangaka (Artist)
+|Description=}}
+
+{{TierList/Item|Endeavor (Hellflame)
+|Description={{Meta Burn Unit}}}}
+
+{{TierList/Item|Sepsis (Moon)
+|Description=}}
+
+}}
+
+{{TierList/Item Container|color=#E39FF6|id=Story_Mode<!-- id TierList -->|name=GREAT Support
+|
+{{TierList/Item|Mochi Charlot
+|Description=Low DPS, Strong Slow Unit, 4 Placements, Great Line AoE (can slow for 4 seconds) and Strong Burn. Alternative to [[Ice Lily]] and/or [[Reliable Student (Echoes)]]
+<br>
+DPS (Damage Per Second): 4,248
+<br>
+DPM (Damage Per Minute): 254,881
+<br>
+Total DPS: 16,992
+<br>
+Total DPM: 1,019,527}}
+
+{{TierList/Item|Priest (Heaven)
+|Description=Average DPS, Decent Range and Flash SPA. Has an ability that allows him to decrease all units SPA by 50% for 30 seconds.}}
+
+{{TierList/Item|Sakuro
+|Description=Decent alternative to [[Idol (Star)]], buffing towers for 10% damage within her range for incredibly cheap cost. Heavily recommended for beginners. Note that her 10% damage buff does not stack with [[Idol (Star)]], so do not run them together. 
+}}
+
+{{TierList/Item|InHuman (Nullifier)
+|Description=High DPS, Full AoE and Decent Range. Dazai has the ability '''No Longer Human''', which nullifies enemy attributes (e.g. Armored, Flying) for 20 seconds within his range for 90 seconds on a global cooldown.
+}}
+
+{{TierList/Item|JIO (Over Heaven)
+|Description=[META HILL/HYBRID]
+Extreme DPS, Hybrid (ON PLACEMENT), Huge AoE circle. Although having High DPS, only one can be placed, making units with multiple placements accumulate more group DPS than JIO. JIO also has the ability known as "The World: Over Heaven" which using his stand, The World: Over Heaven, time stops the entire map for 20 SECONDS, however, has an extremely long cooldown.
+}}
+
+{{TierList/Item|Tamiki (Tornado)
+|Description=}}
+
+{{TierList/Item|Puppet Girl (Spirit)
+|Description={{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}<br>
+Low DPS, Line AoE, Medium SPA, Great Range, 4 Placement Cap and Slow for 4 seconds.
+}}
+
+{{TierList/Item|Infinity Mage (Endless)
+|Description={{Unobtainable Unit|Update 14 - Sword Art Online}}<br>
+Average DPS with Good Circle AoE. Merlyn have a passive allows her to amplifies a permanent damage effect by 30% for Magic Units letting enemies take more 30% magic damage.
+}}
+
+{{TierList/Item|Sukuno
+|Description=Insane-Average DPS with Insane Circle-AoE. Has a 20% chance to apply Dismember, a permanent physical damage amplification effect of 25% to enemies.
+}}
+
+{{TierList/Item|Broke (Soul King)
+|Description={{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas Update Part 1}}<br>
+Low DPS with High placement damage, Tiny range, Full-AoE, and Insanely Slow SPA. <br><br>On 7th upgrade, each attack randomly buffs everyone in range for damage by 15%, or for range by 10% for 10 seconds, same buffs don't stack. For reference, he buffs for 10 seconds while his SPA is 13. Can also ignore Upgrade 7, to retain the same DPS (as his max upgrade) to focus on cost efficiency at the expense of range and AoE.
+}}
+
+}}
+</tabber>
+<br>
+==Stat Rankings==
+
+Per-Unit (single) DPS is usually what most people in the community talk about as calculations are easier without taking into account number of placement. Please keep in mind that while certain characters' singular DPS may be higher than others, placement limits affect Total DPS significantly.
+
+DPS accounts for the DMG (Damage) of a unit divided by its SPA (Attack Speed). The Total damage of a unit can be higher or lower as some units can only be placed 3, 4, 5, etc. amount times.
+
+''The following info is what is used to describe statistics in the unit descriptions''
+{| class="article-table mw-collapsible"
+|+'''Lists basic statistics of units and how good they are compared to each other.'''
+!DPS
+!SPA
+!Range 
+!AoE Size
+!Ranking
+|-
+|<15,000
+|<5
+|<25
+|<8
+|Low
+|-
+|15,000-25,499 
+|5-8.9
+|25-34.9
+|9-14
+|Average
+|-
+|25,000-34,499
+|9-12.9
+|35-44.9
+|15-20
+|High
+|-
+|35,000-44,499
+|13-20 
+|45-49.9
+|21-30 
+|Extreme
+|-
+|45,000+
+|20+
+|50+ 
+|31+
+|Peak
+|}
+
+==Changelog==
+{| class="wikitable mw-collapsible mw-collapsed" role="presentation"
+|<strong><u>'''Tier List Updates:'''</u></strong>
+|-
+|'''Major Updates'''
+* Fixed all units name.
+* Improved DPS readability. If you notice any issues, please fix them.
+* Infinity Castle Tier List! Do whatever you want with it (within reason).
+<br>'''Minor Updates'''
+* Added all new event units!
+<br>'''Notes'''
+* Added new update units. (All of them are missing information and DPS might be wrong. ALSO they are not ranked yet on the Tier List due to lack of information about them. Note that some of units like Zombie and Shadow Sorceror is not added yet.)
+|}
+<br><center class="mobileonly">{{Anchor1|text=⮝ back start|id=back}}</center>
+__NOEDITSECTION____NOTOC__

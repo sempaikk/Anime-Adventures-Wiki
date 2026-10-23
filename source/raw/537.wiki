@@ -1,0 +1,18 @@
+==Overview==
+'''{{PAGENAME}}''' is an {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Rero rero rero rero... *intense cherry licking noises*"
+|caption2="Evil? There, you are wrong. "Evil" refers to the loser. "Justice" refers to the victor. The victor is the last man standing, and how you win in battle doesn't matter!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* After Update 14.0.0, {{PAGENAME}} has been given the {{Damage Type|Air}} damage type, along with other units without a second damage type.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

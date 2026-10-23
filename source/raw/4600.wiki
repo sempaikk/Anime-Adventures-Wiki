@@ -1,0 +1,1 @@
+<includeonly>[[File:BattlepassKey.png|24px|link=Battlepass]] [[Battlepass|<span class="Pos(r) Bg(Bxp) Bgcp(text) Tfc(transparent) game-font-face">{{{1|}}} {{plural:{{{1}}}|Bxp|Bexp}}<span class="Tsh(Game) Pos(a) Start(0) Z(-1)">{{{1|}}} {{plural:{{{1}}}|Bxp|Bexp}}</span></span>]]</includeonly><noinclude>{{Doc}}</noinclude>

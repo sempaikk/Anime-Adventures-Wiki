@@ -1,0 +1,31 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Secret}}. He can only be obtained by evolving [[Lulu]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The only ones who should kill, are those who are prepared to be killed."
+|caption2="Ever since that day, I have lived a lie: the lie of living."
+|image1=|image2=}}{{Main Stats}}
+
+==Active Ability: Mind Control==
+[[File:MindControlIcon.png|thumb|left]]
+On his max upgrade, {{PAGENAME}} can make enemies within his range walk back for a couple of seconds. This includes bosses, which makes him a good support unit.  Stun/Freeze/Walkback/knockback and similar effects can't stack, and there is a 1s delay before an enemy can be affected again
+* Duration: 5s
+* Cooldown: 40s
+* delay before another walkback can be used on the same enemy is 50 seconds
+* this effect scales of enemy speed so make sure not to use it when enemy is stunned or slowed
+==Selling==
+This unit cannot be sold.
+
+==Trivia==
+*This is the very first {{Rarity|Secret}} unit, as he is released upon the game's released. He was followed by [[Fire Fist]] on Update 1.
+*This is the only {{Rarity|Secret}} unit that is summonable and the first one that doesn't start out as a {{Rarity|Mythic}}.
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]
+{{DISPLAYTITLE:}}

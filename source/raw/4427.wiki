@@ -1,0 +1,26 @@
+{{Unobtainable Unit}}
+
+==Overview==
+'''{{PAGENAME}}'''  is a {{Rarity|Mythical}} unit. She can only be obtained through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am {{PAGENAME}}. I am a woman of legend. No matter how powerful my enemy is — I must fight!"
+|caption2="I am {{PAGENAME}}. I am a woman of legend. No matter how powerful my enemy is — I must fight!"
+}}{{Main Stats}}
+
+==Selling==
+Unit sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

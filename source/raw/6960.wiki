@@ -1,0 +1,18 @@
+{{Unobtainable Unit|Update 20 - Shibuya + Dungeons!}}
+== Overview ==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can only be obtained by clearing the Room 100 in [[Infinity Mansion]] and opening the [[Puppet Star]]
+
+== Stats Overview ==
+
+{{Tower Infobox
+|caption1=“The fact that a doll like you and not a human like me gets to live so carefree in the sun really pisses me off!”
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]

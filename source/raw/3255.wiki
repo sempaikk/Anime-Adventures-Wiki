@@ -1,0 +1,28 @@
+{{Custom Disclaimer|1=Semi-Limited Unit|2=She is noted to have a [[Cake Hunt|Gamepass]] version that is Limited.}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} she can only be obtained through [[Summon|Summons]].
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="That's why today I will once again lie... believing the lies will become the truth. Even if I end up paying for it one day..."}}{{Main Stats}}
+
+
+==Selling==
+This unit '''can't''' be sold once placed down.
+
+==Trivia==
+Oshy has the ability to give a Damage Boost to any unit you place <u>'''no matter where she is''' '''placed'''</u> on the map. (After evolving, she gets Cost Decrease Buff which decreases upgrade costs)
+* This cannot stack with [[Blossom]] buff.
+* Note that her normal version isn't limited. She's the first unit to do so.
+* She is the first unit to have her banner version after debuting as a battlepass unit.
+* If you see her on the banner, that isn't the limited version.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{DISPLAYTITLE:{{PAGENAME}}}}
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,29 @@
+{{Unobtainable Unit|Update 7 - Black Clover Update Part 1}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Exclusive}} {{LU}}. He is only obtainable by achieving Top 50 Infinite Run leaderboard (Top 10 if shiny) in Update 6.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I am the world's unhappiest man who has had everything snatched away since the moment of my birth."
+|caption2="I don't want to stand out. I want to live a quiet life without any problems."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* Saickik = '''[Limited]''' - Obtained by achieving a top 25 infinite run in Update 3-4
+* Saickik Shiny = '''[Limited]''' - Obtained by achieving a top 10 infinite run in Update 3-4
+
+==Gallery==
+<gallery>
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Leaderboard Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}

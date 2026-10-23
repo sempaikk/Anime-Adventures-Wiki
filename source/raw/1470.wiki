@@ -1,0 +1,9 @@
+<h2>Examples:</h2>
+{| class="article-table"  style="margin-top: 0;"
+| style="text-align: center" |code
+| style="text-align: center; border-left: 1px solid #59584a;" |view
+|-
+| style="color: #9500e0; font-family: monospace; user-select: all;"|<nowiki>{{Limited Unit}}</nowiki>
+| style="border-left: 1px solid #59584a;" |{{Limited Unit}}
+|-
+|}<includeonly>[[Category:Templates|{{PAGENAME}}]]</includeonly>

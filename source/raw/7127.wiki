@@ -1,0 +1,25 @@
+{{Limited Unit}}
+
+== Overview ==
+gytypoiki is a {{Rarity|Mythical}} {{LU}}. She can only be obtained by evolving [[Kansai]]
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "Sata andagiii..."
+|caption2="Sata andagiii..."
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+== Passive Ability: Daydream==
+After 10 seconds of '''{{PAGENAME}} inactivity''', enter a Daydream. During the daydream, '''{{PAGENAME}}''' gain a '''10% damage buff''' every second up to '''200%'''. This bonus resets upon finishing an attack.
+
+== Selling ==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

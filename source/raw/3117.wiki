@@ -1,0 +1,29 @@
+{{Meta Support Unit}}
+{{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}
+==Overview==
+'''Yoshina (Spirit)​''' is a {{Rarity|Mythical}} {{LU}}. She can be obtained by evolving [[Puppet Girl]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I... hate, painful things. I also hate... scary things. Surely, those people too... whether its pain, or scary things, I think they... don't want it too. That's why, I..."
+|caption2="Puppet is... my ideal... yearnings of... myself. Unlike me... not weak, unlike me... not hesitant... strong and cool..."
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+
+==Trivia==
+Her and [[Yono (Spirit)]] have the same evo name.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Event Units]]

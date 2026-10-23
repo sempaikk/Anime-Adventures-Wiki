@@ -1,0 +1,20 @@
+{{Unobtainable Unit|Update 6.5 - Jujutsu Kaisen Update Part 2}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. She is only obtainable by evolving [[Elize]] and her evolved form is only available from the Heavenly Invasion event.
+
+She can evolve from [[Elize ]] by using:
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=
+|caption2=
+}}{{Main Stats}}
+
+==Selling==
+
+==Trivia==
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

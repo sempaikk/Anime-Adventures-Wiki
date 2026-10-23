@@ -1,0 +1,22 @@
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. She is only obtainable by evolving [[Jolyna]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I HAVE AN UGLY REMODEL LOOK AT ME IM JAKE!!"
+|caption2="Something like burning my own body...! Compared to everything else I've gone though...! If this is what I need to do to get to the [[Priest]], it's absolutely nothing!!"
+|image1={{PAGENAME}}.png
+|Damage_type=true|Secondary_Damage_type=true|deployment_cost=true|total_cost=true|upgrade_levels=tryue|spawn_cap=true|Tower_type=true}}{{Main Stats}}
+
+==Passive Ability:Web Prison==
+Jolyna (Determination) after her 8th upgrade. She can stun enemies during her attack in AOE for 1 second 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Damage Type Magic]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

@@ -1,0 +1,29 @@
+==Overview==
+'''{{PAGENAME}}''' is not piccolo please redirect to piccolo or jake
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I don't need any assistance."
+|caption2="How many times do I have to tell you, there is no point in saving the dead. That's a Shinigami's job. You should learn how to save the people who are alive."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+== Passive Ablity: Holy Arrow ==
+Every five attacks, '''{{PAGENAME}}''' change his attack type from ''Rain of Light'' to ''Holy Arrow. Holy Arrow'' can do double damage of ''Rain of Light.''
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+*When Update 7.0.0 released on November 12th, 2022, [[Spirit Archer]] and {{PAGENAME}} damage was buffed by 30%.
+*When Update 10.5.0 released on February 3rd, 2023, [[Spirit Archer]] and {{PAGENAME}} damage was buffed by an additional 35%.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]

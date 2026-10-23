@@ -1,0 +1,22 @@
+{{Unobtainable Unit| Update 10.5 - Cloud Pass Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} {{LU}}. He is only obtainable once you get rank 25 in Cake Hunt and with Premium Pass for his shiny version.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="In English, they say it like "pair-is", while everyone says it like "pa-ree" like in French. But Venezia is called "Venice" in English. Like "The Merchant of Venice" and "Death in Venice"... Why isn't the title "Death in Venezia"!?"
+|caption2="In English, they say it like "pair-is", while everyone says it like "pa-ree" like in French. But Venezia is called "Venice" in English. Like "The Merchant of Venice" and "Death in Venice"... Why isn't the title "Death in Venezia"!?"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

@@ -1,0 +1,31 @@
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit.'' He is only obtainable by evolving [[Illusionist]] .''
+
+{{EvolutionTable}}
+He can be further evolved to [[Illusionist (Chrysalis)]] by acquiring 37.5% awakening (75 worthy souls) and 2,000 kills with him.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Any betrayal you can witness is trivial, what is truly spooky and much more lethal, is the betrayal you cannot witness."
+|caption2="Welcome to my Spirit Society."
+|image1=Illusionist.png
+}}{{Main Stats}}
+
+== Active Attack: Illusionist: Illusion ==
+Upon activation Illusionist will cast an illusion upon the enemies, making the base '''Invincible''' for '''10 seconds.''' This ability is deemed very useful for leaderboard runs which is the main reason Illusionist is mainly used in leaderboard runs.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* At Update 11.5, his ability duration got nerfed from 20 seconds to 10 seconds.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Evolved Units]]

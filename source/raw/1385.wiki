@@ -1,0 +1,22 @@
+==Overview==
+'''Hammergirl''' is a {{Rarity|Legendary}} unit. She is only obtained through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="What Makes Us Obligated To Meet Such Perfection Or Such Absurd Standards?"
+|caption2="Cheer up guys, atleast i'm here."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Bleed Units]]

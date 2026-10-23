@@ -1,0 +1,32 @@
+{{Meta Support Unit}}
+
+''If you were looking for a different Delinquent unit, see [[Delinquent (disambiguation)]]''
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is an {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1= "Yare yare daze."
+|caption2="[[Reliable Student (Echoes)|Student]] , you truly are a reliable guy."
+}}{{Main Stats}}
+
+==Active Ability: Time Stop==
+{{PAGENAME}} uses his stand ability to stop time, stunning enemies in place for 4 seconds. This ability makes Delinquent a nice unit to have in early game.
+
+Though his attacks do not inflict [[Effects#Freeze|Freeze]] (unlike [[JIO]], [[Cold Mage]] and his evo, [[Snake Princess]], etc.,), he is still recommended for everyone due to his strong range for his ability, extremely low CD of an active ability, especially you can activate it at the desired time. He benefits from [[Powerups#Curses|SPA Curses]] extremely well due to even lowering the cooldown, but unlike [[Paradox (Divine Sight)]], his ability is hindered by Short Range challenges and the like. In addition to that, his overall cost is even cheaper than [[Time Wizard (Chrono)]]'s placement cost, costing {{Yen|775}} less.
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* On Update 12.5.0, his Time Stop ability duration was nerfed from 5s to 4s.
+
+
+{{Unit Navigation}}
+
+__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Epic Units]]
+[[Category:Damage Type Physical]]

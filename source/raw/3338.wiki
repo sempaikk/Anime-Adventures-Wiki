@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 13 - One Piece - Dressrosa Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He can be obtained via [[Silver Star]] from [[Infinity Mansion]] (Season 6), while his Shiny Version can be obtained by placing {{RarityColor|Mythical|Master}} or higher.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It is not different from the things that humans can naturally sense such as these. 'The act of not doubting'. That is strength."
+|caption2="I've never laughed more than on that day...!! I've never cried more than on that day... I've never drank more either..!! He was our captain... and he was a magnificent man...!!!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Units]]
+[[Category:Mythic Units]]
+[[Category:Infinity Mansion Units]]

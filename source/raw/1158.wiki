@@ -1,0 +1,564 @@
+{{Anchor2|id=back}}
+Effects are the variety of mechanics some [[Unit List|Units]] are capable of doing in certain situations. Effects range from unit buffs, enemy debuffs, or economy.  
+
+=='''Support'''==
+*'''Income:''' Generate money after each wave.
+[[Weather Girl (Thief)]] is different and can generate cash from her 'Treasure Thief' ability causing enemies to spawn with a glowing gold symbol on them which gives the player money on kill.
+*'''Healer:''' Heals the base by restoring lost base Hp, or even giving extra HP to the base after each wave.
+*'''Buff:''' Buff certain aspects of the unit such as Range, Damage, or SPA. Discounts given to upgrades from a unit also falls under this.
+[[Commander]] can only buff Physical units while [[Wind Dragon]] can only buff Magic units. [[Griffin (Reincarnation)]] can buff both Physical and Magic Damage. [[Oshy (Idol)]] is the only unit that can give discounts to upgrades for units.
+*'''Debuff:''' Debuff enemies by making them take more damage from a specific attack type. 
+[[Cursed King]] and [[Switchblade (Deception)|Switchblade]] can make enemies permanently take 20% more Physical damage. Although [[Blackhair]] can make enemies take 15% more Magic damage and [[Shadow Sorcerer (Hybrid Shadow)]] can make enemies temporarily take 30% more Magic damage. [[Infinity Mage (Endless)]] can make enemies permanently take 30% more magic. 
+<tabber>
+|-|Income Units=
+<div class="content">
+<div class="grid_body" style="background-color: #a9a8001c;box-shadow: 0 0 11px -2px #fffd006e, inset 0 0 20px 0px #ffbc401f;box-sizing: content-box;border: 2px solid #a9a8006e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Weather Girl (Thief)}}
+{{Characterbox|Bulby}}
+{{Characterbox|C.E.O.}}
+</div></div>
+}}
+|-|Healer Units=
+<div class="content">
+<div class="grid_body" style="background-color: #1ba64e1c;box-shadow: 0 0 11px -2px #29ff786e, inset 0 0 20px 0px #e7f43a1f;box-sizing: content-box;border: 2px solid #1ba64e6e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Blossom|check_img=true}}
+</div></div>
+}}
+|-|Buff Units=
+<div class="content">
+<div class="grid_body" style="background-color: #a717171c;box-shadow: 0 0 11px -2px #f822226e, inset 0 0 20px 0px #f14bc51f;box-sizing: content-box;border: 2px solid #a717176e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+
+{{Characterbox|Trickster (Release)}}
+{{Characterbox|Skeleton (Soul King)}}
+{{Characterbox|Griffin (Reincarnation)}}
+{{Characterbox|Elfy (Sylph)}}
+{{Characterbox|Idol (Star)}}
+{{Characterbox|Idol}}
+{{Characterbox|Devil Boss}}
+{{Characterbox|Priest (Heaven)}}
+{{Characterbox|Commander}}
+{{Characterbox|Wind Dragon|check_img=true}}
+{{Characterbox|Blossom|check_img=true}}
+</div></div>
+}}
+|-|Debuff Units=
+<div class="content">
+<div class="grid_body" style="background-color: #56671a1c;box-shadow: 0 0 11px -2px #89a42a6e, inset 0 0 20px 0px #a190471f;box-sizing: content-box;border: 2px solid #56671a6e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div> 
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Switchblade (Deception)}}
+{{Characterbox|Infinity Mage (Endless)}}
+{{Characterbox|Cursed King}}
+{{Characterbox|Shadow Sorcerer (Hybrid Shadow)}} 
+{{Characterbox|Blackhair}}
+{{Characterbox|Shadow Sorcerer (Incident)}}
+{{Characterbox|Shadow Sorcerer (Ritual)}}
+{{Characterbox|Chuuni (Delusion)}}
+</div></div>
+}}
+
+</tabber>
+
+=='''Movement Cancelation'''==
+*'''Stun:''' Freezes enemy for duration of effect. '''(Has a cooldown of 10-14 seconds)'''
+*'''Freeze:''' Freezes enemy for duration of effect. Duration varies by which unit deals freeze. '''(Has a cooldown of 10 seconds)'''
+*'''Timestop:''' Freezes enemy for duration of effect, works the same as freeze meaning it won’t stack with it
+<tabber>
+|-|Stun=
+<div class="content">
+<div class="grid_body" style="background-color: #9393931c;box-shadow: 0 0 11px -2px #e1e1e16e, inset 0 0 20px 0px #d0c2a41f;box-sizing: content-box;border: 2px solid #9393936e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Pirate King (Final)}}
+{{Characterbox|Bunny (Night)}}
+{{Characterbox|Jose (Unbreakable)}}
+{{Characterbox|Jose (Shining Gem)}}
+{{Characterbox|Jose|check_img=true}}
+{{Characterbox|Dolphin (Determination)}}
+{{Characterbox|Packy (Maniac)}}
+{{Characterbox|Killer (Godspeed)}}
+{{Characterbox|Red Scar (Conqueror)}}
+{{Characterbox|Silver King}}
+{{Characterbox|Shinobi (Storm)}}
+{{Characterbox|Menace (Terror)}}
+{{Characterbox|Sand Ninja|check_img=true}}
+{{Characterbox|Delinquent|check_img=true}}
+</div></div>
+}}
+|-|Freeze=
+<div class="content">
+<div class="grid_body" style="background-color: #7d9ba41c;box-shadow: 0 0 11px -2px #a7cfdb6e, inset 0 0 20px 0px #c3d9d51f;box-sizing: content-box;border: 2px solid #7d9ba46e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Snow Reaper (Final)}}
+{{Characterbox|Ice Queen (Empire's Strongest)}}
+{{Characterbox|Frost Navy (Blue Pigeon)}}
+{{Characterbox|Frost Navy}}
+{{Characterbox|Cold Mage (Devil Slayer)}}
+{{Characterbox|Cold Mage}}
+{{Characterbox|Delinquent (The Universe)}}
+{{Characterbox|Snake Princess}}
+{{Characterbox|Snow Reaper|check_img=true}}
+{{Characterbox|Mangaka (Artist)}}
+</div></div>
+}}
+|-|Timestop=
+<div class="content">
+<div class="grid_body" style="background-color: #b0ad521c;box-shadow: 0 0 11px -2px #a200001c, inset 0 0 20px 0px #e4bc881f;box-sizing: content-box;border: 2px solid #b0ad526e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Shadowgirl (Time Traveller)}}
+{{Characterbox|JIO (Over Heaven)}}
+{{Characterbox|Paradox (Divine Sight)}}
+{{Characterbox|Delinquent (The Universe)}}
+{{Characterbox|Devil Boss}}
+{{Characterbox|JIO|check_img=true}}
+{{Characterbox|Delinquent|check_img=true}}
+</div></div>
+}}
+</tabber>
+
+=='''Burn'''==
+Deals {{Damage Type (No Category)|Fire}} (and their other secondary attribute if there was one) DoT ''(Damage over time)'' for every hit. Burn stacks with other sources of Burn from other towers. Additional damage can vary from Unit to Unit.   
+
+*'''Burn:''' Typically 30% or 50% Damage. 
+
+*'''Burn (Black):''' 100% Damage.
+<tabber>
+|-|Burn=
+<div class="content">
+<div class="grid_body" style="background-color: #a7651d1c;box-shadow: 0 0 11px -2px #ec8f2a6e, inset 0 0 20px 0px #ec5b5b1f;box-sizing: content-box;border: 2px solid #a7651d6e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Mangaka (Artist)}}
+{{Characterbox|Fire Fist}}
+{{Characterbox|Spider (Immolation)}}
+{{Characterbox|Fiery Commander (Hellfire)}}
+{{Characterbox|Fiery Commander}}
+{{Characterbox|Fleet Admiral Magma}}
+{{Characterbox|Magma}}
+{{Characterbox|Flamefeather (Arcane Blaze)}}
+{{Characterbox|Flamefeather}}
+{{Characterbox|Lucifer}}
+{{Characterbox|Lucifer (Demon Emperor)}}
+{{Characterbox|Flame Hero (Hellfire)}}
+{{Characterbox|Flame Hero}}
+{{Characterbox|Cyborg (Incinerate)}}
+{{Characterbox|Cyborg (Overdrive)}}
+{{Characterbox|Mazara (Founder)}}
+{{Characterbox|Mazara}}
+{{Characterbox|Dragonslayer (Lightning Mode)}}
+{{Characterbox|Dragonslayer}}
+{{Characterbox|Mochi}}
+{{Characterbox|Mochi (Rage)}}
+{{Characterbox|Donut (ABLAZE)}}
+{{Characterbox|Donut}}
+{{Characterbox|Rebel (Flame Ruler)}}
+{{Characterbox|Rebel}}
+{{Characterbox|Tarata (Ignite)}}
+{{Characterbox|Tarata}}
+{{Characterbox|Blaze Frost (Released)}}
+{{Characterbox|Blaze Frost}}
+{{Characterbox|Scorch}}
+{{Characterbox|Flame Wizard|check_img=true}}
+{{Characterbox|Blaze Frost (Epic)}}
+{{Characterbox|Joan|check_img=true}}
+</div></div>
+}}
+|-|Burn (Black)=
+<div class="content">
+<div class="grid_body" style="background-color: #19090945;box-shadow: 0 0 11px -2px #662525a8, inset 0 0 20px 0px #64354a4f;box-sizing: content-box;border: 2px solid #190909a8;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Izo (Black Fire)}}
+{{Characterbox|Izo (Samurai)}}
+{{Characterbox|Shinobi (Eternal)}}
+{{Characterbox|Shinobi (Awakened)}}
+{{Characterbox|Izo|check_img=true}}
+</div></div>
+}}
+</tabber>
+
+=='''Bleed'''==
+
+* '''Bleed:''' Deals DoT (Damage over time) after hit and entirely stops the HP regeneration of enemies under the effect. Bleed stacks with other sources of Bleed from other towers. Additional damage is often 25%-35%, with some outliers dealing 50% additional damage in Bleed.  
+* ''Note: The additional damage dealt from bleed is increased from buffs from units. 100% buff from either Commander/Wind Dragon or Griffin (Ascension)'s buff form doubles the percentage of additional damage and when stacking both buffs it will triple the percentage of additional damage. Example: A unit with 30% additional bleed damage will deal 60% with 100% buff and 90% with 200% buff.''
+
+* '''Bleed Amplification:''' Units with Bleed Amplification make attacked enemies take 3.5x - 5x (dependent on the unit's upgrade) damage from all bleed sources for the duration of the effect (this does not extend the bleed debuff duration that negates regeneration).
+<tabber>
+|-|Bleed=
+<div class="content">
+<div class="grid_body" style="background-color: #a200001c;box-shadow: 0 0 11px -2px #e600006e, inset 0 0 20px 0px #ea36601f;box-sizing: content-box;border: 2px solid #a200006e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Mangaka (Artist)}}
+{{Characterbox|Saka (Ribbon)}}
+{{Characterbox|Saka}}
+{{Characterbox|Blade Beast (Past)}}
+{{Characterbox|Death Ninja (Immortal Butcher)}}
+{{Characterbox|Death Ninja}}
+{{Characterbox|Tiger}}
+{{Characterbox|Tiger (Moonlight Beast)}}
+{{Characterbox|Blade Beast (Hybrid)}}
+{{Characterbox|Blade Beast}}
+{{Characterbox|Elize (True Heart)}}
+{{Characterbox|Crimson Thief (Hunt)}}
+{{Characterbox|Crimson Thief}}
+{{Characterbox|Berserker (Rage)}}
+{{Characterbox|Berserker}}
+{{Characterbox|Eccentric Researcher (Captain)}}
+{{Characterbox|Eccentric Researcher}}
+{{Characterbox|Juozu (Joker)}}
+{{Characterbox|Juozu}}
+{{Characterbox|Lex Akoman}}
+{{Characterbox|Lex}}
+{{Characterbox|Somber}}
+{{Characterbox|Somber (Buzzsaw)}}
+{{Characterbox|Cat Guard (Ballet)}}
+{{Characterbox|Cat Guard}}
+{{Characterbox|Menace (Terror)}}
+{{Characterbox|Menace}}
+{{Characterbox|Cursed King}}
+{{Characterbox|Bleed Queen}}
+{{Characterbox|Hammergirl|check_img=true}}
+{{Characterbox|Ghoul (Centipede)|check_img=true}}
+{{Characterbox|Demon Girl|check_img=true}}
+</div></div>
+}}
+|-|Bleed Amplification=
+<div class="content">
+<div class="grid_body" style="background-color: #a200001c;box-shadow: 0 0 11px -2px #e600006e, inset 0 0 20px 0px #ea36601f;box-sizing: content-box;border: 2px solid #a200006e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Blood (Unleashed)}}
+{{Characterbox|Bloodcry (Fallen)}}
+</div></div>
+}}
+</tabber>
+
+=='''Poison'''==
+*'''Poison:''' Deals DoT (Damage over time) for every hit. Poison stacks with other sources of Poison from other towers.
+<tabber>
+|-|Poison=
+<div class="content">
+<div class="grid_body" style="background-color: #420c9b1c;box-shadow: 0 0 11px -2px #5c10d96e, inset 0 0 20px 0px #3860d91f;box-sizing: content-box;border: 2px solid #420c9b6e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Haze (Rage)}}
+{{Characterbox|Gas (Toxic)}}
+</div></div>
+}}
+</tabber>
+
+=='''Movement & Speed Manipulation'''==
+*'''Slow:''' Reduces enemy speed for duration of effect. '''(Has a cooldown of 4 seconds after effect wears off)'''
+*'''Knockback:''' Pushes enemies backwards along the path. '''(Has a cooldown of 30-31 seconds)'''
+*'''Rewind:''' Enemies walk backwards for duration of effect.
+<tabber>
+|-|Slow=
+<div class="content">
+<div class="grid_body" style="background-color: #3e7d3d1c;box-shadow: 0 0 11px -2px #64cb626e, inset 0 0 20px 0px #89cb881c;box-sizing: content-box;border: 2px solid #3e7d3d6e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Snow Reaper (Final)}}
+{{Characterbox|Toad Sensei (Toad Sage)}}
+{{Characterbox|Reliable Student (Echoes)}}
+{{Characterbox|Cotton (Sheep)}}
+{{Characterbox|Ice Lily}}
+{{Characterbox|Mochi (Rage)}}
+{{Characterbox|Ghost Lady (Princess)}}
+{{Characterbox|Blaze Frost (Released)}}
+{{Characterbox|Blaze Frost}}
+{{Characterbox|Siren (Harpy)}}
+{{Characterbox|Mangaka (Artist)}}
+{{Characterbox|Siren}}
+{{Characterbox|Puppet Girl (Spirit)}}
+{{Characterbox|Puppet Girl}}
+{{Characterbox|Ice Shaper}}
+{{Characterbox|Magician|check_img=true}}
+{{Characterbox|Blaze Frost (Epic)}}
+</div></div>
+}}
+|-|Knockback=
+<div class="content">
+<div class="grid_body" style="background-color: #7a2a2a1c;box-shadow: 0 0 11px -2px #d04a4a6e, inset 0 0 20px 0px #d48b6f1f;box-sizing: content-box;border: 2px solid #7a2a2a6e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Mangaka (Artist)}}
+{{Characterbox|Prime Force (Peace)}}
+{{Characterbox|Emperor Whitehair}}
+{{Characterbox|Tamiki (Tornado)}}
+{{Characterbox|Agony}}
+{{Characterbox|Agony (Path)}}
+{{Characterbox|Shadow Sorcerer (Ritual)}}
+{{Characterbox|Divine General}}
+</div></div>
+}}
+|-|Rewind=
+<div class="content">
+<div class="grid_body" style="background-color: #5222921c;box-shadow: 0 0 11px -2px #913dff6e, inset 0 0 20px 0px #718efe1f;box-sizing: content-box;border: 2px solid #5222926e;padding: 5px;border-radius: 5px;">
+<div class="mobileonly">{{Anchor2|id=New Units}}</div>
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Lulu (Emperor)}}
+{{Characterbox|Calm Killer (Meets the End)}}
+{{Characterbox|Operator (ROOM)}}
+{{Characterbox|Time Wizard (Chronos)}}
+{{Characterbox|Doll (Spirit Archer)}}
+</div></div>
+}}
+</tabber>
+=='''Base Protection'''== 
+
+*'''Base Protection:''' Protects the base from all sources of damage for the duration of the effect.
+<tabber>
+|-|Base Protection=
+<div class="content">
+<div class="grid_body" style="background-color: #5650901c;box-shadow: 0 0 11px -2px #988dff6e, inset 0 0 20px 0px #a7d0f81f;box-sizing: content-box;border: 2px solid #5650906e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Illusionist (Betrayal)}}
+{{Characterbox|Illusionist (Chrysalis)}}
+{{Characterbox|Illusionist (Fusion)}}
+{{Characterbox|Illusionist (Final)}}
+</div></div>
+}}
+</tabber>
+=='''Summoning'''== 
+
+*'''Summon:''' Summons allies from the player's base. The summoned allies will go down the path(s), dealing damage to any enemy it hits on their own path. Once the summoned unit runs out of HP, it vanishes. Raising a unit's level will increase their summon's HP in most cases.
+
+* '''Summon Buffer:''' Units with Summon Buffer will increase the amount of HP summons spawn in with.
+<tabber>
+|-|Summoning=
+<div class="content">
+<div class="grid_body" style="background-color: #756a531c;box-shadow: 0 0 11px -2px #d1bf966e, inset 0 0 20px 0px #d2baaf1f;box-sizing: content-box;border: 2px solid #756a536e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Dracula (Unholy King)}}
+{{Characterbox|Supreme Being (Sovereign)}}
+{{Characterbox|Lulu (Emperor)}}
+{{Characterbox|Lulu}}
+{{Characterbox|Lyla (Celestial)}}
+{{Characterbox|Lyla}}
+{{Characterbox|Usurper (Founder)|check_img=true}}
+{{Characterbox|Ghosty (Sacrifice)}}
+{{Characterbox|Jackal (Alpha)}}
+{{Characterbox|Commander}}
+{{Characterbox|Usurper|check_img=true}}
+{{Characterbox|Elyssia (Abyssal)}}
+{{Characterbox|Violentine (Brutal Angel)}}
+</div></div>
+}}
+|-|Summon buffer=
+<div class="content">
+<div class="grid_body" style="background-color: #756a531c;box-shadow: 0 0 11px -2px #d1bf966e, inset 0 0 20px 0px #d2baaf1f;box-sizing: content-box;border: 2px solid #756a536e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Zombie (Risen)}}
+</div></div>
+}}
+</tabber>
+
+=='''Crash'''==
+*'''Crash:''' Removes all shield instances on enemies when hit.
+<tabber>
+|-|Crash=
+<div class="content">
+<div class="grid_body" style="background-color: #7d9ba41c;box-shadow: 0 0 11px -2px #a7cfdb6e, inset 0 0 20px 0px #c3d9d51f;box-sizing: content-box;border: 2px solid #7d9ba46e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Crush (Ace)}}
+</div></div>
+}}
+</tabber>
+=='''Critical Hit'''==
+*'''Crit:''' A percent chance to deal bonus damage. When landing a critical hit the unit will deal 1.5x - 2x more damage depending on the unit. Crit chance often ranges anywhere from 25%-50%. You can also give this effect to Physical units with certain relics, such as the [[Relics|Nail]].
+[[Sepsis (Moon)|Sepsis]] has the unique ability to always crit when landing a hit on an enemy under the effect of Bleed. This effect has no in game name and is just referred to as +100% crit chance to bleeding enemies, when viewing the unit's evolution details.<tabber>
+|-|Crit=
+<div class="content">
+<div class="grid_body" style="background-color: #a200001c;box-shadow: 0 0 11px -2px #e600006e, inset 0 0 20px 0px #ea36601f;box-sizing: content-box;border: 2px solid #a200006e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Iceclaw (Azure Fang)}}
+{{Characterbox|Ratio (Overtime)}}
+{{Characterbox|Chance (Precision)}}
+{{Characterbox|Curse (Contract)}}
+{{Characterbox|Scarlet Slayer (Cursed Frost)}}
+{{Characterbox|Hermy (Duplicate)}}
+{{Characterbox|Elize (Valkyrie)}}
+{{Characterbox|White Snake (Sacred Spear)}}
+{{Characterbox|Sepsis (Moon)}}
+{{Characterbox|Eccentric Researcher (Captain)}}
+{{Characterbox|Falcon (Feather Strike)}}
+{{Characterbox|Falcon}}
+{{Characterbox|Virtual Samurai (Bachelor)}}
+{{Characterbox|Virtual Samurai}}
+{{Characterbox|Cowardly (Scared)}}
+{{Characterbox|Lex Akoman}}
+{{Characterbox|Wratho (Assault)}}
+{{Characterbox|Cat Guard (Ballet)}}
+{{Characterbox|Saki (Cyanblade)}}
+{{Characterbox|Saki}}
+{{Characterbox|Supersound (Speed)}}
+{{Characterbox|Tango (Flash God)}}
+{{Characterbox|Tango (Score)}}
+{{Characterbox|Icy Dragon (Lotus)}}
+{{Characterbox|Spirit Archer (Reversal)}}
+{{Characterbox|Menace}}
+{{Characterbox|Menace (Terror)}}
+{{Characterbox|Spearer (Child of Light)}}
+{{Characterbox|Switchblade (Deception)}}
+</div></div>
+}}
+</tabber>
+=='''Wither'''==
+*'''Wither:''' An infinitely stackable effect that gets applied each hit. Wither deals DoT (Damage over time) in true damage while also disabling the HP regeneration of enemies under the effect. Additional damage is 20% of unit's Damage.
+<tabber>
+|-|Wither=
+<div class="content">
+<div class="grid_body" style="background-color: #22003833;box-shadow: 0 0 11px -2px #570290a1, inset 0 0 20px 0px #45208b40;box-sizing: content-box;border: 2px solid #220038a1;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Ashborn (Decay)}}
+</div></div>
+}}
+</tabber>
+=='''Battlelust'''==
+*'''Battlelust:''' Each attack that hits an enemy gives a '''5%''' damage buff with a max stack of '''25%'''. The effect will reset if the unit doesn't hit anything for too long.
+<tabber>
+|-|Battlelust=
+<div class="content">
+<div class="grid_body" style="background-color: #5d2d2d30;box-shadow: 0 0 11px -2px #904949a1, inset 0 0 20px 0px #945d7340;box-sizing: content-box;border: 2px solid #5d2d2da1;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Karma (Thunder Fiend)}}
+</div></div>
+}}
+</tabber>
+=='''Sunshine'''==
+*'''Sunshine:''' Damage and Range increase with each wave passed after placement. This effect caps out after 15 Waves of the unit being placed and adds 9% Damage and 4.5% Range each wave.
+It is recommended to place units with Sunshine on Wave 2 (in Portals with Infinite Mode-oriented yen distribution), at Wave 3-4 during Wave 20 Portals (with normal yen distribution), or Raids to get his the Buff.
+
+
+<tabber>
+|-|Sunshine=
+<div class="content">
+<div class="grid_body" style="background-color: #ffd0001c;box-shadow: 0 0 11px -2px #ffa9626e, inset 0 0 20px 0px #ffb56252;box-sizing: content-box;border: 2px solid #ffd0006e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Hubris (The One)}}
+</div></div>
+}}
+</tabber>
+=='''Curse Stack'''==
+*'''Curse Stack:''' Each critical hit landed by the unit adds a Curse Stack. After 4 curse stacks, the unit deals 200% more damage in {{Damage Type|True}} Damage and removes all current stacks.
+Nail Relic is recommended to boost curse stack significantly. <tabber>
+|-|Curse Stack=
+<div class="content">
+<div class="grid_body" style="background-color: #7d9ba41c;box-shadow: 0 0 11px -2px #a7cfdb6e, inset 0 0 20px 0px #c3d9d51f;box-sizing: content-box;border: 2px solid #7d9ba46e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Curse (Contract)}}
+</div></div>
+}}
+</tabber>
+
+==Wild Card==
+
+*'''Wild Card:''' Each of the unit's attacks will randomly cast one of these effects: Freeze/Slow/Knockback/Bleed/Burn.
+<tabber>
+|-|Wild Card=
+<div class="content">
+<div class="grid_body" style="background-color: #7d9ba41c;box-shadow: 0 0 11px -2px #a7cfdb6e, inset 0 0 20px 0px #c3d9d51f;box-sizing: content-box;border: 2px solid #7d9ba46e;padding: 5px;border-radius: 5px;">
+<h3 class="mobileonly">'''New Units'''</h3>
+{{Container Characterbox
+|
+{{Characterbox|Mangaka (Artist)}}
+</div></div>
+}}
+</tabber>
+==How Each Effect Works==
+===Enemy Effects===
+*'''Burn:''' Deals DoT (Damage over time) for every hit. (Burn instances stack with other burn instances inflicted by other towers). The bleed deals damage based on a percentage the unit's base damage.
+*'''Bleed:''' Deals DoT (Damage over time) after hit and it entirely stops the HP Regen of an enemy unit who has the ability to RGN (regen). (Bleed instances stack with other burn instances inflicted by other towers). The bleed deals damage based on a percentage the unit's base damage.
+*'''Bleed Amplify:''' Units with this passive are able to Amplify the amount of Bleed Damage a bleed unit is capable of doing, the increase can range from 3x to 5x (varies based on upgrades). This passive is permanent (it lasts until the enemy dies).
+*'''Wither:''' [[Ashborn (Decay)]] applies the Wither debuff when he attacks which applies a '''maximum 18 ticks''' of true damage and disables HP regen of enemies while the effect is active.
+*'''Slow:''' Manipulates the speed of the enemies when hit by a unit with this effect, resulting in a massive decrease in the speed at which the enemy moves. '''(Has a cooldown of 7 seconds)'''
+*'''Stun:''' Completely restricts movement of enemies for the duration of the effect. '''(Has a cooldown of 10-14 seconds)'''
+*'''Cursed:''' Makes enemies take additional damage from magic damage. This buff can range from '''15%''' ([[Blackhair]] to '''30%''' [[Shadow Sorcerer (Hybrid Shadow)]]).
+*'''Confused:''' Makes all enemies in range walk backwards for '''5''' seconds.
+*'''Knockback:''' Pushes enemy towards back the way it was coming from. '''(Has a cooldown of 30-31 seconds)'''
+*'''Freeze:''' Completely restricts movement of enemies for the duration of the effect. The duration at which the freeze lasts is dependent on the unit which casts it. '''(Has a cooldown of 12-13 seconds)'''
+*'''Shatter:''' Removes all shield instances on enemies when hit.
+*'''Unconscious:''' Enemy is knocked out and stopped in place for '''3-4''' seconds.
+*'''Dismembered:''' Causes the enemy to seemingly lose a body part and take increased physical damage permanently.
+*'''Chrono Reversal:''' Similar to '''Confused''', makes all enemies in range walk backwards for 5 seconds. This ability also does 100% of the units damage in 5 ticks(20% per tick) to all enemies in their radius. '''Note that its a manual ability and it cannot work on bosses.'''
+*'''Snatched:''' Each attack increases damage by 3% up to 33% (99% on a max upgrade) for 90 seconds.
+*'''Mind Control:''' Forces enemies with a 10% chance in range to walk back for 1.5 seconds.
+*'''Hexed:''' Similar to '''Dismembered''', Curses the enemy and increases their magic damage taken resulting in taking a permanent '''30%''' more magic damage.
+*'''Poison:''' Deals DoT (Damage over time) for every hit.
+
+===Unit Effects=== 
+*'''Crit:''' A percent chance to deal/land a critical hit. When landing a critical hit the unit would deal 1.5x (+50% DMG) more damage and x2 Crit DMG (+100%) for [[Lex Akoman]].
+*'''Over Crit:''' [[Sepsis (Moon)]] is able to do guarantees a critical hit on enemies that currently bleeding making his DPS increase by 50% consistently when paired with [[Saka (Ribbon)]].
+*'''Motivate:''' Each attack buffs all allies in range by '''15%''' damage or '''10%''' range for '''10 seconds'''. This can stack independently with different durations, but same effects do not stack. However, this can stack with other buffs like [[Wind Dragon]]'s, [[Skeleton (Soul King)]], [[Commander]]'s, [[Blossom]]'s, [[Trickster (Release)]]'s or [[Elfy (Sylph)]]'s.
+*'''Battlelust:''' Each attack that hits and enemy gives '''5%''' more damage buff for [[Karma (Thunder Fiend)]] with a max stack of '''25%'''. The effect will reset if the unit doesn't hit anything for too long.
+*'''Curse Stack:''' Each attack that unit lands a critical hit that unit adds a curse stack effect after 4 curse stacks (dealing a critical attack x4) it can deal 200% more damage as {{Damage Type|True}} 
+*'''True Damage:'''  {{Damage Type|True}} Damage units can ignore resistances/shields from enemies when attacking.
+*'''Wild Card:''' Each of [[Mangaka (Artist)]]'s attacks will have one of these effects: Freeze/Slow/Knockback/Bleed/Burn at random.
+
+==Trivia==  
+*Before Update 8, stuns, freezes, and walkbacks didn't have a delay on different effects on each other.
+
+==Notes==
+Please, keep in mind that this page is still in development, we don't know which unit has an effect and which doesn't, to make this page even better than it is currently we will need help from everyone who has any info, or that knows how to edit it right.
+If you're having difficulty looking at unit icons or switching between effect tabs, try switching to a different window tab for several seconds before returning to this tab. 
+
+
+
+__NOTOC____NOEDITSECTION__

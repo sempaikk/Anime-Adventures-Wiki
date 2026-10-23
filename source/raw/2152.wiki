@@ -1,0 +1,32 @@
+{{Unobtainable Unit|Update 12 - My Hero Academia Update}}{{Meta Support Unit}}
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}.
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Hey, Hey, Hey! Grovel, Human!! My name is Power!"
+|caption2="You get three squeezes, make it count!"
+}}{{Main Stats}}
+
+==Passive Ability: Bleed Amplification==
+[[Blood (Unleashed)]] places a debuff on enemies she hits, making them take 5x more bleed damage. Her best pair is with [[Berserker (Rage)]] or other good bleed units. 
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+The only other bleed amp unit in game is [[Bloodcry (Bloodfallen)]].
+
+Can be stopped at upgrade 7 so you can have max duration for only 30k and low spa.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Bleed Amp]]
+[[Category:Event Units]]

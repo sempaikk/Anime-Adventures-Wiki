@@ -1,0 +1,1200 @@
+==Information==
+<big>This page classifies different units to different ranks depending on how good they are in '''Infinity Castle'''
+
+'''Units are ranked based on the following statistics:'''
+*'''DPS'''(Damage Per Second) 
+*'''TDPS'''(Total Damage Per Second) 
+*'''SPA'''(Second Per Attack) 
+*'''AoE'''(Area of Effect) 
+*'''(as well as many other properties of a unit; Cost, Abilities, Effects, etc)'''
+The ranking of each unit is based on how well they preform on each map in infinity castle
+'''This tier list ranks units based on their base stats, and their potential including buffs, supports, and relics.'''
+'''This tier list IS BASED ON TRAITLESS UNITS, NOT UNIQUE. Most of the units in the top of each tier happen to be the best for castle with unique as well.'''
+</big>
+
+==The Tier List==
+
+==Changelog==
+{| class="wikitable mw-collapsible mw-collapsed" role="presentation"
+|<strong><u>'''Tier List Updates:'''</u></strong>
+|-
+|'''Major Updates'''
+* Added ALL Update 16.0.0 Update Units!
+<br>'''Minor Updates'''
+|}
+
+{{Tabber
+|1= {{{tab-1|Infinity Castle}}}
+|2= <h3 class="mobileonly">'''Infinite Castle'''</h3>
+
+{{TierList/Container|id=castle_meta
+|Fast travel for Mobile only=
+{{TierList/Container/id|id=castle_meta|META Support}}
+{{TierList/Container/id|id=castle_meta|Aqua}}
+{{TierList/Container/id|id=castle_meta|Dark}}
+{{TierList/Container/id|id=castle_meta|Fire}}
+{{TierList/Container/id|id=castle_meta|Light}}
+{{TierList/Container/id|id=castle_meta|Rose}}
+{{TierList/Container/id|id=castle_meta|Storm}}
+{{TierList/Container/id|id=castle_meta|Air}}
+<!-- names must match Item Container names -->
+|1=
+{{TierList/Item Container|color=#ffdf87|id=castle_meta|name=META Support
+|
+{{TierList/Item|Orwin
+|Description={{Meta Support Unit}}<br>
+Orwin is cheap to place and has an ability that increases the physical damage of allies in range. He gives a 25% damage increase to physical units and you can cycle these buffs to reach up to a 100% damage increase on physical units. Orwin also has the '''BUFF''' tag, making it a perfect partner for '''Griffin(Acension)''' to reach his '''Griffin(Reincarnation)''' form, allowing you to reach a 3.5x damage increase.<br>
+----
+'''Placement Cost:''' {{Yen|775}}<br>
+----
+'''Placements: 6'''
+----
+Recommended Traits:  [[Image:Trait Sniper.png|18px]] [[Image:Trait Divine.png|18px]] [[Image:Trait Range.png|18px]]
+}}
+
+{{TierList/Item|Leafy (Sylph)
+|Description={{Meta Support Unit}}<br>
+Leafy is cheap to place and has an ability that increases the magic damage of allies in range. She gives a 50% damage increase to magic units and you can cycle these buffs to reach up to a 100% damage increase on magic units. Leafy also has the '''BUFF tag''', making it a perfect partner for '''Griffin(Acension)''' to reach his '''Griffin(Reincarnation)''' form, allowing you to reach a 4x damage increase.
+----
+'''Placement Cost:''' {{Yen|1K}}<br>
+----
+'''Placements: 6'''
+}}
+
+{{TierList/Item|Wenda
+|Description={{Meta Support Unit}}<br>
+Wenda is cheap to place and has an ability that increases the magic damage of allies in range. She gives a 30% damage increase to magic units and you can cycle these buffs to reach up to a 100% damage increase on magic units. Wenda also has the '''BUFF tag''', making it a perfect partner for '''Griffin(Acension)''' to reach his '''Griffin(Reincarnation)''' form, allowing you to reach a 3.5x damage increase.<br>
+----
+'''Placement Cost:''' {{Yen|800}}<br>
+----
+'''Placements: 6'''
+}}
+
+{{TierList/Item|Oshy (Idol)
+|Description={{Meta Support Unit}}<br>
+On placement, Oshy (Idol) increases the damage of all of the owner's units by 5%, and reduces their cost by 5%. Each upgrade, the discount and damage percent increases (-10% cost, +7% dmg upg 1, -15% cost +10% dmg upg 2, -20% cost +15% dmg upg 3). With the Golden trait, every Oshy upgrade reduces cost by an extra 1%.
+----
+'''Placement Cost:''' {{Yen|1K}} - '''Cost to Max:''' {{Yen|16K}}<br>
+----
+'''Placements: 1'''
+----
+Recommended Traits: [[Image:Trait Golden.png|18px]]
+}}
+
+{{TierList/Item|Koichy (Echoes)
+|Description={{Meta Support Unit}}<br>
+Average DPS, Average SPA, Average Range, Average AoE Size. On placement, Koichy slows enemies each hit by 50% (65% at upg 2, 80% at upg 5). Upon reaching upgrade 5, Koichy becomes a hybrid unit, allowing him to slow airs. Koichy should be kept at 6.0 SPA on placement ( so he attacks/slows when the slow is off cooldown at upgrade 5.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 13,978 - (Orwin: 27,956)'''
+<br>'''TDps: 55,914 - (Orwin: 111,828)'''
+----
+'''Placement Cost:''' {{Yen|1.2K}} - '''Cost to Max:''' {{Yen|55.7K}}<br>
+'''Cost for Hybrid:''' {{Yen|18.2K}} - '''Total cost to Max''' {{Yen|222.8K}}<br>
+----
+'''Placements: 4'''
+----
+}}
+
+
+{{TierList/Item|Homuru (Time Traveller)
+|Description={{Meta Support Unit}}<br>
+Average DPS, Average Range, Average SPA. On placement, Homura has a full AoE timestop (42 second cooldown, 4 second duration). At upgrade 3, her timestop cooldown is 14 seconds shorter (28 seconds total), and at upgrade 7, her timestop cooldown is reduced by 13 seconds and also lasts 1 second longer.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,190 - (Orwin: 38,380)'''
+<br>'''TDps: 57,571 - (Orwin: 115,140)'''
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|74.1K}}<br>
+'''Cost for Hybrid:''' {{Yen|39.1K}} - '''Total cost to Max''' {{Yen|222.3K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics:[[Image:5-Leaf Clover.png|18px]] '''5-Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Lao (ROOM)
+|Description={{Meta Support Unit}}<br>
+Average DPS, Average Range, Average SPA, Average AoE Size. Has one of the best support abilities in the game, '''Shambles''', which teleports all enemies in Law's range back equal to half of his range. Shambles can only be used three times per enemy. Lao (Room) has access to the relic "Mermaid Crown" which allows him to reduce the enemies magic resistance every time he attacks.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,824 - (Wenda: 39,648)'''
+<br>'''TDps: 59,472 - (Wenda: 118,944)'''
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|73.150K}}<br>
+'''Total cost to Max''' {{Yen|219.450K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+{{TierList/Item|Jirayo (Toad Sage)
+|Description={{Meta Support Unit}}
+Average DPS, Average Range, Average SPA, 60° Cone AoE. Slow.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 17,947'''
+<br>'''TDps: 71788'''<br>
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|71.7K}}<br>
+'''Total cost to Max''' {{Yen|215100}}<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+
+{{TierList/Item|Shallta (Bloodfallen)
+|Description={{Meta Support Unit}}<br>
+Average Dps, Average Range, Average Spa, Average Aoe Size. Every time Shalltear attacks, she applies '''Bleed Amplification ''', which increases all bleed damage by 5x for the duration of the debuff (5 seconds upg 0-2, 10 seconds upg 3-5, and 15 seconds upg 6-7). Shallta should be kept at upgrade 1 in Infinite Castle as there is other units that are more important to spend money on.
+----
+'''Placement Cost:''' {{Yen|1.3K}}<br>
+----
+'''Placements: 4'''
+----
+}}
+
+{{TierList/Item|Power (Fiend)
+|Description={{Meta Support Unit}}<br>
+Low Dps, Average Range, Average Spa, Average Aoe Size. Every time Power attacks, she applies '''Bleed Amplification ''', which increases all bleed damage by 5x for the duration of the debuff (5 seconds upg 0-2, 10 seconds upg 3-6, 15 seconds upg 7-9). Shallta should be kept at upgrade 1 in Infinite Castle as there is other units that are more important to spend money on.
+----
+'''Placement Cost:''' {{Yen|1.3K}}<br>
+----
+'''Placements: 4'''
+----
+}}
+
+
+}}
+
+{{TierList/Item Container|color=#80bffc|id=castle_meta|name=Good Support
+|
+
+{{TierList/Item|Emili
+|Description=
+Low Dps, Average Range, Average Spa, Average Aoe. Every time Emili attacks, she slows for 4 seconds with a cooldown of 7 seconds. Emili is always kept at upgrade 0, due to being able to have a perfect 7.0 SPA to align with her slow cooldown (Requires the correct SPA stat to be 7.0 SPA).
+----
+'''Placement Cost:''' {{Yen|1.2K}}
+----
+'''Placements: 5'''
+----
+}}
+
+
+{{TierList/Item|Goju (Six Eyes)
+|Description=
+Low-Average DPS, High Range, Average SPA, Large AoE. On placement, Goju has an ability called **Domain Expansion**, which timestops every enemy on the map for 8 seconds with a 60 second cooldown.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 8,053 - (Wenda: 16,106)'''
+<br>'''TDps: 24,160  (Wenda: 48,318)'''
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|60.6K}}<br>
+'''Total cost to Max''' {{Yen|181.8K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+{{TierList/Item|Dazai (No Longer Human)
+|Description=
+High Dps, High SPA, Average Range, Full AoE. Upon placement, Dazai unlocks the ability, '''No Longer Human''', which removes enemy attributes (Flying, Fire, Ice, Armored, Regen) for 20 seconds on every enemy in his range with a 90 second cooldown.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 22,591 - (Wenda: 45,182)'''
+<br>'''TDps: 67,773 - (Wenda: 135,546)'''
+----
+'''Placement Cost:''' {{Yen|1.35K}} - '''Cost to Max:''' {{Yen|90.05K}}<br>
+'''Total cost to Max''' {{Yen|270,150}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Griffin (Reincarnation)
+|Description={{Meta Support Unit}}<br>
+Grants every unit on the map a 100% damage boost. This form can be activated by sacrificing 100K Yen worth of units with the '''BUFF''' tag with his ability, '''Sacrifice'''.
+----
+'''Placement Cost:''' {{Yen|1K}}<br> 
+'''Cost for Buff:''' {{Yen|100K}} Worth of units with the '''BUFF''' tag<br>
+----
+'''Placements: 1'''
+----
+}}
+
+
+}}
+
+{{TierList/Item Container|color=#00aaff|id=castle_meta|name=Aqua
+|
+{{TierList/Item|Asushi (Moonlight Beast)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, Average Range, Average SPA, Large AoE Size. Asushi (Moonlight Beast) bleeds, making his damage spike immensely with Power/Shallta
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 28,762 - (Orwin: 69,030)'''
+<br>'''TDps: 115,048- (Orwin: 276,120)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|56.1K}}<br>
+'''Total cost to Max''' {{Yen|224.4K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Lao (ROOM)
+|Description={{Infinity Castle Meta Unit}}<br>
+Average DPS, Average Range, Average SPA, Average AoE Size. Has one of the best support abilities in the game, '''Shambles''', which teleports all enemies in Law's range back equal to half of his range. Shambles can only be used three times per enemy. Lao (Room) has access to the relic "Mermaid Crown" which allows him to reduce the enemies magic resistance every time he attacks.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,824 - (Wenda: 39,648)'''
+<br>'''TDps: 59,472 - (Wenda: 118,944)'''
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|73.150K}}<br>
+'''Total cost to Max''' {{Yen|219.450K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+{{TierList/Item|Gas (Toxic)
+|Description={{Infinity Castle Meta Unit}}<br>
+Average DPS, Average Range, High SPA, Average AoE Size. Gas needs his damage to stack up over a long period of time to begin doing noticeable DPS.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps after 60 seconds: 19,725 - (Wenda: 66,476)'''
+<br>'''TDps after 60 seconds: 78,901- (Wenda: 265,905)'''
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|50.5K}}<br>
+'''Total cost to Max''' {{Yen|202K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+
+{{TierList/Item|Harribu (Shark Empress)
+|Description={{Infinity Castle Meta Unit}}<br>
+<br>'''(Base Stats)'''<br>
+'''Dps: 17,093 - (Wenda: 34,186)'''
+<br>'''TDps: 68,372 - (Wenda: 136,744)'''  
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|63.8K}}<br>
+'''Total cost to Max''' {{Yen|255.2K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+{{TierList/Item|Poseidon (Tyrant of the Seas)
+|Description=
+High DPS, Average Range, High SPA, Full AoE. Hits airs at upgrade 7.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 24,850 - (Orwin: 49,700)'''
+<br>'''TDps: 74,552 - (Orwin: 149,100)'''
+----
+'''Placement Cost:''' {{Yen|2K}} - '''Cost to Max:''' {{Yen|117.5K}}<br>
+'''Cost for Hybrid:''' {{Yen|62.5K}} - '''Total cost to Max''' {{Yen|352.5K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Josuka (Unbreakable)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 24,482 - (Orwin: 48,964)'''
+<br>'''TDps: 73,448 - (Orwin: 146,892)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|76.4K}}<br>
+'''Total cost to Max''' {{Yen|229.2K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Evileye (Landfall)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 15,462 - (Wenda: 30,924)'''
+<br>'''TDps: 77,314 - (Wenda: 154,620)'''
+----
+'''Placement Cost:''' {{Yen|1.2K}} - '''Cost to Max:''' {{Yen|41.7K}}<br>
+'''Total cost to Max''' {{Yen|208.5K}}'''<br>
+----
+'''Placements: 5'''
+----
+Recommended Relics: [[Image:Mermaid Crown.png|18px]] '''Mermaid Crown'''<br>
+}}
+
+
+}}
+{{TierList/Item Container|color=#6d6da3|id=castle_meta|name=Dark
+|
+
+
+{{TierList/Item|Stain (Hero Slayer)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, Average Range, Average SPA,  Large AoE Size. Stain has an innate 50% CRIT chance, along with bleed, making him heavily buffed by power. Stain has an ability, '''Bloodcurdle''', which does 3x his DMG to every bleeding enemy in his aoe. This ability can CRIT for 4.5x his DMG, stuns for 2 seconds (10 second cooldown), and has a 20 second (Non Global) cooldown.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,824 - (Orwin: 48,798)'''
+<br>'''TDps: 59,473 - (Orwin: 146,396)'''
+<br>'''Dps With Ability: 34,692 - (Orwin: 78,535)'''
+<br>'''TDps With Ability: 104,076  - (Orwin: 235,606)'''<br>
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|66.6K}}<br>
+'''Cost for Ability:''' {{Yen|29.6K}} - '''Total cost to Max''' {{Yen|199.8K}}'''<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Homuru (Time Traveller)
+|Description={{Infinity Castle Meta Unit}}{{Meta Support Unit}}<br>
+Average DPS, Average Range, Average SPA. On placement, Homura has a full AoE timestop (42 second cooldown, 4 second duration). At upgrade 3, her timestop cooldown is 14 seconds shorter (28 seconds total), and at upgrade 7, her timestop cooldown is reduced by 13 seconds and also lasts 1 second longer.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,190 - (Orwin: 38,380)'''
+<br>'''TDps: 57,571 - (Orwin: 115,140)'''
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|74.1K}}<br>
+'''Cost for Hybrid:''' {{Yen|39.1K}} - '''Total cost to Max''' {{Yen|222.3K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics:[[Image:5-Leaf Clover.png|18px]] '''5-Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Zid (Shadow)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, High Range, High SPA, Full AoE, True Damage.
+<br>'''(Base Stats)'''<br>
+'''Dps: 32,214 - (Griffin: 64,428)'''
+<br>'''TDps: 96,642- (Griffin: 193,284)'''
+----
+'''Placement Cost:''' {{Yen|2.3K}} - '''Cost to Max:''' {{Yen|107.8K}}<br>
+'''Cost for Hybrid:''' {{Yen|59.8K}} - '''Total cost to Max''' {{Yen|323.4K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Mangakeyo.png|18px]] '''Mangekyō Eye'''
+}}
+
+
+
+{{TierList/Item|Alucard (Unholy King)
+|Description={{Infinity Castle Meta Unit}}<br>
+Insanely High DPS, Average Range, High SPA, Average AoE Size. Upon reaching upgrade 10, Alucard unlocks the ability '''Soul Restraint: Level 0''', which summons 5 Ghoul Riders with 1,287,278 HP each (6,436,390 total) and 15 Ghouls with 386,570 each (5798550 total) every 2 minutes. Alucard has higher damage on his summons than shown due to the fact that they can run through an enemy while at a low amount of yellow HP  and they will only use that yellow HP and continue going forwards
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 42,952 - (Wenda: 85,904)'''
+<br>'''TDps: 128,856 - (Wenda: 257,712)'''<br>
+<br>'''Summons Hp: 12,234,940 - (Orwin: 24,469,880)'''
+----
+'''Placement Cost:''' {{Yen|2.0K}} - '''Cost to Max:''' {{Yen|118K}}<br>
+'''Cost for Ability:''' {{Yen|118K}} - '''Total cost to Max''' {{Yen|354,000}}'''<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+
+{{TierList/Item|Shigaruko (Symbol of Fear)
+|Description=
+High DPS, Average Range, Average SPA, Full AoE. At max, every time Shigaruko (Symbol of Fear) attacks, he does 120% of his displayed damage over 18 ticks (3 ticks per second), and 240% of his displayed damage over 18 ticks with Griffin.
+<br>'''(Base Stats)'''<br>
+'''Dps: 21,868 - (Wenda: 43,736)
+<br>'''TDps: 65,605 - (Wenda: 131,208)'''
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|85.1K}}<br>
+'''Total cost to Max''' {{Yen|255.3K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Aku (Rashamon)
+|Description=
+Very High DPS, High Range, High SPA, Average AoE Size.
+----
+<br>'''(Base Stats)'''<br> '''Dps: 36,079- (Orwin: 72,158)''' 
+<br>'''TDps: 108,237- (Orwin: 216,474)''' 
+---- 
+'''Placement Cost:''' {{Yen|1.4K}} - '''Cost to Max:''' {{Yen|100.1K}}<br> 
+'''Total cost to Max''' {{Yen|300.3K}}'''<br> 
+----
+'''Placements: 3''' 
+----
+ Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br> 
+}}
+
+
+{{TierList/Item|Illy (Homunculus)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 38,350 - (Wenda: 76,700)'''
+<br>'''TDps: 115,050 - (Wenda: 230,100)'''
+----
+'''Placement Cost:''' {{Yen|2K}} - '''Cost to Max:''' {{Yen|98K}}<br>
+'''Total cost to Max''' {{Yen|294K}}'''<br>
+----
+'''Placements: 3'''
+---- 
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Anz (Overlord)
+|Description=
+<br>'''(Base Stats at Upgrade 7)'''<br>
+'''Dps: 34,515 - (Wenda: 69,030)'''
+<br>'''Dps With Ability: 48,896 - (Wenda: 97,792)'''
+<br>'''Summons Hp: 1,035,455 (Orwin: 5,177,280)'''
+----
+'''Placement Cost:''' {{Yen|10K}} - '''Cost to Max:''' {{Yen|305K}}<br>
+'''Cost for Hybrid:''' {{Yen|130K}}<br>
+----
+'''Placements: 1'''<br>
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+
+}}
+{{TierList/Item Container|color=#ffab19|id=castle_meta|name=Fire
+|
+
+{{TierList/Item|Sosuke (Eternal)
+|Description={{Infinity Castle Meta Unit}}<br>
+Highest DPS in the game, High Range, Average SPA, Average AoE size. Sosuke's burn damage is equal to 100% of his displayed DMG over 10 ticks, 200% of his displayed DMG over 20 ticks with Mangekyō Eye, and 600% of his displayed DMG over 20 ticks with Mangekyō Eye, 100% Wenda/Leafy buff, and Griffin. His burn can stack with itself, allowing for much higher DPS than displayed. '''SOSUKE'S BURN DAMAGE IS CONSIDERED BOTH FIRE AND STORM DAMAGE, WHICH IS WHY HE IS THE BEST FIRE UNIT'''
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 34,279 - (Wenda + Mangekyō Eye: 179,196)'''
+<br>'''TDps: 102,838 - (Wenda + Mangekyō Eye: 537,589)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|83.85K}}<br>
+'''Total cost to Max''' {{Yen|251.55K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''<br>
+}}
+
+
+
+{{TierList/Item|Hido (Immortal Butcher)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, Average Range, Average SPA,  Large AoE Size. Hido bleeds, making him heavily buffed by power. Hido has an ability, '''Blood Curse ''', which does his displayed damage 3 times to every bleeding enemy in his aoe with a 20 second (Non Global) cooldown.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,328 - (Orwin: 50,156)'''
+<br>'''TDps: 57,985 - (Orwin: 150,468)'''
+<br>'''Dps With Ability: 33,824- (Orwin: 76,568)'''
+<br>'''TDps With Ability: 101,474 - (Orwin: '''229,704''')'''<br>
+----
+'''Placement Cost:''' {{Yen|1.75K}} - '''Cost to Max:''' {{Yen|83.25K}}<br>
+'''Cost for Ability:''' {{Yen|33.75K}} - '''Total cost to Max''' {{Yen|249.75K}}'''<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+
+{{TierList/Item|Archer (Heroic Spirit)
+|Description={{Infinity Castle Meta Unit}}<br>
+
+
+Information coming soon!
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 26,626 - (Orwin: 53,252)'''
+<br>'''TDps: 106,504 - (Orwin: 213,008)'''
+----
+'''Placement Cost:''' {{Yen|1.35K}} - '''Cost to Max:''' {{Yen|62.55K}}<br>
+'''Cost for Hybrid:''' {{Yen|48.55k}} - '''Total cost to Max''' {{Yen|250.2K}}<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Chuyo (Corruption)
+|Description={{Infinity Castle Meta Unit}}<br>
+
+
+High DPS, High Range, High SPA, Average AoE Size.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 20,709 - (Wenda: 41,418)'''
+<br>'''TDps: 82,836 - (Wenda: 165,672)'''
+----
+'''Placement Cost:''' {{Yen|1.2K}} - '''Cost to Max:''' {{Yen|50K}}<br>
+'''Total cost to Max''' {{Yen|200K}}<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Noruto (Six Tails)
+|Description={{Infinity Castle Meta Unit}}
+Very High DPS, Average Range, Average SPA, Large AoE Size.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 45,362 - (Wenda: 108,281)'''
+<br>'''TDps: 136,086-  (Wenda: 324,843)'''
+----
+'''Placement Cost:''' {{Yen|2K}} - '''Cost to Max:''' {{Yen|100.5K}}<br>
+'''Total cost to Max''' {{Yen|301.5K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+
+{{TierList/Item|Endeavor (Hellflame)
+|Description={{Infinity Castle Meta Unit}}<br>
+High DPS, Average Range, High SPA, 60° Cone AoE. Endeavor does 50% of his displayed DMG over 6 ticks, 100% of his displayed DMG over 12 ticks with Mangekyō Eye, and 300% of his displayed DMG over 12 ticks with Mangekyō Eye, 100% Wenda/Leafy buff, and Griffin. His burn can stack with itself, allowing for much higher DPS than displayed.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 22,780 - (Wenda + Mangekyō Eye: 91,878)'''
+<br>'''TDps: 68,340 - (Wenda + Mangekyō Eye: 275,636)'''
+----
+'''Placement Cost:''' {{Yen|2K}} - '''Cost to Max:''' {{Yen|97K}}<br>
+'''Total cost to Max''' {{Yen|291K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''<br>
+}}
+
+{{TierList/Item|Itochi (Susanoo)
+|Description={{Infinity Castle Meta Unit}}<br>
+Average DPS, High Range, Average SPA, 50° Cone AoE. Itochi's burn damage is equal to 100% of his displayed DMG over 10 ticks, 200% of his displayed DMG over 20 ticks with Mangekyō Eye, and 600% of his displayed DMG over 20 ticks with Mangekyō Eye, 100% Wenda/Leafy buff, and Griffin. His burn can stack with itself, allowing for much higher DPS than displayed.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 19,625 - (Wenda + Mangekyō Eye: 98,620) '''
+<br>'''TDps: 58,877 - (Wenda + Mangekyō Eye: 295,860)'''
+----
+'''Placement Cost:''' {{Yen|1.4K}} - '''Cost to Max:''' {{Yen|89.6K}}<br>
+'''Total cost to Max''' {{Yen|268.8K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''<br>
+}}
+
+{{TierList/Item|Roger (Pirate King)
+|Description=
+Insanely High DPS, Average SPA, High Range, Average AoE Size. Every time Roger attacks, he stuns enemies for .5 seconds with a 5 second cooldown.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 40,999 - (Orwin: 81,998)'''
+<br>'''TDps: 122,999 - (Orwin: 245,994)'''
+----
+'''Placement Cost:''' {{Yen|1.750K}} - '''Cost to Max:''' {{Yen|109.250K}}<br>
+'''Total cost to Max''' {{Yen|327.750K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+}}
+{{TierList/Item Container|color=#fffbc9|id=castle_meta|name=Light
+|
+
+{{TierList/Item|Vegeto
+|Description={{Infinity Castle Meta Unit}}<br>
+High-Insanely High DPS, High Range, Average SPA, 60° Cone. '''Goko (Super)''' and '''Vegita (Majin II)''' will fuse into '''Vegeto''' after reaching upgrade 7 on Goko or Vegita, taking the stats and damage type from the unit that '''Fusion''' was activated on, while taking the traits from both of them. With unique Goko and unique Vegita, Vegeto will have the highest dps in the entire game.
+----
+<br>'''(Base Stats at Upgrade 3)'''<br>
+'''Dps: 59,168 - (Orwin: 118,336)'''
+<br>'''TDps: 177,504 - (Orwin: 355,008)''' 
+----
+'''Placement Cost:''' {{Yen|112.15K}} - '''Cost to Max:''' {{Yen|293.65K}}<br>
+'''Total cost to Max'''{{Yen|880.95K}}<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Saber (Promised Sword)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, High Range, High SPA, Average AoE Size.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 38,288 - (Orwin: 76,576)'''
+<br>'''TDps: 114,864 - (Orwin: 229,728)'''
+----
+'''Placement Cost:''' {{Yen|1.4K}} - '''Cost to Max:''' {{Yen|74.8K}}<br>
+'''Total cost to Max''' {{Yen|224.4K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Vegita (Majin II)
+|Description={{Infinity Castle Meta Unit}}<br>
+Insanely High DPS, High SPA, Average Range, Full AoE. 
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 35,142 - (Orwin: 70,284)'''
+<br>'''TDps: 105,426 - (Orwin: 210,852)'''
+----
+'''Placement Cost:''' {{Yen|1.35K}} - '''Cost to Max:''' {{Yen|99.85K}}<br>
+'''Total cost to Max''' {{Yen|299.55K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Gilgamesh (King of Heroes)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, High Range, High SPA, Large Circle. 
+<br>'''(Base Stats)'''<br>
+'''Dps: 37,583 - (Wenda: 75,166)'''
+<br>'''TDps: 112,749 - (Wenda: 225,498)'''
+----
+'''Placement Cost:''' {{Yen|2.5K}} - '''Cost to Max:''' {{Yen|118K}}<br>
+'''Cost for Hybrid:''' {{Yen|27.3K}} - '''Total cost to Max''' {{Yen|354k}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Pain (Divine)
+|Description=
+High DPS, Average Range,  Very High SPA, Massive AoE Size. Upon reaching upgrade 6, all of Pain (Divine)'s attacks will push back enemies hit (30 second cooldown). 
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 25,806 (Orwin: 51,612)'''
+<br>'''TDps: 77,418 (Orwin: 154,836)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|89.65K}}<br>
+'''Cost for Ability+Hybrid:''' {{Yen|27.15K}} - '''Total cost to Max''' {{Yen|268.950K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[5-Leaf Clover.png|18px]] ''5 Leaf Clover'''
+}}
+
+
+{{TierList/Item|Mamy (Holy)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 21,476 - (Wenda: 42,952)'''
+<br>'''TDps: 64,428 - (Wenda: 128,856)''' 
+----
+'''Placement Cost:''' {{Yen|1.7K}} - '''Cost to Max:''' {{Yen|96.2K}}<br>
+'''Cost for Hybrid:''' {{Yen|48.7K}} - '''Total cost to Max''' {{Yen|288.6K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Senbodu (Buddha)
+|Description=
+
+
+High DPS, High Range, Very High SPA, Large AoE Size. 
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 24,568 - (Wendae: 49,136)'''
+<br>'''TDps: 73,706 - (Wenda: 147,408)'''
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|77.4K}}<br>
+'''Total cost to Max''' {{Yen|232.2K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Dazai (No Longer Human)
+|Description=
+High Dps, High SPA, Average Range, Full AoE. Upon placement, Dazai unlocks the ability, '''No Longer Human''', which removes enemy attributes (Flying, Fire, Ice, Armored, Regen) for 20 seconds on every enemy in his range with a 90 second cooldown.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 22,591 - (Wenda: 45,182)'''
+<br>'''TDps: 67,773 - (Wenda: 135,546)'''
+----
+'''Placement Cost:''' {{Yen|1.35K}} - '''Cost to Max:''' {{Yen|90.05K}}<br>
+'''Total cost to Max''' {{Yen|270,150}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|JIO (Over Heaven)
+|Description={{Infinity Castle Meta Unit}}<br>
+Very High DPS, High Range, Average SPA, Large AoE Size. On placement. JIO Over Heaven has an ability called, "'''This is.. The World over Heaven!'''", which stops all enemy spawns, the wave timer, and timestops all enemies on the map for 20 seconds.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 32,568- (Wenda: 65,136)'''
+<br>
+----
+'''Placement Cost:''' {{Yen|10K}} - '''Cost to Max:''' {{Yen|125.5K}}<br>
+'''Cost for Ability:''' {{Yen|10K}}
+----
+'''Placements: 1'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+
+}}
+{{TierList/Item Container|color=#ffb2e7|id=castle_meta|name=Rose
+|
+
+{{TierList/Item|Daky (Obi)
+|Description={{Infinity Castle Meta Unit}}<br>
+Above Izu (Demon Snow) due to bleed getting increased by stage buffs
+<br>'''(Base Stats)'''<br>
+'''Dps: 15,221 - (Orwin: 39,140)'''
+<br>'''TDps: 60,884 - (Orwin: 156,560)'''
+----
+'''Placement Cost:''' {{Yen|1.450K}} - '''Cost to Max:''' {{Yen|58.950K}}<br>
+'''Total cost to Max''' {{Yen|235.8K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Asuno (Flash)
+|Description={{Infinity Castle Meta Unit}}<br>
+<br>'''(Base Stats)'''<br>
+'''Dps: 21,476 - (Wenda: 42,952)'''
+<br>'''TDps: 85,904 - (Wenda: 171,808)'''
+----
+'''Placement Cost:''' {{Yen|1.4K}} - '''Cost to Max:''' {{Yen|56.050K}}<br>
+'''Total cost to Max''' {{Yen|224.2K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Medae (Witch of Betrayal)
+|Description={{Infinity Castle Meta Unit}}<br>
+<br>'''(Base Stats)'''<br>
+'''Dps: 15,975 - (Wenda: 31,950)'''
+<br>'''TDps: 79,875 - (Wenda: 159,750)'''
+----
+'''Placement Cost:''' {{Yen|1K}} - '''Cost to Max:''' {{Yen|44.25K}}<br>
+'''Total cost to Max''' {{Yen|221.25K}}<br>
+----
+'''Placements: 5''' 
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Izu (Demon Snow)
+|Description=
+
+
+Very High DPS, Average Range, High SPA, Average AoE Size, Crits.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 38,979 - (Orwin: 77,958)'''
+<br>'''TDps: 116,937 - (Orwin: 233,874)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|83.3K}}<br>
+'''Total cost to Max''' {{Yen|249.9K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Kiro (Bites the Dust)
+|Description=
+Very High DPS, High Range, Average SPA, Average AoE Size. Upon reaching upgrade 8, Kiro unlocks his ability, '''Bites the Dust''', which rewinds all enemies on the map (including bosses) for 5 seconds with a 60 second cooldown. This ability can only be used 3 times per enemy.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 35,757 - (Wenda: 71,514)'''
+<br>'''TDps: 107,273 - (Wenda: 214,542)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|104.4K}}<br>
+'''Cost for Ability:''' {{Yen|59.4K}} - '''Total cost to Max''' {{Yen|313.2K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Byu (Ultimate)
+|Description=<br>
+High DPS, Average Range, Average SPA, Full AoE. 
+<br>'''(Base Stats)'''<br>
+'''Dps: 26,921 - (Wenda: 53,842)'''
+<br>'''TDps: 80,763 - (Wenda: 161,526)'''
+----
+'''Placement Cost:''' {{Yen|1.4K}} - '''Cost to Max:''' {{Yen|110.8K}}<br>
+'''Cost for Hybrid:''' {{Yen|55.8K}} - '''Total cost to Max''' {{Yen|332.4K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+
+{{TierList/Item|Flamingo (Awakened)
+|Description=
+Very High DPS, High Range, Average SPA, Average AoE Size.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 36,241 - (Wenda + Time Piece: 72,482)'''
+<br>'''TDps: 108,723 - (Wenda + Time Piece: 217,446)'''
+----
+'''Placement Cost:''' {{Yen|2K}} - '''Cost to Max:''' {{Yen|120K}}<br>
+'''Total cost to Max''' {{Yen|360K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+
+}}
+
+
+
+}}
+{{TierList/Item Container|color=#cff2ff|id=castle_meta|name=Storm
+|
+
+{{TierList/Item|Sosuke (Eternal)
+|Description={{Infinity Castle Meta Unit}}<br>
+Highest DPS in the game, High Range, Average SPA, Average AoE size. Sosuke's burn damage is equal to 100% of his displayed DMG over 10 ticks, 200% of his displayed DMG over 20 ticks with Mangekyō Eye, and 600% of his displayed DMG over 20 ticks with Mangekyō Eye, 100% Wenda/Leafy buff, and Griffin. His burn can stack with itself, allowing for much higher DPS than displayed.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 34,279 - (Wenda + Mangekyō Eye: 179,196)'''
+<br>'''TDps: 102,838 - (Wenda + Mangekyō Eye: 537,589)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|83.85K}}<br>
+'''Total cost to Max''' {{Yen|251.55K}}'''<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Mangakeyo.png|18px]] '''Mangekyō Eye'''<br>
+}}
+
+{{TierList/Item|Vegeto
+|Description={{Infinity Castle Meta Unit}}<br>
+High-Insanely High DPS, High Range, Average SPA, 60° Cone. '''Goko (Super)''' and '''Vegita (Majin II)''' will fuse into '''Vegeto''' after reaching upgrade 7 on Goko or Vegita, taking the stats and damage type from the unit that '''Fusion''' was activated on, while taking the traits from both of them. With unique Goko and unique Vegita, Vegeto will have the highest dps in the entire game.
+----
+<br>'''(Base Stats at Upgrade 3)'''<br>
+'''Dps: 59,168 - (Orwin: 118,336)'''
+<br>'''TDps: 177,504 - (Orwin: 355,008)''' 
+----
+'''Placement Cost:''' {{Yen|112.15K}} - '''Cost to Max:''' {{Yen|293.65K}}<br>
+'''Total cost to Max'''{{Yen|880.95K}}<br>
+----
+'''Placements: 3'''<br>
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+
+{{TierList/Item|Lancer (Child of Light) 
+|Description={{Infinity Castle Meta Unit}}<br>
+
+
+Very High DPS, Average Range, Average SPA, Average AoE Size, Crits.
+----
+<br>'''(Base Stats)'''<br> 
+'''Dps: 32,717- (Orwin: 65,434)''' 
+<br>'''TDps: 130,868 - (Orwin: 261,736)''' 
+---- 
+'''Placement Cost:''' {{Yen|1.2K}} - '''Cost to Max:''' {{Yen|48.7K}}<br> 
+'''Total cost to Max''' {{Yen|194.8K}}'''<br> 
+----
+'''Placements: 4''' 
+----
+ Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br> 
+}}
+
+{{TierList/Item|Goko (Ultra)
+|Description={{Infinity Castle Meta Unit}}<br>
+High DPS, High Range, Average SPA, Large Circle. 
+<br>'''(Base Stats)'''<br>
+'''Dps: 24,850 - (Orwin: 49,700)'''
+<br>'''TDps: 99,400 - (Orwin: 198,800)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|59.8K}}<br>
+'''Total cost to Max''' {{Yen|239.2K}}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Kizume (Tailless Beast)
+|Description=<br>
+<br>'''(Base Stats)'''<br>
+'''Dps: 20,044 - (Orwin: 40,088) '''
+<br>'''TDps: 80,176 - (Orwin: 160,352)'''
+----
+'''Placement Cost:''' {{Yen|1.2K}} - '''Cost to Max:''' {{Yen|49.7K}}<br>
+'''Total cost to Max''' {{Yen|198.8K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Narbera (Battle Maid)
+|Description={{Infinity Castle Meta Unit}}<br>
+'''Dps: 22,089 - (Wenda + Time Piece: 44,178)'''
+<br>'''TDps: 66,269- (Wenda + Time Piece: 132,534)''' 
+----
+'''Placement Cost:''' {{Yen|1.6K}} - '''Cost to Max:''' {{Yen|72.1K}}<br>
+'''Total cost to Max''' {{Yen|216.3K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Metal Knight (Arsenal)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 18,585 - (Wenda: 37,170)'''
+<br>'''TDps: 37,170 - (Wenda: 74,340)
+<br>'''Dps 1 Drone: 15,100 - (Wenda: 30,200)''' 
+<br>'''TDps 3 Drones: 45,301 - (Wenda: 90,600)''' 
+----
+'''Placement Cost:''' {{Yen|1.7K}} - '''Cost to Max:''' {{Yen|118.250K}}<br>
+'''Total cost to Max''' {{Yen|236.5K}}<br>
+----
+'''Placements: 2'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Kiroto (Dual)
+|Description=
+High DPS, Average Range, High SPA, Average AoE Size.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 25,260 - (Orwin+: 50,520)'''
+<br>'''TDps: 101,040 - (Orwin: 202,080)'''
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|72.2K}}<br>
+'''Total cost to Max''' {{Yen|288.8K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+}}
+{{TierList/Item Container|color=#e7ffd7|id=castle_meta|name=Air
+|
+{{TierList/Item|Usoap (God)
+|Description={{Infinity Castle Meta Unit}}<br>
+<br>'''(Base Stats)'''<br>
+'''Dps: 82,836 - (Griffin: 165,672)'''
+<br>'''TDps: 248,509 - (Griffin: 497,019)'''
+----
+'''Placement Cost:''' {{Yen|1K}} - '''Cost to Max:''' {{Yen|68.5K}}<br>
+'''Total cost to Max''' {{Yen|205.5K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] ''' Clover Of The Wind'''<br>
+}}
+
+{{TierList/Item|Koichy (Echoes)
+|Description={{Infinity Castle Meta Unit}}{{Meta Support Unit}}<br>
+Average DPS, Average SPA, Average Range, Average AoE Size. On placement, Koichy slows enemies each hit by 50% (65% at upg 2, 80% at upg 5). Upon reaching upgrade 5, Koichy becomes a hybrid unit, allowing him to slow airs. Koichy should be kept at 6.3 SPA on placement so he attacks/slows when the slow is off cooldown at max upgrade.
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 13,978 - (Orwin: 27,956)'''
+<br>'''TDps: 55,914 - (Orwin: 111,828)'''
+----
+'''Placement Cost:''' {{Yen|1.2K}} - '''Cost to Max:''' {{Yen|55.7K}}<br>
+'''Cost for Hybrid:''' {{Yen|18.2K}} - '''Total cost to Max''' {{Yen|222.8K}}<br>
+----
+'''Placements: 4'''
+---
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Komon (Paper Angel)
+|Description={{Infinity Castle Meta Unit}}
+High DPS, High Range, Average SPA, Average AoE Size. Above Archer due to being hybrid on placement
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 20,709 - (Orwin: 41,418)'''
+<br>'''TDps: 82,836 - (Orwin: 165,672)'''
+----
+'''Placement Cost:''' {{Yen|1K}} - '''Cost to Max:''' {{Yen|41K}}<br>
+'''Total cost to Max''' {{Yen|160.4K}}<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Hinamy (Yotsume)
+|Description=<br>
+High DPS, High Range, Average SPA, Average AoE Size, Hybrid on Placement
+----
+<br>'''(Base Stats)'''<br>
+'''Dps: 23,667 - (Orwin: 47,334)'''
+<br>'''TDps: 94,668 - (Orwin: 189,336)'''
+----
+'''Placement Cost:''' {{Yen|1.3K}} - '''Cost to Max:''' {{Yen|56.1K}}<br>
+'''Total cost to Max''' {{Yen|224,400}}<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+
+{{TierList/Item|Gyutaru (Moon)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 15,848 - (Orwin: 31,696)'''
+<br>'''TDps: 63,393 - (Orwin: 126,784)'''
+<br>'''Dps With Bleed: 23,772 - (Orwin: 47,544)'''
+<br>'''TDps With bleed: 95,089 - (Orwin: 190,176)'''
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|61.950K}}<br>
+'''Total cost to Max''' {{Yen|247.8K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Issai (Boosted Gear)
+|Description=
+<br>'''(Base Stats)'''<br>
+'''Dps: 17,180 - (Orwin: 34,360)'''
+<br>'''TDps: 68,723 - (Orwin: 137,440)'''
+----
+'''Placement Cost:''' {{Yen|1.5K}} - '''Cost to Max:''' {{Yen|50.5K}}<br>
+'''Total cost to Max''' {{Yen|202K}}'''<br>
+----
+'''Placements: 4'''
+----
+Recommended Relics: [[Image:5-Leaf Clover.png|18px]] '''5 Leaf Clover'''<br>
+}}
+
+{{TierList/Item|Conrod (Wizard King)
+|Description=Information soon!
+<br>'''(Base Stats)'''<br>
+'''Dps: 23,194 - (Wenda: 46,388)'''
+<br>'''TDps: 69,582 - (Wenda: 139,164)''' 
+----
+'''Placement Cost:''' {{Yen|2K}} - '''Cost to Max:''' {{Yen|104.5K}}<br>
+'''Total cost to Max''' {{Yen|313.5K}}<br>
+----
+'''Placements: 3'''
+----
+Recommended Relics: [[Image:Clover Of The Wind.png|18px]] '''Clover Of The Wind'''<br>
+}}
+
+
+}}
+
+
+}}
+
+
+}}
+
+
+
+<br>
+'''DPS''' Calculations are based off of DMG (Damage) of the unit divided by SPA (Attack Speed) of the unit, and only considers '''One Placement'''.
+          
+'''TDPS''' Calculations are based same calculations as '''DPS''', but considers the '''Maximum Placements''' a character can have. 
+
+The Total '''DPS/TDPS''' of a unit can be higher or lower based on '''Passive Abilities'''(like Gyutaru(Moon)), or abilities that cause DMG (Anz(Overlord)) or (Julio(Wizard King))
+
+
+==Stat Rankings==
+''The following info is what is used to describe statistics in the unit descriptions''
+{| class="fandom-table"
+|+'''Lists basic statistics of units and how good they are compared to each other.'''
+!DPS
+!TDPS
+!SPA
+!Range
+!AoE Size
+!Ranking
+|-
+|~9,999
+|~39,999
+|~4.9
+|~24.9
+|~8
+|Low
+
+|-
+|10,000-19,999
+|40,000-64,999
+|5-8.9
+|25-34.9
+|9-14
+|Average
+|-
+|20,000-29,999
+|65,000-89,999
+|9-12.9
+|35-44.9
+|15-20
+|High
+|-
+|30,000-39,999
+|90,000-114,999
+|13-20
+|45-49.9
+|21-30
+|Very High
+|-
+|40,000+
+|115,000+
+|20+
+|50+
+|31+
+|Insanely High
+|}
+
+
+__NOEDITSECTION____NOTOC__

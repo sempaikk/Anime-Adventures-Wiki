@@ -1,0 +1,7 @@
+<div style="border-radius: 25px 25px 0 0; margin: 0 0 8px; background: #643be633; box-shadow: 0 0 11px -2px #4200ff8c, inset 0 0 9px 0px #6248ac8f; text-shadow: 0px 2px 20px #9600ffa3; text-align: center;>
+<h3 style="line-height: 2;font-size: 140%; font-weight: 500; margin: 0; padding: 0 15px;">Latest Game Update</h3></div>
+<h3 class="mobileonly">'''Latest Game Update'''</h3>
+<div style="background: #643be633; border-radius: 0 0 25px 25px; padding: 12px 20px 12px 12px; justify-items: center; box-shadow: 0 0 11px -2px #4200ff8c, inset 0 0 9px 0px #6248ac8f; justify-content: space-evenly; font-size: 82%; display: inline-block; width: 100%;">
+<center style="font-size: 15px;"><b style="font-weight: 400; padding: 0 6px;">{{{title|}}}</b></center>
+{{{note|}}}
+</div>

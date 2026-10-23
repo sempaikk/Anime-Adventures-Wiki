@@ -1,0 +1,29 @@
+{{Story Meta Unit}}
+{{Unobtainable Unit|Update 15.5 - Summer update}}
+
+==Overview==
+{{PAGENAME}}​ is a {{Rarity|Secret}} {{LU}}​​. He can only be obtained by evolving [[Sea God]].
+
+{{EvolutionTable}}
+{{Takedowns|5,000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1=“Supporters? We have no need for the herd... No need for scheming.. And no need for support. Such are the Gods. Supporters are entirely unnecessary to those who have already attained perfection.”
+|caption2="Now! Let's savour the utmost of suffering together!"
+|image1=
+|image2=
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Gallery==
+<gallery>
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Secret Units]]
+[[Category:Evolved Units]]
+
+<references />

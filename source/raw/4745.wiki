@@ -1,0 +1,19 @@
+==Overview==
+'''{{PAGENAME}}''' is {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Jose (Shining Gem)]].
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+{{Tower_Infobox
+|caption1=if anyone is stll active some guy griefed the page i changed what i could but idk all the info  of this character to restore it
+|caption2=if anyone is stll active some guy griefed the page i changed what i could but idk all the info  of this character to restore it
+|Damage_type=Physical|Tower_type=Ground}}{{Main Stats}}
+
+== Selling  ==
+<small>Units sell for 25% for  their deployment cost  and upgrades.</small>
+
+== Trivia  ==
+__FORCETOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+__NOINDEX__
+__NONEWSECTIONLINK__

@@ -1,0 +1,27 @@
+{{Meta Unit}}{{Raid Meta Unit}}''If you were looking for a different Vego unit, see [https://animeadventures.fandom.com/wiki/Vego_(disambiguation) Vego (disambiguation)]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He can only be obtained by evolving [[Vego (Mage)]].
+
+{{EvolutionTable}}
+
+
+{{Tower Infobox
+|caption1="I know how to rid of you... For good... I'll keep you from coming back, by blowing you to dust!"
+|caption2="Playtime is over. Let's conclude this!"}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+* At final upgrade he has the same damage as [[Dracula (Unholy King)]]
+* Vego (Mage II)'s {{RarityColor|Mythic|Shiny}} is Universe Vego, an alternate Vego that works for the Patrol.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

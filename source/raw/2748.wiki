@@ -1,0 +1,26 @@
+''If you were looking for a different Vego unit, see [[Vego (disambiguation)]]''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable through [[Summon|summons]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="The sleeper has awakened! I am the prince once again!"
+|caption2="You see, I have finally realised the legend. That's right, you're not dealing with the average warrior anymore, Tyrant... I, Vego, have finally become... the legendary Super Vego!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+==Trivia==
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__
+
+[[Category:Mythic_Units]]

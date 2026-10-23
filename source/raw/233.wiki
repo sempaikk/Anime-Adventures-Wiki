@@ -1,0 +1,17 @@
+==Overview==
+'''Tanji''' is a {{Rarity|Rare}} unit. He is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Work at it. All I can do is work hard! That's the story of my life!"
+|caption2="Work at it. All I can do is work hard! That's the story of my life!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}
+{{DISPLAYTITLE:}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

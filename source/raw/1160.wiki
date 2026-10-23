@@ -1,0 +1,4 @@
+<includeonly><div class="tierList_containerItem">
+<h3 class="tierList_containerItem__name anchor" id="{{#replace:{{{id|{{PAGENAME}}}}}-{{{name|}}}|<nowiki> </nowiki>|_}}" style="background-color: {{{color|#ff7f7f}}};">{{{name|}}}</h3>
+<div class="tierList_containerItem__container">{{{1|}}}</div>
+</div></includeonly><noinclude>{{Doc}}</noinclude>

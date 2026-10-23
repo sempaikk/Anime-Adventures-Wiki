@@ -1,0 +1,2700 @@
+<big>Evolution page will be updated eventually when wiki revamp is completed</big>
+__NOTOC__
+__NOEDITSECTION__
+<tabber>
+
+|-|Evolution Items=
+'''Evolution Items''' can be obtained through '''Crafting''', or by purchasing them through the '''Traveling Merchant Shop'''. Listed below are all the items used for evolving Units.
+
+{| class="article-table"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Item(s)
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Information
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Obtainment Method
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" | Crafting Requirements
+|-
+|[[File:Hat of the Conqueror.png|center|100x100px|Hat of the Conqueror]]<center>Hat of the Conqueror</center>
+|Used on ''[[Red Scar]]''. Gives +50% Attack and ''Conqueror's Haki''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3000 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+10x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Forbidden Candy.png|center|100x100px|Forbidden Candy]]<center>Forbidden Candy</center>
+|Used on ''[[Juozu]]''. Gives +30% Attack and ''Joker Arata''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7000 Gems. 
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+2x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+10x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Arsenal Briefcase.png|center|100x100px|Arsenal Briefcase]]<center>Arsenal Briefcase</center>
+|Used on ''[[Ariva]]''. Gives +35% Attack and ''Owl''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7000 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+2x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+2x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+12x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Scales of the Salamander.png|center|100x100px|Scales of the Salamander]]<center>Scales of the Salamander</center>
+|Used on ''[[Tarata]]''. Gives +10% Attack, 2x Burn Damage, and ''Scorching Slam''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3000 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+2x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+6x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3750x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Magma Fruit.png|center|100x100px|Magma Fruit]]<center>Magma Fruit</center>
+|Used on ''[[Magma]]''. Gives +30% Attack and +20% ''Volcano'' Range.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 4500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 15x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+12x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+10x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+30x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+4500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Quake Fruit.png|center|100x100px|Quake Fruit]]<center>Quake Fruit</center>
+|Used on ''[[Whitehair]]''. Gives +30% Attack and ''Sea Quake''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3000 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 10x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+10x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+13x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+30x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Cupcake.png|center|100x100px|Cupcake]]<center>Cupcake</center>
+|Used on ''[[Mochi]]''. Gives +25% Attack and ''Mochi Slow''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2250 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 7x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+10x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+4000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:King's Idol.png|center|100x100px|King's Idol]]<center>King's Idol</center>
+|Used on ''[[Lulu]]''. Gives +25% Attack and ''Geass''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3000 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 13x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+10x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+13x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+30x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Restraining Necklace.png|center|100x100px|Restraining Necklace]]<center>Restraining Necklace</center>
+|Used on ''[[Bro]]''. Gives +25% Attack and +50% ''Saiyan Rage'' Range.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 10x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+15x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Divine Eye.png|center|100x100px|Divine Eye]]<center>Eternal Eye</center>
+|Used on ''[[Marada]]''. Gives +20% Attack and ''Susanoo Fire''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2500 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 6x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+6x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+4000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Shining Extract.png|center|100x100px|Shining Extract]]<center>Shining Extract</center>
+|Used on ''[[Prime Force]]''. Gives +40% Attack, -10% ''Smash'' Cooldown, and ''Smash'' knocks back.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2000 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+10x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Ultrasteel Blade.png|center|100x100px|Crystal Shards]]<center>Ultrasteel Blade</center>
+|Used on ''[[Lex]]''. Gives +30% Attack and +25% Crit.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2250 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+4x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+20x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Crystal Shards.png|center|100x100px|Crystal Shards]]<center>Crystal Shards</center>
+|Used on ''[[Eta]]''. Gives +15% Attack, ''Laser Augment'', and ''Kakuja Evolution''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2200 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+12x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Path Branch.png|center|100x100px|Path Branch]]<center>Path Branch</center>
+|Used on ''[[Usurper]]''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 25 Path Shards.
+|25x[[File:Path Shard.png|35px|link=Items#Materials|Path Shard]]
+|-
+|[[File:Hidden Seal.png|center|100x100px|Hidden Seal]]<center>Hidden Seal</center>
+|Used on ''[[Fox Ninja (Demon Cloak)]]''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 100 Path Shards.
+|100x[[File:Tailed Beast Shard.png|35px|link=Items#Materials|Tailed Beast Shard]]
+|-
+|[[File:Demon Beads.png|center|100x100px|Demon Beads]]<center>Demon Beads</center>
+|Used on ''[[Martial Demon]]''. Gives +200% Attack, ''Disorder'' and ''Compass Needle''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 100 Blazing Shards.
+|100x[[File:Blazing Shard.png|35px|link=Items#Materials|Blazing Shard]]
+|-
+|[[File:Blazing Creme Donut.png|center|100x100px|Blazing Creme Donut]]<center>Blazing Creme Donut</center>
+|Used on ''[[Donut]]''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 75 Blazing Shards.
+|75x[[File:Blazing Shard.png|35px|link=Items#Materials|Blazing Shard]]
+|-
+|[[File:Thread of the Exile.png|center|100x100px|Thread of the Exile]]<center>Thread of the Exile</center>
+|Used on ''[[Trickster]]''. Gives +40% Attack and ''Opened Crimson Princess''. 
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 5x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+5x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+4x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+17x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3750x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Soul Orb.png|center|100x100px|Soul Orb]]<center>Soul Orb</center>
+|Used on ''[[Trickster]]''.
+|Can only be obtained through buying it through the Hollow World event for 100 Soul Shards.
+|N/A
+|-
+|[[File:Negation Box.png|center|100x100px|Negation Box]]<center>Negation Box</center>
+|Used on ''[[Illusionist]]''. Gives +30% Attack and ''Kyōka Suigetsu''. 
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7000 Gems.
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+8x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+8x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+8x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+30x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Quincy Cross.png|center|100x100px|Quincy Cross]]<center>Quincy Cross</center>
+|Used on ''[[Spirit Archer]]''. Gives +25% Attack, +25% Crit and ''Holy Arrow''. 
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2350 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+12x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Soul Partition.png|center|100x100px|Soul Partition]]<center>Soul Partition</center>
+|Used on ''[[Jackal]]''. Gives 50% Attack and ''Los Lobos''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7000 Gems.
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+10x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+10x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7250x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Spirit Spear.png|center|100x100px|Spirit Spear]]<center>Spirit Spear</center>
+|Used on ''[[Void Spear]]''. Gives +40% Attack and ''Resurreción''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+6x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+6x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Crazy_Dice.png|center|100x100px|Crazy Dice]]<center>Crazy Dice</center>
+|Used on ''[[Chance]]''. Gives +20% Attack and ''Random Blessing''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+6x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+7x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+16x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Clown Effigy.png|center|100x100px|Clown Effigy]]<center>Clown Effigy</center>
+|Used on ''[[Chance]]''.
+|Can only be obtained through buying it through the Chimera World event for 100 Chimera Shards.
+|N/A
+|-
+|[[File:Gungi Set.png|center|100x100px|Gungi Set]]<center>Gungi Set</center>
+||Used on ''[[Ant]]''. Gives ''King Ant''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+8x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+5x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+16x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3750x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Final Contract.png|center|100x100px|Final Contract]]<center>Final Contract</center>
+||Used on ''[[Gene (Adult)]]''. Gives +50% Attack and ''???''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 8000 Gems.
+|4x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 10x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+8x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+8x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+8x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+8000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Electric Yo-yo.png|center|100x100px|Electric Yo-yo]]<center>Electric Yo-yo</center>
+||Used on ''[[Kizzua (Whirlwind)]]''. Gives +50% Attack and ''Paralysis''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7000 Gems.
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+10x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+12x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+32x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Broken Puppet.png|center|100x100px|Broken Puppet]]<center>Broken Puppet</center>
+||Used on ''[[Pito]]''. Gives +20% Attack, +25% Crit, and ''Terpsichora''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2350 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+5x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+10x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Golden Rose.png|center|100x100px|Golden Rose]]<center>Golden Rose</center>
+|Used on ''[[Prayer Master]]''. Gives +35% Attack and ''Zero Hand''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7,000 Gems.
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 10x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+10x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+5x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+5x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+32x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Dragon Fire.png|center|100x100px|Dragon Fire]]<center>Dragon Fire</center>
+|Used on ''[[Dragonslayer]]''. Give +35% Damage and ''Lightning Fire''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3,500 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+17x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Devil Ice.png|center|100x100px|Devil Ice]]<center>Devil Ice</center>
+|Used on ''[[Cold Mage]]''. Give +50% Damage and ''Devil Ice''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2,200 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 5x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+5x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+11x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2300x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Celestial Key (Final).png|center|100x100px|Celestial Key (Final)]]<center>Celestial Key (Final)</center>
+|Used on ''[[Lyla]]''. Give +50% Damage and ''Multi Summon''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7,250 Gems.
+|4x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 6x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+6x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+6x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+6x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+30x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Fractured Cubes.png|center|100x100px|Fractured Cubes]]<center>Fractured Cubes</center>
+|Used on ''[[Crush]]''. Give +35% Damage, ''Spreading Truth: Infinite Heaven'', and ''Crash''.
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2,400 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+4x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+11x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Essense of the Knight.png|center|100x100px|Essense of the Knight]]<center>Essense of the Knight</center>
+|Used on ''[[Elize]]''. Gives a ''Random Equip.''
+|Can only be obtained through opening the Magic Sealed Star or buying it from the Event Shop for 600 Jewels.
+|N/A
+|-
+|[[File:Celestial Tear.png|center|100x100px|Celestial Tear]]<center>Celestial Tear</center>
+|Used on ''[[Jelly]]''. Give +30% Damage and ''Sema''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 7500 Gems.
+|4x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+7x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+10x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+8x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Infinite Power Core.png|center|100x100px|Infinite Power Core]]<center>Infinite Power Core</center>
+|Used on ''[[Experiment X (Perfect)]]''. Gives SUPER PERFECT state and ''Solar Kamehameha''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 150 Power Cells.
+|150x[[File:Power Cell.png|35px|link=Items#Materials|Power Cell]]
+|-
+|[[File:Mini Time Machine.png|center|100x100px|Mini Time Machine]]<center>Mini Time Machine</center>
+|Used on ''[[Chunks]]''. Gives +260% Attack and ''Heat Dome''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 200 Power Cells.
+|200x[[File:Power Cell.png|35px|link=Items#Materials|Power Cell]]
+|-
+|[[File:Wolf Shadow.png|center|100x100px|Wolf Shadow]]<center>Wolf Shadow</center>
+|Used on ''[[Megomu]]''. Gives +20% Attack, ''Cursed Technique'' and ''Shadow Garden''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 6x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+5x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+6x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+16x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3450x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Cursed Wristwatch.png|center|100x100px|Cursed Wristwatch]]<center>Cursed Wristwatch</center>
+|Used on ''[[Ratio]]''. Gives +20% Damage, 50% Crit, ''Precision Flash Onslaught'' and ''Overtime''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 3500 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 6x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+6x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+5x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+16x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Precision Glasses.png|center|100x100px|Precision Glasses]]<center>Precision Glasses</center>
+|Used on ''[[Ratio]]''.
+|Can only be obtained through buying it through the Cursed Academy event for 100 Cursed Shards.
+|N/A
+|-
+|[[File:Six Eyes.png|center|100x100px|Six Eyes]]<center>Six Eyes</center>
+|Used on ''[[Paradox]]''. Gives +50% Damage, ''Hollow: Purple'', ''Unlimited Void'' and ''Limitless''
+|Can be obtained from ''Paradox'' in Limitless Domain.
+|6x[[File:Rikugan Eye.png|35px|link=Items#Materials|Rikugan Eye]]
+|-
+|[[File:Promise Ring.png|center|100x100px|Promise Ring]]<center>Promise Ring</center>
+|Used on ''[[Mimic Sorcerer]]''. Gives +50% Attack and ''Full Manifestion''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for ??? Gems.
+|200x[[File:Cursed Orb.png|35px|link=Items#Materials|Cursed Orb]]
+|-
+|[[File:Cursed Orb (Maximum).png|center|100x100px|Cursed Orb (Maximum)]]<center>Cursed Orb (Maximum)</center>
+|Used on ''[[Gazu]]''. Gives +40% Damage and ''Maximum: Uzumaki''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for ??? Gems.
+|4x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 9x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+6x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+9x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Shadow Fruit.png|center|100x100px|Shadow Fruit]]<center>Shadow Fruit</center>
+|Used on ''[[Morbid]]''. Give +20% Damage and ''Shadow Veil''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Candies.
+|N/A
+|-
+|[[File:Zombie Doll.png|center|100x100px|Zombie Doll]]<center>Zombie Doll</center>
+|Used on ''[[Ghost Lady]]''. Give +25% Damage and ''Ghost Slow'' 
+|Can be bought from ''Navi's Event Shop'' for 5,000 Candies.
+|N/A
+|-
+|[[File:Shark Guitar.png|center|100x100px|Shark Guitar]]<center>Shark Guitar</center>
+|Used on ''[[Skeleton]]''. Give +50% Damage and ''Soul King''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Candies.
+|N/A
+|-
+|[[File:Mermaid Scale.png|center|100x100px|Mermaid Scale]]<center>Mermaid Scale</center>
+|Used on ''[[Aquatic Mage]]''. Gives +30% Attack and ''Sea Dragon's Roar''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 1850 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 2x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+2x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+6x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+2350x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Dark Katana.png|center|100x100px|Dark Katana]]<center>Dark Katana</center>
+|Used on ''[[Black Blade]]''. Gives +50% Attack and ''True Dark Dimension Slash''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 5650 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]] <br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]] 17x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7250x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Lightning Fiend's Horns.png|center|100x100px|Lightning Fiend's Horns]]<center>Lightning Fiend's Horns</center>
+|Used on ''[[Karma]]''. Gives +30% Attack and ''True Lightning Magic''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2800 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+2x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+8x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3450x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Demonic Wing.png|center|100x100px|Demonic Wing]]<center>Demonic Wing</center>
+|Used on ''[[Magic Disbeliever]]''. Gives +50% Damage and ''Black Hurricane''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 2850 Gems.
+|1x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+2x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]
+2x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+8x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+3500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Spirit Crown.png|center|100x100px|Spirit Crown]]<center>Spirit Crown</center>
+|Used on ''[[Elf Spirit]]''. Gives +30% Attack and ''Spirit of Zephy''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for 5650 Gems.
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+7x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+5x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+13x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7200x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Enchanted Magic Stone.png|center|100x100px|Enchanted Magic Stone]]<center>Enchanted Magic Stone </center>
+|Used on ''[[Magic Disbeliever]]'', ''[[Elf Spirit]]'', ''[[Aquatic Mage]]'', ''[[Black Blade]]'', and ''[[Karma]]''.
+|Can be obtained through beating Act 1 of the Legend Stage '''Clover Kingdom (Elf Invasion)''' in Story Mode.
+|N/A
+|-
+|[[File:Cursed Magic Stone.png|center|100x100px|Cursed Magic Stone]]<center>Cursed Magic Stone </center>
+|Used on ''[[Magic Disbeliever]]'', ''[[Elf Spirit]]'', ''[[Aquatic Mage]]'', ''[[Black Blade]]'', and ''[[Karma]]''.
+|Can be obtained through beating Act 2 of the Legend Stage '''Clover Kingdom (Elf Invasion)''' in Story Mode.
+|N/A
+|-
+|[[File:Endless Tome.png|center|100x100px|Endless Tome]]<center>Endless Tome</center>
+|Used on ''[[Time Wizard]]''. Gives +20% Attack and ''Chrono Reversal''
+|Can be obtained through ''Crafting'' or bought from the ''Travelling Merchant Shop'' for ??? Gems.
+|12x[[File:Lost Chapter.png|35px|link=Items#Materials|Lost Chapter]] <br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Soul (Tiel).png|center|100x100px|Soul (Tiel)]] <center>Soul (Tiel)</center>
+|Used on ''[[Spirit Reaper (Dusk)]]'', ''[[Packy]]'' and ''[[Wasp]]''.
+|Can be obtained through beating act 1 of Legend Stage ''Hollow Invasion'' in Story Mode.
+|N/A
+|-
+|[[File:Soul (Toshe).png|center|100x100px|Soul (Toshe)]] <center>Soul (Toshe)</center>
+|Used on ''[[Spirit Reaper (Dusk)]]'' and ''[[Wasp]]''.
+|Can be obtained through beating act 2 of Legend Stage ''Hollow Invasion'' in Story Mode.
+|N/A
+|-
+|[[File:Soul (Wes).png|center|100x100px|Soul (Wes)]] <center>Soul (Wes)</center>
+|Used on ''[[Spirit Reaper (Dusk)]]'', ''[[Packy]]'' and ''[[White Snake]]''.
+|Can be obtained through beating act 3 of Legend Stage ''Hollow Invasion'' in Story Mode.
+|N/A
+|-
+|[[File:Soul (Barrago).png|center|100x100px|Soul (Barrago)]] <center>Soul (Barrago)</center>
+|Used on ''[[Spirit Reaper (Dusk)]]'', ''[[Wasp]]'' and ''[[White Snake]]''.
+|Can be obtained through beating act 4 of Legend Stage ''Hollow Invasion'' in Story Mode.
+|N/A
+|-
+|[[File:Soul (Ging).png|center|100x100px|Soul (Ging)]] <center>Soul (Ging)</center>
+|Used on ''[[Spirit Reaper (Dusk)]]'', ''[[Packy]]'' and ''[[White Snake]]''.
+|Can be obtained through beating act 5 of Legend Stage ''Hollow Invasion'' in Story Mode.
+|N/A
+|-
+|[[File:Yamamoto staff.png|center|100x100px|Sealed Fire Staff]]
+<center>Sealed Fire Staff</center>
+|Used on ''[[Fiery Commander]]''. Gives +50% Attack and ''Zanka no Tachi''.
+|Can be obtained through ''Crafting'', bought from ''Shunso'' for 499 Robux or from the ''Traveling Merchant Shop'' for ??? Gems.
+|3x[[File:Soul (Toshe).png|35px|link=Evolution|Soul (Toshe)]] 3x[[File:Soul (Wes).png|35px|link=Evolution|Soul (Wes)]]<br>
+3x[[File:Soul (Tiel).png|35px|link=Evolution|Soul (Tiel)]] 3x[[File:Soul (Ging).png|35px|link=Evolution|Soul (Ging)]]<br>
+3x[[File:Soul (Barrago).png|35px|link=Evolution|Soul (Barrago)]]<br>
+8000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:DISC (Blue).png|center|100x100px|DISC (Blue)]] <center>DISC (Blue)</center>
+|Used on ''[[Weather]]'', ''[[Jolyna]]'',  ''[[Hermy]]'', and ''[[Delinquent (Serious)]]''.
+|Can be obtained through beating act 1 of Legend Stage ''Cape Canaveral'' in Story Mode.
+|N/A
+|-
+|[[File:DISC (Green).png|center|100x100px|DISC (Green)]] <center>DISC (Green)</center>
+|Used on ''[[Weather]]'', ''[[Jolyna]]'',  ''[[Hermy]]'', and ''[[Delinquent (Serious)]]''.
+|Can be obtained through beating act 1 of Legend Stage ''Cape Canaveral'' in Story Mode.
+|N/A
+|-
+|[[File:DISC (Orange).png|center|100x100px|DISC (Orange)]] <center>DISC (Orange)</center>
+|Used on ''[[Weather]]'', ''[[Jolyna]]'',  ''[[Hermy]]'', and ''[[Delinquent (Serious)]]''.
+|Can be obtained through beating act 2 of Legend Stage ''Cape Canaveral'' in Story Mode.
+|N/A
+|-
+|[[File:DISC (Pink).png|center|100x100px|DISC (Pink)]] <center>DISC (Pink)</center>
+|Used on ''[[Weather]]'', ''[[Jolyna]]'', ''[[Hermy]]'', and ''[[Delinquent (Serious)]]''.
+|Can be obtained through beating act 2 of Legend Stage ''Cape Canaveral'' in Story Mode.
+|N/A
+|-
+|[[File:DISC (Purple).png|center|100x100px|DISC (Purple)]] <center>DISC (Purple)</center>
+|Used on ''[[Weather]]'', ''[[Jolyna]]'', ''[[Hermy]]'', and ''[[Delinquent (Serious)]]''.
+|Can be obtained through beating act 3 of Legend Stage ''Cape Canaveral'' in Story Mode.
+|N/A
+|-
+|[[File:DISC (Black).png|center|100x100px|DISC (Black)]] <center>DISC (Black)</center>
+|Used on ''[[Weather]]'', ''[[Jolyna]]'', ''[[Hermy]]'', and ''[[Delinquent (Serious)]]''.
+|Can be obtained through beating act 3 of Legend Stage ''Cape Canaveral'' in Story Mode.
+|N/A
+|-
+|[[File:Green Baby.png|center|100x100px|Green Baby]]<center>Green Baby</center>
+|Used on ''[[Priest]]''.
+|Can be obtained from using ''JIO's Bone'' after obtaining 36 Sinners's Souls<ref>Sinners's Souls refer to amount of boss kills in Infinite Mode of Cape Canaveral</ref>
+|1x[[File:JIO's Bone.png|35px|link=Items#Materials|JIO's Bone]]
+|-
+|[[File:Heavenly Clock.png|center|100x100px|Heavenly Clock]]<center>Heavenly Clock</center>
+|Used on ''[[Priest (New Moon)]]''.
+|Can be obtained from beating "The New Moon" of Cape Canaveral from Final Disc's portal
+|N/A
+|-
+|[[File:DISC (Green).png|center|100x100px|Final Disc]]<center>Final Disc</center>
+|Used to opened a portal to "The New Moon" of Cape Canaveral
+|Can be obtained from using 6x Final Disc Fragment
+|6x [[File:Final Disc (Fragments).png|30px|link=Items#Materials|Final Disc Fragment]]
+|-
+|[[File:Cyrogenic Helmet.png|center|100x100px|Cyrogenic Helmet]] <center>Cyrogenic Helmet</center>
+|Used on ''[[Skater]]''. Gives +30% Damage and ''Ice Armor''
+|Can be obtained though ''Crafting'' or claiming Tier 50 of Premium Cake Pass
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+8x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]] 9x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Ice Pheasant.png|center|100x100px|Ice Pheasant]]<center>Ice Pheasant</center>
+|Used on ''[[Frost Navy]]''. Gives +50% Attack and ''Ice Age''
+|Can be obtained through ''Crafting'' or claiming Tier 50 of Premium Cake Pass
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+6x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 9x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Ice-Fire Orb.png|center|100x100px|Ice-Fire Orb]]<center>Ice-Fire Orb</center>
+|Used on ''[[Blaze Frost)]''. Give +40% Attack and ''Flashfreeze Heatwave''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Holiday Stars.
+|N/A
+|-
+|[[File:Ice Lotus.png|center|100x100px|Ice Lotus]]<center>Ice Lotus</center>
+|Used on ''[[Icy Dragon]]''. Give +50% Crit and ''Dragon Descent'' 
+|Can be bought from ''Navi's Event Shop'' for 5,000 Holiday Stars.
+|N/A
+|-
+|[[File:Frozen Mirror.png|center|100x100px|Frozen Mirror]]<center>Frozen Mirror</center>
+|Used on ''[[Mirror Ninja]]''. Give +35% Attack and ''Mirroring Ice Crystals''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Holiday Stars.
+|N/A
+|-
+|[[File:Demon Extract.png|center|100x100px|Demon Extract]]<center>Demon Extract</center>
+|Used on ''[[Ice Queen]]''. Give +30% Attack and ''Mahapadma''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Holiday Stars.
+|N/A
+|-
+|[[File:Gun devil bullet.png|center|100x100px|Gun Devil Bullet]]<center>Gun Devil Bullet</center>
+|Used on ''[[Blade Beast]]'', ''[[Blood]]'', ''[[Curse]]'', ''[[Paragon]]'', ''[[Ghosty]]'' and ''[[Cowardly]]''
+|Can be obtained from Devil Contract (Rank 0-5).
+|N/A
+|-
+|[[File:nami_staff.png|center|100x100px|Clima-Staff]]<center>Clima-Staff</center>
+|Used on ''[[Weather Girl]]''. +50% Attack, ''Thunderbolt Tempo'' and ''Treasure Thief''
+|Can be obtained though ''Crafting'' or claiming Tier 25 of Premium Cloud Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]] 4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]] 17x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+7250x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Full Power Core.png|center|100x100px|Full Power Core]]<center>Full Power Core</center>
+|Used on ''[[Waterfist]]'', ''[[Supersound]]'', ''[[Tamiki]]'', ''[[Cyborg (Overdrive)]]'', ''[[Iron Knight]]'' and ''[[Lord Alien King]]''
+|Can be obtained from Alien Portal.
+|N/A
+|-
+|[[File:Mjolnir.png|center|100x100px|Mjolnir]]<center>Mjolnir</center>
+|Used on ''[[Lightning God]]''. Gives +50% Damage and ''Geirröd''
+|Can be obtained through ''Crafting'' or claiming Tier 50 of Premium Cloud Pass
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 8x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+8x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 9x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]<br>
+35x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+7500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Lightning Blade.png|center|100x100px|Lightning Blade]]<center>Lightning Blade</center>
+|Used on ''[[Shinobi (Hood)]]''. Gives +30% Attack and ''Kirin''
+|Can only be bought from ''Red Scar's Raid Shop'' for 350 Tomoe
+|N/A
+|-
+|[[File:Yata Mirror.png|center|100x100px|Yata Mirror]]<center>Yata Mirror</center>
+|Used on ''[[Izo (Black Fire)]]''. Gives +40% Attack and ''Susanoo''
+|Can only be bought from ''Red Scar's Raid Shop'' for 350 Tomoe
+|N/A
+|-
+|[[File:Chakra Drill.png|center|100x100px|Chakra Drill]]<center>Chakra Drill</center>
+|Used on ''[[Shisu]]''. Gives +40% Attack and ''Susanoo''
+|Can only be bought from ''Red Scar's Raid Shop'' for 350 Tomoe
+|N/A
+|-
+|[[File:Thunder Spears.png|center|100x100px|Thunder Spears]]<center>Thunder Spears</center>
+|Used on ''[[Eccentric Researcher]]''. Gives +30% Attack, +50% Crit and ''Thunder Spears''
+|Can be obtained through ''Crafting'' or claiming Tier 25 of Premium Ammo Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Cross Gun.png|center|100x100px|Cross Gun]]<center>Cross Gun</center>
+|Used on ''[[Gunslinger]]]]''. Gives +40% Attack, +35% Physical Crit Damage and ''Cross''
+|Can be obtained through ''Crafting'' or claiming Tier 50 of Premium Ammo Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Demonic Chalice.png|center|100x100px|Demonic Chalice]]<center>Demonic Chalice</center>
+|Used on ''[[Crimson Thief]]'', ''[[Fairy Ruler]]'', ''[[Doll]]'', ''[[Hammer Giantess]]'', ''[[Wratho]]'', and ''[[Hubris (Night)]]''.
+|Can only be obtained through beating act 1 of Legend Stage ''Fabled Kingdom (Ten Commandments)'' in Story Mode or complete Eliz's Daily Quest.
+|N/A
+|-
+|[[File:Demonic Horn.png|center|100x100px|Demonic Horn]]<center>Demonic Horn</center>
+|Used on ''[[Crimson Thief]]'', ''[[Fairy Ruler]]'', ''[[Doll]]'', ''[[Hammer Giantess]]'' and ''[[Wratho]]'', and ''[[Hubris (Night)]]''.
+|Can only be obtained through beating act 2 of Legend Stage ''Fabled Kingdom (Ten Commandments)'' in Story Mode or complete Eliz's Daily Quest.
+|N/A
+|-
+|[[File:Fairy Petals.png|center|100x100px|Fairy Petals]]<center>Fairy Petals</center>
+|Used on ''[[Crimson Thief]]'', ''[[Fairy Ruler]]'', ''[[Doll]]'', ''[[Hammer Giantess]]'' and ''[[Wratho]]'', and ''[[Hubris (Night)]]''.
+|Can only be obtained through beating act 3 of Legend Stage ''Fabled Kingdom (Ten Commandments)'' in Story Mode.
+|N/A
+|-
+|[[File:Demonic Spellbook.png|center|100x100px|Demonic Spellbook]]<center>Demonic Spellbook</center>
+|Used on ''[[Infinity Mage]]''. Gives +35% Attack, ''Exterminate Ray'', and ''Perpetual Curse''
+|Can only be obtained through beating ''Fabled Kingdom (Cube)'' in [[Portals|Demon Leader's Portal]].
+|N/A
+|-
+|[[File:Sunshine Essence.png|center|100x100px|Sunshine Essence]]<center>Sunshine Essence</center>
+|Used on ''[[Hubris (Day)]]''. Gives 25,000 Sunshine per Sunshine Essence.
+|Can only be obtained through beating ''Fabled Kingdom (Cube)'' in [[Portals|Demon Leader's Portal]].
+|N/A
+|-
+|[[File:Supernova.png|center|100x100px|Supernova]]<center>Supernova</center>
+|Used on ''[[Golden Tyrant]]''. Gives 30% Attack and ''Supernova''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 350 Alien Scouter.
+|N/A
+|-
+|[[File:Demon Symbol.png|center|100x100px|Demon Symbol]]<center>Demon Symbol</center>
+|Used on ''[[Green Alien (Fusion)]]''. Gives 30% Attack and ''Special Beam Cannon''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 350 Alien Scouter.
+|N/A
+|-
+|[[File:Super Capsule.png|center|100x100px|Super Capsule]]<center>Super Capsule</center>
+|Used on ''[[Vego (Super)]]''. Gives 25% Attack and ''Final Flash''.
+|Can only be bought from ''Red Scar's Raid Shop'' for 350 Alien Scouter.
+|N/A
+|-
+|[[File:Fusion Jacket.png|center|100x100px|Fusion Jacket]]<center>Fusion Jacket</center>
+|Used on ''[[Carrot]]'' and ''[[Vegita]]''.
+|Can only be bought from ''Piccoru'' for 999[[File:Gold.png|35px|link=Currencies|Gold]].
+|N/A
+|-
+|[[File:Hero Guantlet.png|center|100x100px|Hero Guantlet]]<center>Hero Guantlet</center>
+|Used on ''[[Verdant Hero (String)]]'', ''[[Ashborn]]'', ''[[Flame Hero]]'', ''[[Falcon]]'' and ''[[Explosion Hero (Impact)]]''.
+|Can only be obtained through beating act 1, 4, and 6 of Legend Stage ''Hero City (Midnight)'' in Story Mode.
+|N/A
+|-
+|[[File:Quirk Amplifier.png|center|100x100px|Quirk Amplifier]]<center>Quirk Amplifier</center>
+|Used on ''[[Verdant Hero (String)]]'', ''[[Ashborn]]'', ''[[Flame Hero]]'', ''[[Falcon]]'' and ''[[Explosion Hero (Impact)]]''.
+|Can only be obtained through beating act 2, 5, and 6 of Legend Stage ''Hero City (Midnight)'' in Story Mode.
+|N/A
+|-
+|[[File:Quirk Capsule.png|center|100x100px|Quirk Amplifier]]<center>Quirk Amplifier</center>
+|Used on ''[[Verdant Hero (String)]]'', ''[[Ashborn]]'', ''[[Flame Hero]]'', ''[[Falcon]]'' and ''[[Explosion Hero (Impact)]]''.
+|Can only be obtained through beating act 3, and 6 of Legend Stage ''Hero City (Midnight)'' in Story Mode.
+|N/A
+|-
+|[[File:Evil Queen's Piece.png|center|100x100px|Evil Queen's Piece]]<center>Evil Queen's Piece</center>
+|Used on ''[[Akena]]'' and ''[[Kuneko]]'' and ''[[Ria]]''.
+|Can only be bought from ''Issei'' for 300[[File:Demon Academy Symbol.png|35px]].
+|N/A
+|-
+|[[File:Poison Bulb.png|center|100x100px|Poison Bulb]]<center>Poison Bulb</center>
+|Used on ''[[Haze]]''. Gives +35% Attack and ''Homicidal Virus''.
+|Can be obtained through ''Crafting'' or claiming Tier 25 of Premium Cake Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+5x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Idol Mic.png|center|100x100px|Idol Mic]]<center>Idol Mic</center>
+|Used on ''[[Idol]]''.
+|Can be obtained through ''Crafting'' or claiming Tier 50 of Premium Cake Pass
+|3x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+2x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]]
+4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+4x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]]
+12x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]<br>
+7000x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:SMILE Fruit.png|center|100x100px|SMILE Fruit]]<center>SMILE Fruit</center>
+|Used on ''[[Captain (Timeskip)]]'', ''[[Rebel]]'', ''[[Operator (Heart)]]'', ''[[Joykid (Bounce)]]'', ''[[Gravity Navy]]'' and ''[[Stringy]]''.
+|Can be obtained from Puppet Island Portal.
+|N/A
+|-
+|[[File:Magic Cutlery.png|center|100x100px|Magic Cutlery]]<center>Magic Cutlery</center>
+|Used on ''[[Cotton]]''. Gives +30% Attack, ''Sleeping Sheep Strike'' and ''Cotton Slow''
+|Can be obtained through ''Crafting'' or claiming Tier 25 of Premium Magic Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]] 15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+6500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Dumbell.png|center|100x100px|Dumbell]]<center>Dumbell</center>
+|Used on ''[[Bodybuilder]]''. Gives +50% Attack and ''Magic Counter''
+|Can be obtained through ''Crafting'' or claiming Tier 50 of Premium Magic Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+3x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 3x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+4x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]] 15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+6500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Soul Gem (Violet).png|center|100x100px|Soul Gem (Violet)]]<center>Soul Gem (Violet)</center>
+|Used on ''[[Shadowgirl]]''. Gives +50% Attack, ''Timestop'' and ''Final Measure''
+|Can only be bought from ''Kyubyu'' for 500[[File:Grief Seed.png|35px]].
+|N/A
+|-
+|[[File:Soul Gem (Gold).png|center|100x100px|Soul Gem (Gold)]]<center>Soul Gem (Gold)</center>
+|Used on ''[[Millie]]''. Gives +40% Attack and ''Tiro Finale''
+|Can only be bought from ''Kyubyu'' for 500[[File:Grief Seed.png|35px]].
+|N/A
+|-
+|[[File:Soul Gem (Rose).png|center|100x100px|Soul Gem (Rose)]]<center>Soul Gem (Rose)</center>
+|Used on ''[[Magic Girl]]''. Gives +30% Attack and ''Incarnation of Mercy''
+|Can only be bought from ''Kyubyu'' for 500[[File:Grief Seed.png|35px]].
+|N/A
+|-
+|[[File:Soul Gem (Sapphire).png|center|100x100px|Soul Gem (Sapphire)]]<center>Soul Gem (Sapphire)</center>
+|Used on ''[[Saki]]''. Gives +35% Attack and ''Curtain Call''
+|Can only be bought from ''Kyubyu'' for 500[[File:Grief Seed.png|35px]].
+|N/A
+|-
+|[[File:Soul Gem (Scarlet).png|center|100x100px|Soul Gem (Scarlet)]]<center>Soul Gem (Scarlet)</center>
+|Used on ''[[Kyko]]''. Gives +30% Attack and ''Scarlet Puncture''
+|Can only be bought from ''Kyubyu'' for 500[[File:Grief Seed.png|35px]].
+|N/A
+|-
+|[[File:Dark Crystallite.png|center|100x100px|Dark Crystallite]]<center>Dark Crystallite</center>
+|Used on ''[[Gamer]]'', ''[[Gamer Girl]]'', ''[[Elfy]]'', ''[[Virtual Samurai]]'', ''[[Crusader]]'', and ''[[Stain]]''
+|Can only be obtained through beating act 1 of Legend Stage ''Virtual Kingdom (Bosses)'' in Story Mode.
+|N/A
+|-
+|[[File:Ice Crystallite.png|center|100x100px|Ice Crystallite]]<center>Ice Crystallite</center>
+|Used on ''[[Gamer]]'', ''[[Gamer Girl]]'', ''[[Elfy]]'', ''[[Virtual Samurai]]'', ''[[Crusader]]'', and ''[[Stain]]''
+|Can only be obtained through beating act 2 of Legend Stage ''Virtual Kingdom (Bosses)'' in Story Mode.
+|N/A
+|-
+|[[File:Blood Crystallite.png|center|100x100px|Blood Crystallite]]<center>Blood Crystallite</center>
+|Used on ''[[Gamer]]'', ''[[Gamer Girl]]'', ''[[Elfy]]'', ''[[Virtual Samurai]]'', ''[[Crusader]]'', and ''[[Stain]]''.
+|Can only be obtained through beating act 3 of Legend Stage ''Virtual Kingdom (Bosses)'' in Story Mode.
+|N/A
+|-
+|[[File:Rusted Coin.png|center|100x100px|Rusted Coin]]<center>Rusted Coin</center>
+|Used on ''[[Brawler]]''. Gives +35% Attack and ''La Muerte''
+|Can be obtained through ''Crafting'' or claiming Tier 25 of Premium Flower Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 3x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+4x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 4x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+3x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]] 15x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+6500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Hollow Flower.png|center|100x100px|Hollow Flower]]<center>Hollow Flower</center>
+|Used on ''[[Flower Ninja]]''. Gives +40% Attack and ''Ninpo: Pyro Blizzard''
+|Can be obtained through ''Crafting'' or claiming Tier 50 of Premium Flower Pass
+|2x[[File:Star Fruit (Rainbow).png|35px|link=Items#Materials|Star Fruit (Rainbow)]] 4x[[File:Star Fruit (Red).png|35px|link=Items#Materials|Star Fruit (Red)]]<br>
+2x[[File:Star Fruit (Green).png|35px|link=Items#Materials|Star Fruit (Green)]] 5x[[File:Star Fruit (Pink).png|35px|link=Items#Materials|Star Fruit (Pink)]]<br>
+5x[[File:Star Fruit (Blue).png|35px|link=Items#Materials|Star Fruit (Blue)]] 16x[[File:Star Fruit.png|35px|link=Items#Materials|Star Fruit]]
+<br>
+6500x[[File:Gold.png|35px|link=Currencies|Gold]]
+|-
+|[[File:Egg of Sacrifice.png|center|100x100px|Egg of Sacrifice]]<center>Egg of Sacrifice</center>
+|Used on ''[[Berserker]]'', ''[[Griffin]]'', ''[[Skeleton Knight]]'', ''[[Dragon Knight]]'' and ''[[Golden Navy]]''.
+|Can be obtained from Windhym Infinite, [[Portals#Eclipse Portal|Eclipse Portals]], or completing Cascy's daily mission.
+|N/A
+|-
+|[[File:Egg of the King.png|center|100x100px|Egg of the King]]<center>Egg of the King</center>
+|Used to ascend ''[[Griffin]]''.
+|Automatically obtained from summoning ''[[Griffin]]''.
+|N/A
+|-
+|[[File:Fiery Ankh.png|center|100x100px|Fiery Ankh]]<center>Fiery Ankh</center>
+|Used on ''[[Flamefeather]]''. Give +35% Attack and ''Cross-Fire Hurricane''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Summer Pearls.
+|N/A
+|-
+|[[File:Sharktooth Blade.png|center|100x100px|Sharktooth Blade]]<center>Sharktooth Blade</center>
+|Used on ''[[Hammerhead]]''. Give +30% Attack and ''La Gota'' 
+|Can be bought from ''Navi's Event Shop'' for 5,000 Summer Pearls.
+|N/A
+|-
+|[[File:Pirate King's Hat.png|center|100x100px|Pirate King's Hat]]<center>Pirate King's Hat</center>
+|Used on ''[[Pirate King]]''. Give +40% Attack, ''Divine Departure'' and ''Haki Stun''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Summer Pearls.
+|N/A
+|-
+|[[File:Sharkskin Greatsword.png|center|100x100px|Sharkskin Greatsword]]<center>Sharkskin Greatsword</center>
+|Used on ''[[Sharkfin]]''. Give +40% Attack and ''Exploding Tsunami''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Summer Pearls.
+|N/A
+|-
+|[[File:Sea God's Trident.png|center|100x100px|Sea God's Trident]]<center>Sea God's Trident</center>
+|Used on ''[[Sea God]]''. Give +50% Attack and ''Medusa Alope Demeter''
+|Can be bought from ''Navi's Event Shop'' for 5,000 Summer Pearls.
+|N/A
+|-
+|[[File:Overlord's Ring (Yellow).png|center|100x100px|Overlord's Ring (Yellow)]] <center>Overlord's Ring (Yellow)</center>
+|Used on ''[[Supreme Being]]'', ''[[Cherub]]'', ''[[Lucifer]]'', ''[[Crystal Rose]]'', ''[[Bloodcry]]'', and ''[[Thunder Maid]]''.
+|Can be obtained through beating act 1 of Legend Stage ''Undead Tomb'' in Story Mode.
+|N/A
+|-
+|[[File:Overlord's Ring (Red).png|center|100x100px|Overlord's Ring (Red)]] <center>Overlord's Ring (Red)</center>
+|Used on ''[[Supreme Being]]'', ''[[Cherub]]'', ''[[Lucifer]]'', ''[[Crystal Rose]]'', ''[[Bloodcry]]'', and ''[[Thunder Maid]]''.
+|Can be obtained through beating act 2 of Legend Stage ''Undead Tomb'' in Story Mode.
+|N/A
+|-
+|[[File:Overlord's Ring (Blue).png|center|100x100px|Overlord's Ring (Blue)]] <center>Overlord's Ring (Blue)</center>
+|Used on ''[[Supreme Being]]'', ''[[Cherub]]'', ''[[Lucifer]]'', ''[[Crystal Rose]]'', ''[[Bloodcry]]'', and ''[[Thunder Maid]]''.
+|Can be obtained through beating act 3 of Legend Stage ''Undead Tomb'' in Story Mode.
+|N/A
+|-
+|[[File:Cid sword.png|center|100x100px|Shadow Broadsword]] <center>Shadow Broadsword</center>
+|Used on ''[[Umbra]]'' grants +40% attack and the ''I Am Atomic'' ability.
+|Can be obtained through the Halloween 2023 shop for 5000 Candies.
+|N/A
+|}
+
+|}
+
+|-|Evolution Recipes=
+{| class="fandom-table"
+!Evolved Unit
+!colspan="2" |Materials Needed
+|-
+!{{Characterbox|Lulu (Geass)}}
+!1x{{Characterbox|Lulu}}
+<center>
+<table>
+<td> 1x[[File:King's Idol.png|30px|link=Evolution|King's Idol]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Super Brulo}}
+!1x{{Characterbox|Brulo}}
+<center>
+<table>
+<td> 1x[[File:Restraining Necklace.png|30px|link=Evolution|Restraining Necklace]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Marada (Founder)}}
+!1x{{Characterbox|Marada}}
+<center>
+<table>
+<td> 2x[[File:Divine Eye.png|30px|link=Evolution|Divine Eye]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Prime Force (Symbol of Peace)}}
+!1x{{Characterbox|Prime Force}}
+<center>
+<table>
+<td> 3x[[File:Shining Extract.png|30px|link=Evolution|Shining Extract]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Lex Akoman}}
+!1x{{Characterbox|Lex}}
+<center>
+<table>
+<td> 2x[[File:Ultrasteel Blade.png|30px|link=Evolution|Ultrasteel Blade]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Emperor Whitehair}}
+!1x{{Characterbox|Whitehair}}
+<center>
+<table>
+<td> 1x[[File:Quake Fruit.png|30px|link=Evolution|Quake Fruit]]</td>
+<td> 15x[[File:Devil Fruit.png|30px|link=Evolution|Devil Fruit]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Red Scar (Conqueror)}}
+!1x{{Characterbox|Red Scar}}
+<center>
+<table>
+<td> 1x[[File:Hat of the Conqueror.png|30px|link=Evolution|Hat of the Conqueror]]</td>
+<td> 15x[[File:Devil Fruit.png|30px|link=Evolution|Devil Fruit]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Fleet Admiral Akano}}
+!1x{{Characterbox|Akano}}
+<center>
+<table>
+<td> 1x[[File:Magma Fruit.png|30px|link=Evolution|Magma Fruit]]</td>
+<td> 15x[[File:Devil Fruit.png|30px|link=Evolution|Devil Fruit]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Mochi Charlot}}
+!1x{{Characterbox|Mochi}}
+<center>
+<table>
+<td> 2x[[File:Cupcake.png|30px|link=Evolution|Cupcake]]</td>
+<td> 15x[[File:Devil Fruit.png|30px|link=Evolution|Devil Fruit]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Usurper (Founder)}}
+!4x{{Characterbox|Usurper}}<br/>4x{{Characterbox|Zeike}}
+<center>
+<table>
+<td> 9x[[File:Path Branch.png|30px|link=Evolution|Path Branch]]</td>
+<td> 25x[[File:Mysterious Fluid.png|30px|link=Evolution|Mysterious Fluid]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Noruto (Beast Cloak)}}
+!4x{{Characterbox|Noruto (Demon Cloak)}}
+<center>
+<table>
+<td> 2x[[File:Hidden Seal.png|30px|link=Evolution|Hidden Seal]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Tarata (Ignite)}}
+!1x{{Characterbox|Tarata}}
+<center>
+<table>
+<td> 2x[[File:Scales of the Salamander.png|30px|link=Evolution|Scales of the Salamander]]</td>
+<td> 20x[[File:Ghoul Coffee.png|30px|link=Evolution|Ghoul Coffee]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Juozu (Joker)}}
+!1x{{Characterbox|Juozu}}
+<center>
+<table>
+<td> 1x[[File:Forbidden Candy.png|30px|link=Evolution|Forbidden Candy]]</td>
+<td> 20x[[File:Ghoul Coffee.png|30px|link=Evolution|Ghoul Coffee]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ariva (Reaper)}}
+!1x{{Characterbox|Ariva}}
+<center>
+<table>
+<td> 1x[[File:Arsenal Briefcase.png|30px|link=Evolution|Arsenal Briefcase]]</td>
+<td> 20x[[File:Ghoul Coffee.png|30px|link=Evolution|Ghoul Coffee]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Eta (One-Eye)}}
+!1x{{Characterbox|Eta}}
+<center>
+<table>
+<td> 3x[[File:Crystal Shards.png|30px|link=Evolution|Crystal Shards]]</td>
+<td> 20x[[File:Ghoul Coffee.png|30px|link=Evolution|Ghoul Coffee]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Donut (ABLAZE)}}
+!1x{{Characterbox|Donut}}<br/>4x{{Characterbox|Martial Demon}}
+<center>
+<table>
+<td> 3x[[File:Blazing Creme Donut.png|30px|link=Evolution|Blazing Creme Donut]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Martial Demon(Destruction)}}
+!4x{{Characterbox|Martial Demon}}
+<center>
+<table>
+<td> 2x[[File:Demon Beads.png|30px|link=Evolution|Demon Beads]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Jackal (Alpha)}}
+!1x{{Characterbox|Jackal}}
+<center>
+<table>
+<td> 1x[[File:Soul Partition.png|30px|link=Evolution|Soul Partition]]</td>
+<td> 40x[[File:Soul Candy.png|30px|link=Evolution|Soul Candy]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Uru (Antithesis)}}
+!1x{{Characterbox|Uru}}
+<center>
+<table>
+<td> 3x[[File:Quincy Cross.png|30px|link=Evolution|Quincy Cross]]</td>
+<td> 40x[[File:Soul Candy.png|30px|link=Evolution|Soul Candy]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Void Spear (Revival)}}
+!1x{{Characterbox|Void Spear}}
+<center>
+<table>
+<td>2x[[File:Spirit Spear.png|30px|link=Evolution|Spirit Spear]]</td>
+<td>40x[[File:Soul Candy.png|30px|link=Evolution|Soul Candy]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Aizo (Betrayal)}}
+!1x{{Characterbox|Aizo}}
+<center>
+<table>
+<td>1x[[File:Negation Box.png|30px|link=Evolution|Negation Box]]</td>
+<td>40x[[File:Soul Candy.png|30px|link=Evolution|Soul Candy]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Trickster (Release)}}
+!1x{{Characterbox|Trickster}}
+<center>
+<table>
+<td>2x[[File:Thread of the Exile.png|30px|link=Evolution|Thread Of The Exile]]</td>
+<td>1x[[File:Soul Orb.png|30px|link=Evolution|Soul Orb]]</td>
+<td>40x[[File:Soul Candy.png|30px|link=Evolution|Soul Candy]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Pito (Terpsichora)}}
+!1x{{Characterbox|Pito}}
+<center>
+<table>
+<td>3x[[File:Broken Puppet.png|30px|link=Evolution|Broken Puppet]]</td>
+<td>40x[[File:Cooked Fish.png|30px|link=Evolution|Cooked Fish]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Kizzua (Godspeed)}}
+!1x{{Characterbox|Kizzua (Whirlwind)}}
+<center>
+<table>
+<td>1x[[File:Electric Yo-yo.png|30px|link=Evolution|Electric Yo-yo]]</td>
+<td>40x[[File:Cooked Fish.png|30px|link=Evolution|Cooked Fish]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Chairman Prayer Master}}
+!1x{{Characterbox|Prayer Master}}
+<center>
+<table>
+<td>1x[[File:Golden Rose.png|30px|link=Evolution|Golden Rose]]</td>
+<td>40x[[File:Cooked Fish.png|30px|link=Evolution|Cooked Fish]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|King Ant}}
+!1x{{Characterbox|Ant}}
+<center>
+<table>
+<td>2x[[File:Gungi Set.png|30px|link=Evolution|Gungi Set]]</td>
+<td>40x[[File:Cooked Fish.png|30px|link=Evolution|Cooked Fish]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Gene (Adult)}}
+!10x{{Characterbox|Gene}}
+|-
+!{{Characterbox|Gene (???)}}
+!1x{{Characterbox|Gene (Adult)}}
+<center>
+<table>
+<td>1x[[File:Final Contract.png|30px|link=Evolution|Final Contract]]</td>
+<td>40x[[File:Cooked Fish.png|30px|link=Evolution|Cooked Fish]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Kit (Precision)}} 
+{{Characterbox|Kit (Lethal)}} 
+{{Characterbox|Kit (Frenzy)}} {{Characterbox|Kit (Focus)}}
+
+* The blessings are random, 25% chance each of four blessings.
+!1x{{Characterbox|Kit}}
+<center>
+<table>
+<td>2x[[File:Crazy Dice.png|30px|link=Evolution|Crazy Dice]]</td>
+<td>1x[[File:Clown Effigy.png|30px|link=Evolution|Clown Effigy]]</td>
+<td>40x[[File:Cooked Fish.png|30px|link=Evolution|Cooked Fish]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Lyla (Celestial)}}
+!1x{{Characterbox|Lyla}}
+<center>
+<table>
+<td>1x[[File:Celestial Key (Final).png|30px|link=Evolution|Celestial Key (Final)]]</td>
+<td>40x[[File:Magical Artifact.png|30px|link=Evolution|Magical Artifact]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Dragonslayer (Lightning Mode)}}
+!1x{{Characterbox|Dragonslayer}}
+<center>
+<table>
+<td>2x[[File:Dragon Fire.png|30px|link=Evolution|Final Contract]]</td>
+<td>40x[[File:Magical Artifact.png|30px|link=Evolution|Magical Artifact]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Cold Mage (Devil Slayer)}}
+!1x{{Characterbox|Cold Mage}}
+<center>
+<table>
+<td>3x[[File:Devil Ice.png|30px|link=Evolution|Devil Ice]]</td>
+<td>40x[[File:Magical Artifact.png|30px|link=Evolution|Magical Artifact]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Crush (Ace)}}
+!1x{{Characterbox|Crush}}
+<center>
+<table>
+<td>1x[[File:Fractured Cubes.png|30px|link=Evolution|Fractured Cubes]]</td>
+<td>10x[[File:Magical Artifact.png|30px|link=Evolution|Magical Artifact]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ezra (Lightning)}} 
+{{Characterbox|Ezra (True Heart)}} 
+{{Characterbox|Ezra (Valkyrie)}}
+
+* The blessings are random, 33.3% chance each of three blessings.
+!1x{{Characterbox|Ezra}}
+<center>
+<table>
+<td>30x[[File:Infused Crystal.png|30px|link=Items#Materials|Infused Crystal]]</td>
+<td>1x[[File:Essense of the Knight.png|30px|link=Evolution|Essense of the Knight]]</td>
+<td>40x[[File:Magical Artifact.png|30px|link=Items#Materials|Magical Artifact]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Jelly (Heaven)}}
+!1x{{Characterbox|Jelly}}
+<center>
+<table>
+<td>1x[[File:Celestial Tear.png|30px|link=Evolution|Celestial Tear]]</td>
+<td>10x[[File:Infused Crystal.png|30px|link=Items#Materials|Infused Crystal]]</td>
+<td>40x[[File:Magical Artifact.png|30px|link=Evolution|Magical Artifact]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Experiment X (Semi-Perfect)}}
+!4x{{Characterbox|Experiment X (Imperfect)}}
+|-
+!{{Characterbox|Experiment X (Perfect)}}
+!4x{{Characterbox|Experiment X (Semi-Perfect)}}
+|-
+!{{Characterbox|Experiment X (SUPER PERFECT)}}
+!1x{{Characterbox|Experiment X (Perfect)}}
+<center>
+<table>
+<td>1x[[File:Infinite Power Core.png|30px|link=Evolution|Infinite Power Core]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Super Chunks}}
+!4x{{Characterbox|Chunks}}
+<center>
+<table>
+<td>1x[[File:Mini Time Machine.png|30px|link=Evolution|Mini Time Machine]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Paradox (Divine Sight)}}
+!1x{{Characterbox|Paradox}}
+<center>
+<table>
+<td> 1x[[File:Six Eyes.png|30px|link=Evolution|Six Eyes]]</td>
+<td> 40x[[File:Curse Talisman.png|30px|link=Items|Curse Talisman]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Megomu (Chimera Shadow)}}
+!1x{{Characterbox|Megomu}}
+<center>
+<table>
+<td> 2x[[File:Wolf Shadow.png|30px|link=Evolution|Wolf Shadow]]</td>
+<td> 40x[[File:Curse Talisman.png|30px|link=Items|Curse Talisman]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ratio (Overtime)}}
+!1x{{Characterbox|Ratio}}
+<center>
+<table>
+<td> 2x[[File:Cursed Wristwatch.png|30px|link=Evolution|Cursed Wristwatch]]</td>
+<td> 1x[[File:Precision Glasses.png|30px|link=Evolution|Precision Glasses]]</td>
+<td> 40x[[File:Curse Talisman.png|30px|link=Items|Curse Talisman]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Sukuno}}
+!1x{{Characterbox|Itadoki}}
+<center>
+<table>
+<td>5x[[File:Cursed Finger.png|30px|link=Items#Materials|Cursed Finger]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Mimic Sorcerer (Cursed Child)}}
+!1x{{Characterbox|Mimic Sorcerer}}
+<center>
+<table>
+<td> 1x[[File:Promise Ring.png|30px|link=Evolution|Promised Ring]]</td>
+<td> 40x[[File:Curse Talisman.png|30px|link=Items|Curse Talisman]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Gazu (Maximum)}}
+!1x{{Characterbox|Gazu}}
+<center>
+<table>
+<td> 1x[[File:Cursed Orb (Maximum).png|30px|link=Evolution|Cursed Orb (Maximum)]]</td>
+<td> 20x[[File:Cursed Orb.png|30px|link=Evolution|Cursed Orb]]</td>
+<td> 40x[[File:Curse Talisman.png|30px|link=Items|Curse Talisman]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Morbid (Shadow Lord)}}
+!1x{{Characterbox|Morbid}}
+<center>
+<table>
+<td> 1x[[File:Shadow Fruit.png|30px|link=Evolution|Shadow Fruit]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ghost Lady (Ghost Princess)}}
+!1x{{Characterbox|Ghost Lady}}
+<center>
+<table>
+<td> 1x[[File:Zombie Doll.png|30px|link=Evolution|Zombie Doll]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Skeleton (Soul King)}}
+!1x{{Characterbox|Skeleton}}
+<center>
+<table>
+<td> 1x[[File:Shark Guitar.png|30px|link=Evolution|Shark Guitar]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Lucky (Thunder Fiend)}} 
+!1x{{Characterbox|Lucky}}
+<center>
+<table>
+<td>2x[[File:Lightning Fiend's Horns.png|30px|link=Evolution|Lightning Fiend's Horns]]</td>
+<td>40x[[File:Magic Stone.png|30px|link=Evolution|Magic Stone]]</td>
+<td>15x[[File:Enchanted Magic Stone.png|30px|link=Evolution|Enchanted Magic Stone]]</td>
+<td>15x[[File:Cursed Magic Stone.png|30px|link=Evolution|Cursed Magic Stone]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Black Blade (Captain)}} 
+!1x{{Characterbox|Black Blade}}
+<center>
+<table>
+<td>1x[[File:Dark Katana.png|30px|link=Evolution|Dark Katana]]</td>
+<td>40x[[File:Magic Stone.png|30px|link=Evolution|Magic Stone]]</td>
+<td>15x[[File:Enchanted Magic Stone.png|30px|link=Evolution|Enchanted Magic Stone]]</td>
+<td>15x[[File:Cursed Magic Stone.png|30px|link=Evolution|Cursed Magic Stone]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Aquatic Mage (Valkyrie Armor)}} 
+!1x{{Characterbox|Aquatic Mage}}
+<center>
+<table>
+<td>1x[[File:Mermaid Scale.png|30px|link=Evolution|Mermaid Scale]]</td>
+<td>40x[[File:Magic Stone.png|30px|link=Evolution|Magic Stone]]</td>
+<td>15x[[File:Enchanted Magic Stone.png|30px|link=Evolution|Enchanted Magic Stone]]</td>
+<td>15x[[File:Cursed Magic Stone.png|30px|link=Evolution|Cursed Magic Stone]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Elf Spirit (Wind)}} 
+!1x{{Characterbox|Elf Spirit}}
+<center>
+<table>
+<td>1x[[File:Spirit Crown.png|30px|link=Evolution|Spirit Crown]]</td>
+<td>40x[[File:Magic Stone.png|30px|link=Evolution|Magic Stone]]</td>
+<td>15x[[File:Enchanted Magic Stone.png|30px|link=Evolution|Enchanted Magic Stone]]</td>
+<td>15x[[File:Cursed Magic Stone.png|30px|link=Evolution|Cursed Magic Stone]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Dark Asto}} 
+!1x{{Characterbox|Asto}}
+<center>
+<table>
+<td>2x[[File:Demonic Wing.png|30px|link=Evolution|Demonic Wing]]</td>
+<td>40x[[File:Magic Stone.png|30px|link=Evolution|Magic Stone]]</td>
+<td>15x[[File:Enchanted Magic Stone.png|30px|link=Evolution|Enchanted Magic Stone]]</td>
+<td>15x[[File:Cursed Magic Stone.png|30px|link=Evolution|Cursed Magic Stone]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Time Wizard (Chrono)}} 
+!1x{{Characterbox|Time Wizard}}
+<center>
+<table>
+<td>1x[[File:Endless Tome.png|30px|link=Evolution|Endless Tome]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ichi (Final Dusk)}} 
+!1x{{Characterbox|Ichi (Dusk)}}
+<center>
+<table>
+<td>3x[[File:Soul (Tiel).png|25px|link=Evolution|Soul (Tiel)]]</td>
+<td>3x[[File:Soul (Toshe).png|25px|link=Evolution|Soul (Toshe)]]</td>
+<td>3x[[File:Soul (Wes).png|25px|link=Evolution|Soul (Wes)]]</td>
+<td>3x[[File:Soul (Barrago).png|25px|link=Evolution|Soul (Barrago]]</td>
+<td>3x[[File:Soul (Ging).png|25px|link=Evolution|Soul (Ging)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Soi Fan (Hornet)}} 
+!1x{{Characterbox|Soi Fan}}
+<center>
+<table>
+<td>5x[[File:Soul (Tiel).png|30px|link=Evolution|Soul (Tiel)]]</td>
+<td>5x[[File:Soul (Toshe).png|30px|link=Evolution|Soul (Toshe)]]</td>
+<td>5x[[File:Soul (Barrago).png|30px|link=Evolution|Soul (Barrago)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ging (Sacred Spear)}} 
+!1x{{Characterbox|Ging}}
+<center>
+<table>
+<td>5x[[File:Soul (Wes).png|30px|link=Evolution|Soul (Wes)]]</td>
+<td>5x[[File:Soul (Barrago).png|30px|link=Evolution|Soul (Barrago)]]</td>
+<td>5x[[File:Soul (Ging).png|30px|link=Evolution|Soul (Ging)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Kenpaki (Maniac)}} 
+!1x{{Characterbox|Kenpaki}}
+<center>
+<table>
+<td>5x[[File:Soul (Tiel).png|30px|link=Evolution|Soul (Tiel)]]</td>
+<td>5x[[File:Soul (Wes).png|30px|link=Evolution|Soul (Wes)]]</td>
+<td>5x[[File:Soul (Ging).png|30px|link=Evolution|Soul (Ging)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Yamomoto (Hellfire)}} 
+!1x{{Characterbox|Yamomoto}}
+<center>
+<table>
+<td>1x[[File:Yamamoto staff.png|30px|link=Evolution|Sealed Fire Staff]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Heavy Weather}} 
+!1x{{Characterbox|Weather}}
+<center>
+<table>
+<td>3x[[File:DISC (Blue).png|30px|link=Evolution|DISC (Blue)]]</td>
+<td>3x[[File:DISC (Green).png|30px|link=Evolution|DISC (Green)]]</td>
+<td>3x[[File:DISC (Orange).png|30px|link=Evolution|DISC (Orange)]]</td>
+</table>
+<table>
+<td>3x[[File:DISC (Pink).png|30px|link=Evolution|DISC (Pink)]]</td>
+<td>3x[[File:DISC (Purple).png|30px|link=Evolution|DISC (Purple)]]</td>
+<td>3x[[File:DISC (Black).png|30px|link=Evolution|DISC (Black)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Jokujo (The World)}} 
+!1x{{Characterbox|Jokujo (Serious)}}
+<center>
+<table>
+<td>3x[[File:DISC (Blue).png|30px|link=Evolution|DISC (Blue)]]</td>
+<td>3x[[File:DISC (Green).png|30px|link=Evolution|DISC (Green)]]</td>
+<td>3x[[File:DISC (Orange).png|30px|link=Evolution|DISC (Orange)]]</td>
+</table>
+<table>
+<td>3x[[File:DISC (Pink).png|30px|link=Evolution|DISC (Pink)]]</td>
+<td>3x[[File:DISC (Purple).png|30px|link=Evolution|DISC (Purple)]]</td>
+<td>3x[[File:DISC (Black).png|30px|link=Evolution|DISC (Black)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Jolyna (Determination)}}
+!{{Characterbox|Jolyna}}
+<center>
+<table>
+<td>3x[[File:DISC (Blue).png|30px|link=Evolution|DISC (Blue)]]</td>
+<td>3x[[File:DISC (Green).png|30px|link=Evolution|DISC (Green)]]</td>
+<td>3x[[File:DISC (Orange).png|30px|link=Evolution|DISC (Orange)]]</td>
+</table>
+<table>
+<td>3x[[File:DISC (Pink).png|30px|link=Evolution|DISC (Pink)]]</td>
+<td>3x[[File:DISC (Purple).png|30px|link=Evolution|DISC (Purple)]]</td>
+<td>3x[[File:DISC (Black).png|30px|link=Evolution|DISC (Black)]]</td>
+</table>
+</center>
+|-
+|-
+!{{Characterbox|Hermy (Duplicate)}}
+!{{Characterbox|Hermy}}
+<center>
+<table>
+<td>3x[[File:DISC (Blue).png|30px|link=Evolution|DISC (Blue)]]</td>
+<td>3x[[File:DISC (Green).png|30px|link=Evolution|DISC (Green)]]</td>
+<td>3x[[File:DISC (Orange).png|30px|link=Evolution|DISC (Orange)]]</td>
+</table>
+<table>
+<td>3x[[File:DISC (Pink).png|30px|link=Evolution|DISC (Pink)]]</td>
+<td>3x[[File:DISC (Purple).png|30px|link=Evolution|DISC (Purple)]]</td>
+<td>3x[[File:DISC (Black).png|30px|link=Evolution|DISC (Black)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Puchi (New Moon)}}
+!{{Characterbox|Puchi}}
+<center>
+<table>
+<td>1x[[File:Green Baby.png|30px|link=Evolution|Green Baby]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Puchi (Heaven)}}
+!{{Characterbox|Puchi (New Moon)}}
+<center>
+<table>
+<td>10,000 Sinners's Souls
+<ref>Sinners's Souls refer to amount of kills in Infinite Mode of Cape Canaveral</ref></td>
+<td>1x[[File:Heavenly Clock.png|30px|link=Evolution|Heavenly Clock]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ghacco (Album)}}
+!1x{{Characterbox|Ghacco}}
+<center>
+<table>
+<td>1x[[File:Cyrogenic Helmet.png|30px|link=Evolution|Cyrogenic Helmet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Frost Navy (Blue Pigeon)}}
+!1x{{Characterbox|Frost Navy}}
+<center>
+<table>
+<td> 1x[[File:Ice Pheasant.png|30px|link=Evolution|Ice Pheasant]]
+</td>
+</table>
+</center>
+|-
+!{{Characterbox|Blaze Frost (Released)}}
+!1x{{Characterbox|Blaze Frost}}
+<center>
+<table>
+<td> 1x[[File:Ice-Fire Orb.png|30px|link=Evolution|Ice-Fire Orb]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Icy Dragon (Lotus)}}
+!1x{{Characterbox|Icy Dragon}}
+<center>
+<table>
+<td> 1x[[File:Ice Lotus.png|30px|link=Evolution|Ice Lotus]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Mirror Ninja (Reflection)}}
+!1x{{Characterbox|Mirror Ninja}}
+<center>
+<table>
+<td> 1x[[File:Frozen Mirror.png|30px|link=Evolution|Frozen Mirror]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Ice Queen (Empire's Strongest)}}
+!1x{{Characterbox|Ice Queen}}
+<center>
+<table>
+<td> 1x[[File:Demon Extract.png|30px|link=Evolution|Demon Extract]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Chainsaw (Hybrid)}}
+!1x{{Characterbox|Chainsaw}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td> 50x[[File:Gun devil bullet.png|30px|link=Evolution|Gun Devil Bullet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Power (Fiend)}}
+!1x{{Characterbox|Power}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td> 50x[[File:Gun devil bullet.png|30px|link=Evolution|Gun Devil Bullet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Akin (Contract)}}
+!1x{{Characterbox|Akin}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td> 50x[[File:Gun devil bullet.png|30px|link=Evolution|Gun Devil Bullet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Paragon (Devil)}}
+!1x{{Characterbox|Paragon}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td> 50x[[File:Gun devil bullet.png|30px|link=Evolution|Gun Devil Bullet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Hime (Ghost)}}
+!1x{{Characterbox|Hime}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td> 50x[[File:Gun devil bullet.png|30px|link=Evolution|Gun Devil Bullet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Kobeno (Scared)}}
+!1x{{Characterbox|Kobeno}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td> 50x[[File:Gun devil bullet.png|30px|link=Evolution|Gun Devil Bullet]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Aizo (Chrysalis)}}
+!1x{{Characterbox|Aizo (Betrayal)}}
+<center>
+<table>
+<td>2000 Kills
+<td>37.5%[[File:Imperfect Soul Orb.png|30px|link=Evolution|Imperfect Soul Orb]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Aizo (Fusion)}}
+!1x{{Characterbox|Aizo (Chrysalis)}}
+<center>
+<table>
+<td>5000 Kills
+<td>62.5%[[File:Imperfect Soul Orb.png|30px|link=Evolution|Imperfect Soul Orb]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Aizo (Final)}}
+!1x{{Characterbox|Aizo (Fusion)}}
+<center>
+<table>
+<td>15000 Kills
+<td>100%[[File:Imperfect Soul Orb.png|30px|link=Evolution|Imperfect Soul Orb]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Waterfist (Silver Fang)}}
+!1x{{Characterbox|Waterfist}}
+<center>
+<table>
+<td>5000 Takedowns
+<ref>Takedowns mean kills or assists</ref></td>
+<td>35x[[File:Full Power Core.png|30px|link=Evolution|Full Power Core]]</td>
+<td>10x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>2x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Sonic (Speed)}}
+!1x{{Characterbox|Sonic}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>35x[[File:Full Power Core.png|30px|link=Evolution|Full Power Core]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Tatsumiki (Tornado)}}
+!1x{{Characterbox|Tatsumiki}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>35x[[File:Full Power Core.png|30px|link=Evolution|Full Power Core]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Geno (Incinerate)}}
+!1x{{Characterbox|Geno (Overdrive)}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>35x[[File:Full Power Core.png|30px|link=Evolution|Full Power Core]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Metal Knight (Arsenal)}}
+!1x{{Characterbox|Metal Knight}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>35x[[File:Full Power Core.png|30px|link=Evolution|Full Power Core]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Lord Boron}}
+!1x{{Characterbox|Boron}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>35x[[File:Full Power Core.png|30px|link=Evolution|Full Power Core]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Navi (Thief)}}
+!1x{{Characterbox|Navi}}
+<center>
+<table>
+<td>1x[[File:Nami staff.png|30px|link=Evolution|Clima-Staff]]
+</table>
+</center>
+|-
+!{{Characterbox|Thor (Awakened)}}
+!1x{{Characterbox|Thor}}
+<center>
+<table>
+<td>1x[[File:Mjolnir.png|30px|link=Evolution|Mjolnir]]
+</table>
+</center>
+|-
+!{{Characterbox|Sosuke (Storm)}}
+!1x{{Characterbox|Sosuke (Hood)}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>1x[[File:Lightning Blade.png|30px|link=Evolution|Lightning Blade]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Izo (Samurai)}}
+!1x{{Characterbox|Izo (Black Fire)}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>1x[[File:Yata Mirror.png|30px|link=Evolution|Yata Mirror]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Shisu (Flicker)}}
+!1x{{Characterbox|Shisu}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>1x[[File:Chakra Drill.png|30px|link=Evolution|Chakra Drill]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Dany (Creation)}}
+!1x{{Characterbox|Dany}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>12x[[File:Demonic Chalice.png|30px|link=Evolution|Demonic Chalice]]</td>
+<td>12x[[File:Demonic Horn.png|30px|link=Evolution|Demonic Horn]]</td>
+<td>6x[[File:Fairy Petals.png|30px|link=Evolution|Fairy Petals]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Gowthy (Invasion)}}
+!1x{{Characterbox|Gowthy}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>12x[[File:Demonic Chalice.png|30px|link=Evolution|Demonic Chalice]]</td>
+<td>12x[[File:Demonic Horn.png|30px|link=Evolution|Demonic Horn]]</td>
+<td>6x[[File:Fairy Petals.png|30px|link=Evolution|Fairy Petals]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Greed (Hunt)}}
+!1x{{Characterbox|Greed}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>12x[[File:Demonic Chalice.png|30px|link=Evolution|Demonic Chalice]]</td>
+<td>12x[[File:Demonic Horn.png|30px|link=Evolution|Demonic Horn]]</td>
+<td>6x[[File:Fairy Petals.png|30px|link=Evolution|Fairy Petals]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|King (Sloth)}}
+!1x{{Characterbox|King}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>12x[[File:Demonic Chalice.png|30px|link=Evolution|Demonic Chalice]]</td>
+<td>12x[[File:Demonic Horn.png|30px|link=Evolution|Demonic Horn]]</td>
+<td>6x[[File:Fairy Petals.png|30px|link=Evolution|Fairy Petals]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Melio (Assault)}}
+!1x{{Characterbox|Melio}}
+<center>
+<table>
+<td>12x[[File:Demonic Chalice.png|30px|link=Evolution|Demonic Chalice]]</td>
+<td>12x[[File:Demonic Horn.png|30px|link=Evolution|Demonic Horn]]</td>
+<td>6x[[File:Fairy Petals.png|30px|link=Evolution|Fairy Petals]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>2x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>2x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>2x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>2x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Pride (Day)}}
+!1x{{Characterbox|Pride (Night)}}
+<center>
+<table>
+<td>500 Takedowns</td>
+<td>6x[[File:Demonic Chalice.png|30px|link=Evolution|Demonic Chalice]]</td>
+<td>6x[[File:Demonic Horn.png|30px|link=Evolution|Demonic Horn]]</td>
+<td>3x[[File:Fairy Petals.png|30px|link=Evolution|Fairy Petals]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Pride (The One)}}
+!1x{{Characterbox|Pride (Day)}}
+<center>
+<table>
+<td>1,000,000 Sunshine<ref>Sunshine refer to amount of Pride (Day)'s takedowns on Sunshine Demons or using Sunshine Essences</ref></td>
+</center>
+</table>
+|-
+!{{Characterbox|Merlyn (Infinity)}}
+!1x{{Characterbox|Merlyn}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>10x[[File:Demonic Spellbook.png|30px|link=Evolution|Demonic Spellbook]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Vegita (Super II)}}
+!1x{{Characterbox|Vegita (Super)}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>1x[[File:Super Capsule.png|30px|link=Evolution|Super Capsule]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Golden Freezo (Emperor)}}
+!1x{{Characterbox|Golden Freezo}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>1x[[File:Supernova.png|30px|link=Evolution|Supernova]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Piccoru (Nameless)}}
+!1x{{Characterbox|Piccoru (Fusion)}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>1x[[File:Demon Symbol.png|30px|link=Evolution|Demon Symbol]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Verdant Hero (Vigilante)}}
+!1x{{Characterbox|Verdant Hero (String)}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>36x[[File:Hero Guantlet.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>36x[[File:Quirk Amplifier.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>18x[[File:Quirk Capsule.png|30px|link=Evolution|Hero Gauntlet]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Ashborn (Symbol of Fear)}}
+!1x{{Characterbox|Ashborn}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>36x[[File:Hero Guantlet.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>36x[[File:Quirk Amplifier.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>18x[[File:Quirk Capsule.png|30px|link=Evolution|Hero Gauntlet]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Flame Hero (Hellflame)}}
+!1x{{Characterbox|Flame Hero}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>36x[[File:Hero Guantlet.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>36x[[File:Quirk Amplifier.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>18x[[File:Quirk Capsule.png|30px|link=Evolution|Hero Gauntlet]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Falcon (Feather Strike)}}
+!1x{{Characterbox|Falcon}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>36x[[File:Hero Guantlet.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>36x[[File:Quirk Amplifier.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>18x[[File:Quirk Capsule.png|30px|link=Evolution|Hero Gauntlet]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Evolution|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Explosion Hero (Bang)}}
+!1x{{Characterbox|Explosion Hero (Impact)}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>36x[[File:Hero Guantlet.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>36x[[File:Quirk Amplifier.png|30px|link=Evolution|Hero Gauntlet]]</td>
+<td>18x[[File:Quirk Capsule.png|30px|link=Evolution|Hero Gauntlet]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Evolution|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Evolution|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Evolution|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Evolution|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Evolution|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Veko}}
+!15x{{Characterbox|Goko}} & 15x{{Characterbox|Vegita}}
+(5x if {{RarityColor|Mythical|Shiny}})
+<center>
+<table>
+<td>1x[[File:Fusion Jacket.png|30px|link=Evolution|Fusion Jacket]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Akena (Fallen Angel)}}
+!1x{{Characterbox|Akena}}
+<center>
+<table>
+<td>1x[[File:Evil Queen's Piece.png|30px|link=Evolution|Evil Queen's Piece]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Kuneko (Hell-Cat)}}
+!1x{{Characterbox|Kuneko}}
+<center>
+<table>
+<td>1x[[File:Evil Queen's Piece.png|30px|link=Evolution|Evil Queen's Piece]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Ria (Devil Princess)}}
+!1x{{Characterbox|Ria}}
+<center>
+<table>
+<td>1x[[File:Evil Queen's Piece.png|30px|link=Evolution|Evil Queen's Piece]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Hanje (Captain)}}
+!1x{{Characterbox|Hanje}}
+<center>
+<table>
+<td>1x[[File:Thunder Spears.png|30px|link=Evolution|Thunder Spears]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Vas (Cross)}}
+!1x{{Characterbox|Vas}}
+<center>
+<table>
+<td>1x[[File:Cross Gun.png|30px|link=Evolution|Cross Gun]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Haze (Rage)}}
+!1x{{Characterbox|Haze}}
+<center>
+<table>
+<td>1x[[File:Poison Bulb.png|30px|link=Evolution|Poison Bulb]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Oshy (Idol)}}
+!1x{{Characterbox|Oshy}}
+<center>
+<table>
+<td>1x[[File:Idol Mic.png|30px|link=Evolution|Idol Mic]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Usoap (God)}}
+!1x{{Characterbox|Usoap (Timeskip)}}
+<center>
+<table>
+<td> 1000 Takedowns </td>
+<td>40x[[File:SMILE Fruit.png|30px|link=Evolution|SMILE Fruit]]</td>
+<td>10x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>5x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Saby (Flame Emperor)}}
+!1x{{Characterbox|Saby}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>40x[[File:SMILE Fruit.png|30px|link=Evolution|SMILE Fruit]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Operator (ROOM)}}
+!1x{{Characterbox|Operator (Heart)}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>40x[[File:SMILE Fruit.png|30px|link=Evolution|SMILE Fruit]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Joykid (Mode IV)}}
+!1x{{Characterbox|Joykid (Bounce)}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>40x[[File:SMILE Fruit.png|30px|link=Evolution|SMILE Fruit]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Fuji (Admiral)}}
+!1x{{Characterbox|Fuji}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>40x[[File:SMILE Fruit.png|30px|link=Evolution|SMILE Fruit]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Stringy (Awakened)}}
+!1x{{Characterbox|Stringy}}
+<center>
+<table>
+<td> 7500 Takedowns </td>
+<td>40x[[File:SMILE Fruit.png|30px|link=Evolution|SMILE Fruit]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Charmi (Sheep)}}
+!1x{{Characterbox|Charmi}}
+<center>
+<table>
+<td>1x[[File:Magic Cutlery.png|30px|link=Evolution|Magic Cutlery]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Mash (Muscles)}}
+!1x{{Characterbox|Mash}}
+<center>
+<table>
+<td>1x[[File:Dumbell.png|30px|link=Evolution|Dumbell]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Homuru (Time Traveller)}}
+!1x{{Characterbox|Homuru}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Soul Gem (Violet).png|30px|link=Evolution|Soul Gem (Violet)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Mamy (Holy)}}
+!1x{{Characterbox|Mamy}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Soul Gem (Gold).png|30px|link=Evolution|Soul Gem (Gold)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Madoko (Salvation)}}
+!1x{{Characterbox|Madoko}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Soul Gem (Rose).png|30px|link=Evolution|Soul Gem (Rose)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Sayako (Sapphire Blade)}}
+!1x{{Characterbox|Sayako}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Soul Gem (Sapphire).png|30px|link=Evolution|Soul Gem (Sapphire)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Kyoka (Scarlet Lance)}}
+!1x{{Characterbox|Kyoka}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Soul Gem (Scarlet).png|30px|link=Evolution|Soul Gem (Scarlet)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Kiroto (Dual)}}
+!1x{{Characterbox|Kiroto}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>12x[[File:Ice Crystallite.png|30px|link=Evolution|Ice Crystallite]]</td>
+<td>12x[[File:Dark Crystallite.png|30px|link=Evolution|Dark Crystallite]]</td>
+<td>6x[[File:Blood Crystallite.png|30px|link=Evolution|Blood Crystallite]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Asuno (Flash)}}
+!1x{{Characterbox|Asuno}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>12x[[File:Ice Crystallite.png|30px|link=Evolution|Ice Crystallite]]</td>
+<td>12x[[File:Dark Crystallite.png|30px|link=Evolution|Dark Crystallite]]</td>
+<td>6x[[File:Blood Crystallite.png|30px|link=Evolution|Blood Crystallite]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Heathcliff (Admin)}}
+!1x{{Characterbox|Heathcliff}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>12x[[File:Ice Crystallite.png|30px|link=Evolution|Ice Crystallite]]</td>
+<td>12x[[File:Dark Crystallite.png|30px|link=Evolution|Dark Crystallite]]</td>
+<td>6x[[File:Blood Crystallite.png|30px|link=Evolution|Blood Crystallite]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Klay (Bachelor)}}
+!1x{{Characterbox|Klay}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>12x[[File:Ice Crystallite.png|30px|link=Evolution|Ice Crystallite]]</td>
+<td>12x[[File:Dark Crystallite.png|30px|link=Evolution|Dark Crystallite]]</td>
+<td>6x[[File:Blood Crystallite.png|30px|link=Evolution|Blood Crystallite]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Leafy (Sylph)}}
+!1x{{Characterbox|Leafy}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>12x[[File:Ice Crystallite.png|30px|link=Evolution|Ice Crystallite]]</td>
+<td>12x[[File:Dark Crystallite.png|30px|link=Evolution|Dark Crystallite]]</td>
+<td>6x[[File:Blood Crystallite.png|30px|link=Evolution|Blood Crystallite]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Stain (Hero Slayer)}}
+!1x{{Characterbox|Stain}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>12x[[File:Ice Crystallite.png|30px|link=Evolution|Ice Crystallite]]</td>
+<td>12x[[File:Dark Crystallite.png|30px|link=Evolution|Dark Crystallite]]</td>
+<td>6x[[File:Blood Crystallite.png|30px|link=Evolution|Blood Crystallite]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Chad (Fullbringer)}}
+!1x{{Characterbox|Chad}}
+<center>
+<table>
+<td>1x [[File:Rusted Coin.png|30px|link=Evolution|Rusted Coin]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Gabimaro (Ascetic Blaze)}}
+!1x{{Characterbox|Gabimaro}}
+<center>
+<table>
+<td>1x [[File:Hollow Flower.png|30px|link=Evolution|Hollow Flower]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Berserker (Rage)}}
+!1x{{Characterbox|Berserker}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>50x[[File:Egg of Sacrifice.png|30px|link=Evolution|Egg of Sacrifice]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+</table>
+<table>
+<td>5x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Griffin (Ascension)}}
+!1x{{Characterbox|Griffin}}
+<center>
+<table>
+<td>7500 Kills
+<td>100%[[File:Egg of the King.png|30px|link=Evolution|Egg of the King]]</td>
+</table>
+</center>
+|-
+!{{Characterbox|Skull Knight (King)}}
+!1x{{Characterbox|Skull Knight}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>50x[[File:Egg of Sacrifice.png|30px|link=Evolution|Egg of Sacrifice]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+</table>
+<table>
+<td>5x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Senbodu (Buddha)}}
+!1x{{Characterbox|Senbodu}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>40x[[File:Egg of Sacrifice.png|30px|link=Evolution|Egg of Sacrifice]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>5x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Issai (Boosted Gear)}}
+!1x{{Characterbox|Issai}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>40x[[File:Egg of Sacrifice.png|30px|link=Evolution|Egg of Sacrifice]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>5x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Avdo (Magician's Red)}}
+!1x{{Characterbox|Avdo}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Fiery Ankh.png|30px|link=Evolution|Fiery Ankh]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>5x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Harribu (Shark Empress)}}
+!1x{{Characterbox|Harribu}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Sharktooth Blade.png|30px|link=Evolution|Sharktooth Blade]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>5x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>3x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Roger (Pirate King)}}
+!1x{{Characterbox|Roger}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Pirate King's Hat.png|30px|link=Evolution|Pirate King's Hat]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>5x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Kizume (Tailless Beast)}}
+!1x{{Characterbox|Kizume}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Sharkskin Greatsword.png|30px|link=Evolution|Sharkskin Greatsword]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Poseidon (Tyrant of the Seas)}}
+!1x{{Characterbox|Poseidon}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Sea God's Trident.png|30px|link=Evolution|Sea God's Trident]]</td>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Smoka (Hunter)}}
+!1x{{Characterbox|Smoka}}
+<center>
+<table>
+<td>1x [[File:Seastone Jitte.png|30px|link=Evolution|Seastone Jitte]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Conrod (Wizard King)}}
+!1x{{Characterbox|Conrod}}
+<center>
+<table>
+<td>1x [[File:Elsdocia.png|30px|link=Evolution|Elsdocia]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Anz (Overlord)}}
+!1x{{Characterbox|Anz}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>10x[[File:Overlord's Ring (Yellow).png|30px|link=Evolution|Overlord's Ring (Yellow)]]</td>
+<td>10x[[File:Overlord's Ring (Red).png|30px|link=Evolution|Overlord's Ring (Red)]]</td>
+<td>10x[[File:Overlord's Ring (Blue).png|30px|link=Evolution|Overlord's Ring (Blue)]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>6x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>6x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>6x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>6x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>3x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Albedo (Overseer)}}
+!1x{{Characterbox|Albedo}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>10x[[File:Overlord's Ring (Yellow).png|30px|link=Evolution|Overlord's Ring (Yellow)]]</td>
+<td>10x[[File:Overlord's Ring (Red).png|30px|link=Evolution|Overlord's Ring (Red)]]</td>
+<td>10x[[File:Overlord's Ring (Blue).png|30px|link=Evolution|Overlord's Ring (Blue)]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Demiurge (Demon Emperor)}}
+!1x{{Characterbox|Demiurge}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>10x[[File:Overlord's Ring (Yellow).png|30px|link=Evolution|Overlord's Ring (Yellow)]]</td>
+<td>10x[[File:Overlord's Ring (Red).png|30px|link=Evolution|Overlord's Ring (Red)]]</td>
+<td>10x[[File:Overlord's Ring (Blue).png|30px|link=Evolution|Overlord's Ring (Blue)]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Evileye (Landfall)}}
+!1x{{Characterbox|Evileye}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>10x[[File:Overlord's Ring (Yellow).png|30px|link=Evolution|Overlord's Ring (Yellow)]]</td>
+<td>10x[[File:Overlord's Ring (Red).png|30px|link=Evolution|Overlord's Ring (Red)]]</td>
+<td>10x[[File:Overlord's Ring (Blue).png|30px|link=Evolution|Overlord's Ring (Blue)]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Narbera (Battle Maid)}}
+!1x{{Characterbox|Narbera}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>10x[[File:Overlord's Ring (Yellow).png|30px|link=Evolution|Overlord's Ring (Yellow)]]</td>
+<td>10x[[File:Overlord's Ring (Red).png|30px|link=Evolution|Overlord's Ring (Red)]]</td>
+<td>10x[[File:Overlord's Ring (Blue).png|30px|link=Evolution|Overlord's Ring (Blue)]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Green).png|30px|link=Items#Materials|Star Fruit (Green)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Shallta (Bloodfallen)}}
+!1x{{Characterbox|Shallta}}
+<center>
+<table>
+<td>7500 Takedowns</td>
+<td>10x[[File:Overlord's Ring (Yellow).png|30px|link=Evolution|Overlord's Ring (Yellow)]]</td>
+<td>10x[[File:Overlord's Ring (Red).png|30px|link=Evolution|Overlord's Ring (Red)]]</td>
+<td>10x[[File:Overlord's Ring (Blue).png|30px|link=Evolution|Overlord's Ring (Blue)]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>4x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>3x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|-
+!{{Characterbox|Umbra (Nuclear)}}
+!1x{{Characterbox|Umbra}}
+<center>
+<table>
+<td>5000 Takedowns</td>
+<td>1x[[File:Cid sword.png|30px|link=Shadow Broadsword]]</td>
+</table>
+<table>
+<td>12x[[File:Star Fruit.png|30px|link=Items#Materials|Star Fruit]]</td>
+<td>3x[[File:Star Fruit (Blue).png|30px|link=Items#Materials|Star Fruit (Blue)]]</td>
+<td>4x[[File:Star Fruit (Red).png|30px|link=Items#Materials|Star Fruit (Red)]]</td>
+</table>
+<table>
+<td>4x[[File:Star Fruit (Pink).png|30px|link=Items#Materials|Star Fruit (Pink)]]</td>
+<td>1x[[File:Star Fruit (Rainbow).png|30px|link=Items#Materials|Star Fruit (Rainbow)]]</td>
+</center>
+</table>
+|}
+</tabber>

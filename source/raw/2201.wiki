@@ -1,0 +1,80 @@
+'''Emotes''' were added in [[Update Log|'''Update 9''']]. They are dances or movements you can do in game. The majority can be bought from '''All Force''' with Trophies inside the Leaderboard Area.
+
+Equip emotes through the '''Profile''' menu in the right side of your screen.
+
+Press '''X''' or '''Period''' on the keyboard to open up the '''emote menu'''.
+
+List of Emotes:
+{| class="fandom-table"
+!Emote
+!Cost
+!Where to obtain
+|-
+|Laugh
+|50 Trophies
+|All Force
+|-
+|Griddy
+|Free
+|All Force
+|-
+|Flex
+|200 Trophies
+|All Force
+|-
+|Penguin Dance
+|100 Trophies
+|All Force
+|-
+|Clap
+|Free
+|All Force
+|-
+|Die Lit
+|100 Trophies
+|All Force
+|-
+|Gang Dance
+|100 Trophies
+|All Force
+|-
+|Terrified
+|50 Trophies
+|All Force
+|-
+|Facepalm
+|Free
+|All Force
+|-
+|Waiting
+|15 Trophies
+|All Force
+|-
+|Sit
+|Free
+|All Force
+|-
+|WRYYYYY!
+|50 Trophies
+|All Force
+|-
+|Chainsaw Dance
+|1000 Bullets
+|Makimo
+|-
+|One Handed Pushup
+|Premium Tier 14
+|Cloud Pass
+|-
+|Snowball Throw
+|Premium Tier 45
+|Cloud Pass
+|-
+|Idol
+|Tier 50 (?)
+|Cake Pass II
+|-
+|Vacation
+|Premium Tier 60
+|Flower Hunt
+|}

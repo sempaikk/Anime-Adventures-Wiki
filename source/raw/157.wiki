@@ -1,0 +1,585 @@
+[[File:StoryMode.png||260px|right]]
+
+
+{{Anchor2|id=back}}
+<div class="mobileonly">
+<div class="mw-customtoggle-OFF mw-customtoggle-ON">
+<div class="mw-collapsible" id="mw-customcollapsible-ON">
+<center>⮟ '''Fast travel'''</center></div>
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>⮝ '''Fast travel'''</center></div></div>
+
+<div class="mw-collapsible mw-collapsed" id="mw-customcollapsible-OFF">
+<center>
+<div>{{Anchor1|Planet Greenie}}</div>
+<div>{{Anchor1|Walled City}}</div>
+<div>{{Anchor1|Snowy Town}}</div>
+<div>{{Anchor1|Sand Village}}</div>
+<div>{{Anchor1|Navy Bay}}</div>
+<div>{{Anchor1|Fiend City}}</div>
+<div>{{Anchor1|Spirit World}}</div>
+<div>{{Anchor1|Ant Kingdom}}</div>
+<div>{{Anchor1|Magic Town}}</div>
+<div>{{Anchor1|Haunted Academy}}</div>
+<div>{{Anchor1|Magic Hills}}</div>
+<div>{{Anchor1|Space Center}}</div>
+<div>{{Anchor1|Alien Spaceship}}</div>
+<div>{{Anchor1|Fabled Kingdom}}</div>
+<div>{{Anchor1|Ruined City}}</div>
+<div>{{Anchor1|Puppet Island}}</div>
+<div>{{Anchor1|Virtual Dungeon}}</div>
+<div>{{Anchor1|Snowy Kingdom}}</div>
+<div>{{Anchor1|Dungeon Throne}}</div>
+<div>{{Anchor1|Mountain Temple}}</div>
+<div>{{Anchor1|Rain Village}}</div>
+</center>
+</div></div>
+<tabber>
+|-|Planet Greenie=
+==Planet Greenie==
+Planet Greenie is the first World of Story Mode. This Map consists of a fairly long path.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b> || {{Item|Senzu Bean}}
+|}</center>
+{{Story-MapBox|location=Planet Namak
+|Act 1=Evil Elegeance
+|Act 2=Technician of Time
+|Act 3=Dazzling Destruction
+|Act 4=The Blue Hurricane
+|Act 5=The Ultimate Squadron
+|Act 6=The Purple Tyrant
+|Boss 1=Zarbo → Zarbo (Evolved)
+|Boss 2=Goldeo
+|Boss 3=Zezoom
+|Boss 4=Jayce, Vurtor
+|Boss 5=Gunyu
+|Boss 6=Freezo → Freezo (Final)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+
+|-|Walled City=
+==Walled City ==
+Walled City is the second World of Story Mode. This Map features a complex-looking path and introduces new Enemies with '''Buffs''', such as '''Cloner''', '''Shield''', and '''Regen'''.
+
+'''TIP:''' Massive Titans show up in Act 4 onwards this map. They are the '''Cloner'''s, and they spawn weak Titans upon getting killed, that potentially had shields, fast speed, or regen, if ever the challenge warrants it.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Mysterious Fluid}}
+|}</center>
+{{Story-MapBox|location=Shinganshinu District
+|Act 1=The Jaw Titan
+|Act 2=The Female Titan
+|Act 3=The Beast Titan
+|Act 4=The Armored Titan
+|Act 5=The Warhammer Titan
+|Act 6=The Colossal Titan
+|Boss 1=Jaw Titan
+|Boss 2=Female Titan
+|Boss 3=Beast Titan
+|Boss 4=Armored Titan
+|Boss 5=Warhammer Titan
+|Boss 6=Colossal Titan
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+
+|-|Snowy Town=
+==Snowy Town==
+Snowy Town is the third World of Story Mode. This Map has a short path and one curve around the center of the path. 
+
+'''TIP:''' Clone Demons show up whenever. They are the '''Cloner'''s, and they spawn 2 closely stacked Clones upon death, making AoE units an advantage here.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Wisteria Flower}}
+|}</center>
+{{Story-MapBox|location=Snowy Town
+|Act 1=The Arrow Demon
+|Act 2=The Spider Demon
+|Act 3=Upper Moon
+|Act 4=The Ice Demon
+|Act 5=The Moon Demon
+|Act 6=The Demon King
+|Boss 1=Yahobu
+|Boss 2=Zui
+|Boss 3=Daka
+|Boss 4=Akoku
+|Boss 5=Kokoshibon
+|Boss 6=Muzo
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+
+|-|Sand Village=
+==Sand Village==
+Sand Village is the fourth World of Story Mode. This Map introduces '''Explosive''' enemies.
+
+'''TIP:''' Merged Clones show up starting at Act 2 ''(confirmation needed)''. They are the '''Cloner'''s, and they spawn 2 closely stacked Clones upon death, making AoE units an advantage here.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Ramen Bowl}}
+|}</center>
+{{Story-MapBox|location=Hidden Sand Village
+|Act 1=The Immortal Ninja
+|Act 2=The Monster of the Hidden Mist
+|Act 3=The White Land
+|Act 4=The Crow
+|Act 5=The Revived Puppet
+|Act 6=The Scorpion of the Red Sand
+|Boss 1=Hido
+|Boss 2=Kizume
+|Boss 3=Zezsuo
+|Boss 4=Itochi
+|Boss 5=Reanimated Puppet
+|Boss 6=Sashora → Sashora (Puppet Master)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+
+|-|Navy Bay=
+==Navy Bay==
+Navy Bay is the fifth World of Story Mode. This Map introduces the '''Fortify''' enemies.
+
+'''TIP:''' Marine Flagbearer shows up starting in Act 2. They are the '''Fortify''' enemies, and they decrease incoming damage dealt.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Devil Fruit}}
+|}</center>
+{{Story-MapBox|location=Marine's Ford
+|Act 1=The Battleship
+|Act 2=The White Hunter
+|Act 3=The Tyrant
+|Act 4=The Yellow Monkey
+|Act 5=The Blue Pheasant
+|Act 6=The Buddha
+|Boss 1=Marine Battleship
+|Boss 2=Smoka
+|Boss 3=Kumo
+|Boss 4=Kizora
+|Boss 5=Aojimi
+|Boss 6=Senbodu → Senbodu (Buddha)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+
+|-|Fiend City=
+==Fiend City==
+Fiend City is the sixth World of Story Mode.
+
+'''TIP:''' Aogiri Executives start showing up in Act 4, Wave 10. They tend to regenerate '''heavily''', and anyone who negates regen (such as [[Effects#Bleed|Bleed]] units, or [[Shigaruko (Symbol of Fear)|Shigaruko]]) will counter his regen.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Ghoul Coffee}}
+|}</center>
+{{Story-MapBox|location=Ghoul City
+|Act 1=The Tall Hunter
+|Act 2=The Gourmet
+|Act 3=Corpse Armor
+|Act 4=The Thirteenth
+|Act 5=The Black Rabbit
+|Act 6=The Non-Killing Owl
+|Boss 1=Hammer
+|Boss 2=Gourmet, Family Bodyguards
+|Boss 3=Arata Unit
+|Boss 4=Jason
+|Boss 5=Ayato
+|Boss 6=Owl (Human) → Owl
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+
+|-|Spirit World=
+==Spirit World==
+Spirit World is the seventh World of Story Mode. This Map introduces '''Flying''' enemies.
+
+'''TIP:''' Massive Hollows show up starting in Act 1 (as a boss), and Act 4 (as a regular unit). They are the '''Cloner'''s, and they spawn weak Hollows upon getting killed, that potentially had shields, fast speed, or regen, if ever the challenge warrants it.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Soul Candy}}
+|}</center>
+{{Story-MapBox|location=Hollow World 
+|Act 1=The Gillian
+|Act 2=The Adjuka
+|Act 3=The Devouring Hollow
+|Act 4=The Hollow King
+|Act 5=The Enraged Beast
+|Act 6=The Wolf
+|Boss 1=Massive Hollow
+|Boss 2=Adjuka
+|Boss 3=Aeronero → Tendril (5x)
+|Boss 4=Barrago → Barrago (King)
+|Boss 5=Yammo → Yammo (Zanpakutō)
+|Boss 6=Coyote, Spirit Wolf
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+ 
+|-|Ant Kingdom=
+==Ant Kingdom==
+Ant Kingdom is the eighth World of Story Mode.
+
+'''TIP:''' Massive Ants show up at any act in this map. They drop an '''Ant Egg''' with 5 shield instances (it can stack up more buffs if challenge warrants it), which it's recommended if you take it down quickly before they spawn another unit. The worst case scenario if the egg spawns a '''Mutant Ant''' (2-barred HP, 5 shield instance), or '''Officer Ant''' (2-barred HP and fast) early in the game.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|{{Item|Cooked Fish}}
+|}</center>
+{{Story-MapBox|location=Ant Kingdom
+|Act 1=The Officer Ant   
+|Act 2=The Condor Ant
+|Act 3=The Cheetah Ant
+|Act 4=The Rage Ant
+|Act 5=The Butterfly Ant
+|Act 6=The Queen Ant
+|Boss 1=Officer Ant
+|Boss 2=Condor
+|Boss 3=Cheetah
+|Boss 4=Rage Ant
+|Boss 5=Butterfly → Butterfly (Split) (10x)
+|Boss 6=Queen Ant
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Magic Town=
+==Magic Town==
+Magic Town is the ninth World of Story Mode. This Map introduces new Enemies with '''Fire''' and '''Ice'''.
+
+'''TIP:''' Fire Mages show up at Act 2 (Wave 10), and Ice Mages show up at Act 4 (wave 10), despite a hint is noted at the very end of Act 1.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Magical Artifact}}
+|}</center>
+{{Story-MapBox|location=Magic Town
+|Act 1=The Conjuration
+|Act 2=The Sound Mage
+|Act 3=The Rainbow Fire Mage
+|Act 4=The Water Mage
+|Act 5=The Steel Mage
+|Act 6=The Phantom Mage
+|Boss 1=Phantom Conjuration
+|Boss 2=Sound Mage
+|Boss 3=Rainbow Fire Mage
+|Boss 4=Water Mage
+|Boss 5=Steel Mage
+|Boss 6=Phantom Mage, Phantom Conjuration
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Haunted Academy=
+==Haunted Academy==
+Haunted Academy is the tenth World of Story Mode.
+
+'''TIP:''' Death Painting Curse show up as a unit in Act 2 (Wave 10), Act 3-4 (Wave 8), Act 5-6 (Wave 6).
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Curse Talisman}}
+|}</center>
+{{Story-MapBox|location=Cursed Academy
+|Act 1=The Death Painting Curse
+|Act 2=The Worm Curse
+|Act 3=The Jellyfish Curse
+|Act 4=The Nature Curse
+|Act 5=The Volcano Curse
+|Act 6=The Soul Curse
+|Boss 1=Death Painting Curse
+|Boss 2=Worm Curse Leader → Worm Curse (3x)
+|Boss 3=Jupy, Jellyfish Curse
+|Boss 4=Hanamo
+|Boss 5=Fire Curse
+|Boss 6=Mahoti, Transfigured Worm
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Magic Hills=
+==Magic Hills==
+Magic Hills is the eleventh World of Story Mode.
+
+'''TIP:''' Ice Demons show up at Act 1, Wave 10. It's recommended for you to bring Fire units to quickly melt them.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Magic Stone}}
+|}</center>
+{{Story-MapBox|location=Clover Kingdom
+|Act 1=The Low-Ranking Devil
+|Act 2=The Mid-Ranking Devil
+|Act 3=The High-Ranking Devil
+|Act 4=The Dark Trinity (Part I)
+|Act 5=The Dark Trinity (Part II)
+|Act 6=The Dark Trinity (Part III)
+|Boss 1=Low-Ranking Devil
+|Boss 2=Mid-Ranking Devil
+|Boss 3=High-Ranking Devil
+|Boss 4=Zenom
+|Boss 5=Vonica
+|Boss 6=Denta -> Denta (Monster)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Space Center=
+==Space Center==
+Space Center is the twelfth World of Story Mode.
+
+'''TIP:''' Pursuit Bikes show up starting at Act 1, Wave 10. Note that despite Flying enemies debut at Hollow World, this is one of the maps that do not feature Flying enemies in Act 1.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Stone Pendant}}
+|}</center>
+{{Story-MapBox|location=Cape Canaveral
+|Act 1=Jail House Lock
+|Act 2=Mini Fighters
+|Act 3=Planet Waves
+|Act 4=Limp Bizkit
+|Act 5=Manhattan Transfer
+|Act 6=The Snake
+|Boss 1=Muccia
+|Boss 2=F.F.
+|Boss 3=Viviano
+|Boss 4=Sports, Reanimated Corpse
+|Boss 5=Johngallu
+|Boss 6=Whiteserpent
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Alien Spaceship=
+==Alien Spaceship==
+Alien Spaceship is the thirteenth World of Story Mode.
+
+'''TIP:''' Massive Aliens show up starting at Act 4. They are the '''Cloner'''s, and they spawn weak Aliens upon getting killed, that potentially had shields, fast speed or regen, if ever the challenge warrants it.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Alien Core}}
+|}</center>
+{{Story-MapBox|location=Alien Spaceship
+|Act 1=The Crab Monster
+|Act 2=The Carnage
+|Act 3=Medicine Man
+|Act 4=The Sea King
+|Act 5=The Plant Commander
+|Act 6=The Alien Mass
+|Boss 1=Crab Monster
+|Boss 2=Carnage Beetle
+|Boss 3=Medicine Man
+|Boss 4=Sea King
+|Boss 5=Plant Alien Commander
+|Boss 6=Melzorgard → Alien Gunner (3x)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Fabled Kingdom=
+==Fabled Kingdom==
+Fabled Kingdom is the fourteenth World of Story Mode.
+
+'''TIP:''' Albys show up starting at Act 2 (as a boss), or Act 4 (as a unit). They are the '''Cloner'''s, and they spawn Demon Golems upon getting killed, that potentially had shields, fast speed or regen, if ever the challenge warrants it.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Tavern Pie}}
+|}</center>
+{{Story-MapBox|location=Fabled Kingdom
+|Act 1=The Tailed Demon
+|Act 2=The Golem
+|Act 3=The Curse Demon
+|Act 4=The Trick Demon
+|Act 5=The Combo Demon
+|Act 6=The Possessed Prince
+|Boss 1=
+|Boss 2=Alby
+|Boss 3=Curse Demon
+|Boss 4=Trick Demon
+|Boss 5=Deri
+|Boss 6=Dray
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Ruined City=
+==Ruined City==
+Ruined City is the fifteenth World of Story Mode.
+
+'''TIP:''' Doubles show up starting at Act 4. They are the '''Cloner'''s, and they spawn 2 Double Clones upon getting killed.
+
+If you go to the store to the left of the start of the NPC spawn and go through the door with the sign WELCOME, you can find a safe and a place to enter a code, by entering which you can enter a secret room with the YouTuber ToadBoiGaming, his friend and the capybara. Code: 412294
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Quirk Shard}}
+|}</center>
+{{Story-MapBox|location=Hero City
+|Act 1=The Magnet Villain
+|Act 2=The Ice Villain
+|Act 3=The Stress Villain
+|Act 4=The Compress Villain
+|Act 5=The Blood Villain
+|Act 6=The Portal Villain
+|Boss 1=Magnet
+|Boss 2=Getan
+|Boss 3=Destra
+|Boss 4=Compress
+|Boss 5=Himika
+|Boss 6=Portal
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Puppet Island=
+==Puppet Island==
+Puppet Island is the sixteenth World of Story Mode.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Pirate Grapes}}
+|}</center>
+{{Story-MapBox|location=Puppet Island
+|Act 1=The Champion
+|Act 2=The Club Officer
+|Act 3=The Heart Officer
+|Act 4=The Toy Officer
+|Act 5=The Diamond Officer
+|Act 6=The Spade Officer
+|Boss 1=Burger
+|Boss 2=Trouble
+|Boss 3=Girgi -> Girgi (King)
+|Boss 4=Sweet
+|Boss 5=Diamanto
+|Boss 6=Solid -> Solid (Stone)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Virtual Dungeon=
+==Virtual Dungeon==
+Virtual Dungeon is the seventeenth World of Story Mode.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|XP Potion}}
+|}</center>
+{{Story-MapBox|location=Virtual Dungeon
+|Act 1=The Kobold Leader
+|Act 2=The Guardian Knight
+|Act 3=The Obsidian Elemental
+|Act 4=The Kobold Lord
+|Act 5=Gleam Eyes
+|Act 6=The Administrator
+|Boss 1= Kobold Leader
+|Boss 2=Guardian Knight
+|Boss 3=Obsidian Elemental
+|Boss 4=Illfangs
+|Boss 5=Gleam Eyes
+|Boss 6=Heathcliff
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Snowy Kingdom=
+==Snowy Kingdom==
+Snowy Kingdom is the eighteenth World of Story Mode.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Coin Bag}}
+|}</center>
+{{Story-MapBox|location=Windhym
+|Act 1=The Snake Lord
+|Act 2=The Assassin Apostle
+|Act 3=The Priest Apostle
+|Act 4=The Immortal
+|Act 5=The Dragon Knight
+|Act 6=The Great Flame Dragon
+|Boss 1=Snake Baron (Apostle)
+|Boss 2=Raksha
+|Boss 3=Mozgo
+|Boss 4=Zod
+|Boss 5=Grobuld
+|Boss 6=Grobuld (Apostle)
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Dungeon Throne=
+==Dungeon Throne==
+Dungeon Throne is the nineteenth World of Story Mode.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Overlord's Potion}}
+|}</center>
+{{Story-MapBox|location=Undead Tomb
+|Act 1=The Undead Demon
+|Act 2=The Elder Lich
+|Act 3=The Death Knight
+|Act 4=The Imp King
+|Act 5=The Abyss Demon
+|Act 6=The Doom Lord
+|Boss 1=Undead Demon
+|Boss 2=Elder Lich
+|Boss 3=Death Knight
+|Boss 4=Imp King
+|Boss 5=Abyss Demon
+|Boss 6=Doom Lord
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Mountain Temple=
+==Mountain Temple==
+Mountain Temple is the twentieth World of Story Mode.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Jewel Pendant}}
+|}</center>
+{{Story-MapBox|location=Mountain Temple
+|Act 1=The Dragon Tooth Colossus
+|Act 2=The Assassin
+|Act 3=The Caster
+|Act 4=The Berserker
+|Act 5=The Rider
+|Act 6=The Priest
+|Boss 1=Dragon Tooth Colossus
+|Boss 2=Kojira
+|Boss 3=Medae
+|Boss 4=Medusa
+|Boss 5=Berserker
+|Boss 6=Kirai
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Rain Village=
+==Rain Village==
+Rain Village is the twenty-first World of Story Mode.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Spirit Rod}}
+|}</center>
+{{Story-MapBox|location=Rain Village
+|Act 1=The Panda Summon
+|Act 2=The Chameleon Summon
+|Act 3=The Head of the Salamander
+|Act 4=The Absorption Path
+|Act 5=The Human Path
+|Act 6=The Paper Ninja
+|Boss 1=Panda Summon
+|Boss 2=Chameleon Summon
+|Boss 3=Haza
+|Boss 4=Absorbtion Path
+|Boss 5=Human Path
+|Boss 6=Komon
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+
+|-|Shibuya District=
+==Shibuya District==
+Shibuya District is the twenty-second World of Story Mode. This map introduces a double-path.
+<center>
+{| class="article-table game-font-face"
+|<b style="font-weight: 400;">Food:<b>|| {{Item|Curse Talisman II}}
+|}</center>
+{{Story-MapBox|location=Shibuya District
+|Act 1=The Finger Bearer Curse
+|Act 2=The Unstoppable Curse
+|Act 3=The Shrieking Curse
+|Act 4=The Apex Curse
+|Act 5=The Crimson Curse
+|Act 6=The Ascended Curse
+|Boss 1=Finger Curse (Merged)
+|Boss 2=Unstoppable Curse
+|Boss 3=Shrieking Curse
+|Boss 4=Apex Curse
+|Boss 5=Crimson Curse
+|Boss 6=Ascended Curse
+}}
+<center class="mobileonly">{{Anchor1|text=⮝ back|id=back}}</center>__NOEDITSECTION____NOTOC__
+</tabber>
+
+==Trivia==
+*Before Update X, completing story acts used to reward {{Gems|15}} or {{Gems|75}} if complete the act for the first time.
+__NOEDITSECTION____NOTOC__
+[[Category:Game Modes]]

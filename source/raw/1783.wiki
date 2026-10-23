@@ -1,0 +1,26 @@
+''If you were looking for a different Spirit Reaper unit, see [[Spirit Reaper (disambiguation)]].''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable by evolving [[Spirit Reaper (Dusk)]].
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Let's end this, [[Illusionist (Final)|Illusionist]]! I'll show you... The Final Getsuga Tensho! This technique allows me to become Getsuga itself. But using it, will cost all my powers as a Shinigami. That's what it means... to be final!"
+|caption2="This is no miracle, I'm going to destroy you completely this time!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+Attacks starting from Upgrade 6 are able to hit air type enemies.
+
+==Active Attack: Pale Sky==
+[[File:MoonlessSkyIcon.png|80x80px|thumb|left]]
+When used, {{PAGENAME}}'s Damage will increase by 900% (10x). however, he will be completely removed from the map after his next attack.
+
+
+==Selling==
+{{PAGENAME}} cannot be sold. However, using his ability removes him from the map, allowing you to place him again.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

@@ -1,0 +1,17 @@
+{{Disenchant Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit. She is only obtainable through [[Summon|summons]].
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Giving Up Isn't An Option For Me!"
+|caption2="Giving Up Isn't An Option For Me!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

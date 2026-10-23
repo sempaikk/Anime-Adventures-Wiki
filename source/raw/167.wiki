@@ -1,0 +1,26 @@
+== Overview ==
+[[File:TimeMachine.png|thumb|240x240px]]
+The '''Time Machine''' is a landmark located in the Lobby. Entering it will teleport you out of the main experience to AFK for gems. AFKing will grant the normal Player +3 Gems every '''150 seconds,''' and players with VIP or Roblox Premium will be granted +6 Gems every 150 seconds. As of Update 19.5, the Time Machine is currently disabled.
+
+== Tips ==
+* VIP and Roblox's Premium subscriptions '''do''' stack with each other. 
+* '''AFKing''' in here is one of the best ways to gain lots of gems when you're away from your device. Using a macro software such as TinyTask to prevent disconnecting and perform infinite runs will let you gain more gems per session.
+*Recommended to participate with caution as AFKing for a long time could lead to your PC/mobile device overheating and possibly shutting off.
+* The only way to save your gems is to click "leave and claim reward". If you get kicked out while you're in the Time Machine, it will save your gems, but closing Roblox manually won't.
+
+==Gems==
+<font size="4"> '''Every Hour''' </font>
+*{{Gems|72}}
+*{{Gems|144}} (with Premium or [[Store|VIP gamepass]])
+<font size="4"> '''Every 8 hours''' </font>
+*{{Gems|576}}
+*{{Gems|1,152}} (with Premium or [[Store|VIP gamepass]])
+*{{Gems|2304}}  (with Premium and [[Store|VIP gamepass]])
+<font size="4"> '''Every 24 hours''' </font>
+*{{Gems|1,728}}
+*{{Gems|3,456}} (with Premium or [[Store|VIP gamepass]])
+*{{Gems|4608}} (with Premium and [[Store|VIP gamepass]])
+
+== Trivia ==
+
+* From update 19.0, '''Time Machine''' was temporary disable.

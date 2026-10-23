@@ -1,0 +1,25 @@
+{{Unobtainable Unit|Update 13.5 - Madoka Magica Update}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} {{LU}}. He was only obtainable once you get rank 25 in [[Past Battlepasses|Cake Hunt]] and with the Premium Pass you get his shiny version.
+
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="YOU STUPID DELINQUENT! ARE YOU MESSING WITH ME?! HOW MANY TIMES DO I HAVE TO TEACH YOU THIS BEFORE YOU LEARN?! YOU SHIT-FOR-BRAINS!"
+|caption2="You'll be the one dying... once you've witnessed my Stand!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* His shiny form refers his manga outfit and colors.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Battle Pass Units]]

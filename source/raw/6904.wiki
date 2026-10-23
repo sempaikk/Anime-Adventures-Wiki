@@ -1,0 +1,91 @@
+local p = {}
+
+local tags = {
+	m = "{{Meta Unit}}",
+	l = "{{Limited Unit}}",
+	n = "{{Recent Unit}}",
+	bl = "{{Meta Bleed Unit}}",
+	bn = "{{Meta Burn Unit}}",
+	sp = "{{Meta Support Unit}}",
+	s = "{{Story Meta Unit}}",
+	r = "{{Raid Meta Unit}}",
+	i = "{{Infinite Castle Meta Unit}}",
+	u = "{{Unobtainable Unit|",
+}
+p.descriptions = {
+    ["Killstreak (Speedrun)"] = "High DPS, Average AoE Circle, High Range, Average SPA and 4 Placements. <br>Placement Cost: {{Yen|1.2K}}\nMax Up. Cost: {{Yen|53.2K}}\n",
+    
+	["Switchblade (Deception)"] = "Peak DPS, 50% CRIT Chance, Small AoE Circle, High Range, Average SPA and 3 Placements. Attacks have a chance to inflict Dismember. <br>Placement Cost: {{Yen|1.3K}}\nMax Up. Cost: {{Yen|78.3K}}\n",
+	
+	["Spider (Immolation)"] = "High DPS, Full AoE, Average Range, Average SPA and 3 Placements. Attacks inflict Burn. <br>Placement Cost: {{Yen|1.3K}}\nMax Up. Cost: {{Yen|99K}}\n",
+	
+	["Somber (Buzzsaw)"] = ""..tags.bl.."<br> High DPS, Moderate AoE Circle, Highest Range (currently), Extreme SPA and 4 Placements. Attacks inflict bleed. <br>Placement Cost: {{Yen|1.4K}}\nMax Up. Cost: {{Yen|68.2K}}\n",
+	
+	["Legendary Assassin (Prime)"] = "Peak DPS, Moderate AoE Circle, High Range, Average SPA and 3 Placements. His passive make him increases his damage per attack cap at 100%.  <br>Placement Cost: {{Yen|1.25K}}\nMax Up. Cost: {{Yen|120.45K}}\n",
+	
+	["Illusionist (Transcended)"] = "Peak DPS, Full AoE, Average Range, Average SPA and 1 placement. His passive ability allows him to instant kill enemies (Fragile) below 15% HP, and active ability stun all enemies for 5s and inflict Fragile to enemies below 35% HP (6m/360s Cooldown). Active ability available upon placement makes him viable in ALL content.* NOTE: Passive Ability exclude bosses, while Active Ability only exclude bosses that has Hyper Armor. (Speed boost, regen, etc.) <br>Placement Cost: {{Yen|25K}}\nMax Up. Cost: {{Yen|500K}}\n",
+	
+	["Honey (Hive)"] = "Average DPS, Single-Target, Average Range, Very Low SPA and 5 Placements.  <br>Placement Cost: {{Yen|1K}}\nMax Up. Cost: {{Yen|30.25K}}\n",
+	
+	["Elf Mage (Aura)"] = "High DPS, Big AoE Circle, Extreme Range, Average SPA and 4 Placements. <br>Placement Cost: {{Yen|1.3K}}\nMax Up. Cost: {{Yen|57.6K}}\n",
+	
+	["Siren (Harpy)"] = "Average AoE Circle, Average Range, Average SPA and 4 Placements. Apply Slow on attack.  <br>Placement Cost: {{Yen|1.2K}}\nMax Up. Cost: {{Yen|47.75K}}\n",
+	
+	["Enlightened (Nirvana)"] = ""..tags.bl.."<br>High-Extreme-Borderline Peak DPS, Small AoE Circle, High Range, Low SPA and 3 Placements. His ability make him do different attacks type, the second form change his AoE Circle to Moderate size, increases SPA and inflict Bleed while attack (3 ticks), '''his Bleed DMG% can be increased with buffs.''' The third form change his AoE type to Line AoE, increases damage, SPA, Range and able to attack '''AIR''' enemies.  <br>Placement Cost: {{Yen|2K}}\nMax Up. Cost: {{Yen|97.5K}}\n",
+	["Iceclaw (Azure Fang)"] = "",
+	["Dark Mage (Fallen Star)"] = "Extreme DPS, Full AoE, High Range, High SPA and 3 Placements.<br>Placement Cost: {{Yen|1.35K}}\nMax Up. Cost: {{Yen|100.75K}}\n",
+	["Cream (Void)"] = "High DPS, Full AoE, Average Range, Average SPA and 3 Placements. <br>Placement Cost: {{Yen|1.3K}}\nMax Up. Cost: {{Yen|83K}}\n",
+	["Ghost-kun (Bound)"] = ""..tags.bn.."<br>Extreme DPS, Cone AoE, High Range, High SPA and 3 Placements. <br>Placement Cost: {{Yen|1.2K}}\nMax Up. Cost: {{Yen|78.75K}}\n",
+}
+p.story_desc = {
+	["Honey (Hive)"] = ""..tags.s.."<br>bee",
+}
+p.mansion_desc = {
+	["Commander"] = ""..tags.sp.."<br>goated buff",
+}
+local c = "{{DPStats/Units|"
+p.customDPS = {
+    buddha_evo = {
+        formattedText = {"'''First Form'''<br>"..c.."44294.563|3}}'''Second Form (Bleed)'''<br>"..c.."38388.62|3}}'''Third Form (Hybrid)'''<br>"..c.."33220.92|3}}",
+    	},
+    },
+    hidan_unit_evolved = {
+    	formattedText = "{{DPStats/Units|19328.5|3}}Blood Curse{{DPStats/Units|33924|3}}",
+    },
+}
+
+local function getDescription(characterName, frame, descriptionType)
+    local description
+    if descriptionType == "story" then
+        description = p.story_desc[characterName]
+    elseif descriptionType == "mansion" then
+    	description = p.mansion_desc[characterName]
+    else
+        description = p.descriptions[characterName]
+    end
+
+    if description then
+        return frame:preprocess(description)
+    else
+        return nil
+    end
+end
+
+function p.getDescription(frame, characterName)
+    return getDescription(characterName, frame)
+end
+
+function p.getStoryDesc(frame, characterName)
+    return getDescription(characterName, frame, "story")
+end
+
+function p.getMansionDesc(frame, characterName)
+    return getDescription(characterName, frame, "mansion")
+end
+
+-- Function to get custom DPS data based on character *name* (from InfoChar/Data)
+function p.getCustomDPS(characterName)
+    return p.customDPS[characterName]
+end
+
+return p

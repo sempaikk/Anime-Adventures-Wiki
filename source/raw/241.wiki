@@ -1,0 +1,18 @@
+{{Disenchant Unit}}
+{{Unobtainable Unit}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Rare}} unit.
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I WANNA HURT [[Verdant Hero|YOU]] SO BAD THEY WILL HAVE TO STOP THE FIGHT!"
+|caption2="If you keep looking down on everyone… you're never gonna notice your own weaknesses."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Rare Units]]

@@ -1,0 +1,19 @@
+'''-Anniversary island has been removed, the starry balls are not tradeable-'''
+
+Anniversary Starry Balls are mythic items obtained by opening Anniversary stars with a very low chance (chance has not been revealed yet), or completing the Anniversary Island stage (The Anniversary Island can be completed once every day). When you have collected all 7 Starry Balls, you can use them to summon Shenro in the lobby. You will keep the dragon balls until you wish for something.
+[[File:Shenron.png|thumb|Shenro [AA Update 15 Anniversary Event]]]
+
+The wishes you get to choose are:
+{|class="article-table"
+!Wish for:
+!Reward
+|-
+|Riches
+|x5000 [[File:Gems.png|35px]]
+|-
+|Power
+|x50 [[File:Star Remnant.png|35x35px]]
+|-
+|Allies
+|{{Characterbox|Issai}}
+|}

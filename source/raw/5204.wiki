@@ -1,0 +1,29 @@
+{{Meta Unit}}{{Raid Meta Unit}}
+{{Infinity Castle Meta Unit}}{{Unobtainable Unit}}
+
+== Overview ==  
+'''{{PAGENAME}}''' is a {{Rarity|Secret}} {{LU}}. He can only be obtained by evolving [[Umbra]].
+
+{{EvolutionTable}}
+{{Takedowns|5000}}
+
+
+{{Tower Infobox
+|caption1="Observe! And witness for yourselves! My earth-shattering... Sky-rending... Supremely ultimate, almighty, and ㅤㅤㅤㅤㅤunparalleled attack!"ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ"I... am... ​【﻿Ａｔｏｍｉｃ】"
+|caption2="You think this is enough to take me down? I simply avoided all of my vital organs so I don't have to dodge. Now, I.. am.. the All-Range.. 
+A T O M I C."}}{{Main Stats}}
+
+== Selling ==  
+Units sell for 25% of their deployment cost and upgrades.
+
+== Trivia ==  
+
+*Umbra's damage can only be buffed by [[Griffin (Reincarnation)|Griffin (Ascension)]], [[Blossom]], [[Idol (Star)]]
+*He and his [https://animeadventures.fandom.com/wiki/Umbra unevolved form] are the second units to not deal Physical, Magic or Burn damage. Their case is ''purely'' true damage/dark.
+*As of Update 19 the only relics that can be applied to Umbra are the [[Relics|Kunai]], [[Relics|Amplifying Codex]] and [[Relics|Infernal Gaze]] relics due to them being a True Damage unit.
+*Umbra becomes Hybrid on his 6th Upgrade.
+
+{{Unit Navigation}}
+__NOTOC____NOEDITSECTION__  
+[[Category:Secret Units]]  
+[[Category:Event Units]]

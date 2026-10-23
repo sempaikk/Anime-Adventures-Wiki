@@ -1,0 +1,20 @@
+''If you were looking for a different Spirit Reaper unit, see [[Spirit Reaper (disambiguation)]]''
+
+=='''Overview'''==
+'''Spirit Reaper (Masked)''' is an {{Rarity|Epic}} unit. He is only obtainable through [[Summon|summons]].
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Sorry... [[Iceclaw (Rebirth)|Iceclaw]], but I'm now allowed to sustain anymore damage."
+|caption2="I refuse to carry a king who's weaker than me and get cut to ribbons with him. If you're weaker than me, then I'll destroy you, and take your crown for myself!"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Epic Units]]

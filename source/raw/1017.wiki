@@ -1,0 +1,55 @@
+--[[
+tower_type = {"GRND"},
+tower_type = {"HILL"},
+tower_type = {"HYBD"},
+tower_type = {"SUMM"},
+tower_type = {"GRND"},
+tower_type = {"FARM"},
+tower_type = {"BUFF"},
+
+"Single",
+"AoE (Very Large Circle)", 
+"AoE (Large Circle)",
+"AoE (Circle)",
+"AoE (Small Circle)",
+"AoE (Full)",
+"AoE (Cone)",
+cone_deg = ,
+"AoE (Wider Line)",
+"AoE (Line)",
+"AoE (Narrow Line",
+Special
+
+effect = "bleed",
+effect = "burn",
+effect = "froze",
+effect = "slowed",
+effect = "knockback",
+effect = "cursed",
+effect = "stunned",
+effect = "black burn",
+
+
+{{EvolutionTable}}
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Insert Quote Here"
+|caption2="Insert Quote Here"
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:}}
+
+]]--

@@ -1,0 +1,18 @@
+[[File:Contractpopup.png|thumb|303x303px|A view of the contracts and buffs]]
+Contracts are obtained from either the NPC '''Legendary Assassin''' (not to be confused with the unit '''[[Legendary Assassin]]'''), or also from the main menu. They make you kill a boss from a random map. Higher tier Contracts are more difficult, with the higher ones often having resistances. Typically, when you do a contract, it gives a very strong damage type buff and a less strong (but still good) secondary damage type buff. 
+
+== Rewards ==
+[[File:Assassinbanner.png|thumb|148x148px|A view of the assassin banner]]
+You can get two rewards from completing contracts, those being '''Assassin tokens''' and '''Death dice.''' Assassin tokens allow you to spin on the '''Assassin banner,''' from which you can get one of three units: '''[[Legendary Assassin]]''', '''[[Somber]]''', or '''[[Killstreak]]'''. Death Dice allow you to create a secret portal if you have four of them, from which you can get the unit '''[[Switchblade]]''' if you successfully complete the portal. The higher tier portals have a higher chance of giving a death dice. For the highest chance, you should attempt your highest tier contract every day in order to maximize rewards and take less time to get the secret unit, '''[[Switchblade]]'''.
+
+== Reset ==
+Depending on the tier of a contract, it will reset after a certain amount of time, also known as a '''new contract.''' Typically, the lower tier contracts reset faster, in usually 5-10 minutes, while the higher tier ones take anywhere from 30 minutes to 2 hours. The highest one, at the very right of the contract menu, takes 12 hours to reset, otherwise it would be easy to get the secret.
+
+== Trivia ==
+
+* There are 16 tiers of contracts.
+* You can choose to either open a portal to attract people to do a contract or do matchmaking.
+** This makes contracts this first ever portal-reward system to utilize matchmaking.
+* For the highest chance of succeeding, be sure to bring units of the type that are buffed. If there are two secondary buff types (e.g. fire and storm) and one primary buff type (e.g. Physical) you should opt to get the unit with the Primary Buff type as opposed to the two secondary buff types (e.g. choose Guts as opposed to Sasuke).
+* Boss killer units and supports are heavily utilized in these stages, so make sure to bring them.
+* You gain 2500-5000 Cash per round (5000 when start) so you can place high cost units down quickly (e.g. Time Wizard in 2 Rounds)

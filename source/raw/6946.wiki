@@ -1,0 +1,22 @@
+{{Meta Burn Unit}}
+
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can only be obtained by evolving [[Demihuman]].  
+
+{{EvolutionTable}}
+{{Takedowns|7500}}
+
+==Stats Overview==
+{{Tower Infobox
+|caption1=When i play games, I always play on hard mode. Because, the higher the difficulty.. The more fun it gets..
+|caption2=I love it when a plan comes together.
+|image1={{PAGENAME}}.png
+|image2={{PAGENAME}} Shiny.png
+}}{{Main Stats}}
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+[[Category:Units]]
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+__NOTOC____NOEDITSECTION__

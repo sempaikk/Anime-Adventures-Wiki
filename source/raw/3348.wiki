@@ -1,0 +1,30 @@
+''If you were looking for a different Captain unit, see [[Captain (Disambiguation)]].''
+
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}}. He is only obtainable through [[Summon|summons]].
+
+{{EvolutionTable}}
+{{Takedowns|1000}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I've sunk countless warship! People fear me as Captain (Timeskip), Lord of Destruction! Hey... if you wanna run, now's the time!"
+|caption2="There comes a time when a man has to stand and fight! This is the time when his friend's dreams are laughed at. [[Joykid]] won't die... I know he'll be the pirate king one day... and I won't let you laugh at that!"
+|image1=Captain_(God).png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+==Trivia==
+*{{PAGENAME}} has a unique attack type where he shoots traps to the ground, it takes some time to get ready, any enemy that steps on the trap gets damaged, so it is recommended to put {{PAGENAME}} behind the frontlines where the traps will be successful.
+* He and his [[Captain (God)|evolved form]] were the first units that do not deal Physical or Magic damage. His case is ''purely'' true damage.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Units]]
+[[Category:Mythic Units]]

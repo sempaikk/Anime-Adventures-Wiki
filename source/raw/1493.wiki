@@ -1,0 +1,28 @@
+''If you were looking for a different Joykid unit, see [[Joykid (disambiguation)]]''
+
+{{Disenchant Unit}}
+{{Unobtainable Unit|Update Christmas - Christmas 2022 Update Part 2}}
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} {{LU}}. He is only obtainable through Completing the "Defeat Morbid 5 times" quest during the Thriller Park event.
+
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="There's only one Joykid, it's me, you got a problem with that ?"
+|caption2="There's only one Joykid, it's me, you got a problem with that ?"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]
+[[Category:Event Units]]

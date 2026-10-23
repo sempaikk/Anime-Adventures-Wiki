@@ -1,0 +1,56 @@
+{{Meta Unit}}{{Raid Meta Unit}}{{Infinity Castle Meta Unit}}{{Story Meta Unit}}
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He can be obtained by evolving [[Legendary Assassin]]. 
+
+{{EvolutionTable}}
+{{Takedowns|5000}} 
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="I made a promise to my family—I won’t kill anymore."
+|caption2="There’s no need to talk. My actions will be the last thing you see."
+|image1=|image2=
+}}{{Main Stats}}
+
+(This is w/o [[Legendary Assassin (Prime)|Legendary Assassin's]] passive).
+
+==Passive==
+Slim Down - Every time [[Legendary Assassin (Prime)]] attacks, he increases his damage by 0.8% maxing at 200%. Every other upgrade changes the value of increase, up to a max of 2% per attack. Once he reaches 100%, another 100% will be added to his damage and his model will change into a slimmer version of himself, representing [[Legendary Assassin (Prime)]] in his prime.
+{| class="article-table" style="border: 1px solid #302D40; border-radius:2em; overflow:hidden; box-shadow: 5px 5px 15px #e69c2e;"
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Upgrade
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Increase
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Spawn
+|{{Stat|Damage|0.8%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Upgrade 2 
+|{{Stat|Damage|1.0%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Upgrade 4
+|{{Stat|Damage|1.2%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Upgrade 6
+|{{Stat|Damage|1.8%}}
+|-
+! style="text-align: center; font-family: rubik,helvetica,arial,sans-serif;" |Upgrade 8
+
+|{{Stat|Damage|2.0%}}
+|}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+== Trivia==
+*This unit currently deals '''2x its displayed damage''' at upgrade 6-7.
+*When applying a damage buff to him, only his base damage will be affected. This means that even at maximum passive ( '''''Slim Down''' )'', only one-third of his displayed damage will be buffed, rather than his total damage.
+*His shiny skin is based on a version of Sakamoto in a flashback to before he met his wife, and was still in his "Prime". This skin is seemingly unaffected by the '''''Slim Down''''' passive's change of model at max efficiency.
+*The most efficient way to max out the damage gained by the '''''Slim Down''''' passive is by stopping at '''Upgrade 6;''' ''No Refunds'', as it buffs his damage by 1.8% every 5 seconds, as compared to '''Upgrade 8;''' ''Slim Down''<nowiki/>'s increase of 2% every 7.8 seconds, making '''Upgrade 6''' 44% ''faster'' than '''Upgrade 8''', assuming enemies are perpetually within this unit's range.
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Evolved Units]]
+[[Category:Mythic Units]]
+
+<references />

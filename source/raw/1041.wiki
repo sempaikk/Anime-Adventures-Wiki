@@ -1,0 +1,9 @@
+==Evolving==
+{{{Text|}}}
+{| class="article-table game-font-face"
+|Required Items:
+| style="display: flex; gap: 25px; |{{{Units|{{Item|}}}}}{{{Items|{{Item|}}{{Item|}}{{Item|}}}}}
+|-
+|Result
+|{{{Result|}}}
+|}

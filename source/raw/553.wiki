@@ -1,0 +1,19 @@
+''If you were looking for a different Fox Ninja unit, see [[Fox Ninja (disambiguation)]]''.
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Legendary}} unit. He can only be obtained by buying him from the Raid Item Shop. 
+
+{{EvolutionTable}}
+
+==[Stats Overview==
+{{Tower_Infobox
+|caption1="[[Shinobi|SHINOBIIIIII!]]
+|caption2="Somebody told me I’m a failure. I’ll prove them wrong!"
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Legendary Units]]

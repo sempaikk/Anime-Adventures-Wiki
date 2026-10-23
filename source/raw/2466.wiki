@@ -1,0 +1,23 @@
+''If you were looking for a different Shinobi unit, see [[Shinobi (disambiguation)]]''
+==Overview==
+'''{{PAGENAME}}''' is a {{Rarity|Mythic}} unit. He is only obtainable through [[Summon|summons]].
+{{EvolutionTable}}
+==Stats Overview==
+{{Tower_Infobox
+|caption1="It's Not The Future I Dream Of Anymore. Only The Past."
+|caption2="Having too many bonds causes one to lose focus, weakening their strongest wish, their greatest desire."
+|image1={{PAGENAME}}.png
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]

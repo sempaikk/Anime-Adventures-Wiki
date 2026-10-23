@@ -1,0 +1,173 @@
+<blockquote>''- Collect Battlepass points by killing enemies in any game mode!''<br />''- Purchase a Premium Pass for Exclusive rewards!''<br />''★ All previous rewards are automatically claimed on purchase!''</blockquote>The Battlepass has 50 tiers with the later half opening up after a week of release; a free and premium version. Each tier starts at 50 Battlepass points, going up to 1500 Battlepass points per tier which are obtained by killing enemies that can drop between 4 and 15 Battlepass points in any game mode.
+
+Each tier can offers the player '''{{Gems}}, {{Gold}}, [[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Tokens]], [[File:Cursed Finger.png|35px|link=Traits|Cursed Fingers]][[Curses|Cursed Fingers]], [[Items|Star Capsules]], Emotes, and exclusive units''', with the premium version providing extra items and shiny units'''.'''  
+
+The premium pass can be purchased for '''R$799'''. Skip 10 levels can be purchased for '''R$999'''. Both are giftable and tradable. 
+
+== Battlepass - Update 14.0.0.==
+
+=== '''MAGIC HNT!''' ===
+{| class="mw-collapsible fandom-table"
+|+
+!'''Level'''
+!'''1'''
+!'''2'''
+!'''3''' 
+!'''4'''
+!'''5'''
+!'''6'''
+!'''7'''
+!'''8'''
+!'''9'''
+!'''10'''
+
+!'''11'''
+!'''12'''
+!'''13'''
+!'''14'''
+!'''15'''
+!'''16'''
+!'''17''' 
+!'''18'''
+!'''19'''
+!'''20'''
+!'''21'''
+!'''22'''
+
+!'''23'''
+
+!'''24'''
+!'''25'''
+!'''26'''
+
+!'''27'''
+!'''28'''
+!'''29'''
+!'''30'''
+!'''31'''
+!'''32'''
+!'''33'''
+
+!'''34'''
+!'''35'''
+!'''36'''
+!'''37'''
+!'''38'''
+!'''39'''
+!'''40'''
+!'''41'''
+!'''42'''
+!'''43'''
+!'''44'''
+!'''45'''
+!'''46'''
+!'''47'''
+!'''48'''
+!'''49'''
+!'''50'''
+|-
+!'''Free'''
+!{{Gems|250}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gems|250}}
+!{{Gems|250}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gold|500}}
+!{{Gold|500}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gems|250}}
+!{{Gems|250}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gems|250}}
+!{{Gems|250}}
+!'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+!
+!{{Gold|500}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gold|500}}
+!{{Gems|250}}
+!2x Star Capsule
+!{{Gold|500}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gold|500}}
+!{{Gold|500}}
+!'''[[Charmi]]'''
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gold|500}}
+!{{Gems|250}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!'''[[File:Cursed Finger.png|35px|link=Powerups]]<br />[[Powerups|2x Cursed Finger]]'''
+!{{Gems|250}}
+!{{Gems|250}}
+!{{Gold|500}}
+!{{Gold|500}}
+!{{Gems|250}}
+!{{Gems|250}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gold|500}}
+!{{Gems|250}}
+!{{Gold|500}}
+!{{Gems|250}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gems|250}}
+!{{Gems|250}}
+!'''[[File:Stat Cube.png|35px|link=Powerups#Stat_Rerolling]]<br />[[Powerups#Stat_Rerolling|3x Stat Cube]]'''
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|Reroll Token]]'''
+!{{Gems|250}}
+!{{Gems|250}}
+!{{Gems|250}}
+!'''[[Mash]]'''
+|-
+!'''Premium'''
+!{{Gems|750}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gems|750}}
+!{{Gems|750}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gold|1500}}
+!{{Gold|1500}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gems|750}}
+!{{Gems|750}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gems|750}}
+!{{Gems|750}}
+!'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+!{{Gems|750}}
+!{{Gold|1500}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gold|1500}}
+!{{Gems|750}}
+!6x Star Capsule
+!{{Gold|1500}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gold|1500}}
+!{{Gold|1500}}
+![[Charmi|'''Charmi (Shiny)''']]
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4]]'''<nowiki/>'''[[Traits|x Reroll Token]]'''
+!{{Gold|1500}}
+!{{Gems|750}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!'''[[File:Cursed Finger.png|35px|link=Powerups]]<br />[[Powerups|4x Cursed Finger]]'''
+!{{Gems|750}}
+!{{Gems|750}}
+!{{Gold|1500}}
+!{{Gold|1500}}
+!{{Gems|750}}
+!{{Gems|750}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gold|1500}}
+!{{Gems|750}}
+!{{Gold|1500}}
+!{{Gems|750}}
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gems|750}}
+!{{Gems|750}}
+!'''[[File:Perfect Stat Cube.png|35px|link=Powerups#Stat_Rerolling]][[Powerups#Stat_Rerolling|Perfect Stat Cube]]'''
+!'''[[File:Reroll Token.png|35px|link=Traits|Reroll Tokens]][[Traits|4x Reroll Token]]'''
+!{{Gems|750}}
+!{{Gems|750}}
+!{{Gems|750}}
+![[Mash|'''Mash (Shiny)''']]
+|}
+<small>T</small><small>he pass</small> <small>has ended as of July 7th</small>

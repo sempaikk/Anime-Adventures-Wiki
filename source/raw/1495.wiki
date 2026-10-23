@@ -1,0 +1,30 @@
+{{Unobtainable Unit|Update 8 - JoJo's Bizarre Adventure Update + Christmas Update Part 1}}{{Meta Unit}}{{Meta Support Unit}}
+
+=='''Overview'''==
+'''{{PAGENAME}}''' is a {{Rarity|Mythical}} unit. He is only obtainable by evolving [[Skeleton]].
+
+{{EvolutionTable}}
+
+==Stats Overview==
+{{Tower_Infobox
+|caption1="Yohohohoho! Music is my power!"
+|caption2="No matter how deep the night, it always turns to day, eventually."
+}}{{Main Stats}}
+
+==Selling==
+Units sell for 25% of their deployment cost and upgrades.
+
+==Trivia==
+* As of Update 16, He, [[Sakuro]], [[Oshy (Idol)]] and [[Griffin (Ascension)]] are the only ones capable of buffing both Physical and Magical damage.
+** He's the only one who has to attack to buff others.
+
+==Gallery==
+<gallery>
+
+</gallery>
+
+{{Unit Navigation}}__NOTOC____NOEDITSECTION__
+[[Category:Mythic Units]]
+[[Category:Evolved Units]]
+{{DISPLAYTITLE:{{PAGENAME}}}}
+[[Category:Event Units]]
