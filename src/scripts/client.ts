@@ -102,7 +102,8 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Tab" && document.body.classList.contains("sidebar-open")) {
     const controls = [
       menu,
-      ...Array.from(document.querySelectorAll("#side-nav a")),
+      ...Array.from(document.querySelectorAll("#side-nav a, #side-nav summary"))
+        .filter((control) => (control as HTMLElement).getClientRects().length > 0),
     ] as HTMLElement[];
     const first = controls[0],
       last = controls[controls.length - 1];
@@ -149,11 +150,11 @@ async function search() {
     q = normalize(input.value.trim());
   if (!q) {
     message(
-      "Personagens, evoluções, itens e modos: comece pelo que você quer descobrir.",
+      "Digite o nome de um personagem, item ou assunto.",
     );
     return;
   }
-  message("Buscando no arquivo…");
+  message("Pesquisando…");
   try {
     const index = await getIndex();
     if (version !== searchVersion) return;
@@ -244,9 +245,9 @@ if (unitGrid) {
     rarity = $("#rarity-filter") as HTMLSelectElement,
     form = $("#form-filter") as HTMLSelectElement,
     retired = $("#retired-filter") as HTMLInputElement;
-  let shown = 24;
+  let shown = 12;
   function filter(reset = true) {
-    if (reset) shown = 24;
+    if (reset) shown = 12;
     const q = normalize(query.value);
     const matched = cards.filter(
       (card) =>
@@ -267,7 +268,7 @@ if (unitGrid) {
   for (const control of [rarity, form, retired])
     control.addEventListener("change", () => filter());
   $("#load-units").addEventListener("click", () => {
-    shown += 24;
+    shown += 12;
     filter(false);
   });
   $("#clear-filters").addEventListener("click", () => {
@@ -286,7 +287,7 @@ if (articleGrid) {
   const includeRetired = $("#library-retired") as HTMLInputElement;
   query.value = new URLSearchParams(location.search).get("q") || "";
   let kind = new URLSearchParams(location.search).get("tipo") || "",
-    shown = 30;
+    shown = 12;
   const kindButtons = Array.from(
     document.querySelectorAll<HTMLElement>("[data-article-kind]"),
   );
@@ -299,7 +300,7 @@ if (articleGrid) {
     ),
   );
   function filter(reset = true) {
-    if (reset) shown = 30;
+    if (reset) shown = 12;
     const q = normalize(query.value);
     const matched = cards.filter(
       (c) =>
@@ -326,7 +327,7 @@ if (articleGrid) {
     }),
   );
   $("#load-articles").addEventListener("click", () => {
-    shown += 30;
+    shown += 12;
     filter(false);
   });
   filter();

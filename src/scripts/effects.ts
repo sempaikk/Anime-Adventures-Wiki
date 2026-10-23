@@ -3,7 +3,7 @@ const motion = matchMedia(
   "(hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference)",
 );
 const selector =
-  ".unit-card,.library-card,.game-tile,.hub-intro,.unit-profile,.map-view,.feed-entry,.account-panel";
+  ".unit-card,.library-card,.game-tile,.hub-intro,.unit-profile,.map-view,.home-shortcut,.account-panel";
 let current: HTMLElement | null = null,
   frame = 0,
   point = { x: 0, y: 0 };
@@ -45,3 +45,42 @@ document.addEventListener(
 document.addEventListener("pointerleave", clear);
 window.addEventListener("blur", clear);
 motion.addEventListener("change", clear);
+
+// Reveal only content reached by scrolling or filtering. The first screen stays visible.
+const reduced = matchMedia("(prefers-reduced-motion: reduce)");
+const animated = new Set<Animation>();
+let observer: IntersectionObserver | undefined;
+const revealed = new WeakSet<Element>();
+function observeContent() {
+  observer?.disconnect();
+  if (reduced.matches || !("IntersectionObserver" in window)) return;
+  const cards = document.querySelectorAll<HTMLElement>(
+    ".game-tile,.home-shortcut,.unit-entry,.library-card,.community-channel,.update-entry",
+  );
+  for (const card of cards) {
+    const rect = card.getBoundingClientRect();
+    if (rect.width && rect.top < innerHeight && rect.bottom > 0) revealed.add(card);
+  }
+  observer = new IntersectionObserver((entries) => {
+    let position = 0;
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      observer?.unobserve(entry.target);
+      if (revealed.has(entry.target)) continue;
+      revealed.add(entry.target);
+      const animation = entry.target.animate(
+        [{ opacity: 0, transform: "translateY(12px)" }, { opacity: 1, transform: "none" }],
+        { duration: 320, delay: Math.min(position++ * 30, 90), easing: "cubic-bezier(.2,.7,.2,1)" },
+      );
+      animated.add(animation);
+      animation.finished.catch(() => {}).finally(() => animated.delete(animation));
+    }
+  }, { threshold: 0.08 });
+  for (const card of cards) if (!revealed.has(card)) observer.observe(card);
+}
+observeContent();
+reduced.addEventListener("change", () => {
+  for (const animation of animated) animation.cancel();
+  animated.clear();
+  observeContent();
+});

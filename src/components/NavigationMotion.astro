@@ -1,0 +1,31 @@
+<script is:inline>
+(() => {
+  const root = document.documentElement;
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
+  if ('onpageswap' in window && 'onpagereveal' in window) root.dataset.nativeTransitions = '';
+  function transition(event, activation) {
+    root.removeAttribute('data-navigating');
+    root.removeAttribute('data-entry-motion');
+    if (!event.viewTransition) {
+      if (event.type === 'pagereveal') root.dataset.entryMotion = '';
+      return;
+    }
+    if (reduced.matches) { event.viewTransition.skipTransition(); return; }
+    const back = activation?.navigationType === 'traverse' && activation.from && activation.entry.index < activation.from.index;
+    event.viewTransition.types?.add(back ? 'back' : 'forward');
+    const path = activation?.entry?.url ? new URL(activation.entry.url).pathname : location.pathname;
+    event.viewTransition.types?.add(path.includes('/artigo/') || path.includes('/personagem/') ? 'article' : 'section');
+  }
+  addEventListener('pageswap', event => transition(event, event.activation));
+  addEventListener('pagereveal', event => transition(event, window.navigation?.activation));
+  addEventListener('pageshow', () => root.removeAttribute('data-navigating'));
+  addEventListener('click', event => {
+    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
+    if (!link || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
+    const url = new URL(link.href, location.href);
+    if (url.origin !== location.origin || url.pathname.startsWith('/api/') || (url.pathname === location.pathname && url.search === location.search)) return;
+    root.dataset.navigating = '';
+  });
+})();
+</script>

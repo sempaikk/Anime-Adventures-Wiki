@@ -117,7 +117,7 @@ async function open(id: string) {
     }
   } catch {
     if (request === version) {
-      title.textContent = "Vamos tentar de novo?";
+      title.textContent = "Não foi possível carregar a ficha";
       message.textContent =
         "Não foi possível carregar a ficha. Confira sua conexão e abra o personagem novamente.";
     }

@@ -1,6 +1,12 @@
 # Direção visual: Adventures Wiki
 
-A interface combina descoberta de conteúdo, identidade de Anime Adventures e consulta enciclopédica. A coleção atual de artigos e formas é a base real da experiência; publicações sociais, chat no site e IA são etapas futuras, sem contadores ou interações simuladas na interface publicada.
+A interface usa a identidade de Anime Adventures e organiza a consulta por categoria. A página inicial contém uma apresentação curta, busca e atalhos; personagens, guias, notícias e estatísticas aparecem quando o visitante abre a área correspondente. Publicações sociais, chat no site e IA são etapas futuras, sem contadores ou interações simuladas.
+
+## Linguagem e quantidade de informação
+
+Títulos identificam a seção: Personagens, Biblioteca, Favoritos, Atualizações. Botões descrevem a ação: Jogar, Entrar com Discord, Salvar. Evitar slogans, metáforas de aventura e chamadas promocionais. A interface é em português direto e os artigos mantêm o idioma original.
+
+Menus gerais usam texto. Atalhos de conteúdo do jogo ficam em um grupo próprio, com arte correspondente em todas as linhas. A página inicial não exibe um feed de guias, personagens e anúncios. Catálogos mostram doze resultados por vez. Artigos com várias seções permitem abrir os detalhes e preservam todos os dados e âncoras.
 
 ## Referências e fontes
 
@@ -21,7 +27,7 @@ O seletor apresenta os três temas e mantém a preferência entre páginas e aba
 
 - Cabeçalho com busca, conta e temas; navegação lateral no computador e navegação inferior no celular.
 - Atalhos por categoria com arte correspondente, nome, foco visível e área inteira clicável.
-- Descobertas da wiki identificadas como guias ou seleção editorial. Não representam postagens de jogadores ou avaliações de popularidade.
+- Página inicial com descrição curta, busca, seis categorias e acesso a favoritos e canais do jogo.
 - Cartão de unidade com nome, retrato confirmado, raridade, acesso à ficha e ficha rápida independente.
 - Ficha rápida com dados disponíveis, ligação à página completa e favoritos. Formas sem artigo têm uma chave de favorito própria, preservando as chaves antigas dos artigos.
 - Ficha de personagem com resumo, seções, informações adicionais da fonte e seletor dos upgrades documentados. Os valores originais, níveis e bônus permanecem no documento; não há interpolação de estatísticas.
@@ -29,7 +35,7 @@ O seletor apresenta os três temas e mantém a preferência entre páginas e aba
 
 ## Movimento e acesso
 
-A iluminação e o movimento reagem à interação, sem laço contínuo de animação em JavaScript. Movimento reduzido é respeitado. Busca, temas, fichas e controles funcionam pelo teclado. Conteúdo e controles se reorganizam em 320, 390, 768 e 1440 pixels. Imagens ausentes são informadas, sem gerar ou atribuir a arte de outra forma.
+A iluminação reage ao ponteiro. A navegação usa transições nativas entre documentos onde há suporte, com movimentos diferentes para avançar, voltar e abrir artigos. Links e histórico continuam nativos; nenhum temporizador atrasa a navegação. Fichas têm entrada e saída próprias, seções abrem suavemente e cartões são apresentados ao entrar na área visível. Não há laço contínuo de animação em JavaScript. Movimento reduzido é respeitado, e navegadores sem suporte continuam com navegação normal. Busca, temas, fichas e controles funcionam pelo teclado. Conteúdo e controles se reorganizam em 320, 390, 768 e 1440 pixels. Imagens ausentes são informadas, sem gerar ou atribuir a arte de outra forma.
 
 ## Conta
 

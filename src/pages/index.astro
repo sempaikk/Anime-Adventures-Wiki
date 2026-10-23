@@ -1,32 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import UnitCard from '../components/UnitCard.astro';
 import ExploreTiles from '../components/ExploreTiles.astro';
-import { wiki, units, art, articleUrl } from '../lib/wiki';
-import { channels, botInvite } from '../lib/community';
-const names=['pain_2_evolved','gojo_evolved','goku_ssj3','gilgamesh_evolved'];
-const featured=names.map(id=>units.find(u=>u.id===id)).filter(u=>u?.image&&u.article&&!u.retired);
-for(const unit of units.filter(u=>u.image&&u.article&&!u.retired)){if(featured.length>=4)break;if(!featured.some(u=>u.id===unit.id))featured.push(unit)}
-const guides=[
- {title:'Seu próximo upgrade começa aqui.',text:'Materiais, requisitos e caminhos de evolução. Descubra o que sua unidade precisa para ir além.',category:'EVOLUÇÕES',target:'Evolution',image:art('item-star-fruit'),tone:'green'},
- {title:'Um trait pode mudar seu time.',text:'Conheça os modificadores, os efeitos e as chances documentadas pela comunidade.',category:'TRAITS',target:'Traits',image:art('ui-traits'),tone:'purple'},
- {title:'Cada material tem seu propósito.',text:'Veja para que os itens servem, onde aparecem e como se conectam às suas próximas conquistas.',category:'ITENS E RECURSOS',target:'Items',image:art('ui-items'),tone:'orange'},
-];
 ---
 <Layout>
-<section class="hub-intro" aria-labelledby="hub-title"><div class="hub-cover" aria-hidden="true"><img src="/art/official/roblox-cover.png" alt="" width="768" height="431" fetchpriority="high"/></div><div class="hub-intro-copy"><span class="eyebrow"><span class="live-spark" aria-hidden="true"></span> ANIME ADVENTURES / FEITO PELA COMUNIDADE</span><h1 id="hub-title">Um universo inteiro.<br/><span>Sua próxima descoberta.</span></h1><form action="/biblioteca/" class="hub-search" role="search"><label class="sr-only" for="hub-query">O que você quer encontrar?</label><span aria-hidden="true">⌕</span><input id="hub-query" name="q" type="search" placeholder="Personagens, itens, guias…" autocomplete="off"/><button type="submit" aria-label="Buscar na wiki">→</button></form></div><span class="hub-cover-label">ARTE DO JOGO / GOMU</span></section>
-<ExploreTiles/>
-<div class="hub-layout"><div class="hub-stream">
-  <div class="stream-heading"><div><span class="eyebrow">EXPLORE. DESCUBRA. EVOLUA.</span><h2>Por dentro do universo.</h2></div><a class="text-link" href="/biblioteca/">Ver tudo <i class="arrow-diagonal" aria-hidden="true"></i></a></div>
-  <div class="hub-topics" role="group" aria-label="Filtrar destaques"><button type="button" data-hub-filter="all" aria-pressed="true">Para explorar</button><button type="button" data-hub-filter="units" aria-pressed="false">Personagens</button><button type="button" data-hub-filter="guides" aria-pressed="false">Guias</button><button type="button" data-hub-filter="updates" aria-pressed="false">Novidades</button></div>
-  <section class="feed-entry feed-units" data-hub-kind="units"><div class="feed-entry-head"><span class="feed-category"><span class="category-mark" aria-hidden="true"></span> PERSONAGENS EM DESTAQUE</span><span class="feed-editorial">SELEÇÃO DA WIKI</span></div><h3>Quem entra no seu próximo time?</h3><p>Conheça as formas, confira os detalhes e guarde seus favoritos.</p><div class="units-grid hub-unit-grid">{featured.map((unit,index)=><UnitCard unit={unit} index={index}/>)}</div><a href="/personagens/" class="feed-link">Explorar todos os personagens <span>→</span></a></section>
-  {guides.map(guide=><article class="feed-entry feed-guide" data-hub-kind="guides" data-guide-tone={guide.tone}><div class="feed-entry-head"><span class="feed-category"><span class="category-mark" aria-hidden="true"></span> {guide.category}</span><span class="feed-editorial">GUIA DA WIKI</span></div><div class="feed-guide-body"><div><h3>{guide.title}</h3><p>{guide.text}</p><a href={articleUrl(guide.target)} class="feed-link">Abrir guia <span>→</span></a></div><a class="feed-guide-art" href={articleUrl(guide.target)} aria-label={`Consultar ${guide.category.toLowerCase()}`}><span class="guide-orbit" aria-hidden="true"></span><img src={guide.image} alt="" width="160" height="160" loading="lazy"/></a></div></article>)}
-  <article class="feed-entry feed-update" data-hub-kind="updates"><div class="feed-entry-head"><span class="feed-category"><span class="category-mark" aria-hidden="true"></span> POR AQUI</span><time datetime="2026-10-23">23 OUT 2026</time></div><h3>Uma nova forma de viver suas descobertas.</h3><p>Novos temas, navegação visual e fichas rápidas. Acompanhe as mudanças da wiki e do bot em um só lugar.</p><a href="/atualizacoes/" class="feed-link">Ver o que mudou <span>→</span></a></article>
-</div><aside class="hub-rail" aria-label="Seu espaço e comunidade">
-  <section class="rail-game"><div class="rail-game-art"><img src="/art/official/roblox-icon.png" alt="Arte de Anime Adventures publicada no Roblox" width="512" height="512" loading="lazy"/></div><span class="eyebrow">DO SITE PARA A PARTIDA</span><h2>Anime Adventures</h2><p>Um time. Infinitas possibilidades.</p><a class="button button-primary" href={channels[0].url} target="_blank" rel="noopener noreferrer">Jogar no Roblox <i class="arrow-diagonal" aria-hidden="true"></i></a></section>
-  <section class="rail-collection"><span class="eyebrow">SEU ESPAÇO</span><h2>Vale guardar<br/>essa descoberta.</h2><p>Personagens, guias e itens favoritos, sempre fáceis de encontrar.</p><a class="feed-link" href="/favoritos/">Abrir seus favoritos <span>→</span></a><a class="rail-account-link" href="/conta/">Conhecer sua conta</a></section>
-  <section class="rail-channels"><span class="eyebrow">CANAIS DO JOGO</span><h2>Encontre sua comunidade.</h2>{channels.slice(1).map(channel=><a href={channel.url} target="_blank" rel="noopener noreferrer" class={`channel-row channel-${channel.key}`}><span><strong>{channel.platform}</strong><small>{channel.name}</small></span><i class="arrow-diagonal" aria-hidden="true"></i></a>)}<a class="rail-account-link" href="/comunidade/">Todos os caminhos →</a></section>
-  <section class="rail-bot"><span class="eyebrow">A COMUNIDADE VAI ALÉM</span><h2>Seu servidor<br/>também faz parte.</h2><p>Tier list por votação e conversas entre servidores no Discord.</p><a href={botInvite} class="button button-outline" target="_blank" rel="noopener noreferrer">Adicionar o bot <i class="arrow-diagonal" aria-hidden="true"></i></a></section>
-  <div class="rail-footer"><span>{wiki.counts.articles} artigos · {wiki.counts.units} formas</span><a href="/sobre/">Créditos e origem do conteúdo</a><span>Um projeto independente da comunidade.</span></div>
-</aside></div>
+<section class="hub-intro" aria-labelledby="hub-title">
+  <div class="hub-cover" aria-hidden="true"><img src="/art/official/roblox-cover.png" alt="" width="768" height="431" fetchpriority="high"/></div>
+  <div class="hub-intro-copy">
+    <span class="eyebrow">WIKI DA COMUNIDADE</span>
+    <h1 id="hub-title">Anime Adventures</h1>
+    <p class="hub-description">Consulte personagens, itens e guias do jogo. Pesquise pelo nome ou escolha uma categoria.</p>
+    <form action="/biblioteca/" class="hub-search" role="search"><label class="sr-only" for="hub-query">Pesquisar na wiki</label><span class="search-mark" aria-hidden="true"></span><input id="hub-query" name="q" type="search" placeholder="Personagens, itens, guias…" autocomplete="off"/><button type="submit" aria-label="Buscar na wiki">→</button></form>
+  </div>
+  <span class="hub-cover-label">ARTE DO JOGO / GOMU</span>
+</section>
+<section class="home-categories" aria-labelledby="categories-title"><div class="home-section-heading"><h2 id="categories-title">Categorias</h2><a class="text-link" href="/biblioteca/">Ver todos os artigos <i class="arrow-diagonal" aria-hidden="true"></i></a></div><ExploreTiles/></section>
+<div class="home-shortcuts">
+  <a href="/favoritos/" class="home-shortcut"><div><h2>Seus favoritos</h2><p>Acesse os personagens e artigos que você salvou.</p></div><i class="arrow-diagonal" aria-hidden="true"></i></a>
+  <a href="/comunidade/" class="home-shortcut"><div><h2>Jogo e comunidade</h2><p>Jogue no Roblox, veja os canais oficiais e adicione o bot.</p></div><i class="arrow-diagonal" aria-hidden="true"></i></a>
+</div>
 </Layout>

@@ -4,16 +4,16 @@ export const channels = [
     key: "roblox",
     name: "Anime Adventures",
     platform: "Roblox",
-    label: "Jogar agora",
+    label: "Jogar",
     url: official.roblox.url,
     description:
-      "Monte seu time e entre na experiência de tower defense criada por Gomu.",
+      "Abra Anime Adventures no Roblox. O jogo é desenvolvido por Gomu.",
   },
   {
     key: "youtube",
     name: "Gomu",
     platform: "YouTube",
-    label: "Visitar o canal",
+    label: "Ver YouTube",
     url: official.youtube.url,
     description: "Encontre os vídeos e as publicações do canal dos criadores.",
   },
@@ -21,7 +21,7 @@ export const channels = [
     key: "discord",
     name: "Anime Adventures",
     platform: "Discord",
-    label: "Conhecer a comunidade",
+    label: "Entrar no Discord",
     url: official.discord.url,
     description:
       "O servidor oficial do jogo, com conversas e informações da comunidade.",
