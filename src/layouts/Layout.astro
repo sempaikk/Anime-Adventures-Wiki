@@ -14,13 +14,14 @@ const invite='https://discord.com/oauth2/authorize?client_id=1561527465657114644
 <!doctype html><html lang="pt-BR" data-theme="dark"><head>
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content={description}/><meta name="color-scheme" content="dark light"/>
+  <meta name="robots" content="noindex,follow"/>
   <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
   <meta name="theme-color" content="#08090b"/><title>{title}</title>
   <link rel="icon" href={art('ui-units')} type="image/png"/>
   <script is:inline>try{document.documentElement.dataset.theme=localStorage.getItem('aa-theme')||'dark'}catch{}</script>
 </head><body id="top">
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
-<header class="site-header"><a class="brand" href="/" aria-label="Adventures Archive — início"><span class="brand-emblem"><img src={art('ui-units')} alt=""/></span><span>ADVENTURES<span class="brand-sub">A R C H I V E</span></span></a>
+<header class="site-header"><a class="brand" href="/" aria-label="Adventures Archive — início"><span class="brand-emblem"><img src={art('ui-units')} alt=""/></span><span>ADVENTURES<span class="brand-sub">A R C H I V E</span></span></a><a class="preview-label" href="/sobre/">PRÉVIA</a>
   <nav class="top-nav" aria-label="Navegação principal"><a href="/personagens/" class:list={{selected:active==='personagens'}}>Personagens</a><a href="/biblioteca/" class:list={{selected:active==='biblioteca'}}>Explorar a wiki</a><a class="install-link" href={invite} target="_blank" rel="noopener noreferrer">Adicionar ao Discord ↗︎</a></nav>
   <div class="header-actions"><button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><span>Pesquisar na wiki</span><kbd>Ctrl K</kbd><span class="search-mark" aria-hidden="true">⌕</span></button><button class="theme-toggle square-button" aria-label="Ativar tema claro" title="Alternar tema" data-theme-toggle><span class="theme-symbol" aria-hidden="true">◐</span></button><button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span aria-hidden="true">☰</span></button></div>
 </header>
