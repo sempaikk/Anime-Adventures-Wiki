@@ -245,49 +245,8 @@ for (const [root, boxes] of statGroups) {
   choose();
 }
 
-// Preserve the complete source infobox alongside the compact profile summary.
-for (const infobox of document.querySelectorAll<HTMLElement>(
-  ".article-kind-unit .portable-infobox",
-)) {
-  const detail = document.createElement("details"),
-    summary = document.createElement("summary");
-  detail.className = "unit-extra-data";
-  summary.textContent = "Ver dados adicionais da fonte";
-  infobox.before(detail);
-  detail.append(summary, infobox);
+// Article sections remain visible, following the source wiki's reading order.
+if (matchMedia("(max-width: 650px)").matches) {
+  for (const index of document.querySelectorAll<HTMLDetailsElement>(".article-index")) index.open = false;
 }
-
-// Keep long articles readable one section at a time. Source nodes and anchors stay intact.
-for (const root of document.querySelectorAll<HTMLElement>(
-  ".wiki-content .mw-parser-output",
-)) {
-  const headings = Array.from(root.children).filter(
-    (node): node is HTMLElement => node instanceof HTMLElement && node.tagName === "H2",
-  );
-  if (headings.length < 2) continue;
-  const hint = document.createElement("p");
-  hint.className = "article-reading-hint";
-  hint.lang = "pt-BR";
-  hint.textContent = "Abra uma seção para consultar os detalhes.";
-  headings[0].before(hint);
-  for (const heading of headings) {
-    const section = document.createElement("details"),
-      summary = document.createElement("summary"),
-      content = document.createElement("div");
-    section.className = "article-section";
-    content.className = "article-section-body";
-    const siblings: Node[] = [];
-    let next = heading.nextSibling;
-    while (next && !(next instanceof HTMLElement && next.tagName === "H2")) {
-      siblings.push(next);
-      next = next.nextSibling;
-    }
-    section.open = /^(overview|description)$/i.test(heading.textContent?.trim() || "");
-    heading.before(section);
-    summary.append(heading);
-    content.append(...siblings);
-    section.append(summary, content);
-  }
-}
-
 if (location.hash) revealAnchor();

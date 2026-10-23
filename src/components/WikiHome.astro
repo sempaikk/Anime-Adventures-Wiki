@@ -1,0 +1,21 @@
+---
+import WikiGameNavigation from './WikiGameNavigation.astro';
+import {aboutGame,sourcePatch,featuredUnits,homeSource} from '../lib/wiki-home';
+import {channels,botInvite} from '../lib/community';
+import {unitUrl} from '../lib/wiki';
+---
+<div class="wiki-home-layout">
+<div class="wiki-home-primary">
+<section class="wiki-panel wiki-welcome" aria-labelledby="welcome-title"><h1 class="wiki-panel-title" id="welcome-title">Anime Adventures Wiki</h1><p>Informações sobre personagens, itens, evoluções e modos de jogo.</p></section>
+<section class="wiki-panel" aria-labelledby="navigation-title" id="navegacao"><h2 class="wiki-panel-title" id="navigation-title"><span id="Main_Navigation">Navegação principal</span></h2><WikiGameNavigation/></section>
+<section class="wiki-panel wiki-about" id="sobre-jogo" aria-labelledby="about-title"><h2 class="wiki-panel-title" id="about-title"><span id="About">Sobre o jogo</span></h2><div class="wiki-panel-body wiki-content" lang="en" set:html={aboutGame}/></section>
+<section class="wiki-panel" id="personagens" aria-labelledby="characters-title"><h2 class="wiki-panel-title" id="characters-title"><span id="Popular_Pages">Personagens</span></h2><div class="wiki-source-characters">{featuredUnits.map(unit=><a href={unitUrl(unit)}>{unit.image?<img src={unit.image} alt="" width="112" height="112" loading="lazy"/>:<span class="wiki-no-image">Retrato indisponível</span>}<span>{unit.name}</span></a>)}</div></section>
+<section class="wiki-panel wiki-source-update" id="registro-fonte"><h2 class="wiki-panel-title" id="Latest_Game_Update">Atualização registrada na fonte</h2><div class="wiki-panel-body"><p class="wiki-source-caption">Registro preservado da página original. Não indica a atualização mais recente do jogo.</p><h3 lang="en">{sourcePatch.title}</h3><div class="wiki-content" lang="en" set:html={sourcePatch.html}/></div></section>
+</div>
+<aside class="wiki-home-rail" aria-label="Jogo e navegação da página">
+<section class="wiki-panel wiki-game-card"><h2 class="wiki-panel-title">Anime Adventures</h2><div class="wiki-panel-body"><a href={channels[0].url} target="_blank" rel="noopener noreferrer" aria-label="Jogar Anime Adventures no Roblox"><img class="wiki-game-thumbnail" src="/art/branding-release.png" alt="Anime Adventures" width="512" height="512"/></a><a class="wiki-play-button" href={channels[0].url} target="_blank" rel="noopener noreferrer">Jogar no Roblox <span aria-hidden="true">↗</span></a><h3>Canais do jogo</h3><div class="wiki-channel-links"><a href={channels[2].url} target="_blank" rel="noopener noreferrer">Discord</a><a href={channels[1].url} target="_blank" rel="noopener noreferrer">YouTube</a><a href="https://www.roblox.com/groups/10611639/Gomu" target="_blank" rel="noopener noreferrer">Grupo no Roblox</a><a href="https://twitter.com/gomudev" target="_blank" rel="noopener noreferrer">Gomu no X</a></div></div></section>
+<nav class="wiki-panel wiki-page-index" aria-label="Nesta página"><h2 class="wiki-panel-title">Nesta página</h2><div class="wiki-panel-body"><a href="#navegacao">Navegação principal</a><a href="#sobre-jogo">Sobre o jogo</a><a href="#personagens">Personagens</a><a href="#registro-fonte">Registro da fonte</a></div></nav>
+<section class="wiki-panel wiki-useful-links"><h2 class="wiki-panel-title">Ferramentas</h2><div class="wiki-panel-body"><a href="/biblioteca/">Pesquisar artigos</a><a href="/personagens/">Filtrar personagens</a><a href="/favoritos/">Meus favoritos</a><a href="/comparar/">Comparar personagens</a><a href={botInvite} target="_blank" rel="noopener noreferrer">Adicionar o bot ao Discord ↗</a><a href="/atualizacoes/">Atualizações do site e do bot</a></div></section>
+<section class="wiki-panel wiki-home-source"><h2 class="wiki-panel-title">Fonte e revisão</h2><div class="wiki-panel-body"><p>A página de origem informa que há conteúdo desatualizado. Os artigos mantêm suas fontes e revisões para consulta.</p><a href={`${homeSource.source_url}?oldid=${homeSource.revision_id}`} target="_blank" rel="noopener noreferrer">Ver página original ↗</a><a href="https://discord.gg/aawiki" target="_blank" rel="noopener noreferrer">Discord da wiki de origem ↗</a><a href="/sobre/">Sobre o projeto e os créditos</a></div></section>
+</aside>
+</div>

@@ -1,24 +1,5 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import ExploreTiles from '../components/ExploreTiles.astro';
-import { Image } from 'astro:assets';
-import lobby from '../assets/adventures-lobby.png';
+import WikiHome from '../components/WikiHome.astro';
 ---
-<Layout>
-<section class="hub-intro" aria-labelledby="hub-title">
-  <div class="hub-cover" aria-hidden="true"><Image src={lobby} alt="" widths={[640,960,1440]} sizes="(max-width: 650px) 100vw, 85vw" format="webp" quality={85} fetchpriority="high" loading="eager"/></div>
-  <div class="hub-intro-copy">
-    <span class="eyebrow">WIKI DA COMUNIDADE</span>
-    <h1 id="hub-title">Anime Adventures</h1>
-    <p class="hub-description">Consulte personagens, itens e guias do jogo. Pesquise pelo nome ou escolha uma categoria.</p>
-    <form action="/biblioteca/" class="hub-search" role="search"><label class="sr-only" for="hub-query">Pesquisar na wiki</label><span class="search-mark" aria-hidden="true"></span><input id="hub-query" name="q" type="search" placeholder="Personagens, itens, guias…" autocomplete="off"/><button type="submit" aria-label="Buscar na wiki">→</button></form>
-  </div>
-  <span class="hub-cover-label">ILUSTRAÇÃO DO SITE</span>
-</section>
-<section class="home-categories" aria-labelledby="categories-title"><div class="home-section-heading"><h2 id="categories-title">Categorias</h2><a class="text-link" href="/biblioteca/">Ver todos os artigos <i class="arrow-diagonal" aria-hidden="true"></i></a></div><ExploreTiles/></section>
-<div class="home-shortcuts">
-  <a href="/comparar/" class="home-shortcut home-shortcut-compare"><div><h2>Comparar personagens</h2><p>Veja custos e tipos de até três formas lado a lado.</p></div><i class="arrow-diagonal" aria-hidden="true"></i></a>
-  <a href="/favoritos/" class="home-shortcut"><div><h2>Seus favoritos</h2><p>Acesse os personagens e artigos que você salvou.</p></div><i class="arrow-diagonal" aria-hidden="true"></i></a>
-  <a href="/comunidade/" class="home-shortcut"><div><h2>Jogo e comunidade</h2><p>Jogue no Roblox, veja os canais oficiais e adicione o bot.</p></div><i class="arrow-diagonal" aria-hidden="true"></i></a>
-</div>
-</Layout>
+<Layout title="Anime Adventures Wiki"><WikiHome/></Layout>

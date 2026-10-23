@@ -29,4 +29,8 @@ Artes de Anime Adventures publicadas por Gomu na página oficial do jogo no Robl
 
 ## Ilustração do site
 
-A ilustração de apresentação em `src/assets/adventures-lobby.png` foi gerada com IA para este projeto, por solicitação do responsável. Origem e hash estão em `source/site-artwork.json`. Ela é usada como arte decorativa; os retratos identificados e as mídias dos artigos mantêm suas fontes de jogo.
+A ilustração de apresentação em `src/assets/adventures-lobby.png` foi gerada com IA para este projeto, por solicitação do responsável. Origem e hash estão em `source/site-artwork.json`. Ela está arquivada como conceito anterior e não aparece na interface atual; os retratos identificados e as mídias dos artigos mantêm suas fontes de jogo.
+
+## Navegação da wiki do jogo
+
+Os atalhos do jogo preservam os ícones referenciados por `MediaWiki:Common.css`, revisão 44997, da Anime Adventures Wiki. A cópia da folha de estilos serve de referência documental; a interface da plataforma Fandom não é executada nem distribuída como parte da interface do site. Origem, revisão e hashes dos ícones estão em `source/wiki-navigation.json`. Os créditos dos arquivos originais estão vinculados nesse registro. As fontes Fredoka One e Rubik são fornecidas pelo Fontsource sob as licenças incluídas nos respectivos pacotes.

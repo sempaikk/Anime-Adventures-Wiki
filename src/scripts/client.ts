@@ -81,15 +81,20 @@ document
     }),
   );
 const menu = $("[data-menu-toggle]");
+const sideNav = $("#side-nav");
+sideNav.inert = true;
 function closeMenu() {
   const wasOpen = document.body.classList.contains("sidebar-open");
   document.body.classList.remove("sidebar-open");
+  sideNav.inert = true;
   menu.setAttribute("aria-expanded", "false");
   menu.setAttribute("aria-label", "Abrir navegação");
   if (wasOpen) menu.focus();
 }
 menu.addEventListener("click", () => {
   const open = document.body.classList.toggle("sidebar-open");
+  sideNav.inert = !open;
+  if (open) document.documentElement.style.setProperty("--nav-menu-top", `${Math.round(document.querySelector(".site-header")!.getBoundingClientRect().bottom + 8)}px`);
   menu.setAttribute("aria-expanded", String(open));
   menu.setAttribute(
     "aria-label",
@@ -116,7 +121,7 @@ document.addEventListener("keydown", (e) => {
     }
   }
 });
-matchMedia("(max-width:650px)").addEventListener("change", closeMenu);
+matchMedia("(max-width:1000px)").addEventListener("change", closeMenu);
 let searchIndex: any[] | null = null;
 let pending: Promise<any> | null = null;
 async function getIndex() {

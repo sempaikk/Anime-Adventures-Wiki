@@ -1,0 +1,1632 @@
+/* CSS placed here will be applied to all skins */
+
+/* TABLE OF CONTENTS */
+/*
+* To find a specific section of the document, press CTRL + F and, in the
+* searchbar, write the name of the section that you want to jump in.
+*
+
+* 0 root
+* 1 general styles
+* 1.01 Module:Tabber  
+* 1.1 fandom-community-header
+* 1.1.1 Logo
+* 1.1.2 navigation
+* 1.2 main-theme
+* 1.3 tooltips
+* 1.2.1 Infobox
+* 1.4 Custom Tabber
+* %2. ACSS classes
+* 1.3 character-tabber
+
+* 2.
+* 2.1
+* 2.2 Scalable Images
+* 2.3 images-box
+
+* 3.0 character-box
+* 3.2.0 stats-box
+* 3.3.0 TierList
+* 4.3.0 trash-table
+
+
+* 4.0 page-castom
+* 4.1 Units
+
+* %3. scrollbar
+* %3.1 LinkButton
+
+
+* $1. name-style
+*/
+
+
+/* %0 root */
+:root .theme-fandomdesktop-light {
+	--C-theme-primary: #ffffff;
+	--C-theme-primary-inverted: #000000;
+	--C-white__light: white;
+	--C-black__light: black;
+}
+:root .theme-fandomdesktop-dark {
+	--C-theme-primary: #000000;
+	--C-theme-primary-inverted: #ffffff;
+	--C-white__dark: white;
+	--C-black__dark: black;
+}
+
+
+/* %1. font-face */
+@font-face {
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/fredoka/v14/X7nl4b87HvSqjb_WCCGa4Q.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Fredoka One';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/fredokaone/v13/k3kUo8kEI-tA1RRcTZGmTlHGCac.woff2) format('woff2');
+}
+.game-font-face {
+	font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;
+}
+
+.Ff\(Fredoka\) {
+	font-family: 'Fredoka';
+	line-height: 1em;
+	font-weight: 650;
+}
+
+.dottedText a, .dottedText {
+	border-bottom: 2px dotted
+}
+/* END %1. font-face */
+
+
+/* 1.01 Module:Tabber  */
+
+.skin-fandomdesktop .pi-theme-tabber.portable-infobox{width:auto;float:none;margin: 0;border:none;border-radius:0;background:var(--themed-page-background) !important}
+.skin-fandomdesktop .pi-theme-tabber .pi-section-contents{background:var(--themed-page-background);border-bottom:.2em solid var(--theme-accent-color);padding-bottom:1em}
+.skin-fandomdesktop .pi-theme-tabber .pi-header{display:none}
+.skin-fandomdesktop .pi-theme-tabber .pi-data-value{font-size:inherit}
+.skin-fandomdesktop .portable-tabber .pi-section-tab:only-child{display:none}
+.skin-fandomdesktop .pi-theme-tabber .pi-data:hover{background:none}
+.skin-fandomdesktop .pi-theme-tabber .pi-data {padding: 0}
+/* END 1.01 Module:Tabber  */
+
+
+
+.wds-tabs {
+	flex-wrap: wrap;
+}
+.mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul {
+	margin: .3em 0 0 1.9em;
+}
+.mainStats dl {margin-bottom: 12px}
+
+.page-content p, .page-content section {
+	margin: 0 0 0;
+}
+.page-content .mainStats h3 {
+	margin: .5em 0 .2em 19px
+}
+
+/* 1.1 fandom-community-header */
+
+/* 1.1 navigation */
+header .fandom-community-header__community-name {
+	text-shadow: 0 0 .07em #00000029, 1px 2px .04em #000, 0 0 .15em #00000029, 1px 2px .1em #000}
+header .fandom-community-header__local-navigation .first-level-item a span {
+	text-shadow: 0 0 .07em #00000029, 1px 2px .04em #000, 0 0 .15em #00000029, 1px 2px .1em #000}
+	
+header	.page-counter {text-shadow: 0 0 .07em #00000029, 1px 2px .04em #000, 0 0 .15em #00000029, 1px 2px .1em #000}
+header	.wds-button-group {filter: drop-shadow(1px 1px 1px #000000c9); z-index: 1}
+/* END 1.1 navigation */
+
+/* 1.1.2 Logo */
+.fandom-community-header__image img {
+	border-radius: 15%;
+	box-shadow: 0 0 8px #00000099;
+	/*filter: hue-rotate(24deg);*/
+}
+/* END 1.1.2 Logo */
+
+/* END 1.1 fandom-community-header */
+
+
+/* 1.2 main-theme */
+/* 2.1 background */
+.theme-fandomdesktop-dark .fandom-community-header__background  {
+	/* Xmas 2022-2023 */
+	/*background: linear-gradient(180deg,#3135050d 10%,hsl(0deg 0% 15% / 14%) 40%,#050015c2 100%),var(--theme-body-background-image);*/
+	/* normal */
+	 /*background: linear-gradient(180deg,#ffffff1a 10%,#26262624 40%,#001415c2 100%),var(--theme-body-background-image); */
+	/* normal 2023.11.24 */
+	 background: radial-gradient(farthest-side  at center 63%, #00000000 0%,#94b6ff21 46%,#060016ed 133%),var(--theme-body-background-image);
+	/* SUMMER 2023 */
+	/*background: linear-gradient(180deg,#78f4ff3b 10%,#2f2f14c2 100%),var(--theme-body-background-image);*/
+	
+	background-position: 50%;
+	background-size: cover;
+}
+.theme-fandomdesktop-light .fandom-community-header__background  {
+	/*background: linear-gradient(180deg,#3135050a 10%,#000f151a 40%,#01151a52 100%),var(--theme-body-background-image);*/
+	/* Xmas 2022-2023 */
+	
+	/*background: linear-gradient(180deg,#78f4ff3b 10%,#2f2f14c2 100%),var(--theme-body-background-image);*/
+	/* normal 2023 */
+	background: linear-gradient(180deg,#b0ecff1c 10%,#303858c2 100%),var(--theme-body-background-image);
+	
+	/* END Xmas 2022-2023 */
+	background-position: 50%;
+	background-size: cover;
+}
+
+/*.theme-fandomdesktop-dark .page__main {background-color: #120e29e6}*/
+/*.theme-fandomdesktop-light .page__main {background-color: #dcddfff2}*/
+
+/* normal */
+/*.theme-fandomdesktop-dark .page__right-rail {background-color: #120e29e6}*/
+/*.theme-fandomdesktop-light .page__right-rail {background-color: #dcddfff2}*/
+	
+/* normal 2023 */
+/*.page {border-radius: 20px 20px 0 0}*/
+
+/* normal 2023.11.24 */
+.page {border-radius: 27px 27px 0 0}
+
+	/* SUMMER 2023 */
+/*.theme-fandomdesktop-dark .page {*/
+/*	background: linear-gradient(90deg, #ffffff00 0px,  #0a132ce6 20px calc(100% - 20px), #6fd1ff00 calc(100%));*/
+/*	box-shadow: 0 0 20px 0px #ffffff1a, inset 0 0 30px -9px #002963, inset -2px 0 20px -8px #ffdf0c;*/
+/*	backdrop-filter: blur(12px);*/
+/*	-webkit-backdrop-filter: blur(12px)}	*/
+.theme-fandomdesktop-light .page {
+	/* normal 2022 - 2023 */
+	/*background-color: #e2e3fff2; */
+	/*backdrop-filter: blur(10px); */
+	/*-webkit-backdrop-filter: blur(10px)*/
+	
+	/* normal 2023 */
+	/*
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	*/
+	background-color: #e5e6fff2;
+	box-shadow: 0 0 10px 2px #00000052, inset 0 0 30px -9px #8278ff, inset -2px 0 24px -9px #9dbaf291;
+	outline: 2px solid #000000;
+}
+
+/* normal 2023 */
+.theme-fandomdesktop-dark .page {
+	background: #0b0826eb;
+	
+	/* normal 2023 */
+	/*box-shadow: 0 0 10px 2px #0000007a, inset 0 0 30px -9px #160063, inset -2px 0 24px -9px #9dbaf291;*/
+	/*backdrop-filter: blur(12px);*/
+	
+	/* normal 2023.11.24 */
+	box-shadow: -16px 0 30px -9px #020012cf, 16px 0 30px -9px #020012cf, inset 0 0 30px -9px #160063, inset -2px 0 24px -9px #9dbaf291;
+		/*
+	backdrop-filter: blur(17px);
+	*/
+	
+	outline: 3px solid #010b37
+}
+
+.page__main {
+	background-color: #0000
+}
+.page__right-rail {
+	--right-rail-background-color: #0000;
+	background-color: #0000
+}
+
+.roblox-icon-common-play {background-image: url(https://static.wikia.nocookie.net/animeadventures/images/6/6b/Roblox_Play-button.svg)}
+
+
+/*  1.2.1 Infobox */
+
+.portable-infobox.type-character {
+	border-radius: 18.5px;
+	overflow: hidden
+}
+
+/*  END 1.2.1 Infobox */
+
+/*  1.4 Custom Tabber */
+
+.tabber .wds-tabs {
+	flex-wrap: wrap;
+}
+.tabber .wds-tabs__wrapper {
+	border: none;
+}
+
+.tabber .wds-tabs__wrapper .wds-tabs {
+	font-size: 20px;
+	text-align: center;
+	padding: 3px;2
+	justify-content: center;
+}
+
+.tabber .wds-tabs .wds-tabs__tab-label {
+	height: auto;
+	margin: 0 1.5px;
+}
+
+.tabber .wds-tabs__tab a {
+	font-size: 16px;
+	letter-spacing: .1em;
+	padding: .5em .7em;
+}
+
+.tabber .wds-tabs__tab.wds-is-current {
+	border: none;
+}
+
+.tabber .wds-tabs__tab.wds-is-current a {
+	color: white !important;
+	text-shadow: 0 2px 6px #ffffff;
+	background: linear-gradient(180deg, #0000, #1d386d, #1d386d 200%);
+	border-radius: 11px 11px 0 0;
+}
+
+.tabber .wds-tabs__tab:not(.wds-is-current) a:hover {
+	background: #1d386dcc;
+	border-radius: 3px
+}
+/*  END 1.4 Custom Tabber */
+
+/* END 1.2 main-theme */
+
+/* 1.3 tooltips */
+.main-tooltip {
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	padding: 0;
+	background-color: unset;
+}
+
+.game-tooltip__container hr {border-color: #36383b}
+.game-tooltip__container {
+	display: block;
+	padding: 8px 12px;
+	background: linear-gradient(135deg, #181818, #070707);
+	border-radius: 8px;
+	color: #e6e6e6;
+	max-width: 500px;
+	width: max-content;
+	height: fit-content;
+	line-height: 1.2;
+	font-size: 14px;
+	border: 2px solid #646464;
+}
+/* END 1.3 tooltips */
+
+
+
+
+/* %2. ACSS classes  */
+
+
+/* z-index */
+.Z\(3\) {z-index: 3}
+.Z\(2\) {z-index: 2}
+.Z\(1\) {z-index: 1}
+.Z\(-1\) {z-index: -1}
+.Pos\(r\) {position: relative}
+.Pos\(a\) {position: absolute}
+.Pos\(f\) {position: fixed}
+
+.T\(0\) {top: 0}
+.T\(50\%\) {top: 50%}
+.B\(0\) {bottom: 0}
+.B\(50\%\) {bottom: 50%}
+.Start\(0\) {left: 0}
+.End\(0\) {right: 0}
+.End\(50\%\) {right: 50%}
+
+/* display */
+.D\(b\) {display: block}
+.D\(b\)\! {display: block !important}
+.D\(f\) {display: flex}
+.D\(g\) {display: grid}
+.D\(i\) {display: inline}
+.D\(ib\) {display: inline-block}
+.D\(if\) {display: inline-flex}
+.D\(ig\) {display: inline-grid}
+.D\(n\) {display: none}
+
+
+
+/*  flex-direction */
+.Fld\(r\) {flex-direction: row}
+.Fld\(rr\) {flex-direction: row-reverse}
+.Fld\(c\) {flex-direction: column}
+.Fld\(cr\) {flex-direction: column-reverse}
+
+/*  justify-content */
+.Jc\(c\) {justify-content: center}
+.Jc\(fe\) {justify-content: flex-end}
+.Jc\(fs\) {justify-content: flex-start}
+.Jc\(n\) {justify-content: normal}
+.Jc\(s\) {justify-content: start}
+.Jc\(sa\) {justify-content: space-around}
+.Jc\(sb\) {justify-content: space-between}
+.Jc\(se\) {justify-content: space-evenly}
+.Jc\(st\) {justify-content: stretch}
+
+/*  align-items */
+.Ai\(b\) {align-items: baseline}
+.Ai\(c\) {align-items: center}
+.Ai\(e\) {align-items: end}
+.Ai\(fe\) {align-items: flex-end}
+.Ai\(fs\) {align-items: flex-start}
+.Ai\(n\) {align-items: normal}
+.Ai\(s\) {align-items: start}
+.Ai\(se\) {align-items: self-end}
+.Ai\(ss\) {align-items: self-start}
+.Ai\(st\) {align-items: stretch}
+
+
+/* gap */
+.Gp\(14px\) {gap: 14px}
+
+/* height */
+.H\(100\%\) {height: 100%;}
+
+/* width */
+.W\(100\%\) {width: 100%;}
+
+
+/* Background */
+.Bg\(Mythical\) {background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%)}
+.Bg\(Gems\) {background: linear-gradient(#ffffff 25%, #ffa7ff 40%, #66efff 75%)}
+.Bg\(Jewels\) {background: linear-gradient(#b3e3ff 25%, #dbabff 75%)}
+.Bg\(Candies\) {background: linear-gradient(#f6a800 25%, #f74600 75%)}
+.Bg\(Stars\) {background: linear-gradient(#84FAFE 25%, #6CF0FF 50%, #EC7BE5 75%)}
+.Bg\(Gun_Devil_Bullet\) {background: linear-gradient(#F86C2E 0%, #F8451F 50%, #D81D0F 100%)}
+
+.Bgcp\(text\) {-webkit-background-clip: text}
+.Tfc\(transparent\) {-webkit-text-fill-color: transparent}
+
+
+/* border-radius */
+.Bdrs\(7\.5px\) {border-radius: 7.5px}
+
+
+/* font-size */
+.Fz\(50\%\) {font-size: 50%}
+.Fz\(51\%\) {font-size: 51%}
+.Fz\(52\%\) {font-size: 52%}
+.Fz\(53\%\) {font-size: 53%}
+.Fz\(54\%\) {font-size: 54%}
+.Fz\(55\%\) {font-size: 55%}
+.Fz\(56\%\) {font-size: 56%}
+.Fz\(57\%\) {font-size: 57%}
+.Fz\(58\%\) {font-size: 58%}
+.Fz\(59\%\) {font-size: 59%}
+.Fz\(60\%\) {font-size: 60%}
+.Fz\(61\%\) {font-size: 61%}
+.Fz\(62\%\) {font-size: 62%}
+.Fz\(63\%\) {font-size: 63%}
+.Fz\(64\%\) {font-size: 64%}
+.Fz\(65\%\) {font-size: 65%}
+.Fz\(66\%\) {font-size: 66%}
+.Fz\(67\%\) {font-size: 67%}
+.Fz\(68\%\) {font-size: 68%}
+.Fz\(69\%\) {font-size: 69%}
+.Fz\(70\%\) {font-size: 70%}
+.Fz\(71\%\) {font-size: 71%}
+.Fz\(72\%\) {font-size: 72%}
+.Fz\(73\%\) {font-size: 73%}
+.Fz\(74\%\) {font-size: 74%}
+.Fz\(75\%\) {font-size: 75%}
+.Fz\(76\%\) {font-size: 76%}
+.Fz\(77\%\) {font-size: 77%}
+.Fz\(78\%\) {font-size: 78%}
+.Fz\(79\%\) {font-size: 79%}
+.Fz\(80\%\) {font-size: 80%}
+.Fz\(81\%\) {font-size: 81%}
+.Fz\(82\%\) {font-size: 82%}
+.Fz\(83\%\) {font-size: 83%}
+.Fz\(84\%\) {font-size: 84%}
+.Fz\(85\%\) {font-size: 85%}
+.Fz\(86\%\) {font-size: 86%}
+.Fz\(87\%\) {font-size: 87%}
+.Fz\(88\%\) {font-size: 88%}
+.Fz\(89\%\) {font-size: 89%}
+.Fz\(90\%\) {font-size: 90%}
+.Fz\(91\%\) {font-size: 91%}
+.Fz\(92\%\) {font-size: 92%}
+.Fz\(93\%\) {font-size: 93%}
+.Fz\(94\%\) {font-size: 94%}
+.Fz\(95\%\) {font-size: 95%}
+.Fz\(96\%\) {font-size: 96%}
+.Fz\(97\%\) {font-size: 97%}
+.Fz\(98\%\) {font-size: 98%}
+.Fz\(99\%\) {font-size: 99%}
+.Fz\(100\%\) {font-size: 100%}
+
+
+
+/* Font-weight */
+.Fw\(b\) {font-weight: bold}
+.Dark_Fw\(b\) {font-weight: bold}
+.Light_Fw\(b\) {font-weight: bold}
+
+/* text-align */
+.Ta\(c\) {text-align: center}
+.Ta\(end\) {text-align: right}
+.Ta\(start\) {text-align: left}
+
+/* Text-decoration */
+.Td\(n\)\!_a a {text-decoration: none !important}
+
+/* Line-height */
+.Lh\(1\) {line-height: 1}
+.Lh\(n\) {line-height: normal}
+.Lh_img\(1em\) {height: 1em; object-fit: none; overflow: visible}
+
+
+/* Pointer-events */
+.Pe\(n\) {pointer-events: none}
+.Pe\(all\) {pointer-events: all}
+
+
+
+/*  Color */
+.C\(wiki-theme-page\) {color: var(--theme-page-text-color)}
+
+.C\(Secret\) {color: #e01419}
+.C\(Legendary\) {color: #ffc71e}
+.C\(Epic\) {color: #7c04f5}
+.C\(Rare\) {color: #0d8cff}
+
+.C\(Gold\) {color: #FEF31F}
+.C\(Yen\) {color: #ffc608}
+.C\(Trophies\) {color: #FFB92D}
+
+.theme-fandomdesktop-dark .a_Td\(wiki-theme-page\) a {text-decoration-color: #ffffff8f}
+.theme-fandomdesktop-light .a_Td\(wiki-theme-page\) a {text-decoration-color: #3a3a3ab3}
+
+/* Text-shadow */
+.theme-fandomdesktop-darkt .Tsh\(Game\) {text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black}
+.theme-fandomdesktop-light .Tsh\(Game\) {text-shadow: 0 0 3px #00000099, 0 0 2px #00000099, 0 0 2px #00000099, 0 0 2px #00000099}
+
+.theme-fandomdesktop-light .C\(\#3a3a3a\)-Th-L {color: #3a3a3a}
+
+
+
+/* Animation */
+.Anim\(none\) {animation: none}
+
+
+/* Transform */
+.Translate\(50\%\,-50\%\) {transform: translate(50%, -50%)}
+
+.Trs\(GameStyle\)\:a:active {-webkit-transition: .17s all cubic-bezier(.15, .66, 1, 1.88); transition: .17s all cubic-bezier(.15, .66, 1, 1.88)}
+
+.Scale\(1\.061\)\:h:hover {transform: scale(1.061)}
+.Scale\(\.97\)\:a:active {transform: scale(.94)}
+
+
+.Scale\(linkButton\)\:h:hover, .Scale\(1\.061\)\:h:focus-visible {transform: scale(1.061)}
+.Scale\(linkButton\)\:h:active {transform: scale(1.09)}
+
+
+.Bxsh\(Story-MapBox-Button\)\!\:h:hover {box-shadow: inset 0 -1px 0 2px #ffffff4a, 0 0 7px 1px #ffb833 !important}
+
+
+
+
+.Scale\,Filterc\(TierListItem\) {
+		transition: .2s filter cubic-bezier(0, .3, 0, .8), .14s transform cubic-bezier(.36, .28, 1, .79), opacity .3s ease-out !important;
+		-webkit-transition: .2s filter cubic-bezier(0, .3, 0, .8), .14s transform cubic-bezier(.36, .28, 1, .79), opacity .3s ease-out !important
+}
+.Scale\,Filterc\(TierListItem\)\:h:hover {
+	transform: scale(1.12);
+	filter: drop-shadow(0px 2px 13px black);
+}
+
+/* filter_custom */
+.\--filter_custom {filter: var(--filter_custom)}
+
+
+
+
+
+/* END %2. ACSS classes  */
+
+
+
+
+
+
+/* 1.3 character-tabber */
+
+.wds-tabs a:active, .wds-tabs a:focus, .wds-tabs a:hover {
+	text-decoration: none;
+}
+.wds-tabs__tab.wds-is-current {
+	-webkit-box-shadow: inset 0 0 0 0 #0000;
+	box-shadow: inset 0 0 0 0 #0000
+}
+.theme-fandomdesktop-dark .wds-tabs__tab.wds-is-current {
+	color: #fff
+}
+.wds-tabs__wrapper .wds-tabs {
+	overflow-x: scroll;
+	justify-content: center
+}
+
+.wds-tabs__tab::before .wds-is-current::before,.wds-tabs__tab::after .wds-is-current::after{
+	content: '';
+	position: absolute;
+	background: #ff000063
+}
+
+.wds-tabs__tab .wds-is-current {
+	background: #0000000d
+}
+
+.wds-tabs__tab .wds-is-current {
+	--theme-link-color--hover: #fff;
+	--wds-tab-color--active: #fff;
+}
+
+/*Skin*/
+.wds-tabs__wrapper.with-bottom-border {
+	border-bottom: 1px solid #0000
+}
+
+.wds-tabs__tab {
+	-webkit-transition: all .1s ease-in-out 0s;
+	transition: all .1s ease-in-out 0s;}
+
+.wds-tabs__tab:hover {transform: translateY(-2px)}
+
+.wds-tabs__tab.wds-is-current {pointer-events: none}
+
+.wds-tabs__tab.wds-is-current::before {
+	content: '';
+	position: absolute;
+	width: 0%;
+	height: 3px;
+	left: 50%;
+	transform: translate(-50%,0px);
+	bottom: -1px;
+	border-radius: 15px 15px 15px 15px;
+	background: #fff;
+	
+	animation: .2s ease-in-out 0s 1 normal forwards running wds-tabs
+}
+@keyframes wds-tabs {
+	0% {width: 0%}
+	100% {width: 100%}
+}
+/* END 1.3 character-tabber */
+
+
+
+
+/* 2.2 - Scalable Images - Set images to scale to fit container */
+img.scalable {
+	max-width: 100%;
+	height:auto;
+}
+/* END 2.2 - Scalable Images */
+
+/* 2.3 images-box */
+
+/* END 2.3 images-box */
+
+
+
+
+
+/* 3.0 character-box */
+.ChBox_item {
+	z-index: 1;
+	position: relative;
+	transition: .4s all cubic-bezier(.15,.66,.15,1);
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	border-radius: 5.2px;
+	pointer-events: none;
+	font-size: 18px;
+	animation: ChBox 14s linear infinite;
+	animation-play-state: paused
+}
+dd.ChBox_item {margin: 0}
+
+.ChBox_item:hover {transform: scale(1.061)}
+.ChBox_item:active {transform: scale(.94);transition: .17s all cubic-bezier(.15, .66, 1, 1.88)}
+.ChBox_item_boxShadow {
+	opacity: .6;
+	transition: .4s opacity cubic-bezier(.15,.66,.15,1);
+	position: absolute;
+	z-index: -1;
+	transform: translate(-11.5384%, -11.5384%);
+	height: 130%;
+	width: 130%;
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/f/fb/GUI_Characterbox_box-shadow.png/revision/latest/scale-to-width-down/130);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/f/fb/GUI_Characterbox_box-shadow.png/revision/latest/scale-to-width-down/130);
+	filter: saturate(1.2);
+	animation: ChBox 14s linear infinite;
+	animation-play-state: paused;
+}
+.ChBox_item:hover,
+.ChBox_item:active,
+.ChBox_item:hover .ChBox_item_boxShadow,
+.ChBox_item:active .ChBox_item_boxShadow,
+.Anim\(none\):hover,
+.ChBox_item .Anim\(none\):hover
+{
+	animation-play-state: running;
+}
+.Anim\(none\) {animation-play-state: paused}
+
+.ChBox_item_contet_container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+	overflow: hidden
+}
+.ChBox_img_background {
+	position: relative;
+	width: 94%;
+	height: 94%;
+	transform: translate(3%,3%);
+	background: repeating-radial-gradient(#0000002b -100%,#000000 62% 100%);
+	border-radius: 5px;
+}
+.ChBox_img__item {
+	position: absolute;
+	pointer-events: all;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%
+}
+.ChBox_img__item img {border: 0}
+.ChBox_img__item figure {margin: 0}
+
+.ChBox_text_boxShadow {
+	position: absolute;
+	bottom: 0px;
+	height: 33.3%;
+	width: 100%;
+	border-radius: 0 0 5px 5px;
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/c/c9/GUI_Characterbox_gradient.png/revision/latest/scale-to-width-down/100?cb=20220826100218);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/c/c9/GUI_Characterbox_gradient.png/revision/latest/scale-to-width-down/100?cb=20220826100218)
+}
+
+.ChBox_text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0 3px 2px 3px;
+	width: 100%;
+	text-align: right;
+	text-shadow: 0 0 3px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+	font-family: 'Fredoka One',rubik,helvetica,arial,sans-serif;
+	color: #e6e6e6;
+	line-height: .9;
+	text-wrap: balance
+}
+@keyframes ChBox {
+	0% {background-position: 0 0%}
+	100% {background-position: 0 400%}
+}
+
+.ChBox_item.Rarity\(Unknown\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Unknown\) {background: #565456}
+.ChBox_item.Rarity\(Rare\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Rare\) {
+	background: -webkit-linear-gradient(135deg,#0058ff,#14a9ff,#0058ff,#14a9ff);
+	background-size: 100% 200%
+}
+.ChBox_item.Rarity\(Epic\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Epic\) {
+	background: -webkit-linear-gradient(135deg,#8405f1,#5800f6,#8405f1,#5800f6);
+	background-size: 100% 200%
+}
+.ChBox_item.Rarity\(Legendary\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Legendary\) {
+	background: -webkit-linear-gradient(135deg,#ffea38,#f8a600,#ffea38,#f8a600);
+	background-size: 100% 200%
+}
+.ChBox_item.Rarity\(Mythic\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Mythic\) {	
+	background: -webkit-repeating-linear-gradient(135deg,#0000ff,#00ffff,#00ff00,#fffa00,#ff0000,#ff00ff,#0000ff,#00ffff,#00ff00,#fffa00);
+	background-size: 100% 200%
+}
+.ChBox_item.Rarity\(Secret\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Secret\) {background: #e01419}
+
+
+
+.navButton-Units,.navButton-Items,.navButton-Summon, .navButton-Trade,.navButton-Code2, .navButton-FAQ,
+.navButton-Trait, .navButton-Rules , .navButton-Tier-List,
+.navButton-Discord, .navButton-Group-Gomu, .navButton-Twitter,
+.navButton-Cosmetics, .navButton-Effect, .navButton-Event, .navButton-Powerups,
+.navButton-Relics, .navButton-Evolution, .navButton-Value-List, .navButton-Contracts, .navButton-Rays_for_contract, .navButton-Battlepass {width: 78px; height: 78px}
+.navButton-Units {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/7/7a/GUI_Units_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/7/7a/GUI_Units_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Items {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/3/3a/GUI_Items_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/3/3a/GUI_Items_icon.png/revision/latest/scale-to-width-down/78)
+}
+
+.navButton-Code2 {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/7/74/Codes_GUI_Icon_2.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/7/74/Codes_GUI_Icon_2.png/revision/latest/scale-to-width-down/78)
+}
+
+.navButton-Trait {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/b/b5/GUI_Trait_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/b/b5/GUI_Trait_icon.png/revision/latest/scale-to-width-down/78)
+}
+
+.navButton-Tier-List {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/c/ce/GUI_Tier-List_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/c/ce/GUI_Tier-List_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Evolution {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/3/39/GUI_Evolution_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/3/39/GUI_Evolution_icon.png/revision/latest/scale-to-width-down/78)
+}
+
+.navButton-Cosmetics {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/d/d0/GUI_Cosmetics_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/d/d0/GUI_Cosmetics_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Effect {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/e/e7/GUI_Effects_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/e/e7/GUI_Effects_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Event {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/3/3f/GUI_Event_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/3/3f/GUI_Event_icon.png/revision/latest/scale-to-width-down/78)
+}
+
+.navButton-Relics {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/5/50/GUI_Relics_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/5/50/GUI_Relics_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Battlepass {
+    background: url(https://static.wikia.nocookie.net/animeadventures/images/6/6d/GUI_Battlepass_Flame_Hunt_icon.png/revision/latest/scale-to-width-down/70);
+    width: 70px; height: 70px
+}
+.navButton-Powerups {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/4/40/GUI_Powerups_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/4/40/GUI_Powerups_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Rays_for_icon {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/1/16/GUI_Rays_for_icon.png/revision/latest/scale-to-width-down/126);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/1/16/GUI_Rays_for_icon.png/revision/latest/scale-to-width-down/126);
+	height: 126px;
+	width: 126px;
+	background: -webkit-linear-gradient(#51bdd6 10%,rgb(255 0 255 / 70%),rgb(203 203 33) 90%);
+	animation: 35s infinite linear Rays_for_icon;
+	opacity: .9;
+}
+@keyframes Rays_for_icon  {
+	0% {transform: rotateZ(0deg)}
+	100% {transform: rotateZ(360deg)}
+}
+
+
+.navButton-Group-Gomu {
+	background: -webkit-radial-gradient(#6a29ff8f,#6a29ff8f),url(https://static.wikia.nocookie.net/animeadventures/images/4/4e/GUI_Group-Gomu_icon.png/revision/latest/scale-to-width-down/78);
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/4/4e/GUI_Group-Gomu_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/4/4e/GUI_Group-Gomu_icon.png/revision/latest/scale-to-width-down/78);
+}
+
+.navButton-Discord {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/b/ba/GUI_Discord_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/b/ba/GUI_Discord_icon.png/revision/latest/scale-to-width-down/78);
+}
+.navButton-Twitter {
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/1/13/GUI_Twitter_icon.png/revision/latest/scale-to-width-down/78);
+	mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/1/13/GUI_Twitter_icon.png/revision/latest/scale-to-width-down/78);
+}
+
+
+.navButton-KannonbirakiBenihimeAratame {
+	width: 54px; height: 54px;
+	filter: brightness(50%) sepia(10) hue-rotate(312deg) brightness(.5) saturate(10);
+	background: url(https://static.wikia.nocookie.net/animeadventures/images/8/8e/Kannonbiraki_Benihime_Aratame.png/revision/latest/scale-to-width-down/54);
+}
+.baffButton-DedicateYourHearts {
+	filter: brightness(50%) sepia(10) hue-rotate(19deg) saturate(70);
+		width: 54px; height: 54px;
+	background: url(https://static.wikia.nocookie.net/animeadventures/images/b/b0/Dedicate_your_hearts.png/revision/latest/scale-to-width-down/54);
+}
+.baffButton-SkyEnchantment {
+	width: 54px; height: 54px;
+	background: url(https://static.wikia.nocookie.net/animeadventures/images/6/6f/Sky_Enchantment.png/revision/latest/scale-to-width-down/54), #84d5e7;
+	background-blend-mode: multiply;
+}
+.baffButton-SakuroAuraBuff {
+	width: 54px; height: 54px;
+	background: url(https://static.wikia.nocookie.net/animeadventures/images/8/80/Sakuro-AuraBuff.png/revision/latest/scale-to-width-down/54), #48c35b;
+	background-blend-mode: multiply;
+}
+	/*requested by linxiao*/
+.navButton-Value-List {
+    -webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/4/45/GUI_Value-List_icon.png/revision/latest/scale-to-width-down/78);
+    mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/4/45/GUI_Value-List_icon.png/revision/latest/scale-to-width-down/78)
+}
+.navButton-Contracts {
+    background: url(https://static.wikia.nocookie.net/animeadventures/images/c/ce/GUI_Contracts_icon.png/revision/latest/scale-to-width-down/78);
+    width: 70px; height: 70px
+}
+.navButton-Rays_for_contract {
+    -webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/1/16/GUI_Rays_for_icon.png/revision/latest/scale-to-width-down/126);
+    mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/1/16/GUI_Rays_for_icon.png/revision/latest/scale-to-width-down/126);
+    height: 126px;
+    width: 126px;
+    background: -webkit-linear-gradient(#ffcc00 10%,rgb(255 102 0) 90%);
+    animation: 35s infinite linear Rays_for_contract;
+    opacity: .9;
+}
+@keyframes Rays_for_contract  {
+    0% {transform: rotateZ(0deg)}
+    100% {transform: rotateZ(360deg)}
+}
+.ChBox-Text1\(Unknown\) {
+	color: #565456;
+	font-size: 16px;
+	line-height: 1.5;
+}
+.ChBox-Text1\(Rare\) {
+	color: #0d8cff;
+	font-size: 18px;
+	line-height: 1.5;
+}
+.ChBox-Text1\Epic\) {
+	color: #7c04f5;
+	font-size: 18.5px;
+	line-height: 1.5;
+}
+
+.ChBox-Text1\(Legendary\) {
+	color: #ffc71e;
+	font-size: 14.2px
+}
+.ChBox-Text1\(Secret\) {
+	color: #e01419;
+	font-size: 15.5px
+}
+
+.ChBox-Text1\(Mythic\) {
+	font-size: 20px;
+	background: linear-gradient(0, #76f1ff 30%, #fe56ff 50%, #ffec62 60%, #fe56ff 77%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	line-height: 1.25;
+}
+/* END 3.0 character-box */
+
+/* 19.0 character-box */
+
+.ChBox_item.Rarity\(Exclusive\) :is(.ChBox_item_boxShadow, .ChBox_text_boxShadow), .ChBox_item.Rarity\(Exclusive\) {
+    background: -webkit-linear-gradient(135deg,#ff2fec,#be61ed,#759ef0,#01ffff);
+    background-size: 100% 200%
+}
+
+/* END 19.0 character box */
+
+
+/* 3.2 mainStats */
+.mainStats {transition: .3s; -webkit-transition: .3s}
+.mainStats:focus-visible {
+	outline: none;
+	border-radius: 10px 0 0 15px / 29px 0 0 2px;
+	margin: 2px 0 0 2px;
+	box-shadow: inset 30px -27px 12px -30px #ffffff, -25px 18px 4px -22px #ffffff99;
+	transition: .4s;
+	
+}
+
+
+/* 3.2 bufflist */
+.buffList {
+	background: radial-gradient(ellipse at 60% 60%,#00000069 40%,#4000ffba 100%);
+	box-shadow: inset 0 0 9px 0 #00ffbb38, 0 0 6px 0 #007dff99;
+	transition: all .45s ease;
+	-webkit-transition:  all .45s ease;
+	border-radius: 4px;
+	letter-spacing: 4px;
+	font-family: 'Fredoka One';
+	margin: 2px 2px;
+	background-position-y: top;
+	background-position-x: -13px;
+	background-size: 150% 110%;
+}
+.theme-fandomdesktop-light .buffList {color: #e6e6e6}
+.buffList:hover {
+	background-position-x: center;
+	background-position-y: bottom;
+	transition: all .6s cubic-bezier(0, .59, .25, 1);
+	-webkit-transition: all .6s cubic-bezier(0, .59, .25, 1);
+	box-shadow: inset 0 0 5px 0 #00ffbb38, 0 0 6px 0 #007dff99;
+	text-shadow: 0 2px 8px #00ffbb38;
+	scale: 1.04;
+}
+.buffList-B-Wenda, .buffList-B-Kisoko, .buffList-B-Orwin, .buffList-B-Sakuro {filter: grayscale(.5) brightness(.6);
+	-webkit-transition: .3s filter, .3s transform cubic-bezier(.15,.66,.15,1);
+	transition: .3s filter, .3s transform cubic-bezier(.15,.66,.15,1)}
+.buffList-B-Wenda:hover, .buffList-B-Kisoko:hover, .buffList-B-Orwin:hover, .buffList-B-Sakuro:hover {filter: grayscale(0) brightness(1)}
+
+.buffList-Wenda-ChBox-boxShadow, .buffList-Kisoko-ChBox-boxShadow, .buffList-Orwin-ChBox-boxShadow, .buffList-Sakuro-ChBox-boxShadow {
+	opacity: .6;
+	transition: .3s opacity cubic-bezier(.25, .99, .57, .54);
+	-webkit-transition: .3s opacity cubic-bezier(.25, .99, .57, .54);
+	position: absolute;
+	transform: translate(-10px,-10px);
+	height: 76px;
+	width: 76px;
+	border-radius: 10px;
+	-webkit-mask-image: url(https://static.wikia.nocookie.net/animeadventures/images/f/fb/GUI_Characterbox_box-shadow.png/revision/latest/scale-to-width-down/76)
+}
+.buffList-Wenda-ChBox-boxShadow {background: #5dcce5}
+.buffList-Sakuro-ChBox-boxShadow {background: #84d5e7}
+.buffList-Kisoko-ChBox-boxShadow {background: #ff0000}
+.buffList-Orwin-ChBox-boxShadow {background: #fff800}
+.buffList-Sakuro-ChBox-boxShadow {background: #00ff4e}
+
+
+/* 3.2.0 stats-box */
+.Stats-Box {
+	position: relative;
+	min-width: 390px;
+	width: fit-content;
+	max-width: 550px;
+	padding: 3px 5px 6px 0;
+	border-radius: 20.5px;
+	z-index: 2;
+	margin-bottom: 10px;
+	user-select: none
+	color: var(--C-black__light, var(--C-theme-primary));
+}
+#Stats-Box-OFF, #Stats-Box-ON {
+	animation-duration: .3s;
+	animation-timing-function: cubic-bezier(.785,.135,.15,.86);
+	animation-iteration-count: 1;
+	animation-delay: 0s;
+	animation-fill-mode: forwards;
+	transition-property: all
+}
+.theme-fandomdesktop-dark #Stats-Box-OFF {animation-name: Stats-Box-OFF__dark}
+.theme-fandomdesktop-dark #Stats-Box-ON {animation-name: Stats-Box-ON__dark}
+.theme-fandomdesktop-light #Stats-Box-OFF {animation-name: Stats-Box-OFF__light}
+.theme-fandomdesktop-light #Stats-Box-ON {animation-name: Stats-Box-ON__light}
+
+@keyframes Stats-Box-OFF__dark {
+	0% {
+		border-top: 2px solid #4018b8e6;
+		border-left: 2px solid #4018b8e6;
+		background: linear-gradient(166deg,#4018b84a,transparent 50%);
+		outline: 2px solid #000aff21;
+		box-shadow: inset 0 0 25px -10px #181563;
+	}
+	100% {
+		border-top: 2px solid #1d95dbe6;
+		border-left: 2px solid #1d95dbe6;
+		background: linear-gradient(166deg,#1d97dd4a,transparent 50%);
+		box-shadow: inset 0 0 25px -10px #154865;
+		outline: 2px solid #00ffff21;
+	}
+}
+
+@keyframes Stats-Box-ON__dark {
+	0% {
+		border-top: 2px solid #1d95dbe6;
+		border-left: 2px solid #1d95dbe6;
+		background: linear-gradient(166deg,#1d97dd4a,transparent 50%);
+		box-shadow: inset 0 0 25px -10px #154865;
+		outline: 2px solid #00ffff21;
+	}
+	100% {
+		border-top: 2px solid #4018b8e6;
+		border-left: 2px solid #4018b8e6;
+		background: linear-gradient(166deg,#4018b84a,transparent 50%);
+		outline: 2px solid #000aff21;
+		box-shadow: inset 0 0 25px -10px #181563;
+	}
+}
+
+
+@keyframes Stats-Box-OFF__light {
+	0% {
+		border-top: 2px solid #4000ffe6;
+		border-left: 2px solid #4000ffe6;
+		background: linear-gradient(166deg,#decaff,transparent 50%);
+		outline: 2px solid #000aff2b;
+		box-shadow: inset 0 0 25px -10px #c6a6ff;
+	}
+
+	100% {
+		border-top: 2px solid #00bdffe6;
+		border-left: 2px solid #00bdffe6;
+		background: linear-gradient(166deg,#c2e9ff,transparent 50%);
+		box-shadow: inset 0 0 25px -10px #a2f1ff;
+		outline: 2px solid #00ffff21
+	}
+}
+
+@keyframes Stats-Box-ON__light {
+	0% {
+		border-top: 2px solid #00bdffe6;
+		border-left: 2px solid #00bdffe6;
+		background: linear-gradient(166deg,#c2e9ff,transparent 50%);
+		box-shadow: inset 0 0 25px -10px #a2f1ff;
+		outline: 2px solid #00ffff21;
+	}
+
+	100% {
+		border-top: 2px solid #4000ffe6;
+		border-left: 2px solid #4000ffe6;
+		background: linear-gradient(166deg,#decaff,transparent 50%);
+		outline: 2px solid #000aff1c;
+		box-shadow: inset 0 0 25px -10px #d5bdff;
+	}
+}
+
+.click-on-I-Box__Container {
+	position: relative;
+	transform: translate(0, -4px);
+	display: flex;
+	justify-content: center;
+	width: 390px;
+	border-radius: 8px;
+	font-size: 85%;
+	z-index: 1;
+}
+.click-on-I-Box {
+	padding: 2px 8px 0;
+	animation: border .3s cubic-bezier(.785,.135,.15,.86) forwards;
+	user-select: none;
+	border-radius: 8px;
+}
+#click-on-I-Box-OFF {animation-name: click-on-I-Box-OFF;}
+#click-on-I-Box-ON {animation-name: click-on-I-Box-ON;}
+
+
+@keyframes click-on-I-Box-OFF {
+	0% {border-bottom: 2px solid #4018b8e6; background: linear-gradient(transparent 50%, #4018b81c 100%)}
+	100% {border-bottom: 2px solid #1d95dbe6; background: linear-gradient(transparent 50%, #1d95db1c 100%)}
+}
+@keyframes click-on-I-Box-ON {
+	0% {border-bottom: 2px solid #1d95dbe6; background: linear-gradient(transparent 50%, #1d95db1c 100%)}
+	100% {border-bottom: 2px solid #4018b8e6; background: linear-gradient(transparent 50%, #4018b81c 100%)}
+}
+
+
+.Level-1-ON, .Level-80-OFF, .Level-1-OFF, .Level-80-ON {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 44px;
+	width: 195px;
+	border-radius: 12.5px;
+	z-index: 2;
+	user-select: none;
+	animation: .3s forwards 1;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+.Level-1-ON {
+	position: absolute;
+	animation-name: Level-1-ON;
+	animation-timing-function: ease-in-out;
+}
+.Level-80-OFF {
+	position: relative;
+	left: 200px;
+	margin: 0 0 10px 0;
+	animation-name: Level-80-OFF;
+	animation-timing-function: cubic-bezier(.57,-.74,.37,.82);
+}
+.Level-1-OFF {
+	position: absolute;
+	animation-name: Level-1-OFF;
+	animation-timing-function: cubic-bezier(.57,-.74,.37,.82);
+}
+.Level-80-ON {
+	position: relative;
+	left: 200px;
+	margin: 0 0 10px 0;
+	animation-name: Level-80-ON;
+	animation-timing-function: ease-in-out;
+}
+@keyframes Level-80-ON {
+	0% {
+		box-shadow: 0 0 20px 0 #4018b800, inset 0 0 25px -10px #5b00ffb3;
+		color: #9483c9e6;
+		background: #4d00ff57;
+		outline: 1.1px solid #4d00ff;
+		outline-offset: -2px;
+		text-shadow: 0 0 20px #5d00ff69;
+	}
+	100% {
+		color: var(--theme-page-text-color);
+		box-shadow: 0 17px 35px 7px #4018b8e6, inset 0 0 25px -10px #0700a9;
+		outline: 1.1px solid #4d00ff00;
+		outline-offset: 22px;
+		text-shadow: 0 0 20px var(--C-theme-primary);
+	}
+}
+
+@keyframes Level-80-OFF {
+	0% {
+		color: var(--theme-page-text-color);
+		box-shadow: 0 17px 35px 7px #4018b8e6, inset 0 0 25px -10px #181563;
+		outline: 1.1px solid #4d00ff00;
+		outline-offset: 22px;
+		text-shadow: 0 0 20px var(--C-theme-primary);
+	}
+	100% {
+		box-shadow: 0 0 20px 0 #4018b800, inset 0 0 25px -10px #5b00ffb3;
+		color: #9483c9e6;
+		background: #3300ff0d;
+		outline: 1.1px solid #4d00ff57;
+		outline-offset: -2px;
+		text-shadow: 0 0 20px #5d00ff69;
+	}
+}
+
+@keyframes Level-1-ON {
+	0% {
+		color: #85b6c9e6;
+		background: #00fff10d;
+		box-shadow: 0 0 20px 0 #00c7ff00, inset 0 0 25px -10px #00a1ff59;
+		outline: 1.1px solid #005370;
+		outline-offset: -2px;
+		text-shadow: 0 0 20px #00d9ff69
+	}
+
+	100% {
+		color:  var(--theme-page-text-color);
+		box-shadow: 0 17px 35px 7px #00a1ffe6, inset 0 0 25px -10px #0081cc;
+		outline: 1.1px solid #00537000;
+		outline-offset: 22px;
+		text-shadow: 0 0 20px var(--C-theme-primary)
+	}
+}
+
+@keyframes Level-1-OFF {
+	0% {
+		color:  var(--theme-page-text-color);
+		box-shadow: 0 17px 35px 7px #00a1ffe6, inset 0 0 25px -10px #0081cc;
+		outline: 1.1px solid #00537000;
+		outline-offset: 22px;
+		text-shadow: 0 0 20px var(--C-theme-primary)
+	}
+
+	100% {
+		color: #85b6c9e6;
+		background: #00fff10d;
+		box-shadow: 0 0 20px 0 #00c7ff00, inset 0 0 25px -10px #00a1ff59;
+		outline: 1.1px solid #005370;
+		outline-offset: -2px;
+		text-shadow: 0 0 20px #00d9ff69
+	}
+}
+
+#Stats-Box-OFF .Stats-Box-dotted_Effect {
+	animation: Stats-Box-OFF-dotted_Effect .3s forwards 1
+}
+#Stats-Box-ON .Stats-Box-dotted_Effect {
+	animation: Stats-Box-ON-dotted_Effect .3s forwards 1
+}
+
+@keyframes Stats-Box-OFF-dotted_Effect {
+	0% {border-bottom: 2px dotted #4018b8e6}
+	100% {border-bottom: 2px dotted #1d95dbe6}
+}
+
+@keyframes Stats-Box-ON-dotted_Effect {
+	0% {border-bottom: 2px dotted #1d95dbe6}
+	100% {border-bottom: 2px dotted #4018b8e6}
+}
+
+/* END   3.2.0 stats-box   END */
+
+
+/* 3.2.1 buff-effect */
+.buffEffect__box {position: absolute; display: flex; pointer-events: none; bottom: 0%;}
+
+.buffEffect__SkyEnchantment {box-shadow: 0 16px 8px -14.5px #84d5e7}
+.buffEffect__KannonbirakiBenihimeAratame {box-shadow: 0 16px 8px -14.5px #ff0007}
+.buffEffect__DedicateYourHearts{box-shadow: 0 16px 8px -14.5px #ffa800}
+.buffEffect__SakuroAuraBuff {box-shadow:0 16px 8px -14.5px #00ff4e}
+/* END   3.2.1 buff-effect   END */
+
+
+/* 3.2.2 buff-list-button */
+.buffList-buttonOFF {
+	background: radial-gradient(ellipse at 50% 50%, #00023657 40%, #4e3b9952 100%);
+	box-shadow: inset 0 0 9px 0 #3f63b3ad,0 0 9px 0 #382861cc;
+	text-shadow: 0 0 9px #0000009e,0 4px 13px #0000005c;
+	color: #ffffffa6;
+	border: 2.4px double #2e353c;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	border-radius: 4px;
+	letter-spacing: 3px;
+}
+.buffList-buttonOFF:hover {
+	background: radial-gradient(ellipse at 50% 50%, #2f76b469 40%, #ffffff5e 100%);
+	box-shadow: inset 0 0 9px 0 #3f63b3ad, 0 0 9px 0 #5386eecc;
+	text-shadow: 0 0 9px #000bff9e, 0 4px 20px #0011ff5c;
+	border: 1.5px solid #557389;
+	letter-spacing: 4px;
+	color: inherit;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+}
+.buffList-buttonON {
+	background: radial-gradient(ellipse at 50% 50%,#36a2ff69 40%,#ffffff5e 100%);
+	box-shadow: inset 0 0 9px 0 #00ffa336,0 0 6px 0 #96d5d687;
+	text-shadow: 0 0 20px #a000ff;
+	border: 1.5px solid #557389;
+	transition: all .3s ease;
+	-webkit-transition: all .3s ease;
+	border-radius: 4px;
+	letter-spacing: 4px;
+}
+
+.buffList-buttonON:hover {
+	background: radial-gradient(ellipse at 50% 50%,#00023657 40%, #4e3b9952 100%);
+	box-shadow: inset 0 0 9px 0 #00ffa336, 0 0 3px 0 #29a5ca87, 0 0 5px 0 #5e8ef287;
+	border: 2.4px double #43536f96;
+	letter-spacing: 3px;
+	color: #ffffffa6;
+}
+
+.buffList-SasageyoButtonOFF {filter: opacity(0);}
+.buffList-SasageyoButtonOFF:hover {filter: opacity(.35);}
+
+.buffList-SasageyoButtonON {filter: brightness(1) saturate(1) opacity(1);}
+.buffList-SasageyoButtonON:hover {box-shadow: 0 0 6px 0 #ffc500 !important;
+							filter: brightness(.9) saturate(.65) opacity(.9);}
+
+.buffList-rangeBoosterOFF {filter: opacity(0);}
+.buffList-rangeBoosterOFF:hover {filter: opacity(.35);}
+
+.buffList-rangeBoosterON {filter: brightness(1) saturate(1) opacity(1);}
+.buffList-rangeBoosterON:hover {box-shadow: 0 0 6px 0 #ffffff !important;
+							filter: brightness(.9) saturate(.65) opacity(.9);}
+/* END 3.2.2 buff-list-button */
+
+/* END 3.2 mainStats */
+
+
+/* 3.3.0 TierList */
+.tierList_container {
+	display: flex;
+	flex-direction: column;
+	background: black
+}
+
+.tierList_containerItem {
+	display: flex;
+	min-height: 80px;
+	border-top: solid 1px #000;
+	border-bottom: solid 1px #000;
+	color: #333
+}
+h3.tierList_containerItem__name.tierList_containerItem__name{
+	flex: 100px 0 0;
+	min-height: 80px;
+	border-right: solid 1px #000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+	font-weight: 400
+}
+.tierList_containerItem__container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex: 1;
+	background: #1a1a17
+}
+.tierList_item__text_name a {color: #e6e6e6}
+/* END 3.3.0 TierList */
+
+/* 4.0.0 TierList */
+.trash-table {
+	display: block
+}
+.trash-table tbody {
+	display: grid;
+	grid-template-columns: repeat(auto-fill,minmax(115px,1fr));
+	grid-auto-flow: row;
+	justify-items: center;
+	list-style-type: none;
+	grid-row-gap: 13px;
+	font-size: 18px;
+	border-radius: 29px;
+	background: #000111;
+	box-shadow: 0 0 15px -2px #8deeff42,0 0 11px -2px #00000080,inset 0 0 20px -5px #2000ffbd,inset 0 0 15px -2px #8deeff42;
+	outline: 3px black solid;
+	outline-offset: -10px;
+	margin: 0;
+	padding: 20px 8px;
+	overflow: hidden;
+	border: 2px solid #8deeff
+}
+.trash-table thead {
+	display: flex;
+	justify-content: center;
+	grid-auto-flow: row;
+	justify-items: center;
+	list-style-type: none;
+	grid-row-gap: 13px;
+	font-size: 18px;
+	border-radius: 29px;
+	background: #000111;
+	box-shadow: 0 0 15px -2px #8deeff42,0 0 11px -2px #00000080,inset 0 0 20px -5px #2000ffbd,inset 0 0 15px -2px #8deeff42;
+	outline: 3px black solid;
+	outline-offset: -10px;
+	margin: 0 0 -2px;
+	padding: 20px 8px;
+	overflow: hidden;
+	border: 2px solid #8deeff;
+	border-style: dashed
+}
+.trash-table thead th {
+	display: block;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	background: transparent
+}
+.trash-table thead tr {
+	display: flex
+}
+/* 4.0.0 TierList */
+
+
+
+/* 4.0 page-castom */
+/* 4.1 Unit List */
+.page-Anime_Adventures_Wiki.ns-0 .page-content,
+.page-Unit_List.ns-0 .page-content,
+.page-Unit_List.ns-0 .page-content .wds-tabber {
+  overflow: visible;
+}
+/* END 4.1 Units */
+
+
+/* END 4.0 page-castom */
+
+
+
+
+/* %3. scrollbar */
+
+/* Scrollbar Styles created by User:Polymeric - CC-BY-SA (22.06.2021) for wiki  -  https://hollow-knight.fandom.com */
+html,
+body {scrollbar-color: rgba(var(--theme-link-color--hover-rgb), .7) var(--scrollbar-background-color)}
+
+.theme-fandomdesktop-dark::-webkit-scrollbar {background-color: #3d4051}
+.theme-fandomdesktop-dark::-webkit-scrollbar-thumb {border-radius: 2px; background-color: #747283}
+.theme-fandomdesktop-dark::-webkit-scrollbar-thumb:hover {background-color: #817e95}
+.theme-fandomdesktop-dark::-webkit-scrollbar-thumb:active {background-color: #62616b}
+.theme-fandomdesktop-dark::-webkit-scrollbar-corner {background-color: #474646}
+.theme-fandomdesktop-dark::-webkit-scrollbar-button {background-position: center; background-size: 18px}
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:hover {
+  background-color: rgba(var(--theme-link-color--hover-rgb), .2);
+}
+
+::-webkit-scrollbar-button:active {background-color: rgba(var(--theme-link-color--hover-rgb), .87)}
+
+/**/
+
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:vertical:decrement,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:vertical:decrement {
+  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_drop_up_white_24px.svg);
+}
+
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:vertical:decrement:active,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:vertical:decrement:active {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24' fill='%23000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M7 14l5-5 5 5z'/%3E%3C/svg%3E");
+}
+
+/**** Down. ****/
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:vertical:increment,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:vertical:increment {
+  background-image: url(https://storage.googleapis.com/material-icons/external-assets/v4/icons/svg/ic_arrow_drop_down_white_24px.svg);
+}
+
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:vertical:increment:active,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:vertical:increment:active {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24' fill='%23000'%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+}
+
+/**** Left. ****/
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:horizontal:decrement,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:horizontal:decrement {
+  background-image: url(https://static.wikia.nocookie.net/tobias-laboratory/images/5/5d/Arrow_left_dark.svg);
+}
+
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:horizontal:decrement:active,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:horizontal:decrement:active {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24' fill='%23000'%3E%3Cpath d='M14 7l-5 5 5 5V7z'/%3E%3Cpath d='M24 0v24H0V0h24z' fill='none'/%3E%3C/svg%3E");
+}
+
+/****  Right. ****/
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:horizontal:increment,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:horizontal:increment {
+  background-image: url(https://static.wikia.nocookie.net/tobias-laboratory/images/6/6d/Arrow_right_dark.svg);
+}
+
+.theme-fandomdesktop-dark::-webkit-scrollbar-button:horizontal:increment:active,
+.theme-fandomdesktop-dark *::-webkit-scrollbar-button:horizontal:increment:active {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='24' viewBox='0 0 24 24' width='24' fill='%23000'%3E%3Cpath d='M10 17l5-5-5-5v10z'/%3E%3Cpath d='M0 24V0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+}
+/* END %3. scrollbar */
+
+
+/* %3.1 LinkButton */
+
+/* Scrollbar Styles created by User:Laoena for wiki  -  https://allstartd.fandom.com/wiki/Roblox:_All_Star_Tower_Defense_Wiki */
+
+.LinkButton:active {
+	transform: scale(1.07);
+}
+.LinkButton:hover, .LinkButton:focus-visible {
+	transform: scale(1.06);
+	background-position-y: -3px !important;
+	box-shadow: inset 0 -8px 7px 0 #0000, 0 6px 2px -6px #ffffff5c
+}
+.LinkButton {
+	display: inline-block;
+	user-select: none;
+	padding: 4px 10px;
+	margin: 0 4px;
+	border-radius: 7px;
+	transition: .33s all;
+	transform-origin: bottom;
+	color: #e6e6e6;
+	box-shadow: inset 0 -8px 7px 0 #00000045, 0 0 0 -2px #0000
+}
+
+/* END %3.1 LinkButton */
+
+
+
+
+/* $1. name-style */
+a[href$=":Pixel11211"] {
+	color:  #FFFFFF;
+	text-shadow: 0 0 2px #FFFFFF
+}
+a[href$=":Mao_RBLX"] {
+	color: #c5f1c5;
+	text-shadow: 0 0 3px #30c230;
+	font-weight: bold;
+	font-size: 90%
+}
+a[href$=":Staplecruncher"] {
+	color: #FFD3F7;
+	text-shadow: 0 0 3px #6893FF;
+	font-weight: bold;
+}
+a[href$=":MiraDxD"] {
+	color: #ff2222;
+	text-shadow: 0 0 3px #990000;
+	font-weight: bold
+}
+a[href$=":NVNic"] {
+	color: #ede2fa;
+	text-shadow: 0 0 3px #9a00ff;
+	font-weight: bold;
+	font-size: 90%
+}
+a[href$=":Erito519"] {
+	color: #ff4500;
+	font-weight: bold;
+    text-shadow: 0 0 5px #b22222, 0 0 5px #b22222, 0 0 5px #b22222;
+}
+
+
+/* END $1. name-style */
+.main-page-warning {
+	text-wrap: balance;
+	text-align: center;
+	background: #ff007c4f;
+	border-radius: 25px;
+	padding: 16px;
+	box-shadow: 
+		0 0 24px -5px #ff0041d1,
+		inset 0 0 15px 2px #ff00486b;
+	color: var(--C-theme-primary-inverted);
+	font-size: 18px;
+	margin: 0 0 20px;
+	font-family: system-ui;
+}
+.theme-fandomdesktop-light .main-page-warning {
+	background: #ff000066;
+	box-shadow: 
+		0 0 24px -5px #ff0000,
+		inset 0 0 15px 2px #ff5081;
+	font-weight: bold
+}
+.main-page-warning_text {text-decoration: underline}
+.theme-fandomdesktop-light .main-page-warning_text {text-decoration-thickness: 2px}
+.rail-module .main-page-warning {
+	margin: 0;
+	padding: 8px;
+	font-size: 15px
+}
+
+.rail-module {overflow: visible}
+
+.custom-main-page-tag-rcs {
+	clear: right;
+	float: right;
+	padding: 0;
+	width: 300px;
+	display: flex;
+	flex-direction: column
+}
+
+@media only screen and (max-width: 1023px) {
+	.custom-main-page-tag-rcs {
+		clear:both;
+		column-count: 2;
+		float: none;
+		padding: 13px 10px 0;
+		width: auto
+	}
+}
+
+.custom-main-page-tag-lcs-exploded {
+	float: left;
+	width: 100%
+}
+
+@media only screen and (min-width: 1024px) {
+	.custom-main-page-tag-lcs-exploded {
+		width:calc(100% - 320px)
+	}
+}
+
+
+
+
+
+.some-Nic-stuff {
+	border-radius: 25px;
+	background: linear-gradient(#000000 0%, #23153c 50%, #000000 100%) padding-box, linear-gradient(#0d0d0d 0%, #3a2262 50%, #0d0d0d 100%) border-box;
+	border: 2px solid transparent;
+	box-shadow: 0 0 12px 12px #1d1131, inset 0 0 3px 2px #1d1131;
+	padding: 5px;
+	margin: 15px;
+}
+
+.some-Nic-stuff video {
+	width: auto!important;
+	height: auto!important;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+}

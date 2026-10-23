@@ -1,0 +1,7 @@
+---
+import {gameNavigation} from '../lib/wiki-navigation';
+---
+<nav class="wiki-game-navigation" aria-label="Navegação principal do jogo">{gameNavigation.map(item=><a class="wiki-game-button" href={item.href} aria-label={item.accessible} style={`--category-color:${item.color};--category-secondary:${item.secondary}`} data-game-category={item.key}>
+<span class="wiki-game-button-face" aria-hidden="true"></span>
+{item.icon.mask ? <span class="wiki-game-glyph" style={`--category-icon:url('${item.icon.url}')`} aria-hidden="true"></span> : <img class="wiki-game-picture" src={item.icon.url} width="78" height="78" alt="" loading="eager"/>}
+<strong lang="en">{item.label}</strong></a>)}</nav>
