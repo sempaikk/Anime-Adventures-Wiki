@@ -1,4 +1,5 @@
 import { load } from "cheerio";
+import { imageKey } from "./catalog.mjs";
 
 const text = (value) => value.replace(/\s+/g, " ").trim();
 
@@ -9,6 +10,34 @@ export function structureArticle(input, catalog = {}) {
     {},
     false,
   );
+  // Resolve the source's lazy-loading fallbacks at build time. Remove only
+  // images already provided by their own container, preserving standalone
+  // fallback content and intentional repetitions in other source sections.
+  $("noscript").each((_, node) => {
+    const fallback = $(node);
+    const primary = new Set(
+      fallback
+        .parent()
+        .find("img")
+        .toArray()
+        .map((image) =>
+          imageKey($(image).attr("data-src") || $(image).attr("src") || ""),
+        ),
+    );
+    const fragment = load(fallback.html() || "", {}, false);
+    fragment("img").each((_, image) => {
+      const source =
+        fragment(image).attr("data-src") || fragment(image).attr("src") || "";
+      if (source && primary.has(imageKey(source))) fragment(image).remove();
+    });
+    fragment("a")
+      .filter(
+        (_, link) =>
+          !fragment(link).children().length && !text(fragment(link).text()),
+      )
+      .remove();
+    fallback.replaceWith(fragment.html());
+  });
   const missing = (title) =>
     $('<span class="portrait-unavailable" role="img"></span>')
       .attr("aria-label", `Retrato indisponível: ${title}`)

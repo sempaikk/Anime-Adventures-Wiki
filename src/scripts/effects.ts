@@ -1,7 +1,7 @@
 // Pointer effects share one delegated handler and only render after pointer movement.
 const motion = matchMedia("(hover: hover) and (pointer: fine)");
 const selector =
-  ".unit-entry,.library-card,.orbit-portal,.person-card,.game-tile,.home-shortcut,.comparison-slot,.community-channel,.map-location";
+  ".unit-entry,.library-card,.orbit-portal,.person-card,.game-tile,.home-shortcut,.comparison-slot,.community-channel,.map-location,[data-nexus-surface]";
 const enabled = () => document.documentElement.dataset.motion === "on";
 let current: HTMLElement | null = null,
   frame = 0,
@@ -86,7 +86,7 @@ function observeContent() {
     }
   }
   const cards = document.querySelectorAll<HTMLElement>(
-    ".orbit-portal,.person-card,.featured-strip>a,.game-tile,.home-shortcut,.unit-entry,.library-card,.community-channel,.update-entry,.comment,.public-profile-header",
+    ".orbit-portal,.person-card,.featured-strip>a,.game-tile,.home-shortcut,.unit-entry,.library-card,.community-channel,.update-entry,.comment,.public-profile-header,[data-nexus-surface]",
   );
   for (const card of cards) {
     const rect = card.getBoundingClientRect();

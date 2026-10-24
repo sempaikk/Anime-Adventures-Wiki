@@ -6,7 +6,7 @@ import '../styles/interface.css';
 import '../styles/tools.css';
 import '@fontsource-variable/oxanium';
 import '../styles/orbit.css';
-import '../styles/command.css';
+import '../styles/nexus.css';
 import { gameNavigation, gameLogo } from '../lib/wiki-navigation';
 import { wiki, articleUrl } from '../lib/wiki';
 import { channels, botInvite } from '../lib/community';
@@ -41,18 +41,19 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
   <NavigationMotion/>
 </head><body id="top" class:list={{'page-home':isHome}} data-area={active} style={!isHome?`--page-scene:url("${pageArt.image}")`:undefined}>
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
-<div class="navigation-progress" aria-hidden="true"></div><div class="page-transition-layer" aria-hidden="true"></div><div class="site-atmosphere" aria-hidden="true"><div class="ambient-field"></div><div class="ambient-grid"></div><canvas data-site-particles></canvas><div class="ambient-scan"></div></div>
+<div class="navigation-progress" aria-hidden="true"></div><div class="page-transition-layer" aria-hidden="true"><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span></div><div class="site-atmosphere" aria-hidden="true"><div class="ambient-field"></div><div class="ambient-grid"></div><canvas data-site-particles></canvas><div class="ambient-scan"></div></div>
 <header class="site-header"><div class="reading-progress" aria-hidden="true"><span></span></div>
   <a class="orbit-brand" href="/" aria-label="Adventures Wiki, início"><img src={gameLogo} alt="Anime Adventures" width="959" height="419"/><span>WIKI E COMUNIDADE</span></a>
   <nav class="wiki-top-links" aria-label="Navegação da wiki">{topLinks.map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
   <button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><span class="search-mark" aria-hidden="true"></span><span>Pesquisar na wiki</span><kbd>Ctrl K</kbd></button>
   <div class="header-actions">
-    <details class="theme-menu"><summary class="square-button" aria-label="Aparência" title="Aparência"><span class="theme-symbol" aria-hidden="true"></span></summary><div class="theme-options"><span class="eyebrow">APARÊNCIA</span>{themes.map(([key,name,detail])=><button type="button" data-set-theme={key} aria-pressed={key==='adventures'}><span class={`theme-swatch theme-swatch-${key}`} aria-hidden="true"></span><span><strong>{name}</strong><small>{detail}</small></span><span class="theme-check" aria-hidden="true">✓</span></button>)}<label class="navigation-motion-setting"><input type="checkbox" data-navigation-motion/>Animações e efeitos</label></div></details>
+    <details class="theme-menu"><summary class="square-button" aria-label="Aparência e som" title="Aparência e som"><span class="theme-symbol" aria-hidden="true"></span></summary><div class="theme-options"><span class="eyebrow">APARÊNCIA</span>{themes.map(([key,name,detail])=><button type="button" data-set-theme={key} aria-pressed={key==='adventures'}><span class={`theme-swatch theme-swatch-${key}`} aria-hidden="true"></span><span><strong>{name}</strong><small>{detail}</small></span><span class="theme-check" aria-hidden="true">✓</span></button>)}<label class="navigation-motion-setting"><input type="checkbox" data-navigation-motion/>Animações e efeitos</label><div class="nexus-audio-settings"><label><input type="checkbox" data-sound-setting/>Sons da interface</label><label for="sound-volume">Volume <output data-volume-label>25%</output></label><input id="sound-volume" type="range" min="0" max="100" value="25" step="5" data-sound-volume/><button type="button" class="nexus-audio-preview" data-sound-preview>Testar som</button><small>Ative para ouvir seleções, painéis e confirmações.</small></div></div></details>
     <a class="header-account" href="/conta/" data-account-link><span class="account-avatar-placeholder" aria-hidden="true"></span><span data-account-label>Sua conta</span></a>
     <button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
   </div>
 </header>
 <nav class="mobile-primary" aria-label="Atalhos principais">{[...topLinks.slice(1),['favoritos','Favoritos','/favoritos/']].map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
+<nav class="nexus-rail" aria-label="Acesso rápido"><a href="/personagens/" aria-label="Personagens" data-rail-label="Personagens" aria-current={active==='personagens'?'page':undefined}><GameIcon item={gameNavigation[0]}/></a><a href="/biblioteca/" aria-label="Biblioteca" data-rail-label="Biblioteca" aria-current={active==='biblioteca'?'page':undefined}><GameIcon item={gameNavigation[1]}/></a><a href={gameNavigation[2].href} aria-label="Traits" data-rail-label="Traits"><GameIcon item={gameNavigation[2]}/></a><a href={gameNavigation[5].href} aria-label="Relíquias" data-rail-label="Relíquias"><GameIcon item={gameNavigation[5]}/></a><span class="nexus-rail-separator" aria-hidden="true"></span><a href="/comparar/" aria-label="Comparar" data-rail-label="Comparar" aria-current={active==='comparar'?'page':undefined}><span class="nexus-compare-glyph" aria-hidden="true"></span></a><a href="/favoritos/" aria-label="Favoritos" data-rail-label="Favoritos" aria-current={active==='favoritos'?'page':undefined}><span class="nexus-save-glyph" aria-hidden="true"></span></a><a href="/pessoas/" aria-label="Pessoas" data-rail-label="Pessoas" aria-current={active==='pessoas'?'page':undefined}><span class="nexus-people-glyph" aria-hidden="true"></span></a></nav>
 <div class="site-shell"><aside class="sidebar" id="side-nav">
   <nav aria-label="Navegação principal"><span class="nav-label">WIKI</span>{pages.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-label">{label}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav>
   <details class="side-section" open><summary>Conteúdos do jogo<span class="plus-mark" aria-hidden="true"></span></summary><nav aria-label="Conteúdos do jogo">{game.map(item=><a href={item.href} class:list={['side-link','side-game-link',{active:active===item.key}]} aria-current={active===item.key?'page':undefined}><GameIcon item={item}/><span class="side-label">{item.accessible}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav></details>
@@ -66,4 +67,5 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
 <div class="toast" role="status" aria-live="polite"></div>
 <ComparisonTray/>
 <script src="../scripts/client.ts"></script>
+<script src="../scripts/audio.ts"></script>
 </body></html>

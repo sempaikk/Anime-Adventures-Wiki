@@ -279,3 +279,41 @@ test("new official game artwork preserves its provenance and original bytes", ()
     );
   }
 });
+
+test("source lazy-loading fallbacks do not duplicate Traits screenshots", () => {
+  const source = JSON.parse(
+    fs.readFileSync("source/rendered/165.json", "utf8"),
+  );
+  const html = cleanArticle(source.parse.text, resolve);
+  const $ = load(html);
+  assert.equal($('img[alt="Traits2"]').length, 1);
+  assert.match($('img[alt="Traits2"]').attr("src"), /Traits2\.png/);
+  assert.equal($("noscript").length, 0);
+  assert.ok($("#Rerolling_Traits").length);
+  assert.match($.text(), /Star Remnants/);
+});
+test("intentional repeated illustrations remain in their own source sections", () => {
+  const image =
+    '<img src="https://static.wikia.nocookie.net/animeadventures/images/a/aa/Example.png" alt="Example">';
+  const $ = load(
+    cleanArticle(
+      '<h2 id="first">First</h2>' +
+        image +
+        '<h2 id="second">Second</h2>' +
+        image,
+      resolve,
+    ),
+  );
+  assert.equal($('img[alt="Example"]').length, 2);
+  assert.equal($("#first,#second").length, 2);
+});
+
+test("a standalone noscript illustration remains available without a lazy-loading script", () => {
+  const html = cleanArticle(
+    '<figure><noscript><img src="https://static.wikia.nocookie.net/animeadventures/images/a/aa/Only.png" alt="Only reference"></noscript><figcaption>Preserved caption</figcaption></figure>',
+    resolve,
+  );
+  const $ = load(html);
+  assert.equal($('img[alt="Only reference"]').length, 1);
+  assert.match($.text(), /Preserved caption/);
+});

@@ -1,6 +1,6 @@
 # Direção visual e estrutura
 
-O site combina consulta de wiki e participação da comunidade, com uma interface própria inspirada nos cenários coloridos do jogo. A página inicial abre com arte real da wiki em camadas, personagem em destaque e três entradas: personagens, wiki e comunidade. Não imita o shell da Fandom nem uma rede social existente.
+O site combina consulta de wiki e participação da comunidade, com uma interface própria inspirada nos cenários coloridos do jogo. A página inicial abre com uma cena interativa de personagens, arte real da wiki, grade em perspectiva e acesso a personagens, biblioteca e comunidade. Não imita o shell da Fandom nem uma rede social existente.
 
 ## Identidade
 
@@ -44,3 +44,13 @@ O cabeçalho usa fundo opaco. O progresso ocupa uma trilha independente de 2 px,
 `command.css` reúne a composição da abertura e os novos componentes: busca com fallback GET para a Biblioteca, ficha de destaque separada da área de texto, ícones de categorias documentados em `wiki-navigation.json`, atalhos móveis e ferramentas de leitura. A abertura mantém os cenários reais e a rotação com pausa. A navegação não depende do hover. O índice acompanha a seção alcançada, os links continuam usando os IDs da fonte e a cópia oferece um campo selecionável quando a permissão da área de transferência não está disponível.
 
 Referências consultadas: navegação agrupada por jogo, guias e comunidade em [Warframe](https://www.warframe.com/en) e organização de personagens, mapas e conteúdo em [Marvel Rivals](https://www.marvelrivals.com/). Essas referências orientam a hierarquia; nenhum recurso editorial desses sites foi importado. As artes continuam exclusivamente na biblioteca já documentada da wiki.
+
+## Cena, navegação e som · 24/10/2026
+
+A nova abertura substitui o painel anterior por uma cena de consulta com seis personagens da fonte. A seleção muda retrato, nome, raridade, posicionamento, custo, ficha rápida, artigo e comparação juntos. Setas e miniaturas funcionam por toque, mouse e teclado. O tratamento gráfico combina perspectiva, linhas de enquadramento, varredura e uma grade WebGL; os cenários originais mantêm rotação e pausa.
+
+`nexus.css` substitui `command.css`. A linguagem se estende à navegação lateral, aos catálogos, aos artigos e aos painéis da comunidade. A navegação entre documentos usa quatro painéis de luz e preserva histórico, URLs, hashes e scripts completos. A trilha de progresso continua contida em 2 px e o cabeçalho continua opaco.
+
+`audio.ts` produz uma identidade sonora com osciladores, envelopes e ruído filtrado. Não baixa gravações externas. O visitante ativa o som e ajusta o volume em Aparência e som; a preferência fica no dispositivo e se sincroniza entre abas. Nenhum AudioContext é criado antes de uma interação autorizada. Volume, silêncio e movimento são controles independentes.
+
+Esta é a primeira etapa da direção visual e sonora. A próxima frente recomendada é aprofundar a exploração das fichas, dos upgrades e das evoluções com os dados da fonte; depois, ferramentas de equipe e busca por intenção podem ser avaliadas como funcionalidades próprias.

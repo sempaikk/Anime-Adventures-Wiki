@@ -3341,7 +3341,7 @@ html[data-motion="on"][data-page-entry] .page-wrapper {
   animation: interface-arrival 0.48s cubic-bezier(0.16, 0.8, 0.25, 1) both !important;
 }
 html[data-motion="on"][data-page-entry] .page-transition-layer {
-  animation: interface-unveil 0.4s ease-out both !important;
+  opacity: 1;
 }
 html[data-page-entry="back"] {
   --entry-direction: -16px;

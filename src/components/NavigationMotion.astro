@@ -46,12 +46,15 @@
     if(menu){menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Abrir navegação')}if(side)side.inert=true;
     root.removeAttribute('data-page-entry');root.dataset.navigating='';
     const layer=document.querySelector('.page-transition-layer'),page=document.querySelector('.page-wrapper');
-    if(layer)exitAnimations.push(layer.animate([{opacity:0},{opacity:1}],{duration:240,fill:'forwards',easing:'ease-in'}));
-    if(page)exitAnimations.push(page.animate([{opacity:1,transform:'none'},{opacity:.12,transform:'translateY(-12px) scale(.985)'}],{duration:240,fill:'forwards',easing:'ease-in'}));
+    if(layer){
+      exitAnimations.push(layer.animate([{opacity:1},{opacity:1}],{duration:470,fill:'forwards'}));
+      layer.querySelectorAll('.nexus-transition-slice').forEach((slice,index)=>exitAnimations.push(slice.animate([{transform:'scaleY(0)'},{transform:'scaleY(1)'}],{duration:310,delay:index*45,fill:'forwards',easing:'cubic-bezier(.4,0,.2,1)'})));
+    }
+    if(page)exitAnimations.push(page.animate([{opacity:1,transform:'none'},{opacity:.25,transform:'perspective(1600px) translateZ(-35px) translateX(-18px)'}],{duration:330,fill:'forwards',easing:'ease-in'}));
     const commit=()=>{if(navigating&&version===navigationVersion){clearTimeout(timer);location.assign(url.href)}};
     // Wait for the painted exit, with a fallback if the browser suspends animation frames.
     Promise.all(exitAnimations.map(animation=>animation.finished)).then(commit,()=>{});
-    timer=window.setTimeout(commit,700);
+    timer=window.setTimeout(commit,900);
   });
 })();
 </script>
