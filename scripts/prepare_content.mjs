@@ -2,8 +2,29 @@ import fs from "node:fs";
 import { load } from "cheerio";
 import { classify, createCatalog, normalize } from "../src/lib/catalog.mjs";
 import { unitFavoriteKey } from "../src/lib/favorite-key.mjs";
+import { unitRarities, rarityFromIntro } from "../src/lib/unit-source.mjs";
+import { createHash } from "node:crypto";
 
 const wiki = JSON.parse(fs.readFileSync("source/wiki.json", "utf8"));
+// Categories can be stale (including the two Vengeful Swordsman forms).
+// Prefer the exact identity in the source's actual unit data, with provenance.
+const unitDataSource = wiki.sources.find(page => page.title === 'Module:UnitData/Data');
+const unitDataText = fs.readFileSync(`source/raw/${unitDataSource.pageid}.wiki`, 'utf8');
+if (createHash('sha256').update(unitDataText).digest('hex') !== unitDataSource.sha256)
+  throw new Error('UnitData source hash does not match its recorded revision.');
+const sourceRarities = unitRarities(unitDataText);
+const correctedRarities = [];
+for (const unit of wiki.units) {
+  const rarity = sourceRarities.get(unit.id);
+  if (!rarity) continue;
+  if (unit.rarity !== rarity) correctedRarities.push({id: unit.id, name: unit.name, previous: unit.rarity, rarity});
+  unit.rarity = rarity;
+  for (const page of wiki.articles.filter(page => page.unit_id === unit.id)) page.rarity = rarity;
+}
+const previousAudit = fs.existsSync('source/unit-data-audit.json') ? JSON.parse(fs.readFileSync('source/unit-data-audit.json')) : {};
+const verifiedRarities = new Map(sourceRarities);
+const articleChecks = [];
+
 const originals = fs.existsSync("source/original-images.json")
   ? JSON.parse(fs.readFileSync("source/original-images.json", "utf8"))
   : {};
@@ -61,7 +82,19 @@ for (const page of wiki.articles) {
   ].includes(page.title);
   const path = `source/rendered/${page.pageid}.json`;
   if (!fs.existsSync(path)) continue;
-  const $ = load(JSON.parse(fs.readFileSync(path)).parse.text);
+  const renderedPage = JSON.parse(fs.readFileSync(path));
+  const $ = load(renderedPage.parse.text);
+  const identifiedUnit = wiki.units.find(unit => unit.id === page.unit_id);
+  if (renderedPage.parse.revid === page.revision_id && identifiedUnit && !verifiedRarities.has(identifiedUnit.id) && page.title === identifiedUnit.name && !page.empty) {
+    const declared = rarityFromIntro(identifiedUnit.name, $('p').toArray().map(node => $(node).text()));
+    if (declared) {
+      if (identifiedUnit.rarity !== declared) correctedRarities.push({id: identifiedUnit.id, name: identifiedUnit.name, previous: identifiedUnit.rarity, rarity: declared});
+      identifiedUnit.rarity = declared;
+      verifiedRarities.set(identifiedUnit.id, declared);
+      for (const sibling of wiki.articles.filter(article => article.unit_id === identifiedUnit.id)) sibling.rarity = declared;
+      articleChecks.push({id: identifiedUnit.id, rarity: declared, source: page.source_url, revision: page.revision_id, sha256: page.sha256});
+    }
+  }
   page.facts = [];
   if (page.unit_id) {
     const infobox = $(".portable-infobox").first();
@@ -112,6 +145,13 @@ for (const page of wiki.articles) {
   page.rendered = true;
   page.kind = classify(page);
 }
+fs.writeFileSync('source/unit-data-audit.json', JSON.stringify({
+  source: unitDataSource.source_url, revision: unitDataSource.revision_id, sha256: unitDataSource.sha256,
+  identities: wiki.units.length, checked: wiki.units.filter(unit => verifiedRarities.has(unit.id)).length,
+  moduleChecked: wiki.units.filter(unit => sourceRarities.has(unit.id)).length, articleChecks,
+  unresolved: wiki.units.filter(unit => !verifiedRarities.has(unit.id)).map(unit => unit.id),
+  corrections: [...new Map([...(previousAudit.sha256 === unitDataSource.sha256 ? previousAudit.corrections || [] : []), ...correctedRarities].map(entry => [entry.id, entry])).values()],
+}, null, 2) + '\n');
 const catalog = createCatalog(wiki, media);
 for (const page of wiki.articles) {
   const unit = wiki.units.find((unit) => unit.id === page.unit_id);

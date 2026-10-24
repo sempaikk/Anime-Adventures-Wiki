@@ -209,6 +209,7 @@ if (hero) {
     gridPending = false;
   async function prepareGrid() {
     if (
+      !hero.querySelector("[data-nexus-grid]") ||
       gridPending ||
       gridController ||
       !enabled() ||

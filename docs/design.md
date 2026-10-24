@@ -1,3 +1,5 @@
+> Direção atual: consultar [a revisão da interface de 24/10/2026](interface-review.md). As seções abaixo documentam também decisões históricas, incluindo a grade espacial posteriormente retirada.
+
 # Direção visual e estrutura
 
 O site combina consulta de wiki e participação da comunidade, com uma interface própria inspirada nos cenários coloridos do jogo. A página inicial abre com uma cena interativa de personagens, arte real da wiki, grade em perspectiva e acesso a personagens, biblioteca e comunidade. Não imita o shell da Fandom nem uma rede social existente.

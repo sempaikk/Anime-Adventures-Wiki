@@ -1,4 +1,4 @@
-// A small synthesized interface palette. No audio files, tracking or autoplay.
+// Synthesized interface cues. Audio starts only after a trusted user gesture.
 type Cue = "tap" | "open" | "select" | "welcome" | "hover";
 const read = (key: string) => {
   try {
@@ -7,7 +7,7 @@ const read = (key: string) => {
     return null;
   }
 };
-let soundOn = read("aa-sound") === "on";
+let soundOn = read("aa-sound") !== "off";
 let volume = Number(read("aa-sound-volume") ?? "25");
 if (!Number.isFinite(volume)) volume = 25;
 volume = Math.max(0, Math.min(100, volume));
@@ -184,6 +184,15 @@ function choose(next: boolean) {
     }, 120);
 }
 sync();
+// Prepare audio on the first general interaction. A stored mute always wins.
+function activate(event: Event) {
+  if (!event.isTrusted || !soundOn || context) return;
+  const target = event.target instanceof Element ? event.target : null;
+  if (target?.closest('[data-sound-toggle],[data-sound-setting],[data-sound-preview]')) return;
+  ready().then(sync).catch(() => {});
+}
+document.addEventListener('pointerdown', activate, {passive: true});
+document.addEventListener('keydown', activate);
 document
   .querySelectorAll<HTMLElement>("[data-sound-toggle]")
   .forEach((button) =>
@@ -261,7 +270,7 @@ window.addEventListener("storage", (event) => {
     event.key !== null
   )
     return;
-  soundOn = read("aa-sound") === "on";
+  soundOn = read("aa-sound") !== "off";
   const saved = Number(read("aa-sound-volume") ?? 25);
   volume = Number.isFinite(saved) ? Math.max(0, Math.min(100, saved)) : 25;
   sync();

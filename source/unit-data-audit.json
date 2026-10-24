@@ -1,0 +1,509 @@
+{
+  "source": "https://animeadventures.fandom.com/wiki/Module:UnitData/Data",
+  "revision": 47322,
+  "sha256": "41faa52d49d06d0766d79abe0cbcf0e0aef4066d0b17baac95deb81a9b4a4286",
+  "identities": 555,
+  "checked": 511,
+  "moduleChecked": 498,
+  "articleChecks": [
+    {
+      "id": "pain_2_evolved",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Agony_%28Divine%29",
+      "revision": 45788,
+      "sha256": "6ae89e3a0d8b8107389c80642d93591b43f942cfb8c2dae3ed4c8226cdf1a29e"
+    },
+    {
+      "id": "pain_2",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Agony_%28Path%29",
+      "revision": 45786,
+      "sha256": "7adb88724bb98df1ea7d6610a164b44596fe72d037dc0ea69c46837e078c86e5"
+    },
+    {
+      "id": "nokotan",
+      "rarity": "Exclusive",
+      "source": "https://animeadventures.fandom.com/wiki/Deer-tan",
+      "revision": 46937,
+      "sha256": "d405c4f6d9b003e75822e33c01acc04f1652c228a3283c1b7c26114028ea83ab"
+    },
+    {
+      "id": "gilgamesh_evolved",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Golden_King_%28Lord_of_Heroes%29",
+      "revision": 45217,
+      "sha256": "8fb1e7c80501d52fc0cf68f58ac8ab44f6ebf10d3ed9089b227053b965accd56"
+    },
+    {
+      "id": "geten",
+      "rarity": "Legendary",
+      "source": "https://animeadventures.fandom.com/wiki/Ice_Shaper",
+      "revision": 46893,
+      "sha256": "422bc1af20c9d41760c3f22172e37f1253804642a39f135be2c8ea25657635ae"
+    },
+    {
+      "id": "dazai",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/InHuman",
+      "revision": 46169,
+      "sha256": "ce7a54ec6f081ca9c4d2fee65581a2fe342b3346dbdf3d8f0fbb363148933226"
+    },
+    {
+      "id": "shidou",
+      "rarity": "Exclusive",
+      "source": "https://animeadventures.fandom.com/wiki/Joker",
+      "revision": 45456,
+      "sha256": "11bd59eb035d052059ea9c3dad628c1df42f5b1e57d4a288b7ba09670ae7eac0"
+    },
+    {
+      "id": "rohan",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Mangaka",
+      "revision": 45652,
+      "sha256": "43960f8c589b2fec247e34b08907a5cae059a410830428a3cacd1343d050dd7b"
+    },
+    {
+      "id": "roger",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Pirate_King",
+      "revision": 46092,
+      "sha256": "b64e71e636b0309d959ceaa86b82afd00222fa300fc0b4b4882999a66a80f613"
+    },
+    {
+      "id": "homura",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Shadowgirl",
+      "revision": 46625,
+      "sha256": "6431eb2e38d8b73c664b8e895288f9ffbcda1b208e882cdcf2a7b4495f4026bd"
+    },
+    {
+      "id": "ainz",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Supreme_Being",
+      "revision": 46606,
+      "sha256": "b13e1b2844fd9d308b673ae2580f0e2884c4eebf3990e38454e353a5b1aca586"
+    },
+    {
+      "id": "nagumo",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Switchblade",
+      "revision": 46759,
+      "sha256": "1b14c4e38e2ff1bed740d3a75d781f4fd72304ec7d236738159fc7f9666fa32a"
+    },
+    {
+      "id": "cid_evolved",
+      "rarity": "Secret",
+      "source": "https://animeadventures.fandom.com/wiki/Umbra_%28Nuclear%29",
+      "revision": 45611,
+      "sha256": "a8c330a7f76a08d3c0147fe45175f29ade455965caaf761a9bf63ba79a8e245e"
+    }
+  ],
+  "unresolved": [
+    "attack_titan",
+    "guts",
+    "akutagawa",
+    "akutagawa_evolved",
+    "mash",
+    "mash_evolved",
+    "chad",
+    "chad_evolved",
+    "britannia_soldier",
+    "goku_ssj3",
+    "rikka",
+    "charmy",
+    "charmy_evolved",
+    "dark_young",
+    "hidan_unit",
+    "hidan_unit_evolved",
+    "issei",
+    "gremmy",
+    "archer_evolved",
+    "hinami_evolved",
+    "avdol",
+    "gabimaru_evolved",
+    "naruto_sage",
+    "caesarclown_evolved",
+    "hanako_kun",
+    "honey",
+    "gaku",
+    "starlia",
+    "starlia_evo",
+    "sabo",
+    "sayaka",
+    "shinkiro",
+    "ragna",
+    "monet",
+    "osaragi",
+    "osaragi_evo",
+    "starrk_wolf_unit",
+    "aot_generic",
+    "saber_evolved",
+    "tsuna_evolved",
+    "atsushi",
+    "atsushi_evolved",
+    "dokuro",
+    "nami"
+  ],
+  "corrections": [
+    {
+      "id": "akeno",
+      "name": "Akemy",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "android21",
+      "name": "Android AAA",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "hei",
+      "name": "Black Assassin",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "hei_evo",
+      "name": "Black Assassin (Reaper)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "rin_oku",
+      "name": "Blue Devil",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "ippo",
+      "name": "Boxer",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "jozu",
+      "name": "Bozo",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "speedwagon",
+      "name": "C.E.O.",
+      "previous": "Secret",
+      "rarity": "Epic"
+    },
+    {
+      "id": "koneko",
+      "name": "Catgirl",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "koneko_evolved",
+      "name": "Catgirl (Hell-Cat)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "kite_evolved_focus",
+      "name": "Chance (Focus)",
+      "previous": "",
+      "rarity": "Secret"
+    },
+    {
+      "id": "vanilla_ice",
+      "name": "Cream",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "vanilla_ice_evo",
+      "name": "Cream (Void)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "hiei",
+      "name": "Demonshade",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "boxxo",
+      "name": "Dispenser",
+      "previous": "",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "inuyasha",
+      "name": "Dog Demon",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "gremmy_evo",
+      "name": "Dreamer (Visionary)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "frieren",
+      "name": "Elf Mage",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "frieren_evo",
+      "name": "Elf Mage (Aura)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "erza_evolved",
+      "name": "Elize (Random Equip)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "archer",
+      "name": "Faker",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "temari",
+      "name": "Fan Ninja",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "future_gohan",
+      "name": "Future Goh",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "hakari_evo",
+      "name": "Gambler (Jackpot)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "gon",
+      "name": "Gene",
+      "previous": "",
+      "rarity": "Legendary"
+    },
+    {
+      "id": "chuya_evolved",
+      "name": "Gravity Mage (Void)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "medea_evolved",
+      "name": "Hex (Witch of Betrayal)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "rebirth_grimmjow",
+      "name": "Iceclaw (Rebirth)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "merlin_evolved",
+      "name": "Infinity Mage (Endless)",
+      "previous": "",
+      "rarity": "Secret"
+    },
+    {
+      "id": "metal_knight_evolved",
+      "name": "Iron Knight (Arsenal)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "caesar",
+      "name": "Julias",
+      "previous": "",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "kenshin",
+      "name": "Katana",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "kimimaro",
+      "name": "Kimoaro",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "kuma_unit",
+      "name": "Komo",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "boros_evolved",
+      "name": "Lord Alien King",
+      "previous": "",
+      "rarity": "Secret"
+    },
+    {
+      "id": "isagi",
+      "name": "Messi",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "zabuza",
+      "name": "Mist Ninja",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "gojo_evolved",
+      "name": "Paradox (Divine Sight)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "cranel",
+      "name": "Player",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "cranel_evolved",
+      "name": "Player (Argus)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "saiki",
+      "name": "Saickik",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "izumi",
+      "name": "Scarlet Slayer",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "yuma",
+      "name": "Shrimp",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "yuma_evolved",
+      "name": "Shrimp (White Terror)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "monet_evo",
+      "name": "Siren (Harpy)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "lancer_evolved",
+      "name": "Spearer (Child of Light)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "feitan",
+      "name": "Spider",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "chika_evolved",
+      "name": "Spirit Sniper (Prodigy)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "buggy",
+      "name": "Stitches",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "broly_evolved",
+      "name": "Super Bro",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "saber",
+      "name": "Sword Queen",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "tsuna",
+      "name": "Takamu",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "tatsumaki",
+      "name": "Tamiki",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "tatsumi",
+      "name": "Tattermo",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "rokuhira",
+      "name": "Vengeful Swordsman",
+      "previous": "Mythic",
+      "rarity": "Secret"
+    },
+    {
+      "id": "rokuhira_evo",
+      "name": "Vengeful Swordsman (Sky Reaver)",
+      "previous": "Mythic",
+      "rarity": "Secret"
+    },
+    {
+      "id": "bang_evolved",
+      "name": "Waterfist (White Tooth)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "nejire",
+      "name": "Windspire",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "nokotan",
+      "name": "Deer-tan",
+      "previous": "Mythic",
+      "rarity": "Exclusive"
+    },
+    {
+      "id": "ainz",
+      "name": "Supreme Being",
+      "previous": "Mythic",
+      "rarity": "Secret"
+    }
+  ]
+}
