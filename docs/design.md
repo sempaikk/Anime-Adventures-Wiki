@@ -36,3 +36,11 @@ Imagens fornecidas por participantes pertencem aos seus perfis e comentários; n
 ## Validação
 
 Conferir a apresentação em computador e celular, nos três temas e com movimento reduzido. Exercitar no navegador publicação e retirada de perfil, edição, anexos, respostas, denúncias, revisão e exclusão. Os testes usam contas e banco isolados; o consentimento humano real do Discord continua sendo conferido na produção pelo titular.
+
+## Revisão de navegação e leitura · 24/10/2026
+
+O cabeçalho usa fundo opaco. O progresso ocupa uma trilha independente de 2 px, com `overflow: hidden` e `contain: strict`; somente o preenchimento interno é escalado. A sombra da versão anterior ampliava visualmente a barra na primeira rolagem. O progresso é recalculado após retorno pelo histórico e mudanças na altura do documento, incluindo filtros e comentários.
+
+`command.css` reúne a composição da abertura e os novos componentes: busca com fallback GET para a Biblioteca, ficha de destaque separada da área de texto, ícones de categorias documentados em `wiki-navigation.json`, atalhos móveis e ferramentas de leitura. A abertura mantém os cenários reais e a rotação com pausa. A navegação não depende do hover. O índice acompanha a seção alcançada, os links continuam usando os IDs da fonte e a cópia oferece um campo selecionável quando a permissão da área de transferência não está disponível.
+
+Referências consultadas: navegação agrupada por jogo, guias e comunidade em [Warframe](https://www.warframe.com/en) e organização de personagens, mapas e conteúdo em [Marvel Rivals](https://www.marvelrivals.com/). Essas referências orientam a hierarquia; nenhum recurso editorial desses sites foi importado. As artes continuam exclusivamente na biblioteca já documentada da wiki.

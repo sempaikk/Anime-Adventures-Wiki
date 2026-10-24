@@ -60,12 +60,22 @@ let initialPass = true;
 const animated = new Set<Animation>();
 let observer: IntersectionObserver | undefined;
 const revealed = new WeakSet<Element>();
-const surfaces = ".unit-entry,.library-card,.orbit-portal,.person-card,.comparison-slot,.community-channel";
+const surfaces =
+  ".unit-entry,.library-card,.orbit-portal,.person-card,.comparison-slot,.community-channel";
 const watchedSurfaces = new WeakSet<Element>();
-const surfaceObserver = "IntersectionObserver" in window ? new IntersectionObserver((entries) => {
-  for (const entry of entries)
-    entry.target.toggleAttribute("data-effect-visible", entry.isIntersecting);
-}, { rootMargin: "80px" }) : undefined;
+const surfaceObserver =
+  "IntersectionObserver" in window
+    ? new IntersectionObserver(
+        (entries) => {
+          for (const entry of entries)
+            entry.target.toggleAttribute(
+              "data-effect-visible",
+              entry.isIntersecting,
+            );
+        },
+        { rootMargin: "80px" },
+      )
+    : undefined;
 function observeContent() {
   observer?.disconnect();
   if (!enabled() || !("IntersectionObserver" in window)) return;
@@ -120,14 +130,21 @@ document.addEventListener("aa:motion-change", () => {
   animated.clear();
   observeContent();
 });
-const pressed = new WeakMap<HTMLElement, { position: string; overflow: string; count: number }>();
+const pressed = new WeakMap<
+  HTMLElement,
+  { position: string; overflow: string; count: number }
+>();
 document.addEventListener("click", (event) => {
   if (!enabled()) return;
   const button = (event.target as Element).closest<HTMLElement>(
     ".button,button,summary.square-button,.back-top",
   );
   if (!button || button.matches(":disabled")) return;
-  const state = pressed.get(button) ?? { position: button.style.position, overflow: button.style.overflow, count: 0 };
+  const state = pressed.get(button) ?? {
+    position: button.style.position,
+    overflow: button.style.overflow,
+    count: 0,
+  };
   pressed.set(button, state);
   state.count++;
   if (getComputedStyle(button).position === "static")
@@ -300,10 +317,14 @@ function readingProgress() {
     const distance = document.documentElement.scrollHeight - innerHeight;
     document.documentElement.style.setProperty(
       "--reading-progress",
-      String(distance > 0 ? Math.min(1, scrollY / distance) : 0),
+      String(distance > 0 ? Math.max(0, Math.min(1, scrollY / distance)) : 0),
     );
   });
 }
 addEventListener("scroll", readingProgress, { passive: true });
 addEventListener("resize", readingProgress, { passive: true });
+addEventListener("pageshow", readingProgress);
+// Filters, images and discussions can change the reading distance without a scroll.
+if ("ResizeObserver" in window)
+  new ResizeObserver(readingProgress).observe(document.body);
 readingProgress();

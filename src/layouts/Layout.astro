@@ -6,22 +6,24 @@ import '../styles/interface.css';
 import '../styles/tools.css';
 import '@fontsource-variable/oxanium';
 import '../styles/orbit.css';
+import '../styles/command.css';
 import { gameNavigation, gameLogo } from '../lib/wiki-navigation';
 import { wiki, articleUrl } from '../lib/wiki';
 import { channels, botInvite } from '../lib/community';
 import NavigationMotion from '../components/NavigationMotion.astro';
 import ComparisonTray from '../components/ComparisonTray.astro';
 import CloseButton from '../components/CloseButton.astro';
+import GameIcon from '../components/GameIcon.astro';
 import art from '../../source/interface-art.json';
 const isHome = Astro.props.home === true || Astro.url.pathname.replace(/\/$/, '') === import.meta.env.BASE_URL.replace(/\/$/, '');
-const { title = 'Anime Adventures Wiki', description = 'Personagens, itens, guias e informações sobre Anime Adventures. Wiki independente da comunidade.', active = isHome ? 'inicio' : '' } = Astro.props;
+const { title = 'Adventures Wiki', description = 'Personagens, itens, guias e informações sobre Anime Adventures. Wiki independente da comunidade.', active = isHome ? 'inicio' : '' } = Astro.props;
 const pages = [
   ['inicio','Início','/'], ['biblioteca','Biblioteca','/biblioteca/'],
   ['comparar','Comparar personagens','/comparar/'],
   ['tiers','Tier lists',articleUrl('Tier Lists')], ['map','Mapa do lobby','/mapa/'],
   ['comunidade','Jogo e comunidade','/comunidade/'], ['updates','Atualizações','/atualizacoes/'],
 ];
-const game = gameNavigation.map(item=>[item.key,item.accessible,item.href]);
+const game = gameNavigation;
 const topLinks = [['inicio','Início','/'],['personagens','Personagens','/personagens/'],['biblioteca','Wiki','/biblioteca/'],['pessoas','Comunidade','/pessoas/']];
 const topActive=topLinks.find(([, ,href])=>href===Astro.url.pathname)?.[0] || active;
 const pageArt = ['personagens','comparar'].includes(active) ? art.namak : ['pessoas','conta','favoritos'].includes(active) ? art.city : art.dungeon;
@@ -40,8 +42,8 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
 </head><body id="top" class:list={{'page-home':isHome}} data-area={active} style={!isHome?`--page-scene:url("${pageArt.image}")`:undefined}>
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
 <div class="navigation-progress" aria-hidden="true"></div><div class="page-transition-layer" aria-hidden="true"></div><div class="site-atmosphere" aria-hidden="true"><div class="ambient-field"></div><div class="ambient-grid"></div><canvas data-site-particles></canvas><div class="ambient-scan"></div></div>
-<header class="site-header"><div class="reading-progress" aria-hidden="true"></div>
-  <a class="orbit-brand" href="/" aria-label="Anime Adventures Wiki, início"><img src={gameLogo} alt="Anime Adventures" width="959" height="419"/><span>WIKI E COMUNIDADE</span></a>
+<header class="site-header"><div class="reading-progress" aria-hidden="true"><span></span></div>
+  <a class="orbit-brand" href="/" aria-label="Adventures Wiki, início"><img src={gameLogo} alt="Anime Adventures" width="959" height="419"/><span>WIKI E COMUNIDADE</span></a>
   <nav class="wiki-top-links" aria-label="Navegação da wiki">{topLinks.map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
   <button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><span class="search-mark" aria-hidden="true"></span><span>Pesquisar na wiki</span><kbd>Ctrl K</kbd></button>
   <div class="header-actions">
@@ -50,9 +52,10 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
     <button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
   </div>
 </header>
+<nav class="mobile-primary" aria-label="Atalhos principais">{[...topLinks.slice(1),['favoritos','Favoritos','/favoritos/']].map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
 <div class="site-shell"><aside class="sidebar" id="side-nav">
   <nav aria-label="Navegação principal"><span class="nav-label">WIKI</span>{pages.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-label">{label}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav>
-  <details class="side-section" open><summary>Conteúdos do jogo<span class="plus-mark" aria-hidden="true"></span></summary><nav aria-label="Conteúdos do jogo">{game.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-label">{label}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav></details>
+  <details class="side-section" open><summary>Conteúdos do jogo<span class="plus-mark" aria-hidden="true"></span></summary><nav aria-label="Conteúdos do jogo">{game.map(item=><a href={item.href} class:list={['side-link','side-game-link',{active:active===item.key}]} aria-current={active===item.key?'page':undefined}><GameIcon item={item}/><span class="side-label">{item.accessible}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav></details>
   <details class="side-section" open={['favoritos','conta','pessoas'].includes(active)}><summary>Comunidade e conta<span class="plus-mark" aria-hidden="true"></span></summary><nav aria-label="Comunidade e conta"><a class="side-link" href="/pessoas/">Pessoas</a><a class:list={['side-link',{active:active==='favoritos'}]} href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}>Favoritos</a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/" aria-current={active==='conta'?'page':undefined}>Gerenciar perfil</a></nav></details>
   <div class="sidebar-bottom"><a class="sidebar-install" href={botInvite} target="_blank" rel="noopener noreferrer">Adicionar o bot <i class="arrow-diagonal" aria-hidden="true"></i></a><a href="/sobre/">Sobre, fontes e créditos</a></div>
 </aside><div class="page-wrapper"><main id="main"><slot/></main>

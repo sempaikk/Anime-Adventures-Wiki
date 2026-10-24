@@ -1,0 +1,4 @@
+---
+const {item} = Astro.props;
+---
+<span class="game-icon" style={`--icon-color:${item.color};--game-icon:url('${item.icon.url}')`} aria-hidden="true">{item.icon.mask?<span class="game-icon-mask"/>:<img src={item.icon.url} width="48" height="48" alt="" loading="lazy"/>}</span>

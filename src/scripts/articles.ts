@@ -247,6 +247,136 @@ for (const [root, boxes] of statGroups) {
 
 // Article sections remain visible, following the source wiki's reading order.
 if (matchMedia("(max-width: 650px)").matches) {
-  for (const index of document.querySelectorAll<HTMLDetailsElement>(".article-index")) index.open = false;
+  for (const index of document.querySelectorAll<HTMLDetailsElement>(
+    ".article-index",
+  ))
+    index.open = false;
 }
 if (location.hash) revealAnchor();
+
+// The compact index remains reachable while reading, including on touch screens.
+const readingIndex =
+  document.querySelector<HTMLDetailsElement>(".reading-index");
+const sectionLinks = Array.from(
+  document.querySelectorAll<HTMLAnchorElement>(".reading-index-panel a"),
+);
+const sectionTargets = sectionLinks.map((link) =>
+  document.getElementById(decodeURIComponent(link.hash.slice(1))),
+);
+let currentSection = -1,
+  sectionFrame = 0;
+function updateReadingSection() {
+  if (sectionFrame) return;
+  sectionFrame = requestAnimationFrame(() => {
+    sectionFrame = 0;
+    const bottom =
+      document.querySelector("[data-article-tools]")?.getBoundingClientRect()
+        .bottom || 160;
+    let next = -1;
+    sectionTargets.forEach((target, index) => {
+      if (
+        target?.getClientRects().length &&
+        target.getBoundingClientRect().top <= bottom + 28
+      )
+        next = index;
+    });
+    if (next === currentSection) return;
+    currentSection = next;
+    document
+      .querySelectorAll<HTMLAnchorElement>(
+        ".reading-index-panel a,.table-of-contents a",
+      )
+      .forEach((link) => {
+        if (next >= 0 && link.hash === sectionLinks[next].hash)
+          link.setAttribute("aria-current", "location");
+        else link.removeAttribute("aria-current");
+      });
+    const label = document.querySelector("[data-reading-current]");
+    if (label)
+      label.textContent =
+        next >= 0 ? sectionLinks[next].textContent : "Informações";
+  });
+}
+if (sectionLinks.length) {
+  addEventListener("scroll", updateReadingSection, { passive: true });
+  addEventListener("resize", updateReadingSection, { passive: true });
+  addEventListener("pageshow", updateReadingSection);
+  updateReadingSection();
+}
+readingIndex?.addEventListener("click", (event) => {
+  if ((event.target as Element).closest("a")) readingIndex.open = false;
+});
+document.addEventListener("click", (event) => {
+  if (readingIndex && !(event.target as Element).closest(".reading-index"))
+    readingIndex.open = false;
+});
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Escape" && readingIndex?.open) {
+    readingIndex.open = false;
+    readingIndex.querySelector("summary")?.focus();
+  }
+});
+const copyStates = new WeakMap<
+  HTMLButtonElement,
+  { label: string; timer: number }
+>();
+async function copyReadingLink(url: string, button: HTMLButtonElement) {
+  const previous = copyStates.get(button);
+  const original = previous?.label || button.textContent || "Copiar link";
+  if (previous) clearTimeout(previous.timer);
+  try {
+    await navigator.clipboard.writeText(url);
+    button.textContent = button.classList.contains("section-share")
+      ? "✓"
+      : "Copiado ✓";
+    const toast = document.querySelector<HTMLElement>(".toast");
+    if (toast) {
+      toast.textContent = "Link copiado.";
+      toast.classList.add("show");
+      setTimeout(() => toast.classList.remove("show"), 2600);
+    }
+  } catch {
+    const field = document.createElement("input");
+    field.className = "reading-copy-fallback";
+    field.value = url;
+    field.readOnly = true;
+    field.setAttribute("aria-label", "Link para copiar");
+    button.after(field);
+    field.focus();
+    field.select();
+    field.addEventListener("blur", () => field.remove(), { once: true });
+  }
+  const timer = window.setTimeout(() => {
+    button.textContent = original;
+    copyStates.delete(button);
+  }, 2200);
+  copyStates.set(button, { label: original, timer });
+}
+document
+  .querySelector<HTMLButtonElement>("[data-share-article]")
+  ?.addEventListener("click", (event) => {
+    const url = new URL(location.href);
+    url.hash = "";
+    copyReadingLink(url.href, event.currentTarget as HTMLButtonElement);
+  });
+for (const target of sectionTargets) {
+  const heading = target?.matches("h2,h3,h4")
+    ? target
+    : target?.closest("h2,h3,h4");
+  if (!target || !heading) continue;
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "section-share";
+  button.textContent = "#";
+  button.setAttribute(
+    "aria-label",
+    `Copiar link da seção ${target.textContent?.trim()}`,
+  );
+  button.title = "Copiar link desta seção";
+  button.addEventListener("click", () => {
+    const url = new URL(location.href);
+    url.hash = target.id;
+    copyReadingLink(url.href, button);
+  });
+  heading.append(button);
+}

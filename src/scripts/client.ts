@@ -94,7 +94,11 @@ function closeMenu() {
 menu.addEventListener("click", () => {
   const open = document.body.classList.toggle("sidebar-open");
   sideNav.inert = !open;
-  if (open) document.documentElement.style.setProperty("--nav-menu-top", `${Math.round(document.querySelector(".site-header")!.getBoundingClientRect().bottom + 8)}px`);
+  if (open)
+    document.documentElement.style.setProperty(
+      "--nav-menu-top",
+      `${Math.round(document.querySelector(".site-header")!.getBoundingClientRect().bottom + 8)}px`,
+    );
   menu.setAttribute("aria-expanded", String(open));
   menu.setAttribute(
     "aria-label",
@@ -107,8 +111,11 @@ document.addEventListener("keydown", (e) => {
   if (e.key === "Tab" && document.body.classList.contains("sidebar-open")) {
     const controls = [
       menu,
-      ...Array.from(document.querySelectorAll("#side-nav a, #side-nav summary"))
-        .filter((control) => (control as HTMLElement).getClientRects().length > 0),
+      ...Array.from(
+        document.querySelectorAll("#side-nav a, #side-nav summary"),
+      ).filter(
+        (control) => (control as HTMLElement).getClientRects().length > 0,
+      ),
     ] as HTMLElement[];
     const first = controls[0],
       last = controls[controls.length - 1];
@@ -154,9 +161,7 @@ async function search() {
   const version = ++searchVersion,
     q = normalize(input.value.trim());
   if (!q) {
-    message(
-      "Digite o nome de um personagem, item ou assunto.",
-    );
+    message("Digite o nome de um personagem, item ou assunto.");
     return;
   }
   message("Pesquisando…");
@@ -194,13 +199,32 @@ async function search() {
       );
   }
 }
+let searchOpener: HTMLElement | null = null;
 function openSearch() {
+  searchOpener =
+    document.activeElement instanceof HTMLElement
+      ? document.activeElement
+      : null;
   closeMenu();
   dialog.showModal();
   input.focus();
   search();
 }
-$("[data-search-open]").addEventListener("click", openSearch);
+document
+  .querySelectorAll<HTMLElement>("[data-search-open]")
+  .forEach((button) => button.addEventListener("click", openSearch));
+document
+  .querySelector<HTMLFormElement>("[data-home-search]")
+  ?.addEventListener("submit", (event) => {
+    event.preventDefault();
+    input.value =
+      document.querySelector<HTMLInputElement>("#home-search")?.value.trim() ||
+      "";
+    openSearch();
+  });
+dialog.addEventListener("close", () =>
+  searchOpener?.focus({ preventScroll: true }),
+);
 $("[data-search-close]").addEventListener("click", () => dialog.close());
 dialog.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
@@ -278,7 +302,9 @@ if (favorite) {
   function refreshFavorite() {
     getFavorites()
       .then((state) => refresh(state.ids.includes(id)))
-      .catch(() => { favorite.textContent = "Tentar salvar nos favoritos"; });
+      .catch(() => {
+        favorite.textContent = "Tentar salvar nos favoritos";
+      });
   }
   document.addEventListener("aa:favorites-changed", refreshFavorite);
   refreshFavorite();

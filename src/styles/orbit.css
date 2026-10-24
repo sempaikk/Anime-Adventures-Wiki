@@ -290,8 +290,9 @@ select:focus-visible {
   border: 0;
   border-bottom: 1px solid var(--line-soft);
   border-radius: 0;
-  background: color-mix(in srgb, var(--bg) 93%, transparent);
-  backdrop-filter: blur(18px);
+  background: var(--bg);
+  backdrop-filter: none;
+  isolation: isolate;
   z-index: 90;
   box-shadow: none;
 }
@@ -2692,8 +2693,8 @@ body.page-home main {
   }
   .character-label {
     bottom: 16%;
-    right: 21% !important;
-    max-width: 210px !important;
+    right: 21%;
+    max-width: 210px;
     padding: 7px 11px;
     background: #0a133fe8;
   }
@@ -2701,7 +2702,7 @@ body.page-home main {
     font-size: 6px;
   }
   .character-label strong {
-    font-size: 10px !important;
+    font-size: 10px;
     margin: 3px 0;
   }
   .character-label small {
@@ -3467,20 +3468,19 @@ html[data-motion="on"] .ambient-scan {
 }
 .reading-progress {
   position: absolute;
-  bottom: -1px;
-  left: 0;
+  inset: auto 0 0;
   height: 2px;
+  overflow: hidden;
+  contain: strict;
+  pointer-events: none;
+}
+.reading-progress > span {
+  display: block;
   width: 100%;
-  background: linear-gradient(
-    90deg,
-    var(--accent),
-    var(--violet),
-    var(--solid)
-  );
-  box-shadow: 0 0 10px color-mix(in srgb, var(--accent) 40%, transparent);
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--violet));
   transform: scaleX(var(--reading-progress, 0));
   transform-origin: left;
-  pointer-events: none;
 }
 html[data-motion="on"]
   :is(
