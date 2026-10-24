@@ -4,7 +4,7 @@ O site combina consulta de wiki e participação da comunidade, com uma interfac
 
 ## Identidade
 
-Azul profundo, ciano, violeta e verde formam o tema Adventures. Escuro reduz a iluminação; Claro usa superfícies claras e mantém contraste nos textos. Cenários de nave, cidade noturna e dungeon podem ser escolhidos na entrada. As imagens editoriais são exclusivamente da wiki, sem geração por IA, redesenho de personagem ou artes externas. Origem e hashes estão em `source/interface-art.json`, `source/media-library.json` e `source/original-images.json`.
+Azul profundo, ciano, violeta e verde formam o tema Adventures. Escuro reduz a iluminação; Claro usa superfícies claras e mantém contraste nos textos. Cenários de nave, cidade noturna e dungeon podem ser escolhidos na entrada. A marca aparece no cabeçalho, com textos funcionais no destaque e sem repetir o nome do jogo nas molduras. Imagens decorativas se dissolvem no fundo, enquanto retratos e seus avisos ficam contidos nos cartões. Controles de fechar usam traços geométricos centrados, independentes da fonte. As imagens editoriais são exclusivamente da wiki, sem geração por IA, redesenho de personagem ou artes externas. Origem e hashes estão em `source/interface-art.json`, `source/media-library.json` e `source/original-images.json`.
 
 Inter serve à leitura e Oxanium aos títulos. Navegação usa palavras; símbolos são restritos a ações como busca, fechar, tema e indicação de destino. Não há emojis genéricos representando personagens ou categorias.
 
@@ -12,7 +12,7 @@ Inter serve à leitura e Oxanium aos títulos. Navegação usa palavras; símbol
 
 - Cabeçalho compacto: marca, personagens, wiki, comunidade, busca, tema, conta e menu completo.
 - Início: apresentação do jogo e entradas claras. Categorias adicionais e informações históricas se abrem por escolha do visitante.
-- Catálogo: filtros, comparação, ficha rápida e acesso aos artigos. Retratos ausentes têm indicação textual.
+- Catálogo: filtros, comparação, ficha rápida e acesso aos artigos. Retratos ausentes usam primeiro uma referência anterior documentada da mesma forma na wiki; a ausência é indicada quando essa referência também não está disponível.
 - Artigo: título, fontes, conteúdo preservado, infobox, índice, estatísticas e comentários em uma seção própria. A leitura não é substituída por um feed.
 - Comunidade: diretório de perfis publicados e pesquisa por pessoa.
 - Perfil: capa, avatar, nome, identificador, biografia, campos opcionais, contribuições reais e favoritos somente se autorizados pelo titular.

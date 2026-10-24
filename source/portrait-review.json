@@ -1,0 +1,627 @@
+{
+  "reviewed_at": "2026-10-24T04:51:05.408873+00:00",
+  "policy": "Keep current exact-form portraits. Use only documented earlier wiki references for the same character/form. Leave an explicit unavailable state otherwise.",
+  "recovered_units": [
+    "zoro",
+    "goku",
+    "uraraka",
+    "naruto",
+    "krillin",
+    "vegeta",
+    "sasuke",
+    "sakura",
+    "sanji",
+    "all_might",
+    "luffy_g4_evolved"
+  ],
+  "remaining": [
+    {
+      "id": "pain",
+      "name": "Agony",
+      "aliases": [
+        "Pain"
+      ]
+    },
+    {
+      "id": "amon",
+      "name": "Aman",
+      "aliases": []
+    },
+    {
+      "id": "attack_titan",
+      "name": "Attack Titan",
+      "aliases": []
+    },
+    {
+      "id": "inosuke",
+      "name": "Beast",
+      "aliases": [
+        "Inosoku",
+        "Inosuke",
+        "Inosuke Hashibira",
+        "Inosuku"
+      ]
+    },
+    {
+      "id": "yami_evolved",
+      "name": "Black Blade (Captain)",
+      "aliases": [
+        "Yamo (Captain)"
+      ]
+    },
+    {
+      "id": "todoroki_2",
+      "name": "Blaze Frost",
+      "aliases": [
+        "Todorro (Half)"
+      ]
+    },
+    {
+      "id": "todoroki",
+      "name": "Blaze Frost (Epic)",
+      "aliases": [
+        "Todorro"
+      ]
+    },
+    {
+      "id": "todoroki_2_evolved",
+      "name": "Blaze Frost (Released)",
+      "aliases": [
+        "Todorro (Released)"
+      ]
+    },
+    {
+      "id": "britannia_soldier",
+      "name": "Britannia Soldier",
+      "aliases": []
+    },
+    {
+      "id": "goku_ssb",
+      "name": "Carrot (Super)",
+      "aliases": [
+        "Goko (Super)",
+        "Goku Blue",
+        "Goku SSB",
+        "Goku Super Saiyajin Blue",
+        "Goku Super Saiyan Blue"
+      ]
+    },
+    {
+      "id": "goku_black",
+      "name": "Carrot Black",
+      "aliases": [
+        "Black Goku",
+        "Goko Black",
+        "Goku Black"
+      ]
+    },
+    {
+      "id": "trunks",
+      "name": "Chunks",
+      "aliases": []
+    },
+    {
+      "id": "kakashi",
+      "name": "Copy Ninja",
+      "aliases": [
+        "Kakashi",
+        "Kakashi Hatake",
+        "Kazashu"
+      ]
+    },
+    {
+      "id": "genos",
+      "name": "Cyborg",
+      "aliases": [
+        "Geno",
+        "Genos"
+      ]
+    },
+    {
+      "id": "dark_young",
+      "name": "Dark Young",
+      "aliases": []
+    },
+    {
+      "id": "jotaro",
+      "name": "Delinquent",
+      "aliases": [
+        "Jokujo",
+        "Jotaro",
+        "Jotaro Kujo"
+      ]
+    },
+    {
+      "id": "mahoraga",
+      "name": "Divine General",
+      "aliases": []
+    },
+    {
+      "id": "alucard_evolved",
+      "name": "Dracula (Unholy King)",
+      "aliases": [
+        "Alucard (Unholy King)"
+      ]
+    },
+    {
+      "id": "erza_lightning",
+      "name": "Elize (Lightning)",
+      "aliases": [
+        "Ezra (Lightning)"
+      ]
+    },
+    {
+      "id": "erza_evolved",
+      "name": "Elize (Random Equip)",
+      "aliases": [
+        "Ezra (Random Equip)"
+      ]
+    },
+    {
+      "id": "bakugou",
+      "name": "Explosion Hero",
+      "aliases": [
+        "Bakugo",
+        "Bakugou",
+        "Katsuki Bakugo",
+        "Katsuki Bakugou"
+      ]
+    },
+    {
+      "id": "bakugou_2",
+      "name": "Explosion Hero (Bang)",
+      "aliases": [
+        "Bakugo (Explosion)"
+      ]
+    },
+    {
+      "id": "bakugou_2_evolved",
+      "name": "Explosion Hero (Impact)",
+      "aliases": []
+    },
+    {
+      "id": "hawks",
+      "name": "Falcon",
+      "aliases": []
+    },
+    {
+      "id": "hawks_evolved",
+      "name": "Falcon (Feather Strike)",
+      "aliases": [
+        "Falcon (Feather Wings)"
+      ]
+    },
+    {
+      "id": "hinami_evolved",
+      "name": "Fiend Girl (Buttterfly)",
+      "aliases": [
+        "Fiend Girl (Butterfly)",
+        "Hinamy (Yotsume)"
+      ]
+    },
+    {
+      "id": "endeavor",
+      "name": "Flame Hero",
+      "aliases": []
+    },
+    {
+      "id": "endeavor_evolved",
+      "name": "Flame Hero (Hellfire)",
+      "aliases": [
+        "Flame Hero (Hellflame)"
+      ]
+    },
+    {
+      "id": "magna",
+      "name": "Flame Wizard",
+      "aliases": [
+        "Magnu"
+      ]
+    },
+    {
+      "id": "naruto_pts",
+      "name": "Fox Ninja (Demon Cloak)",
+      "aliases": [
+        "Noruto (Demon Cloak)"
+      ]
+    },
+    {
+      "id": "gajeel",
+      "name": "Gajoze",
+      "aliases": [
+        "Gajule"
+      ]
+    },
+    {
+      "id": "gon",
+      "name": "Gene",
+      "aliases": [
+        "Gone"
+      ]
+    },
+    {
+      "id": "gon_adult_evolved",
+      "name": "Gene (???)",
+      "aliases": [
+        "Gone (???)"
+      ]
+    },
+    {
+      "id": "kaneki",
+      "name": "Ghoul",
+      "aliases": [
+        "Kazeki"
+      ]
+    },
+    {
+      "id": "kaneki_2",
+      "name": "Ghoul (Centipede)",
+      "aliases": [
+        "Kazeki (Centipede)"
+      ]
+    },
+    {
+      "id": "giorno",
+      "name": "Gold Boy",
+      "aliases": [
+        "Giorno",
+        "Giorno Giovanna",
+        "Jiorno"
+      ]
+    },
+    {
+      "id": "piccolo",
+      "name": "Green Alien",
+      "aliases": [
+        "Piccolo",
+        "Piccoru"
+      ]
+    },
+    {
+      "id": "vash_evolved",
+      "name": "Gunslinger (Cross)",
+      "aliases": []
+    },
+    {
+      "id": "nobara",
+      "name": "Hammergirl",
+      "aliases": [
+        "Nobaba"
+      ]
+    },
+    {
+      "id": "escanor",
+      "name": "Hubris (Day)",
+      "aliases": [
+        "Pride (Day)"
+      ]
+    },
+    {
+      "id": "geten",
+      "name": "Ice Shaper",
+      "aliases": []
+    },
+    {
+      "id": "grimmjow",
+      "name": "Iceclaw",
+      "aliases": [
+        "Grim Jaw"
+      ]
+    },
+    {
+      "id": "aizen_chrys",
+      "name": "Illusionist (Chrysalis)",
+      "aliases": [
+        "Aizo (Chrysalis)"
+      ]
+    },
+    {
+      "id": "itachi",
+      "name": "Izo",
+      "aliases": [
+        "Itachi",
+        "Itachi Uchiha",
+        "Itochi"
+      ]
+    },
+    {
+      "id": "dio",
+      "name": "JIO",
+      "aliases": [
+        "Dio",
+        "Dio Brando"
+      ]
+    },
+    {
+      "id": "luffy_g4",
+      "name": "Joykid (Bounce)",
+      "aliases": [
+        "Luffo (Bounce)"
+      ]
+    },
+    {
+      "id": "luffy_marineford",
+      "name": "Joykid (Navy Bay)",
+      "aliases": [
+        "Luffo (Marine's Ford)"
+      ]
+    },
+    {
+      "id": "juvia",
+      "name": "Juvy",
+      "aliases": []
+    },
+    {
+      "id": "kakyoin",
+      "name": "Karyn",
+      "aliases": [
+        "Kakyoin",
+        "Karyoin",
+        "Noriaki Kakyoin"
+      ]
+    },
+    {
+      "id": "killua",
+      "name": "Killer",
+      "aliases": [
+        "Kizzua"
+      ]
+    },
+    {
+      "id": "kizaru_unit",
+      "name": "Light Admiral",
+      "aliases": [
+        "Kazoru"
+      ]
+    },
+    {
+      "id": "thor_evolved",
+      "name": "Lightning God (Awakened)",
+      "aliases": [
+        "Thor (Awakened)"
+      ]
+    },
+    {
+      "id": "byakuya",
+      "name": "Lotus Samurai",
+      "aliases": [
+        "Bakayua"
+      ]
+    },
+    {
+      "id": "mirko",
+      "name": "Lunar Hare",
+      "aliases": [
+        "Mirka"
+      ]
+    },
+    {
+      "id": "mirko_evolved",
+      "name": "Lunar Hare (Tiger)",
+      "aliases": [
+        "Lunar Hare (Tiger Bunny)",
+        "Mirka (Tiger Bunny)"
+      ]
+    },
+    {
+      "id": "madoka_evolved",
+      "name": "Magic Girl (Salvation)",
+      "aliases": [
+        "Madoko (Salvation)"
+      ]
+    },
+    {
+      "id": "hisoka",
+      "name": "Magician",
+      "aliases": [
+        "Hisova"
+      ]
+    },
+    {
+      "id": "frieza_mecha",
+      "name": "Mecha Tyrant",
+      "aliases": [
+        "Mecha Freezo"
+      ]
+    },
+    {
+      "id": "zeke",
+      "name": "Monkey",
+      "aliases": [
+        "Zeike"
+      ]
+    },
+    {
+      "id": "luffy_nightmare",
+      "name": "Nightmare Joykid",
+      "aliases": [
+        "Nightmare Luffo"
+      ]
+    },
+    {
+      "id": "noro",
+      "name": "Norro",
+      "aliases": []
+    },
+    {
+      "id": "law",
+      "name": "Operator",
+      "aliases": [
+        "Lao"
+      ]
+    },
+    {
+      "id": "all_might_evolved",
+      "name": "Prime Force (Peace)",
+      "aliases": []
+    },
+    {
+      "id": "overhaul",
+      "name": "Restructure",
+      "aliases": [
+        "Kai Chisaki",
+        "Overhaul",
+        "Underhaul"
+      ]
+    },
+    {
+      "id": "gaara",
+      "name": "Sand Ninja",
+      "aliases": [
+        "Gaara",
+        "Gaaro"
+      ]
+    },
+    {
+      "id": "crocodile",
+      "name": "Sandy",
+      "aliases": [
+        "Croc"
+      ]
+    },
+    {
+      "id": "dabi",
+      "name": "Scorch",
+      "aliases": [
+        "Dabi",
+        "Dabo"
+      ]
+    },
+    {
+      "id": "shinkiro",
+      "name": "Shinjira",
+      "aliases": [
+        "Shinkura"
+      ]
+    },
+    {
+      "id": "yuma_evolved",
+      "name": "Shrimp (White Terror)",
+      "aliases": [
+        "Yumo (White Nightmare)"
+      ]
+    },
+    {
+      "id": "toge",
+      "name": "Silent",
+      "aliases": [
+        "Togu"
+      ]
+    },
+    {
+      "id": "rukia",
+      "name": "Snow Reaper",
+      "aliases": [
+        "Ruki"
+      ]
+    },
+    {
+      "id": "ichigo_mask",
+      "name": "Spirit Reaper (Masked)",
+      "aliases": [
+        "Ichi (Masked)"
+      ]
+    },
+    {
+      "id": "starrk_wolf_unit",
+      "name": "Spirit Wolf",
+      "aliases": []
+    },
+    {
+      "id": "trunks_evolved",
+      "name": "Super Chunks",
+      "aliases": []
+    },
+    {
+      "id": "aot_generic",
+      "name": "Survey Corps Member",
+      "aliases": []
+    },
+    {
+      "id": "shinji",
+      "name": "Swingo",
+      "aliases": [
+        "Shingo"
+      ]
+    },
+    {
+      "id": "touka",
+      "name": "Touci",
+      "aliases": []
+    },
+    {
+      "id": "frieza",
+      "name": "Tyrant (Final)",
+      "aliases": [
+        "Freezo (Final)"
+      ]
+    },
+    {
+      "id": "eren",
+      "name": "Usurper",
+      "aliases": [
+        "Erein",
+        "Eren",
+        "Eren Jaeger",
+        "Eren Yeager"
+      ]
+    },
+    {
+      "id": "deku",
+      "name": "Verdant Hero",
+      "aliases": [
+        "Deku",
+        "Izuku Midoriya",
+        "Midoriya",
+        "Verdent Hero"
+      ]
+    },
+    {
+      "id": "deku_vigilante_evolved",
+      "name": "Verdant Hero (Dark)",
+      "aliases": []
+    },
+    {
+      "id": "deku_vigilante",
+      "name": "Verdant Hero (String)",
+      "aliases": []
+    },
+    {
+      "id": "ulquiorra_evolved",
+      "name": "Void Spear (Revival)",
+      "aliases": [
+        "Ulquiro (Resurrección)"
+      ]
+    },
+    {
+      "id": "nejire",
+      "name": "Windspire",
+      "aliases": [
+        "Nejiri",
+        "WindSpire"
+      ]
+    },
+    {
+      "id": "zenitsu",
+      "name": "Zapstu",
+      "aliases": [
+        "Zenitsu",
+        "Zenitsu Agatsuma",
+        "Zennu"
+      ]
+    },
+    {
+      "id": "mihawk",
+      "name": "Zorrawk",
+      "aliases": [
+        "Mivawk"
+      ]
+    }
+  ],
+  "historical_lookup_limit": {
+    "source": "https://animeadventures.fandom.com/api.php",
+    "http_status": 402,
+    "response": "Please contact the site owner for access.",
+    "scope": "This prevents a complete live file-history search; remaining entries do not establish that an older file never existed."
+  }
+}

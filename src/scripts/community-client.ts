@@ -33,7 +33,18 @@ export const element = <K extends keyof HTMLElementTagNameMap>(
   return node;
 };
 export function link(text: string, href: string, className = "") {
-  const node = element("a", className, text);
+  const directional = /\s*↗[\uFE0E]?$/u.test(text);
+  const node = element(
+    "a",
+    className,
+    directional ? text.replace(/\s*↗[\uFE0E]?$/u, "") : text,
+  );
+  if (directional) {
+    node.classList.add("has-direction");
+    const arrow = element("i", "arrow-diagonal");
+    arrow.setAttribute("aria-hidden", "true");
+    node.append(arrow);
+  }
   node.href = href;
   return node;
 }

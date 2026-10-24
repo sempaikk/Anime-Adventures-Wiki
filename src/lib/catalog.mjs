@@ -88,8 +88,17 @@ export function createCatalog(wiki, library = {}) {
   const filenames = new Map();
   const images = new Map();
   const animations = new Map();
+  const placeholders = new Set();
   for (const media of Object.values(library))
     if (media.url) {
+      if (
+        media.sha256 ===
+        "efdbfbad303100eb3540d5b72ce2b1ab731193c8f36167eb98095737357d5ccf"
+      ) {
+        placeholders.add(imageKey(media.key || media.source_url));
+        placeholders.add(media.url);
+        continue;
+      }
       filenames.set(normalize(fileName(media.filename)), media);
       images.set(imageKey(media.key || media.source_url), media.url);
       if (media.animated) animations.set(media.url, media.animation_url);
@@ -135,5 +144,6 @@ export function createCatalog(wiki, library = {}) {
     images,
     animations,
     localImages: new Set(images.values()),
+    isPlaceholderImage: (value) => placeholders.has(imageKey(value)),
   };
 }

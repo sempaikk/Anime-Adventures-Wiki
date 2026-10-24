@@ -12,7 +12,37 @@ const media = fs.existsSync("source/media-library.json")
   ? JSON.parse(fs.readFileSync("source/media-library.json"))
   : {};
 const branding = JSON.parse(fs.readFileSync("source/branding.json"));
-fs.writeFileSync("worker/community-schema.mjs", "// Generated from migrations/0002_community.sql.\nexport default "+JSON.stringify(fs.readFileSync("migrations/0002_community.sql","utf8").split(";").map(sql=>sql.trim()).filter(Boolean))+";\n");
+const recoveredPortraits = JSON.parse(
+  fs.readFileSync("source/portrait-recovery.json"),
+);
+// Prefer the current exact-form portrait; a documented older wiki image is next.
+for (const unit of wiki.units) {
+  const current =
+    !unit.retired && originals[unit.id]?.url ? originals[unit.id] : null;
+  const recovered = recoveredPortraits[unit.id];
+  const selected =
+    current ||
+    ((!unit.image || unit.image_note) && recovered?.url ? recovered : null);
+  if (selected && fs.existsSync("public" + selected.url)) {
+    unit.image = selected.url;
+    unit.image_source = selected.source_page;
+    unit.original_image = selected;
+    if (selected === recovered) unit.image_note = recovered.note;
+    else delete unit.image_note;
+  }
+}
+fs.writeFileSync(
+  "worker/community-schema.mjs",
+  "// Generated from migrations/0002_community.sql.\nexport default " +
+    JSON.stringify(
+      fs
+        .readFileSync("migrations/0002_community.sql", "utf8")
+        .split(";")
+        .map((sql) => sql.trim())
+        .filter(Boolean),
+    ) +
+    ";\n",
+);
 for (const unit of wiki.units) {
   const candidates = wiki.articles.filter((page) => page.unit_id === unit.id);
   candidates.sort(
@@ -97,17 +127,7 @@ for (const page of wiki.articles) {
     page.excerpt = `Consulte ${unit.name} para conhecer esta forma e suas informações.`;
 }
 wiki.branding = branding;
-for (const unit of wiki.units) {
-  const original = originals[unit.id];
-  if (
-    original?.url &&
-    !unit.retired &&
-    fs.existsSync("public" + original.url)
-  ) {
-    unit.image = original.url;
-    unit.original_image = original;
-  }
-}
+wiki.counts.portraits = wiki.units.filter((unit) => unit.image).length;
 wiki.counts.rendered = wiki.articles.filter((page) => page.rendered).length;
 fs.writeFileSync("source/wiki.json", JSON.stringify(wiki));
 const index = wiki.articles
@@ -145,7 +165,19 @@ index.push({
   kind: "guide",
 });
 fs.writeFileSync("public/data/search.json", JSON.stringify(index));
-fs.writeFileSync("source/community-content.json", JSON.stringify(Object.fromEntries(index.filter(item=>item.favorite_id).map(item=>[item.favorite_id,{title:item.title,url:item.url}]))));
+fs.writeFileSync(
+  "source/community-content.json",
+  JSON.stringify(
+    Object.fromEntries(
+      index
+        .filter((item) => item.favorite_id)
+        .map((item) => [
+          item.favorite_id,
+          { title: item.title, url: item.url },
+        ]),
+    ),
+  ),
+);
 fs.writeFileSync("public/data/coverage.json", JSON.stringify(wiki.counts));
 fs.writeFileSync(
   "public/data/units.json",
@@ -165,7 +197,12 @@ fs.writeFileSync(
         wiki.articles.find((page) => page.slug === unit.article)?.facts || [],
       source: (() => {
         const page = wiki.articles.find((page) => page.slug === unit.article);
-        return page ? { url: page.source_url + "?oldid=" + page.revision_id, revision: page.revision_timestamp } : null;
+        return page
+          ? {
+              url: page.source_url + "?oldid=" + page.revision_id,
+              revision: page.revision_timestamp,
+            }
+          : null;
       })(),
     })),
   ),

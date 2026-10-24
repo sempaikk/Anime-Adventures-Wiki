@@ -1,4 +1,173 @@
 /* Interface artwork is sourced in source/interface-art.json. Geometry here is UI. */
+.square-button.ui-close,
+.comparison-remove.ui-close {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 0;
+  box-sizing: border-box;
+}
+.square-button.ui-close {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+}
+.comparison-remove.ui-close {
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+}
+.close-mark,
+.plus-mark,
+.minus-mark {
+  display: block;
+  position: relative;
+  width: 14px;
+  height: 14px;
+  flex: none;
+  pointer-events: none;
+}
+.close-mark:before,
+.close-mark:after,
+.plus-mark:before,
+.plus-mark:after,
+.minus-mark:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 0.75px);
+  height: 1.5px;
+  width: 100%;
+  border-radius: 1px;
+  background: currentColor;
+  transform-origin: center;
+}
+.close-mark:before {
+  transform: rotate(45deg);
+}
+.close-mark:after {
+  transform: rotate(-45deg);
+}
+.plus-mark:after {
+  transform: rotate(90deg);
+}
+.site-header .theme-symbol {
+  display: block;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  min-width: 15px;
+  font-size: 0;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  background: linear-gradient(90deg, currentColor 50%, transparent 50%);
+  line-height: 0;
+}
+.unit-art:before {
+  display: none;
+}
+.preview-orbit,
+.character-halo {
+  display: none;
+}
+body.page-home .orbit-hero {
+  background: var(--bg);
+}
+.hero-world {
+  mask-image: linear-gradient(#000 0%, #000 78%, transparent 100%);
+}
+.hero-character-art {
+  position: absolute;
+  inset: 0;
+  mask-image: linear-gradient(#000 0%, #000 76%, transparent 99%);
+}
+.hero-character-art > img {
+  mask-image: none !important;
+}
+.portal-units > img,
+.unit-art > img,
+.featured-strip img,
+.preview-art > img,
+.library-card[data-kind="unit"] .library-thumbnail img,
+.original-infobox .pi-image img,
+.wiki-content .tier-unit > summary > img,
+.wiki-content .source-unit-gallery img {
+  mask-image: linear-gradient(#000 0%, #000 89%, transparent 100%);
+}
+.wiki-content .source-unit-gallery > .ChBox_item {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: hidden;
+}
+.wiki-content .source-unit-gallery > .ChBox_item > a {
+  min-width: 0;
+  min-height: 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.wiki-content .source-unit-gallery .ChBox_img__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex: 0 0 105px;
+  width: 100%;
+  min-height: 105px;
+  height: 105px;
+  max-width: 100%;
+  margin: 0;
+}
+.wiki-content .source-unit-gallery .ChBox_img__item > img {
+  position: static;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  margin: 0;
+}
+.wiki-content .source-unit-gallery .portrait-unavailable {
+  position: static;
+  inset: auto;
+  transform: none;
+  width: min(100%, 105px);
+  height: 100%;
+  max-height: 105px;
+  min-height: 0;
+  display: grid;
+  place-items: center;
+  flex: none;
+  margin: 0;
+  padding: 8px;
+  font-size: 10px;
+  line-height: 1.6;
+  text-align: center;
+  box-sizing: border-box;
+}
+.wiki-content .source-unit-gallery .ChBox_text {
+  position: static;
+  inset: auto;
+  transform: none;
+  max-width: 100%;
+  width: auto;
+  flex: none;
+  margin: 0;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+.wiki-content .source-unit-gallery .portrait-unavailable:before,
+.wiki-content .source-unit-gallery .portrait-unavailable:after {
+  display: none;
+}
+html[data-theme="light"] .hero-scroll {
+  color: var(--ink);
+}
 html,
 html[data-theme="adventures"] {
   --bg: #080c20;
@@ -653,7 +822,7 @@ body.page-home main {
   transform-origin: 60% 70%;
   transition: filter 0.3s;
 }
-.hero-character > img {
+.hero-character-art > img {
   width: 100%;
   height: 100%;
   object-fit: contain;
@@ -2506,7 +2675,7 @@ body.page-home main {
     height: 54%;
     opacity: 1;
   }
-  .hero-character > img {
+  .hero-character-art > img {
     object-position: 50% 65%;
     mask-image: linear-gradient(
       transparent 0%,
@@ -3033,4 +3202,60 @@ body.page-home main {
   .hero-world-image {
     transform: none !important;
   }
+}
+
+/* Optical alignment does not depend on font metrics. */
+.square-button.ui-close,
+.comparison-remove.ui-close {
+  display: grid;
+  place-items: center;
+  padding: 0;
+  line-height: 1;
+  font-size: 0;
+  align-items: center;
+  justify-items: center;
+}
+.wiki-content .source-unit-gallery > .ChBox_item > a {
+  justify-content: flex-start;
+  height: auto;
+}
+.wiki-content .source-unit-gallery .ChBox_item_contet_container {
+  width: 100%;
+  min-width: 0;
+  flex: none;
+}
+.portrait-provenance {
+  font-size: 11px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin: 15px 0;
+}
+.portrait-provenance a {
+  color: var(--accent);
+  text-underline-offset: 3px;
+  text-decoration: underline;
+}
+.has-direction {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+.button .arrow-diagonal,
+.hero-play .arrow-diagonal {
+  vertical-align: middle;
+}
+.character-label .arrow-diagonal {
+  width: 8px;
+  height: 8px;
+}
+.hero-character-art > img {
+  pointer-events: none;
+}
+.comparison-slot-plus > .plus-mark {
+  width: 18px;
+  height: 18px;
+}
+.unit-peek > .plus-mark {
+  width: 10px;
+  height: 10px;
 }

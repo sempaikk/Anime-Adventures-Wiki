@@ -7,6 +7,52 @@ import { load } from "cheerio";
 import { createCatalog } from "../src/lib/catalog.mjs";
 
 const resolve = (t) => (t === "Traits" ? { slug: "traits-165" } : null);
+test("a verified legacy portrait fills an omitted source infobox image without changing its facts", () => {
+  const image = "/art/originals/legacy-blossom.webp";
+  const unit = {
+    id: "sakura",
+    name: "Blossom",
+    aliases: ["Sakura"],
+    image,
+    article: "blossom-239",
+    original_image: {
+      source_url:
+        "https://static.wikia.nocookie.net/animeadventures/images/1/1f/Sakura_Cover.webp",
+    },
+  };
+  const catalog = createCatalog({ units: [unit], articles: [], aliases: {} });
+  const html = cleanArticle(
+    '<aside class="portable-infobox"><h2 class="pi-title">Blossom</h2><div class="pi-data"><h3 class="pi-data-label">Deployment Cost</h3><div class="pi-data-value">600¥</div></div></aside>',
+    () => null,
+    new Map(),
+    catalog,
+  );
+  const $ = load(html);
+  assert.equal($(".portable-infobox .pi-image img").attr("src"), image);
+  assert.equal($(".pi-data-value").text(), "600¥");
+});
+test("source character cards keep their complete contents inside one valid link", () => {
+  const unit = {
+    id: "sakura",
+    name: "Blossom",
+    aliases: ["Sakura"],
+    image: null,
+    article: "blossom-239",
+  };
+  const catalog = createCatalog({ units: [unit], articles: [], aliases: {} });
+  const html = cleanArticle(
+    '<ul class="container_ChBox"><dd class="ChBox_item"><div class="ChBox_item_contet_container"><div class="ChBox_img__item"><a href="/wiki/Blossom"><img src="https://static.wikia.nocookie.net/animeadventures/images/a/aa/Unknown.png" alt="Blossom"></a></div></div><div class="ChBox_text">Blossom</div></dd></ul>',
+    () => null,
+    new Map(),
+    catalog,
+  );
+  const $ = load(html);
+  assert.equal($(".source-unit-gallery>li").length, 1);
+  assert.equal($(".ChBox_item>a").length, 1);
+  assert.equal($(".ChBox_item>a a").length, 0);
+  assert.equal($(".ChBox_item>a .portrait-unavailable").length, 1);
+  assert.equal($(".ChBox_item>a .ChBox_text").text(), "Blossom");
+});
 test("community source cannot inject active script, handlers, styles or frames", () => {
   const html = cleanArticle(
     '<script>alert(1)</script><iframe src="https://evil.test"></iframe><p onclick="alert(1)" style="position:fixed">Reference</p><a href="javascript:alert(1)">Unsafe</a>',

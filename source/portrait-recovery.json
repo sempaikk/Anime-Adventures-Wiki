@@ -1,0 +1,205 @@
+{
+  "zoro": {
+    "url": "/art/originals/5eec753d1b6731accb90f28f.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/d/de/Zoro_Cover.webp/revision/latest?cb=20220828214217",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Zoro_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 4252,
+    "sha256": "038e160d484f8d2215e9365db929f085ede94ad6501b01dc0802d445912c72f5",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "zoro",
+      "name": "Zen",
+      "documented_aliases": ["Roronoa Zoro", "Zoro", "Zoru"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "goku": {
+    "url": "/art/originals/d78a695d43d38fb08f846fdd.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/f/f5/Goku_Cover.webp/revision/latest?cb=20220828213913",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Goku_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 4348,
+    "sha256": "64a874ded064c0fcb9c2b65b574925d8fff57dfcd441eb4a57c3f76f39585168",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "goku",
+      "name": "Carrot",
+      "documented_aliases": ["Goko", "Goku", "Goku base", "Son Goku"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "uraraka": {
+    "url": "/art/originals/7bde64208f9e70df897a6b80.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/1/17/Uraraka.webp/revision/latest?cb=20220828214305",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Uraraka.webp",
+    "width": 422,
+    "height": 251,
+    "bytes": 23846,
+    "sha256": "be6abc00cef3f146bdb685e2221901bf339cdd1d7faff1d3dba92606a8b4df50",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "uraraka",
+      "name": "Gravity Hero",
+      "documented_aliases": ["Ochaco Uraraka", "Ochako Uraraka", "Uraraka"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "naruto": {
+    "url": "/art/originals/f6cfde4e0f3b40124e5eb73e.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/a/a6/Naruto_R.webp/revision/latest?cb=20220828213912",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Naruto_R.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 4076,
+    "sha256": "460f000f7cb607eb771d200c7b2eab39b5616a1714f23fc25d4b006e0f6ce4e0",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "naruto",
+      "name": "Fox Ninja",
+      "documented_aliases": ["Naruto", "Naruto Uzumaki", "Noruto"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "krillin": {
+    "url": "/art/originals/dfe685d5851cd79649e51539.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/9/9f/Krillin_Cover.webp/revision/latest?cb=20220828213913",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Krillin_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 4284,
+    "sha256": "f028b3db6c1ee4ea67e1e12eca63c83002dbfadf795668636d33d4b64bfe68c7",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "krillin",
+      "name": "Kolo",
+      "documented_aliases": ["Krillin", "Krillo", "Kuririn"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "vegeta": {
+    "url": "/art/originals/3cee2ed9c89801cb5ea6b2f1.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/6/6f/Vegeta_Cover.webp/revision/latest?cb=20220828213913",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Vegeta_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 4342,
+    "sha256": "5973b715ce56684b4fd97cdf90bf8d6df0dacbdae050b2f09e8fcfb9571e7011",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "vegeta",
+      "name": "Vego",
+      "documented_aliases": ["Vegeta", "Vegeta base", "Vegita"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "sasuke": {
+    "url": "/art/originals/ed81b8d35b6506e3b5f70a45.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/6/6f/Sasuke_Cover.webp/revision/latest?cb=20220828213913",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Sasuke_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 3658,
+    "sha256": "acb1157cdb752a0a287090506dde3f55eb7f031fd84f9671bd43c1392ed71346",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "sasuke",
+      "name": "Shinobi",
+      "documented_aliases": ["Sasuke", "Sasuke Uchiha", "Sosuke"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "sakura": {
+    "url": "/art/originals/28fb99c492b0b400b33cc1b8.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/1/1f/Sakura_Cover.webp/revision/latest?cb=20220828213913",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Sakura_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 3878,
+    "sha256": "2707e617a91f5c5399aa6ab6787c8d2ad9e3d2ddedd0ae92706f4bec1bcd2ca5",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "sakura",
+      "name": "Blossom",
+      "documented_aliases": ["Sakura", "Sakura Haruno", "Sakuro"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "sanji": {
+    "url": "/art/originals/270ad1e00c56a914eb1ff39d.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/a/aa/Sanji_Cover.webp/revision/latest?cb=20220828214217",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Sanji_Cover.webp",
+    "width": 150,
+    "height": 90,
+    "bytes": 3688,
+    "sha256": "39d26bc6d515e299629f2f59aeecf93d2cb6f374a3d291afe5e11941fea5d814",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "sanji",
+      "name": "Joan",
+      "documented_aliases": ["Sanjay", "Sanji", "Vinsmoke Sanji"]
+    },
+    "note": "Imagem de arquivo da própria wiki, com o nome anterior do personagem."
+  },
+  "all_might": {
+    "url": "/art/originals/da7ca2b6aa0031e998470638.png",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/d/d6/AllMight.png/revision/latest?cb=20220801032614",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:AllMight.png",
+    "width": 103,
+    "height": 60,
+    "bytes": 12286,
+    "sha256": "da7ca2b6aa0031e9984706385dd348091a60ea542153db14c43ab9e44c87b910",
+    "selection": "documented_historical_wiki_image",
+    "processing": {
+      "type": "crop",
+      "box": [13, 35, 116, 95],
+      "generation": false
+    },
+    "generation": false,
+    "identity": {
+      "unit_id": "all_might",
+      "name": "Prime Force",
+      "documented_aliases": ["All Force", "All Might", "Toshinori Yagi"]
+    },
+    "note": "Retrato de uma versão anterior do personagem, preservado da wiki.",
+    "source_sha256": "8d067a5cef44d97a288586d0746c64279af9ff89efcda764a1b9a6d18d002454"
+  },
+  "luffy_g4_evolved": {
+    "url": "/art/wiki/67f569e700ebee51b6055fc8.webp",
+    "source_url": "https://static.wikia.nocookie.net/animeadventures/images/a/aa/Joykid_%28Gear_IV%29_%28Pose%29.png/revision/latest",
+    "source_page": "https://animeadventures.fandom.com/wiki/File:Joykid_(Gear_IV)_(Pose).png",
+    "width": 212,
+    "height": 237,
+    "bytes": 10774,
+    "sha256": "8539353a3616970836f203ebb1bd1bed608f53e555bc74817388143e86dcdd9e",
+    "selection": "documented_historical_wiki_image",
+    "processing": "original_copy",
+    "generation": false,
+    "identity": {
+      "unit_id": "luffy_g4_evolved",
+      "name": "Joykid (Mode IV)",
+      "documented_aliases": ["Joykid (Gear IV)", "Luffo (Gear IV)"]
+    },
+    "note": "Imagem de referência da wiki com o nome anterior desta forma."
+  }
+}

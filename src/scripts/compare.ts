@@ -70,9 +70,10 @@ function renderTable(units: Unit[]) {
   units.forEach((unit, index) => {
     const th = node("th"); th.scope = "col";
     const controls = node("div", undefined, "comparison-column-actions");
-    const change = node("button", "Trocar", "plain-button"), remove = node("button", "×", "comparison-remove");
+    const change = node("button", "Trocar", "plain-button"), remove = node("button", undefined, "comparison-remove ui-close");
     change.type = remove.type = "button"; change.dataset.comparisonEdit = String(index); remove.dataset.comparisonRemove = unit.id;
     remove.setAttribute("aria-label", `Remover ${unit.name} da comparação`);
+    const cross = node("span", undefined, "close-mark"); cross.setAttribute("aria-hidden", "true"); remove.append(cross);
     controls.append(change, remove);
     const name = node("a", unit.name, "comparison-unit-name"); name.href = base + unit.url;
     th.append(controls, portrait(unit, "comparison-portrait"), node("span", unit.retired ? "Arquivo histórico" : unit.rarity || "Personagem", "comparison-rarity"), name);
@@ -92,7 +93,7 @@ function renderTable(units: Unit[]) {
   for (const unit of units) {
     const cell = node("td");
     if (unit.source?.url.startsWith("https://animeadventures.fandom.com/")) {
-      const source = node("a", "Artigo original ↗︎", "comparison-source"); source.href = unit.source.url; source.target = "_blank"; source.rel = "noopener noreferrer";
+      const source = node("a", "Artigo original", "comparison-source"); source.href = unit.source.url; source.target = "_blank"; source.rel = "noopener noreferrer";
       const date = new Date(unit.source.revision);
       cell.append(source);
       if (!Number.isNaN(date.getTime())) cell.append(node("small", "Revisão de " + date.toLocaleDateString("pt-BR", { timeZone: "UTC" })));

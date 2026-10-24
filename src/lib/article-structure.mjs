@@ -35,7 +35,11 @@ export function structureArticle(input, catalog = {}) {
   $("img").each((_, node) => {
     const image = $(node),
       src = image.attr("data-src") || image.attr("src") || "";
-    if (!/\/(?:Unknown|Placeholder)\.png(?:\/|$)/i.test(src)) return;
+    if (
+      !/\/(?:Unknown|Placeholder)\.png(?:\/|$)/i.test(src) &&
+      !catalog.isPlaceholderImage?.(src)
+    )
+      return;
     const owner = image.closest(
       ".advanced-tooltip,.tierList_item,.ChBox_item,.portable-infobox",
     );
@@ -43,12 +47,36 @@ export function structureArticle(input, catalog = {}) {
       owner
         .find(".tierList_item__text_name,.ChBox_text,.pi-title")
         .first()
-        .text(),
+        .text() ||
+        image.attr("alt") ||
+        "",
     );
     const unit = catalog.resolveUnit?.(title);
     if (unit?.image)
       image.attr({ src: unit.image, alt: unit.name }).removeAttr("data-src");
     else image.replaceWith(missing(title || "personagem"));
+  });
+  // Some original infoboxes omit the portrait node completely when the file
+  // is missing. A verified catalog reference still belongs in the same box.
+  $(".portable-infobox").each((_, node) => {
+    const infobox = $(node),
+      title = text(infobox.find(".pi-title").first().text());
+    const unit = catalog.resolveUnit?.(title);
+    if (!unit || infobox.find(".pi-image img").length) return;
+    const portrait = unit.image
+      ? $("<img>").attr({
+          src: unit.image,
+          alt: unit.name,
+          width: String(unit.original_image?.width || 200),
+          height: String(unit.original_image?.height || 200),
+        })
+      : missing(unit.name);
+    let figure = infobox.find(".pi-image").first();
+    if (!figure.length) {
+      figure = $('<figure class="pi-image"></figure>');
+      infobox.find(".pi-title").first().after(figure);
+    }
+    figure.empty().append(portrait);
   });
   // These are duplicate text/image layers used exclusively as shadows in the source.
   $("[class]").each((_, node) => {
@@ -293,6 +321,11 @@ export function structureArticle(input, catalog = {}) {
       entry.find(".ChBox_img__item").empty().append(image);
     }
     if (unit?.article) {
+      // A card becomes one link. Keeping the source's image links inside it
+      // creates invalid nested anchors which browsers split outside the card.
+      entry.find("a").each((_, anchor) => {
+        $(anchor).replaceWith($(anchor).contents());
+      });
       const content = entry.contents();
       entry
         .empty()
@@ -300,6 +333,7 @@ export function structureArticle(input, catalog = {}) {
           $("<a></a>").attr("href", `/artigo/${unit.article}/`).append(content),
         );
     }
+    if (entry.parent().is("ul,ol")) node.name = "li";
   });
   $(".mobileonly")
     .filter((_, node) => /Fast travel/.test($(node).text()))

@@ -2,12 +2,12 @@ import official from "../../source/official-links.json";
 export const channels = [
   {
     key: "roblox",
-    name: "Anime Adventures",
+    name: "Jogar no Roblox",
     platform: "Roblox",
     label: "Jogar",
     url: official.roblox.url,
     description:
-      "Abra Anime Adventures no Roblox. O jogo é desenvolvido por Gomu.",
+      "Abra a página do jogo no Roblox. Desenvolvido por Gomu.",
   },
   {
     key: "youtube",
@@ -19,7 +19,7 @@ export const channels = [
   },
   {
     key: "discord",
-    name: "Anime Adventures",
+    name: "Servidor do jogo",
     platform: "Discord",
     label: "Entrar no Discord",
     url: official.discord.url,
