@@ -603,38 +603,21 @@ html {
     grid-template-columns: minmax(0, 1fr);
   }
 }
-/* Navigation arrows are drawn with CSS, independent of emoji fonts. */
+/* One vector keeps the shaft and tip joined at every size and screen scale. */
 .arrow-diagonal {
   display: inline-block;
-  position: relative;
   width: 12px;
-  min-width: 12px;
+  min-width: 0;
   height: 12px;
   flex-shrink: 0;
   vertical-align: middle;
+  font-style: normal;
   font-size: 0;
   line-height: 0;
-}
-.arrow-diagonal:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 6px;
-  width: 15px;
-  height: 1px;
   background: currentColor;
-  transform: rotate(-45deg);
-  transform-origin: center;
-}
-.arrow-diagonal:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 8px;
-  height: 8px;
-  border-top: 1px solid currentColor;
-  border-right: 1px solid currentColor;
+  --arrow-shape: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M3 13 13 3M3 3h10v10' fill='none' stroke='black' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  -webkit-mask: var(--arrow-shape) center / contain no-repeat;
+  mask: var(--arrow-shape) center / contain no-repeat;
 }
 .quick-arrow .arrow-diagonal,
 .unit-arrow .arrow-diagonal {
@@ -642,15 +625,14 @@ html {
   min-width: 9px;
   height: 9px;
 }
-.quick-arrow .arrow-diagonal:before,
-.unit-arrow .arrow-diagonal:before {
-  width: 11px;
-  top: 4px;
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
 }
-.quick-arrow .arrow-diagonal:after,
-.unit-arrow .arrow-diagonal:after {
-  width: 6px;
-  height: 6px;
+.footer-links .arrow-diagonal {
+  width: 11px;
+  height: 11px;
 }
 .search-foot {
   font-size: 11px;
