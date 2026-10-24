@@ -1,30 +1,38 @@
-# Anime Adventures Wiki em hospedagem própria
+# Direção visual e estrutura
 
-A direção atual preserva a aparência e a organização da wiki do jogo: cabeçalho com o logo e o banner, navegação horizontal, painéis roxos, treze atalhos coloridos e artigos com a ficha de informações original. A estrutura da plataforma Fandom, anúncios, recomendações externas e seus recursos de edição não fazem parte da interface.
+O site combina consulta de wiki e participação da comunidade, com uma interface própria inspirada nos cenários coloridos do jogo. A página inicial abre com arte real da wiki em camadas, personagem em destaque e três entradas: personagens, wiki e comunidade. Não imita o shell da Fandom nem uma rede social existente.
 
-## Referências verificáveis
+## Identidade
 
-Os artigos continuam ligados às revisões preservadas no acervo. A página inicial usa as seções da fonte Anime Adventures Wiki, incluindo apresentação, navegação, personagens e registro da atualização. Esse registro tem indicação explícita de que é histórico; não é anunciado como a atualização atual do jogo.
+Azul profundo, ciano, violeta e verde formam o tema Adventures. Escuro reduz a iluminação; Claro usa superfícies claras e mantém contraste nos textos. Cenários de nave, cidade noturna e dungeon podem ser escolhidos na entrada. As imagens editoriais são exclusivamente da wiki, sem geração por IA, redesenho de personagem ou artes externas. Origem e hashes estão em `source/interface-art.json`, `source/media-library.json` e `source/original-images.json`.
 
-Os ícones originais que eram aplicados por CSS foram importados da revisão 44997 de MediaWiki:Common.css. `source/wiki-navigation.json` registra cada origem, dimensão e hash. A folha original está em `source/reference` como referência documental; os estilos publicados são a adaptação da interface própria. Máscaras preservam as cores dos botões. Os dois ícones ilustrados de Battlepass e Contracts mantêm suas cores originais.
+Inter serve à leitura e Oxanium aos títulos. Navegação usa palavras; símbolos são restritos a ações como busca, fechar, tema e indicação de destino. Não há emojis genéricos representando personagens ou categorias.
 
-## Organização e leitura
+## Organização
 
-- Cabeçalho com arte do jogo e logo original, com busca, temas, conta e menu acessíveis.
-- Página inicial em duas colunas no computador, com conteúdo do jogo e atalhos da fonte. No celular, os blocos passam a uma coluna e a grade de atalhos usa três botões por linha.
-- Todos os treze atalhos principais levam aos artigos locais correspondentes. A categoria de personagens mantém a Unit List original; o catálogo com filtros permanece disponível em Ferramentas.
-- Artigos têm título, ações e corpo legível. A ficha principal original é movida para a coluna lateral sem remover seu texto, imagens ou valores. Abas, seletores de upgrades documentados e tabelas usam controles próprios.
-- As seções dos artigos ficam abertas, seguindo a leitura da fonte. Índices permitem saltar para cada seção. No celular, o índice pode ser expandido quando necessário.
-- Favoritos, conta com Discord e comparação permanecem acessíveis pelo menu e pela área de ferramentas.
+- Cabeçalho compacto: marca, personagens, wiki, comunidade, busca, tema, conta e menu completo.
+- Início: apresentação do jogo e entradas claras. Categorias adicionais e informações históricas se abrem por escolha do visitante.
+- Catálogo: filtros, comparação, ficha rápida e acesso aos artigos. Retratos ausentes têm indicação textual.
+- Artigo: título, fontes, conteúdo preservado, infobox, índice, estatísticas e comentários em uma seção própria. A leitura não é substituída por um feed.
+- Comunidade: diretório de perfis publicados e pesquisa por pessoa.
+- Perfil: capa, avatar, nome, identificador, biografia, campos opcionais, contribuições reais e favoritos somente se autorizados pelo titular.
+- Conta: sincronização de favoritos, publicação explícita do perfil, controle de dados e saída.
+- Revisão: sugestões de correção e denúncias. Somente o responsável configurado pode moderar ou publicar notas com fonte.
 
-## Temas, linguagem e movimento
+Perfis não têm postagens, amigos, grupos ou mensagens. Esses recursos e a ponte de chat com Discord ficam para futuras entregas, sem controles que finjam funcionar agora.
 
-Adventures usa o roxo da wiki; Escuro reduz sua iluminação e Claro usa superfícies claras com destaques violetas. A preferência é preservada. Ícones e retratos do jogo não são redesenhados ou recoloridos fora das máscaras usadas pela própria fonte.
+## Movimento e desempenho
 
-A interface usa português direto. Os artigos e os nomes dos botões gráficos mantêm o idioma da origem. Fontes Fredoka One e Rubik são hospedadas localmente. Movimentos de botões, abertura de controles e navegação respeitam movimento reduzido e preservam links e histórico nativos.
+Links e histórico continuam nativos. Transições diferenciam entrada, saída, retorno e abertura de artigo. Botões respondem ao clique; cartões reagem ao ponteiro; elementos abaixo da primeira tela entram ao serem alcançados. A cena inicial usa WebGL carregado sob demanda em dispositivos compatíveis, aplicando apenas um efeito de lente à imagem original; a imagem estática permanece como alternativa.
 
-## Dados e origem
+Movimento reduzido desliga animações, paralaxe e WebGL. Toque não depende de hover. O efeito da cena renderiza em resposta a eventos e não mantém um loop contínuo parado. A API de comentários só é consultada quando a seção se aproxima da tela. Busca, filtros, abas, menu e diálogos têm controles de teclado.
 
-As estatísticas não são atualizadas por suposição. Revisões, créditos e avisos de lacunas permanecem nos artigos. Retratos ausentes continuam identificados; não se atribui a arte de outra forma para preencher uma ausência. A ilustração anterior criada com IA fica arquivada como conceito e não é usada nesta apresentação da wiki.
+## Conteúdo e participação
 
-Os links do jogo fornecidos pelo responsável e os links da página original são identificados como destinos externos. O site continua um projeto independente, com os créditos e a licença da fonte preservados.
+Não inventar estatísticas, retratos, atualização do jogo ou atividade da comunidade. Os artigos preservam a revisão e os créditos da fonte. Notas de revisão do site aparecem separadas, com data e fonte consultada. Comentários não alteram o conteúdo enciclopédico diretamente.
+
+Imagens fornecidas por participantes pertencem aos seus perfis e comentários; não são artes editoriais. A interface comprime os envios e o servidor verifica tamanho, formato, propriedade e visibilidade. Vídeos não são aceitos. Perfis e favoritos são privados até escolha explícita do titular.
+
+## Validação
+
+Conferir a apresentação em computador e celular, nos três temas e com movimento reduzido. Exercitar no navegador publicação e retirada de perfil, edição, anexos, respostas, denúncias, revisão e exclusão. Os testes usam contas e banco isolados; o consentimento humano real do Discord continua sendo conferido na produção pelo titular.

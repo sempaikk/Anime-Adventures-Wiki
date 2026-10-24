@@ -4,14 +4,14 @@ import '../styles/content.css';
 import '../styles/adventures.css';
 import '../styles/interface.css';
 import '../styles/tools.css';
-import '@fontsource/fredoka-one/latin-400.css';
-import '@fontsource-variable/rubik';
-import '../styles/wiki-classic.css';
+import '@fontsource-variable/oxanium';
+import '../styles/orbit.css';
 import { gameNavigation, gameLogo } from '../lib/wiki-navigation';
 import { wiki, articleUrl } from '../lib/wiki';
 import { channels, botInvite } from '../lib/community';
 import NavigationMotion from '../components/NavigationMotion.astro';
 import ComparisonTray from '../components/ComparisonTray.astro';
+import art from '../../source/interface-art.json';
 const isHome = Astro.props.home === true || Astro.url.pathname.replace(/\/$/, '') === import.meta.env.BASE_URL.replace(/\/$/, '');
 const { title = 'Anime Adventures Wiki', description = 'Personagens, itens, guias e informações sobre Anime Adventures. Wiki independente da comunidade.', active = isHome ? 'inicio' : '' } = Astro.props;
 const pages = [
@@ -21,7 +21,7 @@ const pages = [
   ['comunidade','Jogo e comunidade','/comunidade/'], ['updates','Atualizações','/atualizacoes/'],
 ];
 const game = gameNavigation.map(item=>[item.key,item.accessible,item.href]);
-const topLinks = [['inicio','Início','/'],['personagens','Personagens',articleUrl('Unit List')],['items','Itens',articleUrl('Items')],['biblioteca','Guias','/biblioteca/'],['tiers','Tier lists',articleUrl('Tier Lists')]];
+const topLinks = [['inicio','Início','/'],['personagens','Personagens','/personagens/'],['biblioteca','Wiki','/biblioteca/'],['pessoas','Comunidade','/pessoas/']];
 const topActive=topLinks.find(([, ,href])=>href===Astro.url.pathname)?.[0] || active;
 const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Contraste suave'],['light','Claro','Fundo claro']];
 ---
@@ -30,28 +30,28 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
   <meta name="description" content={description}/><meta name="color-scheme" content="dark light"/>
   <meta name="robots" content="noindex,follow"/>
   <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
-  <meta property="og:image" content={new URL('/art/branding-release.png', Astro.site).href}/>
+  <meta property="og:image" content={new URL(art.spaceship.image, Astro.site).href}/>
   <meta name="theme-color" content="#10142c"/><title>{title}</title>
-  <link rel="icon" href={wiki.branding.image} type="image/png"/>
+  <link rel="icon" href={wiki.branding.image} type="image/webp"/>
   <script is:inline>try{const t=localStorage.getItem('aa-theme');document.documentElement.dataset.theme=['adventures','dark','light'].includes(t)?t:'adventures'}catch{}</script>
   <NavigationMotion/>
 </head><body id="top" class:list={{'page-home':isHome}}>
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
 <div class="navigation-progress" aria-hidden="true"></div>
-<div class="wiki-masthead"><img class="wiki-masthead-art" src="/art/banner-summon.png" alt="" width="768" height="432" fetchpriority="high"/><a class="wiki-wordmark" href="/" aria-label="Anime Adventures Wiki — início"><img src={gameLogo} alt="Anime Adventures" width="959" height="419" fetchpriority="high"/><span>WIKI</span></a></div>
 <header class="site-header">
+  <a class="orbit-brand" href="/" aria-label="Anime Adventures Wiki — início"><img src={gameLogo} alt="Anime Adventures" width="959" height="419"/><span>WIKI<span class="brand-rule" aria-hidden="true"></span>COMUNIDADE</span></a>
   <nav class="wiki-top-links" aria-label="Navegação da wiki">{topLinks.map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
   <button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><span class="search-mark" aria-hidden="true"></span><span>Pesquisar na wiki</span><kbd>Ctrl K</kbd></button>
   <div class="header-actions">
     <details class="theme-menu"><summary class="square-button" aria-label="Escolher tema" title="Escolher tema"><span class="theme-symbol" aria-hidden="true">◐</span></summary><div class="theme-options"><span class="eyebrow">TEMA</span>{themes.map(([key,name,detail])=><button type="button" data-set-theme={key} aria-pressed={key==='adventures'}><span class={`theme-swatch theme-swatch-${key}`} aria-hidden="true"></span><span><strong>{name}</strong><small>{detail}</small></span><span class="theme-check" aria-hidden="true">✓</span></button>)}</div></details>
     <a class="header-account" href="/conta/" data-account-link><span class="account-avatar-placeholder" aria-hidden="true"></span><span data-account-label>Sua conta</span></a>
-    <button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span aria-hidden="true">☰</span><span>Menu</span></button>
+    <button class="menu-toggle square-button" aria-label="Abrir navegação" aria-expanded="false" aria-controls="side-nav" data-menu-toggle><span>Menu</span><span class="menu-lines" aria-hidden="true"></span></button>
   </div>
 </header>
 <div class="site-shell"><aside class="sidebar" id="side-nav">
   <nav aria-label="Navegação principal"><span class="nav-label">WIKI</span>{pages.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-label">{label}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav>
   <details class="side-section" open><summary>Conteúdos do jogo<span aria-hidden="true">＋</span></summary><nav aria-label="Conteúdos do jogo">{game.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-label">{label}</span><span class="side-indicator" aria-hidden="true">›</span></a>)}</nav></details>
-  <details class="side-section" open={['favoritos','conta'].includes(active)}><summary>Sua conta<span aria-hidden="true">＋</span></summary><nav aria-label="Sua conta"><a class:list={['side-link',{active:active==='favoritos'}]} href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}>Favoritos</a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/" aria-current={active==='conta'?'page':undefined}>Entrar ou gerenciar conta</a></nav></details>
+  <details class="side-section" open={['favoritos','conta','pessoas'].includes(active)}><summary>Comunidade e conta<span aria-hidden="true">＋</span></summary><nav aria-label="Comunidade e conta"><a class="side-link" href="/pessoas/">Pessoas</a><a class:list={['side-link',{active:active==='favoritos'}]} href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}>Favoritos</a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/" aria-current={active==='conta'?'page':undefined}>Gerenciar perfil</a></nav></details>
   <div class="sidebar-bottom"><a class="sidebar-install" href={botInvite} target="_blank" rel="noopener noreferrer">Adicionar o bot <i class="arrow-diagonal" aria-hidden="true"></i></a><a href="/sobre/">Sobre, fontes e créditos</a></div>
 </aside><div class="page-wrapper"><main id="main"><slot/></main>
 <footer class="site-footer"><div><strong>ANIME ADVENTURES WIKI</strong><p>Informações sobre Anime Adventures.</p></div><div class="footer-links"><a href="/sobre/">Sobre e fontes</a>{channels.map(channel=><a href={channel.url} target="_blank" rel="noopener noreferrer">{channel.platform} <i class="arrow-diagonal" aria-hidden="true"></i></a>)}</div><small>Projeto independente. Textos da Anime Adventures Wiki sob <a href="https://www.fandom.com/licensing" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>. Artes com créditos nas fontes.</small><a href="#top" class="back-top" aria-label="Voltar ao topo">↑</a></footer></div></div>

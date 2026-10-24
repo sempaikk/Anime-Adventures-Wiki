@@ -12,6 +12,7 @@ const media = fs.existsSync("source/media-library.json")
   ? JSON.parse(fs.readFileSync("source/media-library.json"))
   : {};
 const branding = JSON.parse(fs.readFileSync("source/branding.json"));
+fs.writeFileSync("worker/community-schema.mjs", "// Generated from migrations/0002_community.sql.\nexport default "+JSON.stringify(fs.readFileSync("migrations/0002_community.sql","utf8").split(";").map(sql=>sql.trim()).filter(Boolean))+";\n");
 for (const unit of wiki.units) {
   const candidates = wiki.articles.filter((page) => page.unit_id === unit.id);
   candidates.sort(
@@ -144,6 +145,7 @@ index.push({
   kind: "guide",
 });
 fs.writeFileSync("public/data/search.json", JSON.stringify(index));
+fs.writeFileSync("source/community-content.json", JSON.stringify(Object.fromEntries(index.filter(item=>item.favorite_id).map(item=>[item.favorite_id,{title:item.title,url:item.url}]))));
 fs.writeFileSync("public/data/coverage.json", JSON.stringify(wiki.counts));
 fs.writeFileSync(
   "public/data/units.json",

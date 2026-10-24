@@ -58,3 +58,11 @@ Cadastre os valores diretamente no painel, como Secret. Não envie segredos em c
 Acesse `/conta/`, entre com Discord e confirme um favorito em outro dispositivo. Confira também cancelamento, saída, importação dos favoritos locais e exclusão dos dados do site. Os testes automatizados usam Discord simulado e SQLite temporário; eles não substituem esta confirmação na conta real.
 
 Só é solicitado `identify`: identificação básica, nome de exibição e avatar. Tokens Discord não são persistidos. Sessões do site duram até 30 dias e são armazenadas por hash. Os favoritos pertencem à conta, com limite de 1.000. O visitante pode sair de um dispositivo ou excluir os dados e todas as sessões. Falhas de conexão não devem transformar silenciosamente os favoritos de uma conta em favoritos locais.
+
+## Perfis, comentários e revisão
+
+A comunidade reutiliza o banco `DB`, as sessões e os segredos já configurados. A API aplica apenas os `CREATE TABLE/INDEX IF NOT EXISTS` de `0002_community.sql` na primeira requisição; a migração base de contas continua sendo requisito. `COMMUNITY_ADMIN_IDS` contém o identificador público do responsável pela aplicação Discord, conferido na API da própria aplicação. Alterar essa lista é uma mudança de configuração restrita ao responsável pelo projeto.
+
+Uma conta sem perfil público pode salvar favoritos e consultar a wiki. Para comentar, deve publicar seu perfil em `/conta/#perfil`. `/pessoas/` mostra apenas perfis publicados; `/perfil/<identificador>/` é servido pelo Worker usando a página estática de perfil. Imagens não publicadas só podem ser consultadas pelo autor ou responsável. A área `/revisao/` tem autorização verificada na API, independente de o link aparecer na interface.
+
+Anexos compactos são armazenados no D1 nesta etapa, com limites de tamanho, frequência e orçamento total descritos no README. Não é necessário criar outro serviço para ativar esta entrega. Vídeos não são aceitos.

@@ -305,7 +305,20 @@ export async function accountRequest(request, env, network = fetch) {
     return jsonWithCookie({ ok: true }, cookie(SESSION, "", 0));
   }
   if (path === "/api/account" && request.method === "DELETE") {
+    const community = await env.DB.prepare(
+      "SELECT name FROM sqlite_master WHERE type = 'table' AND name = 'community_comments'",
+    ).first();
     await env.DB.batch([
+      ...(community
+        ? [
+            env.DB.prepare(
+              "UPDATE community_comments SET body = '', image_id = NULL, author_id = NULL, deleted_at = ?, updated_at = ? WHERE author_id = ?",
+            ).bind(now(), now(), user.id),
+            env.DB.prepare(
+              "DELETE FROM community_reports WHERE reporter_id = ?",
+            ).bind(user.id),
+          ]
+        : []),
       env.DB.prepare("DELETE FROM favorites WHERE discord_id = ?").bind(
         user.id,
       ),
@@ -392,3 +405,5 @@ export async function accountRequest(request, env, network = fetch) {
   }
   return json({ error: "Recurso indisponível." }, 404);
 }
+
+export { ready as accountsReady, session as accountSession };

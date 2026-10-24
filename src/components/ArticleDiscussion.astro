@@ -1,0 +1,11 @@
+---
+const {article}=Astro.props;
+---
+<section class="discussion" id="comentarios" data-discussion={article} aria-labelledby="discussion-heading">
+  <div class="section-heading"><div><span class="eyebrow">COMUNIDADE</span><h2 id="discussion-heading">Comentários</h2></div><span class="section-detail">Dúvidas, dicas e correções</span></div>
+  <p class="discussion-intro">Converse sobre este artigo. Se encontrou uma informação incorreta, envie uma sugestão de correção para revisão.</p>
+  <p class="community-status" role="status" data-discussion-status>Carregando comentários…</p>
+  <div data-discussion-entry></div><div class="thread-list" data-thread-list></div>
+  <button class="button button-outline" data-discussion-more hidden>Ver mais comentários</button>
+  <noscript><p>Ative o JavaScript para ler e enviar comentários.</p></noscript>
+</section>

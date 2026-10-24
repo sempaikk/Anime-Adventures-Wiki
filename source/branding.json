@@ -1,9 +1,9 @@
 {
-  "name": "Adventures Wiki",
-  "image": "/art/branding-release.png",
-  "source_url": "https://cdn.discordapp.com/avatars/1561527465657114644/3d95df82033bc2633700346a3e8c423c.png?size=512",
-  "selection": "Same release game artwork used by the bot, explicitly requested by its owner.",
-  "sha256": "30af8c681a276456b5becc48dfa9bab674cdd30f54f69fbeb7070bce7dbe2c54",
+  "name": "Anime Adventures Wiki",
+  "image": "/art/wiki/f5ef0f1c351dd69e070f9eef.webp",
+  "source_url": "https://animeadventures.fandom.com/wiki/File:Logo.png",
+  "selection": "Original Anime Adventures logo preserved from the game wiki.",
+  "sha256": "43748c3ad0cf7f096816d1ce42a667bfabae7fb3452a2d7421aa705f1070f4ae",
   "processing": "original_copy",
   "generation": false
 }

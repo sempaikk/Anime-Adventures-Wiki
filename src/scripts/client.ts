@@ -202,6 +202,13 @@ function openSearch() {
 }
 $("[data-search-open]").addEventListener("click", openSearch);
 $("[data-search-close]").addEventListener("click", () => dialog.close());
+dialog.addEventListener("keydown", (event) => {
+  if (event.key === "Escape") {
+    event.preventDefault();
+    event.stopPropagation();
+    dialog.close();
+  }
+});
 dialog.addEventListener("click", (e) => {
   if (e.target === dialog) {
     const r = dialog.getBoundingClientRect();
@@ -362,6 +369,7 @@ import "./unit-preview";
 import "./compare";
 import "./catalog";
 import "./favorite-page";
+import "./discussion";
 import { getFavorites, toggleFavorite } from "./favorites";
 
 function searchRank(item: any, q: string) {

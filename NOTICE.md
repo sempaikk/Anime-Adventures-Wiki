@@ -34,3 +34,9 @@ A ilustração de apresentação em `src/assets/adventures-lobby.png` foi gerada
 ## Navegação da wiki do jogo
 
 Os atalhos do jogo preservam os ícones referenciados por `MediaWiki:Common.css`, revisão 44997, da Anime Adventures Wiki. A cópia da folha de estilos serve de referência documental; a interface da plataforma Fandom não é executada nem distribuída como parte da interface do site. Origem, revisão e hashes dos ícones estão em `source/wiki-navigation.json`. Os créditos dos arquivos originais estão vinculados nesse registro. As fontes Fredoka One e Rubik são fornecidas pelo Fontsource sob as licenças incluídas nos respectivos pacotes.
+
+## Interface atual
+
+Cenários, logo e retratos visíveis na interface atual provêm exclusivamente da Anime Adventures Wiki. `source/interface-art.json`, `source/media-library.json` e `source/original-images.json` identificam as páginas de arquivo e os hashes das cópias locais. As referências externas e a ilustração de IA mencionadas acima são arquivos históricos e não compõem a identidade visual publicada. Efeitos de luz, profundidade e transição são aplicados pela interface às imagens originais. As fontes Inter, Space Grotesk e Oxanium são distribuídas pelo Fontsource com as licenças incluídas nos pacotes.
+
+Imagens de avatar fornecidas pelo Discord e anexos enviados pelos próprios participantes pertencem aos respectivos perfis e comentários; não são artes editoriais da wiki.

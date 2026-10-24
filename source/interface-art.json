@@ -1,0 +1,27 @@
+{
+  "logo": {
+    "image": "/art/wiki/f5ef0f1c351dd69e070f9eef.webp",
+    "source_url": "https://animeadventures.fandom.com/wiki/File:Logo.png",
+    "sha256": "43748c3ad0cf7f096816d1ce42a667bfabae7fb3452a2d7421aa705f1070f4ae"
+  },
+  "lobby": {
+    "image": "/art/wiki/87150dae4f46d1637d6ec1f1.webp",
+    "source_url": "https://animeadventures.fandom.com/wiki/File:Roblox_Anime_Adventures_thumbnail.png",
+    "sha256": "d0b98d77e0011f36f1931606892e70139ee46fa7310000df017e30d8cc990f31"
+  },
+  "city": {
+    "image": "/art/wiki/f102544e2938b187aa4151be.webp",
+    "source_url": "https://animeadventures.fandom.com/wiki/File:Map_-_Hero_City_(Midnight).png",
+    "sha256": "25e1b0e4e67e5000909277d54cde3b3635b5e17fbfa8f000403d53e725e526e1"
+  },
+  "dungeon": {
+    "image": "/art/wiki/288195d8889c9a2a3d189347.webp",
+    "source_url": "https://animeadventures.fandom.com/wiki/File:Map_-_Virtual_Dungeon.png",
+    "sha256": "52c49f2ae161c610251c5984819a2d276127e0959ebb8803756178f68cb56c7b"
+  },
+  "spaceship": {
+    "image": "/art/wiki/839ef4ed110742902d53bbfd.webp",
+    "source_url": "https://animeadventures.fandom.com/wiki/File:Map_-_Alien_Spaceship.png",
+    "sha256": "8339377d7b1cd1d780620e978e0c3cdae77bdccd9acf2718930b5135fc157bb9"
+  }
+}
