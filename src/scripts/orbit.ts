@@ -1,25 +1,95 @@
 const hero = document.querySelector<HTMLElement>("[data-orbit-hero]");
 if (hero) {
-  const reduced = matchMedia("(prefers-reduced-motion: reduce)"),
-    fine = matchMedia("(pointer:fine)");
+  const fine = matchMedia("(pointer:fine)");
   const image = hero.querySelector<HTMLImageElement>(".hero-world-image")!;
+  const motionEnabled = () => document.documentElement.dataset.motion === "on";
+  const nextImage = hero.querySelector<HTMLImageElement>(".hero-world-next")!;
+  const caption = hero.querySelector<HTMLElement>("[data-scene-label]")!;
+  const toggle = hero.querySelector<HTMLButtonElement>("[data-scene-toggle]")!;
+  const scenes = JSON.parse(hero.dataset.sceneFrames || "[]") as {
+    label: string;
+    image: string;
+  }[];
+  const connection = (navigator as any).connection;
   let changeTexture: ((url: string) => void) | undefined;
-  for (const button of hero.querySelectorAll<HTMLButtonElement>("[data-scene]"))
-    button.addEventListener("click", () => {
-      if (button.getAttribute("aria-pressed") === "true") return;
-      for (const item of hero.querySelectorAll("[data-scene]"))
-        item.setAttribute("aria-pressed", String(item === button));
-      const next = button.dataset.sceneImage!;
-      image.src = next;
-      changeTexture?.(next);
-    });
+  let sceneIndex = 0,
+    sceneTimer = 0,
+    paused = false,
+    inView = hero.getBoundingClientRect().bottom > 0,
+    changing = false,
+    pageActive = true;
+  const canRotate = () =>
+    !paused &&
+    motionEnabled() &&
+    !connection?.saveData &&
+    !document.hidden &&
+    inView &&
+    pageActive;
+  function scheduleScene() {
+    clearTimeout(sceneTimer);
+    toggle.hidden =
+      !motionEnabled() || !!connection?.saveData || scenes.length < 2;
+    toggle.textContent = paused ? "Retomar rotação" : "Pausar rotação";
+    if (canRotate() && scenes.length > 1)
+      sceneTimer = window.setTimeout(rotateScene, 9000);
+  }
+  async function rotateScene() {
+    if (!canRotate() || changing) return;
+    changing = true;
+    const index = (sceneIndex + 1) % scenes.length,
+      next = scenes[index];
+    try {
+      nextImage.src = next.image;
+      await nextImage.decode();
+      if (!canRotate()) return;
+      hero.querySelector("canvas")?.classList.remove("is-ready");
+      nextImage.classList.add("is-active");
+      await new Promise((resolve) => setTimeout(resolve, 850));
+      image.src = next.image;
+      await image.decode();
+      sceneIndex = index;
+      caption.textContent = next.label;
+      nextImage.classList.remove("is-active");
+      changeTexture?.(next.image);
+    } catch {
+      /* The current original stays visible if another image cannot load. */
+    } finally {
+      changing = false;
+      scheduleScene();
+    }
+  }
+  toggle.addEventListener("click", () => {
+    paused = !paused;
+    scheduleScene();
+  });
+  document.addEventListener("visibilitychange", scheduleScene);
+  document.addEventListener("aa:motion-change", scheduleScene);
+  if ("IntersectionObserver" in window) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        inView = entries[0].isIntersecting;
+        scheduleScene();
+      },
+      { threshold: 0.05 },
+    );
+    observer.observe(hero);
+  }
+  addEventListener("pagehide", () => {
+    pageActive = false;
+    clearTimeout(sceneTimer);
+  });
+  addEventListener("pageshow", () => {
+    pageActive = true;
+    scheduleScene();
+  });
+  scheduleScene();
   let frame = 0,
     px = 0,
     py = 0;
   hero.addEventListener(
     "pointermove",
     (event) => {
-      if (reduced.matches || !fine.matches) return;
+      if (!motionEnabled() || !fine.matches) return;
       const r = hero.getBoundingClientRect();
       px = (event.clientX - r.left) / r.width - 0.5;
       py = (event.clientY - r.top) / r.height - 0.5;
@@ -39,9 +109,8 @@ if (hero) {
     hero.style.setProperty("--character-x", "0px");
     hero.style.setProperty("--character-y", "0px");
   });
-  const connection = (navigator as any).connection;
   // The original image is always present. WebGL only adds a subtle interactive lens.
-  if (!reduced.matches && fine.matches && !connection?.saveData) {
+  if (fine.matches && !connection?.saveData) {
     const start = async () => {
       let renderer: any,
         texture: any,
@@ -79,7 +148,7 @@ if (hero) {
         geometry = new THREE.PlaneGeometry(2, 2);
         scene.add(new THREE.Mesh(geometry, material));
         const render = () => {
-          if (renderFrame || document.hidden || reduced.matches) return;
+          if (renderFrame || document.hidden || !motionEnabled()) return;
           renderFrame = requestAnimationFrame(() => {
             renderFrame = 0;
             uniforms.pointer.value.set(px, py);
@@ -111,7 +180,7 @@ if (hero) {
             texture = next;
             uniforms.picture.value = next;
             resize();
-            canvas.classList.add("is-ready");
+            canvas.classList.toggle("is-ready", motionEnabled());
           } catch {
             canvas.classList.remove("is-ready");
           }
@@ -124,9 +193,9 @@ if (hero) {
         canvas.addEventListener("webglcontextlost", () =>
           canvas.classList.remove("is-ready"),
         );
-        reduced.addEventListener("change", () => {
-          if (reduced.matches) canvas.classList.remove("is-ready");
-          else render();
+        document.addEventListener("aa:motion-change", () => {
+          canvas.classList.toggle("is-ready", motionEnabled() && !!texture);
+          if (motionEnabled()) render();
         });
         addEventListener("pagehide", (event) => {
           if (event.persisted) return;
@@ -142,8 +211,16 @@ if (hero) {
         renderer?.dispose();
       }
     };
+    let started = false;
+    const maybeStart = () => {
+      if (!started && motionEnabled()) {
+        started = true;
+        start();
+      }
+    };
+    document.addEventListener("aa:motion-change", maybeStart);
     if ("requestIdleCallback" in window)
-      (window as any).requestIdleCallback(start, { timeout: 1600 });
-    else setTimeout(start, 500);
+      (window as any).requestIdleCallback(maybeStart, { timeout: 1600 });
+    else setTimeout(maybeStart, 500);
   }
 }

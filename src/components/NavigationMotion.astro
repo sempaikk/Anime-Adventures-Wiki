@@ -1,31 +1,57 @@
 <script is:inline>
 (() => {
-  const root = document.documentElement;
-  const reduced = matchMedia('(prefers-reduced-motion: reduce)');
-  if ('onpageswap' in window && 'onpagereveal' in window) root.dataset.nativeTransitions = '';
-  function transition(event, activation) {
-    root.removeAttribute('data-navigating');
-    root.removeAttribute('data-entry-motion');
-    if (!event.viewTransition) {
-      if (event.type === 'pagereveal') root.dataset.entryMotion = '';
-      return;
-    }
-    if (reduced.matches) { event.viewTransition.skipTransition(); return; }
-    const back = activation?.navigationType === 'traverse' && activation.from && activation.entry.index < activation.from.index;
-    event.viewTransition.types?.add(back ? 'back' : 'forward');
-    const path = activation?.entry?.url ? new URL(activation.entry.url).pathname : location.pathname;
-    event.viewTransition.types?.add(path.includes('/artigo/') || path.includes('/personagem/') ? 'article' : 'section');
+  const root=document.documentElement,reduced=matchMedia('(prefers-reduced-motion: reduce)');
+  let navigating=false,timer=0,exitAnimations=[],transientPreference=null,navigationVersion=0;
+  function preference(){if(transientPreference)return transientPreference;try{return localStorage.getItem('aa-motion')}catch{return null}}
+  function enabled(){const value=preference();return value==='on'||(value!=='off'&&!reduced.matches)}
+  function sync(){
+    root.dataset.motion=enabled()?'on':'off';
+    document.querySelectorAll('[data-navigation-motion]').forEach(input=>input.checked=enabled());
+    if(!enabled())root.removeAttribute('data-page-entry');
+    document.dispatchEvent(new CustomEvent('aa:motion-change'));
   }
-  addEventListener('pageswap', event => transition(event, event.activation));
-  addEventListener('pagereveal', event => transition(event, window.navigation?.activation));
-  addEventListener('pageshow', () => root.removeAttribute('data-navigating'));
-  addEventListener('click', event => {
-    if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-    const link = event.target instanceof Element ? event.target.closest('a[href]') : null;
-    if (!link || link.hasAttribute('download') || (link.target && link.target !== '_self')) return;
-    const url = new URL(link.href, location.href);
-    if (url.origin !== location.origin || url.pathname.startsWith('/api/') || (url.pathname === location.pathname && url.search === location.search)) return;
-    root.dataset.navigating = '';
+  sync();
+  if(enabled())root.dataset.pageEntry=performance.getEntriesByType('navigation')[0]?.type==='back_forward'?'back':'forward';
+  reduced.addEventListener('change',sync);
+  addEventListener('storage',event=>{if(event.key==='aa-motion'||event.key===null){transientPreference=null;sync()}});
+  document.addEventListener('DOMContentLoaded',()=>{
+    for(const input of document.querySelectorAll('[data-navigation-motion]')){
+      input.checked=enabled();input.addEventListener('change',()=>{
+        transientPreference=input.checked?'on':'off';try{localStorage.setItem('aa-motion',transientPreference)}catch{}
+        sync();
+      });
+    }
+  });
+  addEventListener('pageshow',event=>{
+    navigationVersion++;navigating=false;clearTimeout(timer);root.removeAttribute('data-navigating');
+    for(const animation of exitAnimations)animation.cancel();exitAnimations=[];
+    if(event.persisted&&enabled()){
+      root.removeAttribute('data-page-entry');
+      requestAnimationFrame(()=>root.dataset.pageEntry='back');
+    }
+  });
+  addEventListener('pagehide',()=>{navigationVersion++;clearTimeout(timer)});
+  document.addEventListener('click',event=>{
+    if(event.defaultPrevented||event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;
+    const anchor=event.target instanceof Element?event.target.closest('a[href]'):null;
+    if(!anchor||anchor.hasAttribute('download')||(anchor.target&&anchor.target!=='_self'))return;
+    const url=new URL(anchor.href,location.href);
+    if(url.origin!==location.origin||url.pathname.startsWith('/api/')||(url.pathname===location.pathname&&url.search===location.search))return;
+    if(!enabled()||!Element.prototype.animate)return;
+    event.preventDefault();if(navigating)return;navigating=true;
+    const version=++navigationVersion;
+    document.querySelectorAll('dialog[open]').forEach(dialog=>dialog.close());
+    document.body.classList.remove('sidebar-open');
+    const menu=document.querySelector('[data-menu-toggle]'),side=document.querySelector('#side-nav');
+    if(menu){menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Abrir navegação')}if(side)side.inert=true;
+    root.removeAttribute('data-page-entry');root.dataset.navigating='';
+    const layer=document.querySelector('.page-transition-layer'),page=document.querySelector('.page-wrapper');
+    if(layer)exitAnimations.push(layer.animate([{opacity:0},{opacity:1}],{duration:240,fill:'forwards',easing:'ease-in'}));
+    if(page)exitAnimations.push(page.animate([{opacity:1,transform:'none'},{opacity:.12,transform:'translateY(-12px) scale(.985)'}],{duration:240,fill:'forwards',easing:'ease-in'}));
+    const commit=()=>{if(navigating&&version===navigationVersion){clearTimeout(timer);location.assign(url.href)}};
+    // Wait for the painted exit, with a fallback if the browser suspends animation frames.
+    Promise.all(exitAnimations.map(animation=>animation.finished)).then(commit,()=>{});
+    timer=window.setTimeout(commit,700);
   });
 })();
 </script>

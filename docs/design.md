@@ -4,7 +4,7 @@ O site combina consulta de wiki e participação da comunidade, com uma interfac
 
 ## Identidade
 
-Azul profundo, ciano, violeta e verde formam o tema Adventures. Escuro reduz a iluminação; Claro usa superfícies claras e mantém contraste nos textos. Cenários de nave, cidade noturna e dungeon podem ser escolhidos na entrada. A marca aparece no cabeçalho, com textos funcionais no destaque e sem repetir o nome do jogo nas molduras. Imagens decorativas se dissolvem no fundo, enquanto retratos e seus avisos ficam contidos nos cartões. Controles de fechar usam traços geométricos centrados, independentes da fonte. As imagens editoriais são exclusivamente da wiki, sem geração por IA, redesenho de personagem ou artes externas. Origem e hashes estão em `source/interface-art.json`, `source/media-library.json` e `source/original-images.json`.
+Azul profundo, ciano, violeta e verde formam o tema Adventures. Escuro reduz a iluminação; Claro usa superfícies claras e mantém contraste nos textos. Cenários de nave, cidade noturna e dungeon se alternam automaticamente na entrada, com dissolução e um controle para pausar. A marca aparece no cabeçalho, com textos funcionais no destaque e sem repetir o nome do jogo nas molduras. Imagens decorativas se dissolvem no fundo, enquanto retratos e seus avisos ficam contidos nos cartões. Controles de fechar e setas usam vetores ou traços geométricos centrados, independentes da fonte. As imagens editoriais são exclusivamente da wiki, sem geração por IA, redesenho de personagem ou artes externas. Origem e hashes estão em `source/interface-art.json`, `source/media-library.json` e `source/original-images.json`.
 
 Inter serve à leitura e Oxanium aos títulos. Navegação usa palavras; símbolos são restritos a ações como busca, fechar, tema e indicação de destino. Não há emojis genéricos representando personagens ou categorias.
 
@@ -23,9 +23,9 @@ Perfis não têm postagens, amigos, grupos ou mensagens. Esses recursos e a pont
 
 ## Movimento e desempenho
 
-Links e histórico continuam nativos. Transições diferenciam entrada, saída, retorno e abertura de artigo. Botões respondem ao clique; cartões reagem ao ponteiro; elementos abaixo da primeira tela entram ao serem alcançados. A cena inicial usa WebGL carregado sob demanda em dispositivos compatíveis, aplicando apenas um efeito de lente à imagem original; a imagem estática permanece como alternativa.
+Links e histórico continuam nativos. A navegação interna aguarda uma saída curta antes de carregar o destino; entrada e retorno têm animações próprias e restauram o estado ao voltar pelo navegador. Botões respondem ao clique; cartões têm bordas luminosas em movimento, iluminação e profundidade ao ponteiro; elementos abaixo da primeira tela entram ao serem alcançados. Campos, painéis, diálogos e abas seguem o mesmo tratamento. Cenários nos cabeçalhos, partículas e luzes em movimento dão continuidade ao visual nas páginas internas. A cena inicial usa WebGL carregado sob demanda em dispositivos compatíveis, aplicando apenas um efeito de lente à imagem original; a imagem estática permanece como alternativa.
 
-Movimento reduzido desliga animações, paralaxe e WebGL. Toque não depende de hover. O efeito da cena renderiza em resposta a eventos e não mantém um loop contínuo parado. A API de comentários só é consultada quando a seção se aproxima da tela. Busca, filtros, abas, menu e diálogos têm controles de teclado.
+Movimento reduzido desliga animações, paralaxe, rotação e WebGL por padrão. O visitante pode alterar essa escolha em Aparência → Animações e efeitos; a preferência fica salva no dispositivo. Toque não depende de hover. O efeito WebGL renderiza em resposta a eventos; as partículas usam poucos pontos, limitam a resolução e renderizam no máximo 30 vezes por segundo. Efeitos param na aba oculta, e a rotação também para fora da primeira seção ou com economia de dados. A API de comentários só é consultada quando a seção se aproxima da tela. Busca, filtros, abas, menu e diálogos têm controles de teclado.
 
 ## Conteúdo e participação
 
