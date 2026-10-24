@@ -80,7 +80,7 @@ input:not([type="checkbox"]):not([type="range"]), textarea, select { border-radi
 .preview-actions > * { min-height: 44px; }
 .search-result { border-radius: 14px; margin-block: 4px; }
 .nexus-hero { border-radius: 0 0 36px 36px; overflow: hidden; }
-.nexus-hero-top { border-bottom: 0; padding-top: 24px; }
+.nexus-hero-top { border-bottom: 0; padding-top: 24px; justify-content: flex-end; }
 .nexus-panorama img { filter: saturate(.8); opacity: .48; }
 .nexus-panorama-shade { background: linear-gradient(90deg,#101322f2 0%,#101322c4 42%,#10132252 85%),linear-gradient(0deg,var(--bg),transparent 55%); }
 .nexus-hero-grid { grid-template-columns: minmax(0,1fr) minmax(0,1fr); min-height: 0; padding-top: 24px; gap: clamp(24px,5vw,80px); align-items: center; }
