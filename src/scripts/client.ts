@@ -1,3 +1,4 @@
+import {showDialog,closeDialog,moveMenu,favoriteLabel,motionOn} from './ui-motion';
 import {localPath,localData} from './i18n';
 // One inset arrow and one consistent text baseline for every native select.
 function enhanceSelects(root:ParentNode){
@@ -25,6 +26,13 @@ function toast(message: string) {
   setTimeout(() => box.classList.remove("show"), 2600);
 }
 const themeMenu = document.querySelector<HTMLDetailsElement>(".theme-menu")!;
+let themeTransition:{skipTransition:()=>void}|undefined;
+function applyTheme(next:string) {
+  themeTransition?.skipTransition();
+  const paint=()=>{document.documentElement.dataset.theme=next;markTheme()};
+  if(motionOn()&&document.startViewTransition){const transition=document.startViewTransition(paint);themeTransition=transition;transition.ready.catch(()=>{});transition.finished.catch(()=>{})}else paint();
+}
+document.addEventListener('aa:motion-change',()=>{if(!motionOn())themeTransition?.skipTransition()});
 function markTheme() {
   document
     .querySelectorAll<HTMLElement>("[data-set-theme]")
@@ -43,7 +51,7 @@ document
   .forEach((button) =>
     button.addEventListener("click", () => {
       const next = button.dataset.setTheme!;
-      document.documentElement.dataset.theme = next;
+      applyTheme(next);
       try {
         localStorage.setItem("aa-theme", next);
       } catch {
@@ -70,7 +78,7 @@ window.addEventListener("storage", (event) => {
     event.key === "aa-theme" &&
     ["adventures", "dark", "light"].includes(event.newValue || "")
   ) {
-    document.documentElement.dataset.theme = event.newValue!;
+    applyTheme(event.newValue!);
     markTheme();
   }
 });
@@ -95,49 +103,37 @@ document
 const menu = $("[data-menu-toggle]");
 const sideNav = $("#side-nav");
 sideNav.inert = true;
+let menuOpen=false, menuVersion=0;
 function closeMenu() {
-  const wasOpen = document.body.classList.contains("sidebar-open");
-  document.body.classList.remove("sidebar-open");
-  sideNav.inert = true;
-  menu.setAttribute("aria-expanded", "false");
-  menu.setAttribute("aria-label", "Abrir navegação");
-  if (wasOpen) menu.focus();
+  const wasOpen=menuOpen, version=++menuVersion;menuOpen=false;
+  sideNav.inert=true;menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Abrir navegação');
+  if(wasOpen){menu.focus();moveMenu(sideNav,false).then(()=>{if(version===menuVersion)document.body.classList.remove('sidebar-open')})}
+  else document.body.classList.remove('sidebar-open');
 }
-menu.addEventListener("click", () => {
-  const open = document.body.classList.toggle("sidebar-open");
-  sideNav.inert = !open;
-  if (open)
-    document.documentElement.style.setProperty(
-      "--nav-menu-top",
-      `${Math.round(document.querySelector(".site-header")!.getBoundingClientRect().bottom + 8)}px`,
-    );
-  menu.setAttribute("aria-expanded", String(open));
-  menu.setAttribute(
-    "aria-label",
-    open ? "Fechar navegação" : "Abrir navegação",
-  );
+menu.addEventListener('click',()=>{
+  if(menuOpen){closeMenu();return}
+  menuOpen=true;++menuVersion;sideNav.getAnimations().forEach(a=>a.cancel());
+  document.body.classList.add('sidebar-open');sideNav.inert=false;
+  document.documentElement.style.setProperty('--nav-menu-top',`${Math.round(document.querySelector('.site-header')!.getBoundingClientRect().bottom+8)}px`);
+  menu.setAttribute('aria-expanded','true');menu.setAttribute('aria-label','Fechar navegação');moveMenu(sideNav,true);
 });
+addEventListener('pageshow',()=>{menuOpen=false;++menuVersion;sideNav.getAnimations().forEach(a=>a.cancel());document.body.classList.remove('sidebar-open');sideNav.inert=true;menu.setAttribute('aria-expanded','false')});
 $("[data-menu-close]").addEventListener("click", closeMenu);
 document.addEventListener("keydown", (e) => {
   if (e.key === "Escape") closeMenu();
-  if (e.key === "Tab" && document.body.classList.contains("sidebar-open")) {
+  if (e.key === "Tab" && menuOpen) {
     const controls = [
       menu,
       ...Array.from(
         document.querySelectorAll("#side-nav a, #side-nav summary"),
       ).filter(
-        (control) => (control as HTMLElement).getClientRects().length > 0,
+        (control) => (control as HTMLElement).getClientRects().length > 0 &&
+          (!control.closest('details:not([open])') || control.matches('summary')),
       ),
     ] as HTMLElement[];
-    const first = controls[0],
-      last = controls[controls.length - 1];
-    if (e.shiftKey && document.activeElement === first) {
-      e.preventDefault();
-      last.focus();
-    } else if (!e.shiftKey && document.activeElement === last) {
-      e.preventDefault();
-      first.focus();
-    }
+    const current=controls.indexOf(document.activeElement as HTMLElement);
+    e.preventDefault();
+    controls[(current+(e.shiftKey?-1:1)+controls.length)%controls.length]?.focus();
   }
 });
 matchMedia("(max-width:1000px)").addEventListener("change", closeMenu);
@@ -218,7 +214,7 @@ function openSearch() {
       ? document.activeElement
       : null;
   closeMenu();
-  dialog.showModal();
+  showDialog(dialog);
   input.focus();
   search();
 }
@@ -237,12 +233,12 @@ document
 dialog.addEventListener("close", () =>
   searchOpener?.focus({ preventScroll: true }),
 );
-$("[data-search-close]").addEventListener("click", () => dialog.close());
+$("[data-search-close]").addEventListener("click", () => closeDialog(dialog));
 dialog.addEventListener("keydown", (event) => {
   if (event.key === "Escape") {
     event.preventDefault();
     event.stopPropagation();
-    dialog.close();
+    closeDialog(dialog);
   }
 });
 dialog.addEventListener("click", (e) => {
@@ -254,7 +250,7 @@ dialog.addEventListener("click", (e) => {
       e.clientY < r.top ||
       e.clientY > r.bottom
     )
-      dialog.close();
+      closeDialog(dialog);
   }
 });
 input.addEventListener("input", search);
@@ -281,7 +277,7 @@ results.addEventListener("keydown", (e) => {
 document.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "k") {
     e.preventDefault();
-    dialog.open ? dialog.close() : openSearch();
+    dialog.open ? closeDialog(dialog) : openSearch();
   }
 });
 const favorite = $("[data-favorite]");
@@ -289,9 +285,7 @@ if (favorite) {
   const id = favorite.dataset.favorite!;
   function refresh(active: boolean) {
     favorite.setAttribute("aria-pressed", String(active));
-    favorite.textContent = active
-      ? "Salvo nos favoritos ✓"
-      : "Salvar nos favoritos ＋";
+    favoriteLabel(favorite,active,true);
   }
   favorite.addEventListener("click", async () => {
     (favorite as HTMLButtonElement).disabled = true;

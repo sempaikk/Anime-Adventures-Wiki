@@ -64,3 +64,15 @@ O movimento contínuo usa as artes documentadas do próprio jogo. Nove mapas alt
 A pausa do cenário fica salva no navegador. A preferência de movimento, a redução de movimento do sistema, a economia de dados e a visibilidade da aba limitam o trabalho de animação. Apenas duas camadas de cenário são mantidas; a biblioteca inteira de mapas não é baixada de uma vez. O código de grade WebGL que já não tinha elemento na interface foi removido.
 
 Os números de série e os rótulos duplicados deram lugar a títulos diretos e, nos cartões, ao posicionamento documentado na fonte. As referências de catálogo consultadas incluem a [biblioteca de personagens do Prydwen](https://www.prydwen.gg/zenless/characters/), com busca e filtros por atributos reais. Essa referência orienta a organização; todas as imagens desta wiki continuam sendo de Anime Adventures.
+
+## Interações de toda a interface — 25/10/2026
+
+O movimento acompanha as ações da pessoa. `ui-motion.ts` concentra transições interrompíveis, fechamento de diálogos, reorganização de listas e passagem do retrato do catálogo à ficha. `ui-interactions.ts` integra abas, campos, estados de espera, mensagens e controles nativos. As entradas de `effects.ts` voltam a responder quando a seção sai da tela e retorna; não dependem de recarregar o documento. O reaparecimento aguarda a animação anterior terminar, evitando ciclos no limite da janela.
+
+Filtros reorganizam os cartões por posição; elementos que saem usam cópias temporárias inertes, sem IDs duplicados, retiradas ao terminar. O menu abre com os itens em sequência e fecha com transição própria. Foco de teclado, Escape, alterações rápidas e preferências de movimento continuam funcionando. Os indicadores das abas seguem a seleção e se ajustam quando fontes, idioma ou largura mudam. As caixas de seleção mantêm a área de clique restrita ao conteúdo do rótulo.
+
+A ficha usa a imagem real do personagem, iluminação associada à raridade, apresentação gradual dos atributos e movimento de repouso. O retrato de transição usa a camada superior nativa do navegador, fica fora da árvore de acessibilidade e é removido ao fechar ou concluir. Controles posicionados, como Fechar, preservam sua posição durante o retorno visual do clique. No celular, a consulta ao artigo ocupa uma linha inteira acima de Salvar e Comparar.
+
+Os sons continuam sendo sintetizados localmente. Favorito, comparação, filtro, confirmação, abertura, fechamento e interação têm respostas distintas, com limite de frequência e controle de volume. Nada inicia um AudioContext antes de uma interação autorizada; silêncio salvo e aba oculta são respeitados. Não há música de fundo ou gravação externa adicionada.
+
+O tratamento visual continua usando retratos, mapas e ícones de Anime Adventures, sem grade espacial, partículas seguindo o cursor ou imagens de outros jogos. Textos e valores não são reescritos pelos efeitos. Os históricos públicos de Atualizações do site e Atualizações do bot permanecem vazios até a fase dos trailers, conforme a decisão do responsável.

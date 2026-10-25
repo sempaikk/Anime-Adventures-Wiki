@@ -1,3 +1,4 @@
+import {closeDialog} from './ui-motion';
 import {contentElement,contentLink} from './community-client';
 import {
   communityApi,
@@ -21,7 +22,7 @@ function viewImage(url: string) {
     viewer.setAttribute("aria-label", "Imagem do comentário");
     const close = element("button", "button button-outline", "Fechar imagem");
     close.type = "button";
-    close.addEventListener("click", () => viewer!.close());
+    close.addEventListener("click", () => closeDialog(viewer!));
     viewer.append(close, element("img"));
     document.body.append(viewer);
     viewer.addEventListener("click", (event) => {
@@ -33,7 +34,7 @@ function viewImage(url: string) {
           event.clientY < r.top ||
           event.clientY > r.bottom
         )
-          viewer!.close();
+          closeDialog(viewer!);
       }
     });
   }
@@ -279,7 +280,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
     submit.type = "submit";
     controls.append(
       submit,
-      button("Cancelar", () => dialog.close(), "button button-outline"),
+      button("Cancelar", () => closeDialog(dialog), "button button-outline"),
     );
     const notice = element("p", "composer-message");
     notice.setAttribute("role", "status");
@@ -291,7 +292,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
         await communityApi("/comments/" + comment.id + "/report", "POST", {
           reason: text.value,
         });
-        dialog.close();
+        closeDialog(dialog);
         status(message, "Denúncia enviada para revisão.");
       } catch (e) {
         status(notice, (e as Error).message, true);

@@ -1,3 +1,4 @@
+import {showDialog,closeDialog,animateUI,cue,respond} from './ui-motion';
 import {currentLocale} from './i18n';
 import { getUnits, type Unit } from "./unit-data";
 import { comparisonFields, factValue, validComparison } from "../lib/unit-tools.mjs";
@@ -105,6 +106,7 @@ function renderTable(units: Unit[]) {
     sources.append(cell);
   }
   body.append(sources); table.append(head, body);
+  animateUI(table,[{opacity:0,translate:"0 18px"},{opacity:1,translate:"0 0"}],{duration:700});
 }
 async function render() {
   const request = ++version;
@@ -143,6 +145,7 @@ async function change(id: string) {
   else if (selection.length < 3) selection.push(id);
   else { announce("Você pode comparar até três personagens. Remova um para escolher outro."); return; }
   save(); await render();
+  cue("compare");respond(tray.hidden?page:tray,"success");
   announce(`${selection.length} personagem${selection.length === 1 ? "" : "s"} na comparação.`);
 }
 
@@ -171,7 +174,7 @@ function openPicker(target: HTMLElement, index: number | null = null) {
   if (!picker) return;
   replacing = index; opener = target;
   picker.querySelector<HTMLInputElement>("#compare-search")!.value = "";
-  picker.showModal(); picker.querySelector<HTMLInputElement>("#compare-search")!.focus(); renderPicker();
+  showDialog(picker); picker.querySelector<HTMLInputElement>("#compare-search")!.focus(); renderPicker();
 }
 document.addEventListener("click", async (event) => {
   const target = event.target instanceof Element ? event.target : null;
@@ -188,11 +191,11 @@ document.addEventListener("click", async (event) => {
   const picked = target?.closest<HTMLButtonElement>("[data-picker-unit]");
   if (picked && !picked.disabled) {
     picked.disabled = true;
-    try { await change(picked.dataset.pickerUnit!); picker?.close(); } catch (error) { announce((error as Error).message); picked.disabled = false; }
+    try { await change(picked.dataset.pickerUnit!); closeDialog(picker); } catch (error) { announce((error as Error).message); picked.disabled = false; }
   }
 });
 if (picker) {
-  picker.querySelector("[data-picker-close]")!.addEventListener("click", () => picker.close());
+  picker.querySelector("[data-picker-close]")!.addEventListener("click", () => closeDialog(picker));
   picker.querySelector("#compare-search")!.addEventListener("input", renderPicker);
   picker.querySelector("[data-picker-retired]")!.addEventListener("change", renderPicker);
   picker.addEventListener("close", () => {
@@ -203,7 +206,7 @@ if (picker) {
   picker.addEventListener("click", (event) => {
     if (event.target !== picker) return;
     const rect = picker.getBoundingClientRect();
-    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) picker.close();
+    if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeDialog(picker);
   });
   picker.querySelector("#compare-search")!.addEventListener("keydown", (event) => {
     const e = event as KeyboardEvent;

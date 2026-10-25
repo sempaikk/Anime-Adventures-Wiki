@@ -1,3 +1,4 @@
+import {cue} from './ui-motion';
 type User = { id: string; name: string; avatar: string };
 type Session = { enabled: boolean; user: User | null };
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -117,6 +118,7 @@ async function mutateFavorite(id: string, desired?: boolean) {
       );
     }
   }
+  cue(active ? "favorite" : "remove");
   state.ids = ids;
   favoritesPromise = Promise.resolve(state);
   try { localStorage.setItem("aa-favorites-updated", `${Date.now()}-${Math.random()}`); } catch { /* Saving already reports storage failures for guests. */ }

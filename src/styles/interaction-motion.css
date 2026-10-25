@@ -1,0 +1,82 @@
+/* Motion uses the game's portraits, icons and rarity colors. No cursor particles. */
+html[data-motion='on'][data-page-entry] .page-wrapper { animation: interface-arrive 720ms cubic-bezier(.18,.72,.22,1) both; }
+@keyframes interface-arrive { from { opacity: 0; translate: 0 24px; } to { opacity: 1; translate: 0 0; } }
+html[data-motion='on'] .sidebar-open .sidebar { animation: none; transition: none; }
+html[data-motion='on'] :is(button,a,summary,input,textarea,select) { transition-timing-function: cubic-bezier(.18,.72,.22,1); }
+html[data-motion='on'] :is(.button,.square-button,.search-trigger,.nexus-unit-actions>*,.unit-card-actions button,.library-categories button,.update-tabs button,.picker-unit,.side-link,.theme-options button,.language-options button) { transition-duration: .45s; }
+html[data-motion='on'] :is(.button,.square-button,.nexus-unit-actions>*,.unit-card-actions button):is(:hover,:focus-visible):not(:disabled) { filter: brightness(1.12); }
+html[data-motion='on'] :is(.unit-entry,.library-card,.person-card,.community-channel,.comparison-slot,[data-nexus-surface]) { transition: border-color .55s,box-shadow .65s,background-color .55s,transform .65s cubic-bezier(.18,.72,.22,1); }
+html[data-motion='on'] :is(.unit-entry,.library-card,.person-card,.comparison-slot):is(:hover,:focus-within) { border-color: var(--tone,var(--accent)); box-shadow: 0 12px 32px color-mix(in srgb,var(--tone,var(--accent)) 15%,transparent); }
+html[data-motion='on'] :is(.unit-entry,.library-card):is(:hover,:focus-within) img { filter: drop-shadow(0 9px 15px color-mix(in srgb,var(--tone,var(--accent)) 32%,transparent)); transition: filter .7s; }
+.motion-tabs { position: relative; isolation: isolate; }
+.motion-selection { position: absolute; pointer-events: none; z-index: -1; inset: 0 auto auto 0; width: var(--selection-width,0px); height: var(--selection-height,0px); translate: var(--selection-x,0px) var(--selection-y,0px); border-radius: 12px; background: color-mix(in srgb,var(--accent) 15%,var(--surface)); border: 1px solid color-mix(in srgb,var(--accent) 60%,var(--line)); box-shadow: 0 3px 16px color-mix(in srgb,var(--accent) 10%,transparent); }
+html[data-motion='on'] .motion-selection { transition: translate .6s cubic-bezier(.18,.72,.22,1),width .6s,height .6s,background .5s; }
+.motion-tabs > button[aria-selected='true'],.motion-tabs > button[aria-pressed='true'],.wiki-content .motion-tabs > button[aria-selected='true'] { background: transparent; border-color: transparent; box-shadow: none; }
+.motion-departure { overflow: hidden; contain: layout paint; }
+.motion-departure * { animation: none !important; transition: none !important; }
+.motion-portrait-flight { display: block; max-width: none !important; max-height: none !important; overflow: visible; filter: drop-shadow(0 10px 25px #b4a4ff6b); }
+.unit-preview { isolation: isolate; }
+.unit-preview[data-tone='secret'] { --preview-energy: #ffa4cb; }
+.unit-preview[data-tone='mythic'] { --preview-energy: #c0a2ff; }
+.unit-preview[data-tone='legendary'] { --preview-energy: #ffcd7b; }
+.unit-preview[data-tone='rare'] { --preview-energy: #8ccfff; }
+.unit-preview[data-tone='epic'] { --preview-energy: #d8a6ff; }
+.unit-preview[data-tone='exclusive'] { --preview-energy: #ffa98d; }
+.unit-preview .preview-art { background: linear-gradient(155deg,color-mix(in srgb,var(--preview-energy,var(--accent)) 18%,var(--surface)),var(--surface)); }
+html[data-motion='on'] .unit-preview[open] .preview-art>img:not([hidden]) { animation: preview-portrait-life 6s ease-in-out infinite; filter: drop-shadow(0 8px 20px color-mix(in srgb,var(--preview-energy,var(--accent)) 30%,transparent)); }
+@keyframes preview-portrait-life { 0%,100% { translate: -3px 3px; rotate: -.4deg; } 50% { translate: 3px -7px; rotate: .4deg; } }
+.preview-load-mark { display: none; }
+.unit-preview[data-preview-loading] .preview-load-mark { display: grid; place-items: center; position: absolute; inset: 50% auto auto 50%; translate: -50% -50%; }
+.preview-load-mark .game-icon { width: 64px; height: 64px; background: none; }
+html[data-motion='on'] .preview-load-mark .game-icon { animation: preview-loading 1.8s ease-in-out infinite; }
+@keyframes preview-loading { 0%,100% { opacity: .45; transform: rotateY(-25deg) scale(.9); } 50% { opacity: 1; transform: rotateY(25deg) scale(1.08); } }
+html[data-motion='on'] [data-motion-busy] { background-image: linear-gradient(110deg,transparent 25%,color-mix(in srgb,var(--accent) 18%,transparent) 50%,transparent 75%); background-size: 250% 100%; animation: interface-working 1.7s ease-in-out infinite; }
+@keyframes interface-working { from { background-position: 180% 0; } to { background-position: -80% 0; } }
+html[data-motion='on'] :is(input:not([type=checkbox]):not([type=range]),textarea,select):focus-visible { border-color: var(--accent); transition: border-color .35s,box-shadow .5s; }
+html[data-motion='on'] :is(.search-result,.picker-unit,.comment,.comparison-tray-item,.profile-card) { transition: background .45s,border-color .45s,box-shadow .55s; }
+html[data-motion='on'] .search-result:is(:hover,:focus-visible),html[data-motion='on'] .picker-unit:is(:hover,:focus-visible) { background: color-mix(in srgb,var(--accent) 13%,var(--surface)); box-shadow: inset 3px 0 var(--accent); }
+html[data-motion='on'] .toast.show { animation: interface-notice .5s cubic-bezier(.18,.72,.22,1) both; }
+@keyframes interface-notice { from { opacity: 0; translate: 0 16px; scale: .96; } to { opacity: 1; translate: 0 0; scale: 1; } }
+html[data-motion='on'] :is(.side-section,.nexus-more-topics,.reading-index,.source-details,.home-source,.article-section,[data-catalog-filters]) > summary { transition: color .45s,background .45s; }
+@supports (interpolate-size:allow-keywords) {
+ html[data-motion='on'] :is(.side-section,.nexus-more-topics,.reading-index,.source-details,.home-source,.article-section,[data-catalog-filters])::details-content { height: 0; opacity: 0; overflow: clip; interpolate-size: allow-keywords; transition: height .55s cubic-bezier(.18,.72,.22,1),opacity .4s,content-visibility .55s allow-discrete; }
+ html[data-motion='on'] :is(.side-section,.nexus-more-topics,.reading-index,.source-details,.home-source,.article-section,[data-catalog-filters])[open]::details-content { height: auto; opacity: 1; }
+}
+/* All motion has a static fallback and can be interrupted through Appearance. */
+html[data-motion='off'] .motion-selection { transition: none; }
+html[data-page-hidden='true'] :is(.preview-art>img,.preview-load-mark .game-icon,[data-motion-busy]) { animation-play-state: paused !important; }
+@media(prefers-reduced-motion:reduce) {
+ .motion-selection { transition: none !important; }
+ .unit-preview .preview-art>img,.preview-load-mark .game-icon,[data-motion-busy] { animation: none !important; }
+}
+.motion-control { isolation: isolate; overflow: hidden; }
+.motion-impulse { position: absolute; inset: 0; z-index: 3; border-radius: inherit; pointer-events: none; background: linear-gradient(112deg,transparent 20%,color-mix(in srgb,var(--tone,var(--accent)) 34%,transparent) 48%,transparent 78%); mix-blend-mode: screen; }
+html[data-theme='light'] .motion-impulse { mix-blend-mode: multiply; }
+.preview-actions>button,[data-favorite] { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.stats-controls-row>button { font-family: 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
+html[data-motion='on'] .wiki-content a { transition: color .35s,text-decoration-color .35s,text-underline-offset .35s; }
+html[data-motion='on'] .wiki-content a:is(:hover,:focus-visible) { text-underline-offset: 4px; text-decoration-color: var(--accent); }
+html[data-motion='on'] .wiki-content figure img { transition: filter .7s; }
+html[data-motion='on'] .wiki-content figure img:hover { filter: brightness(1.07); }
+
+.motion-control-static { position: relative; }
+html[data-motion='on'] :is(#search-dialog,.unit-preview,.unit-picker,.confirm-dialog)[open] { animation: none; }
+html[data-motion='on'] .nexus-intro,html[data-motion='on'] .nexus-stage-wrap { animation: none; }
+html[data-motion='on'] dialog[open]::backdrop { animation: interface-backdrop 400ms ease-out; }
+@keyframes interface-backdrop { from { background-color: #060b1a00; backdrop-filter: blur(0); } to { background-color: #060b1a99; backdrop-filter: blur(5px); } }
+@media(max-width:650px) {
+ .preview-actions { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); }
+ .preview-actions>[data-preview-article] { grid-column: 1/-1; }
+ .preview-actions>.button { width: 100%; min-width: 0; min-height: 46px; gap: 8px; justify-content: center; }
+}
+@supports selector(details::details-content) {
+ html[data-motion='on'] :is(.theme-menu,.language-menu)::details-content { opacity: 0; transition: opacity .28s,content-visibility .28s allow-discrete; }
+ html[data-motion='on'] :is(.theme-menu,.language-menu)[open]::details-content { opacity: 1; }
+ :is(.theme-menu,.language-menu):not([open]) :is(.theme-options,.language-options) { pointer-events: none; }
+}
+::view-transition-old(root) { animation: interface-theme-out 350ms ease-out both; }
+::view-transition-new(root) { animation: interface-theme-in 650ms cubic-bezier(.18,.72,.22,1) both; }
+@keyframes interface-theme-out { to { opacity: 0; } }
+@keyframes interface-theme-in { from { opacity: 0; clip-path: inset(0 0 8% 0 round 24px); } to { opacity: 1; clip-path: inset(0 round 0); } }
+@media(prefers-reduced-motion:reduce) { ::view-transition-old(root),::view-transition-new(root) { animation: none; } }
+::view-transition { pointer-events: none; }

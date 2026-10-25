@@ -1,3 +1,4 @@
+import {closeDialog} from './ui-motion';
 import { accountApi, getSession, localFavorites } from "./favorites";
 
 getSession()
@@ -127,7 +128,7 @@ if (page) {
         .addEventListener("click", () => confirmation.showModal());
       confirmation
         .querySelector("[data-delete-cancel]")!
-        .addEventListener("click", () => confirmation.close());
+        .addEventListener("click", () => closeDialog(confirmation));
       const remove = confirmation.querySelector<HTMLButtonElement>(
         "[data-delete-confirm]",
       )!;
@@ -137,7 +138,7 @@ if (page) {
           await accountApi("/account", "DELETE");
           location.reload();
         } catch (error) {
-          confirmation.close();
+          closeDialog(confirmation);
           setMessage((error as Error).message);
           remove.disabled = false;
         }

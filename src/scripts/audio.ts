@@ -1,5 +1,5 @@
 // Synthesized interface cues. Audio starts only after a trusted user gesture.
-type Cue = "tap" | "open" | "select" | "welcome" | "hover";
+type Cue = "tap" | "open" | "select" | "welcome" | "hover" | "favorite" | "remove" | "compare" | "success" | "filter" | "close";
 const read = (key: string) => {
   try {
     return localStorage.getItem(key);
@@ -129,7 +129,7 @@ function sweep(
 async function play(cue: Cue, preview = false) {
   if ((!soundOn && !preview) || document.hidden || volume === 0) return;
   const now = performance.now();
-  if (now - lastCue < 65 && cue !== "welcome") return;
+  if (now - lastCue < 65 && !["welcome","favorite","compare","success","remove"].includes(cue)) return;
   lastCue = now;
   if (!context && !navigator.userActivation?.isActive) return;
   try {
@@ -153,6 +153,21 @@ async function play(cue: Cue, preview = false) {
       sweep(ctx, t, 0.28, 0.055);
       tone(ctx, 180, t, 0.23, 0.04, "triangle", 480);
       tone(ctx, 960, t + 0.055, 0.17, 0.025);
+    }
+    if(cue==='favorite'||cue==='success') {
+      for(const [i,f] of [659.25,987.77,1318.5].entries())tone(ctx,f,t+i*.055,.28,.035,i===0?'triangle':'sine',f*1.005);
+      tone(ctx,164.8,t,.18,.025,'sine',220);
+    }
+    if(cue==='compare') {
+      sweep(ctx,t,.2,.045);tone(ctx,150,t,.13,.05,'sine',75);
+      tone(ctx,440,t+.025,.18,.045,'triangle',660);tone(ctx,880,t+.08,.22,.025);
+    }
+    if(cue==='remove'||cue==='close') {
+      tone(ctx,cue==='close'?660:520,t,.14,.035,'triangle',cue==='close'?330:260);
+      if(cue==='close')sweep(ctx,t,.15,.025);
+    }
+    if(cue==='filter') {
+      sweep(ctx,t,.13,.025);tone(ctx,520,t,.12,.03,'sine',780);
     }
     if (cue === "welcome") {
       sweep(ctx, t, 0.42, 0.065);
@@ -224,7 +239,7 @@ document.addEventListener("click", (event) => {
   if (
     !target ||
     target.closest(
-      "[data-sound-toggle],[data-sound-preview],[data-sound-setting],.nexus-audio-settings,[data-model-prev],[data-model-next],[data-model-pick]",
+      "[data-sound-toggle],[data-sound-preview],[data-sound-setting],.nexus-audio-settings,[data-model-prev],[data-model-next],[data-model-pick],[data-compare],[data-preview-save],[data-favorite]",
     )
   )
     return;
@@ -246,7 +261,7 @@ document.addEventListener(
     const target =
       event.target instanceof Element
         ? event.target.closest(
-            ".nexus-destination,.nexus-topic-grid>a,.nexus-rail>a",
+            ".nexus-destination,.nexus-topic-grid>a,.nexus-rail>a,.side-link,.unit-card,.library-card,.picker-unit",
           )
         : null;
     if (target === hoverTarget) return;
@@ -276,3 +291,7 @@ window.addEventListener("storage", (event) => {
   sync();
 });
 window.addEventListener("pageshow", sync);
+
+const interfaceCues=new Set<Cue>(['favorite','remove','compare','success','filter','close']);
+document.addEventListener('aa:ui-cue',event=>{const name=(event as CustomEvent<Cue>).detail;if(interfaceCues.has(name))play(name)});
+document.addEventListener('change',event=>{const target=event.target;if(target instanceof Element&&target.matches('#rarity-filter,#tower-filter,#unit-sort,#retired-filter,#library-retired,[data-stats-select]'))play('filter')});

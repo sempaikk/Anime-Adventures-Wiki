@@ -194,8 +194,8 @@ for (const [root, boxes] of statGroups) {
   label.htmlFor = select.id;
   label.textContent = "Escolha a etapa do personagem";
   previous.type = next.type = last.type = "button";
-  previous.textContent = "‹";
-  next.textContent = "›";
+  previous.textContent = "⬅️";
+  next.textContent = "➡️";
   last.textContent = "Última etapa";
   previous.setAttribute("aria-label", "Etapa anterior");
   next.setAttribute("aria-label", "Próxima etapa");

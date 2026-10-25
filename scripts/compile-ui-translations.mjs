@@ -14,7 +14,7 @@ for(const [text,key] of Object.entries(lookup)){
   try {messages[text]=load(restoreTranslation(prepared,cache[key]),{},false).root().text()} catch(error){throw Error(text+' => '+cache[key]+'; '+error.message)}
 }
 Object.assign(messages,{
-  'Selecionado':'Selected',
+  'Selecionado':'Selected','Salvo nos favoritos':'Saved to favorites','Salvar nos favoritos':'Save to favorites',
   'Tipografia':'Typography','Adventures Wiki é um projeto independente para organizar informações públicas sobre Anime Adventures. A interface e os artigos estão disponíveis em português brasileiro e inglês dos Estados Unidos. Os artigos em português identificam a tradução automática e permitem consultar o original em inglês.':'Adventures Wiki is an independent project that organizes public information about Anime Adventures. The interface and articles are available in Brazilian Portuguese and US English. Portuguese articles identify automatic translation and link to the English original.',
   'Fontes sob a licença SIL Open Font License:':'Fonts licensed under the SIL Open Font License:',
   'A interface e os artigos estão disponíveis em português brasileiro e inglês dos Estados Unidos. Os artigos em português identificam a tradução automática e permitem consultar o original em inglês.':'The interface and articles are available in Brazilian Portuguese and US English. Portuguese articles identify automatic translation and link to the English original.',

@@ -1,3 +1,4 @@
+import {arrange,cue,respond} from './ui-motion';
 const normalize = (value: string) => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const $ = <T extends HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
 function writeParams(values: Record<string, string>) {
@@ -16,7 +17,7 @@ const grid = $("#unit-grid");
 if (grid) {
   const cards = Array.from(grid.querySelectorAll<HTMLElement>("[data-unit-card]"));
   const query = $<HTMLInputElement>("#unit-search"), rarity = $<HTMLSelectElement>("#rarity-filter"), tower = $<HTMLSelectElement>("#tower-filter"), sort = $<HTMLSelectElement>("#unit-sort"), retired = $<HTMLInputElement>("#retired-filter");
-  let shown = 12;
+  let shown = 12, initialized=false;
   function filter(reset = true) {
     if (reset) shown = 12;
     const q = normalize(query.value.trim());
@@ -29,8 +30,7 @@ if (grid) {
       return (sort.value === "cost-desc" ? cb - ca : ca - cb) || byName(a,b);
     });
     const visible = new Set(matched.slice(0, shown));
-    for (const card of cards) card.hidden = !visible.has(card);
-    for (const card of matched) grid.append(card);
+    arrange(grid,()=>{for(const card of cards)card.hidden=!visible.has(card);for(const card of matched)grid.append(card)},initialized);initialized=true;
     $("#unit-results").textContent = `${matched.length} personagem${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
     $("#unit-empty").hidden = matched.length > 0;
     $("#load-units").hidden = shown >= matched.length;
@@ -53,13 +53,13 @@ if (grid) {
 const library = $("#article-grid");
 if (library) {
   const cards = Array.from(library.children) as HTMLElement[], query = $<HTMLInputElement>("#article-search"), archived = $<HTMLInputElement>("#library-retired"), kinds = Array.from(document.querySelectorAll<HTMLButtonElement>("[data-article-kind]"));
-  let kind = "", shown = 12;
+  let kind = "", shown = 12, initialized=false;
   function filter(reset = true) {
     if (reset) shown = 12;
     const q = normalize(query.value.trim());
     const matched = cards.filter((card) => (!kind || card.dataset.kind === kind) && (archived.checked || card.dataset.retired !== "true") && normalize(card.dataset.title || "").includes(q));
     const visible = new Set(matched.slice(0, shown));
-    cards.forEach((card) => card.hidden = !visible.has(card));
+    arrange(library,()=>cards.forEach(card=>card.hidden=!visible.has(card)),initialized);initialized=true;
     kinds.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.articleKind === kind)));
     $("#article-results").textContent = `${matched.length} artigo${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
     $("#article-empty").hidden = matched.length > 0; $("#load-articles").hidden = shown >= matched.length;
@@ -79,6 +79,6 @@ if (library) {
 }
 document.querySelector("[data-share-filters]")?.addEventListener("click", async () => {
   const message = $("[data-filter-message]");
-  try { await navigator.clipboard.writeText(location.href); message.textContent = "Link da busca copiado."; }
+  try { await navigator.clipboard.writeText(location.href); message.textContent = "Link da busca copiado.";cue("success");respond(document.querySelector("[data-share-filters]"),"success"); }
   catch { message.textContent = "Copie este endereço: "; const field = document.createElement("input"); field.value = location.href; field.readOnly = true; field.setAttribute("aria-label", "Link da busca"); message.append(field); field.select(); }
 });
