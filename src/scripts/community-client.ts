@@ -35,11 +35,11 @@ export const element = <K extends keyof HTMLElementTagNameMap>(
   return node;
 };
 export function link(text: string, href: string, className = "") {
-  const directional = /\s*↗[\uFE0E\uFE0F]?$/u.test(text);
+  const directional = /\s*[↗→][\uFE0E\uFE0F]?$/u.test(text);
   const node = element(
     "a",
     className,
-    directional ? text.replace(/\s*↗[\uFE0E\uFE0F]?$/u, "") : text,
+    directional ? text.replace(/\s*[↗→][\uFE0E\uFE0F]?$/u, "") : text,
   );
   if (directional) {
     node.classList.add("has-direction");

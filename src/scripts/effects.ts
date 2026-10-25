@@ -6,7 +6,7 @@ const animated = new Set<Animation>();
 let observer: IntersectionObserver | undefined;
 const revealed = new WeakSet<Element>();
 const surfaces =
-  ".unit-entry,.library-card,.orbit-portal,.person-card,.comparison-slot,.community-channel";
+  ".unit-entry,.library-card,.orbit-portal,.person-card,.comparison-slot,.community-channel,.nexus-stage-wrap,.nexus-destination,.nexus-topic-grid>a";
 const watchedSurfaces = new WeakSet<Element>();
 const surfaceObserver =
   "IntersectionObserver" in window
@@ -53,7 +53,7 @@ function observeContent() {
             { opacity: 1, transform: "none" },
           ],
           {
-            duration: 560,
+            duration: 850,
             delay: Math.min(position++ * 45, 180),
             easing: "cubic-bezier(.2,.7,.2,1)",
           },

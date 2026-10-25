@@ -8,27 +8,30 @@ import '@fontsource-variable/oxanium';
 import '../styles/orbit.css';
 import '../styles/nexus.css';
 import '../styles/adventures-ui.css';
+import '../styles/continuous.css';
 import '../styles/portrait-framing.css';
 import { gameNavigation, gameLogo } from '../lib/wiki-navigation';
-import { wiki, articleUrl } from '../lib/wiki';
+import { wiki } from '../lib/wiki';
 import { channels, botInvite } from '../lib/community';
 import NavigationMotion from '../components/NavigationMotion.astro';
 import ComparisonTray from '../components/ComparisonTray.astro';
 import CloseButton from '../components/CloseButton.astro';
 import GameIcon from '../components/GameIcon.astro';
 import art from '../../source/interface-art.json';
+import { scenery } from '../lib/scenery';
 const isHome = Astro.props.home === true || Astro.url.pathname.replace(/\/$/, '') === import.meta.env.BASE_URL.replace(/\/$/, '');
 const { title = 'Adventures Wiki', description = 'Personagens, itens, guias e informações sobre Anime Adventures. Wiki independente da comunidade.', active = isHome ? 'inicio' : '' } = Astro.props;
 const pages = [
-  ['inicio','Início','/'], ['biblioteca','Biblioteca','/biblioteca/'],
-  ['comparar','Comparar personagens','/comparar/'],
-  ['tiers','Tier lists',articleUrl('Tier Lists')], ['map','Mapa do lobby','/mapa/'],
-  ['comunidade','Jogo e comunidade','/comunidade/'], ['updates','Atualizações','/atualizacoes/'],
+  ['inicio','Início','/','🏠'], ['biblioteca','Biblioteca','/biblioteca/','📚'],
+  ['comparar','Comparar personagens','/comparar/','⚖️'], ['map','Mapa do lobby','/mapa/','🗺️'],
+  ['comunidade','Jogo e comunidade','/comunidade/','🎮'], ['updates','Atualizações','/atualizacoes/','📰'],
 ];
 const game = gameNavigation;
 const topLinks = [['inicio','Início','/'],['personagens','Personagens','/personagens/'],['biblioteca','Wiki','/biblioteca/'],['pessoas','Comunidade','/pessoas/']];
 const topActive=topLinks.find(([, ,href])=>href===Astro.url.pathname)?.[0] || active;
 const pageArt = ['personagens','comparar'].includes(active) ? art.namak : ['pessoas','conta','favoritos'].includes(active) ? art.city : art.dungeon;
+const firstScene = isHome ? scenery[0] : scenery.find(scene=>scene.image===pageArt.image) || scenery[0];
+const sceneFrames = [firstScene,...scenery.filter(scene=>scene.image!==firstScene.image)];
 const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Contraste suave'],['light','Claro','Fundo claro']];
 ---
 <!doctype html><html lang="pt-BR" data-theme="adventures"><head>
@@ -42,6 +45,7 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
   <script is:inline>try{const t=localStorage.getItem('aa-theme');document.documentElement.dataset.theme=['adventures','dark','light'].includes(t)?t:'adventures'}catch{}</script>
   <NavigationMotion/>
 </head><body id="top" class:list={{'page-home':isHome}} data-area={active} style={!isHome?`--page-scene:url("${pageArt.image}")`:undefined}>
+<div class="game-backdrop" data-game-backdrop data-scene-frames={JSON.stringify(sceneFrames)} aria-hidden="true"><div class="game-backdrop-pan"><img class="is-active" data-scene-current src={firstScene.image} alt="" width="1023" height="575" fetchpriority="high"/><img data-scene-next alt="" width="1023" height="575"/></div><div class="game-backdrop-shade"></div></div>
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
 <div class="navigation-progress" aria-hidden="true"></div><div class="page-transition-layer" aria-hidden="true"><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span></div>
 <header class="site-header"><div class="reading-progress" aria-hidden="true"><span></span></div>
@@ -56,11 +60,11 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
   </div>
 </header>
 <nav class="mobile-primary" aria-label="Atalhos principais">{[...topLinks.slice(1),['favoritos','Favoritos','/favoritos/']].map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
-<nav class="nexus-rail" aria-label="Acesso rápido"><a href="/personagens/" aria-label="Personagens" data-rail-label="Personagens" aria-current={active==='personagens'?'page':undefined}><GameIcon item={gameNavigation[0]}/></a><a href="/biblioteca/" aria-label="Biblioteca" data-rail-label="Biblioteca" aria-current={active==='biblioteca'?'page':undefined}><GameIcon item={gameNavigation[1]}/></a><a href={gameNavigation[2].href} aria-label="Traits" data-rail-label="Traits"><GameIcon item={gameNavigation[2]}/></a><a href={gameNavigation[5].href} aria-label="Relíquias" data-rail-label="Relíquias"><GameIcon item={gameNavigation[5]}/></a><span class="nexus-rail-separator" aria-hidden="true"></span><a href="/comparar/" aria-label="Comparar" data-rail-label="Comparar" aria-current={active==='comparar'?'page':undefined}><span class="nexus-compare-glyph" aria-hidden="true"></span></a><a href="/favoritos/" aria-label="Favoritos" data-rail-label="Favoritos" aria-current={active==='favoritos'?'page':undefined}><span class="nexus-save-glyph" aria-hidden="true"></span></a><a href="/pessoas/" aria-label="Pessoas" data-rail-label="Pessoas" aria-current={active==='pessoas'?'page':undefined}><span class="nexus-people-glyph" aria-hidden="true"></span></a></nav>
+<nav class="nexus-rail" aria-label="Acesso rápido"><a href="/personagens/" aria-label="Personagens" data-rail-label="Personagens" aria-current={active==='personagens'?'page':undefined}><GameIcon item={gameNavigation[0]}/></a><a href="/biblioteca/" aria-label="Biblioteca" data-rail-label="Biblioteca" aria-current={active==='biblioteca'?'page':undefined}><GameIcon item={gameNavigation[1]}/></a><a href={gameNavigation[2].href} aria-label="Traits" data-rail-label="Traits"><GameIcon item={gameNavigation[2]}/></a><a href={gameNavigation[5].href} aria-label="Relíquias" data-rail-label="Relíquias"><GameIcon item={gameNavigation[5]}/></a><span class="nexus-rail-separator" aria-hidden="true"></span><a href="/comparar/" aria-label="Comparar" data-rail-label="Comparar" aria-current={active==='comparar'?'page':undefined}><span class="ui-emoji" aria-hidden="true">⚖️</span></a><a href="/favoritos/" aria-label="Favoritos" data-rail-label="Favoritos" aria-current={active==='favoritos'?'page':undefined}><span class="ui-emoji" aria-hidden="true">❤️</span></a><a href="/pessoas/" aria-label="Pessoas" data-rail-label="Pessoas" aria-current={active==='pessoas'?'page':undefined}><span class="ui-emoji" aria-hidden="true">👥</span></a></nav>
 <div class="site-shell"><aside class="sidebar" id="side-nav">
-  <nav aria-label="Navegação principal"><span class="nav-label">WIKI</span>{pages.map(([key,label,href])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-label">{label}</span></a>)}</nav>
-  <details class="side-section" open><summary>Conteúdos do jogo<span class="plus-mark" aria-hidden="true"></span></summary><nav aria-label="Conteúdos do jogo">{game.map(item=><a href={item.href} class:list={['side-link','side-game-link',{active:active===item.key}]} aria-current={active===item.key?'page':undefined}><GameIcon item={item}/><span class="side-label">{item.accessible}</span></a>)}</nav></details>
-  <details class="side-section" open={['favoritos','conta','pessoas'].includes(active)}><summary>Comunidade e conta<span class="plus-mark" aria-hidden="true"></span></summary><nav aria-label="Comunidade e conta"><a class="side-link" href="/pessoas/">Pessoas</a><a class:list={['side-link',{active:active==='favoritos'}]} href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}>Favoritos</a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/" aria-current={active==='conta'?'page':undefined}>Gerenciar perfil</a></nav></details>
+  <nav aria-label="Navegação principal"><span class="nav-label">WIKI</span>{pages.map(([key,label,href,emoji])=><a href={href} class:list={['side-link',{active:active===key}]} aria-current={active===key?'page':undefined}><span class="side-emoji ui-emoji" aria-hidden="true">{emoji}</span><span class="side-label">{label}</span></a>)}</nav>
+  <details class="side-section" open><summary>Conteúdos do jogo<span class="detail-direction" aria-hidden="true"></span></summary><nav aria-label="Conteúdos do jogo">{game.map(item=><a href={item.href} class:list={['side-link','side-game-link',{active:active===item.key}]} aria-current={active===item.key?'page':undefined}><GameIcon item={item}/><span class="side-label">{item.accessible}</span></a>)}</nav></details>
+  <details class="side-section" open={['favoritos','conta','pessoas'].includes(active)}><summary>Comunidade e conta<span class="detail-direction" aria-hidden="true"></span></summary><nav aria-label="Comunidade e conta"><a class="side-link" href="/pessoas/"><span class="side-emoji ui-emoji" aria-hidden="true">👥</span><span class="side-label">Pessoas</span></a><a class:list={['side-link',{active:active==='favoritos'}]} href="/favoritos/" aria-current={active==='favoritos'?'page':undefined}><span class="side-emoji ui-emoji" aria-hidden="true">❤️</span><span class="side-label">Favoritos</span></a><a class:list={['side-link',{active:active==='conta'}]} href="/conta/" aria-current={active==='conta'?'page':undefined}><span class="side-emoji ui-emoji" aria-hidden="true">🪪</span><span class="side-label">Gerenciar perfil</span></a></nav></details>
   <div class="sidebar-bottom"><a class="sidebar-install" href={botInvite} target="_blank" rel="noopener noreferrer">Adicionar o bot <span class="ui-direction" aria-hidden="true">↗️</span></a><a href="/sobre/">Sobre, fontes e créditos</a></div>
 </aside><div class="page-wrapper"><main id="main"><slot/></main>
 <footer class="site-footer"><div><strong>WIKI DA COMUNIDADE</strong><p>Artigos e contribuições dos jogadores.</p></div><div class="footer-links"><a href="/sobre/">Sobre e fontes</a>{channels.map(channel=><a href={channel.url} target="_blank" rel="noopener noreferrer">{channel.platform} <span class="ui-direction" aria-hidden="true">↗️</span></a>)}</div><small>Projeto independente. Textos sob <a href="https://www.fandom.com/licensing" target="_blank" rel="noopener noreferrer">CC-BY-SA</a>. Artes com créditos nas fontes.</small><a href="#top" class="back-top" aria-label="Voltar ao topo"><span class="ui-emoji" aria-hidden="true">🔝</span></a></footer></div></div>
@@ -72,4 +76,5 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
 <script src="../scripts/i18n.ts"></script>
 <script src="../scripts/client.ts"></script>
 <script src="../scripts/audio.ts"></script>
+<script src="../scripts/ambient.ts"></script>
 </body></html>

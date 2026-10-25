@@ -2,7 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 ---
 <Layout title="Revisão — Adventures Wiki" active="conta">
-<div class="page-heading"><span class="eyebrow">CONTA / REVISÃO</span></div><div class="catalog-heading"><div><h1>Revisão da wiki</h1><p>Confira sugestões, publique notas com fonte e cuide dos comentários da comunidade.</p></div></div>
+<div class="catalog-heading"><div><h1>Revisão da wiki</h1><p>Confira sugestões, publique notas com fonte e cuide dos comentários da comunidade.</p></div></div>
 <section data-review><p class="community-status" data-review-status role="status">Conferindo acesso…</p><div data-review-content hidden><div class="review-columns"><section><div class="section-heading"><h2>Sugestões de correção</h2></div><div data-review-corrections></div></section><section><div class="section-heading"><h2>Denúncias</h2></div><div data-review-reports></div></section></div><section class="editorial-form-panel" id="publicar-nota"><h2>Publicar nota de revisão</h2><p>A nota aparece no artigo, com data e fonte. Use-a para registrar uma correção conferida ou esclarecer uma informação da revisão original.</p><form data-note-form class="profile-form"><label>Artigo<select name="article" required data-note-article><option value="">Carregando artigos…</option></select></label><label>Título<input name="title" maxlength="120" required/></label><label>Texto<textarea name="body" rows="5" maxlength="5000" required></textarea></label><label>Fonte conferida<input type="url" name="source_url" placeholder="https://…" required/></label><button class="button button-primary">Publicar nota</button><p role="status" data-note-status></p></form></section></div></section>
 <script src="../../scripts/review.ts"></script>
 </Layout>

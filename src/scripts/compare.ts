@@ -38,7 +38,10 @@ function updateButtons() {
     if (!button.dataset.compareLabel) button.dataset.compareLabel = button.getAttribute("aria-label") || "Comparar personagem";
     const name = catalog.find((unit) => unit.id === button.dataset.compare)?.name;
     button.setAttribute("aria-label", selected ? `Remover ${name || "personagem"} da comparação` : button.dataset.compareLabel);
-    button.textContent = selected ? "Selecionado ✓" : "Comparar";
+    const icon = document.createElement("span");
+    icon.className = "ui-emoji"; icon.setAttribute("aria-hidden", "true");
+    icon.textContent = selected ? "✅" : "⚖️";
+    button.replaceChildren(icon, document.createTextNode(selected ? " Selecionado" : " Comparar"));
   }
 }
 function node<K extends keyof HTMLElementTagNameMap>(tag: K, text?: string, className?: string) {

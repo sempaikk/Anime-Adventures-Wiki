@@ -56,3 +56,11 @@ A nova abertura substitui o painel anterior por uma cena de consulta com seis pe
 `audio.ts` produz uma identidade sonora com osciladores, envelopes e ruído filtrado. Não baixa gravações externas. O visitante ativa o som e ajusta o volume em Aparência e som; a preferência fica no dispositivo e se sincroniza entre abas. Nenhum AudioContext é criado antes de uma interação autorizada. Volume, silêncio e movimento são controles independentes.
 
 Esta é a primeira etapa da direção visual e sonora. A próxima frente recomendada é aprofundar a exploração das fichas, dos upgrades e das evoluções com os dados da fonte; depois, ferramentas de equipe e busca por intenção podem ser avaliadas como funcionalidades próprias.
+
+## Direção atual — movimento e informação (25/10/2026)
+
+O movimento contínuo usa as artes documentadas do próprio jogo. Nove mapas alternam por dissolução de 2,4 segundos e percorrem lentamente o fundo fixo da página inteira. O personagem em foco tem movimento de repouso independente do mouse; os retratos do catálogo e as artes dos atalhos também continuam animados enquanto estão visíveis. Texto, estatísticas e controles permanecem estáveis. A troca de personagem faz uma transição de 900 ms e aceita cliques rápidos sem trocar o artigo ou os botões para outra forma.
+
+A pausa do cenário fica salva no navegador. A preferência de movimento, a redução de movimento do sistema, a economia de dados e a visibilidade da aba limitam o trabalho de animação. Apenas duas camadas de cenário são mantidas; a biblioteca inteira de mapas não é baixada de uma vez. O código de grade WebGL que já não tinha elemento na interface foi removido.
+
+Os números de série e os rótulos duplicados deram lugar a títulos diretos e, nos cartões, ao posicionamento documentado na fonte. As referências de catálogo consultadas incluem a [biblioteca de personagens do Prydwen](https://www.prydwen.gg/zenless/characters/), com busca e filtros por atributos reais. Essa referência orienta a organização; todas as imagens desta wiki continuam sendo de Anime Adventures.

@@ -1,0 +1,92 @@
+/* Maps remain behind the whole document, including its lower sections. */
+body { isolation: isolate; }
+.game-backdrop { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; background: var(--bg); }
+.game-backdrop-pan { position: absolute; inset: -5%; transform: scale(1.02); }
+.game-backdrop-pan img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 2.4s ease-in-out; }
+.game-backdrop-pan img.is-active { opacity: 1; }
+.game-backdrop-shade { position: absolute; inset: 0; background: linear-gradient(90deg,color-mix(in srgb,var(--bg) 92%,transparent),color-mix(in srgb,var(--bg) 62%,transparent) 65%,color-mix(in srgb,var(--bg) 74%,transparent)),linear-gradient(0deg,color-mix(in srgb,var(--bg) 55%,transparent),transparent 65%); }
+html[data-theme='light'] .game-backdrop-shade { background: color-mix(in srgb,var(--bg) 87%,transparent); }
+body:not(.page-home) .page-wrapper:before { display: none; }
+.nexus-hero { background: transparent; }
+.nexus-hero-grid { position: relative; }
+.nexus-portrait { transition: transform 850ms cubic-bezier(.18,.65,.25,1); }
+.nexus-portrait img:is([data-stage-image],[data-portrait-outgoing]) { position: absolute; inset: 0; width: 100% !important; height: 100% !important; min-width: 0; min-height: 0; max-width: 100%; max-height: 100%; }
+.nexus-stage:active { cursor: default; }
+.nexus-model-controls { display: flex; gap: 18px; }
+/* Every line of a heading uses the same type treatment. */
+.nexus-intro h1 > strong, .nexus-destination h2 > strong, .nexus-tools h2 > strong { font: inherit; letter-spacing: inherit; color: inherit; -webkit-text-stroke: 0; text-shadow: none; filter: none; background: none; }
+.nexus-intro h1 { max-width: 15ch; }
+.nexus-destination-top { justify-content: flex-end; min-height: 32px; }
+.nexus-destination-copy { margin-top: auto; }
+.nexus-destination h2 { max-width: 13ch; line-height: 1.16; }
+.nexus-destination-units h2 { font-size: clamp(30px,3.1vw,46px); }
+.nexus-destination-copy > h2 { margin-top: 18px; }
+.nexus-destination-go { display: inline-flex; align-items: center; justify-content: flex-start; gap: 8px; align-self: flex-start; }
+.nexus-destination .ui-direction, .nexus-tool-links .ui-direction, .site-footer .footer-links .ui-direction, .community-channel .ui-direction { display: inline-block; }
+.nexus-tool-links a { grid-template-columns: 28px minmax(0,1fr) 20px; gap: 12px; }
+.nexus-tool-links a > .ui-emoji { font-size: 20px; letter-spacing: 0; color: inherit; }
+.sidebar .side-link { display: grid; grid-template-columns: 27px minmax(0,1fr); align-items: center; gap: 10px; }
+.sidebar .side-emoji { width: 27px; height: 27px; opacity: 1; }
+.sidebar .side-label { min-width: 0; }
+.sidebar-install, a.text-link, a.has-direction { display: inline-flex; align-items: center; justify-content: flex-start; gap: 8px; width: fit-content; max-width: 100%; }
+.sidebar-install > .ui-direction, .text-link > .ui-direction, .has-direction > .ui-direction { margin-left: 0; }
+:is(.nexus-unit-actions,.unit-card-actions) button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; }
+.unit-card-actions .ui-emoji { font-size: 15px; }
+.unit-code { font: 600 10px/1.4 'Rubik Variable',sans-serif; letter-spacing: 0; padding: 6px 9px; border-radius: 9px; background: var(--surface); color: var(--muted); }
+/* Labels keep their text clickable without covering empty filter-grid cells. */
+:is(.filter-panel,.profile-form,.theme-options,.unit-picker) label:has(>input[type='checkbox']) { display: inline-flex; align-items: center; justify-content: flex-start; gap: 10px; width: fit-content; max-width: 100%; justify-self: start; min-height: 44px; cursor: pointer; }
+label:has(>input[type='checkbox']) > input[type='checkbox'] { flex: 0 0 auto; margin: 0; }
+/* Only artwork moves continuously; labels, facts and hit areas stay still. */
+html[data-motion='on'] .game-backdrop-pan { animation: wiki-map-pan 24s ease-in-out infinite alternate; animation-play-state: paused; }
+html[data-motion='on'][data-scene-playing='true'] .game-backdrop-pan { animation-play-state: running; }
+html[data-motion='on'] .nexus-portrait [data-stage-image],
+html[data-motion='on'] .unit-art > img,
+html[data-motion='on'] .nexus-destination-unit { animation: wiki-portrait-idle 7s ease-in-out infinite; animation-play-state: paused; }
+html[data-motion='on'] [data-effect-visible] .nexus-portrait [data-stage-image],
+html[data-motion='on'] .unit-entry[data-effect-visible] .unit-art > img,
+html[data-motion='on'] .nexus-destination[data-effect-visible] .nexus-destination-unit { animation-play-state: running; }
+html[data-motion='on'] .unit-entry:nth-child(3n) .unit-art > img { animation-duration: 8.5s; animation-delay: -2s; }
+html[data-motion='on'] .unit-entry:nth-child(3n+1) .unit-art > img { animation-delay: -4s; }
+html[data-motion='on'] .nexus-destination-scene { animation: wiki-card-scene 19s ease-in-out infinite alternate; animation-play-state: paused; }
+html[data-motion='on'] .nexus-destination[data-effect-visible] .nexus-destination-scene { animation-play-state: running; }
+html[data-motion='on'] .nexus-topic-grid .game-icon { animation: wiki-icon-idle 5s ease-in-out infinite; animation-play-state: paused; }
+html[data-motion='on'] .nexus-topic-grid [data-effect-visible] .game-icon { animation-play-state: running; }
+html[data-motion='on'] .nexus-topic-grid a:nth-child(even) .game-icon { animation-delay: -2.5s; }
+html[data-motion='on'] :is(.nexus-unit-actions>*,.nexus-model-controls button,.nexus-model-roster button,.unit-card-actions button,.library-card,[data-nexus-surface],.button,.text-link) { transition-duration: .55s; transition-timing-function: cubic-bezier(.2,.65,.25,1); }
+html[data-motion='on'] .sidebar .side-link { transition-duration: .45s; }
+html[data-motion='on'] .sidebar .side-link:is(:hover,:focus-visible) :is(.game-icon,.side-emoji) { animation: game-menu-icon .85s cubic-bezier(.2,.7,.3,1); }
+html[data-motion='on'] .nexus-quick a:is(:hover,:focus-visible) .game-icon { animation: game-menu-icon .85s ease; }
+html[data-page-hidden='true'] :is(.game-backdrop-pan,.nexus-portrait img,.unit-art>img,.nexus-destination-scene,.nexus-destination-unit,.nexus-topic-grid .game-icon) { animation-play-state: paused !important; }
+@keyframes wiki-map-pan { from { transform: scale(1.02) translate(-1%,0); } to { transform: scale(1.075) translate(1%,1.2%); } }
+@keyframes wiki-card-scene { from { transform: scale(1.03) translateX(-1%); } to { transform: scale(1.11) translateX(1%); } }
+@keyframes wiki-portrait-idle { 0%,100% { transform: translateY(3px) rotate(-.35deg); } 50% { transform: translateY(-6px) rotate(.35deg); } }
+@keyframes wiki-icon-idle { 0%,100% { translate: 0 1px; rotate: -2deg; } 50% { translate: 0 -3px; rotate: 2deg; } }
+@media(max-width:650px) {
+  .game-backdrop-pan img { object-position: 60% center; }
+  .nexus-intro h1 { max-width: none; }
+  .nexus-unit-actions .ui-emoji { font-size: 15px; }
+  .nexus-destination-top { min-height: 32px; }
+}
+@media(prefers-reduced-motion:reduce) {
+  .game-backdrop-pan, .nexus-portrait img, .unit-art>img, .nexus-destination-scene, .nexus-destination-unit, .nexus-topic-grid .game-icon, .sidebar .side-emoji { animation: none !important; }
+  .game-backdrop-pan img, .nexus-portrait { transition: none; }
+}
+/* Grid tracks follow the cards' content instead of clipping the next section. */
+.nexus-destinations { grid-template-rows: repeat(2,minmax(330px,auto)); }
+@media(max-width:650px) {
+  .nexus-destinations { grid-template-rows: none; grid-auto-rows: minmax(330px,auto); }
+}
+.detail-direction::before { content: '🔽'; display: inline-block; font: 12px/1 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
+details[open] > summary > .detail-direction::before { content: '🔼'; }
+.side-section > summary .detail-direction { margin-left: auto; }
+.comparison-tray { border-radius: 22px; box-shadow: 0 16px 55px #0005; }
+html[data-motion='on'] .nexus-portrait [data-stage-image] { animation-name: wiki-featured-idle; animation-duration: 9s; }
+@keyframes wiki-featured-idle {
+  0%,100% { transform: translate3d(-5px,3px,0) rotateY(-3deg) rotateZ(-.3deg); }
+  50% { transform: translate3d(5px,-8px,0) rotateY(3deg) rotateZ(.3deg); }
+}
+html[data-motion='off'] .game-backdrop-pan img { transition: none; }
+.nexus-destination-top > .ui-emoji { font: 24px/1 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; letter-spacing: 0; }
+.nexus-tool-links a > .ui-direction { font: 15px/1.4 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
+/* Keep the game's dark opening readable when the surrounding UI uses Light. */
+html[data-theme='light'] .nexus-hero { background: linear-gradient(110deg,#0c1328eb,#151b36d9); }
