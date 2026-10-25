@@ -1,5 +1,6 @@
 import { accountRequest } from "./accounts.mjs";
 import { communityRequest } from "./community.mjs";
+import {documentPath,localizedPath,splitLocale,visitorLocale} from '../src/lib/locales.mjs';
 /** Static site and same-origin account API. Secrets are configured in Cloudflare. */
 export default {
   async fetch(request, env) {
@@ -19,13 +20,26 @@ export default {
         );
       }
     }
+    const selected=splitLocale(url.pathname);
+    if (!selected.locale && documentPath(url.pathname) && !/^\/bot\/(?:termos|privacidade)(?:\/|$)/.test(url.pathname) && ['GET','HEAD'].includes(request.method)) {
+      url.pathname=localizedPath(url.pathname,visitorLocale(request));
+      return new Response(null,{status:302,headers:{Location:url.href,'Cache-Control':'private, no-store',Vary:'Cookie'}});
+    }
     if (
-      /^\/perfil\/[a-z0-9_-]{3,24}\/?$/.test(url.pathname) &&
+      /^\/perfil\/[a-z0-9_-]{3,24}\/?$/.test(selected.pathname) &&
       ["GET", "HEAD"].includes(request.method)
     ) {
-      url.pathname = "/perfil/";
+      url.pathname = selected.locale?localizedPath('/perfil/',selected.locale):'/perfil/';
       return env.ASSETS.fetch(new Request(url, request));
     }
-    return env.ASSETS.fetch(request);
+    const response=await env.ASSETS.fetch(request);
+    if(response.status===404&&selected.locale&&documentPath(url.pathname)){
+      // Assets serve .html files through clean URLs; requesting 404.html here
+      // would return a redirect without the localized error page body.
+      url.pathname=localizedPath('/404',selected.locale);
+      const page=await env.ASSETS.fetch(new Request(url,request));
+      return new Response(page.body,{status:404,headers:page.headers});
+    }
+    return response;
   },
 };

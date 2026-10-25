@@ -5,7 +5,7 @@ getSession()
     if (session.user) {
       const link = document.querySelector<HTMLElement>("[data-account-link]");
       const label = link?.querySelector<HTMLElement>("[data-account-label]");
-      if (label) label.textContent = session.user.name;
+      if (label) { label.dataset.noTranslate=""; label.setAttribute("translate","no"); label.textContent = session.user.name; }
       if (
         link &&
         /^https:\/\/cdn\.discordapp\.com\/(?:avatars|embed\/avatars)\//.test(

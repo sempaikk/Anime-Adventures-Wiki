@@ -22,7 +22,7 @@
   "assets": {
     "directory": "./dist",
     "binding": "ASSETS",
-    "run_worker_first": ["/api/*", "/perfil/*"],
+    "run_worker_first": ["/api/*", "/", "/index.html", "/404.html", "/artigo/*", "/personagem/*", "/personagens/*", "/biblioteca/*", "/atualizacoes/*", "/comparar/*", "/comunidade/*", "/conta/*", "/favoritos/*", "/mapa/*", "/perfil/*", "/pessoas/*", "/revisao/*", "/sobre/*", "/pt-br/perfil/*", "/en-us/perfil/*"],
   },
   "observability": { "enabled": true },
 }

@@ -7,7 +7,7 @@ export const comparisonFields = [
 export const factLabel = (label) => comparisonFields.find(([key]) => key === label)?.[1] || label;
 export function factValue(unit, label) {
   const value = unit.facts?.find((fact) => fact.label === label)?.value?.trim();
-  return value && !/^(?:true|false|null|undefined|nan)(?:¥)?$/i.test(value) ? value : null;
+  return value && !/^(?:true|tryue|false|null|undefined|nan)(?:¥)?$/i.test(value) ? value : null;
 }
 export function towerType(unit) {
   const value = factValue(unit, "Tower Type") || "";

@@ -8,7 +8,8 @@
     "dev": "astro dev --host 127.0.0.1",
     "build": "astro build",
     "preview": "astro preview --host 127.0.0.1",
-    "test": "node --test tests/*.test.mjs"
+    "test": "node --test tests/*.test.mjs",
+    "postbuild": "node scripts/localize_build.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",
@@ -22,7 +23,9 @@
     "three": "^0.186.1"
   },
   "devDependencies": {
+    "@astrojs/compiler-rs": "0.5.2",
     "@types/sanitize-html": "^2.16.0",
+    "typescript": "5.9.3",
     "wrangler": "^4.152.0"
   }
 }

@@ -1,3 +1,6 @@
+import {splitLocale} from '../lib/locales.mjs';
+import {localData} from './i18n';
+import {contentElement,contentLink} from './community-client';
 import {
   communityApi,
   element,
@@ -22,13 +25,9 @@ function personCard(profile: any) {
   const body = element("div", "person-card-body");
   body.append(
     picture(profile.avatar, "", "person-card-avatar"),
-    element("h3", "", profile.name),
-    element("small", "", "@" + profile.handle),
-    element(
-      "p",
-      "",
-      profile.bio || "Perfil da comunidade de Anime Adventures.",
-    ),
+    contentElement("h3", "", profile.name),
+    contentElement("small", "", "@" + profile.handle),
+    contentElement("p", "", profile.bio, "Perfil da comunidade de Anime Adventures."),
   );
   card.append(body);
   return card;
@@ -229,7 +228,7 @@ if (publicPage) {
     )!,
     content = publicPage.querySelector<HTMLElement>("[data-profile-content]")!;
   const handle =
-    location.pathname.match(/^\/perfil\/([a-z0-9_-]{3,24})\/?$/)?.[1] ||
+    splitLocale(location.pathname).pathname.match(/^\/perfil\/([a-z0-9_-]{3,24})\/?$/)?.[1] ||
     new URLSearchParams(location.search).get("p");
   async function load() {
     if (!handle) {
@@ -259,8 +258,8 @@ if (publicPage) {
       const row = element("div", "profile-identity-row"),
         name = element("div");
       name.append(
-        element("h1", "", p.name),
-        element("p", "profile-handle", "@" + p.handle),
+        contentElement("h1", "", p.name),
+        contentElement("p", "profile-handle", "@" + p.handle),
       );
       if (data.editor)
         name.append(element("span", "editor-badge", "Revisão da wiki"));
@@ -270,7 +269,7 @@ if (publicPage) {
           link("Editar meu perfil", "/conta/#perfil", "button button-outline"),
         );
       identity.append(row);
-      if (p.bio) identity.append(element("p", "profile-bio", p.bio));
+      if (p.bio) identity.append(contentElement("p", "profile-bio", p.bio));
       const meta = element("div", "profile-meta");
       meta.append(
         element("span", "", "Entrou em " + date(p.joined)),
@@ -289,7 +288,7 @@ if (publicPage) {
           ),
         );
       if (p.website) {
-        const a = link(new URL(p.website).hostname, p.website);
+        const a = contentLink(new URL(p.website).hostname, p.website);
         a.target = "_blank";
         a.rel = "noopener noreferrer ugc nofollow";
         meta.append(a);
@@ -373,7 +372,7 @@ if (publicPage) {
         );
         card.append(
           element("strong", "", c.article_title),
-          element("p", "", c.body || "Comentário com imagem."),
+          contentElement("p", "", c.body, "Comentário com imagem."),
           element(
             "small",
             "",
@@ -393,7 +392,7 @@ if (publicPage) {
             ),
           );
         else {
-          const search = await fetch("/data/search.json").then((r) => r.json());
+          const search = await fetch(localData("search")).then((r) => r.json());
           const byId = new Map(
             search.map((item: any) => [item.favorite_id, item]),
           );
@@ -401,7 +400,7 @@ if (publicPage) {
             const item: any = byId.get(id);
             if (item)
               favorites.append(
-                link(item.title, item.url, "profile-contribution"),
+                contentLink(item.title, item.url, "profile-contribution"),
               );
           }
         }

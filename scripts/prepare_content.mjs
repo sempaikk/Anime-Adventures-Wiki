@@ -2,7 +2,7 @@ import fs from "node:fs";
 import { load } from "cheerio";
 import { classify, createCatalog, normalize } from "../src/lib/catalog.mjs";
 import { unitFavoriteKey } from "../src/lib/favorite-key.mjs";
-import { unitRarities, rarityFromIntro } from "../src/lib/unit-source.mjs";
+import { unitRarities, unitRecords, rarityFromIntro } from "../src/lib/unit-source.mjs";
 import { createHash } from "node:crypto";
 
 const wiki = JSON.parse(fs.readFileSync("source/wiki.json", "utf8"));
@@ -12,6 +12,7 @@ const unitDataSource = wiki.sources.find(page => page.title === 'Module:UnitData
 const unitDataText = fs.readFileSync(`source/raw/${unitDataSource.pageid}.wiki`, 'utf8');
 if (createHash('sha256').update(unitDataText).digest('hex') !== unitDataSource.sha256)
   throw new Error('UnitData source hash does not match its recorded revision.');
+const sourceRecords = unitRecords(unitDataText);
 const sourceRarities = unitRarities(unitDataText);
 const correctedRarities = [];
 for (const unit of wiki.units) {
@@ -149,7 +150,9 @@ fs.writeFileSync('source/unit-data-audit.json', JSON.stringify({
   source: unitDataSource.source_url, revision: unitDataSource.revision_id, sha256: unitDataSource.sha256,
   identities: wiki.units.length, checked: wiki.units.filter(unit => verifiedRarities.has(unit.id)).length,
   moduleChecked: wiki.units.filter(unit => sourceRarities.has(unit.id)).length, articleChecks,
-  unresolved: wiki.units.filter(unit => !verifiedRarities.has(unit.id)).map(unit => unit.id),
+  reviewed: wiki.units.filter(unit => verifiedRarities.has(unit.id) || sourceRecords.has(unit.id)).length,
+  without_rarity: wiki.units.filter(unit => sourceRecords.has(unit.id) && !sourceRarities.has(unit.id)).map(unit => ({id:unit.id,name:unit.name})),
+  unresolved: wiki.units.filter(unit => !verifiedRarities.has(unit.id) && !sourceRecords.has(unit.id)).map(unit => unit.id),
   corrections: [...new Map([...(previousAudit.sha256 === unitDataSource.sha256 ? previousAudit.corrections || [] : []), ...correctedRarities].map(entry => [entry.id, entry])).values()],
 }, null, 2) + '\n');
 const catalog = createCatalog(wiki, media);

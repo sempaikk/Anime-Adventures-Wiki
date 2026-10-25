@@ -28,3 +28,18 @@ O idioma por país e a interface completa em pt-BR/en-US ainda precisam de imple
 - 30 verificações de interação: som inicial, ausência de contexto de áudio antes de gesto, início após interação, silêncio persistido, movimento reduzido, seleção de forma, retrato contido, ficha rápida, navegação e imagem única de Traits.
 - Fluxo da comunidade conferido com os handlers reais do Worker, SQLite em memória e identidade sintética: perfil, diretório, comentários e respostas. Não representa uma nova autorização OAuth humana nem atividade publicada em produção.
 - Auditoria de links e imagens e empacotamento do Worker verificados separadamente. A revisão final dos dados é recompilada antes de publicar; as duas raridades adicionais recebem uma conferência direcionada depois dessa compilação.
+
+## Revisão de 25/10/2026: idiomas e alinhamento
+
+- Interface e artigos com variantes `/pt-br/` e `/en-us/`, seleção manual persistente e padrão por país no Worker. Recursos e APIs não são redirecionados. Conteúdo escrito por usuários não é traduzido.
+- Abas com espaço para o foco do teclado; títulos de outras formas com recuo consistente; índice com seta centralizada; seletores com seta e texto alinhados. O cabeçalho troca para navegação compacta até 950 px.
+- Fundo de partículas, grade e linhas do mouse removido. Cenários e banners preservados são artes documentadas do jogo. Tipografia varia entre títulos, controles e leitura.
+- Leitor estrutural do módulo corrigido para aceitar indentação por espaços e tabulações. Os 555 registros foram conferidos: 549 informam raridade e seis não a informam na fonte. Não se atribuiu raridade aos seis registros auxiliares sem essa informação.
+- Valores inválidos de infobox, como `true¥` e `tryue`, são apresentados como informação ausente. Nenhum número foi inferido; as revisões originais permanecem intactas e acessíveis pelos créditos.
+- Nenhuma divergência de raridade foi encontrada entre introduções que identificam a forma exata e as raridades conferidas no módulo.
+
+Os artigos em português identificam a tradução automática e oferecem o inglês. O build conserva e valida nomes, números, imagens e estrutura das abas antes de produzir as variantes. A revisão do bot desta etapa está documentada no repositório do bot; os links legais foram acrescentados à ajuda privada e os 677 testes isolados passaram.
+
+Validação visual desta revisão: 2.744 verificações de todas as 1.372 variantes de idioma em 320 e 1440 px; mais 336 combinações de 14 páginas principais, dois idiomas, quatro larguras e três temas. Nenhum transbordamento horizontal, título fora da ficha ou erro de JavaScript foi encontrado. Estados de abas, seletores, menus, teclado e cabeçalho também foram conferidos de 320 a 1440 px. Conta, diretório, perfil, comentário e resposta em inglês passaram com os handlers reais do Worker e banco SQLite isolado; nomes com emoji e textos autorais coincidentes com rótulos da interface permaneceram intactos.
+
+Conferência final: 59 testes de conteúdo, idiomas, estrutura e APIs aprovados; 2.058 documentos, 176.351 referências internas e 47.832 ocorrências de imagens conferidos, sem recurso ausente ou aviso. O glossário foi ampliado com os nomes dos modos, dos mapas registrados nas imagens e dos 12 traits da revisão coletada. Mais 28 verificações das páginas afetadas passaram em 320 e 1440 px. O Worker local confirmou preferências de idioma, perfis, recursos, APIs e páginas 404 localizadas; as páginas legais originais continuaram respondendo 200. Os fluxos de conta e comentários em inglês e o foco visível das abas/cartões passaram novamente na versão final.

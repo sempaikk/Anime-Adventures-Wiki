@@ -2,6 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { cleanArticle } from "./sanitize.mjs";
 import { articleSections } from "./article-structure.mjs";
+import { markUnavailableFacts } from './wiki-presentation.mjs';
 import snapshot from "../../source/wiki.json";
 import media from "../../source/media-library.json";
 import { createCatalog, kindLabels } from "./catalog.mjs";
@@ -62,11 +63,11 @@ export function renderArticle(page: any) {
   const sourceError = /class="[^"]*(?:scribunto-error|error mw-ext)/.test(
     result.parse.text,
   );
-  const html = cleanArticle(
+  const html = markUnavailableFacts(cleanArticle(
     result.parse.text,
     findArticle,
     imageCopies,
     catalog,
-  );
+  ));
   return { html, sections: articleSections(html), ready: true, sourceError };
 }

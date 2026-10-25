@@ -1,3 +1,5 @@
+import {currentLocale,localPath} from './i18n';
+
 export async function communityApi(
   path: string,
   method = "GET",
@@ -33,19 +35,29 @@ export const element = <K extends keyof HTMLElementTagNameMap>(
   return node;
 };
 export function link(text: string, href: string, className = "") {
-  const directional = /\s*↗[\uFE0E]?$/u.test(text);
+  const directional = /\s*↗[\uFE0E\uFE0F]?$/u.test(text);
   const node = element(
     "a",
     className,
-    directional ? text.replace(/\s*↗[\uFE0E]?$/u, "") : text,
+    directional ? text.replace(/\s*↗[\uFE0E\uFE0F]?$/u, "") : text,
   );
   if (directional) {
     node.classList.add("has-direction");
-    const arrow = element("i", "arrow-diagonal");
+    const arrow = element("span", "ui-direction", "↗️");
     arrow.setAttribute("aria-hidden", "true");
     node.append(arrow);
   }
-  node.href = href;
+  node.href = localPath(href);
+  return node;
+}
+export function contentElement<K extends keyof HTMLElementTagNameMap>(tag:K,className="",text:string|null|undefined="",fallback="") {
+  const node=element(tag,className,text||fallback);
+  if(text){node.dataset.noTranslate="";node.setAttribute('translate','no')}
+  return node;
+}
+export function contentLink(text:string|null|undefined,href:string,className="",fallback="") {
+  const node=contentElement('a',className,text,fallback);
+  node.href=localPath(href);
   return node;
 }
 export function picture(src: string | null, alt: string, className = "") {
@@ -57,7 +69,7 @@ export function picture(src: string | null, alt: string, className = "") {
   return img;
 }
 export const date = (seconds: number) =>
-  new Date(seconds * 1000).toLocaleDateString("pt-BR", {
+  new Date(seconds * 1000).toLocaleDateString(currentLocale(), {
     day: "numeric",
     month: "short",
     year: "numeric",

@@ -1,3 +1,5 @@
+@import '@fontsource-variable/rubik';
+@import '@fontsource/fredoka-one';
 /* Game artwork, comfortable controls and layouts shaped around each task. */
 html {
   --header-height: 80px;
@@ -210,3 +212,54 @@ html[data-motion="on"] .character-aura { animation: adventure-aura 7s ease-in-ou
 .site-header .search-trigger .ui-emoji { display: inline-grid !important; width: auto; height: auto; opacity: 1; }
 .nexus-destination .ui-direction, .nexus-explore-link .ui-direction, .nexus-tool-links .ui-direction, .site-footer .footer-links .ui-direction, .community-channel .ui-direction { display: none; }
 @media(max-width:650px) { .site-header .header-account { display: none; } }
+
+/* Display typography follows the rounded headings used by the game's wiki. */
+.nexus-intro h1, .nexus-destination h2, .nexus-section-heading h2 {
+  font-family: 'Fredoka One',sans-serif; font-weight: 400; letter-spacing: -.015em; line-height: 1.14;
+}
+.catalog-heading h1, .classic-article-heading h1, .community-hero h1, .nexus-tools h2 { font-family: 'Rubik Variable',sans-serif; font-weight: 720; }
+.wiki-top-links a, .mobile-primary a, .button, button, select { font-family: 'Rubik Variable',sans-serif; }
+.language-menu { position: relative; }
+.language-menu > summary { display: grid; place-items: center; min-width: 44px; min-height: 44px; list-style: none; font: 650 12px/1 'Rubik Variable',sans-serif; }
+.language-menu > summary::-webkit-details-marker { display: none; }
+.language-options { position: absolute; top: calc(100% + 12px); right: 0; width: 230px; padding: 16px; border: 1px solid var(--line); border-radius: 20px; background: var(--surface); box-shadow: var(--shadow); z-index: 100; }
+.language-options button { display: block; width: 100%; min-height: 44px; text-align: left; border: 1px solid transparent; border-radius: 12px; padding: 10px 12px; font-size: 13px; background: transparent; }
+.language-options button[aria-pressed='true'], .language-options button:hover { background: var(--raised); border-color: var(--line); }
+.language-options [data-language-auto] { margin-top: 8px; color: var(--muted); font-size: 11px; }
+select { min-height: 44px; line-height: normal; padding-block: 0; }
+.wiki-content .article-tab-nav { padding: 10px; gap: 6px; min-height: 64px; align-items: center; scroll-padding-inline: 10px; }
+.wiki-content .article-tab-nav button { display: inline-flex; align-items: center; justify-content: center; min-height: 44px; padding: 9px 14px; margin: 0; border: 1px solid transparent; border-radius: 12px; line-height: 1.35; flex: 0 0 auto; scroll-margin-inline: 10px; }
+.wiki-content .article-tab-nav button[aria-selected='true'] { border-color: color-mix(in srgb,var(--accent) 60%,var(--line)); background: color-mix(in srgb,var(--accent) 12%,var(--surface)); box-shadow: none; }
+.wiki-content .article-tab-nav button:focus:not(:focus-visible) { outline: none; }
+.wiki-content .article-tab-nav button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.related-forms { padding: 20px; border: 1px solid var(--line); background: var(--surface); }
+.related-forms > .nav-label { margin: 0 0 14px; padding: 0; line-height: 1.5; }
+.reading-index > summary { gap: 8px; min-height: 44px; line-height: 1.4; }
+.reading-index > summary:after { content: '🔽'; display: inline-grid; place-items: center; width: 16px; height: 16px; margin: 0; font: 11px/16px 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; flex: none; transform: none; }
+.reading-index[open] > summary:after { content: '🔼'; }
+@media(max-width:650px) {
+  .language-options { position: fixed; top: calc(var(--header-height) + 8px); right: 12px; }
+  input[type='search'], .profile-form input, .profile-form textarea { font-size: 16px; }
+}
+@media(max-width:420px) {
+  .site-header { gap: 6px; }
+  .orbit-brand { width: 88px; }
+  .orbit-brand img { width: 84px; }
+  .orbit-brand > span { font-size: 6px; letter-spacing: .12em; }
+  .header-actions { gap: 4px; }
+  .site-header .square-button, .language-menu > summary { min-width: 40px; width: 40px; }
+  .site-header .search-trigger { min-width: 38px; width: 38px; }
+}
+
+.select-control { display: grid; align-items: center; position: relative; min-width: 0; width: 100%; }
+.select-control > select { appearance: none; border-radius: 13px; width: 100%; max-width: 100%; min-height: 44px; margin: 0; padding: 0 38px 0 14px !important; line-height: normal; }
+.select-control::after { content: '🔽'; position: absolute; right: 14px; top: 50%; transform: translateY(-50%); pointer-events: none; font: 11px/1 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
+.select-control:has(select:disabled)::after { opacity: .5; }
+.translation-notice { margin: 0 0 16px; padding: 12px 16px; border: 1px solid var(--line-soft); border-radius: 14px; color: var(--muted); font-size: 12px; line-height: 1.7; }
+.translation-notice a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; }
+@media(max-width:950px) {
+  .wiki-top-links { display: none; }
+  .mobile-primary { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); position: sticky; top: var(--header-height); z-index: 80; height: 45px; border-bottom: 1px solid var(--line-soft); background: var(--bg); }
+  .mobile-primary > a { display: grid; place-items: center; min-width: 0; }
+}
+.unit-card-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; border-radius: 12px; }

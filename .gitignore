@@ -7,3 +7,5 @@ dist/
 source/**/*.tmp
 preview-builds/
 public-preview
+
+.cache/

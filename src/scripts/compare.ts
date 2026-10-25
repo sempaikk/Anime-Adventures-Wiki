@@ -1,3 +1,4 @@
+import {currentLocale} from './i18n';
 import { getUnits, type Unit } from "./unit-data";
 import { comparisonFields, factValue, validComparison } from "../lib/unit-tools.mjs";
 
@@ -96,7 +97,7 @@ function renderTable(units: Unit[]) {
       const source = node("a", "Artigo original", "comparison-source"); source.href = unit.source.url; source.target = "_blank"; source.rel = "noopener noreferrer";
       const date = new Date(unit.source.revision);
       cell.append(source);
-      if (!Number.isNaN(date.getTime())) cell.append(node("small", "Revisão de " + date.toLocaleDateString("pt-BR", { timeZone: "UTC" })));
+      if (!Number.isNaN(date.getTime())) cell.append(node("small", "Revisão de " + date.toLocaleDateString(currentLocale(), { timeZone: "UTC" })));
     } else cell.append(node("small", "Sem artigo correspondente na fonte."));
     sources.append(cell);
   }

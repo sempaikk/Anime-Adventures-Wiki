@@ -3,8 +3,15 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
-import {splitPrimaryInfobox} from '../src/lib/wiki-presentation.mjs';
+import {splitPrimaryInfobox,markUnavailableFacts} from '../src/lib/wiki-presentation.mjs';
 const digest=bytes=>createHash('sha256').update(bytes).digest('hex');
+
+test('malformed source infobox values are marked missing without guessing game data',()=>{
+  const html='<aside class="portable-infobox"><div class="pi-data"><h3 class="pi-data-label">Total Cost</h3><div class="pi-data-value">true¥</div></div><div class="pi-data"><div class="pi-data-value">2,000¥</div></div></aside><p>true</p>';
+  const $=load(markUnavailableFacts(html),{},false);
+  assert.equal($('.pi-data-value').first().text(),'Não informado nesta revisão da fonte.');
+  assert.equal($('.pi-data-value').last().text(),'2,000¥');assert.equal($('p').text(),'true');
+});
 
 test('original game navigation icons retain their recorded bytes and stylesheet references',()=>{
   const source=JSON.parse(fs.readFileSync('source/wiki-navigation.json'));

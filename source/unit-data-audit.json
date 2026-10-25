@@ -3,147 +3,37 @@
   "revision": 47322,
   "sha256": "41faa52d49d06d0766d79abe0cbcf0e0aef4066d0b17baac95deb81a9b4a4286",
   "identities": 555,
-  "checked": 511,
-  "moduleChecked": 498,
-  "articleChecks": [
+  "checked": 549,
+  "moduleChecked": 549,
+  "articleChecks": [],
+  "reviewed": 555,
+  "without_rarity": [
     {
-      "id": "pain_2_evolved",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Agony_%28Divine%29",
-      "revision": 45788,
-      "sha256": "6ae89e3a0d8b8107389c80642d93591b43f942cfb8c2dae3ed4c8226cdf1a29e"
+      "id": "attack_titan",
+      "name": "Attack Titan"
     },
     {
-      "id": "pain_2",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Agony_%28Path%29",
-      "revision": 45786,
-      "sha256": "7adb88724bb98df1ea7d6610a164b44596fe72d037dc0ea69c46837e078c86e5"
+      "id": "britannia_soldier",
+      "name": "Britannia Soldier"
     },
     {
-      "id": "nokotan",
-      "rarity": "Exclusive",
-      "source": "https://animeadventures.fandom.com/wiki/Deer-tan",
-      "revision": 46937,
-      "sha256": "d405c4f6d9b003e75822e33c01acc04f1652c228a3283c1b7c26114028ea83ab"
+      "id": "dark_young",
+      "name": "Dark Young"
     },
     {
-      "id": "gilgamesh_evolved",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Golden_King_%28Lord_of_Heroes%29",
-      "revision": 45217,
-      "sha256": "8fb1e7c80501d52fc0cf68f58ac8ab44f6ebf10d3ed9089b227053b965accd56"
+      "id": "shinkiro",
+      "name": "Shinjira"
     },
     {
-      "id": "geten",
-      "rarity": "Legendary",
-      "source": "https://animeadventures.fandom.com/wiki/Ice_Shaper",
-      "revision": 46893,
-      "sha256": "422bc1af20c9d41760c3f22172e37f1253804642a39f135be2c8ea25657635ae"
+      "id": "starrk_wolf_unit",
+      "name": "Spirit Wolf"
     },
     {
-      "id": "dazai",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/InHuman",
-      "revision": 46169,
-      "sha256": "ce7a54ec6f081ca9c4d2fee65581a2fe342b3346dbdf3d8f0fbb363148933226"
-    },
-    {
-      "id": "shidou",
-      "rarity": "Exclusive",
-      "source": "https://animeadventures.fandom.com/wiki/Joker",
-      "revision": 45456,
-      "sha256": "11bd59eb035d052059ea9c3dad628c1df42f5b1e57d4a288b7ba09670ae7eac0"
-    },
-    {
-      "id": "rohan",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Mangaka",
-      "revision": 45652,
-      "sha256": "43960f8c589b2fec247e34b08907a5cae059a410830428a3cacd1343d050dd7b"
-    },
-    {
-      "id": "roger",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Pirate_King",
-      "revision": 46092,
-      "sha256": "b64e71e636b0309d959ceaa86b82afd00222fa300fc0b4b4882999a66a80f613"
-    },
-    {
-      "id": "homura",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Shadowgirl",
-      "revision": 46625,
-      "sha256": "6431eb2e38d8b73c664b8e895288f9ffbcda1b208e882cdcf2a7b4495f4026bd"
-    },
-    {
-      "id": "ainz",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Supreme_Being",
-      "revision": 46606,
-      "sha256": "b13e1b2844fd9d308b673ae2580f0e2884c4eebf3990e38454e353a5b1aca586"
-    },
-    {
-      "id": "nagumo",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Switchblade",
-      "revision": 46759,
-      "sha256": "1b14c4e38e2ff1bed740d3a75d781f4fd72304ec7d236738159fc7f9666fa32a"
-    },
-    {
-      "id": "cid_evolved",
-      "rarity": "Secret",
-      "source": "https://animeadventures.fandom.com/wiki/Umbra_%28Nuclear%29",
-      "revision": 45611,
-      "sha256": "a8c330a7f76a08d3c0147fe45175f29ade455965caaf761a9bf63ba79a8e245e"
+      "id": "aot_generic",
+      "name": "Survey Corps Member"
     }
   ],
-  "unresolved": [
-    "attack_titan",
-    "guts",
-    "akutagawa",
-    "akutagawa_evolved",
-    "mash",
-    "mash_evolved",
-    "chad",
-    "chad_evolved",
-    "britannia_soldier",
-    "goku_ssj3",
-    "rikka",
-    "charmy",
-    "charmy_evolved",
-    "dark_young",
-    "hidan_unit",
-    "hidan_unit_evolved",
-    "issei",
-    "gremmy",
-    "archer_evolved",
-    "hinami_evolved",
-    "avdol",
-    "gabimaru_evolved",
-    "naruto_sage",
-    "caesarclown_evolved",
-    "hanako_kun",
-    "honey",
-    "gaku",
-    "starlia",
-    "starlia_evo",
-    "sabo",
-    "sayaka",
-    "shinkiro",
-    "ragna",
-    "monet",
-    "osaragi",
-    "osaragi_evo",
-    "starrk_wolf_unit",
-    "aot_generic",
-    "saber_evolved",
-    "tsuna_evolved",
-    "atsushi",
-    "atsushi_evolved",
-    "dokuro",
-    "nami"
-  ],
+  "unresolved": [],
   "corrections": [
     {
       "id": "akeno",
@@ -504,6 +394,36 @@
       "name": "Supreme Being",
       "previous": "Mythic",
       "rarity": "Secret"
+    },
+    {
+      "id": "akutagawa",
+      "name": "Black Dog",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "gremmy",
+      "name": "Dreamer",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "monet",
+      "name": "Siren",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "saber_evolved",
+      "name": "Sword Queen (Knight)",
+      "previous": "",
+      "rarity": "Mythic"
+    },
+    {
+      "id": "atsushi",
+      "name": "Tiger",
+      "previous": "",
+      "rarity": "Mythic"
     }
   ]
 }

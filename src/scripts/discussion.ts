@@ -1,3 +1,4 @@
+import {contentElement,contentLink} from './community-client';
 import {
   communityApi,
   element,
@@ -53,8 +54,8 @@ for (const box of document.querySelectorAll<HTMLElement>(
         const item = element("section", "editorial-note");
         item.append(
           element("span", "eyebrow", "REVISÃO DO SITE"),
-          element("h2", "", note.title),
-          element("p", "", note.body),
+          contentElement("h2", "", note.title),
+          contentElement("p", "", note.body),
         );
         const when = element("time", "", date(note.updated_at));
         when.dateTime = new Date(note.updated_at * 1000).toISOString();
@@ -314,7 +315,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
     const who = element("div");
     who.append(
       comment.author
-        ? link(comment.author.name, comment.author.url, "comment-author-name")
+        ? contentLink(comment.author.name, comment.author.url, "comment-author-name")
         : element("span", "comment-author-name", "Perfil indisponível"),
     );
     const when = element(
@@ -335,11 +336,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
         ),
       );
     node.append(
-      element(
-        "p",
-        comment.deleted ? "comment-deleted" : "comment-body",
-        comment.deleted ? "Comentário excluído pelo autor." : comment.body,
-      ),
+      comment.deleted ? element("p", "comment-deleted", "Comentário excluído pelo autor.") : contentElement("p", "comment-body", comment.body),
     );
     if (comment.image) {
       const view = button(

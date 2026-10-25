@@ -1,6 +1,18 @@
+import {localPath,localData} from './i18n';
+// One inset arrow and one consistent text baseline for every native select.
+function enhanceSelects(root:ParentNode){
+  const selects=[...(root instanceof HTMLSelectElement?[root]:[]),...root.querySelectorAll('select')];
+  for(const select of selects){
+    if(select.parentElement?.classList.contains('select-control'))continue;
+    const wrapper=document.createElement('span');wrapper.className='select-control';
+    select.before(wrapper);wrapper.append(select);
+  }
+}
+enhanceSelects(document);
+new MutationObserver(records=>{for(const record of records)for(const node of record.addedNodes)if(node instanceof Element)enhanceSelects(node)}).observe(document.body,{childList:true,subtree:true});
 const $ = (s: string) => document.querySelector(s) as HTMLElement;
 const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
-const local = (url: string) => BASE + url;
+const local = (url: string) => BASE + localPath(url);
 const normalize = (s: string) =>
   s
     .normalize("NFKD")
@@ -134,7 +146,7 @@ let pending: Promise<any> | null = null;
 async function getIndex() {
   if (searchIndex) return searchIndex;
   if (!pending)
-    pending = fetch(local("/data/search.json"))
+    pending = fetch(BASE + localData("search"))
       .then((r) => {
         if (!r.ok) throw Error();
         return r.json();

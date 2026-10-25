@@ -1,3 +1,5 @@
+import {localData} from './i18n';
+import {contentElement,contentLink} from './community-client';
 import { communityApi, element, link, date, status } from "./community-client";
 const page = document.querySelector<HTMLElement>("[data-review]");
 if (page) {
@@ -46,8 +48,8 @@ if (page) {
       for (const c of data.corrections) {
         const card = element("article", "review-card");
         card.append(
-          link(c.article_title, c.article_url + "#comentarios", "text-link"),
-          element("p", "", c.body),
+          contentLink(c.article_title, c.article_url + "#comentarios", "text-link"),
+          contentElement("p", "", c.body),
           element(
             "small",
             "",
@@ -92,9 +94,9 @@ if (page) {
       for (const r of data.reports) {
         const card = element("article", "review-card");
         card.append(
-          link(r.article_title, r.article_url + "#comentarios", "text-link"),
-          element("p", "", "Denúncia: " + r.reason),
-          element("p", "", r.body || "Comentário sem texto."),
+          contentLink(r.article_title, r.article_url + "#comentarios", "text-link"),
+          contentElement("p", "report-reason", r.reason),
+          contentElement("p", "", r.body, "Comentário sem texto."),
         );
         const actions = element("div", "account-actions");
         actions.append(
@@ -119,7 +121,7 @@ if (page) {
         return;
       }
       await load();
-      const index = await fetch("/data/search.json").then((r) => r.json());
+      const index = await fetch(localData("search")).then((r) => r.json());
       const seen = new Set();
       article.replaceChildren(element("option", "", "Selecione um artigo"));
       for (const item of index.sort((a: any, b: any) =>
@@ -127,7 +129,7 @@ if (page) {
       )) {
         if (!item.favorite_id || seen.has(item.favorite_id)) continue;
         seen.add(item.favorite_id);
-        const option = element("option", "", item.title);
+        const option = contentElement("option", "", item.title);
         option.value = item.favorite_id;
         article.append(option);
       }

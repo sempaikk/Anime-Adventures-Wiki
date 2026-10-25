@@ -22,12 +22,11 @@ for (const file of files(root).filter((file) => file.endsWith(".html"))) {
     const value = $(node).attr("src") || $(node).attr("href");
     if (
       !value ||
-      !value.startsWith("/") ||
-      value.startsWith("//") ||
-      value.startsWith("/api/")
+      value.startsWith("data:")
     )
       return;
-    const resource = new URL(value, "https://wiki.example.test");
+    const resource = new URL(value, "https://wiki.example.test"+route);
+    if(resource.origin!=="https://wiki.example.test"||resource.pathname.startsWith('/api/'))return;
     let relative;
     try {
       relative = decodeURIComponent(resource.pathname);

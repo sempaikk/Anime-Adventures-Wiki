@@ -1,3 +1,4 @@
+import {localPath} from './i18n';
 type FocusUnit = {
   id: string;
   name: string;
@@ -70,7 +71,7 @@ if (hero) {
         "[data-stage-link],[data-stage-article]",
       )
       .forEach((link) => {
-        link.href = unit.href;
+        link.href = localPath(unit.href);
         link.setAttribute("aria-label", `Abrir artigo de ${unit.name}`);
       });
     const peek = hero.querySelector<HTMLButtonElement>("[data-stage-preview]")!;
