@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {localizedPath,splitLocale,visitorLocale,preferenceFromCookie,createTranslator} from '../src/lib/locales.mjs';
 import worker from '../worker/index.mjs';
 
-for (const [slug,filename] of [['site-10s','teste-site-10s.mp4'],['site-trailer-30s','trailer-site.mp4'],['site-trailer-v2','trailer-site-v2.mp4']]) {
+for (const [slug,filename] of [['site-10s','teste-site-10s.mp4'],['site-trailer-30s','trailer-site.mp4'],['site-trailer-v2','trailer-site-v2.mp4'],['site-trailer-revisado','trailer-site-revisado.mp4']]) {
 test(`${slug} video download preserves range responses and supplies a downloadable filename`,async()=>{
   let forwarded;
   const env={ASSETS:{fetch:async request=>{
