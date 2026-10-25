@@ -3,21 +3,24 @@ import assert from 'node:assert/strict';
 import {localizedPath,splitLocale,visitorLocale,preferenceFromCookie,createTranslator} from '../src/lib/locales.mjs';
 import worker from '../worker/index.mjs';
 
-test('video download preserves range responses and supplies a downloadable filename',async()=>{
+for (const [slug,filename] of [['site-10s','teste-site-10s.mp4'],['site-trailer-30s','trailer-site.mp4']]) {
+test(`${slug} video download preserves range responses and supplies a downloadable filename`,async()=>{
   let forwarded;
   const env={ASSETS:{fetch:async request=>{
     forwarded=request;
     return new Response(new Uint8Array([1,2,3]),{status:206,headers:{'Content-Type':'video/mp4','Content-Range':'bytes 0-2/100'}});
   }}};
-  const request=new Request('https://wiki.test/api/preview/site-10s/download',{headers:{Range:'bytes=0-2'}});
+  const request=new Request(`https://wiki.test/api/preview/${slug}/download`,{headers:{Range:'bytes=0-2'}});
   const response=await worker.fetch(request,env);
   assert.equal(response.status,206);
-  assert.equal(response.headers.get('Content-Disposition'),'attachment; filename="teste-site-10s.mp4"');
+  assert.equal(response.headers.get('Content-Disposition'),`attachment; filename="${filename}"`);
   assert.equal(response.headers.get('Content-Type'),'video/mp4');
   assert.equal(response.headers.get('Content-Range'),'bytes 0-2/100');
   assert.equal(forwarded.headers.get('Range'),'bytes=0-2');
+  assert.equal(new URL(forwarded.url).pathname,`/previas/${slug}/${filename}`);
   assert.deepEqual([...new Uint8Array(await response.arrayBuffer())],[1,2,3]);
 });
+}
 
 test('country default and saved preference are deterministic',()=>{
   const request=(country,cookie='')=>Object.assign(new Request('https://wiki.test/',{headers:{Cookie:cookie}}),{cf:{country}});

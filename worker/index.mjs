@@ -22,12 +22,17 @@ export default {
 };
 async function route(request, env) {
     const url = new URL(request.url);
-    if (url.pathname === '/api/preview/site-10s/download' && ['GET','HEAD'].includes(request.method)) {
-      const asset = new URL('/previas/site-10s/teste-site-10s.mp4',url);
+    const previewDownloads = {
+      '/api/preview/site-10s/download': ['/previas/site-10s/teste-site-10s.mp4','teste-site-10s.mp4'],
+      '/api/preview/site-trailer-30s/download': ['/previas/site-trailer-30s/trailer-site.mp4','trailer-site.mp4'],
+    };
+    const previewDownload = Object.hasOwn(previewDownloads,url.pathname) ? previewDownloads[url.pathname] : null;
+    if (previewDownload && ['GET','HEAD'].includes(request.method)) {
+      const asset = new URL(previewDownload[0],url);
       const file = await env.ASSETS.fetch(new Request(asset,request));
       if (![200,206].includes(file.status)) return file;
       const headers = new Headers(file.headers);
-      headers.set('Content-Disposition','attachment; filename="teste-site-10s.mp4"');
+      headers.set('Content-Disposition',`attachment; filename="${previewDownload[1]}"`);
       headers.set('Cache-Control','no-store');
       headers.set('X-Robots-Tag','noindex, nofollow, noarchive');
       return new Response(file.body,{status:file.status,headers});
