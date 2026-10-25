@@ -1,4 +1,5 @@
 import {cue} from './ui-motion';
+import {requestJson} from './request';
 type User = { id: string; name: string; avatar: string };
 type Session = { enabled: boolean; user: User | null };
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -36,10 +37,9 @@ export function getSession(): Promise<Session> {
   if (!sessionPromise)
     sessionPromise = base
       ? Promise.resolve({ enabled: false, user: null })
-      : fetch("/api/session", { credentials: "same-origin" })
-          .then(async (response) => {
+      : requestJson("/api/session", { credentials: "same-origin" })
+          .then(({response,data:value}) => {
             if (!response.ok) throw Error();
-            const value = await response.json();
             if (value.enabled !== true && accountRemembered()) throw Error();
             accountRemembered(!!value.user);
             return {
@@ -63,7 +63,7 @@ export function getSession(): Promise<Session> {
   return sessionPromise;
 }
 export async function accountApi(path: string, method = "GET", data?: unknown) {
-  const response = await fetch("/api" + path, {
+  const {response,data:result} = await requestJson("/api" + path, {
     method,
     credentials: "same-origin",
     headers: data ? { "Content-Type": "application/json" } : {},
@@ -73,7 +73,6 @@ export async function accountApi(path: string, method = "GET", data?: unknown) {
       "Sem conexão para sincronizar. Confira sua internet e tente novamente.",
     );
   });
-  const result = await response.json().catch(() => ({}));
   if (!response.ok)
     throw Error(
       result.error || "Não foi possível sincronizar agora. Tente novamente.",

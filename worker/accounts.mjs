@@ -1,3 +1,4 @@
+import {readJson} from './security.mjs';
 const SESSION = "__Host-aa-session",
   OAUTH = "__Host-aa-oauth";
 const MONTH = 30 * 24 * 60 * 60,
@@ -135,13 +136,7 @@ const validSlug = (value) =>
   /^[a-z0-9-]+$/.test(value) &&
   (/\d/.test(value) || /^unit-[a-z0-9-]+$/.test(value));
 async function body(request) {
-  if (!request.headers.get("Content-Type")?.startsWith("application/json"))
-    throw new Error("content-type");
-  if (Number(request.headers.get("Content-Length") || 0) > 128000)
-    throw new Error("size");
-  const raw = await request.text();
-  if (raw.length > 128000) throw new Error("size");
-  return JSON.parse(raw);
+  return readJson(request, 128000);
 }
 function jsonWithCookie(data, value) {
   const response = json(data);
@@ -252,6 +247,8 @@ export async function accountRequest(request, env, network = fetch) {
           : `https://cdn.discordapp.com/embed/avatars/${(BigInt(user.id) >> 22n) % 6n}.png`;
       const token = random();
       await env.DB.batch([
+        // A successful login replaces this browser's prior session.
+        env.DB.prepare('DELETE FROM sessions WHERE token_hash = ?').bind(await hash(cookies(request).get(SESSION) || '')),
         env.DB.prepare(
           "INSERT INTO users (discord_id, display_name, avatar_url, created_at) VALUES (?, ?, ?, ?) ON CONFLICT(discord_id) DO UPDATE SET display_name = excluded.display_name, avatar_url = excluded.avatar_url",
         ).bind(
@@ -339,8 +336,8 @@ export async function accountRequest(request, env, network = fetch) {
     let values;
     try {
       values = (await body(request)).ids;
-    } catch {
-      return json({ error: "Não foi possível ler os favoritos." }, 400);
+    } catch (error) {
+      return json({ error: "Não foi possível ler os favoritos." }, error.status || 400);
     }
     if (
       !Array.isArray(values) ||

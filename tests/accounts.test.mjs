@@ -53,6 +53,7 @@ async function login(
   env,
   id = "1401930158348177438",
   name = "Nome de exibição",
+  previousCookie = "",
 ) {
   const start = await accountRequest(
     new Request(origin + "/api/auth/discord?return_to=/favoritos/"),
@@ -82,7 +83,7 @@ async function login(
       origin +
         "/api/auth/callback?code=isolated-code&state=" +
         authorize.searchParams.get("state"),
-      { headers: { Cookie: flowCookie } },
+      { headers: { Cookie: [flowCookie, previousCookie].filter(Boolean).join('; ') } },
     ),
     env,
     network,
@@ -357,4 +358,29 @@ test("catalog-only characters can be saved and removed without changing article 
     env,
   );
   assert.equal(remove.status, 200);
+});
+
+test('signing in again replaces this browser session and keeps another device signed in', async () => {
+  const {env,sqlite}=fixture();
+  const first=await login(env);
+  const otherDevice=await login(env);
+  const again=await login(env,'1401930158348177438','Nome de exibição',first.cookie);
+  assert.notEqual(again.cookie,first.cookie);
+  assert.equal((await accountRequest(request('/api/favorites',first.cookie),env)).status,401);
+  assert.equal((await accountRequest(request('/api/favorites',otherDevice.cookie),env)).status,200);
+  assert.equal((await accountRequest(request('/api/favorites',again.cookie),env)).status,200);
+  assert.equal(sqlite.prepare('SELECT COUNT(*) AS count FROM sessions').get().count,2);
+});
+
+test('favorite imports reject chunked oversized and primitive JSON without writes', async () => {
+  const {env,sqlite}=fixture(),user=await login(env);
+  let cancelled=false;
+  const body=new ReadableStream({pull(c){c.enqueue(new Uint8Array(70000))},cancel(){cancelled=true}});
+  const response=await accountRequest(new Request(origin+'/api/favorites/merge',{method:'POST',headers:{Cookie:user.cookie,Origin:origin,'Content-Type':'application/json'},body,duplex:'half'}),env);
+  assert.equal(response.status,413);assert.equal(cancelled,true);
+  for(const data of ['null','[]','true']){
+    const response=await accountRequest(new Request(origin+'/api/favorites/merge',{method:'POST',headers:{Cookie:user.cookie,Origin:origin,'Content-Type':'application/json'},body:data}),env);
+    assert.equal(response.status,400);
+  }
+  assert.equal(sqlite.prepare('SELECT COUNT(*) AS count FROM favorites').get().count,0);
 });

@@ -31,16 +31,23 @@ const game = gameNavigation;
 const topLinks = [['inicio','Início','/'],['personagens','Personagens','/personagens/'],['biblioteca','Wiki','/biblioteca/'],['pessoas','Comunidade','/pessoas/']];
 const topActive=topLinks.find(([, ,href])=>href===Astro.url.pathname)?.[0] || active;
 const pageArt = ['personagens','comparar'].includes(active) ? art.namak : ['pessoas','conta','favoritos'].includes(active) ? art.city : art.dungeon;
-const firstScene = isHome ? scenery[0] : scenery.find(scene=>scene.image===pageArt.image) || scenery[0];
-const sceneFrames = [firstScene,...scenery.filter(scene=>scene.image!==firstScene.image)];
+const excludedScenes=new Set([...(Astro.props.excludeScenery||[]),...(isHome?[art.namak.image,art.city.image,art.dungeon.image]:[]),...(['pessoas','conta','favoritos'].includes(active)?[art.city.image,art.spaceship.image,art.dungeon.image]:[])]);
+const availableScenes=scenery.filter(scene=>!excludedScenes.has(scene.image));
+const firstScene = (!isHome&&availableScenes.find(scene=>scene.image===pageArt.image)) || availableScenes[0] || scenery[0];
+const sceneFrames = [firstScene,...availableScenes.filter(scene=>scene.image!==firstScene.image)];
 const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Contraste suave'],['light','Claro','Fundo claro']];
+const noindex = Astro.props.noindex === true || ['conta','favoritos','updates','comparar'].includes(active);
+const canonical = new URL(Astro.props.canonical || Astro.url.pathname, Astro.site).href;
 ---
 <!doctype html><html lang="pt-BR" data-theme="adventures"><head>
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content={description}/><meta name="color-scheme" content="dark light"/>
-  <meta name="robots" content="noindex,follow"/>
+  <meta name="robots" content={noindex?'noindex,follow':'index,follow,max-image-preview:large'}/>
   <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
   <meta property="og:image" content={new URL(art.spaceship.image, Astro.site).href}/>
+  <meta property="og:site_name" content="Adventures Wiki"/><meta property="og:url" content={canonical}/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="canonical" href={canonical}/>
   <meta name="theme-color" content="#10142c"/><title>{title}</title>
   <link rel="icon" href={wiki.branding.image} type="image/webp"/>
   <script is:inline>try{const t=localStorage.getItem('aa-theme');document.documentElement.dataset.theme=['adventures','dark','light'].includes(t)?t:'adventures'}catch{}</script>
@@ -78,4 +85,5 @@ const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Co
 <script src="../scripts/client.ts"></script>
 <script src="../scripts/audio.ts"></script>
 <script src="../scripts/ambient.ts"></script>
+<script src="../scripts/connection.ts"></script>
 </body></html>

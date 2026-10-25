@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /previas/
+Disallow: /conta/
+Disallow: /revisao/
+Disallow: /favoritos/
+Disallow: /pt-br/conta/
+Disallow: /pt-br/revisao/
+Disallow: /pt-br/favoritos/
+Disallow: /en-us/conta/
+Disallow: /en-us/revisao/
+Disallow: /en-us/favoritos/
+
+Sitemap: https://www.adventureswiki.workers.dev/sitemap.xml

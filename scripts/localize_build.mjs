@@ -108,10 +108,16 @@ for(const file of files){
     }
     $('[data-language-code]').text(locale==='pt-BR'?'PT':'EN');
     $('[data-set-locale]').each((_,node)=>$(node).attr('aria-pressed',String($(node).attr('data-set-locale')===locale)));
+    const canonicalPath=new URL($('link[rel="canonical"]').attr('href')||rootPath,origin).pathname;
     $('link[rel="canonical"],link[hreflang]').remove();
-    $('head').append($('<link rel="canonical">').attr('href',origin+localizedPath(rootPath,locale)));
-    for(const language of ['pt-BR','en-US'])$('head').append($('<link rel="alternate">').attr({hreflang:language,href:origin+localizedPath(rootPath,language)}));
-    $('head').append($('<link rel="alternate" hreflang="x-default">').attr('href',origin+rootPath));
+    const canonical=origin+localizedPath(canonicalPath,locale);
+    $('head').append($('<link rel="canonical">').attr('href',canonical));
+    $('meta[property="og:title"]').attr('content',$('title').text());
+    $('meta[property="og:description"]').attr('content',$('meta[name="description"]').attr('content')||'');
+    $('meta[property="og:url"]').attr('content',canonical);
+    $('head').append($('<meta property="og:locale">').attr('content',locale.replace('-','_')));
+    for(const language of ['pt-BR','en-US'])$('head').append($('<link rel="alternate">').attr({hreflang:language,href:origin+localizedPath(canonicalPath,language)}));
+    $('head').append($('<link rel="alternate" hreflang="x-default">').attr('href',origin+canonicalPath));
     // Historical revision dates are formatted by language without altering dates.
     $('time[data-revision-date][datetime]').each((_,node)=>{
       const date=new Date($(node).attr('datetime'));

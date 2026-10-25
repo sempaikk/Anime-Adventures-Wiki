@@ -80,3 +80,28 @@ html[data-motion='on'] dialog[open]::backdrop { animation: interface-backdrop 40
 @keyframes interface-theme-in { from { opacity: 0; clip-path: inset(0 0 8% 0 round 24px); } to { opacity: 1; clip-path: inset(0 round 0); } }
 @media(prefers-reduced-motion:reduce) { ::view-transition-old(root),::view-transition-new(root) { animation: none; } }
 ::view-transition { pointer-events: none; }
+.connection-notice { position: fixed; bottom: max(18px,env(safe-area-inset-bottom)); left: 50%; translate: -50% 0; z-index: 180; display: flex; align-items: center; gap: 10px; width: max-content; max-width: calc(100% - 32px); padding: 14px 18px; border: 1px solid var(--line); border-radius: 16px; background: var(--surface); color: var(--text); box-shadow: 0 8px 30px #0003; font-size: 13px; line-height: 1.5; pointer-events: none; }
+.connection-notice[hidden] { display: none; }
+.connection-notice[data-online='true'] { border-color: var(--accent); }
+.sidebar-open .nexus-rail { visibility: hidden; }
+/* In repeated lists, the written action is enough; keep emoji emphasis on the
+   primary toolbar rather than multiplying it on every neighboring card. */
+.unit-card-actions .ui-emoji { display: none; }
+/* The selected portrait is already on the large stage. Keep its selector as a
+   clear selection marker rather than showing the same portrait twice. */
+.nexus-model-roster button[aria-pressed='true'] { position: relative; }
+.nexus-model-roster button[aria-pressed='true'] img { opacity: 0; }
+.nexus-model-roster button[aria-pressed='true']::after { content: '✅'; position: absolute; inset: 0; display: grid; place-items: center; font: 22px/1 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
+.article-image-expand { cursor: zoom-in; border-radius: 8px; }
+.community-hero { border-radius: 24px; }
+.article-image-expand:focus-visible { outline: 3px solid var(--accent); outline-offset: 5px; }
+.article-image-viewer { width: min(1100px,calc(100% - 32px)); max-height: 90svh; padding: 20px; border: 1px solid var(--line); border-radius: 24px; background: var(--surface); color: var(--text); }
+.article-image-toolbar { display: grid; grid-template-columns: minmax(0,1fr) auto auto; align-items: center; gap: 16px; margin-bottom: 16px; }
+.article-image-toolbar .button { min-height: 44px; }
+.article-image-toolbar>.button { justify-self: start; }
+.article-image-toolbar>.ui-close { grid-column: 3; justify-self: end; }
+.article-image-frame { overflow: auto; max-height: calc(90svh - 155px); border-radius: 12px; scrollbar-gutter: stable; }
+.article-image-frame img { display: block; width: auto; height: auto; max-width: 100%; max-height: calc(90svh - 155px); margin: auto; object-fit: contain; }
+.article-image-viewer.is-zoomed .article-image-frame img { max-width: none; max-height: none; }
+.article-image-viewer>p { color: var(--muted); margin: 12px 0 0; font-size: 13px; line-height: 1.6; overflow-wrap: anywhere; }
+@media(max-width:650px) { .article-image-viewer { padding: 14px; border-radius: 18px; } .article-image-toolbar { grid-template-columns: minmax(0,1fr) 44px; gap: 10px; } .article-image-toolbar .button { font-size: 12px; padding: 10px; } .article-image-toolbar>.ui-close { grid-row: 1; grid-column: 2; } .article-image-toolbar>.text-link { grid-row: 2; grid-column: 1/-1; font-size: 12px; } .article-image-frame,.article-image-frame img { max-height: calc(90svh - 200px); } }

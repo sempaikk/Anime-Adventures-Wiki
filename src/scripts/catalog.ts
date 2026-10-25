@@ -1,6 +1,17 @@
 import {arrange,cue,respond} from './ui-motion';
 const normalize = (value: string) => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
 const $ = <T extends HTMLElement>(selector: string) => document.querySelector<T>(selector)!;
+function showCards(container:HTMLElement,cards:HTMLElement[],visible:HTMLElement[]) {
+  const selected=new Set(visible);
+  for(const card of cards) {
+    const hidden=!selected.has(card);
+    if(card.hidden!==hidden)card.hidden=hidden;
+  }
+  const current=[...container.children].filter(child=>child instanceof HTMLElement&&!child.hidden);
+  // Hidden cards do not affect the grid order. Move only the visible selection,
+  // and only when it actually changed; leave the other cards untouched.
+  if(current.length!==visible.length||visible.some((card,index)=>current[index]!==card))container.append(...visible);
+}
 function writeParams(values: Record<string, string>) {
   const url = new URL(location.href);
   for (const [key, value] of Object.entries(values)) {
@@ -29,8 +40,8 @@ if (grid) {
       if (ca === null || cb === null) return ca === cb ? byName(a,b) : ca === null ? 1 : -1;
       return (sort.value === "cost-desc" ? cb - ca : ca - cb) || byName(a,b);
     });
-    const visible = new Set(matched.slice(0, shown));
-    arrange(grid,()=>{for(const card of cards)card.hidden=!visible.has(card);for(const card of matched)grid.append(card)},initialized);initialized=true;
+    const visible = matched.slice(0, shown);
+    arrange(grid,()=>showCards(grid,cards,visible),initialized);initialized=true;
     $("#unit-results").textContent = `${matched.length} personagem${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
     $("#unit-empty").hidden = matched.length > 0;
     $("#load-units").hidden = shown >= matched.length;
@@ -58,8 +69,8 @@ if (library) {
     if (reset) shown = 12;
     const q = normalize(query.value.trim());
     const matched = cards.filter((card) => (!kind || card.dataset.kind === kind) && (archived.checked || card.dataset.retired !== "true") && normalize(card.dataset.title || "").includes(q));
-    const visible = new Set(matched.slice(0, shown));
-    arrange(library,()=>cards.forEach(card=>card.hidden=!visible.has(card)),initialized);initialized=true;
+    const visible = matched.slice(0, shown);
+    arrange(library,()=>showCards(library,cards,visible),initialized);initialized=true;
     kinds.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.articleKind === kind)));
     $("#article-results").textContent = `${matched.length} artigo${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
     $("#article-empty").hidden = matched.length > 0; $("#load-articles").hidden = shown >= matched.length;

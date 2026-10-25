@@ -54,7 +54,12 @@ async function ready() {
     context = new AudioContext({ latencyHint: "interactive" });
     master = context.createGain();
     master.gain.value = 0;
-    master.connect(context.destination);
+    // Smooth overlapping actions through one dynamics stage, keeping their
+    // character without abrupt peaks when the interface is used quickly.
+    const compressor=context.createDynamicsCompressor();
+    compressor.threshold.value=-18;compressor.knee.value=12;compressor.ratio.value=4;
+    compressor.attack.value=.006;compressor.release.value=.16;
+    master.connect(compressor);compressor.connect(context.destination);
   }
   if (context.state === "suspended") await context.resume();
   return context;
@@ -292,6 +297,6 @@ window.addEventListener("storage", (event) => {
 });
 window.addEventListener("pageshow", sync);
 
-const interfaceCues=new Set<Cue>(['favorite','remove','compare','success','filter','close']);
+const interfaceCues=new Set<Cue>(['favorite','remove','compare','success','filter','close','open','select']);
 document.addEventListener('aa:ui-cue',event=>{const name=(event as CustomEvent<Cue>).detail;if(interfaceCues.has(name))play(name)});
 document.addEventListener('change',event=>{const target=event.target;if(target instanceof Element&&target.matches('#rarity-filter,#tower-filter,#unit-sort,#retired-filter,#library-retired,[data-stats-select]'))play('filter')});

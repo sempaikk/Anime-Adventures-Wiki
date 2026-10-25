@@ -42,18 +42,27 @@ export function createTranslator(messages,locale='en-US') {
       source+=key.slice(cursor,match.index).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'([\\s\\S]*?)';slots.push(match[1]);cursor=match.index+match[0].length;
     }
     source+=key.slice(cursor).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'$';
-    return {expression:new RegExp(source),value,slots};
+    return {expression:new RegExp(source),value,slots,lead:key.slice(0,key.indexOf('{'))};
   });
-  return value=>{
+  const resolve=value=>{
     if(locale!=='en-US'||typeof value!=='string'||!value.trim())return value;
     const clean=value.replace(/\s+/g,' ').trim(),head=value.match(/^\s*/)[0],tail=value.match(/\s*$/)[0];
     if(messages[clean]!==undefined&&!/\{\d+\}/.test(clean))return head+messages[clean]+tail;
     const count=clean.match(/^([\d.,]+\s+)(.+)$/);
     if(count&&messages[count[2]]!==undefined&&!/\{\d+\}/.test(count[2]))return head+count[1]+messages[count[2]]+tail;
     for(const pattern of patterns){
+      if(pattern.lead&&!clean.startsWith(pattern.lead))continue;
       const match=clean.match(pattern.expression);
       if(match){const slots=Object.fromEntries(pattern.slots.map((slot,index)=>[slot,match[index+1]]));return head+pattern.value.replace(/\{(\d+)\}/g,(_,slot)=>slots[slot]??'')+tail}
     }
     return value;
+  };
+  const memo=new Map();
+  return value=>{
+    if(locale!=='en-US'||typeof value!=='string'||value.length>4096)return resolve(value);
+    if(memo.has(value))return memo.get(value);
+    const result=resolve(value);
+    if(memo.size>=4096)memo.clear();
+    memo.set(value,result);return result;
   };
 }

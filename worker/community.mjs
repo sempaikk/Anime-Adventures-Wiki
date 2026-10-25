@@ -2,6 +2,9 @@ import { accountsReady, accountSession } from "./accounts.mjs";
 import schema from "./community-schema.mjs";
 import articles from "../source/community-content.json" with { type: "json" };
 import art from "../source/interface-art.json" with { type: "json" };
+import {readJson, readLimited} from './security.mjs';
+import {imageDimensions} from './raster.mjs';
+export {imageDimensions} from './raster.mjs';
 
 const initialized = new WeakMap();
 const now = () => Math.floor(Date.now() / 1000);
@@ -49,39 +52,7 @@ async function initialize(db) {
   return initialized.get(db);
 }
 async function readBody(request) {
-  if (!request.headers.get("Content-Type")?.startsWith("application/json"))
-    fail("Formato de envio inválido.");
-  if (Number(request.headers.get("Content-Length") || 0) > 32000)
-    fail("O envio ultrapassou o limite.", 413);
-  const raw = new TextDecoder().decode(await readLimited(request, 32000));
-  try {
-    return JSON.parse(raw);
-  } catch {
-    fail("Não foi possível ler os dados enviados.");
-  }
-}
-async function readLimited(request, limit) {
-  if (!request.body) return new Uint8Array();
-  const reader = request.body.getReader(),
-    chunks = [];
-  let size = 0;
-  for (;;) {
-    const { done, value } = await reader.read();
-    if (done) break;
-    size += value.byteLength;
-    if (size > limit) {
-      await reader.cancel();
-      fail("O envio ultrapassou o limite.", 413);
-    }
-    chunks.push(value);
-  }
-  const all = new Uint8Array(size);
-  let offset = 0;
-  for (const chunk of chunks) {
-    all.set(chunk, offset);
-    offset += chunk.byteLength;
-  }
-  return all;
+  return readJson(request, 32000);
 }
 function website(value) {
   if (!value) return "";
@@ -209,54 +180,6 @@ async function commentById(db, value) {
 }
 async function usableImage(db, user, value) {
   return ownedImage(db, user, value);
-}
-
-export function imageDimensions(bytes) {
-  if (!(bytes instanceof Uint8Array)) bytes = new Uint8Array(bytes);
-  const view = new DataView(bytes.buffer, bytes.byteOffset, bytes.byteLength),
-    ascii = (at, n) => String.fromCharCode(...bytes.slice(at, at + n));
-  if (
-    bytes.length >= 33 &&
-    bytes[0] === 137 &&
-    ascii(1, 3) === "PNG" &&
-    ascii(12, 4) === "IHDR"
-  )
-    return {
-      mime: "image/png",
-      width: view.getUint32(16),
-      height: view.getUint32(20),
-    };
-  if (bytes.length >= 30 && ascii(0, 4) === "RIFF" && ascii(8, 4) === "WEBP") {
-    const type = ascii(12, 4);
-    if (type === "VP8X")
-      return bytes[20] & 2
-        ? null
-        : {
-            mime: "image/webp",
-            width: 1 + bytes[24] + (bytes[25] << 8) + (bytes[26] << 16),
-            height: 1 + bytes[27] + (bytes[28] << 8) + (bytes[29] << 16),
-          };
-    if (type === "VP8L" && bytes[20] === 47) {
-      const bits = view.getUint32(21, true);
-      return {
-        mime: "image/webp",
-        width: (bits & 16383) + 1,
-        height: ((bits >>> 14) & 16383) + 1,
-      };
-    }
-    if (
-      type === "VP8 " &&
-      bytes[23] === 157 &&
-      bytes[24] === 1 &&
-      bytes[25] === 42
-    )
-      return {
-        mime: "image/webp",
-        width: view.getUint16(26, true) & 16383,
-        height: view.getUint16(28, true) & 16383,
-      };
-  }
-  return null;
 }
 
 /** Public profiles, article discussions, image attachments and editorial notes. */

@@ -14,8 +14,9 @@ const unit=units.find(u=>u.id===page.unit_id);
 const parts=unit&&!page.empty?splitPrimaryInfobox(content.html):{html:content.html,infobox:''};
 const related=unit ? units.filter(u=>u.id!==unit.id && u.name.split(' (')[0]===unit.name.split(' (')[0]) : [];
 const aliases=unit?.aliases.filter(name=>name.toLowerCase()!==unit.name.toLowerCase())||[];
+const pageImages=[...content.html.matchAll(/\bsrc="([^"]+)"/g)].map(match=>match[1]);
 ---
-<Layout title={`${page.title} — Adventures Wiki`} description={page.excerpt} active={isWikiHome?'inicio':unit?'personagens':'biblioteca'} home={isWikiHome}>
+<Layout title={`${page.title} — Adventures Wiki`} description={page.excerpt} active={isWikiHome?'inicio':unit?'personagens':'biblioteca'} home={isWikiHome} noindex={!!(page.editorial || page.empty || isWikiHome || page.canonical_slug!==page.slug)} canonical={isWikiHome?'/':`/artigo/${page.canonical_slug||page.slug}/`} excludeScenery={pageImages}>
 {isWikiHome?<WikiHome/>:<>
 <div class="page-heading"><nav class="breadcrumbs" aria-label="Caminho"><a href="/">Início</a><span>/</span><a href={unit?'/personagens/':'/biblioteca/'}>{unit?'Personagens':'Biblioteca'}</a><span>/</span><span>{page.title}</span></nav></div>
 <header class="classic-article-heading"><div class="article-title"><div><span class="eyebrow">{unit?(unit.rarity||'Personagem'):kindLabels[page.kind]}</span><h1>{page.title}</h1></div></div>{aliases.length>0&&<p class="article-aliases"><strong>Também conhecido como:</strong> {aliases.join(' · ')}</p>}<div class="classic-article-actions"><button type="button" class="button button-outline" data-favorite={page.canonical_slug || page.slug} aria-pressed="false">Salvar nos favoritos ＋</button>{unit&&<button type="button" class="button button-outline" data-compare={unit.id} aria-pressed="false">Comparar</button>}</div></header>

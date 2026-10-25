@@ -67,8 +67,13 @@ document.addEventListener('keydown',event=>{
   const menu=document.querySelector<HTMLDetailsElement>('.language-menu');
   if(event.key==='Escape'&&menu?.open){menu.open=false;menu.querySelector<HTMLElement>('summary')?.focus()}
 });
-document.querySelectorAll('a[href],form[action]').forEach(navigation);
-tree(document.body);
+// Published variants already contain translated text and localized links.
+// Rewalking hundreds of server-rendered cards delays their first interaction.
+// The observer below still handles all newly created controls and account data.
+if(splitLocale(location.pathname).locale!==locale||document.documentElement.lang!==locale){
+  document.querySelectorAll('a[href],form[action]').forEach(navigation);
+  tree(document.body);
+}
 new MutationObserver(records=>{
   for(const record of records){
     if(record.type==='childList')record.addedNodes.forEach(tree);

@@ -14,6 +14,15 @@ for(const [text,key] of Object.entries(lookup)){
   try {messages[text]=load(restoreTranslation(prepared,cache[key]),{},false).root().text()} catch(error){throw Error(text+' => '+cache[key]+'; '+error.message)}
 }
 Object.assign(messages,{
+  'Ver na fonte ↗️':'View source ↗️','Formato de envio inválido.':'Invalid submission format.',
+  'O envio ultrapassou o limite.':'The submission exceeds the size limit.',
+  'Não foi possível ler os dados enviados.':'Could not read the submitted data.',
+  'Sem conexão. Algumas funções precisam de internet.':'No connection. Some features need internet.',
+  'Conexão restabelecida.':'Connection restored.',
+  'Ampliar imagem':'Enlarge image','Ampliar imagem: {0}':'Enlarge image: {0}',
+  'Imagem do artigo':'Article image','Imagem ampliada':'Enlarged image','Fechar imagem':'Close image',
+  '🔎 Tamanho original':'🔎 Original size','↔️ Ajustar à tela':'↔️ Fit to screen',
+  'Você fez várias solicitações em pouco tempo. Aguarde um minuto e tente novamente.':'You made several requests in a short time. Wait a minute and try again.',
   'Selecionado':'Selected','Salvo nos favoritos':'Saved to favorites','Salvar nos favoritos':'Save to favorites',
   'Tipografia':'Typography','Adventures Wiki é um projeto independente para organizar informações públicas sobre Anime Adventures. A interface e os artigos estão disponíveis em português brasileiro e inglês dos Estados Unidos. Os artigos em português identificam a tradução automática e permitem consultar o original em inglês.':'Adventures Wiki is an independent project that organizes public information about Anime Adventures. The interface and articles are available in Brazilian Portuguese and US English. Portuguese articles identify automatic translation and link to the English original.',
   'Fontes sob a licença SIL Open Font License:':'Fonts licensed under the SIL Open Font License:',

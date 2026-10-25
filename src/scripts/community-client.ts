@@ -1,19 +1,18 @@
 import {currentLocale,localPath} from './i18n';
+import {requestJson} from './request';
 
 export async function communityApi(
   path: string,
   method = "GET",
   data?: unknown,
 ) {
-  const response = await fetch("/api/community" + path, {
+  let response:Response,result:any;
+  try {({response,data:result}=await requestJson("/api/community" + path, {
     method,
     credentials: "same-origin",
     headers: data !== undefined ? { "Content-Type": "application/json" } : {},
     ...(data !== undefined ? { body: JSON.stringify(data) } : {}),
-  });
-  let result: any;
-  try {
-    result = await response.json();
+  }));
   } catch {
     throw Error("Não foi possível carregar os dados. Tente novamente.");
   }
@@ -137,13 +136,12 @@ export async function uploadImage(
     throw Error(
       "Não foi possível reduzir esta imagem. Escolha uma versão menor.",
     );
-  const response = await fetch("/api/community/media", {
+  const {response,data:result} = await requestJson("/api/community/media", {
     method: "POST",
     credentials: "same-origin",
     headers: { "Content-Type": blob.type },
     body: blob,
-  });
-  const result = await response.json();
+  },30000);
   if (!response.ok)
     throw Error(result.error || "Não foi possível enviar a imagem.");
   return result;

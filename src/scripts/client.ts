@@ -1,5 +1,6 @@
 import {showDialog,closeDialog,moveMenu,favoriteLabel,motionOn} from './ui-motion';
 import {localPath,localData} from './i18n';
+import {requestJson} from './request';
 // One inset arrow and one consistent text baseline for every native select.
 function enhanceSelects(root:ParentNode){
   const selects=[...(root instanceof HTMLSelectElement?[root]:[]),...root.querySelectorAll('select')];
@@ -142,10 +143,10 @@ let pending: Promise<any> | null = null;
 async function getIndex() {
   if (searchIndex) return searchIndex;
   if (!pending)
-    pending = fetch(BASE + localData("search"))
-      .then((r) => {
-        if (!r.ok) throw Error();
-        return r.json();
+    pending = requestJson(BASE + localData("search"))
+      .then(({response,data}) => {
+        if (!response.ok) throw Error();
+        return data;
       })
       .then((data) => (searchIndex = data))
       .catch((error) => {
@@ -395,6 +396,7 @@ if (mapStage) {
   scale(1);
 }
 import "./articles";
+import "./article-images";
 import "./effects";
 import "./account";
 import "./unit-preview";
