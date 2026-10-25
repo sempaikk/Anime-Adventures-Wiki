@@ -262,3 +262,18 @@ select { min-height: 44px; line-height: normal; padding-block: 0; }
   .mobile-primary > a { display: grid; place-items: center; min-width: 0; }
 }
 .unit-card-actions button:focus-visible { outline: 2px solid var(--accent); outline-offset: -4px; border-radius: 12px; }
+
+/* Game navigation is readable at rest; motion only responds to interaction. */
+.sidebar .game-icon { border-radius: 7px; }
+html[data-theme='light'] .sidebar .game-icon { background: #182137; }
+html[data-motion='on'] .sidebar .side-link { transition: background .2s, border-color .2s, color .2s, transform .22s ease; }
+html[data-motion='on'] .sidebar .side-link:is(:hover,:focus-visible) { transform: translateX(3px); }
+html[data-motion='on'] .sidebar .side-link:is(:hover,:focus-visible) .game-icon { animation: game-menu-icon .42s cubic-bezier(.2,.7,.3,1); }
+@keyframes game-menu-icon {
+  0%,100% { transform: none; }
+  40% { transform: translateY(-2px) rotate(-7deg) scale(1.12); }
+  75% { transform: translateY(1px) rotate(3deg) scale(1.04); }
+}
+@media(prefers-reduced-motion:reduce) {
+  .sidebar .side-link, .sidebar .game-icon { animation: none !important; transition: none !important; transform: none !important; }
+}

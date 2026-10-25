@@ -8,7 +8,7 @@
 .side-section > summary > span { font-size: 16px; transition: transform .2s; }
 .side-section[open] > summary > span { transform: rotate(45deg); }
 .side-section nav { padding-top: 8px; }
-.side-section .side-game-link { display: grid; grid-template-columns: 25px minmax(0,1fr) 9px; gap: 9px; }
+.side-section .side-game-link { display: grid; grid-template-columns: 25px minmax(0,1fr); gap: 9px; }
 .side-game-link img { display: block; width: 25px; height: 25px; object-fit: contain; }
 .sidebar-bottom { margin-top: auto; padding: 20px 10px 0; display: grid; gap: 15px; border-top: 1px solid var(--line-soft); }
 .sidebar-install { display: flex; justify-content: space-between; align-items: center; color: var(--accent); font-size: 12px; }

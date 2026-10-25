@@ -303,19 +303,11 @@ kbd {
   height: 20px;
   object-fit: contain;
 }
-.side-link > span {
-  margin-left: auto;
-  opacity: 0;
-}
 .side-link:hover,
 .side-link.active {
   color: var(--ink);
   background: var(--raised);
   border-color: var(--line);
-}
-.side-link.active > span,
-.side-link:hover > span {
-  opacity: 1;
 }
 .sidebar-divider {
   height: 1px;

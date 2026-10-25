@@ -246,7 +246,7 @@ html[data-motion="on"] .wiki-top-links a[aria-current="page"]:after {
 }
 .sidebar .side-game-link {
   display: grid;
-  grid-template-columns: 27px minmax(0, 1fr) 9px;
+  grid-template-columns: 27px minmax(0, 1fr);
   gap: 10px;
   align-items: center;
 }
