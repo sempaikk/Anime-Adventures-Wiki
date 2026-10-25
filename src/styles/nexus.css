@@ -846,15 +846,6 @@ html[data-motion="on"] .wiki-top-links a[aria-current="page"]:after {
   flex: 1;
   min-width: 0;
 }
-.nexus-unit-identity > a {
-  display: grid;
-  place-items: center;
-  min-width: 48px;
-  height: 48px;
-  border: 1px solid #8cf7e680;
-  color: #a8fbe9;
-  background: #1d62591c;
-}
 .nexus-unit-bracket {
   width: 5px;
   align-self: stretch;

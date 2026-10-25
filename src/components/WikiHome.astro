@@ -33,7 +33,7 @@ const quick=gameNavigation.filter(item=>['codes','traits','relics'].includes(ite
 
    </div>
     <div class="nexus-model-controls"><button type="button" data-model-prev aria-label="Personagem anterior"><span aria-hidden="true">⬅️</span></button><span data-model-position>01 / {String(models.length).padStart(2,'0')}</span><button type="button" data-model-next aria-label="Próximo personagem"><span aria-hidden="true">➡️</span></button></div>
-   <div class="nexus-unit-identity"><div aria-live="polite" aria-atomic="true"><small>FORMA SELECIONADA</small><h2 data-stage-name>{featured.name}</h2></div><a href={featured.href} data-stage-link aria-label={`Abrir artigo de ${featured.name}`}><span class="ui-direction" aria-hidden="true">↗️</span></a></div>
+   <div class="nexus-unit-identity"><div aria-live="polite" aria-atomic="true"><small>FORMA SELECIONADA</small><h2 data-stage-name>{featured.name}</h2></div></div>
    <div class="nexus-model-roster" role="group" aria-label="Escolher personagem em foco">{models.map((unit,index)=><button type="button" data-model-pick={index} aria-label={`Mostrar ${unit.name}`} aria-pressed={index===0}><img src={unit.image} alt="" width="80" height="80" loading="lazy"/><span>{String(index+1).padStart(2,'0')}</span></button>)}</div>
    <div class="nexus-unit-actions"><button type="button" data-stage-preview data-unit-preview={featured.id}>Ficha rápida <span class="plus-mark" aria-hidden="true"></span></button><button type="button" data-stage-compare data-compare={featured.id} aria-pressed="false">Comparar</button><a href={featured.href} data-stage-article>Consultar artigo <span class="ui-direction" aria-hidden="true">↗️</span></a></div>
   </div>}

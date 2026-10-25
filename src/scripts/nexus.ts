@@ -68,7 +68,7 @@ if (hero) {
     );
     hero
       .querySelectorAll<HTMLAnchorElement>(
-        "[data-stage-link],[data-stage-article]",
+        "[data-stage-article]",
       )
       .forEach((link) => {
         link.href = localPath(unit.href);
