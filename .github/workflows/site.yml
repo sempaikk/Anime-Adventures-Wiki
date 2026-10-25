@@ -20,6 +20,10 @@ jobs:
         with:
           node-version: '24'
           cache: npm
+      # Cloudflare currently installs with npm 10, whose prerelease override
+      # resolution differs from npm 11 shipped with newer Node 24 releases.
+      - name: Check Cloudflare npm compatibility
+        run: npx --yes --package=npm@10.9.2 npm ci --dry-run --ignore-scripts --no-audit --no-fund
       - run: npm ci
       - run: npm audit --audit-level=moderate
       - run: npm test

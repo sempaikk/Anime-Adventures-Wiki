@@ -13,6 +13,7 @@ O Worker `www` deve continuar conectado ao repositório. Ao renomear a aplicaç�
 - Branch de produção: `main`
 - Diretório raiz: raiz do repositório
 - Node: `24`, conforme `.node-version`
+- Dependências: o lock é conferido no CI também com npm `10.9.2`, usado pela hospedagem. A atualização de segurança do Undici usa uma regra para a versão `7.29.1`, compatível com npm 10 e 11; não a condicione à versão beta do Miniflare.
 - Cloudflare Access: desligado para o endereço público
 
 Não configure `SITE_BASE`: a Cloudflare publica na raiz `/`. `wrangler.jsonc` fornece o Worker e os arquivos estáticos em `dist`. Cada push inicia uma publicação. A integração deve conservar acesso ao repositório privado. Não é necessária uma credencial Cloudflare no GitHub Actions.
