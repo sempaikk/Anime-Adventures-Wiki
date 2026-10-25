@@ -25,6 +25,7 @@ async function route(request, env) {
     const previewDownloads = {
       '/api/preview/site-10s/download': ['/previas/site-10s/teste-site-10s.mp4','teste-site-10s.mp4'],
       '/api/preview/site-trailer-30s/download': ['/previas/site-trailer-30s/trailer-site.mp4','trailer-site.mp4'],
+      '/api/preview/site-trailer-v2/download': ['/previas/site-trailer-v2/trailer-site-v2.mp4','trailer-site-v2.mp4'],
     };
     const previewDownload = Object.hasOwn(previewDownloads,url.pathname) ? previewDownloads[url.pathname] : null;
     if (previewDownload && ['GET','HEAD'].includes(request.method)) {
