@@ -6,7 +6,7 @@ import {glossary,normalText,prepareTranslation,transformSource} from '../src/lib
 export function htmlFiles(root) {
   return fs.readdirSync(root,{withFileTypes:true}).flatMap(entry=>{
     const file=path.join(root,entry.name);
-    if(entry.isDirectory())return ['en-us','pt-br'].includes(entry.name)?[]:htmlFiles(file);
+    if(entry.isDirectory())return ['en-us','pt-br','previas'].includes(entry.name)?[]:htmlFiles(file);
     return file.endsWith('.html')?[file]:[];
   });
 }

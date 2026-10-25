@@ -5,6 +5,16 @@ import {documentPath,localizedPath,splitLocale,visitorLocale} from '../src/lib/l
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
+    if (url.pathname === '/api/preview/site-10s/download' && ['GET','HEAD'].includes(request.method)) {
+      const asset = new URL('/previas/site-10s/teste-site-10s.mp4',url);
+      const file = await env.ASSETS.fetch(new Request(asset,request));
+      if (![200,206].includes(file.status)) return file;
+      const headers = new Headers(file.headers);
+      headers.set('Content-Disposition','attachment; filename="teste-site-10s.mp4"');
+      headers.set('Cache-Control','no-store');
+      headers.set('X-Robots-Tag','noindex, nofollow, noarchive');
+      return new Response(file.body,{status:file.status,headers});
+    }
     if (url.pathname.startsWith("/api/")) {
       try {
         const community = await communityRequest(request, env);
