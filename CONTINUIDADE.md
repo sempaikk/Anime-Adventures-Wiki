@@ -35,7 +35,7 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 - Denúncias de publicações e revisão pelo responsável já configurado, com opção de manter ou remover. Nenhum novo administrador foi definido.
 - Controle de autoria e privacidade no servidor. Retirar a publicação de um perfil oculta seus posts; fotos usadas somente nesses posts deixam de ser públicas. Favoritos exigem autorização separada para exibição.
 - Migração aditiva `0003_social.sql`, gerada com `0002_community.sql` no prebuild. O Worker inicializa o esquema idempotentemente; a migração base de contas continua sendo requisito.
-- Cotação de uploads conferida atomicamente para impedir que envios simultâneos ultrapassem o limite.
+- Cota de uploads conferida atomicamente para impedir que envios simultâneos ultrapassem o limite.
 - Correção da tradução dos atributos de campos de texto, preservando o conteúdo autoral, inclusive depois de editar uma publicação que começou apenas com foto.
 - Ajustes de cabeçalho, alvos de clique, restauração de foco, nomes acessíveis, movimento reduzido e falha no carregamento de avatares.
 
@@ -76,13 +76,14 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 ## Estado e pendências desta publicação
 
 - Base da wiki antes desta entrega: `86699de60983d19305d2cdbf7e1246a9abe690ff`. Conferir o histórico Git para os commits posteriores; não presumir que essa base continua sendo a ponta de `main`.
-- As mudanças foram preparadas para envio ao `main`, que aciona a integração Cloudflare. A confirmação de build/deploy e a consulta do site ao vivo ainda precisam ser registradas ao encerrar este ciclo.
+- **Código enviado ao GitHub/main:** `6ed06b17159c1ba0c6744b0d9fa86acf87a08807`. O envio foi confirmado por `git ls-remote`. A integração Git existente da Cloudflare deve construir/publicar essa versão.
+- **Publicação online ainda não conferida por este assistente:** a rede desta máquina bloqueou a consulta do domínio do site e da API do GitHub. Não confundir o push confirmado com um deploy confirmado; consultar a Cloudflare ou o site quando o acesso estiver disponível.
 - Esta máquina bloqueava o domínio do site e a API do GitHub. Foi salva no rascunho a inclusão de `www.adventureswiki.workers.dev` e `api.github.com`, preservando permissões anteriores. Salvar o rascunho não comprova aplicação à máquina; revalidar após o responsável aplicar as configurações do ambiente.
 - Uma nova autorização humana pelo Discord não foi executada. Não afirmar que OAuth de produção passou apenas porque os testes isolados passaram. Verificar `/api/session` no site e solicitar uma conferência humana quando necessário.
 - Nenhuma conta, sessão ou publicação sintética deve ir para o banco de produção. Os exemplos das capturas eram dados de teste em SQLite isolado.
 - Os arquivos de imagem e anexos não apareceram no visualizador deste chat. O responsável preferiu seguir pelo site oficial. Não gastar outro ciclo repetindo a mesma forma de entrega de imagens.
 - A branch local `codex/revisao-visual-20261026` foi preparada apenas com capturas, mas **não enviada**. Ela não é a entrega do aplicativo e não deve ser usada como base para substituir o código atual.
-- O diretório local `docs/revisao-visual/` contém exportações de revisão e não faz parte do envio do aplicativo.
+- O diretório local `docs/revisao-visual/` contém exportações de revisão, está ignorado pelo Git e não faz parte do envio do aplicativo.
 
 ## Como retomar no próximo chat
 
@@ -97,5 +98,5 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 | Data | Ciclo | Resultado |
 | --- | --- | --- |
 | 26/10/2026 | Configuração do ambiente | Python/Node, dependências, testes do bot/wiki, build e instruções reutilizáveis preparados. |
-| 26/10/2026 | Primeira versão da wiki/comunidade | Novo visual, posts com foto/texto, comentários, amizades, proteção de dados e 86 testes; publicação direta autorizada pelo responsável e em preparação. |
-| 26/10/2026 | Continuidade entre chats | Criados este registro e `AGENTS.md` a pedido do responsável para acompanhar as próximas trocas entre assistentes. |
+| 26/10/2026 | Primeira versão da wiki/comunidade | Novo visual, posts com foto/texto, comentários, amizades, proteção de dados e 86 testes; código enviado à main em `6ed06b1`; publicação direta autorizada e confirmação online pendente por acesso de rede. |
+| 26/10/2026 | Continuidade entre chats | Criados este registro e `AGENTS.md`, publicados na main a pedido do responsável. Cada assistente deve ler e atualizar ao encerrar o ciclo. |

@@ -9,3 +9,6 @@ preview-builds/
 public-preview
 
 .cache/
+
+# Local screenshots and offline review exports.
+docs/revisao-visual/
