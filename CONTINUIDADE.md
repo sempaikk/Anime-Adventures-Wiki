@@ -77,8 +77,10 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 
 - Base da wiki antes desta entrega: `86699de60983d19305d2cdbf7e1246a9abe690ff`. Conferir o histórico Git para os commits posteriores; não presumir que essa base continua sendo a ponta de `main`.
 - **Código enviado ao GitHub/main:** `6ed06b17159c1ba0c6744b0d9fa86acf87a08807`. O envio foi confirmado por `git ls-remote`. A integração Git existente da Cloudflare deve construir/publicar essa versão.
-- **Publicação online ainda não conferida por este assistente:** a rede desta máquina bloqueou a consulta do domínio do site e da API do GitHub. Não confundir o push confirmado com um deploy confirmado; consultar a Cloudflare ou o site quando o acesso estiver disponível.
-- Esta máquina bloqueava o domínio do site e a API do GitHub. Foi salva no rascunho a inclusão de `www.adventureswiki.workers.dev` e `api.github.com`, preservando permissões anteriores. Salvar o rascunho não comprova aplicação à máquina; revalidar após o responsável aplicar as configurações do ambiente.
+- **Publicação online confirmada em 26/10/2026:** o site respondeu HTTP 200 com a nova abertura (`future-hero`), a nova comunidade (`data-social-feed`) e o artigo de Iron Knight (Arsenal). O CSS e os módulos consultados responderam HTTP 200.
+- A API de produção respondeu `/api/session` com `enabled: true, user: null`; `/api/community/posts?feed=all` respondeu HTTP 200 com lista vazia e `next: null`; o feed de amigos respondeu HTTP 401 para visitante, como esperado. Nenhum post de teste foi criado em produção.
+- O GitHub Actions **Verify wiki** do commit `1005b742b0467c5960dcd8f5f0026b05ae6f09a0` concluiu com **success**: https://github.com/sempaikk/Anime-Adventures-Wiki/actions/runs/40271657344 . Esse commit registra a continuidade e mantém o mesmo código do aplicativo de `6ed06b1`.
+- O bloqueio de rede inicial foi resolvido: o domínio do site e a API do GitHub estão acessíveis. A credencial disponível permite consultar os checks do repositório, mas a listagem de GitHub Deployments retornou `Resource not accessible by integration` (HTTP 403); isso é uma limitação de permissão dessa API, não prova de falha da publicação. O resultado foi conferido diretamente pelo site público.
 - Uma nova autorização humana pelo Discord não foi executada. Não afirmar que OAuth de produção passou apenas porque os testes isolados passaram. Verificar `/api/session` no site e solicitar uma conferência humana quando necessário.
 - Nenhuma conta, sessão ou publicação sintética deve ir para o banco de produção. Os exemplos das capturas eram dados de teste em SQLite isolado.
 - Os arquivos de imagem e anexos não apareceram no visualizador deste chat. O responsável preferiu seguir pelo site oficial. Não gastar outro ciclo repetindo a mesma forma de entrega de imagens.
@@ -98,5 +100,5 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 | Data | Ciclo | Resultado |
 | --- | --- | --- |
 | 26/10/2026 | Configuração do ambiente | Python/Node, dependências, testes do bot/wiki, build e instruções reutilizáveis preparados. |
-| 26/10/2026 | Primeira versão da wiki/comunidade | Novo visual, posts com foto/texto, comentários, amizades, proteção de dados e 86 testes; código enviado à main em `6ed06b1`; publicação direta autorizada e confirmação online pendente por acesso de rede. |
+| 26/10/2026 | Primeira versão da wiki/comunidade | Novo visual, posts com foto/texto, comentários, amizades, proteção de dados e 86 testes; código enviado à main em `6ed06b1`, site novo conferido em produção e CI de `1005b74` aprovado. OAuth humano e avaliação visual do responsável continuam como próximos passos. |
 | 26/10/2026 | Continuidade entre chats | Criados este registro e `AGENTS.md`, publicados na main a pedido do responsável. Cada assistente deve ler e atualizar ao encerrar o ciclo. |
