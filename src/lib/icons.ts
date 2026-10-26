@@ -1,4 +1,10 @@
 export const iconPaths: Record<string, string> = {
+  down: 'M12 4v16m-6-6 6 6 6-6',
+  spark: 'm12 2 3 7 7 3-7 3-3 7-3-7-7-3 7-3 3-7',
+  evolution: 'M4 19h5V9m0 5h6V4m-4 4 4-4 4 4',
+  gem: 'M7 3h10l5 7-10 12L2 10 7 3M2 10h20M7 3l5 19 5-19',
+  code: 'm8 7-5 5 5 5m8-10 5 5-5 5m-3-14-2 18',
+  chart: 'M4 20V10m8 10V4m8 16v-7',
   arrow: 'M5 12h14m-6-6 6 6-6 6',
   external: 'M7 17 17 7M7 7h10v10',
   search: 'M21 21l-5-5M18 10a8 8 0 1 1-16 0 8 8 0 0 1 16 0',

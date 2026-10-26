@@ -1,3 +1,4 @@
+import {clearDrafts} from './drafts';
 import {closeDialog} from './ui-motion';
 import { accountApi, getSession, localFavorites } from "./favorites";
 
@@ -115,6 +116,7 @@ if (page) {
         logout.disabled = true;
         try {
           await accountApi("/logout", "POST");
+          clearDrafts();
           location.reload();
         } catch (error) {
           setMessage((error as Error).message);
@@ -137,6 +139,7 @@ if (page) {
         remove.disabled = true;
         try {
           await accountApi("/account", "DELETE");
+          clearDrafts();
           location.reload();
         } catch (error) {
           closeDialog(confirmation);

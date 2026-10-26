@@ -6,6 +6,7 @@ import {pathToFileURL} from 'node:url';
 import {fixture,call,publish,origin} from './community.mjs';
 import {communityRequest} from '../../worker/community.mjs';
 import {accountRequest} from '../../worker/accounts.mjs';
+const port=Number(process.env.REVIEW_PORT||4399);if(!Number.isInteger(port)||port<1024||port>65535)throw Error('Invalid local review port.');
 const build=process.env.REVIEW_BUILD;if(!build)throw Error('Set REVIEW_BUILD to the isolated build directory.');
 const worker=build?(await import(pathToFileURL(path.join(build,'worker/index.mjs')).href)).default:null;
 const f=fixture();
@@ -37,11 +38,11 @@ const server=http.createServer(async(req,res)=>{
    if(req.headers['content-type'])headers.set('Content-Type',req.headers['content-type']);
    const incoming=new Request(origin+path,{method:req.method,headers,...(!['GET','HEAD'].includes(req.method)?{body:Buffer.concat(chunks)}:{})});
    const response=worker?await worker.fetch(incoming,f.env):await communityRequest(incoming,f.env)||await accountRequest(incoming,f.env);
-   const outgoing=Object.fromEntries(response.headers);if(outgoing.location?.startsWith(origin))outgoing.location=outgoing.location.replace(origin,'http://127.0.0.1:4399');res.writeHead(response.status,outgoing);res.end(Buffer.from(await response.arrayBuffer()));return;
+   const outgoing=Object.fromEntries(response.headers);if(outgoing.location?.startsWith(origin))outgoing.location=outgoing.location.replace(origin,`http://127.0.0.1:${port}`);res.writeHead(response.status,outgoing);res.end(Buffer.from(await response.arrayBuffer()));return;
   }
   const target=/^\/perfil\/[a-z0-9_-]{3,24}\/?(?:\?|$)/.test(path)?'/perfil/':path;
   const response=await fetch('http://127.0.0.1:4321'+target);
   res.writeHead(response.status,{'Content-Type':response.headers.get('Content-Type')||'text/html'});res.end(Buffer.from(await response.arrayBuffer()));
  }catch(error){res.writeHead(500,{'Content-Type':'text/plain'});res.end('Local review failed');console.error(error.message)}
 });
-server.listen(4399,'127.0.0.1',()=>console.log('Local review with isolated SQLite ready.'));
+server.listen(port,'127.0.0.1',()=>console.log('Local review with isolated SQLite ready.'));

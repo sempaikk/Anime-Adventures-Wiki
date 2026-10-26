@@ -1,4 +1,4 @@
-const motion=()=>document.documentElement.dataset.motion==='on'&&!matchMedia('(prefers-reduced-motion: reduce)').matches;
+const motion=()=>document.documentElement.dataset.motion==='on'&&!matchMedia('(prefers-reduced-motion: reduce)').matches&&!(navigator as Navigator&{connection?:{saveData?:boolean}}).connection?.saveData;
 const hero=document.querySelector<HTMLElement>('[data-future-hero]');
 if(hero){
   if('IntersectionObserver'in window){const visible=new IntersectionObserver(entries=>{hero.classList.toggle('future-paused',!entries[0].isIntersecting||document.hidden)});visible.observe(hero);document.addEventListener('visibilitychange',()=>hero.classList.toggle('future-paused',document.hidden||hero.getBoundingClientRect().bottom<0));addEventListener('pagehide',()=>visible.disconnect(),{once:true})}
@@ -14,7 +14,7 @@ if(hero){
   const reset=()=>{cancelAnimationFrame(frame);frame=0;hero.style.removeProperty('--hero-x');hero.style.removeProperty('--hero-y')};
   hero.addEventListener('pointerleave',reset);document.addEventListener('aa:motion-change',reset);addEventListener('pagehide',reset);
 }
-const targets=document.querySelectorAll<HTMLElement>('.future-destination,.future-section-heading,.future-collection');
+const targets=document.querySelectorAll<HTMLElement>('.chapter-heading,.wiki-index,.wiki-map-feature,.comparison-feature,.community-preview-invite');
 if('IntersectionObserver' in window){
   const observer=new IntersectionObserver(entries=>{for(const entry of entries){
     if(entry.isIntersecting&&motion()){

@@ -1,3 +1,4 @@
+import {bindDraft} from './drafts';
 import {socialDialog} from './social-dialog';
 import {t} from './i18n';
 import {communityApi,element,contentElement,contentLink,link,picture,date,status,uploadImage} from './community-client';
@@ -42,6 +43,7 @@ function postCard(post:any){
     }});
   },'',message));
   menu.append(summary,options);header.append(menu);card.append(header);
+  if(post.article){const topic=link(post.article.title,post.article.url,'post-topic');topic.prepend(icon('book'));card.append(topic);}
   card.append(body);if(photo)card.append(photo);
   const footer=element('footer','post-footer'),toggle=button('Comentários ('+post.comment_count+')',()=>{comments.hidden=!comments.hidden},'post-comment-toggle',message);
   toggle.prepend(icon('message'));toggle.setAttribute('aria-expanded','false');
@@ -87,12 +89,17 @@ function postCard(post:any){
 export function mountFeed(root:HTMLElement){
   if(root.dataset.mounted)return;root.dataset.mounted='true';root.tabIndex=-1;root.setAttribute('role','region');root.setAttribute('aria-label','Publicações da comunidade');
   const list=root.querySelector<HTMLElement>('[data-feed-list]')!,message=root.querySelector<HTMLElement>('[data-feed-status]')!,more=root.querySelector<HTMLButtonElement>('[data-feed-more]')!;
-  const compact=root.dataset.compact==='true',profile=root.dataset.profile||'';
+  const compact=root.dataset.compact==='true',profile=root.dataset.profile||'',article=root.dataset.article||(!compact?new URLSearchParams(location.search).get('artigo')||'':'');
+  const topicInput=root.querySelector<HTMLInputElement>('#post-topic'),topicOptions=[...root.querySelectorAll<HTMLOptionElement>('[data-topic-slug]')];
+  const selectedTopic=topicOptions.find(option=>option.dataset.topicSlug===article);
+  if(topicInput&&selectedTopic)topicInput.value=selectedTopic.value;
+  const topicLabel=root.querySelector<HTMLElement>('[data-feed-topic]');
+  if(topicLabel&&selectedTopic){topicLabel.hidden=false;topicLabel.append(element('span','','Publicações sobre: '),contentElement('strong','',selectedTopic.value),link('Ver todos','/comunidade/','future-text-link'));}
   let feed='all',next:number|null=null,ticket=0;
   async function load(append=false,focusAfter?:string){
     const version=++ticket;more.disabled=true;status(message,'Carregando publicações…');
     try{
-      const query=new URLSearchParams({feed,...(profile?{profile}:{}),...(append&&next?{before:String(next)}:{})});
+      const query=new URLSearchParams({feed,...(article?{article}:{}),...(profile?{profile}:{}),...(append&&next?{before:String(next)}:{})});
       const data=await communityApi('/posts?'+query);
       if(version!==ticket)return;
       if(!append)list.replaceChildren();
@@ -125,6 +132,8 @@ export function mountFeed(root:HTMLElement){
       if(!me.profile.published){entry.querySelector('p')!.textContent='Publique seu perfil para postar e comentar na comunidade.';entry.querySelector('a')!.textContent='Configurar meu perfil';return}
       form.hidden=false;entry.hidden=true;if(initialized)return;initialized=true;
       const input=form.elements.namedItem('body') as HTMLTextAreaElement,file=form.querySelector<HTMLInputElement>('[type=file]')!,preview=form.querySelector<HTMLElement>('[data-photo-preview]')!,photo=preview.querySelector('img')!,submit=form.querySelector<HTMLButtonElement>('[type=submit]')!,feedback=form.querySelector<HTMLElement>('[data-composer-status]')!;
+      const draft=bindDraft(input,session.user.id,'publication:'+article);
+      form.querySelector('[data-post-count]')!.textContent=input.value.length+' / 2000';
       let imageId:string|null=null,uploading=false;
       const clear=()=>{imageId=null;preview.hidden=true;photo.removeAttribute('src');file.value=''};
       input.addEventListener('input',()=>{form.querySelector('[data-post-count]')!.textContent=input.value.length+' / 2000'});
@@ -136,7 +145,9 @@ export function mountFeed(root:HTMLElement){
       form.addEventListener('submit',async event=>{
         event.preventDefault();if(uploading)return;submit.disabled=true;file.disabled=true;status(feedback,'Publicando…');
         try{
-          await communityApi('/posts','POST',{body:input.value,image_id:imageId});input.value='';clear();form.querySelector('[data-post-count]')!.textContent='0 / 2000';status(feedback,'Publicação enviada.');
+          const chosen=topicOptions.find(option=>option.value===topicInput?.value.trim());
+          if(topicInput?.value.trim()&&!chosen)throw Error(t('Escolha um artigo da lista ou deixe o campo vazio.'));
+          await communityApi('/posts','POST',{body:input.value,image_id:imageId,article_slug:chosen?.dataset.topicSlug||null});draft.clear();input.value='';clear();form.querySelector('[data-post-count]')!.textContent='0 / 2000';status(feedback,'Publicação enviada.');
           feed='all';root.querySelectorAll<HTMLElement>('[data-feed-tab]').forEach(tab=>tab.setAttribute('aria-pressed',String(tab.dataset.feedTab==='all')));await load();
         }catch(error){status(feedback,errorText(error),true)}finally{submit.disabled=false;file.disabled=false}
       });

@@ -4,7 +4,21 @@
 
 Este é o registro compartilhado para alternar entre os dois chats. Leia o arquivo, confira o código e observe o site antes de continuar. Atualize-o ao terminar cada ciclo. As instruções mais recentes do responsável prevalecem sobre o histórico.
 
-## Ciclo atual — correções da auditoria
+## Ciclo atual — redesign autoral
+
+- O responsável autorizou implementar e publicar o novo conceito depois da discussão completa. Todos os pontos acumulados estão rastreados em [docs/REDESIGN.md](docs/REDESIGN.md); ler antes de editar. A ordem de execução conserva as etapas futuras.
+- Wiki prioritária na entrada, comunidade integrada; abertura cinematográfica com consulta imediata, identidade própria relacionada às artes do jogo, cenários diferentes por destino, três temas e dois idiomas. Sem emojis e sem redação de fantasia.
+- Implementados abertura e composição novas, navegação compartilhada, cenários por destino, ícones, tratamento de leitura, comunidade, catálogo e perfis. Inventário com 24 cenários disponíveis e 14 reservas decorativas distintas em `source/art-direction.json`. Capas enviadas pelos jogadores são preservadas; cartões sem capa própria usam composição gráfica.
+- Novos recursos: rascunhos de texto por conta/assunto na aba, consultas recentes locais apagáveis, restauração da quantidade carregada no catálogo, fotos ampliáveis por teclado/clique, metadados de compartilhamento por conteúdo e publicações vinculadas opcionalmente a artigo, com feed relacionado.
+- Migração **aditiva e idempotente** `0004_post_topics.sql`: tabela/índice para relacionar posts aos artigos, inicializados pelo Worker. Post e associação são gravados juntos. Testes conferem reversão em falha, limite existente, privacidade e reaplicação sobre dados antigos. Nenhuma dependência, serviço pago, segredo, binding ou alteração no bot.
+- **Validação:** 100 testes Node aprovados e auditoria npm com zero vulnerabilidades. Build/localização/auditoria dos 2.062 documentos e Wrangler dry-run aprovados. Chromium: dois ciclos críticos, 225 combinações de tela/tema/largura e 2.744 renderizações das 1.372 rotas, todas HTTP 200, sem transbordamento ou erros JavaScript nessa varredura. Novos fluxos incluem rascunhos por identidade, publicação por artigo, ampliação de fotos e navegação com movimento.
+- **Acervo:** 1.106 hashes brutos conferidos; números preservados nos 661 pares de artigos e marcadores de etapas iguais nos dois idiomas. Conferência estática sem IDs duplicados, fragmentos ausentes, controles sem nome ou português detectado na interface inglesa analisada.
+- O último ajuste trata cancelamentos das transições nativas. Os corpos dos 2.062 documentos e os módulos JavaScript coincidem byte a byte com os usados na varredura completa; os ajustes finais estão no script do cabeçalho, seus hashes e na regra CSS de preferência das transições. Os fluxos completos passaram também na última compilação, incluindo movimento ativado/desativado e preferência de movimento reduzido, sem erros não tratados.
+- **Publicação:** preparada para commit/envio e conferência online; ainda não interpretar a auditoria anterior como publicação deste redesign.
+- Login humano pelo Discord, Safari/Firefox e aparelhos físicos não foram conferidos nesta sessão. As verificações com contas são locais e isoladas; não há fixtures em produção.
+- IA continua como etapa própria: fontes selecionadas, coleta programada, comparação, revisão, histórico e cotas gratuitas ainda precisam ser configurados antes da ativação. Nenhum modelo ou serviço pago foi contratado.
+
+## Ciclo anterior — correções da auditoria
 
 - O responsável autorizou executar os 34 pontos e continuar publicando diretamente no site oficial.
 - **Redação obrigatória:** português brasileiro e inglês dos Estados Unidos naturais, claros e profissionais. Sem gírias, fantasia ou chamadas exageradas, inclusive em títulos, descrições, avisos e erros. O futurismo vem do visual e das interações.
@@ -117,4 +131,5 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 | 26/10/2026 | Configuração do ambiente | Python/Node, dependências, testes do bot/wiki, build e instruções reutilizáveis preparados. |
 | 26/10/2026 | Primeira versão da wiki/comunidade | Novo visual, posts com foto/texto, comentários, amizades, proteção de dados e 86 testes; código enviado à main em `6ed06b1`, site novo conferido em produção e CI de `1005b74` aprovado. OAuth humano e avaliação visual do responsável continuam como próximos passos. |
 | 26/10/2026 | Continuidade entre chats | Criados este registro e `AGENTS.md`, publicados na main a pedido do responsável. Cada assistente deve ler e atualizar ao encerrar o ciclo. |
+| 26/10/2026 | Redesign autoral | Nova composição, cenários distintos, recuperação de texto e navegação, fotos ampliáveis e posts relacionados à wiki. Requisitos em `docs/REDESIGN.md`; 100 testes Node e verificações de navegador aprovados. Publicação em preparação neste registro. |
 | 26/10/2026 | Correções dos 34 pontos da auditoria | Layout, redação, idiomas, navegação, interação social, acessibilidade e concorrência corrigidos em `6155c23`. 95 testes, 225 combinações visuais e 2.744 renderizações de rotas aprovados; CI e Cloudflare aprovados; 48 arquivos públicos coincidem com o build validado. OAuth humano permanece sem conferência. |

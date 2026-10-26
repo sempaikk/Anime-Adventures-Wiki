@@ -1,3 +1,5 @@
+import {bindDraft} from './drafts';
+import {getSession} from './favorites';
 import {t} from './i18n';
 import {closeDialog} from './ui-motion';
 import {contentElement,contentLink} from './community-client';
@@ -147,6 +149,8 @@ for (const section of document.querySelectorAll<HTMLElement>(
     textarea.maxLength = 4000;
     textarea.rows = 4;
     textarea.value = existing?.body || "";
+    let draft:ReturnType<typeof bindDraft>|undefined;
+    getSession().then(session=>{if(session.user&&form.isConnected)draft=bindDraft(textarea,session.user.id,`article:${article}:${existing?.id||parent||'root'}`)}).catch(()=>{});
     textarea.placeholder = parent
       ? "Escreva sua resposta…"
       : "Compartilhe uma dica, dúvida ou correção…";
@@ -250,6 +254,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
           existing ? "PATCH" : "POST",
           data,
         );
+        draft?.clear();
         textarea.value = "";
         imageId = null;
         preview.hidden = true;

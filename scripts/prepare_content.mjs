@@ -57,7 +57,7 @@ fs.writeFileSync(
   "worker/community-schema.mjs",
   "// Generated from community and social migrations.\nexport default " +
     JSON.stringify(
-      ["migrations/0002_community.sql", "migrations/0003_social.sql"].map(file => fs.readFileSync(file, "utf8")).join("\n")
+      ["migrations/0002_community.sql", "migrations/0003_social.sql", "migrations/0004_post_topics.sql"].map(file => fs.readFileSync(file, "utf8")).join("\n")
         .split(";")
         .map((sql) => sql.trim())
         .filter(Boolean),

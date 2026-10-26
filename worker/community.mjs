@@ -208,7 +208,7 @@ export async function communityRequest(request, env) {
       if (!user) fail("Entre com Discord para continuar.", 401);
       return user;
     };
-    const social = await socialRequest(request, {db,user,path,env,json,fail,text,id,now,readBody,publishedProfile,ownedImage,moderator,safeAvatar,imagePath,profileData,profileSelect});
+    const social = await socialRequest(request, {db,user,path,env,json,fail,text,id,now,readBody,publishedProfile,ownedImage,moderator,safeAvatar,imagePath,profileData,profileSelect,articles});
     if (social) return social;
 
     if (path === "/me" && request.method === "GET") {

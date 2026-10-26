@@ -11,6 +11,14 @@
     document.dispatchEvent(new CustomEvent('aa:motion-change'));
   }
   sync();
+  // A native transition may be skipped by a rapid navigation, BFCache or a
+  // preference change. Consume both promises; cancellation is not a page error.
+  for(const name of ['pagereveal','pageswap'])addEventListener(name,event=>{
+    const transition=event.viewTransition;
+    if(!transition)return;
+    transition.ready.catch(()=>{});transition.finished.catch(()=>{});transition.updateCallbackDone?.catch(()=>{});
+    if(!enabled())transition.skipTransition();
+  });
   if(enabled())root.dataset.pageEntry=performance.getEntriesByType('navigation')[0]?.type==='back_forward'?'back':'forward';
   reduced.addEventListener('change',sync);
   addEventListener('storage',event=>{if(event.key==='aa-motion'||event.key===null){transientPreference=null;sync()}});
@@ -38,6 +46,8 @@
     const url=new URL(anchor.href,location.href);
     if(url.origin!==location.origin||url.pathname.startsWith('/api/')||(url.pathname===location.pathname&&url.search===location.search))return;
     if(!enabled()||!Element.prototype.animate)return;
+    // Native cross-document transitions keep links immediate on supporting browsers.
+    if('onpagereveal' in window&&document.startViewTransition)return;
     event.preventDefault();if(navigating)return;navigating=true;
     const version=++navigationVersion;
     document.querySelectorAll('dialog[open]').forEach(dialog=>dialog.close());
@@ -46,11 +56,11 @@
     if(menu){menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Abrir navegação')}if(side)side.inert=true;
     root.removeAttribute('data-page-entry');root.dataset.navigating='';
     const layer=document.querySelector('.page-transition-layer'),page=document.querySelector('.page-wrapper');
-    if(page)exitAnimations.push(page.animate([{opacity:1,transform:'none'},{opacity:0,transform:'translateY(-8px)'}],{duration:340,fill:'forwards',easing:'cubic-bezier(.4,0,.8,.3)'}));
+    if(page)exitAnimations.push(page.animate([{opacity:1,transform:'none'},{opacity:0,transform:'translateY(-8px)'}],{duration:220,fill:'forwards',easing:'cubic-bezier(.4,0,.8,.3)'}));
     const commit=()=>{if(navigating&&version===navigationVersion){clearTimeout(timer);location.assign(url.href)}};
     // Wait for the painted exit, with a fallback if the browser suspends animation frames.
     Promise.all(exitAnimations.map(animation=>animation.finished)).then(commit,()=>{});
-    timer=window.setTimeout(commit,800);
+    timer=window.setTimeout(commit,500);
   });
 })();
 </script>

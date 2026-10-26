@@ -1,0 +1,103 @@
+{
+  "description": "Dedicated decorative scenery per destination. Archived article illustrations remain source content, not decorative reuse.",
+  "scenes": {
+    "home": {
+      "name": "Alien Spaceship",
+      "image": "/art/wiki/839ef4ed110742902d53bbfd.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Alien_Spaceship.png"
+    },
+    "home-map": {
+      "name": "Planet Namak",
+      "image": "/art/wiki/ce9d1218b2c06c88e1d3ceb0.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Planet_Namak.png"
+    },
+    "personagens": {
+      "name": "Snowy Town",
+      "image": "/art/wiki/332fe52fc94e5ea79c1adf1c.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Snowy_Town.png"
+    },
+    "biblioteca": {
+      "name": "Clover Kingdom (Elf Invasion)",
+      "image": "/art/wiki/252101a3247279f62a3a1d4d.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Clover_Kingdom_(Elf_Invasion).png"
+    },
+    "comparar": {
+      "name": "Hidden Sand Village",
+      "image": "/art/wiki/7cd6f0360d622ec2ee3ac520.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Hidden_Sand_Village.png"
+    },
+    "comunidade": {
+      "name": "Hero City (Midnight)",
+      "image": "/art/wiki/f102544e2938b187aa4151be.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Hero_City_(Midnight).png"
+    },
+    "pessoas": {
+      "name": "Puppet Island",
+      "image": "/art/wiki/5d113d57900d2ba876b1448d.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Puppet_Island.png"
+    },
+    "conta": {
+      "name": "Fabled Kingdom",
+      "image": "/art/wiki/b9005499a94d51421c376f10.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Fabled_Kingdom.png"
+    },
+    "perfil": {
+      "name": "Cursed Academy",
+      "image": "/art/wiki/477157ecc7ab5b9ce9f41431.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Cursed_Academy.png"
+    },
+    "updates": {
+      "name": "Windhym",
+      "image": "/art/wiki/cf09faad412b6614e0ff6fd0.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Windhym.png"
+    },
+    "sobre": {
+      "name": "Marine's Ford",
+      "image": "/art/wiki/2d4979710663e1cfa8219c91.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Marine's_Ford.png"
+    },
+    "favoritos": {
+      "name": "Magic Town",
+      "image": "/art/wiki/069fb25b421ebb0db7e0daad.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Magic_Town.png"
+    },
+    "map": {
+      "name": "Ant Kingdom",
+      "image": "/art/wiki/88f58fbf5ddc7e8337f9df0e.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Ant_Kingdom.png"
+    },
+    "bot": {
+      "name": "Cape Canaveral",
+      "image": "/art/wiki/10a321d77d3a753fbee5e801.webp",
+      "width": 1023,
+      "height": 575,
+      "source": "https://animeadventures.fandom.com/wiki/File:Map_-_Cape_Canaveral.png"
+    }
+  }
+}

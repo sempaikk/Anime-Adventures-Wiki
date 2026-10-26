@@ -4,7 +4,8 @@ Requires Python Playwright and Chromium. Run with the isolated harness on port 4
 import asyncio,json,os
 from pathlib import Path
 from playwright.async_api import async_playwright,expect
-BASE='http://127.0.0.1:4399'
+BASE=os.environ.get('REVIEW_BASE','http://127.0.0.1:4399')
+assert BASE.startswith('http://127.0.0.1:'), 'Use only an isolated local harness.'
 ROOT=Path(__file__).resolve().parents[2]
 OUT=Path(os.environ.get('REVIEW_OUTPUT','/tmp/adventures-quality'));OUT.mkdir(parents=True,exist_ok=True)
 checks=[];errors=[]
@@ -105,7 +106,7 @@ async def main():
   await ctx.close()
   nojs=await browser.new_context(java_script_enabled=False);fallback=await nojs.new_page()
   for route,notice in [('/en-us/comunidade/','Enable JavaScript to view community posts.'),('/en-us/artigo/iron-knight-arsenal-2259/','Enable JavaScript to read and post comments.')]:
-   await fallback.goto(BASE+route,wait_until='networkidle');await expect(fallback.locator('noscript p')).to_contain_text(notice);await expect(fallback.locator('noscript p')).to_be_visible()
+   await fallback.goto(BASE+route,wait_until='networkidle');await expect(fallback.locator('noscript p').filter(has_text=notice)).to_contain_text(notice);await expect(fallback.locator('noscript p').filter(has_text=notice)).to_be_visible()
   await nojs.close();await browser.close()
  assert not errors,errors
  (OUT/'results.json').write_text(json.dumps({'checks':checks,'browser_errors':errors},ensure_ascii=False,indent=2))

@@ -1,6 +1,6 @@
 # Continuidade entre assistentes
 
-Antes de trabalhar, leia [CONTINUIDADE.md](CONTINUIDADE.md). Ele reúne as decisões do responsável, o estado do site e as pendências entre os dois chats.
+Antes de trabalhar, leia [CONTINUIDADE.md](CONTINUIDADE.md) e a especificação vigente [docs/REDESIGN.md](docs/REDESIGN.md). Ele reúne as decisões do responsável, o estado do site e as pendências entre os dois chats.
 
 - Confira `git status` e a versão de `origin/main` antes de editar. Preserve mudanças locais e trabalho do outro assistente; nunca use reset destrutivo ou push forçado para sincronizar.
 - Use o checkout existente. As tarefas na nuvem já são isoladas; não crie Git worktree sem pedido explícito.

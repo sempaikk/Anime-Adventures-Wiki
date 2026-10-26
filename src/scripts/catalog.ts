@@ -47,13 +47,14 @@ if (grid) {
     $("#load-units").hidden = shown >= matched.length;
     const count = [rarity.value, tower.value, retired.checked, sort.value !== "name"].filter(Boolean).length;
     $("[data-filter-count]").textContent = count ? `· ${count} ativo${count > 1 ? "s" : ""}` : "";
+    history.replaceState({...history.state,aaCatalogLimit:shown},'');
     writeParams({ q: query.value.trim(), raridade: rarity.value, tipo: tower.value, ordem: sort.value === "name" ? "" : sort.value, arquivo: retired.checked ? "1" : "" });
   }
   function read() {
     const params = new URL(location.href).searchParams;
     query.value = params.get("q") || ""; choose(rarity, params.get("raridade") || ""); choose(tower, params.get("tipo") || ""); choose(sort, params.get("ordem") || "name"); retired.checked = params.get("arquivo") === "1";
     if (rarity.value || tower.value || retired.checked || sort.value !== "name") $<HTMLDetailsElement>("[data-catalog-filters]").open = true;
-    filter();
+    shown=Math.max(12,Math.min(cards.length,Number(history.state?.aaCatalogLimit)||12));filter(false);
   }
   query.addEventListener("input", () => filter());
   for (const control of [rarity,tower,sort,retired]) control.addEventListener("change", () => filter());
@@ -74,6 +75,7 @@ if (library) {
     kinds.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.articleKind === kind)));
     $("#article-results").textContent = matched.length===1?'1 artigo encontrado':`${matched.length} artigos encontrados`;
     $("#article-empty").hidden = matched.length > 0; $("#load-articles").hidden = shown >= matched.length;
+    history.replaceState({...history.state,aaCatalogLimit:shown},'');
     writeParams({q:query.value.trim(),tipo:kind,arquivo:archived.checked ? "1" : ""});
   }
   function read() {

@@ -12,6 +12,7 @@ import '../styles/continuous.css';
 import '../styles/interaction-motion.css';
 import '../styles/portrait-framing.css';
 import '../styles/future.css';
+import '../styles/redesign.css';
 import Icon from '../components/Icon.astro';
 import { gameNavigation, gameLogo } from '../lib/wiki-navigation';
 import { wiki } from '../lib/wiki';
@@ -21,7 +22,7 @@ import ComparisonTray from '../components/ComparisonTray.astro';
 import CloseButton from '../components/CloseButton.astro';
 import GameIcon from '../components/GameIcon.astro';
 import art from '../../source/interface-art.json';
-import { scenery } from '../lib/scenery';
+import direction from '../../source/art-direction.json';
 const isHome = Astro.props.home === true || Astro.url.pathname.replace(/\/$/, '') === import.meta.env.BASE_URL.replace(/\/$/, '');
 const { title = 'Adventures Wiki', description = 'Personagens, itens, guias e informações sobre Anime Adventures. Wiki independente da comunidade.', active = isHome ? 'inicio' : '' } = Astro.props;
 const pages = [
@@ -31,12 +32,11 @@ const pages = [
 ];
 const game = gameNavigation;
 const topLinks = [['inicio','Início','/'],['personagens','Personagens','/personagens/'],['biblioteca','Wiki','/biblioteca/'],['comunidade','Comunidade','/comunidade/']];
-const topActive=['pessoas'].includes(active)?'comunidade':topLinks.find(([, ,href])=>href===Astro.url.pathname)?.[0] || active;
-const pageArt = ['personagens','comparar'].includes(active) ? art.namak : ['pessoas','comunidade','conta','favoritos'].includes(active) ? art.city : art.dungeon;
-const excludedScenes=new Set([...(Astro.props.excludeScenery||[]),...(isHome?[art.namak.image,art.city.image,art.dungeon.image]:[]),...(['pessoas','comunidade','conta','favoritos'].includes(active)?[art.city.image,art.spaceship.image,art.dungeon.image]:[])]);
-const availableScenes=scenery.filter(scene=>!excludedScenes.has(scene.image));
-const firstScene = (!isHome&&availableScenes.find(scene=>scene.image===pageArt.image)) || availableScenes[0] || scenery[0];
-const sceneFrames = [firstScene,...availableScenes.filter(scene=>scene.image!==firstScene.image)];
+const topActive=['pessoas','perfil'].includes(active)?'comunidade':topLinks.find(([, ,href])=>href===Astro.url.pathname)?.[0] || active;
+const isArticle=Astro.url.pathname.startsWith('/artigo/')&&!isHome;
+const sceneKey=isHome?'home':active;
+const pageScene=isArticle?undefined:direction.scenes[sceneKey as keyof typeof direction.scenes];
+const shareImage=Astro.props.image||pageScene?.image||art.logo.image;
 const themes = [['adventures','Adventures','Cores do jogo'],['dark','Escuro','Contraste suave'],['light','Claro','Fundo claro']];
 const noindex = Astro.props.noindex === true || ['conta','favoritos','updates','comparar'].includes(active);
 const canonical = new URL(Astro.props.canonical || Astro.url.pathname, Astro.site).href;
@@ -45,8 +45,8 @@ const canonical = new URL(Astro.props.canonical || Astro.url.pathname, Astro.sit
   <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="description" content={description}/><meta name="color-scheme" content="dark light"/>
   <meta name="robots" content={noindex?'noindex,follow':'index,follow,max-image-preview:large'}/>
-  <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/>
-  <meta property="og:image" content={new URL(art.spaceship.image, Astro.site).href}/>
+  <meta property="og:title" content={title}/><meta property="og:description" content={description}/><meta property="og:type" content={isArticle?'article':'website'}/>
+  <meta property="og:image" content={new URL(shareImage, Astro.site).href}/>
   <meta property="og:site_name" content="Adventures Wiki"/><meta property="og:url" content={canonical}/>
   <meta name="twitter:card" content="summary_large_image"/>
   <link rel="canonical" href={canonical}/>
@@ -54,12 +54,12 @@ const canonical = new URL(Astro.props.canonical || Astro.url.pathname, Astro.sit
   <link rel="icon" href={wiki.branding.image} type="image/webp"/>
   <script is:inline>try{const t=localStorage.getItem('aa-theme');document.documentElement.dataset.theme=['adventures','dark','light'].includes(t)?t:'adventures'}catch{}</script>
   <NavigationMotion/>
-</head><body id="top" class:list={{'page-home':isHome}} data-area={active} style={!isHome?`--page-scene:url("${pageArt.image}")`:undefined}>
-<div class="game-backdrop" data-game-backdrop data-scene-frames={JSON.stringify(sceneFrames)} aria-hidden="true"><div class="game-backdrop-pan"><img class="is-active" data-scene-current src={firstScene.image} alt="" width="1023" height="575" fetchpriority="high"/><img data-scene-next alt="" width="1023" height="575"/></div><div class="game-backdrop-shade"></div></div>
+</head><body id="top" class:list={{'page-home':isHome}} data-area={active} data-article={isArticle?'true':undefined}>
+{!isHome&&pageScene&&<div class="destination-scenery" aria-hidden="true"><img data-decorative-scene={sceneKey} src={pageScene.image} alt="" width={pageScene.width} height={pageScene.height} fetchpriority="high"/><span></span></div>}
 <a class="skip-link" href="#main">Ir para o conteúdo</a>
 <div class="navigation-progress" aria-hidden="true"></div><div class="page-transition-layer" aria-hidden="true"><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span><span class="nexus-transition-slice"></span></div>
 <header class="site-header"><div class="reading-progress" aria-hidden="true"><span></span></div>
-  <a class="orbit-brand" href="/" aria-label="Adventures Wiki, início"><img src={gameLogo} alt="Anime Adventures" width="959" height="419"/></a>
+  <a class="orbit-brand" href="/" aria-label="Adventures Wiki, início"><span class="brand-signature" aria-hidden="true"><i></i><i></i><i></i></span><img src={gameLogo} alt="Anime Adventures" width="959" height="419"/><span class="brand-label" aria-hidden="true">WIKI</span></a>
   <nav class="wiki-top-links" aria-label="Navegação da wiki">{topLinks.map(([key,label,href])=><a href={href} aria-current={topActive===key?'page':undefined}>{label}</a>)}</nav>
   <button class="search-trigger" data-search-open aria-label="Pesquisar na wiki"><Icon name="search"/><span>Pesquisar na wiki</span><kbd>Ctrl K</kbd></button>
   <div class="header-actions">
@@ -86,6 +86,6 @@ const canonical = new URL(Astro.props.canonical || Astro.url.pathname, Astro.sit
 <script src="../scripts/i18n.ts"></script>
 <script src="../scripts/client.ts"></script>
 <script src="../scripts/audio.ts"></script>
-<script src="../scripts/ambient.ts"></script>
+<script src="../scripts/experience.ts"></script>
 <script src="../scripts/connection.ts"></script>
 </body></html>

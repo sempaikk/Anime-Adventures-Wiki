@@ -22,7 +22,8 @@ const covers: any = {
 };
 function personCard(profile: any) {
   const card = link("", profile.url, "person-card");
-  card.append(picture(profile.cover_url, "", "person-card-cover"));
+  if(profile.cover_url?.startsWith('/api/community/media/'))card.append(picture(profile.cover_url, "", "person-card-cover"));
+  else {const cover=element('div','person-card-cover person-card-cover--graphic');cover.setAttribute('aria-hidden','true');cover.style.setProperty('--profile-hue',String(parseInt(String(profile.id||'0').slice(0,4),16)%360||240));card.append(cover)}
   const body = element("div", "person-card-body");
   body.append(
     picture(profile.avatar, "", "person-card-avatar"),

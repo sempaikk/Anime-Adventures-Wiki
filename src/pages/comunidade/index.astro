@@ -2,12 +2,12 @@
 import Layout from '../../layouts/Layout.astro';
 import CommunityFeed from '../../components/CommunityFeed.astro';
 import Icon from '../../components/Icon.astro';
-import art from '../../../source/interface-art.json';
+
 ---
 <Layout title="Comunidade — Adventures Wiki" active="comunidade" description="Publicações dos jogadores de Anime Adventures.">
   <header class="future-community-heading"><div><h1>Comunidade</h1><p>Publique mensagens e fotos, comente e acompanhe seus amigos.</p></div><a class="button button-outline" href="/pessoas/">Encontrar jogadores <Icon name="people"/></a></header>
   <div class="social-layout"><CommunityFeed/><aside class="social-sidebar">
-    <section class="social-side-card social-side-intro"><img src={art.city.image} alt="" width="1023" height="575"/><div><h2>Seu perfil</h2><p>Configure seu nome, avatar e capa para participar da comunidade.</p><a class="future-text-link" href="/conta/#perfil">Meu perfil <Icon name="arrow"/></a></div></section>
+    <section class="social-side-card social-side-intro"><span class="community-profile-emblem" aria-hidden="true"><Icon name="person" size={48}/></span><div><h2>Seu perfil</h2><p>Configure seu nome, avatar e capa para participar da comunidade.</p><a class="future-text-link" href="/conta/#perfil">Meu perfil <Icon name="arrow"/></a></div></section>
     <section class="social-side-card" data-friend-list hidden><div class="social-side-heading"><Icon name="people"/><h2>Amizades</h2></div><p data-friends-status role="status"></p><div data-friends-items></div></section>
     <section class="social-side-card social-guidelines"><h2>Participação</h2><p>Respeite os outros jogadores, dê crédito às fontes e denuncie publicações que precisem de revisão.</p><a class="future-text-link" href="/biblioteca/">Consultar a wiki <Icon name="book"/></a></section>
     <details class="social-side-card" data-post-moderation hidden><summary>Revisar publicações denunciadas</summary><p data-reports-status role="status"></p><div data-reports-list></div></details>

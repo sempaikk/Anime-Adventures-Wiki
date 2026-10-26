@@ -1,17 +1,22 @@
 // Community posts and friendships reuse the existing Discord identity and D1.
 // All lists are bounded; no timers, polling service or paid binding is required.
 export async function socialRequest(request, context) {
-  const {db,user,path,env,json,fail,text,id,now,readBody,publishedProfile,ownedImage,moderator,safeAvatar,imagePath,profileData,profileSelect}=context;
+  const {db,user,path,env,json,fail,text,id,now,readBody,publishedProfile,ownedImage,moderator,safeAvatar,imagePath,profileData,profileSelect,articles}=context;
   const url=new URL(request.url),method=request.method;
   const requireUser=()=>{if(!user)fail('Entre com Discord para continuar.',401);return user};
-  const postSelect=`SELECT s.*,p.name AS profile_name,p.handle,p.avatar_id,u.avatar_url AS discord_avatar,
+  const postSelect=`SELECT s.*,pt.article_slug,p.name AS profile_name,p.handle,p.avatar_id,u.avatar_url AS discord_avatar,
     (SELECT COUNT(*) FROM community_post_comments c JOIN community_profiles cp ON cp.owner_id=c.author_id WHERE c.post_id=s.id AND c.deleted_at IS NULL AND cp.published=1) AS comment_count
-    FROM community_posts s JOIN community_profiles p ON p.owner_id=s.author_id JOIN users u ON u.discord_id=s.author_id`;
+    FROM community_posts s JOIN community_profiles p ON p.owner_id=s.author_id JOIN users u ON u.discord_id=s.author_id LEFT JOIN community_post_topics pt ON pt.post_id=s.id`;
   const visible="s.deleted_at IS NULL AND s.moderation='visible' AND p.published=1";
-  const postData=row=>({id:row.id,body:row.body,image:imagePath(row.image_id),image_id:row.image_id,
+  const postData=row=>({id:row.id,body:row.body,article:row.article_slug?{slug:row.article_slug,...articles[row.article_slug]}:null,image:imagePath(row.image_id),image_id:row.image_id,
     author:{name:row.profile_name,handle:row.handle,url:`/perfil/${row.handle}/`,avatar:row.avatar_id?imagePath(row.avatar_id):safeAvatar(row.discord_avatar)},
     created_at:row.created_at,edited:row.updated_at>row.created_at,comment_count:Number(row.comment_count),
     can_edit:user?.id===row.author_id,can_moderate:moderator(user,env)});
+  function topic(value){
+    if(value===undefined||value===null||value==='')return null;
+    if(typeof value!=='string'||!Object.hasOwn(articles,value))fail('Escolha um artigo válido.');
+    return value;
+  }
   async function getPost(value){
     const row=await db.prepare(postSelect+` WHERE s.id=? AND ${visible}`).bind(value).first();
     if(!row)fail('Publicação não encontrada.',404);return row;
@@ -22,19 +27,23 @@ export async function socialRequest(request, context) {
     return !!allowed;
   }
   if(path==='/posts'&&method==='GET'){
-    const before=cursor(),friends=url.searchParams.get('feed')==='friends',handle=url.searchParams.get('profile')||'';
+    const before=cursor(),friends=url.searchParams.get('feed')==='friends',handle=url.searchParams.get('profile')||'',article=topic(url.searchParams.get('article'))||'';
     if(friends)requireUser();
     const filter=friends?` AND EXISTS(SELECT 1 FROM community_friendships f WHERE f.status='accepted' AND ((f.user_a=? AND f.user_b=s.author_id) OR (f.user_b=? AND f.user_a=s.author_id)))`:'';
-    const params=[before,before,handle,handle,...(friends?[user.id,user.id]:[])];
-    const result=await db.prepare(postSelect.replace('SELECT s.*','SELECT s.rowid AS position,s.*')+` WHERE ${visible} AND (?=0 OR s.rowid<?) AND (?='' OR p.handle=?)${filter} ORDER BY s.rowid DESC LIMIT 13`).bind(...params).all();
+    const topicFilter=article?' AND pt.article_slug=?':'';
+    const params=[before,before,handle,handle,...(article?[article]:[]),...(friends?[user.id,user.id]:[])];
+    const result=await db.prepare(postSelect.replace('SELECT s.*','SELECT s.rowid AS position,s.*')+` WHERE ${visible} AND (?=0 OR s.rowid<?) AND (?='' OR p.handle=?)${topicFilter}${filter} ORDER BY s.rowid DESC LIMIT 13`).bind(...params).all();
     return json({posts:result.results.slice(0,12).map(postData),next:result.results.length>12?result.results[11].position:null});
   }
   if(path==='/posts'&&method==='POST'){
     requireUser();await publishedProfile(db,user);
     const data=await readBody(request),body=text(data.body||'',2000,'Publicação'),image=await ownedImage(db,user,data.image_id);
     if(!body&&!image)fail('Escreva algo ou escolha uma foto.');
-    const postId=id(),time=now();
-    const saved=await db.prepare(`INSERT INTO community_posts(id,author_id,body,image_id,created_at,updated_at) SELECT ?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM community_posts WHERE author_id=? AND created_at>?)<10 RETURNING id`).bind(postId,user.id,body,image,time,time,user.id,time-3600).first();
+    const article=topic(data.article_slug),postId=id(),time=now();
+    const statements=[db.prepare(`INSERT INTO community_posts(id,author_id,body,image_id,created_at,updated_at) SELECT ?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM community_posts WHERE author_id=? AND created_at>?)<10`).bind(postId,user.id,body,image,time,time,user.id,time-3600)];
+    if(article)statements.push(db.prepare('INSERT INTO community_post_topics(post_id,article_slug) SELECT ?,? WHERE EXISTS(SELECT 1 FROM community_posts WHERE id=?)').bind(postId,article,postId));
+    await db.batch(statements);
+    const saved=await db.prepare('SELECT id FROM community_posts WHERE id=?').bind(postId).first();
     if(!saved)fail('Você atingiu o limite de publicações desta hora. Tente mais tarde.',429);
     return json({post:postData(await getPost(postId))},201);
   }
@@ -47,7 +56,12 @@ export async function socialRequest(request, context) {
     }
     const data=await readBody(request),body=text(data.body||'',2000,'Publicação'),image=await ownedImage(db,user,data.image_id);
     if(!body&&!image)fail('Escreva algo ou escolha uma foto.');
-    await db.prepare('UPDATE community_posts SET body=?,image_id=?,updated_at=? WHERE id=?').bind(body,image,now(),row.id).run();
+    const updates=[db.prepare('UPDATE community_posts SET body=?,image_id=?,updated_at=? WHERE id=?').bind(body,image,now(),row.id)];
+    if(Object.hasOwn(data,'article_slug')){
+      const article=topic(data.article_slug);
+      updates.push(article?db.prepare('INSERT INTO community_post_topics(post_id,article_slug) VALUES(?,?) ON CONFLICT(post_id) DO UPDATE SET article_slug=excluded.article_slug').bind(row.id,article):db.prepare('DELETE FROM community_post_topics WHERE post_id=?').bind(row.id));
+    }
+    await db.batch(updates);
     return json({post:postData(await getPost(row.id))});
   }
   const commentsMatch=path.match(/^\/posts\/([a-f0-9]{32})\/comments$/);
