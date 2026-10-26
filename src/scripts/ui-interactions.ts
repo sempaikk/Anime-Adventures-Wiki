@@ -57,6 +57,7 @@ const observer=new MutationObserver(records=>{
 });
 observer.observe(document.body,{attributes:true,attributeFilter:['open','hidden','aria-selected','aria-pressed','aria-busy','disabled','class'],attributeOldValue:true,childList:true,characterData:true,subtree:true});
 document.addEventListener('cancel',event=>{
+  if(event.target instanceof HTMLDialogElement&&event.target.getAttribute('aria-busy')==='true'){event.preventDefault();return}
   if(event.target instanceof HTMLDialogElement&&motionOn()){event.preventDefault();closeDialog(event.target)}
 },true);
 document.addEventListener('click',event=>{

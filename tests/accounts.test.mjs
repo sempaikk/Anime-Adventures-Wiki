@@ -384,3 +384,37 @@ test('favorite imports reject chunked oversized and primitive JSON without write
   }
   assert.equal(sqlite.prepare('SELECT COUNT(*) AS count FROM favorites').get().count,0);
 });
+
+// Force both legacy preflight reads to finish before either request can insert.
+// The atomic statements no longer use these reads, so the same schedule stays within quota.
+function synchronizeLegacyReads(db, sqlMatch, method) {
+  const prepare=db.prepare.bind(db);let reads=0,release;
+  const gate=new Promise(resolve=>release=resolve);
+  db.prepare=sql=>{const statement=prepare(sql);if(sqlMatch(sql)){const read=statement[method].bind(statement);statement[method]=async()=>{const value=await read();if(++reads===2)release();await gate;return value}}return statement};
+}
+test('simultaneous favorites at capacity are atomic and saving an existing favorite is idempotent',async()=>{
+  const {env,sqlite}=fixture(),user=await login(env),id='1401930158348177438';
+  for(let i=0;i<999;i++)sqlite.prepare('INSERT INTO favorites VALUES(?,?,?)').run(id,'entry-'+i,1);
+  synchronizeLegacyReads(env.DB,sql=>sql==='SELECT COUNT(*) AS count FROM favorites WHERE discord_id = ?','first');
+  const results=await Promise.all([1000,1001].map(n=>accountRequest(request('/api/favorites/entry-'+n,user.cookie,'PUT'),env)));
+  assert.deepEqual(results.map(r=>r.status).sort(),[200,409]);
+  assert.equal(sqlite.prepare('SELECT COUNT(*) AS n FROM favorites').get().n,1000);
+  assert.equal((await accountRequest(request('/api/favorites/entry-0',user.cookie,'PUT'),env)).status,200);sqlite.close();
+});
+test('concurrent imports either fit in full or add no favorites',async()=>{
+  const {env,sqlite}=fixture(),user=await login(env),id='1401930158348177438';
+  for(let i=0;i<998;i++)sqlite.prepare('INSERT INTO favorites VALUES(?,?,?)').run(id,'entry-'+i,1);
+  synchronizeLegacyReads(env.DB,sql=>sql==='SELECT slug FROM favorites WHERE discord_id = ?','all');
+  const imports=[['entry-1001','entry-1002'],['entry-1003','entry-1004']];
+  const responses=await Promise.all(imports.map(ids=>accountRequest(request('/api/favorites/merge',user.cookie,'POST',{ids}),env)));
+  assert.deepEqual(responses.map(r=>r.status).sort(),[200,409]);
+  assert.equal(sqlite.prepare('SELECT COUNT(*) AS n FROM favorites').get().n,1000);
+  for(let i=0;i<2;i++)for(const slug of imports[i])assert.equal(!!sqlite.prepare('SELECT 1 FROM favorites WHERE slug=?').get(slug),responses[i].status===200);
+  sqlite.close();
+});
+
+test('a full-size favorites import succeeds entirely and remains idempotent at the limit',async()=>{
+ const {env,sqlite}=fixture(),user=await login(env),ids=Array.from({length:1000},(_,i)=>'bulk-'+i);
+ for(let i=0;i<2;i++)assert.equal((await accountRequest(request('/api/favorites/merge',user.cookie,'POST',{ids}),env)).status,200);
+ assert.equal(sqlite.prepare('SELECT COUNT(*) AS n FROM favorites').get().n,1000);sqlite.close();
+});

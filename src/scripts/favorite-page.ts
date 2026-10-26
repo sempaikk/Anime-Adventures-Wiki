@@ -1,4 +1,5 @@
 import { getFavorites, removeFavorite } from "./favorites";
+import {localData} from './i18n';
 const grid = document.querySelector<HTMLElement>("#favorite-grid");
 if (grid) {
   type Entry = {title:string; url:string; favorite_id?:string; excerpt:string; kind:string; image?:string; aliases?:string[]};
@@ -8,7 +9,7 @@ if (grid) {
   const normalize = (value: string) => value.normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
   let indexPromise: Promise<Entry[]> | undefined, version = 0, shown = 12, failed = false;
   function index() {
-    if (!indexPromise) indexPromise = fetch(base + "/data/search.json").then((response) => { if (!response.ok) throw Error(); return response.json(); }).catch(() => { indexPromise = undefined; throw Error("Não foi possível carregar os artigos. Atualize a página para tentar novamente."); });
+    if (!indexPromise) indexPromise = fetch(base + localData("search")).then((response) => { if (!response.ok) throw Error(); return response.json(); }).catch(() => { indexPromise = undefined; throw Error("Não foi possível carregar os artigos. Atualize a página para tentar novamente."); });
     return indexPromise;
   }
   function node<K extends keyof HTMLElementTagNameMap>(tag: K, text?:string, className?:string) {

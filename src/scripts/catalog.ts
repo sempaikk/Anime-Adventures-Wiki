@@ -42,7 +42,7 @@ if (grid) {
     });
     const visible = matched.slice(0, shown);
     arrange(grid,()=>showCards(grid,cards,visible),initialized);initialized=true;
-    $("#unit-results").textContent = `${matched.length} personagem${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
+    $("#unit-results").textContent = matched.length===1?'1 personagem encontrado':`${matched.length} personagens encontrados`;
     $("#unit-empty").hidden = matched.length > 0;
     $("#load-units").hidden = shown >= matched.length;
     const count = [rarity.value, tower.value, retired.checked, sort.value !== "name"].filter(Boolean).length;
@@ -72,7 +72,7 @@ if (library) {
     const visible = matched.slice(0, shown);
     arrange(library,()=>showCards(library,cards,visible),initialized);initialized=true;
     kinds.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.articleKind === kind)));
-    $("#article-results").textContent = `${matched.length} artigo${matched.length === 1 ? "" : "s"} encontrado${matched.length === 1 ? "" : "s"}`;
+    $("#article-results").textContent = matched.length===1?'1 artigo encontrado':`${matched.length} artigos encontrados`;
     $("#article-empty").hidden = matched.length > 0; $("#load-articles").hidden = shown >= matched.length;
     writeParams({q:query.value.trim(),tipo:kind,arquivo:archived.checked ? "1" : ""});
   }

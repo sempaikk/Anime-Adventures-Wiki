@@ -4,11 +4,11 @@ const { compact = false } = Astro.props;
 ---
 <section class:list={['social-feed',{'social-feed--compact':compact}]} data-social-feed data-compact={compact?'true':'false'}>
   {!compact&&<>
-    <div class="social-entry" data-feed-entry><div class="social-entry-icon"><Icon name="people" size={26}/></div><div><strong>Seu lugar na comunidade.</strong><p>Entre com Discord para publicar, comentar e adicionar amigos.</p></div><a class="button button-primary" href="/conta/">Entrar na comunidade <Icon name="arrow"/></a></div>
+    <div class="social-entry" data-feed-entry><div class="social-entry-icon"><Icon name="people" size={26}/></div><div><strong>Participe da comunidade</strong><p>Entre com Discord para publicar, comentar e adicionar amigos.</p></div><a class="button button-primary" href="/conta/">Entrar na comunidade <Icon name="arrow"/></a></div>
     <form class="post-composer" data-post-form hidden>
-      <div class="composer-heading"><span class="live-dot"></span><strong>Compartilhe uma descoberta</strong><span>PUBLICAÇÃO PÚBLICA</span></div>
+      <div class="composer-heading"><span class="live-dot"></span><strong>Nova publicação</strong><span>PUBLICAÇÃO PÚBLICA</span></div>
       <label class="sr-only" for="post-body">O que você quer compartilhar?</label>
-      <textarea id="post-body" name="body" maxlength="2000" rows="3" placeholder="Uma conquista, uma composição, uma dica. O que aconteceu no seu jogo?"></textarea>
+      <textarea id="post-body" name="body" maxlength="2000" rows="3" placeholder="Escreva sua publicação."></textarea>
       <div class="composer-photo" data-photo-preview hidden><img alt="Prévia da foto escolhida"/><button type="button" data-remove-photo aria-label="Remover foto"><Icon name="close"/></button></div>
       <div class="composer-bottom"><label class="attach-photo" for="post-photo"><Icon name="photo"/><span>Adicionar foto</span></label><input class="sr-only" type="file" id="post-photo" accept="image/png,image/jpeg,image/webp"/><span class="composer-count" data-post-count>0 / 2000</span><button class="button button-primary" type="submit">Publicar <Icon name="arrow"/></button></div>
       <p class="composer-help">Uma foto por publicação. A imagem é ajustada antes do envio.</p><p class="community-status" data-composer-status role="status" hidden></p>

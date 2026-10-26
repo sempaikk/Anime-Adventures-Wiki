@@ -1,3 +1,4 @@
+import {t} from './i18n';
 import {closeDialog} from './ui-motion';
 import {contentElement,contentLink} from './community-client';
 import {
@@ -69,7 +70,7 @@ for (const box of document.querySelectorAll<HTMLElement>(
           remove.type = "button";
           remove.style.marginLeft = "20px";
           remove.addEventListener("click", async () => {
-            if (!confirm("Retirar esta nota do artigo?")) return;
+            if (!confirm(t("Retirar esta nota do artigo?"))) return;
             remove.disabled = true;
             try {
               await communityApi("/notes/" + note.id, "DELETE");
@@ -173,7 +174,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
     if (existing?.image) preview.src = existing.image;
     form.append(preview);
     let imageId = existing?.image_id || null,
-      uploading = false;
+      uploading = 0, uploadVersion=0;
     const controls = element("div", "composer-actions"),
       uploadLabel = element("label", "upload-label", "Anexar imagem"),
       file = element("input");
@@ -194,7 +195,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
     const removeImage = button(
       "Remover imagem",
       () => {
-        imageId = null;
+        uploadVersion++;imageId = null;
         preview.hidden = true;
         preview.removeAttribute("src");
         removeImage.hidden = true;
@@ -212,22 +213,23 @@ for (const section of document.querySelectorAll<HTMLElement>(
     file.addEventListener("change", async () => {
       const selected = file.files?.[0];
       if (!selected) return;
-      uploading = true;
+      const version=++uploadVersion;uploading++;
       submit.disabled = true;
       status(notice, "Ajustando e enviando imagem…");
       try {
         const uploaded = await uploadImage(selected);
+        if(version!==uploadVersion)return;
         imageId = uploaded.id;
         preview.src = uploaded.url;
         preview.hidden = false;
         removeImage.hidden = false;
         status(notice, "Imagem pronta para publicar.");
       } catch (e) {
-        status(notice, (e as Error).message, true);
+        if(version===uploadVersion)status(notice, (e as Error).message, true);
       } finally {
-        uploading = false;
-        submit.disabled = false;
-        file.value = "";
+        uploading--;
+        submit.disabled = uploading>0;
+        if(version===uploadVersion)file.value = "";
       }
     });
     form.addEventListener("submit", async (event) => {
@@ -412,7 +414,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
         button("Excluir", async () => {
           if (
             !confirm(
-              "Excluir seu comentário? As respostas de outras pessoas serão mantidas.",
+              t("Excluir seu comentário? As respostas de outras pessoas serão mantidas."),
             )
           )
             return;
@@ -426,7 +428,7 @@ for (const section of document.querySelectorAll<HTMLElement>(
     if (access.moderator)
       actions.append(
         button("Ocultar", async () => {
-          if (!confirm("Ocultar este comentário da comunidade?")) return;
+          if (!confirm(t("Ocultar este comentário da comunidade?"))) return;
           await communityApi("/comments/" + comment.id + "/moderate", "POST", {
             moderation: "hidden",
           });

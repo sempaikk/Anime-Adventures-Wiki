@@ -1,16 +1,18 @@
 import messages from '../../source/translations/ui-en-US.json';
 import futureMessages from '../../source/translations/future-en-US.json';
 import {createTranslator,localizedPath,splitLocale,validLocale} from '../lib/locales.mjs';
+import {sourceTextControls,sourceAttributeControls} from '../lib/interface-copy.mjs';
 
 const locale=splitLocale(location.pathname).locale || (document.documentElement.lang==='en-US'?'en-US':'pt-BR');
 const translate=createTranslator({...messages,...futureMessages},locale);
 const ignored='[data-no-translate],[translate="no"],script,style,pre,code,kbd';
-const sourceControls='.unit-reference-card,.section-share,.article-tab-nav button,.wiki-content .empty-state,[data-ui]';
+const sourceControls=sourceTextControls;
 const attributes=['aria-label','aria-description','title','placeholder','alt'];
 
 export function currentLocale(){return locale}
+export function t(value:string,...values:(string|number)[]){return translate(value).replace(/\{(\d+)\}/g,(match,index)=>values[Number(index)]===undefined?match:String(values[Number(index)]))}
 export function localPath(value:string){return splitLocale(location.pathname).locale?localizedPath(value,locale):value}
-export function localData(name:string){return `/data/${name}${splitLocale(location.pathname).locale==='pt-BR'?'.pt-br':''}.json`}
+export function localData(name:string){return `/data/${name}${locale==='pt-BR'?'.pt-br':''}.json`}
 
 function navigation(element:Element){
   if(element.closest('[data-no-translate],[translate="no"]'))return;
@@ -40,7 +42,7 @@ function tree(node:Node){
   if(!(node instanceof Element)||node.closest(ignored))return;
   navigation(node);
   if(locale==='en-US')for(const key of attributes){const value=node.getAttribute(key);if(value){const next=translate(value);if(next!==value)node.setAttribute(key,next)}}
-  if(node.matches('.wiki-content')){node.querySelectorAll(sourceControls).forEach(tree);return}
+  if(node.matches('.wiki-content')){node.querySelectorAll(sourceControls).forEach(tree);if(locale==='en-US')node.querySelectorAll(sourceAttributeControls).forEach(control=>{for(const key of attributes){const value=control.getAttribute(key);if(value)control.setAttribute(key,translate(value))}});return}
   if(!node.matches('textarea'))for(const child of node.childNodes)tree(child);
 }
 

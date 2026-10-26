@@ -12,3 +12,6 @@ public-preview
 
 # Local screenshots and offline review exports.
 docs/revisao-visual/
+
+# Python browser validation cache.
+__pycache__/

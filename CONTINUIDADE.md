@@ -4,6 +4,19 @@
 
 Este é o registro compartilhado para alternar entre os dois chats. Leia o arquivo, confira o código e observe o site antes de continuar. Atualize-o ao terminar cada ciclo. As instruções mais recentes do responsável prevalecem sobre o histórico.
 
+## Ciclo atual — correções da auditoria
+
+- O responsável autorizou executar os 34 pontos e continuar publicando diretamente no site oficial.
+- **Redação obrigatória:** português brasileiro e inglês dos Estados Unidos naturais, claros e profissionais. Sem gírias, fantasia ou chamadas exageradas, inclusive em títulos, descrições, avisos e erros. O futurismo vem do visual e das interações.
+- Relação dos pontos e soluções: [docs/quality-review.md](docs/quality-review.md).
+- Corrigidos alinhamentos, largura do rodapé, cartões, escala de leitura, ícone, textos, localização dos controles/dados, etapas dos personagens, endereços da comparação, menus, recuperação de falhas, fotos na moderação, ordenação de uploads e foco acessível.
+- Favoritos/importações e comentários de artigos agora conferem capacidade na própria inserção. Nenhuma migração, dependência, binding pago ou mudança no bot foi adicionada.
+- Regressões persistidas em `tests/quality.test.mjs`, `tests/accounts.test.mjs` e `tests/browser/quality.py`; servidor local isolado em `tests/helpers/browser-server.mjs`.
+- **Validação deste ciclo:** 95 testes Node aprovados; build, localização e auditoria de 2.062 documentos sem falhas/avisos; Wrangler dry-run aprovado. Dois ciclos dos fluxos críticos e 225 combinações de tela/tema/largura passaram em Chromium. Varredura de 1.372 rotas em 390/1.680 pixels: 2.744 respostas 200, sem falhas, transbordamento ou erros JavaScript. Verificação adicional sem IDs duplicados, âncoras ausentes, controles sem nome ou textos portugueses detectados na interface inglesa analisada.
+- **Preservação do acervo:** 1.106 hashes de fontes brutas conferidos; nenhuma diferença numérica entre os 661 pares de artigos; marcadores de etapas coincidem nos dois idiomas.
+- **Publicação:** código preparado para envio à main e conferência online. O estado efetivo será registrado após essa verificação. Não interpretar o histórico da primeira entrega abaixo como confirmação deste novo ciclo.
+- O login humano pelo Discord, outros motores de navegador e aparelhos físicos continuam sem validação nesta sessão. Não prometer ausência absoluta de problemas.
+
 ## Projetos e publicação
 
 - Site: `sempaikk/Anime-Adventures-Wiki`, site oficial do projeto em **https://www.adventureswiki.workers.dev**.
@@ -43,7 +56,7 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 
 - Uma foto por publicação, reduzida no navegador para até **180.000 bytes** e 1.600 pixels. O servidor aceita PNG/WebP estático e valida dimensões de até 2.400 pixels.
 - Orçamento de fotos **compartilhado de 200 MB** para perfis, comentários e posts. Até 30 uploads por conta em 24 horas. Isso é uma decisão inicial da aplicação, não armazenamento ilimitado da Cloudflare.
-- Até 10 posts e 30 comentários em posts por hora/conta; até 30 solicitações de amizade e 20 denúncias por dia UTC/conta. Cancelar pedidos ou apagar conteúdo não renova cotas.
+- Até oito comentários de artigos por cinco minutos/conta. Até 10 posts e 30 comentários em posts por hora/conta; até 30 solicitações de amizade e 20 denúncias por dia UTC/conta. Cancelar pedidos ou apagar conteúdo não renova cotas.
 - Listas paginadas, consultas com índices e nenhuma atualização automática contínua do feed. Nenhum binding pago novo foi adicionado.
 - Quando as fotos atingem o orçamento, texto continua disponível enquanto houver capacidade de Workers/D1. Esgotar cotas da própria plataforma pode interromper a API; não há upgrade automático nesta implementação.
 
@@ -73,7 +86,7 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 - Inglês, preservação de texto autoral, movimento reduzido, som desligado inicialmente e botão de conta acessível no celular conferidos. Nenhum erro JavaScript não tratado nos fluxos validados.
 - Os 677 testes do bot passaram durante a configuração inicial do ambiente; isso não representa uma nova validação de produção nem uma alteração no bot nesta entrega.
 
-## Estado e pendências desta publicação
+## Registro da primeira publicação
 
 - Base da wiki antes desta entrega: `86699de60983d19305d2cdbf7e1246a9abe690ff`. Conferir o histórico Git para os commits posteriores; não presumir que essa base continua sendo a ponta de `main`.
 - **Código enviado ao GitHub/main:** `6ed06b17159c1ba0c6744b0d9fa86acf87a08807`. O envio foi confirmado por `git ls-remote`. A integração Git existente da Cloudflare deve construir/publicar essa versão.

@@ -161,16 +161,12 @@ for (const [index, table] of Array.from(
 // Show the source's real upgrade values one step at a time; no interpolation.
 const statGroups = new Map<HTMLElement, HTMLElement[]>();
 for (const box of document.querySelectorAll<HTMLElement>(
-  ".wiki-content .Stats-Box",
+  ".wiki-content .Stats-Box[data-upgrade-step]",
 )) {
   const root =
     box.closest<HTMLElement>("[data-article-panel]") ||
     box.closest<HTMLElement>(".mainStats");
   if (!root) continue;
-  const title = box.querySelector("h3")?.cloneNode(true) as HTMLElement | null;
-  title?.querySelectorAll("details").forEach((e) => e.remove());
-  if (!/^(?:Deployment|Upgrade)\b/i.test(title?.textContent?.trim() || ""))
-    continue;
   const list = statGroups.get(root) || [];
   list.push(box);
   statGroups.set(root, list);

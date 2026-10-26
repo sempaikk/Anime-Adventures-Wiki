@@ -8,38 +8,38 @@ import Icon from './Icon.astro';
 import CommunityFeed from './CommunityFeed.astro';
 const characters=featuredUnits.filter(u=>u.image).slice(0,6);
 const destinations=[
-  {key:'units',label:'Personagens',description:'Encontre sua próxima evolução.',href:'/personagens/',art:art.namak.image},
-  {key:'items',label:'Itens e materiais',description:'Tudo para a sua próxima conquista.',href:gameNavigation[1].href,art:art.dungeon.image},
-  {key:'traits',label:'Traits e estratégias',description:'Conheça as possibilidades do seu time.',href:gameNavigation[2].href,art:art.city.image},
+  {key:'units',label:'Personagens',description:'Formas, atributos e evolução dos personagens.',href:'/personagens/',art:art.namak.image},
+  {key:'items',label:'Itens e materiais',description:'Consulte itens, materiais e como obtê-los.',href:gameNavigation[1].href,art:art.dungeon.image},
+  {key:'traits',label:'Traits',description:'Consulte os efeitos de cada trait.',href:gameNavigation[2].href,art:art.city.image},
 ];
 ---
 <section class="future-hero" data-future-hero aria-labelledby="home-title">
   <img class="future-hero-scenery" src={art.spaceship.image} alt="" width="1023" height="575" fetchpriority="high"/>
   <div class="future-hero-light" aria-hidden="true"></div>
-  <div class="future-hero-copy"><span class="future-kicker"><span></span> UM JOGO. INFINITAS DESCOBERTAS.</span>
-    <h1 id="home-title">O universo de<br/><em>Anime Adventures.</em></h1>
-    <p>Conheça os personagens. Descubra suas próximas evoluções. Compartilhe cada conquista.</p>
-    <div class="future-hero-actions"><a class="button button-primary" href="/personagens/">Explorar a wiki <Icon name="arrow"/></a><a class="future-text-link" href="/comunidade/">Encontre sua comunidade <Icon name="people"/></a></div>
-    <div class="hero-source-line"><span>WIKI + COMUNIDADE</span><i></i><span>FEITO PARA QUEM JOGA</span></div>
+  <div class="future-hero-copy"><span class="future-kicker"><span></span> WIKI E COMUNIDADE</span>
+    <h1 id="home-title">Wiki de<br/><em>Anime Adventures</em></h1>
+    <p>Consulte personagens, itens e guias. Compartilhe dicas e converse com outros jogadores.</p>
+    <div class="future-hero-actions"><a class="button button-primary" href="/biblioteca/">Explorar a wiki <Icon name="arrow"/></a><a class="future-text-link" href="/comunidade/">Abrir comunidade <Icon name="people"/></a></div>
+
   </div>
   <div class="future-ensemble" aria-label="Personagens de Anime Adventures">
     <div class="ensemble-orbit ensemble-orbit-one" aria-hidden="true"></div><div class="ensemble-orbit ensemble-orbit-two" aria-hidden="true"></div>
     {characters.slice(0,3).map((unit,i)=><button type="button" class={`ensemble-unit ensemble-unit-${i}`} data-unit-preview={unit.id} aria-label={`Abrir ficha rápida de ${unit.name}`}><img src={unit.image} alt={unit.name} width="430" height="430" fetchpriority={i===1?'high':'auto'}/><span>{unit.name}</span></button>)}
-    <span class="ensemble-caption">Universos diferentes. Uma nova aventura.</span>
-    <a class="ensemble-discover" href="/personagens/">Conheça todas as formas <Icon name="external"/></a>
+
+    <a class="ensemble-discover" href="/personagens/">Ver personagens <Icon name="arrow"/></a>
   </div>
-  <a href="#explorar" class="future-scroll" aria-label="Explorar o conteúdo"><span></span>CONTINUE EXPLORANDO</a>
+  <a href="#explorar" class="future-scroll" aria-label="Explorar o conteúdo"><span></span>VER CONTEÚDOS</a>
 </section>
 <section class="future-discovery" id="explorar" aria-labelledby="discovery-title">
-  <form class="discovery-search" action="/biblioteca/" role="search"><Icon name="search" size={25}/><label class="sr-only" for="discover-query">Pesquisar personagens e artigos</label><input id="discover-query" name="q" type="search" placeholder="Qual é a sua próxima descoberta?" autocomplete="off"/><button type="submit" aria-label="Pesquisar"><Icon name="arrow"/></button></form>
-  <nav class="discovery-shortcuts" aria-label="Consulta rápida">{gameNavigation.filter(item=>['codes','evolution','relics','tiers'].includes(item.key)).map(item=><a href={item.href}><GameIcon item={item}/><span>{item.accessible}</span><Icon name="external" size={15}/></a>)}</nav>
-  <div class="future-section-heading"><div><span class="future-kicker">EXPLORE O JOGO</span><h2 id="discovery-title">Cada descoberta abre<br/><em>novas possibilidades.</em></h2></div><a class="future-text-link" href="/biblioteca/">Todos os artigos <Icon name="arrow"/></a></div>
+  <form class="discovery-search" action="/biblioteca/" role="search"><Icon name="search" size={25}/><label class="sr-only" for="discover-query">Pesquisar personagens e artigos</label><input id="discover-query" name="q" type="search" placeholder="Pesquisar personagens e artigos" autocomplete="off"/><button type="submit" aria-label="Pesquisar"><Icon name="arrow"/></button></form>
+  <nav class="discovery-shortcuts" aria-label="Consulta rápida">{gameNavigation.filter(item=>['codes','evolution','relics','tiers'].includes(item.key)).map(item=><a href={item.href}><GameIcon item={item}/><span>{item.accessible}</span><Icon name="arrow" size={15}/></a>)}</nav>
+  <div class="future-section-heading"><div><h2 id="discovery-title">Conteúdos da wiki</h2></div><a class="future-text-link" href="/biblioteca/">Todos os artigos <Icon name="arrow"/></a></div>
   <div class="future-destinations">{destinations.map((item,i)=><a class={`future-destination future-destination-${i}`} href={item.href} data-future-surface><img src={item.art} alt="" width="1023" height="575" loading="lazy"/><div class="destination-copy"><GameIcon item={gameNavigation.find(nav=>nav.key===item.key)!}/><h3>{item.label}</h3><p>{item.description}</p></div><span class="destination-arrow"><Icon name="arrow" size={24}/></span></a>)}</div>
 </section>
 <section class="future-community" aria-labelledby="home-community-title">
-  <div class="future-section-heading"><div><span class="future-kicker"><span></span> WIKI E JOGADORES, CONECTADOS</span><h2 id="home-community-title">A aventura continua<br/><em>com a comunidade.</em></h2></div><a class="button button-outline" href="/comunidade/">Abrir comunidade <Icon name="arrow"/></a></div>
-  <div class="home-community-grid"><CommunityFeed compact/><aside class="community-invite"><img src={art.city.image} alt="" width="1023" height="575" loading="lazy"/><div><Icon name="people" size={34}/><h3>Seu próximo amigo<br/>pode estar aqui.</h3><p>Publique suas descobertas, encontre outros jogadores e compartilhe o que você sabe.</p><a class="button button-primary" href="/conta/">Criar meu perfil <Icon name="arrow"/></a><a class="future-text-link" href="/pessoas/">Conhecer jogadores <Icon name="external"/></a></div></aside></div>
+  <div class="future-section-heading"><div><h2 id="home-community-title">Comunidade</h2></div><a class="button button-outline" href="/comunidade/">Abrir comunidade <Icon name="arrow"/></a></div>
+  <div class="home-community-grid"><CommunityFeed compact/><aside class="community-invite"><img src={art.city.image} alt="" width="1023" height="575" loading="lazy"/><div><Icon name="people" size={34}/><h3>Jogadores</h3><p>Veja os perfis da comunidade e adicione amigos.</p><a class="button button-primary" href="/conta/">Meu perfil <Icon name="arrow"/></a><a class="future-text-link" href="/pessoas/">Ver jogadores <Icon name="arrow"/></a></div></aside></div>
 </section>
-<section class="future-collection" aria-labelledby="collection-title"><div><span class="future-kicker">SEU PRÓXIMO TIME COMEÇA AQUI</span><h2 id="collection-title">Muitas formas.<br/><em>Uma escolha sua.</em></h2><p>Consulte atributos, compare personagens e mantenha suas referências favoritas por perto.</p><a class="future-text-link" href="/comparar/">Comparar personagens <Icon name="arrow"/></a></div><div class="collection-portraits">{characters.slice(0,5).map(unit=><a href={unitUrl(unit)}><img src={unit.image} alt="" width="220" height="220" loading="lazy"/><strong>{unit.name}</strong><span>{unit.rarity}</span></a>)}</div></section>
+<section class="future-collection" aria-labelledby="collection-title"><div><h2 id="collection-title">Compare personagens</h2><p>Compare custos e tipos de posicionamento de até três personagens.</p><a class="future-text-link" href="/comparar/">Comparar personagens <Icon name="arrow"/></a></div><div class="collection-portraits">{characters.slice(0,5).map(unit=><a href={unitUrl(unit)}><img src={unit.image} alt="" width="220" height="220" loading="lazy"/><strong>{unit.name}</strong><span>{unit.rarity}</span></a>)}</div></section>
 <details class="source-details future-home-source"><summary>Sobre o jogo e as fontes</summary><div class="wiki-content" lang="en" set:html={aboutGame}/><p>Conteúdo adaptado da Anime Adventures Wiki, com fontes e revisões preservadas em cada artigo.</p><a class="future-text-link" href={`${homeSource.source_url}?oldid=${homeSource.revision_id}`} target="_blank" rel="noopener noreferrer">Consultar fonte original <Icon name="external"/></a></details>
 <script src="../scripts/future.ts"></script>

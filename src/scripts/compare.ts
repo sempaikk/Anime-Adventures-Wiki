@@ -1,6 +1,6 @@
 import {icon as vectorIcon} from '../lib/icons';
 import {showDialog,closeDialog,animateUI,cue,respond} from './ui-motion';
-import {currentLocale} from './i18n';
+import {currentLocale,localPath} from './i18n';
 import { getUnits, type Unit } from "./unit-data";
 import { comparisonFields, factValue, validComparison } from "../lib/unit-tools.mjs";
 
@@ -20,7 +20,7 @@ function readSaved() {
 }
 function save() { try { localStorage.setItem(key, JSON.stringify(selection)); } catch { /* Links also carry the selection when storage is unavailable. */ } }
 function link() {
-  const url = new URL(base + "/comparar/", location.origin);
+  const url = new URL(base + localPath("/comparar/"), location.origin);
   if (selection.length) url.searchParams.set("unidades", selection.join(","));
   return url;
 }
@@ -147,7 +147,7 @@ async function change(id: string) {
   else { announce("Você pode comparar até três personagens. Remova um para escolher outro."); return; }
   save(); await render();
   cue("compare");respond(tray.hidden?page:tray,"success");
-  announce(`${selection.length} personagem${selection.length === 1 ? "" : "s"} na comparação.`);
+  announce(selection.length===1?'1 personagem na comparação.':`${selection.length} personagens na comparação.`);
 }
 
 async function renderPicker() {

@@ -1,5 +1,5 @@
 import {showDialog,closeDialog,moveMenu,favoriteLabel,motionOn} from './ui-motion';
-import {localPath,localData} from './i18n';
+import {localPath,localData,currentLocale} from './i18n';
 import {requestJson} from './request';
 // One inset arrow and one consistent text baseline for every native select.
 function enhanceSelects(root:ParentNode){
@@ -366,7 +366,7 @@ if (mapStage) {
     for (const place of locations)
       place.classList.toggle("selected", place === item);
     $("#map-point-title").textContent = item.dataset.title || "";
-    $("#map-point-description").textContent = item.dataset.description || "";
+    $("#map-point-description").textContent = (currentLocale()==='en-US'?item.dataset.descriptionEn:item.dataset.description) || "";
     const link = $("#map-point-link") as HTMLAnchorElement;
     link.hidden = !item.dataset.url;
     link.href = local(item.dataset.url || "/biblioteca/");

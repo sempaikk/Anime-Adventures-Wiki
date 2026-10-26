@@ -147,18 +147,20 @@ if (editor) {
   field("cover").addEventListener("change", () => {
     if (!bannerId) banner.src = covers[field("cover").value];
   });
+  const uploadVersions=new Map<string,number>();
   for (const input of editor.querySelectorAll<HTMLInputElement>(
     "[data-profile-file]",
   ))
     input.addEventListener("change", async () => {
       const file = input.files?.[0];
       if (!file) return;
+      const kind=input.dataset.profileFile as "avatar"|"banner",version=(uploadVersions.get(kind)||0)+1;uploadVersions.set(kind,version);
       uploads++;
       submit.disabled = true;
       status(saved, "Enviando e ajustando imagem…");
       try {
-        const kind = input.dataset.profileFile as "avatar" | "banner",
-          result = await uploadImage(file, kind);
+        const result = await uploadImage(file, kind);
+        if(uploadVersions.get(kind)!==version)return;
         if (kind === "avatar") {
           avatarId = result.id;
           avatar.src = result.url;
@@ -168,17 +170,18 @@ if (editor) {
         }
         status(saved, "Imagem pronta. Salve o perfil para aplicar.");
       } catch (error) {
-        status(saved, errorText(error), true);
+        if(uploadVersions.get(kind)===version)status(saved, errorText(error), true);
       } finally {
         uploads--;
         submit.disabled = uploads > 0;
-        input.value = "";
+        if(uploadVersions.get(kind)===version)input.value = "";
       }
     });
   for (const button of editor.querySelectorAll<HTMLButtonElement>(
     "[data-profile-reset]",
   ))
     button.addEventListener("click", () => {
+      const kind=button.dataset.profileReset!;uploadVersions.set(kind,(uploadVersions.get(kind)||0)+1);
       if (button.dataset.profileReset === "avatar") {
         avatarId = null;
         avatar.src = discordAvatar;
@@ -239,7 +242,7 @@ if (publicPage) {
       );
       message.append(
         document.createTextNode(" "),
-        link("Ver pessoas →", "/pessoas/", "text-link"),
+        link("Ver jogadores →", "/pessoas/", "text-link"),
       );
       return;
     }

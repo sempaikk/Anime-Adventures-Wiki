@@ -509,22 +509,11 @@ export async function communityRequest(request, env) {
         if (root.moderation !== "visible")
           fail("O comentário não está mais disponível.", 404);
       }
-      const recent = await db
-        .prepare(
-          "SELECT COUNT(*) AS count FROM community_comments WHERE author_id=? AND created_at>?",
-        )
-        .bind(user.id, now() - 300)
-        .first();
-      if (recent.count >= 8)
-        fail(
-          "Você enviou vários comentários em pouco tempo. Aguarde alguns minutos.",
-          429,
-        );
       const commentId = id(),
         time = now();
-      await db
+      const saved = await db
         .prepare(
-          "INSERT INTO community_comments(id,article_slug,author_id,parent_id,body,image_id,kind,created_at,updated_at) VALUES(?,?,?,?,?,?,?,?,?)",
+          "INSERT INTO community_comments(id,article_slug,author_id,parent_id,body,image_id,kind,created_at,updated_at) SELECT ?,?,?,?,?,?,?,?,? WHERE (SELECT COUNT(*) FROM community_comments WHERE author_id=? AND created_at>?)<8 RETURNING id",
         )
         .bind(
           commentId,
@@ -536,8 +525,11 @@ export async function communityRequest(request, env) {
           !parent && data.kind === "correction" ? "correction" : "discussion",
           time,
           time,
+          user.id,
+          time-300,
         )
-        .run();
+        .first();
+      if(!saved)fail("Você enviou vários comentários em pouco tempo. Aguarde alguns minutos.",429);
       return json(
         { comment: commentData(await commentById(db, commentId), user, env) },
         201,

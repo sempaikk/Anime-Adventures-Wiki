@@ -3,6 +3,7 @@ import path from 'node:path';
 import {createHash} from 'node:crypto';
 import {load} from 'cheerio';
 import {pruneAssets} from './prune_assets.mjs';
+import {cleanArticleNavigation} from '../src/lib/article-structure.mjs';
 
 const root = 'dist', hashes = new Set(), pages = [];
 function files(folder) {
@@ -10,6 +11,8 @@ function files(folder) {
 }
 for (const file of files(root).filter(file => file.endsWith('.html'))) {
   const $ = load(fs.readFileSync(file, 'utf8'));
+  cleanArticleNavigation($);
+  fs.writeFileSync(file,$.html());
   $('*').each((_, node) => {
     for (const [key, value] of Object.entries(node.attribs || {}))
       if (/^on/i.test(key) || (/^(href|src|action)$/i.test(key) && /^\s*javascript:/i.test(value))) throw Error(`Unsafe HTML attribute in ${file}: ${key}`);

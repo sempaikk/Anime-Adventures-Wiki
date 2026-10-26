@@ -5,6 +5,7 @@ import {load} from 'cheerio';
 import {htmlFiles,sourceExcerpts} from './translation-corpus.mjs';
 import {glossary,prepareTranslation,restoreTranslation,transformSource,normalText} from '../src/lib/translation-structure.mjs';
 import {createTranslator,localizedPath,localePrefix} from '../src/lib/locales.mjs';
+import {sourceTextControls,sourceAttributeControls} from '../src/lib/interface-copy.mjs';
 
 if(process.env.SITE_BASE&&!['','/'].includes(process.env.SITE_BASE)){console.log('Portable base preview: retaining the original single-language routes.');process.exit(0)}
 const wiki=JSON.parse(fs.readFileSync('source/wiki.json'));
@@ -14,7 +15,7 @@ const terms=glossary(JSON.parse(fs.readFileSync('source/translations/glossary.js
 const english=createTranslator(messages),excerpts=new Map(),missing=new Set(),memo=new Map();
 const origin='https://www.adventureswiki.workers.dev';
 const attrs=['aria-label','aria-description','title','placeholder','alt'];
-const sourceUI='.unit-reference-card,.section-share,.article-tab-nav button,.empty-state,[data-ui]';
+const sourceUI=sourceTextControls;
 const ignore='script,style,pre,code,kbd,samp,textarea,[data-no-translate],[translate="no"]';
 function portuguese(html){
   if(memo.has(html))return memo.get(html);
@@ -44,7 +45,9 @@ function translateUI($,locale){
     // Translate control attributes, while preserving authored textarea values.
     if(node.type==='tag'&&$(node).is(ignore)&&!$(node).is('textarea'))return;
     if(node.type==='tag'&&$(node).is('.wiki-content')){
-      $(node).find(sourceUI).each((_,control)=>walk(control));return;
+      $(node).find(sourceUI).each((_,control)=>walk(control));
+      if(locale==='en-US')$(node).find(sourceAttributeControls).each((_,control)=>{for(const attr of attrs){const value=$(control).attr(attr);if(value)$(control).attr(attr,english(value))}});
+      return;
     }
     if(node.type==='tag'&&(!$(node).closest('.wiki-content').length||$(node).closest(sourceUI).length))for(const attr of attrs){
       const value=$(node).attr(attr);if(value&&locale==='en-US')$(node).attr(attr,english(value));
@@ -74,7 +77,7 @@ for(const file of files){
   const relative=path.relative('dist',file),rootPath='/'+relative.replace(/index\.html$/,'');
   const original=fs.readFileSync(file,'utf8');
   for(const locale of ['pt-BR','en-US']){
-    const $=load(original);$('html').attr('lang',locale);
+    const $=load(original,{scriptingEnabled:false});$('html').attr('lang',locale);
     // The sidebar and body are translated together, preserving ids and widgets.
     if(locale==='pt-BR'){
       const source=$('.wiki-content[lang="en"]').filter((_,root)=>!$(root).find('.empty-state').length);
@@ -99,6 +102,12 @@ for(const file of files){
       }
     }
     translateUI($,locale);links($,locale,rootPath);
+    if(locale==='pt-BR')$('.Stats-Box[data-upgrade-step]').each((_,box)=>{
+      const heading=$(box).find('h3').first();
+      // Review only the stage label; keep all protected values and source nodes.
+      const visit=node=>{if(node.type==='text')node.data=node.data.replace(/^(\s*)Implantação\b/,'$1Posicionamento').replace(/^(\s*)Atualizar(?=\s+\d)/,'$1Melhoria');else if(!$(node).is('details'))for(const child of node.children||[])visit(child)};
+      if(heading.length)visit(heading[0]);
+    });
     $('select').wrap('<span class="select-control"></span>');
     // Notice links deliberately point to the other version.
     $('.translation-notice a').attr('href',localizedPath(rootPath,'en-US'));

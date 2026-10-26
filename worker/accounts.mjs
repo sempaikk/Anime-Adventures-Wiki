@@ -346,28 +346,17 @@ export async function accountRequest(request, env, network = fetch) {
     )
       return json({ error: "Lista de favoritos inválida." }, 400);
     const ids = [...new Set(values)];
-    const existing = await env.DB.prepare(
-      "SELECT slug FROM favorites WHERE discord_id = ?",
-    )
-      .bind(user.id)
-      .all();
-    if (
-      new Set([...existing.results.map((row) => row.slug), ...ids]).size > 1000
-    )
-      return json(
-        { error: "Sua coleção atingiu o limite de 1.000 favoritos." },
-        409,
-      );
-    for (let offset = 0; offset < ids.length; offset += 80)
-      await env.DB.batch(
-        ids
-          .slice(offset, offset + 80)
-          .map((slug) =>
-            env.DB.prepare(
-              "INSERT OR IGNORE INTO favorites (discord_id, slug, created_at) VALUES (?, ?, ?)",
-            ).bind(user.id, slug, now()),
-          ),
-      );
+    // One statement reserves the entire import, including requests from other devices.
+    await env.DB.prepare(`WITH incoming AS (SELECT DISTINCT value AS slug FROM json_each(?)),
+      missing AS (SELECT slug FROM incoming WHERE NOT EXISTS(SELECT 1 FROM favorites f WHERE f.discord_id=? AND f.slug=incoming.slug))
+      INSERT INTO favorites(discord_id,slug,created_at)
+      SELECT ?,slug,? FROM missing
+      WHERE (SELECT COUNT(*) FROM favorites WHERE discord_id=?)+(SELECT COUNT(*) FROM missing)<=1000`)
+      .bind(JSON.stringify(ids),user.id,user.id,now(),user.id).run();
+    const pending=await env.DB.prepare(`SELECT COUNT(*) AS count FROM json_each(?) i
+      WHERE NOT EXISTS(SELECT 1 FROM favorites f WHERE f.discord_id=? AND f.slug=i.value)`)
+      .bind(JSON.stringify(ids),user.id).first();
+    if(pending.count) return json({error:"Sua coleção atingiu o limite de 1.000 favoritos."},409);
     return json({ ok: true });
   }
   const match = path.match(/^\/api\/favorites\/([a-z0-9-]+)$/);
@@ -377,21 +366,16 @@ export async function accountRequest(request, env, network = fetch) {
     ["PUT", "DELETE"].includes(request.method)
   ) {
     if (request.method === "PUT") {
-      const count = await env.DB.prepare(
-        "SELECT COUNT(*) AS count FROM favorites WHERE discord_id = ?",
-      )
-        .bind(user.id)
-        .first();
-      if (count.count >= 1000)
+      await env.DB.prepare(`INSERT INTO favorites(discord_id,slug,created_at)
+        SELECT ?,?,? WHERE (SELECT COUNT(*) FROM favorites WHERE discord_id=?)<1000
+        ON CONFLICT(discord_id,slug) DO NOTHING`)
+        .bind(user.id,match[1],now(),user.id).run();
+      const saved=await env.DB.prepare('SELECT slug FROM favorites WHERE discord_id=? AND slug=?').bind(user.id,match[1]).first();
+      if (!saved)
         return json(
           { error: "Sua coleção atingiu o limite de 1.000 favoritos." },
           409,
         );
-      await env.DB.prepare(
-        "INSERT OR IGNORE INTO favorites (discord_id, slug, created_at) VALUES (?, ?, ?)",
-      )
-        .bind(user.id, match[1], now())
-        .run();
     } else
       await env.DB.prepare(
         "DELETE FROM favorites WHERE discord_id = ? AND slug = ?",

@@ -449,6 +449,10 @@ export function structureArticle(input, catalog = {}) {
     )
     .remove();
   $('[id^="mw-customcollapsible-"],.Stats-Box[id]').removeAttr("id");
+  $('.Stats-Box').each((_,node)=>{
+    const title=$(node).find('h3').first().clone();title.find('details').remove();
+    if(/^(?:Deployment|Upgrade)\b/i.test(text(title.text())))$(node).attr('data-upgrade-step','');
+  });
   const ids = new Set();
   $("[id]").each((_, node) => {
     const id = $(node).attr("id");
@@ -460,6 +464,20 @@ export function structureArticle(input, catalog = {}) {
     .filter((_, node) => /^(?:⮝|⮟|back start)/i.test(text($(node).text())))
     .remove();
   return $.html();
+}
+
+// Run on the final translated document so the preserved translation corpus stays intact.
+export function cleanArticleNavigation($) {
+  const ids=new Set($('[id]').toArray().map(node=>$(node).attr('id')));
+  $('.wiki-content a[href^="#"]').each((_,node)=>{
+    let id;try{id=decodeURIComponent($(node).attr('href').slice(1))}catch{return}
+    if(id&&!ids.has(id))$(node).replaceWith($(node).contents());
+  });
+  $('.wiki-content a[href]').filter((_,node)=>!text($(node).text())&&!$(node).children().length&&!$(node).attr('id')&&!$(node).attr('name')).remove();
+  $('.wiki-content a[title]').each((_,node)=>{
+    const link=$(node);
+    if(!text(link.text())&&!link.attr('aria-label')&&link.find('img').length&&!link.find('img').toArray().some(image=>$(image).attr('alt')?.trim()))link.attr('aria-label',link.attr('title'));
+  });
 }
 
 export function articleSections(html) {

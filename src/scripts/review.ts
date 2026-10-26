@@ -123,7 +123,8 @@ if (page) {
       await load();
       const index = await fetch(localData("search")).then((r) => r.json());
       const seen = new Set();
-      article.replaceChildren(element("option", "", "Selecione um artigo"));
+      const placeholder=element("option", "", "Selecione um artigo");
+      placeholder.value="";article.replaceChildren(placeholder);
       for (const item of index.sort((a: any, b: any) =>
         a.title.localeCompare(b.title),
       )) {

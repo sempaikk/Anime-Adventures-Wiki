@@ -66,6 +66,7 @@ export function cleanArticle(input, resolve, images = new Map(), catalog = {}) {
         "tabindex",
         "data-article-tabs",
         "data-article-panel",
+        "data-upgrade-step",
       ],
       a: ["href", "rel", "target"],
       img: [

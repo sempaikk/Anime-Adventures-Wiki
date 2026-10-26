@@ -1,3 +1,4 @@
+import {t} from './i18n';
 import {icon as vectorIcon} from '../lib/icons';
 import {animateUI,showDialog,closeDialog,cue} from './ui-motion';
 const images=[...document.querySelectorAll<HTMLImageElement>('article.wiki-content img.source-image')].filter(image=>{
@@ -25,7 +26,7 @@ if(images.length){
   for(const image of images){
     const link=image.closest('a'),control=link||image;
     control.tabIndex=0;control.classList.add('article-image-expand');control.setAttribute('aria-haspopup','dialog');
-    if(!link)control.setAttribute('role','button');control.setAttribute('aria-label',`Ampliar imagem: ${image.alt||'Imagem do artigo'}`);
+    if(!link)control.setAttribute('role','button');control.setAttribute('aria-label',t('Ampliar imagem: {0}',image.alt||link?.title||t('Imagem do artigo')));
     function open(){if(!image.complete||!image.naturalWidth)return false;opener=control;reset();large.src=image.currentSrc||image.src;large.alt=image.alt;caption.textContent=image.alt;source.hidden=!link;if(link)source.href=link.href;showDialog(viewer);cue('open');animateUI(large,[{opacity:0,scale:'.94'},{opacity:1,scale:'1'}],{duration:700});return true;}
     control.addEventListener('click',event=>{if(event instanceof MouseEvent&&(event.button!==0||event.metaKey||event.ctrlKey||event.shiftKey||event.altKey))return;if(open())event.preventDefault()});
     control.addEventListener('keydown',event=>{if(event.metaKey||event.ctrlKey||event.shiftKey||event.altKey)return;if(event.key==='Enter'||event.key===' '){if(open())event.preventDefault()}});

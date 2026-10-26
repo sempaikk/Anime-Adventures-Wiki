@@ -82,7 +82,7 @@ export async function socialRequest(request, context) {
   }
   if(path==='/post-reports'&&method==='GET'){
     requireUser();if(!moderator(user,env))fail('Acesso restrito à moderação.',403);
-    const result=await db.prepare(`SELECT r.id,r.reason,r.created_at,s.id AS post_id,s.body,p.handle,p.name FROM community_post_reports r JOIN community_posts s ON s.id=r.post_id JOIN community_profiles p ON p.owner_id=s.author_id WHERE s.deleted_at IS NULL AND r.resolved_at IS NULL ORDER BY r.created_at LIMIT 30`).all();return json({reports:result.results});
+    const result=await db.prepare(`SELECT r.id,r.reason,r.created_at,s.id AS post_id,s.body,s.image_id,p.handle,p.name FROM community_post_reports r JOIN community_posts s ON s.id=r.post_id JOIN community_profiles p ON p.owner_id=s.author_id WHERE s.deleted_at IS NULL AND r.resolved_at IS NULL ORDER BY r.created_at LIMIT 30`).all();return json({reports:result.results.map(row=>({...row,image:imagePath(row.image_id)}))});
   }
   const resolveMatch=path.match(/^\/post-reports\/([a-f0-9]{32})$/);
   if(resolveMatch&&method==='PATCH'){

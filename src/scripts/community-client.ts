@@ -44,7 +44,7 @@ export function link(text: string, href: string, className = "") {
   if (directional) {
     node.classList.add("has-direction");
     const arrow = element("span", "ui-direction");
-    arrow.append(icon("external"));
+    arrow.append(icon(new URL(href,location.href).origin===location.origin?"arrow":"external"));
     arrow.setAttribute("aria-hidden", "true");
     node.append(arrow);
   }
