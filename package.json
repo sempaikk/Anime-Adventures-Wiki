@@ -4,12 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "prebuild": "node scripts/prepare_content.mjs",
-    "dev": "astro dev --host 127.0.0.1",
-    "build": "astro build",
-    "preview": "astro preview --host 127.0.0.1",
+    "dev": "npm run build && wrangler dev --ip 127.0.0.1 --port 4321",
+    "build": "node scripts/build_coming_soon.mjs",
+    "preview": "wrangler dev --ip 127.0.0.1 --port 4322",
     "test": "node --test tests/*.test.mjs",
-    "postbuild": "node scripts/localize_build.mjs && node scripts/finalize_release.mjs"
+    "dev:wiki": "astro dev --host 127.0.0.1",
+    "build:wiki": "node scripts/prepare_content.mjs && astro build && node scripts/localize_build.mjs && node scripts/finalize_release.mjs"
   },
   "dependencies": {
     "@fontsource-variable/inter": "^5.3.0",

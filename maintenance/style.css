@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url("/coming-soon/space-grotesk.woff2") format("woff2");
+}
+
+:root {
+  color-scheme: dark;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  background: #080b17;
+  color: #fff;
+  overflow-x: clip;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100svh;
+  min-height: 100dvh;
+  isolation: isolate;
+}
+
+.scenery,
+.shade {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.scenery {
+  object-fit: cover;
+  object-position: 50% 50%;
+  filter: blur(9px) saturate(.9);
+  transform: scale(1.07);
+}
+
+.shade {
+  background: radial-gradient(ellipse at 50% 40%, rgb(8 11 23 / .3), rgb(8 11 23 / .78)),
+    linear-gradient(180deg, rgb(8 11 23 / .18), rgb(8 11 23 / .25));
+}
+
+main {
+  display: grid;
+  place-items: center;
+  min-height: 100svh;
+  min-height: 100dvh;
+  padding: 4rem 1.5rem;
+}
+
+h1 {
+  display: grid;
+  margin: 0;
+  max-width: 100%;
+  text-align: center;
+  font-size: clamp(2.3rem, 10.2vw, 10rem);
+  font-weight: 600;
+  letter-spacing: -.065em;
+  line-height: 1.08;
+  text-shadow: 0 4px 48px rgb(4 8 24 / .45);
+}
+
+.message {
+  grid-area: 1 / 1;
+  white-space: nowrap;
+  animation: language-swap 10s ease-in-out infinite both;
+}
+
+.message-en {
+  opacity: 0;
+  animation-delay: -5s;
+}
+
+@keyframes language-swap {
+  0%, 38%, 100% { opacity: 1; transform: translateY(0); filter: blur(0); }
+  46% { opacity: 0; transform: translateY(-.1em); filter: blur(6px); }
+  48%, 88% { opacity: 0; transform: translateY(.1em); filter: blur(6px); }
+  96% { opacity: 1; transform: translateY(0); filter: blur(0); }
+}
+
+footer {
+  position: fixed;
+  inset: auto 1.5rem max(1.25rem, env(safe-area-inset-bottom));
+  text-align: center;
+  font: 400 .625rem/1.5 system-ui, sans-serif;
+  letter-spacing: .08em;
+}
+
+footer a { color: #c8cddd; text-decoration: none; }
+footer a:hover { text-decoration: underline; }
+footer a:focus-visible { outline: 2px solid #fff; outline-offset: 5px; }
+
+.accessible-text {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  h1 { gap: .3em; }
+  .message { animation: none; transform: none; filter: none; opacity: 1; }
+  .message-en { grid-area: 2 / 1; font-size: .45em; letter-spacing: -.03em; color: #d7dcea; }
+}

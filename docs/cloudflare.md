@@ -1,5 +1,7 @@
 # Publicação na Cloudflare
 
+**Estado vigente em 26/10/2026:** tela **Em breve / Coming soon por tempo indeterminado**, até novo pedido do responsável. Não continuar o redesign nem reativar a API/cron. `npm run build` e `worker/coming-soon.mjs` publicam apenas a tela de espera e os documentos legais do bot; dados, bindings e segredos permanecem preservados. As instruções de contas/comunidade abaixo são históricas e não devem ser executadas sem nova autorização. Consulte [CONTINUIDADE.md](../CONTINUIDADE.md).
+
 Produção: https://www.adventureswiki.workers.dev
 
 O repositório `sempaikk/Anime-Adventures-Wiki` é privado. O site permanece público na Cloudflare. A hospedagem e os dados do bot continuam separados.

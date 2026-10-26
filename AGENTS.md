@@ -1,5 +1,7 @@
 # Continuidade entre assistentes
 
+**Estado vigente em 26/10/2026:** o site fica somente com a tela **Em breve / Coming soon por tempo indeterminado, até o responsável pedir a retomada**. Concluir apenas a publicação desta tela já solicitada. Depois, os dois chats trabalham **somente no bot** `sempaikk/Anime-Adventures`; não alterar arquivos, configuração ou publicação deste site sem nova instrução explícita. Planos de redesign abaixo e na documentação são histórico, não autorização para retomar.
+
 Antes de trabalhar, leia [CONTINUIDADE.md](CONTINUIDADE.md) e a especificação vigente [docs/REDESIGN.md](docs/REDESIGN.md). Ele reúne as decisões do responsável, o estado do site e as pendências entre os dois chats.
 
 - Confira `git status` e a versão de `origin/main` antes de editar. Preserve mudanças locais e trabalho do outro assistente; nunca use reset destrutivo ou push forçado para sincronizar.

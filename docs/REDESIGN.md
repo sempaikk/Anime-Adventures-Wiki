@@ -1,5 +1,7 @@
 # Redesign — decisões e execução
 
+> **Arquivado em 26/10/2026:** o responsável suspendeu a reformulação do site por tempo indeterminado. O site público ficará apenas com fundo desfocado e **Em breve / Coming soon**, até ele pedir a retomada. Os dois chats trabalharão somente no bot após a publicação dessa tela. As decisões abaixo são histórico e não autorizam alterações no site. Estado vigente: [CONTINUIDADE.md](../CONTINUIDADE.md).
+
 Autorizado pelo responsável em 26/10/2026, depois da discussão do conceito. Esta especificação complementa `CONTINUIDADE.md`, a auditoria e o código existente. Todas as sugestões estão preservadas abaixo por assunto; sugestões equivalentes foram reunidas. Alternativas de abertura, paleta e prioridade continuam documentadas, com a escolha vigente explicitada.
 
 ## Decisões vigentes

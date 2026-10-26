@@ -4,7 +4,19 @@
 
 Este é o registro compartilhado para alternar entre os dois chats. Leia o arquivo, confira o código e observe o site antes de continuar. Atualize-o ao terminar cada ciclo. As instruções mais recentes do responsável prevalecem sobre o histórico.
 
-## Ciclo atual — redesign autoral
+## Estado vigente — site pausado por tempo indeterminado
+
+- **Decisão explícita do responsável em 26/10/2026:** substituir a interface pública por um fundo desfocado do jogo e o título alternando entre **Em breve** e **Coming soon**. Manter assim **por tempo indeterminado, até o responsável pedir a retomada**. Não há data de lançamento ou autorização para continuar o redesign.
+- **Depois desta publicação, os dois chats devem trabalhar somente no bot** `sempaikk/Anime-Adventures`. Não alterar arquivos, configuração, interface ou publicação do site sem novo pedido explícito do responsável. Este estado prevalece sobre todas as autorizações e planos anteriores neste documento e em `docs/REDESIGN.md`.
+- A implementação anterior, as fontes, imagens, dados e histórico Git estão arquivados e preservados. Nenhuma exclusão do banco D1, contas ou publicações foi pedida/executada. Preservar também variáveis, segredos, nome do Worker e bindings existentes.
+- Publicação agora usa `maintenance/index.html`, `maintenance/style.css`, `scripts/build_coming_soon.mjs` e `worker/coming-soon.mjs`. `npm run build` gera somente a tela de espera, seus arquivos locais/créditos e os documentos legais do bot. Não publica a wiki, trailers, scripts antigos, login ou comunidade. Todas as páginas antigas mostram a espera; APIs ficam indisponíveis (503), sem ler/escrever dados, e o cron anterior está desativado.
+- Fundo: captura documentada de Fabled Kingdom, original preservado, desfoque aplicado por CSS. Alternância suave a cada cinco segundos, sem JavaScript. Com movimento reduzido, os dois idiomas ficam estáticos e legíveis.
+- Exceção necessária ao funcionamento do bot: `/bot/termos/` e `/bot/privacidade/` continuam disponíveis, com os mesmos arquivos, sem mudanças de conteúdo.
+- `build:wiki` e `dev:wiki` preservam a implementação anterior apenas para uma futura retomada **autorizada**. Não os publicar nem restaurar a configuração antiga por iniciativa própria.
+- Validação local: 103 testes Node aprovados; build e auditoria dos três documentos publicados sem falhas; Wrangler dry-run aprovado (Worker de 2,49 KiB). Chromium: 14 combinações de resolução/preferência de movimento, troca dos idiomas, páginas antigas, bloqueio da API, ausência de arquivos antigos e documentos legais byte a byte conferidos, sem transbordamento ou erros de navegador. A publicação e sua conferência online ainda estão em andamento; não confundir este registro com confirmação online.
+- A mesma restrição está registrada em `AGENTS.md` e `CONTINUIDADE.md` do repositório do bot, enviada à main no commit `da96c3f58cc978856dc5508fb2cb93c7c31b15f3`, para orientar a troca entre os chats. Somente documentação foi alterada no bot; não houve nova implantação ou teste funcional do bot. O próximo trabalho de produto será definido pelas ideias do responsável para o bot.
+
+## Ciclo anterior — redesign autoral (arquivado)
 
 - O responsável autorizou implementar e publicar o novo conceito depois da discussão completa. Todos os pontos acumulados estão rastreados em [docs/REDESIGN.md](docs/REDESIGN.md); ler antes de editar. A ordem de execução conserva as etapas futuras.
 - Wiki prioritária na entrada, comunidade integrada; abertura cinematográfica com consulta imediata, identidade própria relacionada às artes do jogo, cenários diferentes por destino, três temas e dois idiomas. Sem emojis e sem redação de fantasia.
@@ -133,6 +145,7 @@ Este é o registro compartilhado para alternar entre os dois chats. Leia o arqui
 
 | Data | Ciclo | Resultado |
 | --- | --- | --- |
+| 26/10/2026 | Pausa por tempo indeterminado | A pedido do responsável, substituir o site por fundo desfocado e Em breve / Coming soon. Preservar dados e histórico; manter documentos legais do bot. Depois desta entrega, somente o bot pode ser alterado, até nova autorização explícita para o site. |
 | 26/10/2026 | Configuração do ambiente | Python/Node, dependências, testes do bot/wiki, build e instruções reutilizáveis preparados. |
 | 26/10/2026 | Primeira versão da wiki/comunidade | Novo visual, posts com foto/texto, comentários, amizades, proteção de dados e 86 testes; código enviado à main em `6ed06b1`, site novo conferido em produção e CI de `1005b74` aprovado. OAuth humano e avaliação visual do responsável continuam como próximos passos. |
 | 26/10/2026 | Continuidade entre chats | Criados este registro e `AGENTS.md`, publicados na main a pedido do responsável. Cada assistente deve ler e atualizar ao encerrar o ciclo. |

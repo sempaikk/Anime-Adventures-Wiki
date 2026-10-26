@@ -1,5 +1,7 @@
 # Adventures Wiki
 
+**Site pausado por tempo indeterminado, até o responsável pedir a retomada.** A publicação contém somente um fundo desfocado do jogo e **Em breve / Coming soon**. Após esta entrega, os dois chats trabalham apenas no bot; nenhuma outra alteração no site está autorizada. Consulte [CONTINUIDADE.md](CONTINUIDADE.md). O restante deste README descreve a implementação arquivada.
+
 Wiki independente de Anime Adventures, com interface em português, artigos no idioma original, temas Adventures, Escuro e Claro e artes do próprio jogo.
 
 Site público: https://www.adventureswiki.workers.dev
@@ -16,7 +18,7 @@ node scripts/audit_site.mjs
 npx wrangler deploy --dry-run
 ```
 
-Para desenvolver a interface: `npm run dev`. Para conferir o site construído junto da API local: `npx wrangler dev --local` após o build.
+`npm run build` constrói a tela de espera; `npm run dev` e `npm run preview` usam o Worker de espera local. `npm run build:wiki` e `npm run dev:wiki` preservam o aplicativo anterior apenas para uma retomada autorizada; esse aplicativo não é a publicação vigente.
 
 O GitHub Actions verifica o código e a integridade do conteúdo. A integração Git da Cloudflare publica a branch `main`. O repositório pode permanecer privado; o endereço público da wiki continua acessível. O bot usa outra hospedagem e seus tokens e bancos não fazem parte deste projeto.
 
