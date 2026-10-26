@@ -11,6 +11,7 @@ import {
   uploadImage,
 } from "./community-client";
 import { getSession } from "./favorites";
+import {profilePosts,mountFriendActions} from './social';
 import art from "../../source/interface-art.json";
 const errorText = (error: unknown) =>
   (error as Error).message || "Não foi possível carregar agora.";
@@ -268,6 +269,10 @@ if (publicPage) {
         row.append(
           link("Editar meu perfil", "/conta/#perfil", "button button-outline"),
         );
+      else {
+        const friendship=element('div');row.append(friendship);
+        mountFriendActions(friendship,p.handle);
+      }
       identity.append(row);
       if (p.bio) identity.append(contentElement("p", "profile-bio", p.bio));
       const meta = element("div", "profile-meta");
@@ -300,16 +305,19 @@ if (publicPage) {
         nav = element("div", "profile-tab-nav");
       nav.setAttribute("role", "tablist");
       nav.setAttribute("aria-label", "Conteúdo do perfil");
-      const contributions = element("div"),
+      const posts = profilePosts(p.handle), contributions = element("div"),
         favorites = element("div");
+      posts.id = "profile-posts";
+      posts.setAttribute("role", "tabpanel");
       contributions.id = "profile-contributions";
       favorites.id = "profile-favorites";
       contributions.setAttribute("role", "tabpanel");
       favorites.setAttribute("role", "tabpanel");
       const tabs = [
+        ["Publicações", posts],
         ["Contribuições", contributions],
         ...(p.show_favorites ? [["Favoritos", favorites]] : []),
-      ] as [string, HTMLDivElement][];
+      ] as [string, HTMLElement][];
       for (const [index, [label, panel]] of tabs.entries()) {
         const tab = element("button", "", label);
         tab.type = "button";
@@ -354,7 +362,7 @@ if (publicPage) {
         });
         nav.append(tab);
       }
-      sections.append(nav, contributions, favorites);
+      sections.append(nav, posts, contributions, favorites);
       content.append(sections);
       if (!data.comments.length)
         contributions.append(

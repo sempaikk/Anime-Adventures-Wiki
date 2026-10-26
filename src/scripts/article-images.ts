@@ -1,3 +1,4 @@
+import {icon as vectorIcon} from '../lib/icons';
 import {animateUI,showDialog,closeDialog,cue} from './ui-motion';
 const images=[...document.querySelectorAll<HTMLImageElement>('article.wiki-content img.source-image')].filter(image=>{
   if(image.closest('button')||Number(image.getAttribute('width')||300)<180)return false;
@@ -7,17 +8,17 @@ const images=[...document.querySelectorAll<HTMLImageElement>('article.wiki-conte
 if(images.length){
   const viewer=document.createElement('dialog');viewer.className='article-image-viewer';viewer.setAttribute('aria-label','Ampliar imagem');
   const toolbar=document.createElement('div');toolbar.className='article-image-toolbar';
-  const zoom=document.createElement('button');zoom.type='button';zoom.className='button button-outline';zoom.textContent='🔎 Tamanho original';zoom.setAttribute('aria-pressed','false');
+  const zoom=document.createElement('button');zoom.type='button';zoom.className='button button-outline';zoom.textContent='Tamanho original';zoom.setAttribute('aria-pressed','false');
   const close=document.createElement('button');close.type='button';close.className='square-button ui-close';close.setAttribute('aria-label','Fechar imagem');
-  const closeIcon=document.createElement('span');closeIcon.className='ui-emoji';closeIcon.setAttribute('aria-hidden','true');closeIcon.textContent='❌';close.append(closeIcon);
-  const source=document.createElement('a');source.className='text-link';source.textContent='Ver na fonte ↗️';source.target='_blank';source.rel='noopener noreferrer';source.hidden=true;
+  const closeIcon=document.createElement('span');closeIcon.className='ui-emoji';closeIcon.setAttribute('aria-hidden','true');closeIcon.append(vectorIcon('close')); close.append(closeIcon);
+  const source=document.createElement('a');source.className='text-link';source.textContent='Ver na fonte';source.append(vectorIcon('external'));source.target='_blank';source.rel='noopener noreferrer';source.hidden=true;
   const frame=document.createElement('div');frame.className='article-image-frame';frame.tabIndex=0;frame.setAttribute('aria-label','Imagem ampliada');
   const large=document.createElement('img');large.alt='';frame.append(large);
   const caption=document.createElement('p');caption.dataset.noTranslate='';caption.setAttribute('translate','no');
   toolbar.append(zoom,source,close);viewer.append(toolbar,frame,caption);document.body.append(viewer);
   let opener:HTMLElement|null=null;
-  function reset(){viewer.classList.remove('is-zoomed');zoom.setAttribute('aria-pressed','false');zoom.textContent='🔎 Tamanho original';frame.scrollTo(0,0)}
-  function toggle(){const active=viewer.classList.toggle('is-zoomed');zoom.setAttribute('aria-pressed',String(active));zoom.textContent=active?'↔️ Ajustar à tela':'🔎 Tamanho original';cue('select');}
+  function reset(){viewer.classList.remove('is-zoomed');zoom.setAttribute('aria-pressed','false');zoom.textContent='Tamanho original';frame.scrollTo(0,0)}
+  function toggle(){const active=viewer.classList.toggle('is-zoomed');zoom.setAttribute('aria-pressed',String(active));zoom.textContent=active?'Ajustar à tela':'Tamanho original';cue('select');}
   zoom.addEventListener('click',toggle);close.addEventListener('click',()=>closeDialog(viewer));
   viewer.addEventListener('close',()=>{reset();large.removeAttribute('src');opener?.focus({preventScroll:true})});
   viewer.addEventListener('click',event=>{if(event.target===viewer){const r=viewer.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)closeDialog(viewer)}});

@@ -1,3 +1,4 @@
+import {icon as vectorIcon} from '../lib/icons';
 // Source widgets are converted at build time. Only our own tab controls run here.
 for (const group of document.querySelectorAll<HTMLElement>(
   "[data-article-tabs]",
@@ -194,8 +195,8 @@ for (const [root, boxes] of statGroups) {
   label.htmlFor = select.id;
   label.textContent = "Escolha a etapa do personagem";
   previous.type = next.type = last.type = "button";
-  previous.textContent = "⬅️";
-  next.textContent = "➡️";
+  previous.append(vectorIcon("arrow"));previous.style.rotate="180deg";
+  next.append(vectorIcon("arrow"));
   last.textContent = "Última etapa";
   previous.setAttribute("aria-label", "Etapa anterior");
   next.setAttribute("aria-label", "Próxima etapa");

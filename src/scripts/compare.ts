@@ -1,3 +1,4 @@
+import {icon as vectorIcon} from '../lib/icons';
 import {showDialog,closeDialog,animateUI,cue,respond} from './ui-motion';
 import {currentLocale} from './i18n';
 import { getUnits, type Unit } from "./unit-data";
@@ -41,7 +42,7 @@ function updateButtons() {
     button.setAttribute("aria-label", selected ? `Remover ${name || "personagem"} da comparação` : button.dataset.compareLabel);
     const icon = document.createElement("span");
     icon.className = "ui-emoji"; icon.setAttribute("aria-hidden", "true");
-    icon.textContent = selected ? "✅" : "⚖️";
+    icon.replaceChildren(vectorIcon(selected ? "check" : "compare"));
     button.replaceChildren(icon, document.createTextNode(selected ? " Selecionado" : " Comparar"));
   }
 }

@@ -1,11 +1,15 @@
 ---
 import Layout from '../../layouts/Layout.astro';
-import { channels, botInvite } from '../../lib/community';
+import CommunityFeed from '../../components/CommunityFeed.astro';
+import Icon from '../../components/Icon.astro';
+import art from '../../../source/interface-art.json';
 ---
-<Layout title="Comunidade — Adventures Wiki" active="comunidade">
-
-<div class="catalog-heading"><div><h1>Jogo e comunidade</h1><p>Entre no jogo, acompanhe os criadores e encontre a comunidade de Anime Adventures nos canais do jogo.</p></div></div>
-<div class="community-channels">{channels.map((channel,i)=><article class={`community-channel community-${channel.key}`}><span class="channel-number">0{i+1}</span><span class="eyebrow">{channel.platform}</span><h2>{channel.name}</h2><p>{channel.description}</p><a class="button button-primary" href={channel.url} target="_blank" rel="noopener noreferrer">{channel.label} <span class="ui-direction" aria-hidden="true">↗️</span></a></article>)}</div>
-<section class="community-bot"><div><span class="eyebrow">BOT PARA DISCORD</span><h2>Adicione o bot ao seu servidor</h2><p>O nosso bot leva a tier list com propostas e votos e o chat entre servidores para a sua comunidade. A instalação é feita por alguém com Gerenciar servidor.</p></div><a class="button button-primary" href={botInvite} target="_blank" rel="noopener noreferrer">Adicionar o bot <span class="ui-direction" aria-hidden="true">↗️</span></a></section>
-<p class="community-note">Adventures Wiki é um projeto independente da comunidade. Os links acima levam às páginas externas do jogo e dos criadores.</p>
+<Layout title="Comunidade — Adventures Wiki" active="comunidade" description="Descobertas, conquistas e conversas dos jogadores de Anime Adventures.">
+  <header class="future-community-heading"><div><span class="future-kicker"><span></span> A AVENTURA É MELHOR EM COMPANHIA</span><h1>Sua comunidade.<br/><em>Novas histórias.</em></h1><p>Descobertas, conquistas e conversas de quem joga Anime Adventures.</p></div><a class="button button-outline" href="/pessoas/">Encontrar jogadores <Icon name="people"/></a></header>
+  <div class="social-layout"><CommunityFeed/><aside class="social-sidebar">
+    <section class="social-side-card social-side-intro"><img src={art.city.image} alt="" width="1023" height="575"/><div><span class="future-kicker">SEU ESPAÇO NO JOGO</span><h2>Uma descoberta<br/>puxa outra.</h2><p>Compartilhe uma composição, mostre aquela evolução e conheça quem também está nessa aventura.</p><a class="future-text-link" href="/conta/#perfil">Meu perfil <Icon name="arrow"/></a></div></section>
+    <section class="social-side-card" data-friend-list hidden><div class="social-side-heading"><Icon name="people"/><h2>Suas conexões</h2></div><p data-friends-status role="status"></p><div data-friends-items></div></section>
+    <section class="social-side-card social-guidelines"><h2>Um bom lugar para jogar junto.</h2><p>Respeite os outros jogadores, dê crédito às descobertas e use a denúncia quando algo precisar de revisão.</p><a class="future-text-link" href="/biblioteca/">Consultar a wiki <Icon name="book"/></a></section>
+    <details class="social-side-card" data-post-moderation hidden><summary>Revisar publicações denunciadas</summary><p data-reports-status role="status"></p><div data-reports-list></div></details>
+  </aside></div>
 </Layout>

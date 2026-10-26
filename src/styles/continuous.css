@@ -76,8 +76,8 @@ html[data-page-hidden='true'] :is(.game-backdrop-pan,.nexus-portrait img,.unit-a
 @media(max-width:650px) {
   .nexus-destinations { grid-template-rows: none; grid-auto-rows: minmax(330px,auto); }
 }
-.detail-direction::before { content: '🔽'; display: inline-block; font: 12px/1 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
-details[open] > summary > .detail-direction::before { content: '🔼'; }
+.detail-direction::before { content: ''; display: inline-block; font: 12px/1 'Apple Color Emoji','Segoe UI Emoji','Noto Color Emoji',sans-serif; }
+details[open] > summary > .detail-direction::before { content: ''; }
 .side-section > summary .detail-direction { margin-left: auto; }
 .comparison-tray { border-radius: 22px; box-shadow: 0 16px 55px #0005; }
 html[data-motion='on'] .nexus-portrait [data-stage-image] { animation-name: wiki-featured-idle; animation-duration: 9s; }

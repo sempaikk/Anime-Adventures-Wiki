@@ -1,3 +1,5 @@
+> Direção vigente: [wiki e comunidade futurista](community-release.md). Esta proposta substitui as decisões históricas abaixo sobre emojis, ausência de postagens e amizades e sons ativados por padrão. A referência de Vanguards orienta estudo de acabamento; a identidade é própria de Anime Adventures. Não há personagem protagonista, vídeos de participantes, chat global ou ponte com o bot nesta etapa.
+
 > Direção atual: consultar [a revisão da interface de 24/10/2026](interface-review.md). As seções abaixo documentam também decisões históricas, incluindo a grade espacial posteriormente retirada.
 
 # Direção visual e estrutura

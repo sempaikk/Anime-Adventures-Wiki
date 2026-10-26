@@ -7,7 +7,7 @@ const read = (key: string) => {
     return null;
   }
 };
-let soundOn = read("aa-sound") !== "off";
+let soundOn = read("aa-sound") === "on";
 let volume = Number(read("aa-sound-volume") ?? "25");
 if (!Number.isFinite(volume)) volume = 25;
 volume = Math.max(0, Math.min(100, volume));
@@ -290,7 +290,7 @@ window.addEventListener("storage", (event) => {
     event.key !== null
   )
     return;
-  soundOn = read("aa-sound") !== "off";
+  soundOn = read("aa-sound") === "on";
   const saved = Number(read("aa-sound-volume") ?? 25);
   volume = Number.isFinite(saved) ? Math.max(0, Math.min(100, saved)) : 25;
   sync();

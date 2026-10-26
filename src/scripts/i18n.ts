@@ -1,8 +1,9 @@
 import messages from '../../source/translations/ui-en-US.json';
+import futureMessages from '../../source/translations/future-en-US.json';
 import {createTranslator,localizedPath,splitLocale,validLocale} from '../lib/locales.mjs';
 
 const locale=splitLocale(location.pathname).locale || (document.documentElement.lang==='en-US'?'en-US':'pt-BR');
-const translate=createTranslator(messages,locale);
+const translate=createTranslator({...messages,...futureMessages},locale);
 const ignored='[data-no-translate],[translate="no"],script,style,pre,code,kbd';
 const sourceControls='.unit-reference-card,.section-share,.article-tab-nav button,.wiki-content .empty-state,[data-ui]';
 const attributes=['aria-label','aria-description','title','placeholder','alt'];

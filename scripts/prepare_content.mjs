@@ -55,10 +55,9 @@ for (const unit of wiki.units) {
 }
 fs.writeFileSync(
   "worker/community-schema.mjs",
-  "// Generated from migrations/0002_community.sql.\nexport default " +
+  "// Generated from community and social migrations.\nexport default " +
     JSON.stringify(
-      fs
-        .readFileSync("migrations/0002_community.sql", "utf8")
+      ["migrations/0002_community.sql", "migrations/0003_social.sql"].map(file => fs.readFileSync(file, "utf8")).join("\n")
         .split(";")
         .map((sql) => sql.trim())
         .filter(Boolean),

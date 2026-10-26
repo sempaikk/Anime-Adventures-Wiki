@@ -18,7 +18,8 @@ getSession()
         image.alt = "";
         image.width = 29;
         image.height = 29;
-        link.querySelector(".account-avatar-placeholder")?.replaceWith(image);
+        const placeholder=link.querySelector(".account-avatar-placeholder");
+        image.addEventListener('load',()=>placeholder?.replaceWith(image),{once:true});
       }
     }
     if (session.enabled)

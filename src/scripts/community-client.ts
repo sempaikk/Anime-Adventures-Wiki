@@ -1,3 +1,4 @@
+import {icon} from '../lib/icons';
 import {currentLocale,localPath} from './i18n';
 import {requestJson} from './request';
 
@@ -42,7 +43,8 @@ export function link(text: string, href: string, className = "") {
   );
   if (directional) {
     node.classList.add("has-direction");
-    const arrow = element("span", "ui-direction", "↗️");
+    const arrow = element("span", "ui-direction");
+    arrow.append(icon("external"));
     arrow.setAttribute("aria-hidden", "true");
     node.append(arrow);
   }
@@ -60,11 +62,13 @@ export function contentLink(text:string|null|undefined,href:string,className="",
   return node;
 }
 export function picture(src: string | null, alt: string, className = "") {
-  if (!src) return element("span", className);
+  const fallback=()=>{const node=element('span',className);if(className.includes('avatar'))node.append(icon('person'));return node};
+  if (!src) return fallback();
   const img = element("img", className);
   img.src = src;
   img.alt = alt;
   img.loading = "lazy";
+  if(className.includes('avatar'))img.addEventListener('error',()=>img.replaceWith(fallback()),{once:true});
   return img;
 }
 export const date = (seconds: number) =>

@@ -1,3 +1,4 @@
+import {icon as vectorIcon} from '../lib/icons';
 // Shared, interruptible motion. Native links, dialogs and controls keep their semantics.
 export const motionOn = () => document.documentElement.dataset.motion === 'on' && !document.hidden;
 const ease = 'cubic-bezier(.18,.72,.22,1)';
@@ -128,7 +129,7 @@ export function moveMenu(side:HTMLElement, open:boolean) {
 }
 
 export function favoriteLabel(button:HTMLElement,active:boolean,full=false) {
-  const icon=document.createElement('span');icon.className='ui-emoji';icon.setAttribute('aria-hidden','true');icon.textContent=active?'✅':'❤️';
+  const icon=document.createElement('span');icon.className='ui-emoji';icon.setAttribute('aria-hidden','true');icon.replaceChildren(vectorIcon(active?'check':'heart'));
   button.replaceChildren(icon,document.createTextNode(full?(active?' Salvo nos favoritos':' Salvar nos favoritos'):(active?' Salvo':' Salvar')));
 }
 

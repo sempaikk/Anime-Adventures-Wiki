@@ -8,7 +8,7 @@ import {createTranslator,localizedPath,localePrefix} from '../src/lib/locales.mj
 
 if(process.env.SITE_BASE&&!['','/'].includes(process.env.SITE_BASE)){console.log('Portable base preview: retaining the original single-language routes.');process.exit(0)}
 const wiki=JSON.parse(fs.readFileSync('source/wiki.json'));
-const messages=JSON.parse(fs.readFileSync('source/translations/ui-en-US.json'));
+const messages={...JSON.parse(fs.readFileSync('source/translations/ui-en-US.json')),...JSON.parse(fs.readFileSync('source/translations/future-en-US.json'))};
 const cache=JSON.parse(fs.readFileSync('source/translations/articles-pt-BR.json')).entries;
 const terms=glossary(JSON.parse(fs.readFileSync('source/translations/glossary.json')));
 const english=createTranslator(messages),excerpts=new Map(),missing=new Set(),memo=new Map();
@@ -41,7 +41,8 @@ function translateUI($,locale){
       } else node.data=english(node.data);
       return;
     }
-    if(node.type==='tag'&&$(node).is(ignore))return;
+    // Translate control attributes, while preserving authored textarea values.
+    if(node.type==='tag'&&$(node).is(ignore)&&!$(node).is('textarea'))return;
     if(node.type==='tag'&&$(node).is('.wiki-content')){
       $(node).find(sourceUI).each((_,control)=>walk(control));return;
     }

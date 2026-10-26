@@ -4,6 +4,7 @@ import articles from "../source/community-content.json" with { type: "json" };
 import art from "../source/interface-art.json" with { type: "json" };
 import {readJson, readLimited} from './security.mjs';
 import {imageDimensions} from './raster.mjs';
+import {socialRequest} from './social.mjs';
 export {imageDimensions} from './raster.mjs';
 
 const initialized = new WeakMap();
@@ -132,7 +133,7 @@ async function ownedImage(db, user, value) {
 async function publishedProfile(db, user) {
   const row = await ownProfile(db, user);
   if (!row?.published)
-    fail("Publique seu perfil para participar dos comentários.", 409);
+    fail("Publique seu perfil para participar da comunidade.", 409);
   return row;
 }
 function commentData(row, user, env) {
@@ -207,6 +208,8 @@ export async function communityRequest(request, env) {
       if (!user) fail("Entre com Discord para continuar.", 401);
       return user;
     };
+    const social = await socialRequest(request, {db,user,path,env,json,fail,text,id,now,readBody,publishedProfile,ownedImage,moderator,safeAvatar,imagePath,profileData,profileSelect});
+    if (social) return social;
 
     if (path === "/me" && request.method === "GET") {
       requireUser();
@@ -397,7 +400,7 @@ export async function communityRequest(request, env) {
       // Remove unreferenced uploads only after a day, so in-progress drafts remain usable.
       await db
         .prepare(
-          `DELETE FROM community_media WHERE created_at<? AND NOT EXISTS(SELECT 1 FROM community_profiles p WHERE p.avatar_id=community_media.id OR p.banner_id=community_media.id) AND NOT EXISTS(SELECT 1 FROM community_comments c WHERE c.image_id=community_media.id AND c.deleted_at IS NULL)`,
+          `DELETE FROM community_media WHERE created_at<? AND NOT EXISTS(SELECT 1 FROM community_profiles p WHERE p.avatar_id=community_media.id OR p.banner_id=community_media.id) AND NOT EXISTS(SELECT 1 FROM community_comments c WHERE c.image_id=community_media.id AND c.deleted_at IS NULL) AND NOT EXISTS(SELECT 1 FROM community_posts s WHERE s.image_id=community_media.id AND s.deleted_at IS NULL)`,
         )
         .bind(now() - 86400)
         .run();
@@ -412,9 +415,9 @@ export async function communityRequest(request, env) {
           503,
         );
       const mediaId = id();
-      await db
+      const savedMedia = await db
         .prepare(
-          "INSERT INTO community_media(id,owner_id,bytes,mime,width,height,created_at) VALUES(?,?,?,?,?,?,?)",
+          "INSERT INTO community_media(id,owner_id,bytes,mime,width,height,created_at) SELECT ?,?,?,?,?,?,? WHERE (SELECT COALESCE(SUM(length(bytes)),0) FROM community_media)+?<=200000000 AND (SELECT COUNT(*) FROM community_media WHERE owner_id=? AND created_at>?)<30 RETURNING id",
         )
         .bind(
           mediaId,
@@ -424,8 +427,12 @@ export async function communityRequest(request, env) {
           image.width,
           image.height,
           now(),
+          bytes.byteLength,
+          user.id,
+          now()-86400,
         )
-        .run();
+        .first();
+      if(!savedMedia)fail("O limite de imagens foi atingido. Você pode continuar publicando texto.",429);
       return json({ id: mediaId, url: imagePath(mediaId), ...image }, 201);
     }
     const mediaMatch = path.match(/^\/media\/([a-f0-9]{32})$/);
@@ -437,9 +444,9 @@ export async function communityRequest(request, env) {
       if (!media) fail("Imagem não encontrada.", 404);
       const publicUse = await db
         .prepare(
-          `SELECT 1 AS visible WHERE EXISTS(SELECT 1 FROM community_profiles WHERE published=1 AND (avatar_id=? OR banner_id=?)) OR EXISTS(SELECT 1 FROM community_comments c LEFT JOIN community_comments root ON root.id=c.parent_id WHERE c.image_id=? AND c.deleted_at IS NULL AND c.moderation='visible' AND (c.parent_id IS NULL OR root.moderation='visible'))`,
+          `SELECT 1 AS visible WHERE EXISTS(SELECT 1 FROM community_profiles WHERE published=1 AND (avatar_id=? OR banner_id=?)) OR EXISTS(SELECT 1 FROM community_comments c LEFT JOIN community_comments root ON root.id=c.parent_id WHERE c.image_id=? AND c.deleted_at IS NULL AND c.moderation='visible' AND (c.parent_id IS NULL OR root.moderation='visible')) OR EXISTS(SELECT 1 FROM community_posts s JOIN community_profiles p ON p.owner_id=s.author_id WHERE s.image_id=? AND s.deleted_at IS NULL AND s.moderation='visible' AND p.published=1)`,
         )
-        .bind(media.id, media.id, media.id)
+        .bind(media.id, media.id, media.id, media.id)
         .first();
       if (!publicUse && user?.id !== media.owner_id && !moderator(user, env))
         fail("Imagem não encontrada.", 404);

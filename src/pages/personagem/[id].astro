@@ -1,4 +1,5 @@
 ---
+import Icon from '../../components/Icon.astro';
 import Layout from '../../layouts/Layout.astro';
 import { units } from '../../lib/wiki';
 import { unitFavoriteKey } from '../../lib/favorite-key.mjs';
@@ -11,7 +12,7 @@ const { unit }=Astro.props;
 <Layout title={`${unit.name} — Adventures Wiki`} active="personagens">
 <div class="page-heading"><nav class="breadcrumbs" aria-label="Caminho"><a href="/personagens/">Personagens</a><span>/</span><span>{unit.name}</span></nav></div>
 <section class="unit-profile" data-tone={rarityTone(unit.rarity)}><div class="unit-profile-art">{unit.image?<img src={unit.image} alt={unit.name} width="250" height="250"/>:<div class="portrait-unavailable">Retrato ainda indisponível.</div>}</div><div class="unit-profile-copy"><span class="rarity-label">{unit.retired?'Arquivo histórico':unit.rarity||'Personagem'}</span><h1>{unit.name}</h1><p class="article-aliases">Esta forma está presente no catálogo; a fonte ainda não oferece um artigo correspondente. Os detalhes disponíveis aparecem aqui, sem atribuir dados de outra forma.</p><button class="button button-primary" data-favorite={unitFavoriteKey(unit)} aria-pressed="false">Salvar nos favoritos ＋</button><button type="button" class="button button-outline profile-compare" data-compare={unit.id} aria-pressed="false">Comparar</button></div></section>
-<a class="text-link" href="/personagens/">Continuar explorando personagens <span>➡️</span></a>
+<a class="text-link" href="/personagens/">Continuar explorando personagens <span><Icon name="arrow"/></span></a>
 <EditorialNotes article={unitFavoriteKey(unit)}/>
 <ArticleDiscussion article={unitFavoriteKey(unit)}/>
 </Layout>

@@ -1,4 +1,5 @@
 ---
+import Icon from './Icon.astro';
 import { unitUrl, articles } from '../lib/wiki';
 import { rarityTone } from '../lib/community';
 import { towerType, deploymentCost, factValue } from '../lib/unit-tools.mjs';
@@ -10,5 +11,5 @@ const positioning = factValue({facts}, "Tower Type");
 <a class="unit-card" href={unitUrl(unit)} style={`--i:${index}`}>
   <div class="unit-art">{positioning&&<span class="unit-code">{positioning}</span>}{unit.image ? <img src={unit.image} alt={unit.name} title={unit.image_note||undefined} loading="lazy" decoding="async" width={unit.original_image?.width || 144} height={unit.original_image?.height || 144}/> : <div class="missing-portrait"><span>Retrato ainda<br/>indisponível</span></div>}</div>
   <div class="unit-caption"><span class="rarity-label">{unit.retired ? 'Arquivo histórico' : unit.rarity || 'Personagem'}</span><h3>{unit.name}</h3></div>
-</a><div class="unit-card-actions"><button type="button" class="unit-peek" data-unit-preview={unit.id} aria-label={`Abrir ficha rápida de ${unit.name}`}><span class="ui-emoji" aria-hidden="true">🔎</span> Ficha rápida</button><button type="button" class="unit-compare" data-compare={unit.id} aria-label={`Comparar ${unit.name}`} aria-pressed="false"><span class="ui-emoji" aria-hidden="true">⚖️</span> Comparar</button></div>
+</a><div class="unit-card-actions"><button type="button" class="unit-peek" data-unit-preview={unit.id} aria-label={`Abrir ficha rápida de ${unit.name}`}><span class="ui-emoji" aria-hidden="true"><Icon name="search"/></span> Ficha rápida</button><button type="button" class="unit-compare" data-compare={unit.id} aria-label={`Comparar ${unit.name}`} aria-pressed="false"><span class="ui-emoji" aria-hidden="true"><Icon name="compare"/></span> Comparar</button></div>
 </article>
